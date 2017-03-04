@@ -3,7 +3,7 @@
 	flex-direction: column;
 	align-items: center;
 
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #959393;
 }
 
 #introTextContainer {
@@ -11,11 +11,15 @@
 	margin-left: auto;
 	margin-top: 50px;
 
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
+}
+
+#introText {
+	font-weight: normal;
 }
 
 h1 {
-	color: #616161;
+	color: #5B5B5B;
 }
 
 #bauhaus {
