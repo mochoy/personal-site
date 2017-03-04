@@ -1,3 +1,19 @@
 #intro {
-	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	border-bottom: 1px solid black;
+}
+
+#introText {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+
+	border-bottom: 1px solid black;
+}
+
+#bauhaus {
+	background-image: 
 }
