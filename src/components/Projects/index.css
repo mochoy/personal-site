@@ -1,0 +1,37 @@
+h1, h2, h3, h4, h5, h6, p, a{
+	color: #5B5B5B;
+}
+
+a{
+	text-decoration: none;
+	color: #1F1B96;
+}
+
+a:hover {
+	color: black;
+}
+
+#Projects {
+	border-bottom: 1px solid #959393;
+}
+
+#title {
+	padding-left: 10px;
+}
+
+.projectName{
+	margin-bottom: 10px;
+}
+
+.project {
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.projectDescription, a{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 20px;
+}
+
+
