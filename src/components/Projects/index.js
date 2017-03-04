@@ -1,41 +1,24 @@
 import React, { Component } from 'react';
 import './index.css';
 
-let projects = [
-	{
-		"name": "NERF Ammo Counter",
-		"link": "https://github.com/etnom/ming-batt/tree/master/nerf-ammo-counter",
-		"description": "A kit for modified NERF blasters for counting darts"
-	},
-	{
-		"name": "NERF Chrono Ammo Counter",
-		"link": "https://github.com/etnom/ming-batt/tree/master/ChronoAmmoCounter",
-		"description": "A kit for modified NERF blasters for counting darts which also tracks and calcualtes speed of dart"
-	},
-	{
-		"name": "Isaac Against the World",
-		"link": "https://github.com/etnom/isaac-against-the-world",
-		"description": "A 2-player bird's eye view zombie shooter web game, made with Phaser"
-	},
-	{
-		"name": "King of Nepal Noodle",
-		"link": "https://github.com/etnom/king-of-nepal-noodle",
-		"description": "A real-time multiplayer Android tower defense game played in portrait orientation, made with Phaser and Firebase"
-	}, 
-	{
-		"name": "Awesome Game",
-		"link": "https://github.com/MiLeung/AwesomeGame",
-		"description": "A real-time multiplayer 2-d side-scroller shooter game"
-	}
-]
-
 export default class Intro extends Component {
 	render () {
+		var projectItems = this.props.projectData.map(this.renderProjectItems)
 		return (
-			<div id="projects">
-				<p> projects </p>
-			</div>
+			<div id="projects">{projectItems}</div>
 
 		)
 	}
+
+	renderProjectItems(item){
+		return (
+			<div id="project">
+				<h2>{item.name}</h2>
+				<p>{item.description}</p>
+				<a href={item.link}>Code</a>
+			</div>
+		)
+	}
+
+
 }
