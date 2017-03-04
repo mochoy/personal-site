@@ -31,13 +31,76 @@ let projects = [
 	}
 ]
 
+let resume = [
+	{
+		"title": "Education",
+		"items": [
+			{
+				"title": "Abraham Lincoln High School",
+				"description": "class of 2018 - Current Junior, 4.3 GPA"
+			},
+			{
+				"title": "City College of San Francisco",
+				"description": "High School Student Dual Enrollment Program, 4.0 GPA"
+			},
+			{
+				"title": "Mission Bit",
+				"description": "Technical curriculum focused on computer science in the San Francisco Bay Area"
+			},
+			{
+				"title": "ACE (Architecture, Construction, and Engineering) Pathway",
+				"description": "A selective, on-campus, accelerated track focusing on Architecture, Construction, and Engineering."
+			}
+		]
+	},
+	{
+		"title": "Experience and Extracurriculars",
+		"items": [
+			{
+				"title": "Sunset Media Wave",
+				"description": "8-week cycle of blogging with WordPress about development process of a mobile game"
+			},
+			{
+				"title": "SNBC Beacon Volunteer",
+				"description": "Volunteer to teach middle-school students and instructors with breakdancing"
+			},
+			{
+				"title": "Coding Club",
+				"description": "President and founder with assistance from Hack Club, commissioned by school to develop web app ‘FaceFlip’"
+			},
+			{
+				"title": "Robotics Club",
+				"description": "Upcoming president"
+			}, 
+			{
+				"title": "Science and Math",
+				"description": "Participation in annual National Science Bowl regional at SLACS's particle accelerator facility"
+			},
+			{
+				"title": "Breakdancing/B-Boy",
+				"description": "Since 6th grade, Participate in competitions, perform for multiple schools"
+			},
+			{
+				"title": "Varsity Wrestling",
+				"description": "4th in the City"
+			},
+			{
+				"title": "Varist Tennis",
+				"description": "Since 10th grade"
+			}
+		]
+		
+
+	}
+]
+
 class App extends Component {
   render() {
     return (
 		<div className="App">
 			<Intro/>
 			<Projects projectData={projects}/>
-			<Resume/>
+			<Resume resumeData={resume}/>
 		</div>
     );
   }
