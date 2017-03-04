@@ -6,8 +6,8 @@ export default class Intro extends Component {
 		return (
 			<div id="intro"> 
 			
-				<div id="introText"> 
-					<h1> Monty Choy </h1>
+				<div id="introTextContainer"> 
+					<h1 id="introText"> Monty Choy </h1>
 				</div>
 
 				

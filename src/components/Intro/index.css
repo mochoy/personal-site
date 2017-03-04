@@ -6,12 +6,16 @@
 	border-bottom: 1px solid black;
 }
 
-#introText {
+#introTextContainer {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 50px;
 
 	border-bottom: 1px solid black;
+}
+
+h1 {
+	color: #616161;
 }
 
 #bauhaus {
