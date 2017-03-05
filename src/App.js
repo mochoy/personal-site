@@ -101,6 +101,7 @@ class App extends Component {
 			<Intro/>
 			<Projects projectData={projects}/>
 			<Resume resumeData={resume}/>
+			<div id="footer"></div>
 		</div>
     );
   }
