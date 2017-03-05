@@ -7,7 +7,7 @@ export default class Resume extends Component {
 		return (
 			<div id="Resume">
 				<h2 id="title">Resume</h2>
-				<div id="resume">{resumeItems}</div>
+				<div id="resumeItemsContainer">{resumeItems}</div>
 			</div>
 
 		)
@@ -16,17 +16,17 @@ export default class Resume extends Component {
 	renderItems(item){
 		var toRender = item.items.map(function (arg) {
 			return (
-				<div>
-					<h4>{arg.name}</h4>
-					<p>{arg.description}</p>
+				<div id="subItems_SubContainer">
+					<h4 id="subItem_Name">{arg.name}</h4>
+					<p id="subItem_Description">{arg.description}</p>
 				</div>
 			)
 		})
 		
 		return (
-			<div>
+			<div id="subContainer">
 				<h3 id="sectionDescription">{item.name}</h3>
-				<div id="resumeItem">{toRender}</div>
+				<div id="subItems_Container">{toRender}</div>
 			</div>
 		)
 		
