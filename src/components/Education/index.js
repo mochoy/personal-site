@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import './index.css';
 
-export default class Resume extends Component {
+export default class Education extends Component {
 	render () {
 		var resumeItems = this.props.resumeData.map(this.renderItems)
 		return (
 			<div id="Resume">
-				<h2 id="title">Resume</h2>
 				<div id="resumeItemsContainer">{resumeItems}</div>
 			</div>
 
