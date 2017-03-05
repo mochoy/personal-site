@@ -14,17 +14,22 @@ export default class Resume extends Component {
 	}
 
 	renderItems(item){
-		var toRender = item.items.map(this.renderSubItems)
+		var toRender = item.items.map(function (arg) {
+			return (
+				<div>
+					<h4>{arg.name}</h4>
+					<p>{arg.description}</p>
+				</div>
+			)
+		})
+		
 		return (
-			<div id="resumeItem">{toRender}</div>
+			<div>
+				<h3 id="sectionDescription">{item.name}</h3>
+				<div id="resumeItem">{toRender}</div>
+			</div>
 		)
 		
-	}
-
-	renderSubItems(item){
-		return (
-			<p>hello</p>
-		)
 	}
 
 
