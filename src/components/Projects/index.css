@@ -19,16 +19,16 @@ a:hover {
 	padding-left: 10px;
 }
 
-.projectName{
+.projectName, .subItem_Name { 
 	margin-bottom: 10px;
 }
 
-.project {
+.project, .subItems_SubContainer {
 	padding-left: 30px;
 	padding-bottom: 10px;
 }
 
-.projectDescription, a{
+.projectDescription, a, .subItem_Description{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	padding-left: 20px;
