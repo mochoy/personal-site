@@ -101,11 +101,14 @@ class App extends Component {
 		<div className="App">
 			<Intro/>
 			<Projects projectData={projects}/>
-			<Education resumeData={resume}/>
+
 			<div id="footer"></div>
 		</div>
     );
   }
 }
+
+			// <Education resumeData={resume}/>
+			// <ExperienceAndExtracurriculars data={resume}/>
 
 export default App;

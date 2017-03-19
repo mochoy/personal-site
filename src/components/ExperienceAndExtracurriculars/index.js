@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './index.css';
 
-export default class Education extends Component {
+export default class ExperienceAndExtracurriculars extends Component {
 	render () {
-		var resumeItems = this.props.resumeData.map(this.renderItems)
+		var resumeItems = this.props.data.map(this.renderItems)
 		return (
 			<div id="Resume">
 				<div id="resumeItemsContainer">{resumeItems}</div>
