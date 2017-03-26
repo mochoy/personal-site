@@ -108,7 +108,4 @@ class App extends Component {
   }
 }
 
-			// <Education resumeData={resume}/>
-			// <ExperienceAndExtracurriculars data={resume}/>
-
 export default App;
