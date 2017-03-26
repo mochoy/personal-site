@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Intro from './components/Intro/index';
 import Projects from './components/Projects/index';
-import Education from './components/Education/index';
-import ExperienceAndExtracurriculars from './components/ExperienceAndExtracurriculars/index';
 
 let projects = [
 	{
