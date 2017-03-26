@@ -22,19 +22,33 @@ a:hover {
 	padding-left: 10px;
 }
 
-.projectName, .subItem_Name { 
-	margin-bottom: 10px;
+#projects-container {
+	flex-direction: row;
+}
+
+.project {
+	/*width: 40%;*/
+	display: flex;
+}
+
+.projectName { 
+	display: inline;
+	/*margin-bottom: 10px;*/
 }
 
 .project, .subItems_SubContainer {
-	padding-left: 30px;
-	padding-bottom: 10px;
+/*	padding-left: 30px;
+	padding-bottom: 10px;*/
 }
 
 .projectDescription, a, .subItem_Description{
-	margin-top: 5px;
+/*	margin-top: 5px;
 	margin-bottom: 5px;
-	padding-left: 20px;
+	padding-left: 20px;*/
+}
+
+.link, .nameAndLinkDivider {
+	display: inline;
 }
 
 

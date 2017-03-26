@@ -7,7 +7,7 @@ export default class Projects extends Component {
 		return (
 			<div id="Projects">
 				<h2 id="title">Projects</h2>
-				<div id="projects">{projectItems}</div>
+				<div id="projects-container">{projectItems}</div>
 			</div>
 
 		)
@@ -16,9 +16,13 @@ export default class Projects extends Component {
 	renderProjectItems(item){
 		return (
 			<div className="project">
-				<h4 className="projectName">{item.name}</h4>
+				<span>
+					<h4 className="projectName">{item.name}</h4>
+					<p className="nameAndLinkDivider"> | </p>
+					<a className="link" href={item.link}>Code</a>
+
+				</span>
 				<p className="projectDescription">{item.description}</p>
-				<a href={item.link}>Code</a>
 			</div>
 		)
 	}
