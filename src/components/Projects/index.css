@@ -13,6 +13,7 @@ a:hover {
 
 #Projects, #Resume {
 	border-bottom: 1px solid #959393;
+	background-color: white;
 }
 
 #title {
