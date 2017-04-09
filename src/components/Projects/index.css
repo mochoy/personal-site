@@ -24,11 +24,12 @@ a:hover {
 
 #projects-container {
 	flex-direction: row;
+	display: flex;
 }
 
 .project {
 	/*width: 40%;*/
-	display: flex;
+	/*display: flex;*/
 }
 
 .projectName { 
