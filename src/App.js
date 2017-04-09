@@ -9,6 +9,11 @@ let projects = [
 		"description": "A kit for modified NERF blasters for counting darts"
 	},
 	{
+		"name": "NERF Voltmeter",
+		"link": "https://github.com/etnom/ming-batt/tree/master/Voltmeter",
+		"description": "A kit for modified electronic NERF blasters which reads and calculates electric potential difference of blaster's battery"
+	},
+	{
 		"name": "NERF Chrono Ammo Counter",
 		"link": "https://github.com/etnom/ming-batt/tree/master/ChronoAmmoCounter",
 		"description": "A kit for modified NERF blasters for counting darts which also tracks and calcualtes speed of dart"
