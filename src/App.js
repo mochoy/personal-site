@@ -20,13 +20,13 @@ let projects = [
 	{
 		"name": "NERF Chrono Ammo Counter",
 		"link": "https://github.com/etnom/ming-batt/tree/master/ChronoAmmoCounter",
-		"description": "A kit for modified NERF blasters for counting darts which also tracks and calcualtes speed of dart.",
+		"description": "A kit for modified NERF blasters for counting darts which also tracks and calculates speed of dart.",
 		"createdWith": "Made with Arduino, Adafruit's SPI and I2C OLED display libraries, and corresponding hardware."
 	},
 	{
 		"name": "Vyper T-28",
 		"link": "https://github.com/etnom/vyper_t-28",
-		"description": "Smartest modified NERF blaster in existance. Counts ammo, calculates speed of dart, and checks battery voltage.",
+		"description": "Smartest modified NERF blaster in existence. Counts ammo, calculates speed of dart, and checks battery voltage.",
 		"createdWith": "Made with Arduino, Adafruit's SPI and I2C OLED display libraries, and corresponding hardware."
 	},
 	{
@@ -39,13 +39,13 @@ let projects = [
 		"name": "Isaac Against the World",
 		"link": "https://github.com/etnom/isaac-against-the-world",
 		"description": "A 2-player bird's eye view zombie shooter web game, made with Phaser.",
-		"createdWith": "Made with Phaser and JavaScript"
+		"createdWith": "Made with Phaser and JavaScript."
 	},
 	{
 		"name": "King of Nepal Noodle",
 		"link": "https://github.com/etnom/king-of-nepal-noodle",
 		"description": "A real-time multiplayer Android tower defense game played in portrait orientation, made with Phaser and Firebase.",
-		"createdWith": "Made with Firebase, Phaser and JavaScript"
+		"createdWith": "Made with Firebase, Phaser and JavaScript."
 	}, 
 	{
 		"name": "Awesome Game",
