@@ -46,10 +46,17 @@ a:hover {
 	height: 150px;
 	margin-top: 10px;
 
+	/*background-color: darkgrey;*/
+
 
 /*	margin: auto;
 */	/*width: 40%;*/
 	/*display: flex;*/
+}
+
+.projectTitle {
+	border-bottom: 1px solid black;
+
 }
 
 .projectName { 
