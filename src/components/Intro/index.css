@@ -19,7 +19,19 @@ h1 {
 
 #introText {
 	font-weight: normal;
-	border-bottom: 1px solid #959393;
+
+}
+
+#descriptionContainer {
+	border-top: 1px solid #959393;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+#descriptionText {
+	font-weight: normal;
+
 
 }
 
