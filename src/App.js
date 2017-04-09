@@ -23,13 +23,13 @@ let projects = [
 	},
 	{
 		"name": "Vyper T-28",
-		"link": "https://github.com/etnom/ming-batt/tree/master/ChronoAmmoCounter",
+		"link": "https://github.com/etnom/vyper_t-28",
 		"description": "Smartest modified NERF blaster in existance. Counts ammo, calculates speed of dart, and checks battery voltage.",
 		"createdWith": "Made with Arduino, Adafruit's SPI and I2C OLED display libraries, and corresponding hardware."
 	},
 	{
 		"name": "Mingbatt.tech",
-		"link": "https://github.com/etnom/ming-batt/tree/master/ChronoAmmoCounter",
+		"link": "https://github.com/etnom/muffin-table-pumpkin",
 		"description": "Website for display and sale of modified NERF blasters and kits.",
 		"createdWith": "Made with React, Express, and Node.js."
 	},
