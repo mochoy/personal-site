@@ -46,12 +46,15 @@ a:hover {
 	height: 150px;
 	margin-top: 10px;
 
-	/*background-color: darkgrey;*/
-
+	background-color: #E7E4E4;
 
 /*	margin: auto;
 */	/*width: 40%;*/
 	/*display: flex;*/
+}
+
+.project-container {
+	background-color: #E7E4E4;
 }
 
 .projectTitle {

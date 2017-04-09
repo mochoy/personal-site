@@ -18,13 +18,14 @@ export default class Projects extends Component {
 	renderProjectItems(item){
 		return (
 			<li className="project">
-				<div className="projectTitle"> 
-					<h4 className="projectName">{item.name}</h4>
-					<p className="nameAndLinkDivider"> | </p>
-					<a className="link" href={item.link}>Code</a>
+				<div className="project-container">
+					<div className="projectTitle"> 
+						<h4 className="projectName">{item.name}</h4>
+						<p className="nameAndLinkDivider"> | </p>
+						<a className="link" href={item.link}>Code</a>
+					</div>
+					<p className="projectDescription">{item.description}</p>
 				</div>
-				<p className="projectDescription">{item.description}</p>
-
 			</li>
 		)
 	}
