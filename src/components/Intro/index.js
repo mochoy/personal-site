@@ -12,6 +12,9 @@ export default class Intro extends Component {
 				<div id="descriptionContainer"> 
 					<h4 id="descriptionText"> STUDENT | PROGRAMMER | ATHLETE </h4>
 				</div>
+				<div id="ghLink">
+					<a href="https://www.github.com/etnom"><img src="assets/github.png" height="32	px"></img> </a>
+				</div>
 
 				
 
