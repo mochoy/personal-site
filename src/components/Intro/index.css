@@ -10,12 +10,12 @@
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 50px;
-
-	/*border-bottom: 1px solid black;*/
 }
 
 #introText {
 	font-weight: normal;
+	border-bottom: 1px solid #959393;
+	
 }
 
 h1 {
