@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
 
-var i = 0;
-
 export default class Projects extends Component {
 	render () {
 		var projectItems = this.props.projectData.map(this.renderProjectItems)
