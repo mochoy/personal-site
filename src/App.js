@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Intro from './components/Intro/index';
 import Projects from './components/Projects/index';
+import Footer from './components/Footer/index';
+
 
 let projects = [
 	{
@@ -61,7 +63,8 @@ class App extends Component {
 			<Intro/>
 			<Projects projectData={projects}/>
 
-			<div id="footer"></div>
+			<Footer/>
+
 		</div>
     );
   }
