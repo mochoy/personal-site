@@ -38,7 +38,9 @@ a:hover {
 
 	-webkit-flex-flow: row wrap;
 	justify-content: space-around;
-	}
+
+	margin-bottom: 50px;
+}
 
 .project {
 	padding: 30px;
