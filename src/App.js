@@ -30,68 +30,6 @@ let projects = [
 	}
 ]
 
-let resume = [
-	{
-		"name": "Education",
-		"items": [
-			{
-				"name": "Abraham Lincoln High School",
-				"description": "class of 2018 - Current Junior, 4.3 GPA"
-			},
-			{
-				"name": "City College of San Francisco",
-				"description": "High School Student Dual Enrollment Program, 4.0 GPA"
-			},
-			{
-				"name": "Mission Bit",
-				"description": "Technical curriculum focused on computer science in the San Francisco Bay Area"
-			},
-			{
-				"name": "ACE (Architecture, Construction, and Engineering) Pathway",
-				"description": "A selective, on-campus, accelerated track focusing on Architecture, Construction, and Engineering."
-			}
-		]
-	},
-	{
-		"name": "Experience and Extracurriculars",
-		"items": [
-			{
-				"name": "Sunset Media Wave",
-				"description": "8-week cycle of blogging with WordPress about development process of a mobile game"
-			},
-			{
-				"name": "SNBC Beacon Volunteer",
-				"description": "Volunteer to teach middle-school students and instructors with breakdancing"
-			},
-			{
-				"name": "Coding Club",
-				"description": "President and founder with assistance from Hack Club, commissioned by school to develop web app ‘FaceFlip’"
-			},
-			{
-				"name": "Robotics Club",
-				"description": "Upcoming president"
-			}, 
-			{
-				"name": "Science and Math",
-				"description": "Participation in annual National Science Bowl regional at SLACS's particle accelerator facility"
-			},
-			{
-				"name": "Breakdancing/B-Boy",
-				"description": "Since 6th grade, Participate in competitions, perform for multiple schools"
-			},
-			{
-				"name": "Varsity Wrestling",
-				"description": "4th in the City"
-			},
-			{
-				"name": "Varist Tennis",
-				"description": "Since 10th grade"
-			}
-		]
-		
-
-	}
-]
 
 class App extends Component {
   render() {
