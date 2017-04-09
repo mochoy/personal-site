@@ -22,7 +22,10 @@ export default class Projects extends Component {
 						<p className="nameAndLinkDivider"> | </p>
 						<a className="link" href={item.link}>Code</a>
 					</div>
-					<p className="projectDescription">{item.description}</p>
+					<div className="projectDescriptionContainer">
+						<p className="projectDescription">{item.description}</p>
+						<p className="projectCreatedWith">{item.createdWith}</p>
+					</div>
 				</div>
 			</li>
 		)
