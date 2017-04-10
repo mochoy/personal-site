@@ -3,6 +3,7 @@ import Intro from './components/Intro/index';
 import Projects from './components/Projects/index';
 import Footer from './components/Footer/index';
 import Student from './components/Student/index';
+import Athlete from './components/Athlete/index';
 
 
 let projects = [
@@ -62,7 +63,8 @@ class App extends Component {
     return (
 		<div className="App">
 			<Intro/>
-			<Stduent/>
+			<Student/>
+			<Athlete/>
 			<Projects projectData={projects}/>
 			<Footer/>
 
