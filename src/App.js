@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Intro from './components/Intro/index';
 import Projects from './components/Projects/index';
 import Footer from './components/Footer/index';
+import Student from './components/Student/index';
 
 
 let projects = [
@@ -61,8 +62,8 @@ class App extends Component {
     return (
 		<div className="App">
 			<Intro/>
+			<Stduent/>
 			<Projects projectData={projects}/>
-
 			<Footer/>
 
 		</div>
