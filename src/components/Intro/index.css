@@ -7,13 +7,15 @@ h1 {
 	flex-direction: column;
 	align-items: center;
 
-	border-bottom: 1px solid #959393;
+	/*background-color: #4E4E4E;*/
+
+	/*border-bottom: 1px solid #959393;*/
 }
 
 #introTextContainer {
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 50px;
+	margin-top: 10px;
 
 }
 

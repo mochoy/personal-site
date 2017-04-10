@@ -12,14 +12,22 @@ a:hover {
 }
 
 #Projects {
-	border-bottom: 1px solid #959393;
-	background-color: white;
+/*	border-bottom: 1px solid #959393;*/	
+	border-bottom: 1px solid #353535;
+	
+	background-color: #353535;
+	/*background-color: #E7E4E4;*/
 }
 
 #title {
 	margin-top: 0px;
 	padding-top: 20px;
-	padding-left: 10px;
+	padding-left: 30px;
+
+	/*border-bottom: 1px solid #FFFFFF;*/
+
+	/*color: white;*/
+	/*color: #575757;*/
 }
 
 #projects-container {
@@ -48,7 +56,8 @@ a:hover {
 	height: 200px;
 	margin-top: 20px;
 
-	background-color: #E7E4E4;
+	/*background-color: #E7E4E4;*/
+	background-color: #575757;
 
 /*	margin: auto;
 */	/*width: 40%;*/
@@ -79,6 +88,16 @@ a:hover {
 
 .link, .nameAndLinkDivider {
 	display: inline;
+	color: white;
+}
+
+.link {
+	border-bottom: 1px dotted white;
+}
+
+.link:hover {
+	border-bottom: 0px dotted white;
+	color: white;
 }
 
 
