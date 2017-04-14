@@ -16,7 +16,8 @@ h1 {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 10px;
-
+	padding-left: 150px;
+	padding-right: 150px;	
 }
 
 #introText {
