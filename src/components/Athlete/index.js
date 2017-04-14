@@ -5,8 +5,8 @@ export default class Student extends Component {
 	render () {
 		return (
 			<div id="Athlete"> 
-				<div id="titleContainer">
-					<h2 id="title">ATHLETE</h2>
+				<div id="titleContainer-athlete">
+					<h2 id="title-athlete">ATHLETE</h2>
 				</div>
 			</div>
 
