@@ -7,7 +7,6 @@ export default class Student extends Component {
 			<div id="Athlete"> 
 				<div id="titleContainer-athlete">
 					<h2 id="title-athlete">ATHLETE</h2>
-					
 				</div>
 			</div>
 
