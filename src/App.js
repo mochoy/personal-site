@@ -63,8 +63,6 @@ class App extends Component {
     return (
 		<div className="App">
 			<Intro/>
-			<Student/>
-			<Athlete/>
 			<Portfolio projectData={projects}/>
 			<Footer/>
 
