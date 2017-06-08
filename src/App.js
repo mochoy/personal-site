@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Intro from './components/Intro/index';
-import Projects from './components/Projects/index';
+import Portfolio from './components/Portfolio/index';
 import Footer from './components/Footer/index';
 import Student from './components/Student/index';
 import Athlete from './components/Athlete/index';
@@ -65,7 +65,7 @@ class App extends Component {
 			<Intro/>
 			<Student/>
 			<Athlete/>
-			<Projects projectData={projects}/>
+			<Portfolio projectData={projects}/>
 			<Footer/>
 
 		</div>
