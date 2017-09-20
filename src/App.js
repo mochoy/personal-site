@@ -8,52 +8,49 @@ import Athlete from './components/Athlete/index';
 
 let projects = [
 	{
+		"name": "Smart Blaster",
+		"link": "https://github.com/etnom/smart-blaster",
+		"description": "An Arduino-powered modular hardware platform enabling a plethora of otherwise impossible features into NERF blasters."
+	},
+	{
+		"name": "NERF Select Fire",
+		"link": "https://github.com/etnom/nerf-select-fire",
+		"description": "An Arduino-powered hardware module enabling fire-control in fully-automatic NERF blasters absent of this feature."
+	},
+	{
+		"name": "Arduino Chronograph",
+		"link": "https://github.com/etnom/arduino-chronograph",
+		"description": "An Arduino-powered chronograph to record velocity of NERF blastes and paintball guns."
+	},
+	{
+		"name": "NERF Time",
+		"link": "https://github.com/MiLeung/NerfTime",
+		"description": "An Arduino powered fully-automatic, modifed NERF blaster remote controlled real-time through a web and mobile application."
+	},
+	{
+		"name": "awesome-nerf-turret",
+		"link": "https://github.com/etnom/runmyrobot",
+		"description": "A fully-automatic internet-controlled NERF blaster turret in real-time through Let's Robot."
+	},
+	{
 		"name": "NERF Ammo Counter",
 		"link": "https://github.com/etnom/ming-batt/tree/master/nerf-ammo-counter",
-		"description": "A kit for modified NERF blasters for counting darts.",
-		"createdWith": "Made with Arduino, Adafruit's SPI and I2C OLED display libraries, and corresponding hardware."
-	},
-	{
-		"name": "NERF Voltmeter",
-		"link": "https://github.com/etnom/ming-batt/tree/master/Voltmeter",
-		"description": "A kit for modified electronic NERF blasters which reads and calculates electric potential difference of blaster's battery.",
-		"createdWith": "Made with Arduino, Adafruit's SPI and I2C OLED display libraries, and corresponding hardware."
-	},
-	{
-		"name": "NERF Chrono Ammo Counter",
-		"link": "https://github.com/etnom/ming-batt/tree/master/ChronoAmmoCounter",
-		"description": "A kit for modified NERF blasters for counting darts which also tracks and calculates speed of dart.",
-		"createdWith": "Made with Arduino, Adafruit's SPI and I2C OLED display libraries, and corresponding hardware."
+		"description": "A internal ammo counter for NERF blasters. "
 	},
 	{
 		"name": "Vyper T-28",
 		"link": "https://github.com/etnom/vyper_t-28",
-		"description": "Smartest modified NERF blaster in existence. Counts ammo, calculates speed of dart, and checks battery voltage.",
-		"createdWith": "Made with Arduino, Adafruit's SPI and I2C OLED display libraries, and corresponding hardware."
-	},
-	{
-		"name": "Mingbatt.tech",
-		"link": "https://github.com/etnom/muffin-table-pumpkin",
-		"description": "Website for display and sale of modified NERF blasters and kits.",
-		"createdWith": "Made with React, Express, and Node.js."
+		"description": "Smartest modified NERF blaster in existence. Counts ammo, calculates speed of dart, and checks battery voltage."
 	},
 	{
 		"name": "Isaac Against the World",
 		"link": "https://github.com/etnom/isaac-against-the-world",
-		"description": "A 2-player bird's eye view zombie shooter web game, made with Phaser.",
-		"createdWith": "Made with Phaser and JavaScript."
-	},
-	{
-		"name": "King of Nepal Noodle",
-		"link": "https://github.com/etnom/king-of-nepal-noodle",
-		"description": "A real-time multiplayer Android tower defense game played in portrait orientation, made with Phaser and Firebase.",
-		"createdWith": "Made with Firebase, Phaser and JavaScript."
+		"description": "A 2-player bird's eye view zombie shooter web game, made with Phaser."
 	}, 
 	{
 		"name": "Awesome Game",
 		"link": "https://github.com/MiLeung/AwesomeGame",
-		"description": "A real-time multiplayer 2-d side-scroller shooter game.",
-		"createdWith": "Made with Firebase, Phaser and JavaScript."
+		"description": "A real-time multiplayer 2-d side-scroller shooter game."
 	}
 ]
 

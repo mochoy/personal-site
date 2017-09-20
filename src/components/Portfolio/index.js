@@ -6,7 +6,7 @@ export default class Projects extends Component {
 		var projectItems = this.props.projectData.map(this.renderProjectItems)
 		return (
 			<div id="Projects">
-				<h2 id="title">PORTFOLIO</h2>
+				<h2 id="title">Projects</h2>
 				<ul id="projects-container">{projectItems}</ul>
 			</div>
 
