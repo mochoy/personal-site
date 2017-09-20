@@ -45,7 +45,7 @@ let projects = [
 	{
 		"name": "Isaac Against the World",
 		"link": "https://github.com/etnom/isaac-against-the-world",
-		"description": "A 2-player bird's eye view zombie shooter web game, made with Phaser."
+		"description": "A 2-player bird's eye view zombie shooter web game, made with Phaser and Annie Chen. Second place winner of the Congressional App Challenge."
 	}, 
 	{
 		"name": "Awesome Game",
@@ -55,7 +55,16 @@ let projects = [
 ];
 
 let art = [
-
+	{
+		"name": "Serendipity",
+		"by": "Jet Hui, Monty Choy and Cherry Tsang",
+		"description": "A large art center emphasizing on music and dance. Third place winner of group design in the Architecture Foundation Design Competition."
+	},
+	{
+		"name": "Calaveras County Cabin",
+		"by": "Monty Choy",
+		"description": "A retreat cabin located in Calaveras County."
+	}
 ];
 
 
