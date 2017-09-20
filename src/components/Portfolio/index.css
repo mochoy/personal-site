@@ -7,25 +7,6 @@ a{
 	color: #1F1B96;
 }
 
-#Projects {
-/*	border-bottom: 1px solid #959393;*/	
-	border-bottom: 1px solid #353535;
-	
-	background-color: #353535;
-	/*background-color: #E7E4E4;*/
-}
-
-#title {
-	margin-top: 0px;
-	padding-top: 20px;
-	padding-left: 30px;
-
-	/*border-bottom: 1px solid #FFFFFF;*/
-
-	/*color: white;*/
-	/*color: #575757;*/
-}
-
 #projects-container {
 /*	flex-direction: row;
 	display: flex;*/

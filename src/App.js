@@ -3,7 +3,7 @@ import Intro from './components/Intro/index';
 import Portfolio from './components/Portfolio/index';
 import Footer from './components/Footer/index';
 import Student from './components/Student/index';
-import Athlete from './components/Athlete/index';
+import Art from './components/Art/index';
 
 
 let projects = [
@@ -52,7 +52,11 @@ let projects = [
 		"link": "https://github.com/MiLeung/AwesomeGame",
 		"description": "A real-time multiplayer 2-d side-scroller shooter game."
 	}
-]
+];
+
+let art = [
+
+];
 
 
 class App extends Component {
@@ -61,6 +65,7 @@ class App extends Component {
 		<div className="App">
 			<Intro/>
 			<Portfolio projectData={projects}/>
+			<Art projectData={art}/>
 			<Footer/>
 
 		</div>
