@@ -58,7 +58,7 @@ let art = [
 	{
 		"name": "Serendipity",
 		"by": "Jet Hui, Monty Choy and Cherry Tsang",
-		"description": "A large art center emphasizing on music and dance. Third place winner of group design in the Architecture Foundation Design Competition."
+		"description": "A large art center emphasizing on music and dance. Third place winner of group design in 2016 Architecture Foundation Design Competition."
 	},
 	{
 		"name": "Calaveras County Cabin",
@@ -75,8 +75,6 @@ class App extends Component {
 			<Intro/>
 			<Portfolio projectData={projects}/>
 			<Art projectData={art}/>
-			<Footer/>
-
 		</div>
     );
   }
