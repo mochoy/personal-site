@@ -1,50 +1,10 @@
-h1 {
-	color: #5B5B5B;
-}
-
 #Intro {
+	height: 100%;
 
-}
-
-#bg {
 	background-image: url('../assets/bg.jpg');
 
-  height: 100%; 
-
-  background-position: center;
+	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-#introTextContainer {
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 10px;
-	padding-left: 150px;
-	padding-right: 150px;	
-	border-bottom: 1px solid #959393;
-}
-
-#introText {
-	font-weight: normal;
-
-}
-
-#descriptionContainer {
-/*	padding-left: 90px;
-	padding-right: 90px;*/
-
-}
-
-#descriptionText {
-	font-weight: normal;
-	margin-bottom: 10px;
-
-}
-
-#ghLink {
-	margin-bottom: 10px;
-}
-
-
 

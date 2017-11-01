@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
+
 import Intro from './components/Intro/index';
-import Portfolio from './components/Portfolio/index';
-import Footer from './components/Footer/index';
-import Student from './components/Student/index';
-import Art from './components/Art/index';
+
 
 
 let projects = [
@@ -73,8 +71,6 @@ class App extends Component {
     return (
 		<div className="App">
 			<Intro/>
-			<Portfolio projectData={projects}/>
-			<Art projectData={art}/>
 		</div>
     );
   }
