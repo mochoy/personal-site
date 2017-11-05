@@ -1,80 +1,13 @@
-h1, h2, h3, h4, h5, h6, p, a{
-	color: #5B5B5B;
-}
-
-a{
-	text-decoration: none;
-	color: #1F1B96;
-}
-
-#projects-container {
-/*	flex-direction: row;
-	display: flex;*/
-
-	padding: 0;
-	margin: 0;
-	list-style: none;
-
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-
-	-webkit-flex-flow: row wrap;
-	justify-content: space-around;
-
-	margin-bottom: 50px;
+#Projects {
+	background-color: #ffc04c;
 }
 
 .project {
-	padding: 30px;
-	width: 300px;
-	height: 200px;
-	margin-top: 20px;
-
-	/*background-color: #E7E4E4;*/
-	background-color: #575757;
-
-/*	margin: auto;
-*/	/*width: 40%;*/
-	/*display: flex;*/
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
-.projectTitle {
-	border-bottom: 1px solid #959393;
-	padding-bottom: 10px;
-
+.project-img {
+	height: 20em;
+	width: 20em;
 }
-
-.projectName { 
-	display: inline;
-	/*margin-bottom: 10px;*/
-}
-
-.project, .subItems_SubContainer {
-/*	padding-left: 30px;
-	padding-bottom: 10px;*/
-}
-
-.projectDescription, a, .subItem_Description, .projectCreatedWith{
-/*	margin-top: 5px;
-	margin-bottom: 5px;
-	padding-left: 20px;*/
-}
-
-.link, .nameAndLinkDivider {
-	display: inline;
-	color: white;
-}
-
-.link {
-	border-bottom: 1px dotted white;
-}
-
-.link:hover {
-	border-bottom: 0px dotted white;
-	color: white;
-}
-
-

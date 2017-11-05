@@ -18,14 +18,23 @@ h1, h2, h3, h4, h5, h6, p {
 .title {
 	margin-top: 0;
 	margin-bottom: .2em;
+	font-size: 3em;
+}
+
+.flex-container-center, .flex-container-left {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .flex-container-center {
-	display: flex;
-	flex-direction: row;
 	justify-content: center;
 }
 
-.flex-item {
+.flex-container-left {
+	justify-content: left;
+}
 
+.flex-item {
+	margin: 2em;
 }

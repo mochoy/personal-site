@@ -1,12 +1,27 @@
 import React, { Component } from 'react';
 import './index.css';
 
+let projectData = [
+	{
+		"img": "./assets/personalsite.png"
+	},
+	{
+		"img": "./assets/awesomegame.png"
+	},
+	{
+		"img": "./assets/iatw.png"
+	}
+]
+
 export default class Projects extends Component {
 	render () {
-		// var projectItems = this.props.projectData.map(this.renderProjectItems)
+		var projectItems = projectData.map(this.renderProjectItems)
 		return (
-			<div id="Projects">
-				<h2 id="title">Projects</h2>
+			<div id="Projects" className='section'>
+				<h3 className="title">Projects</h3>
+				<div id="projects-container" className="flex-container-center">
+					{projectItems}
+				</div>
 			</div>
 
 		)
@@ -14,19 +29,13 @@ export default class Projects extends Component {
 
 	renderProjectItems(item){
 		return (
-			<li className="project">
-				<div className="project-container">
-					<div className="projectTitle">
-						<h4 className="projectName">{item.name}</h4>
-						<p className="nameAndLinkDivider"> | </p>
-						<a className="link" href={item.link}>Code</a>
-					</div>
-					<div className="projectDescriptionContainer">
-						<p className="projectDescription">{item.description}</p>
-						<p className="projectCreatedWith">{item.createdWith}</p>
-					</div>
-				</div>
-			</li>
+			<div className="project flex-item">
+				<img
+					className="project-img"
+					src={require(item.img)}
+				/>
+
+			</div>
 		)
 	}
 
