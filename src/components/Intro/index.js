@@ -6,7 +6,9 @@ export default class Intro extends Component {
 	render () {
 		return (
 			<div id="Intro">
-				
+				<div className="intro-caption">
+					<h1 className="intro-title">Monty Choy</h1>
+				</div>
 			</div>
 
 		)
