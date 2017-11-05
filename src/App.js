@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import Intro from './components/Intro/index';
 import About from './components/About/index';
-import TransitionImg from './components/TransitionImg/index'
+import TransitionImg from './components/TransitionImg/index';
+import Projects from './components/Projects/index';
 
 let projects = [
 	{
@@ -73,6 +74,7 @@ class App extends Component {
 			<Intro/>
 			<About/>
 			<TransitionImg imgKey="0" />
+			<Projects/>
 		</div>
     );
   }
