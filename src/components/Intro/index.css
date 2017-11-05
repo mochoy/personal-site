@@ -10,14 +10,15 @@
 }
 
 .intro-caption {
-	top: 30%;
+	top: 20%;
 	width: 100%;
 	position: absolute;
 	text-align: center;
 	font-size: 2em;
 }
 
-.intro-title {
+.intro-title, .intro-description {
 	margin-top: 0;
 	color: white;
+	margin-bottom: .2em;
 }
