@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Intro from './components/Intro/index';
 import About from './components/About/index';
-
+import TransitionImg from './components/TransitionImg/index'
 
 let projects = [
 	{
@@ -72,6 +72,7 @@ class App extends Component {
 		<div className="App">
 			<Intro/>
 			<About/>
+			<TransitionImg imgKey="0" />
 		</div>
     );
   }
