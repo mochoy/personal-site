@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Intro from './components/Intro/index';
-
+import About from './components/About/index';
 
 
 let projects = [
@@ -44,7 +44,7 @@ let projects = [
 		"name": "Isaac Against the World",
 		"link": "https://github.com/etnom/isaac-against-the-world",
 		"description": "A 2-player bird's eye view zombie shooter web game, made with Phaser and Annie Chen. Second place winner of the Congressional App Challenge."
-	}, 
+	},
 	{
 		"name": "Awesome Game",
 		"link": "https://github.com/MiLeung/AwesomeGame",
@@ -71,6 +71,7 @@ class App extends Component {
     return (
 		<div className="App">
 			<Intro/>
+			<About/>
 		</div>
     );
   }
