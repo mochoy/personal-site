@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './index.css';
 
 export default class About extends Component {
-						// <img src={require('../assets/background.jpg')}/>
 	render () {
 		return (
 			<div id="About" className='section'>
@@ -34,7 +33,7 @@ export default class About extends Component {
 						href="https://github.com/etnom">
 						<img
 							id="gh-img"
-							src="./assets/github.png"
+							src={require("assets/github.png")}
 						/>
 					</a>
 				</div>

@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import './index.css';
 
 let projectData = [
-	{
-		"img": "./assets/personalsite.png"
+  {
+		"img": "arduinoChronograph.jpg"
 	},
 	{
-		"img": "./assets/awesomegame.png"
+		"img": "personalsite.png"
 	},
 	{
-		"img": "./assets/iatw.png"
+		"img": "awesomegame.png"
+	},
+	{
+		"img": "iatw.png"
 	}
 ]
 
@@ -32,7 +35,8 @@ export default class Projects extends Component {
 			<div className="project flex-item">
 				<img
 					className="project-img"
-					src={require(item.img)}
+          src={require(`assets/${item.img}`)}
+
 				/>
 
 			</div>
