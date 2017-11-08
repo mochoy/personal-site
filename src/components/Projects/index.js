@@ -19,6 +19,7 @@ let projectData = [
 	},
 	{
 		"key": 3,	
+		"title": "Isaac Against the World",
 		"img": "iatw.png"
 	}
 ]
