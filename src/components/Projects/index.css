@@ -5,9 +5,11 @@
 .project {
 	padding-left: 2em;
 	padding-right: 2em;
-}
 
-.project-img {
 	height: 20em;
 	width: 20em;
+
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

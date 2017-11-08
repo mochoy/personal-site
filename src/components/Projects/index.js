@@ -40,12 +40,10 @@ export default class Projects extends Component {
 
 	renderProjectItems(item){
 		return (
-			<div className="project flex-item">
-				<img
-					className="project-img"
-          src={require(`assets/${item.img}`)}
-
-				/>
+			<div 
+				className="project flex-item"
+				style={{backgroundImage: 'url(' + require(`assets/${item.img}`) + ')'}}
+				>
 
 			</div>
 		)
