@@ -5,21 +5,25 @@ let projectData = [
   {
   	"key": 0,
   	"title": "Arduino Chronograph",
+  	"description": "blah",
 		"img": "arduinoChronograph.jpg"
 	},
 	{
   	"key": 1,		
   	"title": "Personal Website",
+  	"description": "blah",
 		"img": "personalsite.png"
 	},
 	{
 		"key": 2,	
 		"title": "Awesome Game",
+		"description": "blah",
 		"img": "awesomegame.png"
 	},
 	{
 		"key": 3,	
 		"title": "Isaac Against the World",
+		"description": "blah",
 		"img": "iatw.png"
 	}
 ]
@@ -44,7 +48,8 @@ export default class Projects extends Component {
 				className="project flex-item"
 				style={{backgroundImage: 'url(' + require(`assets/${item.img}`) + ')'}}
 				>
-
+				<h3>{item.title}</h3>
+				<p>{item.description}</p>
 			</div>
 		)
 	}
