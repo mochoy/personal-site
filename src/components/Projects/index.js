@@ -3,15 +3,22 @@ import './index.css';
 
 let projectData = [
   {
+  	"key": 0,
+  	"title": "Arduino Chronograph",
 		"img": "arduinoChronograph.jpg"
 	},
 	{
+  	"key": 1,		
+  	"title": "Personal Website",
 		"img": "personalsite.png"
 	},
 	{
+		"key": 2,	
+		"title": "Awesome Game",
 		"img": "awesomegame.png"
 	},
 	{
+		"key": 3,	
 		"img": "iatw.png"
 	}
 ]
