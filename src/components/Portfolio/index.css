@@ -1,13 +1,13 @@
-#Projects {
-	background-color: #ffc04c;
+#Portfolio {
+
 }
 
 .project {
-	padding-left: 2em;
-	padding-right: 2em;
+	padding-left: .5em;
+	padding-right: .5em;
 
-	height: 30em;
-	width: 30em;
+	height: 15em;
+	width: 15em;
 }
 
 .project-overlay {
@@ -37,7 +37,7 @@
 
 .project-title {
 	margin-top: 0em;
-	-webkit-transition: margin .2s; 
+	-webkit-transition: margin .2s;
 	transition: margin .2s;
 }
 
@@ -46,18 +46,17 @@
 	transition: opacity .2s;
 	-webkit-transition: opacity .2s;
 
-	-webkit-transition: margin .2s; 
+	-webkit-transition: margin .2s;
 	transition: margin .2s;
 	margin-top: 3em;
 }
 
 .project:hover .project-title {
-  text-transform: capitalize;
 	visibility: visible;
   border-bottom: 1px solid white;
   color: white;
   margin-bottom: .5em;
-  font-size: 1.5em;
+  font-size: 1em;
   margin-top: .5em;
   opacity: 1;
 }
@@ -67,6 +66,7 @@
 	color: white;
 	margin-top: 0;
 	opacity: 1;
+	font-size: .75em;
 }
 
 .project:hover .project-code {
@@ -76,4 +76,24 @@
 	opacity: 1;
 	text-decoration: none;
 	border-bottom: 1px white dotted;
+	font-size: .75em;
+}
+
+@media only screen and (min-width: 480px) {
+	.project {
+		height: 20em;
+		width: 20em;
+	}
+
+	.project:hover .project-title {
+	  font-size: 1.5em;
+	}
+
+	.project:hover .project-description {
+		font-size: 1em;
+	}
+
+	.project:hover .project-code {
+		font-size: 1em;
+	}
 }

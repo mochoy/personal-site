@@ -6,9 +6,8 @@ export default class Portfolio extends Component {
 		let data = this.props.data
 		let projectItems = data[1].data.map(this.renderProjectItems);
 		return (
-			<div 
-				className="Portfolio" 
-				className='section'
+			<div
+				className="Portfolio section"
 				style={{backgroundColor: this.props.data[0].backgroundColor}}
 				>
 				<h3 className="title">{data[0].title}</h3>
@@ -22,7 +21,7 @@ export default class Portfolio extends Component {
 
 	renderProjectItems(item){
 		return (
-			<div 
+			<div
 				className="project flex-item project-overlay bg-img"
 				style={{backgroundImage: 'url(' + require(`assets/${item.img}`) + ')'}}
 				>
