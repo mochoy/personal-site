@@ -17,7 +17,7 @@ const projectData = [
           "key": 0,
           "img": "arduinoChronograph.jpg",
           "title": "Chronograph",
-          "description": "Arduino-powered blastics chronograph able to track and calculate muzzle velocity of Nerf blasters, airsoft, paintball guns, and more.",
+          "description": "Arduino-powered blastics chronograph able to track and calculate muzzle velocity of Nerf blasters, airsoft guns, paintball guns, and more. Built with an Arduino Nano, side-looking IR emitters and receivers, I2C monochrome OLED display, PVC, and a cardboard box.",
           "code": "https://github.com/etnom/arduino-chronograph"
       },
       {
