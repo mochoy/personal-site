@@ -55,7 +55,7 @@ class App extends Component {
       <div className="App">
         <Home/>
         <About/>
-        <TransitionImg link={transImgData[1]} />
+        <TransitionImg link={transImgData[0]} />
         <Portfolio data={projectData}/>
       </div>
     );
