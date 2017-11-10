@@ -9,7 +9,13 @@ import Portfolio from './components/Portfolio/index';
 
 const transImgData = [
   "Buildings.jpg",
-  "Bridge.jpg"
+  "Bridge.jpg",
+  "GreatAmerica.jpg",
+  "DiagonalThing.jpg",
+  "Cookie.jpg",
+  "Lighthouse.jpg",
+  "Portland.jpg",
+  "Beach.jpg"
 ];
 
 const projectData = [
@@ -34,14 +40,14 @@ const projectData = [
           "code": "https://github.com/etnom/arduino-chronograph"
       },
       {
-        "key": 2,   
+        "key": 2,
         "img": "personalsite.png",
           "title": "Personal Website",
           "description": "What you're on right now! Website to display who I am and what I have done. Made with React.",
           "code": "https://github.com/etnom/personal-site"
       },
       {
-        "key": 3, 
+        "key": 3,
         "img": "iatw.png",
         "title": "Isaac Against the World",
         "description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser and Annie.",
@@ -73,14 +79,14 @@ const blasterData = [
           "code": "https://github.com/etnom/vyper_t-28"
       },
       {
-        "key": 2,   
+        "key": 2,
         "img": "SmartStrayven.jpg",
           "title": "Smart Strayven",
           "description": "A seemless integration between two blasters, the Nerf Styfe and the Nerf Rayven, with an added Smart Blaster kit containing anammo counter, voltmeter, and chronograph. Modifications include the integration, 3D printed parts, full rewire to 16 AWG mutlistranded silicon-insulated wiring, MOSFET motor interfacing, lock removal, lubrication of all moving parts, and running off a 2S LiPo.",
           "code": "https://github.com/etnom/smart-strayven"
       },
       {
-        "key": 3, 
+        "key": 3,
         "img": "nerfAmmoCounter.jpg",
         "title": "Nerf Ammo Counter",
         "description": "Arduino-powered ammo counter built for the Nerf Stryfe including auto-reload detection and magazine size toggling. Blaster modifications include full require, lock removal, lubrication of all moving parts, and running off two IMR batteries.",
@@ -100,6 +106,7 @@ class App extends Component {
         <Portfolio data={projectData}/>
         <TransitionImg link={transImgData[1]} />
         <Portfolio data={blasterData}/>
+        <TransitionImg link={transImgData[2]} />
 
 
       </div>
