@@ -10,7 +10,7 @@ import Portfolio from './components/Portfolio/index';
 const transImgData = [
   "Buildings.jpg",
   "Bridge.jpg"
-]
+];
 
 const projectData = [
   {
@@ -49,7 +49,46 @@ const projectData = [
       }
     ]
   }
-]
+];
+
+const blasterData = [
+  {
+    "title": "Blasters",
+    "backgroundColor": "#ffc04c"
+  },
+  {
+    "data": [
+      {
+          "key": 0,
+          "img": "Awesome-Nerf-Turret.png",
+          "title": "Awesome-Nerf-Turret",
+          "description": "A Nerf turret based around the Nerf Hyperfire, controlled and streaming live footage online through Let's Robot's controller scripts. Powered by a Raspberry Pi interfacing with the modified blasters through an electromechanical relay.",
+          "code": "https://github.com/etnom/runmyrobot"
+      },
+      {
+          "key": 1,
+          "img": "VyperT28.jpg",
+          "title": "Vyper T-28",
+          "description": "A perfected integration between three blasters, the Nerf Demolisher, the Nerf Joltz and the Nerf Rayven, with an added Smart Blaster kit containing an ammo counter, voltmeter, and chronograph. Modifications include the integration, 3D printed parts, full rewire to 16 AWG mutlistranded silicon-insulated wiring, MOSFET motor interfacing, lock removal, lubrication of all moving parts, and running off a 2S LiPo.",
+          "code": "https://github.com/etnom/vyper_t-28"
+      },
+      {
+        "key": 2,   
+        "img": "SmartStrayven.jpg",
+          "title": "Smart Strayven",
+          "description": "A seemless integration between two blasters, the Nerf Styfe and the Nerf Rayven, with an added Smart Blaster kit containing anammo counter, voltmeter, and chronograph. Modifications include the integration, 3D printed parts, full rewire to 16 AWG mutlistranded silicon-insulated wiring, MOSFET motor interfacing, lock removal, lubrication of all moving parts, and running off a 2S LiPo.",
+          "code": "https://github.com/etnom/smart-strayven"
+      },
+      {
+        "key": 3, 
+        "img": "nerfAmmoCounter.jpg",
+        "title": "Nerf Ammo Counter",
+        "description": "Arduino-powered ammo counter built for the Nerf Stryfe including auto-reload detection and magazine size toggling. Blaster modifications include full require, lock removal, lubrication of all moving parts, and running off two IMR batteries.",
+        "code": "https://github.com/etnom/nerf-ammo-counter"
+      }
+    ]
+  }
+];
 
 class App extends Component {
   render() {
@@ -60,6 +99,8 @@ class App extends Component {
         <TransitionImg link={transImgData[0]} />
         <Portfolio data={projectData}/>
         <TransitionImg link={transImgData[1]} />
+        <Portfolio data={blasterData}/>
+
 
       </div>
     );
