@@ -8,7 +8,8 @@ import TransitionImg from './components/TransitionImg/index';
 import Portfolio from './components/Portfolio/index';
 
 const transImgData = [
-  "transImg1.jpg"
+  "Buildings.jpg",
+  "Bridge.jpg"
 ]
 
 const projectData = [
@@ -57,6 +58,8 @@ class App extends Component {
         <About/>
         <TransitionImg link={transImgData[0]} />
         <Portfolio data={projectData}/>
+        <TransitionImg link={transImgData[1]} />
+
       </div>
     );
   }
