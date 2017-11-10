@@ -39,7 +39,7 @@ export default class Projects extends Component {
 	renderProjectItems(item){
 		return (
 			<div 
-				className="project flex-item"
+				className="project flex-item project-overlay"
 				style={{backgroundImage: 'url(' + require(`assets/${item.img}`) + ')'}}
 				>
 				<h3 className="project-title">{item.title}</h3>
