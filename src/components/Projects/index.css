@@ -19,7 +19,9 @@
 }
 
 .project-title {
-	margin-top: .5em;
+	margin-top: 0em;
+	-webkit-transition: margin .2s; 
+	transition: margin .2s;
 }
 
 .project-description {
@@ -39,6 +41,7 @@
   color: white;
   margin-bottom: .5em;
   font-size: 1.5em;
+  margin-top: .5em;
 }
 
 .project:hover .project-description {
