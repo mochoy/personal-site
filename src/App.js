@@ -6,6 +6,7 @@ import Home from './components/Home/index';
 import About from './components/About/index';
 import TransitionImg from './components/TransitionImg/index';
 import Portfolio from './components/Portfolio/index';
+import ArtAndArchitecture from './components/ArtAndArchitecture/index';
 
 const transImgData = [
   "Buildings.jpg",
@@ -107,6 +108,7 @@ class App extends Component {
         <TransitionImg link={transImgData[1]} />
         <Portfolio data={blasterData}/>
         <TransitionImg link={transImgData[2]} />
+        <ArtAndArchitecture link={transImgData[2]} />
 
 
       </div>
