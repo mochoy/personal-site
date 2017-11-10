@@ -97,6 +97,35 @@ const blasterData = [
   }
 ];
 
+const artAndArchitectureData = [
+  {
+    "name": "Serindipity",
+    "by": "Jet, Monty, and Cherry",
+    "imgs": [
+      "Serendipity1.jpeg",
+      "Serendipity2.jpg",
+      "Serendipity3.jpg",
+      "Serendipity4.jpg",
+      "Serendipity5.jpg"
+    ],
+    "descrption1": "A Music Production Hub situated between Pier 1 and Pier 2 in Fort Mason's Historic Landmark District, residing close to the current home of the Fort Mason Center for Arts and Culture (FMCAC) which consolidates various outlets for people to explore their creative and artistic abilities. Serendipity to enhance the FMCAC's mission by creating additional space for musicians to both produce and perform their craft within a unique waterfront setting. Serendipity is a place for musically aspiring Bay Area artists to practice, hone, and challenge their capabilities in a wide-ranging environment equipped to cater to both collaborative interaction and individual experimentation. Serendipity will not only be a gathering place for those to express themselves through sound but will also be a place to learn and draw from musical history. Capitalizing on the site's public waterfront access, a public performace space is a key component of Serendipity.",
+    "description2": "Third place winner of Best Group Design in the 48th annual Architectural Foundation of San Francisco High School Design Competition.",
+    "descrption3": "This project includes a scale model made of butterboard and foam-core board as well as hand-drafted scale drawings of the interior sectional views, exterior elevation views, landscape view, and plan views of each floor according to architectural design standards."
+  },
+  {
+    "name": "Calaveras County Cabin",
+    "by": "Monty",
+    "imgs": [
+      "CalaverasCabin1.jpg",
+      "CalaverasCabin2.jpg",
+      "CalaverasCabin3.jpg",
+      "CalaverasCabin4.jpg",
+    ],
+    "descrption1": "A small year-round vacation cabin used for fun and relaxation away from the hustle and bustle of the busy and congested metropolitan area. This cabin is a comfortable, well-designed retreat, with an approximate area of 1600 square-feet. This is a flexible and sustainable space, taking advantage of 'green' technology, energy savings, innovative and minimal materials, and attention to space and light. Intgration with the beautiful outdoors are also central to the design.",
+    "descrption2": "This project includes a scale model made of butterboard and foam-core board as well as hand-drafted scale drawings of the interior sectional views, exterior elevation views, landscape view, and plan views of each floor according to architectural design standards."
+  }
+]
+
 class App extends Component {
   render() {
     return (
