@@ -48,8 +48,8 @@ export default class Projects extends Component {
 				className="project flex-item"
 				style={{backgroundImage: 'url(' + require(`assets/${item.img}`) + ')'}}
 				>
-				<h3>{item.title}</h3>
-				<p>{item.description}</p>
+				<h3 className="project-title">{item.title}</h3>
+				<p className="project-description">{item.description}</p>
 			</div>
 		)
 	}

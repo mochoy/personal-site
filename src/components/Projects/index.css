@@ -13,3 +13,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.project-description, .project-title {
+	visibility: hidden;
+}
+
+.project:hover .project-title {
+	visibility: visible;
+  border-bottom: 2px solid white;
+  color: white;
+  margin-bottom: .5em;
+}
+
+.project:hover .project-description {
+	visibility: visible;
+	color: white;
+	margin-top: .5em;
+}
+
