@@ -3,22 +3,22 @@ import './index.css';
 
 let projectData = [
   {
-  	"key": 0,
-  	"title": "Arduino Chronograph",
-  	"description": "blah",
-		"img": "arduinoChronograph.jpg"
+  		"key": 0,
+  		"img": "arduinoChronograph.jpg",
+  		"title": "Chronograph",
+  		"description": "Arduino-powered blastics chronograph able to track and calculate muzzle velocity of Nerf blasters, airsoft, paintball guns, and more."
 	},
 	{
-  	"key": 1,		
-  	"title": "Personal Website",
-  	"description": "blah",
-		"img": "personalsite.png"
+ 	 	"key": 1,		
+ 		"img": "personalsite.png",
+  		"title": "Personal Website",
+  		"description": "What you're on right now! Website to display who I am and what I have done. Made with React."
 	},
 	{
 		"key": 3,	
+		"img": "iatw.png",
 		"title": "Isaac Against the World",
-		"description": "blah",
-		"img": "iatw.png"
+		"description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser and Annie."
 	}
 ]
 
