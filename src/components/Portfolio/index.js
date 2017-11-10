@@ -3,13 +3,12 @@ import './index.css';
 
 export default class Portfolio extends Component {
 	render () {
-		let bgColor = this.props.data[0].backgroundColor;
 		let projectItems = this.props.data[1].data.map(this.renderProjectItems);
 		return (
 			<div 
-				id="Projects" 
+				className="Portfolio" 
 				className='section'
-				style={{backgroundColor: bgColor}}
+				style={{backgroundColor: this.props.data[0].backgroundColor}}
 				>
 				<h3 className="title">Projects</h3>
 				<div id="projects-container" className="flex-container-center">
