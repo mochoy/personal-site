@@ -13,9 +13,9 @@ export default class About extends Component {
 							brother brought me to my first Hackathon, <b>CodeDay</b>, over
 							five years ago. I've enriched my coding experiences with classes
 							at the City College of San Francisco and <b>Mission Bit</b>, a
-							local non-prfit running free
+							local non-profit running free
 							coding classes around the Bay Area. I currently develop primarily
-							in <b>Arduino</b>, but I also have a bit of experience in React,
+							for <b>Arduino</b>, but I also have a bit of experience in React,
 							Express, and Phaser.
 						</p>
 					<p>
@@ -24,7 +24,8 @@ export default class About extends Component {
 						ocassionally running with the school's Cross Country team in local
 						meets. I have also been <b>breakdancing</b> for almost six years,
 						performing in the school's talent show and the annual
-						Brotherhood-Sisterhood Assembly.Oh yeah, I also modify <b>Nerf blasters</b>.
+						Brotherhood-Sisterhood Assembly. Oh yeah, I also <b>modify Nerf
+							blasters</b>.
 					</p>
 				</div>
 				<div className='flex-container'>
