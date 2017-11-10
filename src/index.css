@@ -8,6 +8,12 @@ h1, h2, h3, h4, h5, h6, p, a {
 	font-family: 'Noto Sans', sans-serif;
 }
 
+.bg-img {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .section {
 	padding-left: 5em;
 	padding-right: 5em;

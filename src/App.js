@@ -7,6 +7,10 @@ import About from './components/About/index';
 import TransitionImg from './components/TransitionImg/index';
 import Portfolio from './components/Portfolio/index';
 
+const transImgData = [
+  "transImg1.jpg"
+]
+
 const projectData = [
   {
     "backgroundColor": "white"
@@ -51,7 +55,7 @@ class App extends Component {
       <div className="App">
         <Home/>
         <About/>
-        <TransitionImg imgKey="0" />
+        <TransitionImg link={transImgData[1]} />
         <Portfolio data={projectData}/>
       </div>
     );
