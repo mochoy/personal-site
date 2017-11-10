@@ -14,6 +14,7 @@ const transImgData = [
 
 const projectData = [
   {
+    "title": "Projects",
     "backgroundColor": "white"
   },
   {
