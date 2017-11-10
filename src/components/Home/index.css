@@ -14,11 +14,24 @@
 	width: 100%;
 	position: absolute;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1em;
 }
 
 .intro-title, .intro-description {
 	margin-top: 0;
 	color: white;
 	margin-bottom: .2em;
+}
+
+@media screen and (min-width: 256px) {
+	.intro-caption {
+		font-size: 1.5em;
+	}
+}
+
+
+@media screen and (min-width: 480px) {
+	.intro-caption {
+		font-size: 2em;
+	}
 }
