@@ -25,7 +25,7 @@ let projectData = [
 	}
 ]
 
-export default class Projects extends Component {
+export default class Portfolio extends Component {
 	render () {
 		var projectItems = projectData.map(this.renderProjectItems)
 		return (
