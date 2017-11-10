@@ -15,12 +15,6 @@ let projectData = [
 		"img": "personalsite.png"
 	},
 	{
-		"key": 2,	
-		"title": "Awesome Game",
-		"description": "blah",
-		"img": "awesomegame.png"
-	},
-	{
 		"key": 3,	
 		"title": "Isaac Against the World",
 		"description": "blah",

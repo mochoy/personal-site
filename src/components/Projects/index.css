@@ -14,20 +14,36 @@
   background-size: cover;
 }
 
-.project-description, .project-title {
+.project-title, .project-description {
 	visibility: hidden;
 }
 
+.project-title {
+	margin-top: .5em;
+}
+
+.project-description {
+	opacity: 0.5;
+	transition: opacity .2s;
+	-webkit-transition: opacity .2s;
+
+	-webkit-transition: margin .2s; 
+	transition: margin .2s;
+	margin-top: 3em;
+}
+
+
 .project:hover .project-title {
 	visibility: visible;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
   color: white;
   margin-bottom: .5em;
+  font-size: 1.5em;
 }
 
 .project:hover .project-description {
 	visibility: visible;
 	color: white;
-	margin-top: .5em;
+	margin-top: 0;
+	opacity: 1;
 }
-
