@@ -27,9 +27,14 @@ let projectData = [
 
 export default class Portfolio extends Component {
 	render () {
-		var projectItems = projectData.map(this.renderProjectItems)
+		let bgColor = this.props.data[0].backgroundColor;
+		let projectItems = this.props.data[1].data.map(this.renderProjectItems);
 		return (
-			<div id="Projects" className='section'>
+			<div 
+				id="Projects" 
+				className='section'
+				style={{backgroundColor: bgColor}}
+				>
 				<h3 className="title">Projects</h3>
 				<div id="projects-container" className="flex-container-center">
 					{projectItems}
