@@ -15,8 +15,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .section {
-	padding-left: 5em;
-	padding-right: 5em;
+	padding-left: .5em;
+	padding-right: .5em;
 	padding-top: 3em;
 	padding-bottom: 5em
 }
@@ -43,4 +43,19 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .flex-item {
 	margin: 2em;
+}
+
+
+@media only screen and (min-width: 480px) {
+	.section {
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+	}
+}
+
+@media only screen and (min-width: 720px) {
+	.section {
+		padding-left: 3em;
+		padding-right: 3em;
+	}
 }
