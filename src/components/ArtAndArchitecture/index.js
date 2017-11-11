@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './index.css';
 
+import Carousel from "../Carousel/index";
+
 export default class ArtAndArchitecture extends Component {
 	render () {
 		let data = this.props.data;
@@ -18,7 +20,7 @@ export default class ArtAndArchitecture extends Component {
 	renderArtAndArchitectureItems (item) {
 		return (
 			<div className="artAndArchitecture-item">
-				
+
 			</div>
 		)
 	}
