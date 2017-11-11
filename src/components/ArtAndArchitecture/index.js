@@ -5,8 +5,8 @@ import Carousel from "../Carousel/index";
 
 export default class ArtAndArchitecture extends Component {
 	render () {
-		let data = this.props.data;
-		let artAndArchitectureItems = data.map(this.renderArtAndArchitectureItems);
+		let _data = this.props.data;
+		let artAndArchitectureItems = _data.map(this.renderArtAndArchitectureItems);
 		return (
 			<div id="ArtAndArchitecture" className='section'>
 				<h3 className="title">Architecture</h3>
@@ -19,8 +19,12 @@ export default class ArtAndArchitecture extends Component {
 
 	renderArtAndArchitectureItems (item) {
 		return (
-			<div className="artAndArchitecture-item">
-
+			<div className="artAndArchitecture-item flex-container">
+				<Carousel data={item}/>
+				<h2>{item.name}</h2>
+				<p>{item.description1}</p>
+				<p>{item.description2}</p>
+				<p>{item.description3}</p>
 			</div>
 		)
 	}
