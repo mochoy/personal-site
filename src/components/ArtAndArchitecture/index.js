@@ -21,7 +21,7 @@ export default class ArtAndArchitecture extends Component {
 		return (
 			<div className="artAndArchitecture-item flex-container">
 				<Carousel data={item}/>
-				<h2>{item.name}</h2>
+				<h2 className="artAndArchitecture-item-title">{item.name}</h2>
 				<p>{item.description1}</p>
 				<p>{item.description2}</p>
 				<p>{item.description3}</p>
