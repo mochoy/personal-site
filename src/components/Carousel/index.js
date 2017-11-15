@@ -2,34 +2,60 @@ import React, { Component } from 'react';
 import './index.css';
 
 export default class Carousel extends Component {
+	constructor(props) {
+    super(props);
+
+		this.data = this.props.data;
+		this.imgs = this.data.imgs;
+
+		this.handleChangeSlide = this.handleChangeSlide.bind(this);
+		this.onChangeCarouselSlide = this.onChangeCarouselSlide.bind(this);
+
+		//internal data to render carousel images
+		this.state = {
+			imgIndex: 0,
+			currentImg: this.imgs[0]
+		};
+	}
+
 	render () {
-		let data = this.props.data;
-    let imgs = data.imgs;
-    let carouselSlides = imgs.map(this.renderCarouselSlides);
 		return (
 			<div className="Carousel">
         <div className="carousel-slides-container">
-          {carouselSlides}
-          <button onClick={(e) => this.changeSlide(e, -1)}>prev</button>
-          <button onClick={(e) => this.changeSlide(e, 1)}>next</button>
+					<img
+	          className="carousel-img"
+	          src={require(`assets/${this.state.currentImg}`)}
+						onChange={this.onChangeCarouselSlide}
+	        />
+          <button onClick={(e) => this.handleChangeSlide(e, -1)}>prev</button>
+          <button onClick={(e) => this.handleChangeSlide(e, 1)}>next</button>
         </div>
 			</div>
 		)
 	}
 
-  renderCarouselSlides (item) {
-    return (
-      <div className="carousel-slides">
-        <img
-          className="carousel-img"
-          src={require(`assets/${item}`)}
-        />
-      </div>
-    )
+  handleChangeSlide (e, dir) {
+		let index = this.state.imgIndex;
+
+		if (index === 0 && dir < 0) {
+			index = this.imgs.length-1;
+		} else if (index === (this.imgs.length-1) && dir > 0) {
+			index = 0;
+		} else if ( (index !== (this.imgs.length-1)) || (index !== 0) ) {
+			index += dir;
+		}
+
+		this.setState(
+			{
+				imgIndex: index,
+				currentImg: this.imgs[index]
+			}
+		);
   }
 
-  changeSlide (e, dir) {
-    console.log(e);
-    console.log(dir);
+	onChangeCarouselSlide (e, dir) {
+		e.preventDefault();
   }
+
+
 }
