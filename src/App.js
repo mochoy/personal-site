@@ -161,7 +161,7 @@ class App extends Component {
         <Portfolio data={blasterData}/>
         <TransitionImg link={transImgData[2]} />
         <ArtAndArchitecture data={artAndArchitectureData} />
-
+        <TransitionImg link={transImgData[3]} />
 
       </div>
     );
