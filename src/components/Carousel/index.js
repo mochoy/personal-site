@@ -44,7 +44,7 @@ export default class Carousel extends Component {
 					</a>
         </div>
 				<div className="dot-container">
-					{dots}
+					{/* {dots} */}
 				</div>
 			</div>
 		)
