@@ -45,6 +45,11 @@ h1, h2, h3, h4, h5, h6, p, a {
 	margin: 2em;
 }
 
+.center-img {
+	margin: auto;
+	display: block;
+}
+
 
 @media only screen and (min-width: 480px) {
 	.section {

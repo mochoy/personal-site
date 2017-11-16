@@ -23,7 +23,7 @@ export default class Carousel extends Component {
 			<div className="Carousel">
         <div className="carousel-slides-container">
 					<img
-	          className="carousel-img"
+	          className="carousel-img center-img"
 	          src={require(`assets/${this.state.currentImg}`)}
 						onChange={this.onChangeCarouselSlide}
 	        />
