@@ -51,7 +51,8 @@ export default class Carousel extends Component {
 	renderDots (item) {
 		return (
 			<span
-				class="dot" >
+				class="dot"
+				onClick={(e) => this.changeSlide(item.key)} >
 			</span>
 		)
 	}
