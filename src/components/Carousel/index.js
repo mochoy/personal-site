@@ -11,6 +11,7 @@ export default class Carousel extends Component {
 		this.renderDots = this.renderDots.bind(this);
 		this.handleChangeSlide = this.handleChangeSlide.bind(this);
 		this.onChangeCarouselSlide = this.onChangeCarouselSlide.bind(this);
+		this.changeSlide = this.changeSlide.bind(this);
 
 		//internal data to render carousel images
 		this.state = {
@@ -66,17 +67,22 @@ export default class Carousel extends Component {
 			index += dir;
 		}
 
+		this.changeSlide(index);
+
+  }
+
+	onChangeCarouselSlide (e, dir) {
+		e.preventDefault();
+  }
+
+	changeSlide (index) {
 		this.setState(
 			{
 				imgIndex: index,
 				currentImg: this.imgs[index].src
 			}
 		);
-  }
-
-	onChangeCarouselSlide (e, dir) {
-		e.preventDefault();
-  }
+	}
 
 
 }
