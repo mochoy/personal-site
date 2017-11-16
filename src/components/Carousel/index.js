@@ -21,7 +21,7 @@ export default class Carousel extends Component {
 	render () {
 		return (
 			<div className="Carousel">
-        <div className="carousel-slides-container">
+        <div className="carousel-slides-container center">
 					<img
 	          className="carousel-img center-img"
 	          src={require(`assets/${this.state.currentImg}`)}
