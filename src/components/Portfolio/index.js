@@ -21,7 +21,7 @@ export default class Portfolio extends Component {
 
 	renderProjectItems(item){
 		let codeText = (item.code ? "Code" : "");
-		let linkText = (item.Link ? "Check It Out" : "");
+		let linkText = (item.link ? "Check It Out" : "");
 
 		return (
 			<div
