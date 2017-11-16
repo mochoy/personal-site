@@ -20,6 +20,9 @@ export default class Portfolio extends Component {
 	}
 
 	renderProjectItems(item){
+		let codeText = (item.code ? "Code" : "");
+		let linkText = (item.Link ? "Check It Out" : "");
+
 		return (
 			<div
 				className="project flex-item project-overlay bg-img"
@@ -27,7 +30,14 @@ export default class Portfolio extends Component {
 				>
 				<h3 className="project-title">{item.title}</h3>
 				<p className="project-description">{item.description}</p>
-				<a className="project-code" href={item.code}>Code</a>
+				<div className="links-container flex-container-left">
+					<a
+						className="project-link"
+						href={item.code}>{codeText}</a>
+					<a
+						className="project-link"
+						href={item.link}>{linkText}</a>
+				</div>
 			</div>
 		)
 	}
