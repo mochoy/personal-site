@@ -13,6 +13,8 @@ export default class Carousel extends Component {
 		this.onChangeCarouselSlide = this.onChangeCarouselSlide.bind(this);
 		this.changeSlide = this.changeSlide.bind(this);
 
+		this.dotArr = [];
+
 		//internal data to render carousel images
 		this.state = {
 			imgIndex: 0,
@@ -51,7 +53,7 @@ export default class Carousel extends Component {
 	renderDots (item) {
 		return (
 			<span
-				class="dot"
+				className="dot"
 				onClick={(e) => this.changeSlide(item.key)} >
 			</span>
 		)
