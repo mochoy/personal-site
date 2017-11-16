@@ -27,8 +27,16 @@ export default class Carousel extends Component {
 	          src={require(`assets/${this.state.currentImg}`)}
 						onChange={this.onChangeCarouselSlide}
 	        />
-          <button onClick={(e) => this.handleChangeSlide(e, -1)}>prev</button>
-          <button onClick={(e) => this.handleChangeSlide(e, 1)}>next</button>
+          <a
+						className="carousel-tog-btn carousel-tog-btn-left"
+						onClick={(e) => this.handleChangeSlide(e, -1)}>
+							&#10094;
+					</a>
+          <a
+						className="carousel-tog-btn carousel-tog-btn-right"
+						onClick={(e) => this.handleChangeSlide(e, 1)}>
+							&#10095;
+					</a>
         </div>
 			</div>
 		)
