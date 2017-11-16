@@ -8,6 +8,7 @@ export default class Carousel extends Component {
 		this.data = this.props.data;
 		this.imgs = this.data.imgs;
 
+		this.renderDots = this.renderDots.bind(this);
 		this.handleChangeSlide = this.handleChangeSlide.bind(this);
 		this.onChangeCarouselSlide = this.onChangeCarouselSlide.bind(this);
 
@@ -19,6 +20,7 @@ export default class Carousel extends Component {
 	}
 
 	render () {
+		let dots = this.imgs.map(this.renderDots);
 		return (
 			<div className="Carousel">
         <div className="carousel-slides-container center">
@@ -38,7 +40,18 @@ export default class Carousel extends Component {
 							&#10095;
 					</a>
         </div>
+				<div className="dot-container">
+					{dots}
+				</div>
 			</div>
+		)
+	}
+
+	renderDots (item) {
+		return (
+			<span
+				class="dot" >
+			</span>
 		)
 	}
 
