@@ -103,19 +103,19 @@ const artAndArchitectureData = [
     "by": "Jet, Monty, and Cherry",
     "imgs": [
       {
-        "key": 1,
+        "key": 0,
         "src": "Serendipity1.jpeg"
       },
       {
-        "key": 2,
+        "key": 1,
         "src": "Serendipity2.jpg"
       },
       {
-        "key": 3,
+        "key": 2,
         "src": "Serendipity3.jpg"
       },
       {
-        "key": 4,
+        "key": 3,
         "src": "Serendipity5.jpg"
       },
     ],
@@ -128,19 +128,19 @@ const artAndArchitectureData = [
     "by": "Monty",
     "imgs": [
       {
-        "key": 1,
+        "key": 0,
         "src": "CalaverasCabin1.jpg"
       },
       {
-        "key": 2,
+        "key": 1,
         "src": "CalaverasCabin2.jpg"
       },
       {
-        "key": 3,
+        "key": 2,
         "src": "CalaverasCabin3.jpg"
       },
       {
-        "key": 4,
+        "key": 3,
         "src": "CalaverasCabin4.jpg"
       },
     ],
