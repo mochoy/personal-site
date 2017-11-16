@@ -15,7 +15,7 @@ export default class Carousel extends Component {
 		//internal data to render carousel images
 		this.state = {
 			imgIndex: 0,
-			currentImg: this.imgs[0]
+			currentImg: this.imgs[0].src
 		};
 	}
 
@@ -69,7 +69,7 @@ export default class Carousel extends Component {
 		this.setState(
 			{
 				imgIndex: index,
-				currentImg: this.imgs[index]
+				currentImg: this.imgs[index].src
 			}
 		);
   }
