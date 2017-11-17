@@ -8,6 +8,7 @@ export default class Portfolio extends Component {
 		return (
 			<div
 				className="Portfolio section"
+				id={data[0].id}
 				style={{backgroundColor: this.props.data[0].backgroundColor}}
 				>
 				<h3 className="title">{data[0].title}</h3>

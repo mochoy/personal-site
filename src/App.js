@@ -22,7 +22,8 @@ const transImgData = [
 const projectData = [
   {
     "title": "Projects",
-    "backgroundColor": "white"
+    "backgroundColor": "white",
+    "id": "Projects"
   },
   {
     "data": [
@@ -61,7 +62,8 @@ const projectData = [
 const blasterData = [
   {
     "title": "Blasters",
-    "backgroundColor": "#ffc04c"
+    "backgroundColor": "#ffc04c",
+    "id": "Blasters"
   },
   {
     "data": [
@@ -152,7 +154,8 @@ const artAndArchitectureData = [
 const tutorialsData = [
   {
     "title": "Tutorials",
-    "backgroundColor": "white"
+    "backgroundColor": "white",
+    "id": "Tutorials"
   },
   {
     "data": [
