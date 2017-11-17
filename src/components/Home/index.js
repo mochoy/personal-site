@@ -4,6 +4,10 @@ import './index.css';
 export default class Home extends Component {
 						// <img src={require('../assets/background.jpg')}/>
 	render () {
+		const data = this.props.data;
+		const navbarData = data[0].navbarData;
+		const navbarItems = navbarData.map(this.renderNavbarItems);
+
 		return (
 			<div id="Intro"
 				style={{backgroundImage: 'url(' + require('assets/bg1.jpg') + ')'}}>
@@ -11,26 +15,7 @@ export default class Home extends Component {
 					id="navbar"
 					className="center">
 					<h3 id="navbar-title">Monty Choy</h3>
-					<a href="default.asp"
-					className="navbar-link">
-						About
-					</a>
-					<a href="default.asp"
-					className="navbar-link">
-						Projects
-					</a>
-					<a href="default.asp"
-					className="navbar-link">
-						Blasters
-					</a>
-					<a href="default.asp"
-					className="navbar-link">
-						Architecture
-					</a>
-					<a href="default.asp"
-					className="navbar-link">
-					Tutorials
-					</a>
+					{navbarItems}
 				</div>
 				<div className="intro-caption">
 					<h1 className="intro-title">Monty Choy</h1>
@@ -39,6 +24,15 @@ export default class Home extends Component {
 				</div>
 			</div>
 
+		)
+	}
+
+	renderNavbarItems (item) {
+		return (
+			<a href={item.link}
+			className="navbar-link">
+				{item.text}
+			</a>
 		)
 	}
 }
