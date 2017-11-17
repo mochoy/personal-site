@@ -8,6 +8,39 @@ import TransitionImg from './components/TransitionImg/index';
 import Portfolio from './components/Portfolio/index';
 import ArtAndArchitecture from './components/ArtAndArchitecture/index';
 
+const homeData = [
+  {
+    "key": 0,
+    "navbarData": [
+      {
+        "key": 0,
+        "link": "",
+        "text": "About"
+      },
+      {
+        "key": 1,
+        "link": "",
+        "text": "Projects"
+      },
+      {
+        "key": 2,
+        "link": "",
+        "text": "Blasters"
+      },
+      {
+        "key": 3,
+        "link": "",
+        "text": "Architecture"
+      },
+      {
+        "key": 4,
+        "link": "",
+        "text": "Tutorials"
+      }
+    ]
+  }
+]
+
 const transImgData = [
   "Buildings.jpg",
   "Bridge.jpg",
@@ -190,7 +223,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home/>
+        <Home data={homeData}/>
         <About/>
         <TransitionImg link={transImgData[0]} />
         <Portfolio data={projectData}/>
