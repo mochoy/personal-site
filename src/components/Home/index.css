@@ -2,8 +2,6 @@
 	height: 100%;
 	width: 100%;
 
-	/*background-image: "url(" + bgImg + ")";*/
-
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,12 +45,16 @@
 	transition: 0.4s;
 }
 
-.intro-caption {
+.intro-caption, .intro-caption-faded {
 	top: 20%;
 	width: 100%;
 	position: absolute;
 	text-align: center;
 	font-size: 1em;
+}
+
+.intro-caption-faded {
+	opacity: .3;
 }
 
 .intro-title, .intro-description {
@@ -62,7 +64,7 @@
 }
 
 @media screen and (min-width: 256px) {
-	.intro-caption {
+	.intro-caption, .intro-caption-faded {
 		font-size: 1.5em;
 	}
 
@@ -83,7 +85,7 @@
 }
 
 @media screen and (min-width: 870px) {
-	.intro-caption {
+	.intro-caption, .intro-caption-faded {
 		font-size: 2em;
 	}
 
