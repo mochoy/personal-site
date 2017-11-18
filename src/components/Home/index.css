@@ -7,13 +7,17 @@
   background-size: cover;
 }
 
-#navbar {
+.navbar {
 	list-style-type: none;
   margin: 0;
   padding: 0;
 	padding-top: 2em;
 	padding-left: 2em;
 	padding-right: 2em;
+}
+
+.navbar-accordianed {
+
 }
 
 #navbar-title {
@@ -28,6 +32,14 @@
 	padding-left: .4em;
 }
 
+.navbar-accordian {
+
+}
+
+.navbar-accordian-open {
+	background-color: black;
+}
+
 #mobile-menu-icon {
 	float: right;
 	cursor: pointer;
@@ -35,6 +47,10 @@
 
 .navbar-link {
 	display: none;
+}
+
+.navbar-link-accordianed {
+
 }
 
 .mobile-menu-icon-bar {

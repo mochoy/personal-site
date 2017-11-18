@@ -5,13 +5,17 @@ export default class Home extends Component {
 	constructor(props) {
     super(props);
 
+		this.renderNavbarItems = this.renderNavbarItems.bind(this);
 		this.animateMobileMenuIcon = this.animateMobileMenuIcon.bind(this);
 		this.onClickMobileMenuIcon = this.onClickMobileMenuIcon.bind(this);
 
 		this.state = {
 			"isMobileMenuClicked": false,
 			"introStyleState": "",
-			"introCaptionStyleeState": "intro-caption"
+			"introCaptionStyleeState": "intro-caption",
+			"navbarStyleState": "center navbar",
+			"navbarAccordianSyleState": "navbar-accordian",
+			"navbarLinkStyleStatus": "navbar-link"
 		}
 	}
 
@@ -25,10 +29,11 @@ export default class Home extends Component {
 				className={this.state.introStyleState}
 				style={{backgroundImage: 'url(' + require('assets/bg1.jpg') + ')'}}>
 				<div
-					id="navbar"
-					className="center">
+					className={this.state.navbarStyleState}>
 					<h3 id="navbar-title">Monty Choy</h3>
-					{navbarItems}
+					<div className={this.state.navbarAccordianSyleState}>
+						{navbarItems}
+					</div>
 					<div
 						id="mobile-menu-icon"
 						onClick={(e) => this.onClickMobileMenuIcon(e)}>
@@ -50,7 +55,7 @@ export default class Home extends Component {
 	renderNavbarItems (item) {
 		return (
 			<a href={item.link}
-			className="navbar-link">
+				className={this.state.navbarLinkStyleStatus}>
 				{item.text}
 			</a>
 		)
@@ -61,18 +66,24 @@ export default class Home extends Component {
 	}
 
 	onClickMobileMenuIcon (e) {
-		// if (!this.state.isMobileMenuClicked) {
-		// 	this.setState({
-		// 		"isMobileMenuClicked": true,
-		// 		"introStyleState": "fade",
-		// 		"introCaptionStyleeState": "intro-caption-faded"
-		// 	});
-		// } else if (this.state.isMobileMenuClicked) {
-		// 	this.setState({
-		// 		"isMobileMenuClicked": false,
-		// 		"introStyleState": "",
-		// 		"introCaptionStyleeState": "intro-caption"
-		// 	});
-		// }
+		if (!this.state.isMobileMenuClicked) {
+			this.setState({
+				"isMobileMenuClicked": true,
+				"navbarStyleState": "navbar-accordianed",
+				"navbarAccordianSyleState": "navbar-accordian navbar-accordian-open",
+				"navbarLinkStyleStatus": "navbar navbar-link-accordianed"
+				// "introStyleState": "fade",
+				// "introCaptionStyleeState": "intro-caption-faded"
+			});
+		} else if (this.state.isMobileMenuClicked) {
+			this.setState({
+				"isMobileMenuClicked": false,
+				"navbarStyleState": "navbar center",
+				"navbarAccordianSyleState": "navbar-accordian",
+				"navbarLinkStyleStatus": "navbar-link"
+				// "introStyleState": "",
+				// "introCaptionStyleeState": "intro-caption"
+			});
+		}
 	}
 }
