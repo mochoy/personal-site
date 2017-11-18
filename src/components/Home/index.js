@@ -48,7 +48,7 @@ export default class Home extends Component {
 					<h3 className="intro-description">SAN FRANCISCO, CA</h3>
 				</div>
 			</div>
-
+sdafasdffd
 		)
 	}
 
