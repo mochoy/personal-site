@@ -6,17 +6,20 @@ export default class Home extends Component {
     super(props);
 
 		this.renderNavbarItems = this.renderNavbarItems.bind(this);
+
+		this.onClickMobileMenuIcon = this.onClickMobileMenuIcon.bind(this);
+		this.animateMenuIcon = this.animateMenuIcon.bind(this);
+
 		this.expandNavbar = this.expandNavbar.bind(this);
 		this.collapseNavbar = this.collapseNavbar.bind(this);
-
-		this.animateMobileMenuIcon = this.animateMobileMenuIcon.bind(this);
-		this.onClickMobileMenuIcon = this.onClickMobileMenuIcon.bind(this);
 
 		this.showCaption = this.showCaption.bind(this);
 		this.hideCaption = this.hideCaption.bind(this);
 
 		this.state = {
 			"isMobileMenuClicked": false,
+			"menuIconStyleState": "mobile-menu-icon-bar",
+
 			"introStyleState": "",
 			"navbarStyleState": "navbar",
 			"navbarLinkContainerStyleState": "navbar-link-container",
@@ -44,9 +47,9 @@ export default class Home extends Component {
 						<div
 							id="mobile-menu-icon"
 							onClick={(e) => this.onClickMobileMenuIcon(e)}>
-							<div className="mobile-menu-icon-bar" id="mobile-menu-icon-bar1"></div>
-							<div className="mobile-menu-icon-bar" id="mobile-menu-icon-bar2"></div>
-							<div className="mobile-menu-icon-bar" id="mobile-menu-icon-bar3"></div>
+							<div className={this.state.menuIconStyleState} id="mobile-menu-icon-bar1"></div>
+							<div className={this.state.menuIconStyleState} id="mobile-menu-icon-bar2"></div>
+							<div className={this.state.menuIconStyleState} id="mobile-menu-icon-bar3"></div>
 						</div>
 					</div>
 					<div className={this.state.navbarLinkContainerStyleState}>
@@ -71,23 +74,35 @@ export default class Home extends Component {
 		)
 	}
 
-	animateMobileMenuIcon () {
-		var i = 0;
-	}
-
 	onClickMobileMenuIcon (e) {
 		if (!this.state.isMobileMenuClicked) {
+			this.animateMenuIcon(true);
 			this.expandNavbar();
 			this.hideCaption();
 		} else if (this.state.isMobileMenuClicked) {
+			this.animateMenuIcon(false);
 			this.collapseNavbar();
 			this.showCaption();
 		}
 	}
 
+	animateMenuIcon (toShow) {
+		if (toShow) {
+			this.setState({
+				"isMobileMenuClicked": true,
+				"menuIconStyleState": "mobile-menu-icon-bar mobile-menu-icon-bar-animated",
+			});
+		} else {
+			this.setState({
+				"isMobileMenuClicked": false,
+				"menuIconStyleState": "mobile-menu-icon-bar",
+			});
+		}
+		
+	}
+
 	expandNavbar () {
 		this.setState({
-			"isMobileMenuClicked": true,
 			"navbarStyleState": "navbar-accordianed",
 			"navbarLinkContainerStyleState": "navbar-link-container-accordian",
 			"navbarLinkStyleState": "navbar-link navbar-link-accordianed"
@@ -96,7 +111,6 @@ export default class Home extends Component {
 
 	collapseNavbar () {
 		this.setState({
-			"isMobileMenuClicked": false,
 			"navbarStyleState": "navbar",
 			"navbarLinkContainerStyleState": "navbar-link-container-accordian",
 			"navbarLinkStyleState": "navbar-link"

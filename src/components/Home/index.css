@@ -8,7 +8,6 @@
 }
 
 .navbar, .navbar-accordianed {
-	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	padding-top: 2em;
@@ -27,20 +26,39 @@
 	padding-top: .2em;
 }
 
+
+/*Menu Icon*/
+
 #mobile-menu-icon {
-	/*display: block;*/
 	float: right;
 	cursor: pointer;
-	/*position: relative;*/
+	display: inline-block;
 }
 
 .mobile-menu-icon-bar {
 	width: 1.3em;
 	height: .1em;
 	background-color: white;
-	margin: 6px 0;
+	margin: .5em 0;
 	transition: 0.4s;
 }
+
+.mobile-menu-icon-bar-animated #mobile-menu-icon-bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.mobile-menu-icon-bar-animated #mobile-menu-icon-bar2 {
+  opacity: 0;
+}
+
+.mobile-menu-icon-bar-animated #mobile-menu-icon-bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+/*navbar links*/
 
 .navbar-link-container {
 	float: right;
