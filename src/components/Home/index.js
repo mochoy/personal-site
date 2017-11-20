@@ -6,6 +6,9 @@ export default class Home extends Component {
     super(props);
 
 		this.renderNavbarItems = this.renderNavbarItems.bind(this);
+		this.expandNavbar = this.expandNavbar.bind(this);
+		this.collapseNavbar = this.collapseNavbar.bind(this);
+
 		this.animateMobileMenuIcon = this.animateMobileMenuIcon.bind(this);
 		this.onClickMobileMenuIcon = this.onClickMobileMenuIcon.bind(this);
 
@@ -67,25 +70,29 @@ export default class Home extends Component {
 
 	onClickMobileMenuIcon (e) {
 		if (!this.state.isMobileMenuClicked) {
-			this.setState({
-				"isMobileMenuClicked": true,
-				"navbarStyleState": "navbar-accordianed",
-				"navbarTitleStyleState": "navbar-title-accordianed",
-				"navbarLinkContainerSyleState": "navbar-link-container-accordianed",
-				"navbarLinkSyleState": "navbar-link navbar-link-accordianed"
-				// "introStyleState": "fade",
-				// "introCaptionStyleeState": "intro-caption-faded"
-			});
+			this.expandNavbar();
 		} else if (this.state.isMobileMenuClicked) {
-			this.setState({
-				"isMobileMenuClicked": false,
-				"navbarStyleState": "navbar center",
-				"navbarTitleStyleState": "navbar-title",
-				// "navbarLinksSyleState": "navbar-accordian",
-				"navbarLinkSyleState": "navbar-link"
-				// "introStyleState": "",
-				// "introCaptionStyleeState": "intro-caption"
-			});
+			this.collapseNavbar();
 		}
 	}
+
+	expandNavbar () {
+		this.setState({
+			"isMobileMenuClicked": true,
+			"navbarStyleState": "navbar-accordianed",
+			"navbarTitleStyleState": "navbar-title-accordianed",
+			"navbarLinkContainerSyleState": "navbar-link-container-accordianed",
+			"navbarLinkSyleState": "navbar-link navbar-link-accordianed"
+		});
+	}
+
+	collapseNavbar () {
+		this.setState({
+			"isMobileMenuClicked": false,
+			"navbarStyleState": "navbar center",
+			"navbarTitleStyleState": "navbar-title",
+			"navbarLinkSyleState": "navbar-link"
+		});
+	}
+
 }
