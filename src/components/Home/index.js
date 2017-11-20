@@ -15,11 +15,14 @@ export default class Home extends Component {
 		this.state = {
 			"isMobileMenuClicked": false,
 			"introStyleState": "",
-			"introCaptionStyleeState": "intro-caption",
 			"navbarStyleState": "center navbar",
 			"navbarTitleStyleState": "navbar-title",
 			"navbarLinkContainerSyleState": "",
-			"navbarLinkSyleState": "navbar-link"
+			"navbarLinkSyleState": "navbar-link",
+
+			"introCaptionStyleState": "intro-caption",
+			"introTitleStyleState": "intro-title",
+			"introDescriptionStyleState": "intro-description"
 		}
 	}
 
@@ -46,10 +49,10 @@ export default class Home extends Component {
 						<div className="mobile-menu-icon-bar" id="mobile-menu-icon-bar3"></div>
 					</div>
 				</div>
-				<div className={this.state.introCaptionStyleeState}>
-					<h1 className="intro-title">Monty Choy</h1>
-					<h3 className="intro-description">SOFTWARE DEVELOPER/EMBEDDED ELECTRONICS ENGINEER</h3>
-					<h3 className="intro-description">SAN FRANCISCO, CA</h3>
+				<div className={this.state.introCaptionStyleState}>
+					<h1 className={this.state.introTitleStyleState}>Monty Choy</h1>
+					<h3 className={this.state.introDescriptionStyleState}>SOFTWARE DEVELOPER/EMBEDDED ELECTRONICS ENGINEER</h3>
+					<h3 className={this.state.introDescriptionStyleState}>SAN FRANCISCO, CA</h3>
 				</div>
 			</div>
 		)
@@ -93,6 +96,14 @@ export default class Home extends Component {
 			"navbarTitleStyleState": "navbar-title",
 			"navbarLinkSyleState": "navbar-link"
 		});
+	}
+
+	showCaption () {
+
+	}
+
+	hideCaption () {
+
 	}
 
 }
