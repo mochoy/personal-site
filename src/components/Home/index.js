@@ -15,7 +15,7 @@ export default class Home extends Component {
 			"introCaptionStyleeState": "intro-caption",
 			"navbarStyleState": "center navbar",
 			"navbarTitleStyleState": "navbar-title",
-			"navbarLinksSyleState": "navbar-accordian",
+			"navbarLinkContainerSyleState": "",
 			"navbarLinkSyleState": "navbar-link"
 		}
 	}
@@ -32,7 +32,7 @@ export default class Home extends Component {
 				<div
 					className={this.state.navbarStyleState}>
 					<h3 id={this.state.navbarTitleStyleState}>Monty Choy</h3>
-					<div className={this.state.navbarLinksSyleState}>
+					<div className={this.state.navbarLinkContainerSyleState}>
 						{navbarItems}
 					</div>
 					<div
@@ -71,7 +71,7 @@ export default class Home extends Component {
 				"isMobileMenuClicked": true,
 				"navbarStyleState": "navbar-accordianed",
 				"navbarTitleStyleState": "navbar-title-accordianed",
-				// "navbarLinksSyleState": "navbar-accordian navbar-accordian-open",
+				"navbarLinkContainerSyleState": "navbar-link-container-accordianed",
 				"navbarLinkSyleState": "navbar-link navbar-link-accordianed"
 				// "introStyleState": "fade",
 				// "introCaptionStyleeState": "intro-caption-faded"
