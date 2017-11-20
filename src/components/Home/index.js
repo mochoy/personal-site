@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import scrollToElement from 'scroll-to-element';
 import './index.css';
 
 export default class Home extends Component {
@@ -6,6 +7,8 @@ export default class Home extends Component {
     super(props);
 
 		this.renderNavbarItems = this.renderNavbarItems.bind(this);
+
+		this.scrollToElement = this.scrollToElement.bind(this);
 
 		this.onClickMobileMenuIcon = this.onClickMobileMenuIcon.bind(this);
 		this.animateMenuIcon = this.animateMenuIcon.bind(this);
@@ -67,11 +70,15 @@ export default class Home extends Component {
 
 	renderNavbarItems (item) {
 		return (
-			<a href={item.link}
+			<a onClick={(e) => this.scrollToElement(e, item.link)}
 				className={this.state.navbarLinkStyleState}>
 				{item.text}
 			</a>
 		)
+	}
+
+	scrollToElement (e, link) {
+		scrollToElement('#' + link);
 	}
 
 	onClickMobileMenuIcon (e) {

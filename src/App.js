@@ -14,27 +14,27 @@ const homeData = [
     "navbarData": [
       {
         "key": 0,
-        "link": "",
+        "link": "About",
         "text": "About"
       },
       {
         "key": 1,
-        "link": "",
+        "link": "Projects",
         "text": "Projects"
       },
       {
         "key": 2,
-        "link": "",
+        "link": "Blasters",
         "text": "Blasters"
       },
       {
         "key": 3,
-        "link": "",
+        "link": "Architecture",
         "text": "Architecture"
       },
       {
         "key": 4,
-        "link": "",
+        "link": "Tutorials",
         "text": "Tutorials"
       }
     ]
