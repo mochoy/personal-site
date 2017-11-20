@@ -16,10 +16,6 @@
 	padding-right: 2em;
 }
 
-.navbar-header, .navbar-link-container-accordianed {
-
-}
-
 #navbar-title {
 	float: left;
 	display: block;
@@ -50,8 +46,8 @@
 	float: right;
 }
 
-.navbar-link-container-accordianed {
-	margin-top: 4em;
+.navbar-link-container-accordian {
+	margin-top: 4em;	
 }
 
 .navbar-link {

@@ -89,7 +89,7 @@ export default class Home extends Component {
 		this.setState({
 			"isMobileMenuClicked": true,
 			"navbarStyleState": "navbar-accordianed",
-			"navbarLinkContainerStyleState": "navbar-link-container-accordianed",
+			"navbarLinkContainerStyleState": "navbar-link-container-accordian",
 			"navbarLinkStyleState": "navbar-link navbar-link-accordianed"
 		});
 	}
@@ -98,6 +98,7 @@ export default class Home extends Component {
 		this.setState({
 			"isMobileMenuClicked": false,
 			"navbarStyleState": "navbar",
+			"navbarLinkContainerStyleState": "navbar-link-container-accordian",
 			"navbarLinkStyleState": "navbar-link"
 		});
 	}
