@@ -33,8 +33,18 @@
 	padding-left: .4em;
 }
 
+#navbar-title-accordianed {
+	display: block;
+	width: 100%;
+	color: white;	
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.7em;
+}
+
 .navbar-accordian-open {
-	
+
 }
 
 .navbar-link {
@@ -54,6 +64,7 @@
 .navbar-link-accordianed {
 	display: block;
 	width: 100%;
+	padding: 0;
 }
 
 #mobile-menu-icon {

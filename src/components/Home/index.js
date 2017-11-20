@@ -14,6 +14,7 @@ export default class Home extends Component {
 			"introStyleState": "",
 			"introCaptionStyleeState": "intro-caption",
 			"navbarStyleState": "center navbar",
+			"navbarTitleStyleState": "navbar-title",
 			"navbarLinksSyleState": "navbar-accordian",
 			"navbarLinkSyleState": "navbar-link"
 		}
@@ -30,7 +31,7 @@ export default class Home extends Component {
 				style={{backgroundImage: 'url(' + require('assets/bg1.jpg') + ')'}}>
 				<div
 					className={this.state.navbarStyleState}>
-					<h3 id="navbar-title">Monty Choy</h3>
+					<h3 id={this.state.navbarTitleStyleState}>Monty Choy</h3>
 					<div className={this.state.navbarLinksSyleState}>
 						{navbarItems}
 					</div>
@@ -69,7 +70,8 @@ export default class Home extends Component {
 			this.setState({
 				"isMobileMenuClicked": true,
 				"navbarStyleState": "navbar-accordianed",
-				"navbarLinksSyleState": "navbar-accordian navbar-accordian-open",
+				"navbarTitleStyleState": "navbar-title-accordianed",
+				// "navbarLinksSyleState": "navbar-accordian navbar-accordian-open",
 				"navbarLinkSyleState": "navbar-link navbar-link-accordianed"
 				// "introStyleState": "fade",
 				// "introCaptionStyleeState": "intro-caption-faded"
@@ -78,6 +80,7 @@ export default class Home extends Component {
 			this.setState({
 				"isMobileMenuClicked": false,
 				"navbarStyleState": "navbar center",
+				"navbarTitleStyleState": "navbar-title",
 				// "navbarLinksSyleState": "navbar-accordian",
 				"navbarLinkSyleState": "navbar-link"
 				// "introStyleState": "",
