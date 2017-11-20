@@ -7,7 +7,7 @@
   background-size: cover;
 }
 
-.navbar {
+.navbar, .navbar-accordianed {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -16,18 +16,11 @@
 	padding-right: 2em;
 }
 
-.navbar-accordianed {
-  max-width: 100%;
-  /*background-color: #545454;*/
-	padding-top: 2em;
-	padding-left: 2em;
-}
-
 .navbar-header, .navbar-link-container-accordianed {
-	/*max-width: 90%;*/
+
 }
 
-#navbar-title, #navbar-title-accordianed {
+#navbar-title {
 	float: left;
 	display: block;
 	text-align: center;
@@ -38,23 +31,11 @@
 	padding-top: .2em;
 }
 
-#navbar-title-accordianed {
-/*	float: left;
-	display: block;
-	width: 100%;
-	color: white;	
-	margin: 0;
-	text-align: center;
-	text-decoration: none;
-	font-size: 1.7em;
-	padding-top: .2em;*/
-}
-
 #mobile-menu-icon {
-	display: block;
+	/*display: block;*/
 	float: right;
 	cursor: pointer;
-	position: relative;
+	/*position: relative;*/
 }
 
 .mobile-menu-icon-bar {
@@ -119,7 +100,7 @@
 		font-size: 1.5em;
 	}
 
-	#navbar-title, #navbar-title-accordianed {
+	#navbar-title {
 		font-size: 1.7em;
 		padding-top: .4em;
 		/*padding-left: .2em;*/

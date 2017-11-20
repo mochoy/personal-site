@@ -18,8 +18,7 @@ export default class Home extends Component {
 		this.state = {
 			"isMobileMenuClicked": false,
 			"introStyleState": "",
-			"navbarStyleState": "center navbar",
-			"navbarTitleStyleState": "navbar-title",
+			"navbarStyleState": "navbar",
 			"navbarLinkContainerStyleState": "navbar-link-container",
 			"navbarLinkStyleState": "navbar-link",
 
@@ -41,7 +40,7 @@ export default class Home extends Component {
 				<div
 					className={this.state.navbarStyleState}>
 					<div className="navbar-header">
-						<h3 id={this.state.navbarTitleStyleState}>Monty Choy</h3>
+						<h3 id="navbar-title">Monty Choy</h3>
 						<div
 							id="mobile-menu-icon"
 							onClick={(e) => this.onClickMobileMenuIcon(e)}>
@@ -89,8 +88,7 @@ export default class Home extends Component {
 	expandNavbar () {
 		this.setState({
 			"isMobileMenuClicked": true,
-			"navbarStyleState": "navbar-accordianed center",
-			"navbarTitleStyleState": "navbar-title-accordianed",
+			"navbarStyleState": "navbar-accordianed",
 			"navbarLinkContainerStyleState": "navbar-link-container-accordianed",
 			"navbarLinkStyleState": "navbar-link navbar-link-accordianed"
 		});
@@ -99,8 +97,7 @@ export default class Home extends Component {
 	collapseNavbar () {
 		this.setState({
 			"isMobileMenuClicked": false,
-			"navbarStyleState": "navbar center",
-			"navbarTitleStyleState": "navbar-title",
+			"navbarStyleState": "navbar",
 			"navbarLinkStyleState": "navbar-link"
 		});
 	}
