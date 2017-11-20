@@ -20,8 +20,8 @@ export default class Home extends Component {
 			"introStyleState": "",
 			"navbarStyleState": "center navbar",
 			"navbarTitleStyleState": "navbar-title",
-			"navbarLinkContainerSyleState": "",
-			"navbarLinkSyleState": "navbar-link",
+			"navbarLinkContainerStyleState": "navbar-link-container",
+			"navbarLinkStyleState": "navbar-link",
 
 			"introCaptionStyleState": "intro-caption",
 			"introTitleStyleState": "intro-title",
@@ -40,16 +40,18 @@ export default class Home extends Component {
 				style={{backgroundImage: 'url(' + require('assets/bg1.jpg') + ')'}}>
 				<div
 					className={this.state.navbarStyleState}>
-					<h3 id={this.state.navbarTitleStyleState}>Monty Choy</h3>
-					<div className={this.state.navbarLinkContainerSyleState}>
-						{navbarItems}
+					<div className="navbar-header">
+						<h3 id={this.state.navbarTitleStyleState}>Monty Choy</h3>
+						<div
+							id="mobile-menu-icon"
+							onClick={(e) => this.onClickMobileMenuIcon(e)}>
+							<div className="mobile-menu-icon-bar" id="mobile-menu-icon-bar1"></div>
+							<div className="mobile-menu-icon-bar" id="mobile-menu-icon-bar2"></div>
+							<div className="mobile-menu-icon-bar" id="mobile-menu-icon-bar3"></div>
+						</div>
 					</div>
-					<div
-						id="mobile-menu-icon"
-						onClick={(e) => this.onClickMobileMenuIcon(e)}>
-						<div className="mobile-menu-icon-bar" id="mobile-menu-icon-bar1"></div>
-						<div className="mobile-menu-icon-bar" id="mobile-menu-icon-bar2"></div>
-						<div className="mobile-menu-icon-bar" id="mobile-menu-icon-bar3"></div>
+					<div className={this.state.navbarLinkContainerStyleState}>
+						{navbarItems}
 					</div>
 				</div>
 				<div className={this.state.introCaptionStyleState}>
@@ -64,7 +66,7 @@ export default class Home extends Component {
 	renderNavbarItems (item) {
 		return (
 			<a href={item.link}
-				className={this.state.navbarLinkSyleState}>
+				className={this.state.navbarLinkStyleState}>
 				{item.text}
 			</a>
 		)
@@ -87,10 +89,10 @@ export default class Home extends Component {
 	expandNavbar () {
 		this.setState({
 			"isMobileMenuClicked": true,
-			"navbarStyleState": "navbar-accordianed",
+			"navbarStyleState": "navbar-accordianed center",
 			"navbarTitleStyleState": "navbar-title-accordianed",
-			"navbarLinkContainerSyleState": "navbar-link-container-accordianed",
-			"navbarLinkSyleState": "navbar-link navbar-link-accordianed"
+			"navbarLinkContainerStyleState": "navbar-link-container-accordianed",
+			"navbarLinkStyleState": "navbar-link navbar-link-accordianed"
 		});
 	}
 
@@ -99,7 +101,7 @@ export default class Home extends Component {
 			"isMobileMenuClicked": false,
 			"navbarStyleState": "navbar center",
 			"navbarTitleStyleState": "navbar-title",
-			"navbarLinkSyleState": "navbar-link"
+			"navbarLinkStyleState": "navbar-link"
 		});
 	}
 
