@@ -12,6 +12,9 @@ export default class Home extends Component {
 		this.animateMobileMenuIcon = this.animateMobileMenuIcon.bind(this);
 		this.onClickMobileMenuIcon = this.onClickMobileMenuIcon.bind(this);
 
+		this.showCaption = this.showCaption.bind(this);
+		this.hideCaption = this.hideCaption.bind(this);
+
 		this.state = {
 			"isMobileMenuClicked": false,
 			"introStyleState": "",
@@ -74,8 +77,10 @@ export default class Home extends Component {
 	onClickMobileMenuIcon (e) {
 		if (!this.state.isMobileMenuClicked) {
 			this.expandNavbar();
+			this.hideCaption();
 		} else if (this.state.isMobileMenuClicked) {
 			this.collapseNavbar();
+			this.showCaption();
 		}
 	}
 
@@ -99,11 +104,19 @@ export default class Home extends Component {
 	}
 
 	showCaption () {
-
+		this.setState({
+			"introCaptionStyleState": "intro-caption",
+			"introTitleStyleState": "intro-title",
+			"introDescriptionStyleState": "intro-description"
+		});
 	}
 
 	hideCaption () {
-
+		this.setState({
+			"introCaptionStyleState": "hidden",
+			"introTitleStyleState": "hidden",
+			"introDescriptionStyleState": "hidden"
+		});
 	}
 
 }
