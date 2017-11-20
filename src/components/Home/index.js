@@ -14,8 +14,8 @@ export default class Home extends Component {
 			"introStyleState": "",
 			"introCaptionStyleeState": "intro-caption",
 			"navbarStyleState": "center navbar",
-			"navbarAccordianSyleState": "navbar-accordian",
-			"navbarLinkStyleStatus": "navbar-link"
+			"navbarLinksSyleState": "navbar-accordian",
+			"navbarLinkSyleState": "navbar-link"
 		}
 	}
 
@@ -31,7 +31,7 @@ export default class Home extends Component {
 				<div
 					className={this.state.navbarStyleState}>
 					<h3 id="navbar-title">Monty Choy</h3>
-					<div className={this.state.navbarAccordianSyleState}>
+					<div className={this.state.navbarLinksSyleState}>
 						{navbarItems}
 					</div>
 					<div
@@ -48,14 +48,13 @@ export default class Home extends Component {
 					<h3 className="intro-description">SAN FRANCISCO, CA</h3>
 				</div>
 			</div>
-sdafasdffd
 		)
 	}
 
 	renderNavbarItems (item) {
 		return (
 			<a href={item.link}
-				className={this.state.navbarLinkStyleStatus}>
+				className={this.state.navbarLinkSyleState}>
 				{item.text}
 			</a>
 		)
@@ -70,8 +69,8 @@ sdafasdffd
 			this.setState({
 				"isMobileMenuClicked": true,
 				"navbarStyleState": "navbar-accordianed",
-				"navbarAccordianSyleState": "navbar-accordian navbar-accordian-open",
-				"navbarLinkStyleStatus": "navbar navbar-link-accordianed"
+				"navbarLinksSyleState": "navbar-accordian navbar-accordian-open",
+				"navbarLinkSyleState": "navbar-link navbar-link-accordianed"
 				// "introStyleState": "fade",
 				// "introCaptionStyleeState": "intro-caption-faded"
 			});
@@ -79,8 +78,8 @@ sdafasdffd
 			this.setState({
 				"isMobileMenuClicked": false,
 				"navbarStyleState": "navbar center",
-				"navbarAccordianSyleState": "navbar-accordian",
-				"navbarLinkStyleStatus": "navbar-link"
+				// "navbarLinksSyleState": "navbar-accordian",
+				"navbarLinkSyleState": "navbar-link"
 				// "introStyleState": "",
 				// "introCaptionStyleeState": "intro-caption"
 			});

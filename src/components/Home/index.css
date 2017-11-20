@@ -3,21 +3,22 @@
 	width: 100%;
 
 	background-position: center;
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
   background-size: cover;
 }
 
 .navbar {
 	list-style-type: none;
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 	padding-top: 2em;
 	padding-left: 2em;
 	padding-right: 2em;
 }
 
 .navbar-accordianed {
-
+  width: 100%;
+  background-color: black;
 }
 
 #navbar-title {
@@ -32,25 +33,32 @@
 	padding-left: .4em;
 }
 
-.navbar-accordian {
-
+.navbar-accordian-open {
+	
 }
 
-.navbar-accordian-open {
-	background-color: black;
+.navbar-link {
+	color: #ddd;
+	padding: 1em 1em;
+	font-size: 1.2em;
+	display: none;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+}
+
+.navbar-link:hover {
+  color: white;
+}
+
+.navbar-link-accordianed {
+	display: block;
+	width: 100%;
 }
 
 #mobile-menu-icon {
 	float: right;
 	cursor: pointer;
-}
-
-.navbar-link {
-	display: none;
-}
-
-.navbar-link-accordianed {
-
 }
 
 .mobile-menu-icon-bar {
@@ -118,18 +126,7 @@
 	}
 
 	.navbar-link {
-		color: #ddd;
-		padding: 1em 1em;
-		font-size: 1.2em;;
-
 		float: left;
 		display: block;
-		text-align: center;
-		text-decoration: none;
-		margin: 0;
-	}
-
-	.navbar-link:hover {
-	  color: white;
 	}
 }
