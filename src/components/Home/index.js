@@ -61,8 +61,8 @@ export default class Home extends Component {
 				</div>
 				<div className={this.state.introCaptionStyleState}>
 					<h1 className={this.state.introTitleStyleState}>Monty Choy</h1>
-					<h3 className={this.state.introDescriptionStyleState}>SOFTWARE DEVELOPER/EMBEDDED ELECTRONICS ENGINEER</h3>
-					<h3 className={this.state.introDescriptionStyleState}>SAN FRANCISCO, CA</h3>
+					<h3 className={this.state.introDescriptionStyleState}>Hardware Hacker</h3>
+					<h3 className={this.state.introDescriptionStyleState}>San Francisco, CA</h3>
 				</div>
 			</div>
 		)
