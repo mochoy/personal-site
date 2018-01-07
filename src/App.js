@@ -111,7 +111,7 @@ const blasterData = [
           "key": 1,
           "img": "VyperT28.jpg",
           "title": "Vyper T-28",
-          "description": "A perfected integration between three blasters, the Nerf Demolisher, the Nerf Joltz and the Nerf Rayven, with an added Smart Blaster kit containing an ammo counter, voltmeter, and chronograph. Modifications include the integration, 3D printed parts, full rewire to 16 AWG mutlistranded silicon-insulated wiring, MOSFET motor interfacing, lock removal, lubrication of all moving parts, and running off a 2S LiPo.",
+          "description": "A integration between three blasters, the Nerf Demolisher, the Nerf Joltz and the Nerf Rayven, with an added Smart Blaster kit containing an ammo counter, voltmeter, and chronograph. Modifications include the integration, 3D printed parts, full rewire to 16 AWG mutlistranded silicon-insulated wiring, MOSFET motor interfacing, lock removal, lubrication of all moving parts, and running off a 2S LiPo.",
           "code": "https://github.com/etnom/vyper_t-28"
       },
       {
