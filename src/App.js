@@ -189,7 +189,7 @@ const tutorialsData = [
     "title": "Tutorials",
     "backgroundColor": "white",
     "id": "Tutorials"
-  },fasfasdf
+  },
   {
     "data": [
       {
