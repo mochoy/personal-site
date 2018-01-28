@@ -31,7 +31,8 @@ export default class About extends Component {
 				<div className='flex-container'>
 					<a
 						className="flex-item"
-						href="https://github.com/etnom">
+						href="https://github.com/etnom"
+						target="_blank">
 						<img
 							id="gh-img"
 							src={require("assets/github.png")}
