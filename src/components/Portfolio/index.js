@@ -34,10 +34,12 @@ export default class Portfolio extends Component {
 				<div className="links-container flex-container-left">
 					<a
 						className="project-link"
-						href={item.code}>{codeText}</a>
+						href={item.code}
+						target="_blank">{codeText}</a>
 					<a
 						className="project-link"
-						href={item.link}>{linkText}</a>
+						href={item.link}
+						target="_blank">{linkText}</a>
 				</div>
 			</div>
 		)
