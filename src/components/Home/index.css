@@ -16,8 +16,6 @@
 
 .header-text-border {
 	background-color: #545454;
-	padding-left: .5em;
-	padding-right: .5em;
 	letter-spacing: 6px;
 }
 
@@ -33,6 +31,18 @@
 
 .header-description {
 	font-size: 2em;
+}
+
+
+
+
+.left-padding {
+	padding-left: 15px;
+}
+
+.right-padding {
+	padding-right: 15px;
+
 }
 
 
