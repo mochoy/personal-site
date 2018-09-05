@@ -9,9 +9,9 @@
 
 #header {
 	text-align: center;
-
-	width: 50%;
-	margin: auto auto;
+	width: 100%;
+	position: absolute;
+	top: 50%;
 }
 
 
