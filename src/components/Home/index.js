@@ -43,22 +43,6 @@ export default class Home extends Component {
 			<div id="Intro"
 				className={this.state.introStyleState}
 				style={{backgroundImage: 'url(' + require('assets/bg1.jpg') + ')'}}>
-				<div
-					className={this.state.navbarStyleState}>
-					<div className="navbar-header">
-						<h3 id="navbar-title">Monty Choy</h3>
-						<div
-							id="mobile-menu-icon"
-							onClick={(e) => this.onClickMobileMenuIcon(e)}>
-							<div className={this.state.menuIconStyleState} id="mobile-menu-icon-bar1"></div>
-							<div className={this.state.menuIconStyleState} id="mobile-menu-icon-bar2"></div>
-							<div className={this.state.menuIconStyleState} id="mobile-menu-icon-bar3"></div>
-						</div>
-					</div>
-					<div className={this.state.navbarLinkContainerStyleState}>
-						{navbarItems}
-					</div>
-				</div>
 				<div className={this.state.introCaptionStyleState}>
 					<h1 className={this.state.introTitleStyleState}>Monty Choy</h1>
 					<h3 className={this.state.introDescriptionStyleState}>Hardware Hacker</h3>
