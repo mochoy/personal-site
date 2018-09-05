@@ -14,6 +14,13 @@
 	top: 40%;
 }
 
+.header-text-border {
+	background-color: #545454;
+	padding-left: .5em;
+	padding-right: .5em;
+	letter-spacing: 6px;
+}
+
 #header-title, .header-description {
 	color: white;
 	margin-bottom: 0;

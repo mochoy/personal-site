@@ -13,9 +13,15 @@ export default class Home extends Component {
 			<div id="Intro"
 				style={{backgroundImage: 'url(' + require('assets/hawaii-resort.jpg') + ')'}}>
 				<div id="header">
-					<h1 id="header-title">Monty Choy</h1>
-					<h3 className="header-description">Hardware Hacker</h3>
-					<h3 className="header-description">San Francisco, CA</h3>
+					<span 
+						className="header-text-border"
+						id="header-title">Monty Choy</span>
+					<br></br>
+					<span 
+						className="header-text-border header-description">Hardware Hacker</span>
+					<br></br>
+					<span 
+						className="header-text-border header-description">San Francisco, CA</span>
 				</div>
 			</div>
 		)
