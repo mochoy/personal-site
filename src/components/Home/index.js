@@ -43,7 +43,7 @@ export default class Home extends Component {
 			<div id="Intro"
 				className={this.state.introStyleState}
 				style={{backgroundImage: 'url(' + require('assets/bg1.jpg') + ')'}}>
-				<div className={this.state.introCaptionStyleState}>
+				<div id="header">
 					<h1 className={this.state.introTitleStyleState}>Monty Choy</h1>
 					<h3 className={this.state.introDescriptionStyleState}>Hardware Hacker</h3>
 					<h3 className={this.state.introDescriptionStyleState}>San Francisco, CA</h3>
