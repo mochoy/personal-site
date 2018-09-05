@@ -11,19 +11,21 @@
 	text-align: center;
 	width: 100%;
 	position: absolute;
-	top: 50%;
+	top: 40%;
 }
 
 #header-title, .header-description {
 	color: white;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 #header-title {
-
+	font-size: 5em;
 }
 
 .header-description {
-
+	font-size: 2em;
 }
 
 
