@@ -11,7 +11,7 @@ export default class Home extends Component {
 	render () {
 		return (
 			<div id="Intro"
-				style={{backgroundImage: 'url(' + require('assets/bg1.jpg') + ')'}}>
+				style={{backgroundImage: 'url(' + require('assets/hawaii-resort.jpg') + ')'}}>
 				<div id="header">
 					<h1 id="header-title">Monty Choy</h1>
 					<h3 className="header-description">Hardware Hacker</h3>
