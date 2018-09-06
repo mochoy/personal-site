@@ -23,10 +23,12 @@
 
 #header-title {
 	font-size: 5em;
+	font-weight: 100;
 }
 
 .header-description {
 	font-size: 2em;
+	font-weight: 500;
 }
 
 
