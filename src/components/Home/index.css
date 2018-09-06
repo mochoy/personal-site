@@ -15,11 +15,6 @@
 	left: 15%;
 }
 
-.header-text-border {
-	/*background-color: #545454;*/
-	letter-spacing: 6px;
-}
-
 #header-title, .header-description {
 	color: white;
 	margin-bottom: 0;
