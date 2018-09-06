@@ -31,6 +31,7 @@ export default class Home extends Component {
 							className="header-text-border header-description right-padding">
 							CA</span>
 					</div>
+					
 				</div>
 			</div>
 		)
