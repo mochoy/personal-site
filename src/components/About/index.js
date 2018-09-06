@@ -6,7 +6,7 @@ export default class About extends Component {
 		return (
 			<div id="About" className='section'>
 				<div className="about-description">
-					<h3 className="about-title title">About</h3>
+					<h1 id="about-title">About Me</h1>
 					<p>
 							I'm <b>Monty</b>, an aspring software developer and senior at <b>Abraham Lincoln High School</b>.
 							I began coding when my older

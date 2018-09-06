@@ -1,5 +1,5 @@
 #About {
-  background-color: #9999ff;
+  /*background-color: #9999ff;*/
   padding-bottom: 2em;
 }
 
@@ -7,8 +7,10 @@
 
 }
 
-.about-title {
-  font-size: 3em;
+#about-title {
+  font-size: 4em;
+  text-align: center;
+  font-weight: 100;
 }
 
 #gh-img {
