@@ -9,9 +9,10 @@
 
 #header {
 	text-align: center;
-	width: 100%;
+	width: 85%;
 	position: absolute;
-	top: 40%;
+	top: 52%;
+	left: 15%;
 }
 
 .header-text-border {
