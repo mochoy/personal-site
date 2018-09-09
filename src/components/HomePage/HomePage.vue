@@ -5,8 +5,8 @@
   </div>
 </template>
 
-<script src="./HomePage.js"></script>
+<script src="./script.js"></script>
 <style scoped>
 	
-	
+
 </style>
