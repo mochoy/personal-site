@@ -1,8 +1,6 @@
-<template>
-  <div id="HomePage">
-  	<p>fdsfas</p>
-  	{{msg}}
-  </div>
+<template lang="pug">
+#HomePage
+	p Homepage
 </template>
 
 <script src="./script.js"></script>
