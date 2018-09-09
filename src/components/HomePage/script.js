@@ -6,5 +6,8 @@ export default {
     return {
       msg: 'HomePage'
     }
+  },
+  components: {
+  	Header
   }
 }
