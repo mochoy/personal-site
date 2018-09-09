@@ -6,4 +6,7 @@
 </template>
 
 <script src="./HomePage.js"></script>
-<style scoped src="./HomePage.css"></style>
+<style scoped>
+	
+	
+</style>
