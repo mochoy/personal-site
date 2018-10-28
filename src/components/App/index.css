@@ -94,6 +94,8 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   text-align: center;
 }
 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.2); }
 
 
 

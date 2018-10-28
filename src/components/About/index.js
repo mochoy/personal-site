@@ -14,13 +14,13 @@ export default class About extends Component {
 				</div>
 				<h3 className="center-text">Find me here:</h3>
 				<div id="logos-container">
-					<a href="https://github.com/etnom" target="_blank" className="about-logo">
+					<a href="https://github.com/etnom" target="_blank" className="about-logo grow">
 						<img className="about-logo-img" src={require('assets/images/logos/github logo.png')} alt="github logo"/>
 					</a>
-					<a href="https://www.linkedin.com/in/montychoy/" target="_blank" className="about-logo">
+					<a href="https://www.linkedin.com/in/montychoy/" target="_blank" className="about-logo grow">
 						<img className="about-logo-img" src={require('assets/images/logos/linkedin.png')} alt="linkedin logo"/>
 					</a>
-					<a href="mailto:mochoy@calpoly.edu" target="_blank" className="about-logo">
+					<a href="mailto:mochoy@calpoly.edu" target="_blank" className="about-logo grow">
 						<img className="about-logo-img" src={require('assets/images/logos/email.png')} alt="email logo"/>
 					</a>
 				</div>
