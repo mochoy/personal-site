@@ -12,6 +12,8 @@ export default class About extends Component {
 					</p>
 					<p>I'm a first year electrical engineer at Cal Poly SLO. I learned to code after my brother brought me to my first hackathon and got involved in electronics after he gave me an Arduino kit.</p>
 				</div>
+				<div id="logos-container">
+				</div>
 			</div>
 
 		)
