@@ -10,6 +10,7 @@ export default class About extends Component {
 					<p className="about-description-text">
 							I'm Monty. I like to make cool things with electronics and code and sometimes put them in my Nerf guns. I also like to breakdance. 
 					</p>
+					<p>I'm a first year electrical engineer at Cal Poly SLO. I learned to code after my brother brought me to a hackathon and got involved in electronics when he gifted me an Arduino kit a few years later.</p>
 				</div>
 				<div id="logos-container">
 				</div>
