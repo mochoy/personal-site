@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 
 import './App.css';
 
-import Home from './components/Home/index';
-import About from './components/About/index';
-import TransitionImg from './components/TransitionImg/index';
-import Portfolio from './components/Portfolio/index';
-import ArtAndArchitecture from './components/ArtAndArchitecture/index';
+import Home from './Components/Home/index';
+import About from './Components/About/index';
+import TransitionImg from './Components/TransitionImg/index';
+import Portfolio from './Components/Portfolio/index';
+import ArtAndArchitecture from './Components/ArtAndArchitecture/index';
 
 const homeData = [
   {
