@@ -31,6 +31,50 @@ export const  data = {
 	    ]
 	  }
 	],
+	about: [
+		{
+			id: 0,
+			name: "github",
+			imgSrc: "assets/images/logos/github logo.png",
+			link: "https://github.com/etnom"
+		}, 
+		{
+			id: 1,
+			name: "linkedin",
+			imgSrc: "assets/images/logos/linkedin.png",
+			link: "https://github.com/etnom"
+		},
+		{
+			id: 2,
+			name: "email",
+			imgSrc: "assets/images/logos/email.png",
+			link: "https://github.com/etnom"
+		},
+		{
+			id: 3,
+			name: "facebook",
+			imgSrc: "assets/images/logos/enail.png",
+			link: "https://github.com/etnom"
+		},
+		{
+			id: 4,
+			name: "instagram",
+			imgSrc: "assets/images/logos/instagram.jpg",
+			link: "https://github.com/etnom"
+		},
+		{
+			id: 5,
+			name: "paypal",
+			imgSrc: "assets/images/logos/paypal.png",
+			link: "https://github.com/etnom"
+		},
+		{
+			id: 6,
+			name: "suild",
+			imgSrc: "assets/images/logos/Suild Logo.png",
+			link: "https://github.com/etnom"
+		}
+	],
 	transImgData: [
 	  "Buildings.jpg",
 	  "Bridge.jpg",
