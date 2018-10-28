@@ -16,6 +16,9 @@ export default class About extends Component {
 					<a href="https://github.com/etnom" target="_blank" className="about-logo">
 						<img className="about-logo-img" src={require('assets/images/logos/github logo.png')} alt="github logo"/>
 					</a>
+					<a href="https://www.linkedin.com/in/montychoy/" target="_blank" className="about-logo">
+						<img className="about-logo-img" src={require('assets/images/logos/linkedin.png')} alt="linkedin logo"/>
+					</a>
 				</div>
 			</div>
 
