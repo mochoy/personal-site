@@ -9,36 +9,7 @@ import Portfolio from '../Portfolio/index';
 import ArtAndArchitecture from '../ArtAndArchitecture/index';
 
 const homeData = [
-  {
-    "key": 0,
-    "navbarData": [
-      {
-        "key": 0,
-        "link": "About",
-        "text": "About"
-      },
-      {
-        "key": 1,
-        "link": "Projects",
-        "text": "Projects"
-      },
-      {
-        "key": 2,
-        "link": "Blasters",
-        "text": "Blasters"
-      },
-      {
-        "key": 3,
-        "link": "Architecture",
-        "text": "Architecture"
-      },
-      {
-        "key": 4,
-        "link": "Tutorials",
-        "text": "Tutorials"
-      }
-    ]
-  }
+  
 ]
 
 const transImgData = [
@@ -221,13 +192,13 @@ const tutorialsData = [
 
 export default class App extends Component {
   render() {
-    let data = require('assets/data/data.js')
+    let data = require('assets/data/data.js').data
 
     console.log(data)
 
     return (
       <div className="App">
-        <Home data={homeData}/>
+        <Home data={data.homeData}/>
         
 
       </div>
