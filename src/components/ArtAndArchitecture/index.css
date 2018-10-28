@@ -1,0 +1,17 @@
+#ArtAndArchitecture {
+  background-color: #9999ff;
+  padding-bottom: 2em;
+}
+
+.about-title {
+  font-size: 3em;
+}
+
+.artAndArchitecture-item {
+  margin-bottom: 2em;
+}
+
+.artAndArchitecture-item-title {
+  margin-bottom: 0;
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,52 @@
+#Intro {
+	height: 100%;
+	width: 100%;
+
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header {
+	text-align: center;
+	width: 85%;
+	position: absolute;
+	top: 52%;
+	left: 15%;
+}
+
+.header-text-border {
+	/*background-color: #545454;*/
+	letter-spacing: 6px;
+}
+
+#header-title, .header-description {
+	color: white;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#header-title {
+	font-size: 5em;
+}
+
+.header-description {
+	font-size: 2em;
+}
+
+
+
+
+.left-padding {
+	padding-left: 15px;
+}
+
+.right-padding {
+	padding-right: 15px;
+
+}
+
+
+
+
+
