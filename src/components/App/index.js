@@ -20,7 +20,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Home data={this.data.homeData}/>
-        
+        <ArtAndArchitecture data={this.data.architectureData}/> 
 
       </div>
     );
