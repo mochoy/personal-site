@@ -23,6 +23,9 @@ export default class About extends Component {
 					<a href="mailto:mochoy@calpoly.edu" target="_blank" className="about-logo grow">
 						<img className="about-logo-img" src={require('assets/images/logos/email.png')} alt="email logo"/>
 					</a>
+					<a href="https://www.facebook.com/monty.choy" target="_blank" className="about-logo grow">
+						<img className="about-logo-img" src={require('assets/images/logos/facebook.png')} alt="facebook logo"/>
+					</a>
 				</div>
 			</div>
 
