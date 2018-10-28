@@ -224,15 +224,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Home data={homeData}/>
-        <About/>
-        <TransitionImg link={transImgData[0]} />
-        <Portfolio data={projectData}/>
-        <TransitionImg link={transImgData[1]} />
-        <Portfolio data={blasterData}/>
-        <TransitionImg link={transImgData[2]} />
-        <ArtAndArchitecture data={artAndArchitectureData} />
-        <TransitionImg link={transImgData[3]} />
-        <Portfolio data={tutorialsData}/>
+        
 
       </div>
     );
