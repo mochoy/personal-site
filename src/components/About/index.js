@@ -6,13 +6,13 @@ export default class About extends Component {
 		return (
 			<div id="About" className='section'>
 				<div className="about-description">
-					<h4 className="about-title title">Hi!</h4>
+					<h1 className="about-title title">Hi!</h1>
 					<p className="about-description-text">
 							I'm Monty. I like to make cool things with electronics and code and sometimes put them in my Nerf guns. I also like to breakdance. 
 					</p>
 					<p>I'm a first year electrical engineer at Cal Poly SLO. I learned to code after my brother brought me to a hackathon and got involved in electronics when he gifted me an Arduino kit a few years later.</p>
 				</div>
-				<h3 className="center-text">Find me here:</h3>
+				<h2 className="center-text">Find me here:</h2>
 				<div id="logos-container">
 					<a href="https://github.com/etnom" target="_blank" className="about-logo grow">
 						<img className="about-logo-img" src={require('assets/images/logos/github logo.png')} alt="github logo"/>
