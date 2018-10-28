@@ -8,10 +8,6 @@ import TransitionImg from '../TransitionImg/index';
 import Portfolio from '../Portfolio/index';
 import ArtAndArchitecture from '../ArtAndArchitecture/index';
 
-const homeData = [
-  
-]
-
 const transImgData = [
   "Buildings.jpg",
   "Bridge.jpg",
@@ -191,14 +187,16 @@ const tutorialsData = [
 ];
 
 export default class App extends Component {
+  constructor (props) {
+    super(props);
+
+    this.data = require('assets/data/data.js').data;
+  }
+
   render() {
-    let data = require('assets/data/data.js').data
-
-    console.log(data)
-
     return (
       <div className="App">
-        <Home data={data.homeData}/>
+        <Home data={this.data.homeData}/>
         
 
       </div>
