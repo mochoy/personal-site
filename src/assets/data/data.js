@@ -53,7 +53,7 @@ export const  data = {
 		{
 			id: 3,
 			name: "facebook",
-			imgSrc: "email.png",
+			imgSrc: "facebook.png",
 			link: "https://github.com/etnom"
 		},
 		{
