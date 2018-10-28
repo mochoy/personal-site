@@ -29,6 +29,12 @@ export default class About extends Component {
 					<a href="https://www.instagram.com/darn_bok_choi_is_taken/" target="_blank" className="about-logo grow">
 						<img className="about-logo-img" src={require('assets/images/logos/instagram.jpg')} alt="instagram logo"/>
 					</a>
+					<a href="https://paypal.me/suild" target="_blank" className="about-logo grow">
+						<img className="about-logo-img" src={require('assets/images/logos/paypal.jpg')} alt="paypal logo"/>
+					</a>
+					<a href="https://suild.com" target="_blank" className="about-logo grow">
+						<img className="about-logo-img" src={require('assets/images/logos/Suild Logo.png')} alt="suild logo"/>
+					</a>
 				</div>
 			</div>
 
