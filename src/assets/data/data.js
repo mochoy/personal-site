@@ -35,43 +35,43 @@ export const  data = {
 		{
 			id: 0,
 			name: "github",
-			imgSrc: "assets/images/logos/github logo.png",
+			imgSrc: "github logo.png",
 			link: "https://github.com/etnom"
 		}, 
 		{
 			id: 1,
 			name: "linkedin",
-			imgSrc: "assets/images/logos/linkedin.png",
+			imgSrc: "linkedin.png",
 			link: "https://github.com/etnom"
 		},
 		{
 			id: 2,
 			name: "email",
-			imgSrc: "assets/images/logos/email.png",
+			imgSrc: "email.png",
 			link: "https://github.com/etnom"
 		},
 		{
 			id: 3,
 			name: "facebook",
-			imgSrc: "assets/images/logos/enail.png",
+			imgSrc: "email.png",
 			link: "https://github.com/etnom"
 		},
 		{
 			id: 4,
 			name: "instagram",
-			imgSrc: "assets/images/logos/instagram.jpg",
+			imgSrc: "instagram.jpg",
 			link: "https://github.com/etnom"
 		},
 		{
 			id: 5,
 			name: "paypal",
-			imgSrc: "assets/images/logos/paypal.png",
+			imgSrc: "paypal.jpg",
 			link: "https://github.com/etnom"
 		},
 		{
 			id: 6,
 			name: "suild",
-			imgSrc: "assets/images/logos/Suild Logo.png",
+			imgSrc: "Suild Logo.png",
 			link: "https://github.com/etnom"
 		}
 	],
