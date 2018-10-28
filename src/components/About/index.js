@@ -3,6 +3,8 @@ import './index.css';
 
 export default class About extends Component {
 	render () {
+		let logos = this.props.data.map(this.renderLogos);
+
 		return (
 			<div id="About" className='section'>
 				<div className="about-description">
@@ -14,30 +16,19 @@ export default class About extends Component {
 				</div>
 				<h2 className="center-text">Find me here:</h2>
 				<div id="logos-container">
-					<a href="https://github.com/etnom" target="_blank" className="about-logo grow">
-						<img className="about-logo-img" src={require('assets/images/logos/github logo.png')} alt="github logo"/>
-					</a>
-					<a href="https://www.linkedin.com/in/montychoy/" target="_blank" className="about-logo grow">
-						<img className="about-logo-img" src={require('assets/images/logos/linkedin.png')} alt="linkedin logo"/>
-					</a>
-					<a href="mailto:mochoy@calpoly.edu" target="_blank" className="about-logo grow">
-						<img className="about-logo-img" src={require('assets/images/logos/email.png')} alt="email logo"/>
-					</a>
-					<a href="https://www.facebook.com/monty.choy" target="_blank" className="about-logo grow">
-						<img className="about-logo-img" src={require('assets/images/logos/facebook.png')} alt="facebook logo"/>
-					</a>
-					<a href="https://www.instagram.com/darn_bok_choi_is_taken/" target="_blank" className="about-logo grow">
-						<img className="about-logo-img" src={require('assets/images/logos/instagram.jpg')} alt="instagram logo"/>
-					</a>
-					<a href="https://paypal.me/suild" target="_blank" className="about-logo grow">
-						<img className="about-logo-img" src={require('assets/images/logos/paypal.jpg')} alt="paypal logo"/>
-					</a>
-					<a href="https://suild.com" target="_blank" className="about-logo grow">
-						<img className="about-logo-img" src={require('assets/images/logos/Suild Logo.png')} alt="suild logo"/>
-					</a>
+					{logos}
 				</div>
 			</div>
 
+		)
+	}
+
+	renderLogos(logoData) {
+		console.log(logoData)
+		return (
+			<a href={logoData.link} target="_blank" className="about-logo grow">
+				<img className="about-logo-img" src={require(`assets/images/logos/${logoData.imgSrc}`)} alt={logoData.name + "logo"}/>
+			</a>
 		)
 	}
 }
