@@ -35,7 +35,7 @@ export default class About extends Component {
 						target="_blank">
 						<img
 							id="gh-img"
-							src={require("assets/github.png")}
+							// src={require("assets/github.png")}
 						/>
 					</a>
 				</div>
