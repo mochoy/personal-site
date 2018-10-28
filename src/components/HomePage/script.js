@@ -11,9 +11,9 @@ export default {
     }
   },
   components: {
-  	Header
+  	Header : Header
   },
   created() {
-    this.a = {a: "b"}
+    this.config = config; 
   }
 }
