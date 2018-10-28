@@ -42,37 +42,37 @@ export const  data = {
 			id: 1,
 			name: "linkedin",
 			imgSrc: "linkedin.png",
-			link: "https://github.com/etnom"
+			link: "https://www.linkedin.com/in/montychoy/"
 		},
 		{
 			id: 2,
 			name: "email",
 			imgSrc: "email.png",
-			link: "https://github.com/etnom"
+			link: "mailto:mochoy@calpoly.edu"
 		},
 		{
 			id: 3,
 			name: "facebook",
 			imgSrc: "facebook.png",
-			link: "https://github.com/etnom"
+			link: "https://www.facebook.com/monty.choy"
 		},
 		{
 			id: 4,
 			name: "instagram",
 			imgSrc: "instagram.jpg",
-			link: "https://github.com/etnom"
+			link: "https://www.instagram.com/darn_bok_choi_is_taken/"
 		},
 		{
 			id: 5,
 			name: "paypal",
 			imgSrc: "paypal.jpg",
-			link: "https://github.com/etnom"
+			link: "https://paypal.me/suild"
 		},
 		{
 			id: 6,
 			name: "suild",
 			imgSrc: "Suild Logo.png",
-			link: "https://github.com/etnom"
+			link: "https://suild.com"
 		}
 	],
 	transImgData: [
