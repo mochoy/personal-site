@@ -221,6 +221,10 @@ const tutorialsData = [
 
 export default class App extends Component {
   render() {
+    let data = require('assets/data/data.js')
+
+    console.log(data)
+
     return (
       <div className="App">
         <Home data={homeData}/>
