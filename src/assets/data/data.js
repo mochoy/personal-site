@@ -30,5 +30,15 @@ export const  data = {
 	      }
 	    ]
 	  }
-	  ]
+	],
+	transImgData: [
+	  "Buildings.jpg",
+	  "Bridge.jpg",
+	  "GreatAmerica.jpg",
+	  "DiagonalThing.jpg",
+	  "Cookie.jpg",
+	  "Lighthouse.jpg",
+	  "Portland.jpg",
+	  "Beach.jpg"
+	]
 }

@@ -8,16 +8,6 @@ import TransitionImg from '../TransitionImg/index';
 import Portfolio from '../Portfolio/index';
 import ArtAndArchitecture from '../ArtAndArchitecture/index';
 
-const transImgData = [
-  "Buildings.jpg",
-  "Bridge.jpg",
-  "GreatAmerica.jpg",
-  "DiagonalThing.jpg",
-  "Cookie.jpg",
-  "Lighthouse.jpg",
-  "Portland.jpg",
-  "Beach.jpg"
-];
 
 const projectData = [
   {
