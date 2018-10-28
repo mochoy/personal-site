@@ -26,6 +26,9 @@ export default class About extends Component {
 					<a href="https://www.facebook.com/monty.choy" target="_blank" className="about-logo grow">
 						<img className="about-logo-img" src={require('assets/images/logos/facebook.png')} alt="facebook logo"/>
 					</a>
+					<a href="https://www.instagram.com/darn_bok_choi_is_taken/" target="_blank" className="about-logo grow">
+						<img className="about-logo-img" src={require('assets/images/logos/instagram.jpg')} alt="instagram logo"/>
+					</a>
 				</div>
 			</div>
 
