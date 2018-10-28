@@ -12,6 +12,7 @@ export default class About extends Component {
 					</p>
 					<p>I'm a first year electrical engineer at Cal Poly SLO. I learned to code after my brother brought me to a hackathon and got involved in electronics when he gifted me an Arduino kit a few years later.</p>
 				</div>
+				<h3 className="center-text">Find me here:</h3>
 				<div id="logos-container">
 					<a href="https://github.com/etnom" target="_blank" className="about-logo">
 						<img className="about-logo-img" src={require('assets/images/logos/github logo.png')} alt="github logo"/>
