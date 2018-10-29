@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
 
-export default class Portfolio extends Component {
+export default class Projects extends Component {
 	render () {
 		let data = this.props.data
 		let projectItems = data[1].data.map(this.renderProjectItems);

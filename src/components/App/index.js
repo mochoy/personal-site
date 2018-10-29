@@ -5,7 +5,7 @@ import './index.css';
 import Home from '../Home/index';
 import About from '../About/index';
 import TransitionImg from '../TransitionImg/index';
-import Projects from '../Portfolio/index';
+import Projects from '../Projects/index';
 import ArtAndArchitecture from '../ArtAndArchitecture/index';
 
 
