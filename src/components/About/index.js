@@ -24,7 +24,6 @@ export default class About extends Component {
 	}
 
 	renderLogos(logoData) {
-		console.log(logoData)
 		return (
 			<a href={logoData.link} target="_blank" className="about-logo grow">
 				<img className="about-logo-img" src={require(`assets/images/logos/${logoData.imgSrc}`)} alt={logoData.name + "logo"}/>
