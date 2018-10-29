@@ -27,7 +27,7 @@ export default class Portfolio extends Component {
 		return (
 			<div
 				className="project flex-item project-overlay bg-img"
-				style={{backgroundImage: 'url(' + require(`assets/${item.img}`) + ')'}}
+				style={{backgroundImage: 'url(' + require(`assets/images/projects/${item.img}`) + ')'}}
 				>
 				<h3 className="project-title">{item.title}</h3>
 				<p className="project-description">{item.description}</p>
