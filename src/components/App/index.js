@@ -5,7 +5,7 @@ import './index.css';
 import Home from '../Home/index';
 import About from '../About/index';
 import TransitionImg from '../TransitionImg/index';
-import Portfolio from '../Portfolio/index';
+import Projects from '../Portfolio/index';
 import ArtAndArchitecture from '../ArtAndArchitecture/index';
 
 
@@ -21,7 +21,7 @@ export default class App extends Component {
       <div className="App">
         <Home data={this.data.homeData}/>
         <About data={this.data.about}/> 
-
+        <Projects data={this.data.projectData}/>
       </div>
     );
   }
