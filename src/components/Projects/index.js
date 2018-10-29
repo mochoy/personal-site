@@ -3,15 +3,15 @@ import './index.css';
 
 export default class Projects extends Component {
 	render () {
-		let data = this.props.data
-		let projectItems = data[1].data.map(this.renderProjectItems);
+		let projectItems = this.props.data.map(this.renderProjectItems);
+
 		return (
 			<div
-				className="Portfolio section"
-				id={data[0].id}
+				className="section"
+				id="Projects"
 				style={{backgroundColor: this.props.data[0].backgroundColor}}
 				>
-				<h3 className="title">{data[0].title}</h3>
+				<h3 className="title">Projects</h3>
 				<div id="projects-container" className="flex-container-center">
 					{projectItems}
 				</div>
