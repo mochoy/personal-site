@@ -17,3 +17,8 @@
   display: block;
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+.overlay-title, .overlay-text {
+	visibility: hidden;
+	position: relative;
+}
