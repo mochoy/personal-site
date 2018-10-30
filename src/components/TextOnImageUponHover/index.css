@@ -1,7 +1,7 @@
 .overlay {
   position: relative;
   margin: 2em;
-  padding: .5em;
+  padding: 1em;
 }
 
 .overlay:before{
@@ -42,7 +42,7 @@
 }
 
 .overlay:hover .overlay-title {
-visibility: visible;
+  visibility: visible;
   border-bottom: 1px solid white;
   color: white;
   margin-bottom: .5em;
