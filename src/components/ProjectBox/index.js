@@ -8,7 +8,7 @@ export default class ProjectBox extends Component {
 
 		return (
 			<div className="project-box">
-
+				<img src={require(`assets/images/projects/${this.props.project.img}`)} alt={this.props.project.name}/>
 			</div>
 		)
 	}
