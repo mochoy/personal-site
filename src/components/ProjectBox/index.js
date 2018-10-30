@@ -15,6 +15,10 @@ export default class ProjectBox extends Component {
 					alt={this.props.project.name}
 					title={"title"}
 					txt={"abcd"}/>
+				<div className="project-text">
+					<h2 className="project-title">{this.props.project.title}</h2>
+					<p className="project-description">{this.props.project.description}</p>
+				</div>
 			</div>
 		)
 	}
