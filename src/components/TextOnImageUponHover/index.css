@@ -1,6 +1,7 @@
 .overlay {
   position: relative;
   margin: 2em;
+  padding: .5em;
 }
 
 .overlay:before{
