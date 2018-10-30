@@ -12,3 +12,22 @@
 .project-text {
 	width: 50%;
 }
+
+@media only screen and (max-width: 1160px) {
+	.project-box-img {
+		height: 15em;
+		width: 15em;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.project-box {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.project-text {
+		width: 80%;
+	}
+}
