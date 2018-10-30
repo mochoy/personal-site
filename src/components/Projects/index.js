@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+
 import './index.css';
+import ProjectBox from '../ProjectBox/index'
 
 export default class Projects extends Component {
 	render () {
