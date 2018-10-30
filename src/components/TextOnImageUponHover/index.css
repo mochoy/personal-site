@@ -1,8 +1,8 @@
-.text-on-image-upon-hover {
+.overlay {
   position: relative;
 }
 
-.text-on-image-upon-hover:before{
+.overlay:before{
   position: absolute;
   content:" ";
   top:0;
@@ -13,12 +13,31 @@
   z-index:0;
 }
 
-.text-on-image-upon-hover:hover:before{
+.overlay:hover:before{
   display: block;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.overlay-title, .overlay-text {
+.overlay-title, .overlay-description {
 	visibility: hidden;
 	position: relative;
 }
+
+.overlay:hover .overlay-title {
+visibility: visible;
+  border-bottom: 1px solid white;
+  color: white;
+  margin-bottom: .5em;
+  font-size: 1em;
+  margin-top: .5em;
+  opacity: 1;
+}
+
+.overlay:hover .overlay-description {
+	visibility: visible;
+	color: white;
+	margin-top: 0;
+	opacity: 1;
+	font-size: .75em;
+}
+
