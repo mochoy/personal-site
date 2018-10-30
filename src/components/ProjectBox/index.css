@@ -1,9 +1,14 @@
 .project-box {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: flex-start;
 }
 
 .project-box-img {
 	height: 20em;
 	width: 20em;
+}
+
+.project-text {
+	width: 50%;
 }

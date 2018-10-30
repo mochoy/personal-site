@@ -11,9 +11,8 @@ export default class Projects extends Component {
 			<div
 				className="section"
 				id="Projects"
-				style={{backgroundColor: this.props.data[0].backgroundColor}}
-				>
-				<h3 className="title">Projects</h3>
+				style={{backgroundColor: this.props.data[0].backgroundColor}}>
+				<h3 className="title center-text">Projects</h3>
 				<div id="projects-container" className="flex-container-center">
 					{projectItems}
 				</div>
