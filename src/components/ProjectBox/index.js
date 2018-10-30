@@ -4,9 +4,11 @@ import './index.css';
 
 export default class ProjectBox extends Component {
 	render () {
+		console.log(this.props.project);
+		
 		return (
 			<div id="ProjectBox">
-			
+
 			</div>
 		)
 	}
