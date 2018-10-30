@@ -5,7 +5,7 @@ import './index.css';
 export default class TextOnImageUponHover extends Component {
 	render () {
 		return (
-			<div className={"overlay " + this.props.className}
+			<div className={"overlay bg-img " + this.props.className}
 				style={{backgroundImage:  'url(' + require(`assets/images/${this.props.src}`) + ')'}}>
 
 				<h3 className={"overlay-title " + this.props.titleClassName}>{this.props.title}</h3>
