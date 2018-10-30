@@ -24,6 +24,22 @@
 	position: relative;
 }
 
+.overlay-title {
+	margin-top: 0em;
+	-webkit-transition: margin .2s;
+	transition: margin .2s;
+}
+
+.overlay-description {
+	opacity: 0.5;
+	transition: opacity .2s;
+	-webkit-transition: opacity .2s;
+
+	-webkit-transition: margin .2s;
+	transition: margin .2s;
+	margin-top: 3em;
+}
+
 .overlay:hover .overlay-title {
 visibility: visible;
   border-bottom: 1px solid white;
