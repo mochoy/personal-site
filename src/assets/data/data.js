@@ -88,6 +88,12 @@ export const  data = {
 	projectData: [
 		{
 		  "key": 0,
+		  "img": "motorchart.png",
+		  "title": "Interactive Motor Chart",
+		  "description": "Interactive chart to display specifications, information, and purchase locations of aftermarket Nerf motors for flywheel system applications."
+		},
+		{
+		  "key": 0,
 		  "img": "suildwebsite.png",
 		  "title": "Suild.com",
 		  "description": "Website to sell custom electronics, kits, and more for modifed Nerf blasters as well as display tutorials and technical documentation."
