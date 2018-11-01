@@ -5,8 +5,8 @@
 }
 
 .project-box-img {
-	height: 20em;
-	width: 20em;
+	height: 15em;
+	width: 15em;
 }
 
 .project-text {
@@ -15,8 +15,8 @@
 
 @media only screen and (max-width: 1160px) {
 	.project-box-img {
-		height: 15em;
-		width: 15em;
+/*		height: 10em;
+		width: 1em;*/
 	}
 }
 
