@@ -113,13 +113,6 @@ export const  data = {
 		  "code": "https://github.com/etnom/arduino-chronograph"
 		},
 		{
-			"key": 3,
-			"img": "personalsite.png",
-		  "title": "Personal Website",
-		  "description": "What you're on right now! Website to display who I am and what I have done. Made with React.",
-		  "code": "https://github.com/etnom/personal-site"
-		},
-		{
 		"key": 4,
 		"img": "iatw.png",
 		"title": "Isaac Against the World",
