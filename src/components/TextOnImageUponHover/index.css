@@ -47,8 +47,9 @@
   color: white;
   margin-bottom: .5em;
   font-size: 1em;
-  margin-top: .5em;
+  /*margin-top: .5em;*/
   opacity: 1;
+  font-size: 1.5em;
 }
 
 .overlay:hover .overlay-description {
