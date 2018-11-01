@@ -13,7 +13,7 @@ export default class ProjectBox extends Component {
 				<TextOnImageUponHover className={"project-box-img"}
 					src={"projects/"+ this.props.project.img}
 					alt={this.props.project.name}
-					title={"title"}
+					title={this.props.project.title}
 					txt={"abcd"}/>
 				<div className="project-text">
 					<h2 className="project-title">{this.props.project.title}</h2>
