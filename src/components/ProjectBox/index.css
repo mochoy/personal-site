@@ -19,16 +19,27 @@
 	flex-wrap: wrap;
 }
 
-.link-btn-blue-project {
+.link-btn-blue-project, .link-btn-green-project {
 	border-radius: 20px;
 	border-width: 0;
 	height: 2em;
 	font-size: 1.2em;
+}
+
+.link-btn-blue-project {
 	background-color: #0070ba;
 }
 
 .link-btn-blue-project:hover {
 	background-color: #328cc7;
+}
+
+.link-btn-green-project {
+	background-color: #28a745;
+}
+
+.link-btn-green-project:hover {
+	background-color: #52b86a;
 }
 
 .link-btn-text-project {

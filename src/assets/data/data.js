@@ -121,8 +121,8 @@ export const  data = {
 		  "defaultLink": "0",
 		  "links": [
 		  	{
-		  		"name": "Check It Out",
-		  		"link": "https://suild.com/motor-chart"
+		  		"name": "Code",
+		  		"link": "https://github.com/etnom/smart-blaster"
 		  	}
 		  ]
 		},
