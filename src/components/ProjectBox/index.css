@@ -20,7 +20,19 @@
 }
 
 .link-btn-project {
+	border-radius: 20px;
+	border-width: 1px;
+	height: 2em;
+	font-size: 1.2em;
+	background-color: #0070ba;
+}
 
+.link-btn-project:hover {
+	background-color: #328cc7;
+}
+
+.link-btn-text-project {
+	color: white;
 }
 
 @media only screen and (max-width: 1160px) {
