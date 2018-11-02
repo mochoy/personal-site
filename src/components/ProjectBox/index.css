@@ -13,8 +13,14 @@
 	width: 50%;
 }
 
-.link-btn-container {
-	
+.link-btn-project-container {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.link-btn-project {
+
 }
 
 @media only screen and (max-width: 1160px) {
