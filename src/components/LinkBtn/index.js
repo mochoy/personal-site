@@ -10,7 +10,7 @@ export default class LinkBtn extends Component {
 				<a href={this.props.link} target="_blank">
 					<button className={"linkBtn " + this.props.className}
 						type="button">
-						{this.props.text}
+						<p className={"link-btn-txt " + this.props.textClassName}>{this.props.text}</p>
 					</button>
 				</a>
 			</div>
