@@ -90,7 +90,14 @@ export const  data = {
 		  "key": 0,
 		  "img": "motorchart.png",
 		  "title": "Interactive Motor Chart",
-		  "description": "Interactive chart to display specifications, information, and purchase locations of aftermarket Nerf motors for flywheel system applications."
+		  "description": "Interactive chart to display specifications, information, and purchase locations of aftermarket Nerf motors for flywheel system applications.",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://suild.com/motor-chart"
+		  	}
+		  ]
 		},
 		{
 		  "key": 0,
