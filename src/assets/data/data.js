@@ -103,28 +103,56 @@ export const  data = {
 		  "key": 0,
 		  "img": "suildwebsite.png",
 		  "title": "Suild.com",
-		  "description": "Website to sell custom electronics, kits, and more for modifed Nerf blasters as well as display tutorials and technical documentation."
+		  "description": "Website to sell custom electronics, kits, and more for modifed Nerf blasters as well as display tutorials and technical documentation.",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://suild.com/motor-chart"
+		  	}
+		  ]
 		},
 		{
 		  "key": 1,
 		  "img": "smartBlaster.jpg",
 		  "title": "Smart Blaster",
 		  "description": "A hardware and software platform consisting of stackable PCB modules and a library compatible with Teensy and Arduino microcontrollers enabling ammo counting and more for modified Nerf blasters.",
-		  "code": "https://github.com/etnom/smart-blaster"
+		  "code": "https://github.com/etnom/smart-blaster",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://suild.com/motor-chart"
+		  	}
+		  ]
 		},
 		{
 		  "key": 2,
 		  "img": "arduinoChronograph.jpg",
 		  "title": "Chronograph",
 		  "description": "Arduino-powered blastics chronograph able to track and calculate muzzle velocity of Nerf blasters, airsoft guns, paintball guns, and more. Built with an Arduino Nano, side-looking IR emitters and receivers, I2C monochrome OLED display, PVC, and a cardboard box.",
-		  "code": "https://github.com/etnom/arduino-chronograph"
+		  "code": "https://github.com/etnom/arduino-chronograph",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://suild.com/motor-chart"
+		  	}
+		  ]
 		},
 		{
 		"key": 4,
 		"img": "iatw.png",
 		"title": "Isaac Against the World",
 		"description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser and Annie.",
-		"code": "https://github.com/etnom/isaac-against-the-world"
+		"code": "https://github.com/etnom/isaac-against-the-world",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://suild.com/motor-chart"
+		  	}
+		  ]
 		}
 
 	],
