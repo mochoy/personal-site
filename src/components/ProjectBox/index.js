@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import './index.css';
 
 import TextOnImageUponHover from '../TextOnImageUponHover/index';
+import LinkBtn from '../LinkBtn/index';
+
 
 export default class ProjectBox extends Component {
 	render () {
@@ -17,6 +19,9 @@ export default class ProjectBox extends Component {
 				<div className="project-text">
 					<h2 className="project-title">{this.props.project.title}</h2>
 					<p className="project-description">{this.props.project.description}</p>
+					<div className="link-btn-container">
+
+					</div>
 				</div>
 			</div>
 		)
