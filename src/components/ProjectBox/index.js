@@ -20,7 +20,7 @@ export default class ProjectBox extends Component {
 					<h2 className="project-title">{this.props.project.title}</h2>
 					<p className="project-description">{this.props.project.description}</p>
 					<div className="link-btn-container">
-
+						{linkBtns}
 					</div>
 				</div>
 			</div>
@@ -32,7 +32,7 @@ export default class ProjectBox extends Component {
 			<LinkBtn
 				className={"link-btn-project"}
 				link={linkObj.link}
-				text={linkObj.text}
+				text={linkObj.name}
 			/>
 		)
 	}
