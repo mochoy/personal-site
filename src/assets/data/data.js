@@ -117,7 +117,6 @@ export const  data = {
 		  "img": "smartBlaster.jpg",
 		  "title": "Smart Blaster",
 		  "description": "A hardware and software platform consisting of stackable PCB modules and a library compatible with Teensy and Arduino microcontrollers enabling ammo counting and more for modified Nerf blasters.",
-		  "code": "https://github.com/etnom/smart-blaster",
 		  "defaultLink": "0",
 		  "links": [
 		  	{
@@ -131,12 +130,11 @@ export const  data = {
 		  "img": "arduinoChronograph.jpg",
 		  "title": "Chronograph",
 		  "description": "Arduino-powered blastics chronograph able to track and calculate muzzle velocity of Nerf blasters, airsoft guns, paintball guns, and more. Built with an Arduino Nano, side-looking IR emitters and receivers, I2C monochrome OLED display, PVC, and a cardboard box.",
-		  "code": "https://github.com/etnom/arduino-chronograph",
 		  "defaultLink": "0",
 		  "links": [
 		  	{
-		  		"name": "Check It Out",
-		  		"link": "https://suild.com/motor-chart"
+		  		"name": "Code",
+		  		"link": "https://github.com/etnom/arduino-chronograph"
 		  	}
 		  ]
 		},
@@ -145,12 +143,15 @@ export const  data = {
 		"img": "iatw.png",
 		"title": "Isaac Against the World",
 		"description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser and Annie.",
-		"code": "https://github.com/etnom/isaac-against-the-world",
 		  "defaultLink": "0",
 		  "links": [
 		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/etnom/isaac-against-the-world"
+		  	},
+		  	{
 		  		"name": "Check It Out",
-		  		"link": "https://suild.com/motor-chart"
+		  		"link": "https://www.youtube.com/watch?v=poX0YGmnplM"
 		  	}
 		  ]
 		}
