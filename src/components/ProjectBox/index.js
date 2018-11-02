@@ -8,7 +8,7 @@ import LinkBtn from '../LinkBtn/index';
 
 export default class ProjectBox extends Component {
 	render () {
-		console.log(this.props.project);
+		let linkBtns = this.props.project.links.map(this.renderLinkBtns);
 
 		return (
 			<div className="project-box">
@@ -24,6 +24,16 @@ export default class ProjectBox extends Component {
 					</div>
 				</div>
 			</div>
+		)
+	}
+
+	renderLinkBtns(linkObj) {
+		return (
+			<LinkBtn
+				className={"link-btn-project"}
+				link={linkObj.link}
+				text={linkObj.text}
+			/>
 		)
 	}
 
