@@ -21,7 +21,7 @@
 
 .link-btn-project {
 	border-radius: 20px;
-	border-width: 1px;
+	border-width: 0;
 	height: 2em;
 	font-size: 1.2em;
 	background-color: #0070ba;
