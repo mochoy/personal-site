@@ -28,9 +28,16 @@ export default class ProjectBox extends Component {
 	}
 
 	renderLinkBtns(linkObj) {
+		let className = "";
+		if (linkObj.name === "Check It Out") {
+			className = "link-btn-blue-project";
+		} else if (linkObj.name === "Code") {
+			className = "link-btn-green-project";
+		}
+
 		return (
 			<LinkBtn
-				className={"link-btn-project"}
+				className={className}
 				textClassName={"link-btn-text-project"}
 				link={linkObj.link}
 				text={linkObj.name}

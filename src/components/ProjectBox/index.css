@@ -19,7 +19,7 @@
 	flex-wrap: wrap;
 }
 
-.link-btn-project {
+.link-btn-blue-project {
 	border-radius: 20px;
 	border-width: 0;
 	height: 2em;
@@ -27,7 +27,7 @@
 	background-color: #0070ba;
 }
 
-.link-btn-project:hover {
+.link-btn-blue-project:hover {
 	background-color: #328cc7;
 }
 
