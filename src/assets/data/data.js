@@ -88,6 +88,19 @@ export const  data = {
 	projectData: [
 		{
 		  "key": 0,
+		  "img": "mosfetBoardKit.png",
+		  "title": "MOSFET Board Kit",
+		  "description": "MOSFET board kits for modified Nerf blasters include everything you need to get into MOSFETs for your modified blasters. They can handle everything from stock motors to the most high-draw motors on the market, with ESD and transient protection to lengthen the MOSFET's lifespan. These boards are also Arduino-compatible, you won't need to worry about parasitic oscillation for PWMing your blaster. They're super simple too! No soldering onto the board is required, just some quick soldering onto the motors and the provided connectors, and it's all set!",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://suild.com/shop/0"
+		  	}
+		  ]
+		},
+		{
+		  "key": 0,
 		  "img": "motorchart.png",
 		  "title": "Interactive Motor Chart",
 		  "description": "Interactive chart to display specifications, information, and purchase locations of aftermarket Nerf motors for flywheel system applications.",
