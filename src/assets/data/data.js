@@ -155,7 +155,7 @@ export const  data = {
 		"key": 4,
 		"img": "iatw.png",
 		"title": "Isaac Against the World",
-		"description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser and Annie.",
+		"description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser and Annie. Second place winner of 2016 Congressional App Challenge.",
 		  "defaultLink": "0",
 		  "links": [
 		  	{
