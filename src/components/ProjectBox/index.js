@@ -14,8 +14,7 @@ export default class ProjectBox extends Component {
 			<div className="project-box">
 				<TextOnImageUponHover className={"project-box-img"}
 					src={"projects/"+ this.props.project.img}
-					title={this.props.project.title}
-					txt={"abcd"}/>
+					title={this.props.project.title}/>
 				<div className="project-text">
 					<h2 className="project-title">{this.props.project.title}</h2>
 					<p className="project-description">{this.props.project.description}</p>
