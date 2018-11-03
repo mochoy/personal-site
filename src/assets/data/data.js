@@ -153,6 +153,19 @@ export const  data = {
 		},
 		{
 		"key": 4,
+		"img": "kingOfNepalNoodle.png",
+		"title": "King of Nepal Noodle",
+		"description": "In Andoid game code named 'King of Nepal Noodle', evolve through the ages to defend against the enemies from stealing your treasure by controlling your primary tower, building and upgrading more towers, and setting traps in this tower defense gamed played in the portrait orientation.",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/etnom/king-of-nepal-noodle"
+		  	}
+		  ]
+		},
+		{
+		"key": 4,
 		"img": "iatw.png",
 		"title": "Isaac Against the World",
 		"description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser and Annie. Second place winner of 2016 Congressional App Challenge.",
