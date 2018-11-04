@@ -333,7 +333,6 @@ export const  data = {
 	  },
 	  {
 	    "name": "Calaveras County Cabin",
-	    "by": "Monty",
 	    "imgs": [
 	      {
 	        "key": 0,
