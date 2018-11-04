@@ -8,6 +8,11 @@
 	margin-top: 2em;
 }
 
+.project-box-img {
+	height: 15em;
+	width: 15em;
+}
+
 .project-text-container {
 	width: 50%;
 }

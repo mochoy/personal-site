@@ -4,11 +4,6 @@
 	justify-content: flex-start;
 }
 
-.project-box-img {
-	height: 15em;
-	width: 15em;
-}
-
 .link-btn-project-container {
 	display: flex;
 	justify-content: flex-start;
