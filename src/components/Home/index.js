@@ -21,13 +21,13 @@ export default class Home extends Component {
 					</div>
 
 					<div id="intro-btn-container">
-						<button className="intro-btn"
+						<button className="intro-btn round-btn"
 							onClick={() => scrollToElement("#About")}>About</button>
-						<button className="intro-btn"
+						<button className="intro-btn round-btn"
 							onClick={() => scrollToElement("#Projects")}>Projects</button>
-						<button className="intro-btn"
+						<button className="intro-btn round-btn"
 							onClick={() => scrollToElement("#Architecture")}>Architecture</button>
-						<button className="intro-btn"
+						<button className="intro-btn round-btn"
 							onClick={() => scrollToElement("#Tutorials")}>Tutorials</button>
 					</div>
 					

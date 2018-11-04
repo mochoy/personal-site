@@ -42,5 +42,11 @@
 }
 
 .intro-btn {
-	
+	width: 7em;
+	background-color: transparent;
+	color: white;
+}
+
+.intro-btn:hover {
+	color: #cccccc;
 }
