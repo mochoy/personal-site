@@ -23,7 +23,7 @@ export default class Tutorials extends Component {
 	renderTutorialBoxes(item) {
 		item.img = "tutorials/" + item.img
 		return (
-			<ProjectBox project={item}/>
+			<ProjectBox project={item} className="tutorial-box"/>
 		)
 	}
 
