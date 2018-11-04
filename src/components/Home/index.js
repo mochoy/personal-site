@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import scrollToElement from 'scroll-to-element';
+
 import './index.css';
 
 export default class Home extends Component {
@@ -14,22 +15,20 @@ export default class Home extends Component {
 				style={{backgroundImage: 'url(' + require('assets/images/background/hawaii-beach.jpg') + ')'}}>
 				<div id="header">
 					<div id="header-text">
-						<span 
-							className="header-text-border left-padding right-padding"
-							id="header-title">Monty Choy</span>
-						<br></br>
-						<span 
-							className="header-text-border header-description left-padding">Hardware</span>
-						<span 
-							className="header-text-border header-description left-padding right-padding">Hacker</span>
-						<br></br>
-						<span 
-							className="header-text-border header-description left-padding">San</span>
-						<span 
-							className="header-text-border header-description left-padding right-padding">Francisco,</span>
-						<span 
-							className="header-text-border header-description right-padding">
-							CA</span>
+						<h1 id="header-title">Monty Choy</h1>
+						<h2 className="header-description">Hardware Hacker</h2>
+						<h2 className="header-description">San Francisco, CA</h2>
+					</div>
+
+					<div id="intro-btn-container">
+						<button className="intro-btn round-btn"
+							onClick={() => scrollToElement("#About")}>About</button>
+						<button className="intro-btn round-btn"
+							onClick={() => scrollToElement("#Projects")}>Projects</button>
+						<button className="intro-btn round-btn"
+							onClick={() => scrollToElement("#Architecture")}>Architecture</button>
+						<button className="intro-btn round-btn"
+							onClick={() => scrollToElement("#Tutorials")}>Tutorials</button>
 					</div>
 					
 				</div>

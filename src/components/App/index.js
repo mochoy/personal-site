@@ -8,6 +8,7 @@ import TransitionImg from '../TransitionImg/index';
 import Projects from '../Projects/index';
 import Architecture from '../Architecture/index';
 import Footer from '../Footer/index';
+import Tutorials from '../Tutorials/index';
 
 
 export default class App extends Component {
@@ -24,6 +25,7 @@ export default class App extends Component {
         <About data={this.data.about}/> 
         <Projects data={this.data.projectData}/>
         <Architecture data={this.data.architectureData}/>
+        <Tutorials data={this.data.tutorialsData}/>
         <Footer/>
       </div>
     );

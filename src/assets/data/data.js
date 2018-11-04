@@ -187,23 +187,6 @@ export const  data = {
 		},
 		{
 		  "key": 2,
-		  "img": "personalsite.png",
-		  "title": "Montychoy.com",
-		  "description": "Personal portfolio website about me which also displays some cool Nerf blasters, websites, games, apps,  electronics, and more projects that I have started.",
-		  "defaultLink": "0",
-		  "links": [
-		  	{
-		  		"name": "Code",
-		  		"link": "https://etnom.com/etnom/personal-site"
-		  	},
-		  	{
-		  		"name": "Check It Out",
-		  		"link": "https://montychoy.com"
-		  	}
-		  ]
-		},
-		{
-		  "key": 2,
 		  "img": "nerfAmmoCounter.jpg",
 		  "title": "Nerf Ammo Counter",
 		  "description": "Arduino-powered ammo counter for modified Nerf blasters. Can store and save various magazine sizes and count up from 0. Ammo displayed on small monochrome OLED display.",
@@ -368,23 +351,36 @@ export const  data = {
 	          "img": "mosfetTutorial.png",
 	          "title": "MOSFETs for Nerf",
 	          "description": "An extensive technical write-up on everything there is to know about power MOSFETs for Nerf applications.",
-	          "link": "https://www.reddit.com/r/Nerf/comments/6ufmm8/the_complete_nerf_blaster_mosfet_wiring_tutorial/"
+	          "links": [
+	          	{
+	          		"name": "Check It Out",
+	          		"link": "https://suild.com/docs/0"
+	          	}
+	          ]
 	      },
 	      {
 	          "key": 1,
 	          "img": "awesome-nerf-turret-tutorial.png",
 	          "title": "Let's Robot powered Nerf Turret",
 	          "description": "Follow this tutorial to make an internet-controlled Nerf blaster turret with Let's Robot's robot controllers.",
-	          "code": "https://github.com/etnom/runmyrobot",
-	          "link": "https://letsrobot.readme.io/docs/awesome-nerf-turret"
+	          "links": [
+	          	{
+	          		"name": "Check It Out",
+	          		"link": "https://letsrobot.readme.io/docs/awesome-nerf-turret"
+	          	}
+	          ]
 	      },
 	      {
 	        "key": 2,
 	        "img": "nerf-ammo-counter-tutorial.jpg",
 	          "title": "Nerf Ammo Counter",
 	          "description": "Make your own simple and cheap DIY ammo counter for Nerf blasters.",
-	          "code": "https://github.com/etnom/nerf-ammo-counter",
-	          "link": "https://www.reddit.com/r/Nerf/comments/5f9bjt/nerf_ammo_counter_the_ultimate_simple_cheap/"
+	          "links": [
+	          	{
+	          		"name": "Check It Out",
+	          		"link": "https://suild.com/docs/2"
+	          	}
+	          ]
 	      }
 	    ]
 	  }

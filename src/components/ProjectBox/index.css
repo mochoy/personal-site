@@ -4,27 +4,10 @@
 	justify-content: flex-start;
 }
 
-.project-box-img {
-	height: 15em;
-	width: 15em;
-}
-
-.project-text {
-	width: 50%;
-}
-
 .link-btn-project-container {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-}
-
-.link-btn-blue-project, .link-btn-green-project, .link-btn-orange-project {
-	border-radius: 20px;
-	border-width: 0;
-	height: 2em;
-	font-size: 1.2em;
-	margin-right: 1em;
 }
 
 .link-btn-blue-project {
@@ -76,8 +59,7 @@
 
 @media only screen and (max-width: 500px) {
 	.link-btn-blue-project, .link-btn-green-project, .link-btn-orange-project {
-		margin-top: .5em;
-		margin-bottom: .5em;
+		
 	}
 }
 

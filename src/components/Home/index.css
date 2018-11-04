@@ -17,19 +17,16 @@
 	text-align: center;
 	width: 85%;
 	position: absolute;
-	top: 52%;
+	top: 30%;
 	left: 15%;
-}
-
-.header-text-border {
-	/*background-color: #545454;*/
-	letter-spacing: 6px;
 }
 
 #header-title, .header-description {
 	color: white;
 	margin-bottom: 0;
 	margin-top: 0;
+	font-weight: 1.0;
+
 }
 
 #header-title {
@@ -40,19 +37,29 @@
 	font-size: 2em;
 }
 
-
-
-
-.left-padding {
-	padding-left: 15px;
+#intro-btn-container {
+	margin-top: 2em;
 }
 
-.right-padding {
-	padding-right: 15px;
-
+.intro-btn {
+	width: 7em;
+	background-color: transparent;
+	color: white;
+	font-size: 1.5em;
 }
 
+.intro-btn:hover {
+	color: #cccccc;
+}
 
+@media only screen and (max-width: 540px) {
+	#intro-btn-container {
+		margin-top: 1em;
+	}
 
-
-
+	.intro-btn {
+		margin-top: 0;
+		margin-bottom: 0;
+		/*width: 5em;*/
+	}
+}

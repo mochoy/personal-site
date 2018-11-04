@@ -75,6 +75,19 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   display: none;
 }
 
+.round-btn {
+  border-radius: 20px;
+  border-width: 0;
+  height: 2em;
+  font-size: 1.2em;
+  margin-right: 1em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 @media only screen and (min-width: 480px) {
   .section {
