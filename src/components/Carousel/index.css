@@ -1,57 +1,64 @@
 #Carousel {
-
+  overflow: hidden;
 }
 
-.carousel-slides-container {
-  position: relative;
-  height: 60%;
-  width: 60%;
-  padding-bottom: 1em;
-}
-
-.carousel-img {
-  height: 100%;
-  width: 100%;
-}
-
-.carousel-tog-btn {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
+.fluid-carousel-big-img-container {
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  height: auto;
+  position: relative;
 }
 
-.carousel-tog-btn-right {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+.carousel-big-img {
+  display:block;
+    margin:auto;
+    width: 100%
 }
 
-.carousel-tog-btn:hover {
-  background-color: rgba(0,0,0,0.8);
+.carousel-small-imgs-container {
+  display: flex;
+  margin-top: .5em;
+  justify-content: center;
 }
 
-.dot-container {
-  text-align: center;
+.carousel-small-img {
+  height: 3em;
+  width: 3em;
+  margin: .2em;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity .05s ease-in-out;
 }
 
-.dot {
-  cursor:pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.carousel-small-img:hover {
+  opacity: 1;
 }
 
-.active-dot, .dot:hover {
-  background-color: #717171;
+.carousel-small-img-selected {
+  opacity: 1;
 }
+
+.hidden {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel-big-img {
+    max-width: 80%;
+  }
+
+  .carousel-small-img {
+    height: 2em;
+    width: 2em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .carousel-small-img {
+    height: 1em;
+    width: 1em;
+  }
+}
+
+
+
+

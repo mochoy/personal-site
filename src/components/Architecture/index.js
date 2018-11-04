@@ -21,7 +21,7 @@ export default class Architecture extends Component {
 	renderArtAndArchitectureItems (item) {
 		return (
 			<div className="architecture-item flex-container">
-				<Carousel data={item}/>
+				<Carousel imgs={item.imgs} options={{}}/>
 				<h2 className="architecture-item-title">{item.name}</h2>
 				<p>{item.description1}</p>
 				<p>{item.description2}</p>
