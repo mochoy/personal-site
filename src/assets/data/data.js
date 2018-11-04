@@ -187,23 +187,6 @@ export const  data = {
 		},
 		{
 		  "key": 2,
-		  "img": "personalsite.png",
-		  "title": "Montychoy.com",
-		  "description": "Personal portfolio website about me which also displays some cool Nerf blasters, websites, games, apps,  electronics, and more projects that I have started.",
-		  "defaultLink": "0",
-		  "links": [
-		  	{
-		  		"name": "Code",
-		  		"link": "https://etnom.com/etnom/personal-site"
-		  	},
-		  	{
-		  		"name": "Check It Out",
-		  		"link": "https://www.youtube.com/watch?v=YvN-xl3IVDQ"
-		  	}
-		  ]
-		},
-		{
-		  "key": 2,
 		  "img": "nerfAmmoCounter.jpg",
 		  "title": "Nerf Ammo Counter",
 		  "description": "Arduino-powered ammo counter for modified Nerf blasters. Can store and save various magazine sizes and count up from 0. Ammo displayed on small monochrome OLED display.",
