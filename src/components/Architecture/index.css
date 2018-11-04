@@ -15,7 +15,13 @@
 	margin-bottom: 2em;	
 }
 
+.architecture-item-text-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
 .architecture-item-title {
   margin-bottom: 0;
-  border-bottom: 1px solid black;
+  font-size: 2em;
+  /*border-bottom: 1px solid black;*/
 }
