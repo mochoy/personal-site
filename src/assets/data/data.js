@@ -96,6 +96,10 @@ export const  data = {
 		  	{
 		  		"name": "Check It Out",
 		  		"link": "https://suild.com/shop/0"
+		  	},
+		  	{
+		  		"name": "Schematics",
+		  		"link": "https://github.com/etnom/suild-electrical-designs/blob/master/MOSFET%20Board%20v1.2.png"
 		  	}
 		  ]
 		},
