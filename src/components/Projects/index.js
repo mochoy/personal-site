@@ -24,6 +24,8 @@ export default class Projects extends Component {
 	renderProjectItems(item){
 		let codeText = (item.code ? "Code" : "");
 		let linkText = (item.link ? "Check It Out" : "");
+		
+		item.img = "projects/" + item.img
 
 		return (
 			<ProjectBox project={item}/>
