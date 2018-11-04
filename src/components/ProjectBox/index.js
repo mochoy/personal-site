@@ -33,6 +33,8 @@ export default class ProjectBox extends Component {
 				className = "link-btn-blue-project";
 			} else if (linkObj.name === "Code") {
 				className = "link-btn-green-project";
+			} else if (linkObj.name === "Schematics") {
+				className = "link-btn-orange-project";
 			}
 
 			return (
