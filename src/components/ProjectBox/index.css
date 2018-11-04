@@ -16,6 +16,8 @@
 	height: 2em;
 	font-size: 1.2em;
 	margin-right: 1em;
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 .link-btn-blue-project {
@@ -67,8 +69,7 @@
 
 @media only screen and (max-width: 500px) {
 	.link-btn-blue-project, .link-btn-green-project, .link-btn-orange-project {
-		margin-top: .5em;
-		margin-bottom: .5em;
+		
 	}
 }
 
