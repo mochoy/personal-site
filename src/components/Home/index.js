@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import scrollToElement from 'scroll-to-element';
+
 import './index.css';
 
 export default class Home extends Component {
@@ -17,6 +18,11 @@ export default class Home extends Component {
 						<h1 id="header-title">Monty Choy</h1>
 						<h2 className="header-description">Hardware Hacker</h2>
 						<h2 className="header-description">San Francisco, CA</h2>
+					</div>
+
+					<div id="intro-btn-container">
+						<button className="intro-btn"
+							onClick={() => scrollToElement("#About")}>About</button>
 					</div>
 					
 				</div>
