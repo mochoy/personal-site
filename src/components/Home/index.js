@@ -18,18 +18,8 @@ export default class Home extends Component {
 							className="header-text-border left-padding right-padding"
 							id="header-title">Monty Choy</span>
 						<br></br>
-						<span 
-							className="header-text-border header-description left-padding">Hardware</span>
-						<span 
-							className="header-text-border header-description left-padding right-padding">Hacker</span>
-						<br></br>
-						<span 
-							className="header-text-border header-description left-padding">San</span>
-						<span 
-							className="header-text-border header-description left-padding right-padding">Francisco,</span>
-						<span 
-							className="header-text-border header-description right-padding">
-							CA</span>
+						<h3 className="header-description">Hardware Hacker</h3>
+						<h3 className="header-description">San Francisco, CA</h3>
 					</div>
 					
 				</div>
