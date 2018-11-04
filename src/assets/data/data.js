@@ -156,6 +156,23 @@ export const  data = {
 		  ]
 		},
 		{
+		  "key": 2,
+		  "img": "personalsite.png",
+		  "title": "Montychoy.com",
+		  "description": "Personal portfolio website about me which also displays some cool Nerf blasters, websites, games, apps,  electronics, and more projects that I have started.",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://etnom.com/etnom/personal-site"
+		  	},
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://montychoy.com"
+		  	}
+		  ]
+		},
+		{
 		"key": 4,
 		"img": "kingOfNepalNoodle.png",
 		"title": "King of Nepal Noodle",
