@@ -39,7 +39,7 @@ export default class ProjectBox extends Component {
 
 			return (
 				<LinkBtn
-					className={className}
+					className={"round-btn " + className}
 					textClassName={"link-btn-text-project"}
 					link={linkObj.link}
 					text={linkObj.name}
