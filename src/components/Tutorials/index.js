@@ -14,7 +14,9 @@ export default class Tutorials extends Component {
 				className="section"
 				id="Tutorials">
 				<h1 className="center-text title">Tutorials</h1>
-				{tutorialBoxes}
+				<div id="tutorials-container">
+					{tutorialBoxes}
+				</div>
 			</div>
 
 		)
