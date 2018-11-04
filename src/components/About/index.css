@@ -1,16 +1,38 @@
 #About {
-  background-color: #9999ff;
+  background-color: #EEEEEE;
   padding-bottom: 2em;
 }
 
 .about-description {
-
+	width: 70%;
+	margin: 0 auto;
 }
 
 .about-title {
   font-size: 3em;
 }
 
+.about-description-text {
+	font-size: 1.5em;
+}
+
 #gh-img {
   height: 3em;
+}
+
+#logos-container {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 90%;
+}
+
+.about-logo {
+	margin: 1em;
+}
+
+.about-logo-img {
+	height: 50px;
+	width: 50px;
 }

@@ -1,0 +1,11 @@
+.linkBtn {
+	text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-btn-txt {
+	margin: 0;
+	margin-left: .4em;
+	margin-right: .4em;
+}

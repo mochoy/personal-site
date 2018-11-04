@@ -3,44 +3,31 @@ import './index.css';
 
 export default class About extends Component {
 	render () {
+		let logos = this.props.data.map(this.renderLogos);
+
 		return (
 			<div id="About" className='section'>
 				<div className="about-description">
-					<h3 className="about-title title">About</h3>
-					<p>
-							I'm <b>Monty</b>, an aspring software developer and senior at <b>Abraham Lincoln High School</b>.
-							I began coding when my older
-							brother brought me to my first Hackathon, <b>CodeDay</b>, over
-							five years ago. I've enriched my coding experiences with classes
-							at the City College of San Francisco and <b>Mission Bit</b>, a
-							local non-profit running free
-							coding classes around the Bay Area. I currently develop primarily
-							for <b>Arduino</b>, but I also have a bit of experience in React,
-							Express, and Phaser.
-						</p>
-					<p>
-						Bejond the screen, I enjoy participating in various athletics. I
-						represent my school in Varsity <b>Tennis</b> and Varsity <b>Wrestling</b>,
-						ocassionally running with the school's Cross Country team in local
-						meets. I have also been <b>breakdancing</b> for almost six years,
-						performing in the school's talent show and the annual
-						Brotherhood-Sisterhood Assembly. Oh yeah, I also <b>modify Nerf
-							blasters</b>.
+					<h1 className="about-title title">Hi!</h1>
+					<p className="about-description-text">
+							I'm Monty. I like to make cool things with electronics and code and sometimes put them in my Nerf guns. I also like to breakdance. 
 					</p>
+					<p>I'm a first year electrical engineer at Cal Poly SLO. I learned to code after my brother brought me to a hackathon and got involved in electronics when he gifted me an Arduino kit a few years later.</p>
 				</div>
-				<div className='flex-container'>
-					<a
-						className="flex-item"
-						href="https://github.com/etnom"
-						target="_blank">
-						<img
-							id="gh-img"
-							src={require("assets/github.png")}
-						/>
-					</a>
+				<h2 className="center-text">Find me here:</h2>
+				<div id="logos-container">
+					{logos}
 				</div>
 			</div>
 
+		)
+	}
+
+	renderLogos(logoData) {
+		return (
+			<a href={logoData.link} target="_blank" className="about-logo grow">
+				<img className="about-logo-img" src={require(`assets/images/logos/${logoData.imgSrc}`)} alt={logoData.name + "logo"}/>
+			</a>
 		)
 	}
 }
