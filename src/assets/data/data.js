@@ -99,7 +99,7 @@ export const  data = {
 		  	},
 		  	{
 		  		"name": "Schematics",
-		  		"link": "https://github.com/etnom/suild-electrical-designs/blob/master/MOSFET%20Board%20v1.2.png"
+		  		"link": "https://github.com/mochoy/suild-electrical-designs/blob/master/MOSFET%20Board%20v1.2.png"
 		  	}
 		  ]
 		},
@@ -138,7 +138,7 @@ export const  data = {
 		  "links": [
 		  	{
 		  		"name": "Code",
-		  		"link": "https://github.com/etnom/smart-blaster"
+		  		"link": "https://github.com/mochoy/smart-blaster"
 		  	}
 		  ]
 		},
@@ -151,7 +151,7 @@ export const  data = {
 		  "links": [
 		  	{
 		  		"name": "Code",
-		  		"link": "https://github.com/etnom/runmyrobot"
+		  		"link": "https://github.com/mochoy/runmyrobot"
 		  	}
 		  ]
 		},
@@ -164,7 +164,7 @@ export const  data = {
 		  "links": [
 		  	{
 		  		"name": "Code",
-		  		"link": "https://github.com/etnom/arduino-chronograph"
+		  		"link": "https://github.com/mochoy/arduino-chronograph"
 		  	}
 		  ]
 		},
@@ -177,11 +177,11 @@ export const  data = {
 		  "links": [
 		  	{
 		  		"name": "Code",
-		  		"link": "https://github.com/etnom/vyper_t-28"
+		  		"link": "https://github.com/mochoy/vyper_t-28"
 		  	},
 		  	{
 		  		"name": "Check It Out",
-		  		"link": "https://github.com/etnom/vyper_t-28"
+		  		"link": "https://github.com/mochoy/vyper_t-28"
 		  	}
 		  ]
 		},
@@ -194,7 +194,7 @@ export const  data = {
 		  "links": [
 		  	{
 		  		"name": "Code",
-		  		"link": "https://github.com/etnom/nerf-ammo-counter"
+		  		"link": "https://github.com/mochoy/nerf-ammo-counter"
 		  	},
 		  	{
 		  		"name": "Check It Out",
@@ -215,7 +215,7 @@ export const  data = {
 		  "links": [
 		  	{
 		  		"name": "Code",
-		  		"link": "https://github.com/etnom/king-of-nepal-noodle"
+		  		"link": "https://github.com/mochoy/king-of-nepal-noodle"
 		  	}
 		  ]
 		},
@@ -228,7 +228,7 @@ export const  data = {
 		  "links": [
 		  	{
 		  		"name": "Code",
-		  		"link": "https://github.com/etnom/isaac-against-the-world"
+		  		"link": "https://github.com/mochoy/isaac-against-the-world"
 		  	},
 		  	{
 		  		"name": "Check It Out",
@@ -262,28 +262,28 @@ export const  data = {
 	          "img": "Awesome-Nerf-Turret.png",
 	          "title": "Awesome-Nerf-Turret",
 	          "description": "A Nerf turret based around the Nerf Hyperfire, controlled and streaming live footage online through Let's Robot's controller scripts. Powered by a Raspberry Pi interfacing with the modified blasters through an electromechanical relay.",
-	          "code": "https://github.com/etnom/runmyrobot"
+	          "code": "https://github.com/mochoy/runmyrobot"
 	      },
 	      {
 	          "key": 1,
 	          "img": "VyperT28.jpg",
 	          "title": "Vyper T-28",
 	          "description": "A integration between three blasters, the Nerf Demolisher, the Nerf Joltz and the Nerf Rayven, with an added Smart Blaster kit containing an ammo counter, voltmeter, and chronograph. Modifications include the integration, 3D printed parts, full rewire to 16 AWG mutlistranded silicon-insulated wiring, MOSFET motor interfacing, lock removal, lubrication of all moving parts, and running off a 2S LiPo.",
-	          "code": "https://github.com/etnom/vyper_t-28"
+	          "code": "https://github.com/mochoy/vyper_t-28"
 	      },
 	      {
 	        "key": 2,
 	        "img": "SmartStrayven.jpg",
 	          "title": "Smart Strayven",
 	          "description": "A seemless integration between two blasters, the Nerf Styfe and the Nerf Rayven, with an added Smart Blaster kit containing anammo counter, voltmeter, and chronograph. Modifications include the integration, 3D printed parts, full rewire to 16 AWG mutlistranded silicon-insulated wiring, MOSFET motor interfacing, lock removal, lubrication of all moving parts, and running off a 2S LiPo.",
-	          "code": "https://github.com/etnom/smart-strayven"
+	          "code": "https://github.com/mochoy/smart-strayven"
 	      },
 	      {
 	        "key": 3,
 	        "img": "nerfAmmoCounter.jpg",
 	        "title": "Nerf Ammo Counter",
 	        "description": "Arduino-powered ammo counter built for the Nerf Stryfe including auto-reload detection and magazine size toggling. Blaster modifications include full require, lock removal, lubrication of all moving parts, and running off two IMR batteries.",
-	        "code": "https://github.com/etnom/nerf-ammo-counter"
+	        "code": "https://github.com/mochoy/nerf-ammo-counter"
 	      }
 	    ]
 	  }
