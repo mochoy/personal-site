@@ -1,10 +1,12 @@
 #Architecture {
-  background-color: #9999ff;
+  background-color: #EEEEEE;
   padding-bottom: 2em;
 }
 
-.about-title {
+.architecture-title {
   font-size: 3em;
+  text-align: center;
+  margin-top: 0;
 }
 
 .architecture-item {

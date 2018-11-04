@@ -7,9 +7,10 @@ export default class Architecture extends Component {
 	render () {
 		let _data = this.props.data;
 		let artAndArchitectureItems = _data.map(this.renderArtAndArchitectureItems);
+
 		return (
 			<div id="Architecture" className='section'>
-				<h3 className="title">Architecture</h3>
+				<h3 className="architecture-title">Architecture</h3>
 				<div id="artAndArchitectureItems-container">
 					{artAndArchitectureItems}
 				</div>
