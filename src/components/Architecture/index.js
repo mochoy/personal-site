@@ -11,7 +11,7 @@ export default class Architecture extends Component {
 		return (
 			<div id="Architecture" className='section'>
 				<h3 className="architecture-title">Architecture</h3>
-				<div id="artAndArchitectureItems-container">
+				<div id="architectureItems-container">
 					{artAndArchitectureItems}
 				</div>
 			</div>

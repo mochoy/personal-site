@@ -10,7 +10,9 @@
 }
 
 .architecture-item {
-  margin-bottom: 2em;
+  width: 70%;
+  margin: 0 auto;
+	margin-bottom: 2em;	
 }
 
 .architecture-item-title {
