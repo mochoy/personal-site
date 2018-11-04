@@ -173,6 +173,27 @@ export const  data = {
 		  ]
 		},
 		{
+		  "key": 2,
+		  "img": "nerfAmmoCounter.jpg",
+		  "title": "Nerf Ammo Counter",
+		  "description": "Arduino-powered ammo counter for modified Nerf blasters. Can store and save various magazine sizes and count up from 0. Ammo displayed on small monochrome OLED display.",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/etnom/nerf-ammo-counter"
+		  	},
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "http://nerfhaven.com/forums/topic/27337-ammo-counter-the-ultimate-simple-cheap-guide/"
+		  	},
+		  	{
+		  		"name": "Schematics",
+		  		"link": "http://i.imgur.com/Qt0TCzn.jpg"
+		  	}
+		  ]
+		},
+		{
 		"key": 4,
 		"img": "kingOfNepalNoodle.png",
 		"title": "King of Nepal Noodle",
