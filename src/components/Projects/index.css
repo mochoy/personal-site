@@ -8,6 +8,10 @@
 	margin-top: 2em;
 }
 
+.project-text-container {
+	width: 50%;
+}
+
 @media only screen and (max-width: 1000px) {
 	#projects-container {
 		width: 90%;

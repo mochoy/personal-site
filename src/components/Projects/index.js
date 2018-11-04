@@ -28,7 +28,7 @@ export default class Projects extends Component {
 		item.img = "projects/" + item.img
 
 		return (
-			<ProjectBox project={item}/>
+			<ProjectBox project={item} textContainerClassName="project-text-container"/>
 		)
 	}
 
