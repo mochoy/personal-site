@@ -73,3 +73,11 @@
 		width: 80%;
 	}
 }
+
+@media only screen and (max-width: 500px) {
+	.link-btn-blue-project, .link-btn-green-project, .link-btn-orange-project {
+		margin-top: .5em;
+		margin-bottom: .5em;
+	}
+}
+

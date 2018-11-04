@@ -1,0 +1,27 @@
+#Architecture {
+  background-color: #F3EFE0;
+  padding-bottom: 2em;
+}
+
+.architecture-title {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 0;
+}
+
+.architecture-item {
+  width: 70%;
+  margin: 0 auto;
+	margin-bottom: 5em;	
+}
+
+.architecture-item-text-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.architecture-item-title {
+  margin-bottom: 0;
+  font-size: 2em;
+  /*border-bottom: 1px solid black;*/
+}

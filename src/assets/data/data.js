@@ -143,6 +143,19 @@ export const  data = {
 		  ]
 		},
 		{
+		  "key": 0,
+		  "img": "Awesome-Nerf-Turret.png",
+		  "title": "Awesome Nerf Turret",
+		  "description": "Remote-controlled Nerf Hyperfire turret powered by Let's Robot's realtime platform that allows for real-time streaming and control of the turret through letsrobot.tv",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/etnom/runmyrobot"
+		  	}
+		  ]
+		},
+		{
 		  "key": 2,
 		  "img": "arduinoChronograph.jpg",
 		  "title": "Cardboard Chrony",
@@ -152,6 +165,23 @@ export const  data = {
 		  	{
 		  		"name": "Code",
 		  		"link": "https://github.com/etnom/arduino-chronograph"
+		  	}
+		  ]
+		},
+		{
+		  "key": 0,
+		  "img": "VyperT28.jpg",
+		  "title": "Vyper T-28",
+		  "description": "Integration of three Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/etnom/vyper_t-28"
+		  	},
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://github.com/etnom/vyper_t-28"
 		  	}
 		  ]
 		},
@@ -185,7 +215,7 @@ export const  data = {
 		  	},
 		  	{
 		  		"name": "Check It Out",
-		  		"link": "http://nerfhaven.com/forums/topic/27337-ammo-counter-the-ultimate-simple-cheap-guide/"
+		  		"link": "https://www.youtube.com/watch?v=rPU7j7KLtIw"
 		  	},
 		  	{
 		  		"name": "Schematics",
@@ -303,7 +333,6 @@ export const  data = {
 	  },
 	  {
 	    "name": "Calaveras County Cabin",
-	    "by": "Monty",
 	    "imgs": [
 	      {
 	        "key": 0,
