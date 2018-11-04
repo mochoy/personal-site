@@ -6,7 +6,7 @@ import Home from '../Home/index';
 import About from '../About/index';
 import TransitionImg from '../TransitionImg/index';
 import Projects from '../Projects/index';
-import ArtAndArchitecture from '../ArtAndArchitecture/index';
+import Architecture from '../Architecture/index';
 import Footer from '../Footer/index';
 
 
@@ -23,7 +23,7 @@ export default class App extends Component {
         <Home data={this.data.homeData}/>
         <About data={this.data.about}/> 
         <Projects data={this.data.projectData}/>
-        <ArtAndArchitecture data={this.data.architectureData}/>
+        <Architecture data={this.data.architectureData}/>
         <Footer/>
       </div>
     );

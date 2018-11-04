@@ -1,4 +1,4 @@
-#ArtAndArchitecture {
+#Architecture {
   background-color: #9999ff;
   padding-bottom: 2em;
 }
@@ -7,11 +7,11 @@
   font-size: 3em;
 }
 
-.artAndArchitecture-item {
+.architecture-item {
   margin-bottom: 2em;
 }
 
-.artAndArchitecture-item-title {
+.architecture-item-title {
   margin-bottom: 0;
   border-bottom: 1px solid black;
 }

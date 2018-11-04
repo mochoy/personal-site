@@ -3,12 +3,12 @@ import './index.css';
 
 import Carousel from "../Carousel/index";
 
-export default class ArtAndArchitecture extends Component {
+export default class Architecture extends Component {
 	render () {
 		let _data = this.props.data;
 		let artAndArchitectureItems = _data.map(this.renderArtAndArchitectureItems);
 		return (
-			<div id="ArtAndArchitecture" className='section'>
+			<div id="Architecture" className='section'>
 				<h3 className="title">Architecture</h3>
 				<div id="artAndArchitectureItems-container">
 					{artAndArchitectureItems}
@@ -19,9 +19,9 @@ export default class ArtAndArchitecture extends Component {
 
 	renderArtAndArchitectureItems (item) {
 		return (
-			<div className="artAndArchitecture-item flex-container">
+			<div className="architecture-item flex-container">
 				<Carousel data={item}/>
-				<h2 className="artAndArchitecture-item-title">{item.name}</h2>
+				<h2 className="architecture-item-title">{item.name}</h2>
 				<p>{item.description1}</p>
 				<p>{item.description2}</p>
 				<p>{item.description3}</p>
