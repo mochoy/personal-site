@@ -7,12 +7,12 @@ export default class About extends Component {
 
 		return (
 			<div id="About" className='section'>
-				<div className="about-description">
+				<div className="about-description-container">
 					<h1 className="about-title title">Hi!</h1>
 					<p className="about-description-text">
 							I'm Monty. I like to make cool things with electronics and code and sometimes put them in my Nerf guns. I also like to breakdance. 
 					</p>
-					<p>I'm a first year electrical engineer at Cal Poly SLO. I learned to code after my brother brought me to a hackathon and got involved in electronics when he gifted me an Arduino kit a few years later.</p>
+					<p className="about-description-text">I'm a first year electrical engineer at Cal Poly SLO. I learned to code after my brother brought me to a hackathon and got involved in electronics when he gifted me an Arduino kit a few years later.</p>
 				</div>
 				<h2 className="center-text">Find me here:</h2>
 				<div id="logos-container">
