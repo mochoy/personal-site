@@ -16,8 +16,8 @@ export default class About extends Component {
 					</p>
 					<p className="about-description-text">I'm a first year electrical engineer at Cal Poly SLO. I learned to code after my brother brought me to a hackathon and got involved in electronics when he gifted me an Arduino kit a few years later.</p>
 				</div>
-				<div>
-					<p>Check out the source code for this React project:</p>
+				<p className="center-text">Check out the source code for this React project:</p>
+				<div className="flex-container-center">
 					<LinkBtn
 						className={"round-btn link-btn-green-project"}
 						textClassName={"link-btn-text-project"}
