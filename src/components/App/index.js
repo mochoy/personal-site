@@ -23,6 +23,7 @@ export default class App extends Component {
         <Home data={this.data.homeData}/>
         <About data={this.data.about}/> 
         <Projects data={this.data.projectData}/>
+        <ArtAndArchitecture data={this.data.architectureData}/>
         <Footer/>
       </div>
     );
