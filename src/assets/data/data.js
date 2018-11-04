@@ -143,6 +143,19 @@ export const  data = {
 		  ]
 		},
 		{
+		  "key": 0,
+		  "img": "Awesome-Nerf-Turret.png",
+		  "title": "Awesome Nerf Turret",
+		  "description": "Remote-controlled Nerf Hyperfire turret powered by Let's Robot's realtime platform that allows for real-time streaming and control of the turret through letsrobot.tv",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/etnom/runmyrobot"
+		  	}
+		  ]
+		},
+		{
 		  "key": 2,
 		  "img": "arduinoChronograph.jpg",
 		  "title": "Cardboard Chrony",
