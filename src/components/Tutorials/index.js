@@ -9,7 +9,7 @@ export default class Tutorials extends Component {
 			<div
 				className="section"
 				id="Tutorials">
-				
+				<h1 className="center-text title">Tutorials</h1>
 			</div>
 
 		)
