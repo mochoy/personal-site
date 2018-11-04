@@ -36,7 +36,7 @@ export const  data = {
 			id: 0,
 			name: "github",
 			imgSrc: "github logo.png",
-			link: "https://github.com/etnom"
+			link: "https://github.com/mochoy"
 		}, 
 		{
 			id: 1,
