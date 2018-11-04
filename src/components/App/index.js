@@ -25,7 +25,7 @@ export default class App extends Component {
         <About data={this.data.about}/> 
         <Projects data={this.data.projectData}/>
         <Architecture data={this.data.architectureData}/>
-        <Tutorials/>
+        <Tutorials data={this.data.tutorialsData}/>
         <Footer/>
       </div>
     );
