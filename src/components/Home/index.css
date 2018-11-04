@@ -37,8 +37,8 @@
 	font-size: 2em;
 }
 
-.intro-btn-container {
-
+#intro-btn-container {
+	margin-top: 2em;
 }
 
 .intro-btn {
