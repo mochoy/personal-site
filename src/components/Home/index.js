@@ -23,6 +23,12 @@ export default class Home extends Component {
 					<div id="intro-btn-container">
 						<button className="intro-btn"
 							onClick={() => scrollToElement("#About")}>About</button>
+						<button className="intro-btn"
+							onClick={() => scrollToElement("#Projects")}>Projects</button>
+						<button className="intro-btn"
+							onClick={() => scrollToElement("#Architecture")}>Architecture</button>
+						<button className="intro-btn"
+							onClick={() => scrollToElement("#Tutorials")}>Tutorials</button>
 					</div>
 					
 				</div>
