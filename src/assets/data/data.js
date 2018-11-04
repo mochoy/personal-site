@@ -169,6 +169,23 @@ export const  data = {
 		  ]
 		},
 		{
+		  "key": 0,
+		  "img": "VyperT28.jpg",
+		  "title": "Vyper T-28",
+		  "description": "Integration of three Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/etnom/vyper_t-28"
+		  	},
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://github.com/etnom/vyper_t-28"
+		  	}
+		  ]
+		},
+		{
 		  "key": 2,
 		  "img": "personalsite.png",
 		  "title": "Montychoy.com",
@@ -181,7 +198,7 @@ export const  data = {
 		  	},
 		  	{
 		  		"name": "Check It Out",
-		  		"link": "https://montychoy.com"
+		  		"link": "https://www.youtube.com/watch?v=YvN-xl3IVDQ"
 		  	}
 		  ]
 		},
