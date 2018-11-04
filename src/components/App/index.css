@@ -83,6 +83,9 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   margin-right: 1em;
   margin-top: .5em;
   margin-bottom: .5em;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 
