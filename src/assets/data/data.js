@@ -125,7 +125,7 @@ export const  data = {
 		  "links": [
 		  	{
 		  		"name": "Check It Out",
-		  		"link": "https://suild.com/motor-chart"
+		  		"link": "https://suild.com"
 		  	}
 		  ]
 		},
