@@ -7,8 +7,14 @@ import LinkBtn from '../LinkBtn/index';
 
 
 export default class ContentBox extends Component {
+	constructor(props) {
+		super(props);
+
+		// this.renderLinkBtns = this.renderLinkBtns.bind(this);
+	}
+
 	render () {
-		let linkBtns = this.props.project.links.map(this.renderLinkBtns);
+		let linkBtns = this.props.project.links.map(this.renderLinkBtns.bind(this));
 
 		return (
 			<div className={"content-box " + this.props.className}>
@@ -30,14 +36,7 @@ export default class ContentBox extends Component {
 
 	renderLinkBtns(linkObj) {
 		if (linkObj.name && linkObj.link) {
-			let className = "";
-			if (linkObj.name === "Check It Out") {
-				className = "link-btn-blue-content";
-			} else if (linkObj.name === "Code") {
-				className = "link-btn-green-content";
-			} else if (linkObj.name === "Schematics") {
-				className = "link-btn-orange-content";
-			}
+			let className = this.findClassnameForBtns(linkObj.name);
 
 			return (
 				<LinkBtn
@@ -49,6 +48,16 @@ export default class ContentBox extends Component {
 			)
 		}
 		
+	}
+
+	findClassnameForBtns(name) {
+		if (name === "Check It Out") {
+			return "link-btn-blue-content";
+		} else if (name === "Code") {
+			return "link-btn-green-content";
+		} else if (name === "Schematics") {
+			return "link-btn-orange-content";
+		}
 	}
 
 
