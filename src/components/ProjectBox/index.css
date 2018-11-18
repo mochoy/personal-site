@@ -2,8 +2,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	background-color: #dde6ed;
-	margin-bottom: 2em;
 	border-radius: 4px;
 }
 
