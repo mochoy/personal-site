@@ -1,4 +1,4 @@
-#Portfolio {
+#Projects {
 
 }
 
@@ -15,7 +15,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	width: 90%;
 }
 
 .project-box-img {
@@ -26,14 +25,42 @@
 
 .project-text-container {
 	width: 50%;
+	padding-bottom: 1em;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1180px) {
+	.project-box-img {
+		height: 15em;
+		width: 15em;
+	}
+
 	#projects-container {
 		width: 90%;
 	}
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+
+}
+
+@media only screen and (max-width: 790px) {
+	#projects-container {
+		width: 100%;
+	}
 
 	.project-box {
-		width: 90%
+		width: 95%;
+		justify-content: center;
+	}
+
+	.project-box-img {
+		width: 100%;
+		margin: 0;
+	}
+
+	.project-text-container {
+		width: 80%;
 	}
 }

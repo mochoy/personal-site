@@ -55,15 +55,11 @@
 	.content-box {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
+		/*justify-content: center;*/
 	}
 
 	.content-text {
 		width: 80%;
-	}
-
-	.content-img  {
-		margin: 0 auto;
 	}
 }
 
