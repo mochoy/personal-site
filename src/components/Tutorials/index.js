@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './index.css';
-import ProjectBox from '../ProjectBox/index'
+import ContentBox from '../ContentBox/index'
 
 export default class Tutorials extends Component {
 	render () {
@@ -25,7 +25,7 @@ export default class Tutorials extends Component {
 	renderTutorialBoxes(item) {
 		item.img = "tutorials/" + item.img
 		return (
-			<ProjectBox project={item} 
+			<ContentBox project={item} 
 				className="tutorial-box" 
 				textContainerClassName="tutorial-box-text-container"
 				imgClassName="tutorial-img"/>

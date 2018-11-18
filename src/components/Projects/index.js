@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './index.css';
-import ProjectBox from '../ProjectBox/index'
+import ContentBox from '../ContentBox/index'
 
 export default class Projects extends Component {
 	render () {
@@ -28,9 +28,11 @@ export default class Projects extends Component {
 		item.img = "projects/" + item.img
 
 		return (
-			<ProjectBox project={item} 
-			textContainerClassName="project-text-container"
-			imgClassName="project-box-img"/>
+			<ContentBox 
+				project={item} 
+				className="project-box"
+				textContainerClassName="project-text-container"
+				imgClassName="project-box-img"/>
 		)
 	}
 

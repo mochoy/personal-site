@@ -88,10 +88,40 @@ export const  data = {
 	projectData: [
 		{
 		  "key": 0,
+		  "img": "webControllerNerfBlaster.jpg",
+		  "title": "Web-Controlled Nerf Blaster",
+		  "description": "Web application to control power outputs to control rate-of-fire and firing power of a highly modified Nerf blaster.",
+		  "event": "Cal Poly Arduino Fest 2018",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/mochoy/cal-poly-arduino-fest"
+		  	}
+  		]
+		},
+		{
+		  "key": 0,
+		  "img": "dormDoorman.jpg",
+		  "title": "Doorm Dorman",
+		  "by": "Josh and Monty",
+		  "description": "Uses machine learning and computer vision to unlock a door based upon facial recogition. Also includes Nerf blaster to engage unwanted intruders.",
+		  "event": "Honorable mention at init() by SLO Hacks",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/JoshGrace/SLOhacks-init"
+		  	},
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://devpost.com/software/dorm-doorman"
+		  	}		  	
+		  ]
+		},
+		{
+		  "key": 0,
 		  "img": "mosfetBoardKit.png",
 		  "title": "MOSFET Board Kit",
 		  "description": "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation.",
-		  "defaultLink": "0",
 		  "links": [
 		  	{
 		  		"name": "Check It Out",
@@ -108,7 +138,6 @@ export const  data = {
 		  "img": "motorchart.png",
 		  "title": "Interactive Motor Chart",
 		  "description": "Interactive chart to display specifications, information, and purchase locations of aftermarket Nerf motors for flywheel system applications.",
-		  "defaultLink": "0",
 		  "links": [
 		  	{
 		  		"name": "Check It Out",
@@ -121,11 +150,10 @@ export const  data = {
 		  "img": "suildwebsite.png",
 		  "title": "Suild.com",
 		  "description": "Website to sell custom electronics, kits, and more for modifed Nerf blasters as well as display tutorials and technical documentation.",
-		  "defaultLink": "0",
 		  "links": [
 		  	{
 		  		"name": "Check It Out",
-		  		"link": "https://suild.com/motor-chart"
+		  		"link": "https://suild.com"
 		  	}
 		  ]
 		},
@@ -134,7 +162,6 @@ export const  data = {
 		  "img": "smartBlaster.jpg",
 		  "title": "Smart Blaster",
 		  "description": "A hardware and software platform consisting of stackable PCB modules and a library compatible with Teensy and Arduino microcontrollers enabling ammo counting and more for modified Nerf blasters.",
-		  "defaultLink": "0",
 		  "links": [
 		  	{
 		  		"name": "Code",
@@ -147,7 +174,6 @@ export const  data = {
 		  "img": "Awesome-Nerf-Turret.png",
 		  "title": "Awesome Nerf Turret",
 		  "description": "Remote-controlled Nerf Hyperfire turret powered by Let's Robot's realtime platform that allows for real-time streaming and control of the turret through letsrobot.tv",
-		  "defaultLink": "0",
 		  "links": [
 		  	{
 		  		"name": "Code",
@@ -160,7 +186,6 @@ export const  data = {
 		  "img": "arduinoChronograph.jpg",
 		  "title": "Cardboard Chrony",
 		  "description": "Arduino-powered blastics chronograph able to track and calculate muzzle velocity of Nerf blasters, airsoft guns, paintball guns, and more. Built with an Arduino Nano, side-looking IR emitters and receivers, I2C monochrome OLED display, PVC, and a cardboard box.",
-		  "defaultLink": "0",
 		  "links": [
 		  	{
 		  		"name": "Code",
@@ -173,7 +198,6 @@ export const  data = {
 		  "img": "VyperT28.jpg",
 		  "title": "Vyper T-28",
 		  "description": "Integration of three Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
-		  "defaultLink": "0",
 		  "links": [
 		  	{
 		  		"name": "Code",
@@ -190,7 +214,6 @@ export const  data = {
 		  "img": "nerfAmmoCounter.jpg",
 		  "title": "Nerf Ammo Counter",
 		  "description": "Arduino-powered ammo counter for modified Nerf blasters. Can store and save various magazine sizes and count up from 0. Ammo displayed on small monochrome OLED display.",
-		  "defaultLink": "0",
 		  "links": [
 		  	{
 		  		"name": "Code",
@@ -211,7 +234,6 @@ export const  data = {
 		"img": "kingOfNepalNoodle.png",
 		"title": "King of Nepal Noodle",
 		"description": "In Andoid game code named 'King of Nepal Noodle', evolve through the ages to defend against the enemies from stealing your treasure by controlling your primary tower, building and upgrading more towers, and setting traps in this tower defense gamed played in the portrait orientation.",
-		  "defaultLink": "0",
 		  "links": [
 		  	{
 		  		"name": "Code",
@@ -220,11 +242,12 @@ export const  data = {
 		  ]
 		},
 		{
-		"key": 4,
-		"img": "iatw.png",
-		"title": "Isaac Against the World",
-		"description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser and Annie. Second place winner of 2016 Congressional App Challenge.",
-		  "defaultLink": "0",
+			"key": 4,
+			"img": "iatw.png",
+			"by": "Annie and Monty",
+			"title": "Isaac Against the World",
+			"description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser.",
+			"event": "Mission Bit winter 2015, second place winner of 2016 Congressional App Challenge",
 		  "links": [
 		  	{
 		  		"name": "Code",
@@ -239,9 +262,10 @@ export const  data = {
 		{
 			"key": 4,
 			"img": "fps.png",
+			"by": "Monty and Wesley",
 			"title": "FPS",
 			"description": "First-person survival shooter with tons of guns and zombies powered by Unity. Survive through endless wavies of zombies.",
-		  "defaultLink": "0",
+			"event": "CodeDay 2014",
 		  "links": [
 		  	{
 		  		

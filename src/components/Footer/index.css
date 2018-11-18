@@ -1,11 +1,10 @@
 #Footer {
 	background-color: #303841;
 	height: 15%;
-	display: flex;
-    align-items: center;
-    justify-content: center;
+	padding-top: 2em;
 }
 
-#footer-text {
+#Footer p
+{
 	color: white;
 }
