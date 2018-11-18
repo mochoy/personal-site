@@ -18,6 +18,7 @@ export default class ProjectBox extends Component {
 				<div className={this.props.textContainerClassName}>
 					<h2 className="project-title">{this.props.project.title}</h2>
 					<p className="project-description">{this.props.project.description}</p>
+					<p><i>{this.props.project.event}</i></p>
 					<div className="link-btn-project-container">
 						{linkBtns}
 					</div>
