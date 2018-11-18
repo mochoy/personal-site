@@ -88,6 +88,36 @@ export const  data = {
 	projectData: [
 		{
 		  "key": 0,
+		  "img": "webControllerNerfBlaster.jpg",
+		  "title": "Web-Controlled Nerf Blaster",
+		  "description": "Web application to control power outputs to control rate-of-fire and firing power of a highly modified Nerf blaster.",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/mochoy/cal-poly-arduino-fest"
+		  	}
+  		]
+		},
+		{
+		  "key": 0,
+		  "img": "mosfetBoardKit.png",
+		  "title": "MOSFET Board Kit",
+		  "description": "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation.",
+		  "defaultLink": "0",
+		  "links": [
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://suild.com/shop/0"
+		  	},
+		  	{
+		  		"name": "Schematics",
+		  		"link": "https://github.com/mochoy/suild-electrical-designs/blob/master/MOSFET%20Board%20v1.2.png"
+		  	}
+		  ]
+		},
+		{
+		  "key": 0,
 		  "img": "mosfetBoardKit.png",
 		  "title": "MOSFET Board Kit",
 		  "description": "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation.",
