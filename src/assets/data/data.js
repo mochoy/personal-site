@@ -90,6 +90,7 @@ export const  data = {
 		  "key": 0,
 		  "img": "webControllerNerfBlaster.jpg",
 		  "title": "Web-Controlled Nerf Blaster",
+		  "event": "Cal Poly Arduino Fest 2018",
 		  "description": "Web application to control power outputs to control rate-of-fire and firing power of a highly modified Nerf blaster.",
 		  "defaultLink": "0",
 		  "links": [
