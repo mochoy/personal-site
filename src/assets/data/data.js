@@ -103,7 +103,7 @@ export const  data = {
 		  "key": 0,
 		  "img": "dormDoorman.jpg",
 		  "title": "Doorm Dorman",
-		  "by": "Josh Grace and Monty Choy",
+		  "by": "Josh and Monty",
 		  "description": "Uses machine learning and computer vision to unlock a door based upon facial recogition. Also includes Nerf blaster to engage unwanted entruders.",
 		  "event": "Honorable mention at init() by SLO Hacks",
 		  "links": [
@@ -244,7 +244,7 @@ export const  data = {
 		{
 			"key": 4,
 			"img": "iatw.png",
-			"by": "Annie Chen and Monty Choy",
+			"by": "Annie and Monty",
 			"title": "Isaac Against the World",
 			"description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser.",
 			"event": "Mission Bit winter 2015, second place winner of 2016 Congressional App Challenge",
@@ -262,7 +262,7 @@ export const  data = {
 		{
 			"key": 4,
 			"img": "fps.png",
-			"by": "Monty Choy and Wesley Lin",
+			"by": "Monty and Wesley",
 			"title": "FPS",
 			"description": "First-person survival shooter with tons of guns and zombies powered by Unity. Survive through endless wavies of zombies.",
 			"event": "CodeDay 2014",
