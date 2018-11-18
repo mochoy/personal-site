@@ -90,8 +90,8 @@ export const  data = {
 		  "key": 0,
 		  "img": "webControllerNerfBlaster.jpg",
 		  "title": "Web-Controlled Nerf Blaster",
-		  "event": "Cal Poly Arduino Fest 2018",
 		  "description": "Web application to control power outputs to control rate-of-fire and firing power of a highly modified Nerf blaster.",
+		  "event": "Cal Poly Arduino Fest 2018",
 		  "defaultLink": "0",
 		  "links": [
 		  	{
@@ -102,19 +102,20 @@ export const  data = {
 		},
 		{
 		  "key": 0,
-		  "img": "mosfetBoardKit.png",
-		  "title": "MOSFET Board Kit",
-		  "description": "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation.",
+		  "img": "dormDoorman.jpg",
+		  "title": "Doorm Dorman",
+		  "description": "Uses machine learning and computer vision to unlock a door based upon facial recogition. Also includes Nerf blaster to engage unwanted entruders.",
+		  "event": "Honorable mention at init() by SLO Hacks",
 		  "defaultLink": "0",
 		  "links": [
 		  	{
-		  		"name": "Check It Out",
-		  		"link": "https://suild.com/shop/0"
+		  		"name": "Code",
+		  		"link": "https://github.com/JoshGrace/SLOhacks-init"
 		  	},
 		  	{
-		  		"name": "Schematics",
-		  		"link": "https://github.com/mochoy/suild-electrical-designs/blob/master/MOSFET%20Board%20v1.2.png"
-		  	}
+		  		"name": "Check It Out",
+		  		"link": "https://devpost.com/software/dorm-doorman"
+		  	}		  	
 		  ]
 		},
 		{
