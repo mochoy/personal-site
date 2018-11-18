@@ -244,6 +244,7 @@ export const  data = {
 		{
 		"key": 4,
 		"img": "iatw.png",
+		"by": "Annie Chen and Monty Choy",
 		"title": "Isaac Against the World",
 		"description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser and Annie. Second place winner of 2016 Congressional App Challenge.",
 		  "links": [
@@ -260,6 +261,7 @@ export const  data = {
 		{
 			"key": 4,
 			"img": "fps.png",
+			"by": "Monty Choy and Wesley Lin",
 			"title": "FPS",
 			"description": "First-person survival shooter with tons of guns and zombies powered by Unity. Survive through endless wavies of zombies.",
 		  "links": [
