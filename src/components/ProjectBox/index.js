@@ -12,7 +12,7 @@ export default class ProjectBox extends Component {
 
 		return (
 			<div className={"project-box " + this.props.className}>
-				<TextOnImageUponHover className={this.props.imgClassName}
+				<TextOnImageUponHover className={this.props.imgClassName + " project-box-img"}
 					src={this.props.project.img}
 					title={this.props.project.title}/>
 				<div className={this.props.textContainerClassName}>
