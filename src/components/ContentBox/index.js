@@ -11,7 +11,7 @@ export default class ProjectBox extends Component {
 		let linkBtns = this.props.project.links.map(this.renderLinkBtns);
 
 		return (
-			<div className={"project-box " + this.props.className}>
+			<div className={"content-box " + this.props.className}>
 				<TextOnImageUponHover className={this.props.imgClassName}
 					src={this.props.project.img}
 					title={this.props.project.title}/>
