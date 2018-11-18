@@ -18,7 +18,7 @@ export default class ContentBox extends Component {
 
 		return (
 			<div className={"content-box " + this.props.className}>
-				<TextOnImageUponHover className={this.props.imgClassName}
+				<TextOnImageUponHover className={"content-img " + this.props.imgClassName}
 					src={this.props.project.img}
 					title={this.props.project.title}/>
 				<div className={this.props.textContainerClassName}>

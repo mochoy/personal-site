@@ -61,6 +61,10 @@
 	.content-text {
 		width: 80%;
 	}
+
+	.content-img  {
+		margin: 0 auto;
+	}
 }
 
 @media only screen and (max-width: 500px) {
