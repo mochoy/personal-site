@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 
 import './index.css';
 
+import ContentBox from '../ContentBox/index'
+
 import TextOnImageUponHover from '../TextOnImageUponHover/index';
 import LinkBtn from '../LinkBtn/index';
 
 
-export default class VerticalContentBox extends Component {
+export default class VerticalContentBox extends ContentBox {
 	constructor(props) {
 		super(props);
 
@@ -17,7 +19,7 @@ export default class VerticalContentBox extends Component {
 		let linkBtns = this.props.project.links.map(this.renderLinkBtns.bind(this));
 
 		return (
-			<div className={"content-box " + this.props.className}>
+			<div className={"vertical-content-box " + this.props.className}>
 				<TextOnImageUponHover className={"content-img " + this.props.imgClassName}
 					src={this.props.project.img}
 					title={this.props.project.title}/>
@@ -33,32 +35,5 @@ export default class VerticalContentBox extends Component {
 			</div>
 		)
 	}
-
-	renderLinkBtns(linkObj) {
-		if (linkObj.name && linkObj.link) {
-			let className = this.findClassnameForBtns(linkObj.name);
-
-			return (
-				<LinkBtn
-					className={"round-btn " + className}
-					textClassName={"link-btn-text-content"}
-					link={linkObj.link}
-					text={linkObj.name}
-				/>
-			)
-		}
-		
-	}
-
-	findClassnameForBtns(name) {
-		if (name === "Check It Out") {
-			return "link-btn-blue-content";
-		} else if (name === "Code") {
-			return "link-btn-green-content";
-		} else if (name === "Schematics") {
-			return "link-btn-orange-content";
-		}
-	}
-
 
 }
