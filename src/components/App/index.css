@@ -88,6 +88,34 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   cursor: pointer;
 }
 
+.link-btn-blue-content {
+  background-color: #0070ba;
+}
+
+.link-btn-blue-content:hover {
+  background-color: #328cc7;
+}
+
+.link-btn-green-content {
+  background-color: #28a745;
+}
+
+.link-btn-green-content:hover {
+  background-color: #52b86a;
+}
+
+.link-btn-orange-content {
+  background-color: #ee8822;
+}
+
+.link-btn-orange-content:hover {
+  background-color: #f19f4e;
+}
+
+.link-btn-text-content {
+  color: white;
+}
+
 
 @media only screen and (min-width: 480px) {
   .section {
