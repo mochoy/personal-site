@@ -102,7 +102,7 @@ export const  data = {
 		{
 		  "key": 0,
 		  "img": "dormDoorman.jpg",
-		  "title": "Doorm Dorman",
+		  "title": "Dorm Doorman",
 		  "by": "Josh and Monty",
 		  "description": "Uses machine learning and computer vision to unlock a door based upon facial recogition. Also includes Nerf blaster to engage unwanted intruders.",
 		  "event": "Honorable mention at init() by SLO Hacks",
