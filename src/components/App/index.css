@@ -116,6 +116,9 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   color: white;
 }
 
+.center {
+  margin: 0 auto;
+}
 
 @media only screen and (min-width: 480px) {
   .section {

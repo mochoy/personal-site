@@ -12,20 +12,17 @@
 	margin-bottom: 2em;
 	background-color: #dde6ed;
 	border-radius: 4px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	width: 90%;
+	width: 22em;
+	margin: 2em;
 }
 
 .project-box-img {
 	height: 20em;
 	width: 20em;
-	margin-right: 2em;
 }
 
 .project-text-container {
-	width: 50%;
+	width: 80%;
 	padding-bottom: 1em;
 }
 

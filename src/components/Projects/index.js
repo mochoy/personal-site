@@ -31,7 +31,7 @@ export default class Projects extends Component {
 			<VerticalContentBox 
 				project={item} 
 				className="project-box"
-				textContainerClassName="project-text-container"
+				textContainerClassName="project-text-container center"
 				imgClassName="project-box-img"/>
 		)
 	}
