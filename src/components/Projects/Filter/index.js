@@ -10,7 +10,6 @@ export default class Filter extends Component {
   }
 
   render() {
-    console.log(this.props.filterCategories)
     return (
       <div className="Filter">
         Filter

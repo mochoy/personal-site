@@ -62,7 +62,7 @@ export default class Projects extends Component {
 			}).bind(this));
 		}
 
-		return this.props.data.map(this.renderProjectItem);
+		return this.props.data.map(this.renderProjectItem.bind(this));
 	
 	}
 
@@ -70,12 +70,42 @@ export default class Projects extends Component {
 		let newItem = Object.assign({}, item);
 		newItem.img = "projects/" + newItem.img;
 
+		newItem.filterCategories = this.renderFilterCategories(newItem);
+
 		return (
 			<VerticalContentBox 
 				project={newItem} 
 				className="project-box"
 				textContainerClassName="project-text-container center"
-				imgClassName="project-box-img"/>
+				imgClassName="project-box-img">
+
+				{newItem.filterCategories}
+
+			</VerticalContentBox>
+		)
+	}
+
+	renderFilterCategories(item) {
+		let categoryTitles = ["Category", "Languages", "Technologies"];
+		return (
+			<div className="project-filter-categories">
+				{
+					//map entire filterCategories arr
+					item.filterCategories.map((category, i) => {
+						return (
+							<div className="project-filter-categories">
+								<h3>{categoryTitles[i]}</h3>
+								{
+									//map sub filter categories
+									category.map((subcategoryText) => {
+										return <p>{subcategoryText}</p>
+									})
+								}
+							</div>
+						)
+					})
+				}
+			</div>
 		)
 	}
 

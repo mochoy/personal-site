@@ -32,6 +32,7 @@ export default class VerticalContentBox extends ContentBox {
 						{linkBtns}
 					</div>
 				</div>
+				{this.props.children}
 			</div>
 		)
 	}
