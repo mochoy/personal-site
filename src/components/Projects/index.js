@@ -16,8 +16,6 @@ export default class Projects extends Component {
 	}
 
 	render () {
-		let projectItems = this.props.data.map(this.renderProjectItems);
-
 		return (
 			<div
 				className="section"
@@ -25,7 +23,7 @@ export default class Projects extends Component {
 				style={{backgroundColor: this.props.data[0].backgroundColor}}>
 				<h3 className="title center-text">Projects</h3>
 				<div id="projects-container" className="flex-container-center">
-					{projectItems}
+					{this.renderProjectItems()}
 				</div>
 				{this.renderSeeMore()}
 			</div>
@@ -33,10 +31,21 @@ export default class Projects extends Component {
 		)
 	}
 
-	renderProjectItems(item){
-		let codeText = (item.code ? "Code" : "");
-		let linkText = (item.link ? "Check It Out" : "");
-		
+	renderProjectItems() {
+		//only render 3 project boxes if not see more
+		if (!this.state.seeMore) {
+			return this.props.data.map(((item, i) => {
+				if (i < 3) {
+					return this.renderProjectItem(item);
+				}
+			}).bind(this));
+		}
+
+		this.props.data.map(this.renderProjectItems);
+	
+	}
+
+	renderProjectItem(item) {
 		item.img = "projects/" + item.img
 
 		return (
@@ -56,7 +65,7 @@ export default class Projects extends Component {
 		} 
 
 		return (
-			<SeeMore onClick={() => console.log(this)}/>
+			<SeeMore onClick={(() => this.setState({seeMore: true})).bind(this)}/>
 		)
 	}
 
