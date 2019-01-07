@@ -112,7 +112,7 @@ export const  data = {
 			 		"Arduino"
 			 	],
 			 	categories: [
-			 		"Nerf Blaster",
+			 		"Nerf Blasters",
 			 		"Web",
 			 		"Electronics"
 			 	]
@@ -137,13 +137,17 @@ export const  data = {
 		  ],
   		filterCategories: {
   			languages: [
-
+  				"Python",
+  				"Arduino",
+  				"C++"
 			 	],
 			 	technologies:[
-
+			 		"Arduino",
+			 		"Open CV"
 			 	],
 			 	categories: [
-			 		
+			 		"Nerf Blasters",
+			 		"Electronics"
 			 	]
   		}
 		},
