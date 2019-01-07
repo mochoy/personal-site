@@ -56,7 +56,7 @@ export default class Projects extends Component {
 		} 
 
 		return (
-			<SeeMore/>
+			<SeeMore onClick={() => console.log(this)}/>
 		)
 	}
 
