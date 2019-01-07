@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Filter from './Filter';
 import VerticalContentBox from '../VerticalContentBox/index';
 import SeeMore from '../SeeMore';
 
@@ -24,6 +25,8 @@ export default class Projects extends Component {
 				id="Projects"
 				style={{backgroundColor: this.props.data[0].backgroundColor}}>
 				<h3 className="title center-text">Projects</h3>
+				<Filter
+					/>
 				<div id="projects-container" className="flex-container-center">
 					{this.renderProjectItems()}
 				</div>
