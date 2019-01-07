@@ -100,13 +100,21 @@ export const  data = {
   		],
   		filterCategories: {
   			languages: [
-
+  				"Arduino",
+  				"C++",
+  				"JavaScript",
+  				"CSS"
 			 	],
 			 	technologies:[
-
+			 		"React",
+			 		"Node.js",
+			 		"Express",
+			 		"Arduino"
 			 	],
 			 	categories: [
-			 		
+			 		"Nerf Blaster",
+			 		"Web",
+			 		"Electronics"
 			 	]
   		}
 		},
@@ -146,7 +154,18 @@ export const  data = {
 		  "description": "Remote-controlled motorized Nerf Super Soaker Thundershock watergun turret. Controlled with a Raspberry Pi with with an onboard camera and microphone allowing for realtime audio and video streaming of water blasting.",
 		  "links": [
 		  		  	
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 0,
@@ -154,11 +173,22 @@ export const  data = {
 		  "title": "Smart Stryfe",
 		  "description": "Modified Arduino-powered Nerf Stryfe blaster. Includes a built-in ammo counter, chronograph, voltmeter, and variable motor control. Utilizes custom 3D printed and machined components specially designed for modified Nerf applications.",
 		  "links": [
-		  	 	{
-		  	 		"name": "Code",
-		  	 		"link": "https://github.com/mochoy/smart-nerf-stryfes/tree/master/V1"
-		  	 	}
-		  ]
+	  	 	{
+	  	 		"name": "Code",
+	  	 		"link": "https://github.com/mochoy/smart-nerf-stryfes/tree/master/V1"
+	  	 	}
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 0,
@@ -174,7 +204,18 @@ export const  data = {
 		  		"name": "Schematics",
 		  		"link": "https://github.com/mochoy/suild-electrical-designs/blob/master/MOSFET%20Board%20v1.2.png"
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 0,
@@ -186,7 +227,18 @@ export const  data = {
 		  		"name": "Check It Out",
 		  		"link": "https://suild.com/motor-chart"
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 0,
@@ -198,7 +250,18 @@ export const  data = {
 		  		"name": "Check It Out",
 		  		"link": "https://suild.com"
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 1,
@@ -210,7 +273,18 @@ export const  data = {
 		  		"name": "Code",
 		  		"link": "https://github.com/mochoy/smart-blaster"
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 0,
@@ -223,7 +297,18 @@ export const  data = {
 		  		"name": "Code",
 		  		"link": "https://github.com/mochoy/runmyrobot"
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 2,
@@ -235,7 +320,18 @@ export const  data = {
 		  		"name": "Code",
 		  		"link": "https://github.com/mochoy/arduino-chronograph"
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 0,
@@ -251,7 +347,18 @@ export const  data = {
 		  		"name": "Check It Out",
 		  		"link": "https://github.com/mochoy/vyper_t-28"
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 0,
@@ -263,7 +370,18 @@ export const  data = {
 		  		"name": "Code",
 		  		"link": "https://github.com/mochoy/smart-strayven"
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 2,
@@ -283,7 +401,18 @@ export const  data = {
 		  		"name": "Schematics",
 		  		"link": "http://i.imgur.com/Qt0TCzn.jpg"
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		"key": 4,
@@ -295,7 +424,18 @@ export const  data = {
 		  		"name": "Code",
 		  		"link": "https://github.com/mochoy/king-of-nepal-noodle"
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 			"key": 4,
@@ -313,7 +453,18 @@ export const  data = {
 		  		"name": "Check It Out",
 		  		"link": "https://www.youtube.com/watch?v=poX0YGmnplM"
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 			"key": 4,
@@ -326,7 +477,18 @@ export const  data = {
 		  	{
 		  		
 		  	}
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		}
 	],
 	filterCategories: {
