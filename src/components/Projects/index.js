@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
-import './index.css';
 import VerticalContentBox from '../VerticalContentBox/index'
+
+
+import './index.css';
 
 export default class Projects extends Component {
 	constructor(props) {
