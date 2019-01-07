@@ -121,7 +121,7 @@ export const  data = {
 		  "key": 0,
 		  "img": "mosfetBoardKit.png",
 		  "title": "MOSFET Board Kit",
-		  "description": "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation.",
+		  "description": "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation. Released as a product shipped and sold internationally.",
 		  "links": [
 		  	{
 		  		"name": "Check It Out",
@@ -149,7 +149,7 @@ export const  data = {
 		  "key": 0,
 		  "img": "suildwebsite.png",
 		  "title": "Suild.com",
-		  "description": "Website to sell custom electronics, kits, and more for modifed Nerf blasters as well as display tutorials and technical documentation.",
+		  "description": "Website to display tutorials and technical documentation and sell custom electronics for modifed Nerf blasters. Launched to the web with over 500 monthly views and growing.",
 		  "links": [
 		  	{
 		  		"name": "Check It Out",
@@ -174,6 +174,7 @@ export const  data = {
 		  "img": "Awesome-Nerf-Turret.png",
 		  "title": "Awesome Nerf Turret",
 		  "description": "Remote-controlled Nerf Hyperfire turret powered by Let's Robot's realtime platform that allows for real-time streaming and control of the turret through letsrobot.tv",
+		  "event": "Made for Let's Robot",
 		  "links": [
 		  	{
 		  		"name": "Code",
