@@ -98,25 +98,25 @@ export const  data = {
 		  		"link": "https://github.com/mochoy/cal-poly-arduino-fest"
 		  	}
   		],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
+			 		"Nerf Blasters",
+			 		"Web",
+			 		"Electronics"
+			 	],
+  			[
   				"Arduino",
   				"C++",
   				"JavaScript",
   				"CSS"
 			 	],
-			 	technologies:[
+			 	[
 			 		"React",
 			 		"Node.js",
 			 		"Express",
 			 		"Arduino"
-			 	],
-			 	categories: [
-			 		"Nerf Blasters",
-			 		"Web",
-			 		"Electronics"
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 0,
@@ -135,21 +135,21 @@ export const  data = {
 		  		"link": "https://devpost.com/software/dorm-doorman"
 		  	}		  	
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
+			 		"Nerf Blasters",
+			 		"Electronics"
+			 	],
+  			[
   				"Python",
   				"Arduino",
   				"C++"
 			 	],
-			 	technologies:[
+			 	[
 			 		"Arduino",
 			 		"Open CV"
-			 	],
-			 	categories: [
-			 		"Nerf Blasters",
-			 		"Electronics"
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 0,
@@ -159,17 +159,17 @@ export const  data = {
 		  "links": [
 		  		  	
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 0,
@@ -182,17 +182,17 @@ export const  data = {
 	  	 		"link": "https://github.com/mochoy/smart-nerf-stryfes/tree/master/V1"
 	  	 	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 0,
@@ -209,17 +209,17 @@ export const  data = {
 		  		"link": "https://github.com/mochoy/suild-electrical-designs/blob/master/MOSFET%20Board%20v1.2.png"
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 0,
@@ -232,17 +232,17 @@ export const  data = {
 		  		"link": "https://suild.com/motor-chart"
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 0,
@@ -255,17 +255,17 @@ export const  data = {
 		  		"link": "https://suild.com"
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 1,
@@ -278,17 +278,17 @@ export const  data = {
 		  		"link": "https://github.com/mochoy/smart-blaster"
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 0,
@@ -302,17 +302,17 @@ export const  data = {
 		  		"link": "https://github.com/mochoy/runmyrobot"
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 2,
@@ -325,17 +325,17 @@ export const  data = {
 		  		"link": "https://github.com/mochoy/arduino-chronograph"
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 0,
@@ -352,17 +352,17 @@ export const  data = {
 		  		"link": "https://github.com/mochoy/vyper_t-28"
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 0,
@@ -375,17 +375,17 @@ export const  data = {
 		  		"link": "https://github.com/mochoy/smart-strayven"
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 		  "key": 2,
@@ -406,17 +406,17 @@ export const  data = {
 		  		"link": "http://i.imgur.com/Qt0TCzn.jpg"
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 		"key": 4,
@@ -429,17 +429,17 @@ export const  data = {
 		  		"link": "https://github.com/mochoy/king-of-nepal-noodle"
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 			"key": 4,
@@ -458,17 +458,17 @@ export const  data = {
 		  		"link": "https://www.youtube.com/watch?v=poX0YGmnplM"
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		},
 		{
 			"key": 4,
@@ -482,20 +482,27 @@ export const  data = {
 		  		
 		  	}
 		  ],
-  		filterCategories: {
-  			languages: [
+  		filterCategories: [
+  			[
 
 			 	],
-			 	technologies:[
+			 	[
 
 			 	],
-			 	categories: [
+			 	[
 			 		
 			 	]
-  		}
+  		]
 		}
 	],
 	filterCategories: {
+		categories: [
+			"Nerf Blasters",
+			"Games",
+			"Web",
+			"Electronics",
+			"PCB Design"
+		],
 		languages: [
 			"JavaScript",
 			"C++",
@@ -515,13 +522,6 @@ export const  data = {
 			"Phaser",
 			"Unity",
 			"EagleCAD"
-		],
-		categories: [
-			"Nerf Blasters",
-			"Games",
-			"Web",
-			"Electronics",
-			"PCB Design"
 		]
 	},
 	blasterData: [
