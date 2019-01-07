@@ -14,7 +14,8 @@ export default class Projects extends Component {
 		this.renderProjectItems = this.renderProjectItems.bind(this);
 
 		this.state = {
-			seeMore: false
+			seeMore: false,
+			filterItems: []
 		}
 	}
 
@@ -25,8 +26,7 @@ export default class Projects extends Component {
 				id="Projects"
 				style={{backgroundColor: this.props.data[0].backgroundColor}}>
 				<h3 className="title center-text">Projects</h3>
-				<Filter
-					/>
+				{this.renderFilter()}
 				<div id="projects-container" className="flex-container-center">
 					{this.renderProjectItems()}
 				</div>
@@ -34,6 +34,20 @@ export default class Projects extends Component {
 			</div>
 
 		)
+	}
+
+	renderFilter() {
+		if (this.state.seeMore) {
+			return (
+				<Filter changeFilterItems={this.changeFilterItems.bind(this)}/>
+			)
+		}
+	}
+
+	changeFilterItems(newFilterItems) {
+		this.setState({
+			filterItems: newFilterItems
+		});
 	}
 
 	renderProjectItems() {
