@@ -94,11 +94,11 @@ export default class Projects extends Component {
 					item.filterCategories.map((category, i) => {
 						return (
 							<div className="project-filter-categories">
-								<h3 className="overlay-description">{categoryTitles[i]}</h3>
+								<p className="overlay-description">{categoryTitles[i]}</p>
 								{
 									//map sub filter categories
 									category.map((subcategoryText) => {
-										return <p className="overlay-description">{subcategoryText}</p>
+										return <li className="overlay-description">{subcategoryText}</li>
 									})
 								}
 							</div>
