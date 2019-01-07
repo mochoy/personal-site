@@ -10,6 +10,8 @@ export default class Projects extends Component {
 	constructor(props) {
 		super(props);
 
+		this.renderProjectItems = this.renderProjectItems.bind(this);
+
 		this.state = {
 			seeMore: false
 		}
@@ -41,16 +43,17 @@ export default class Projects extends Component {
 			}).bind(this));
 		}
 
-		this.props.data.map(this.renderProjectItems);
+		return this.props.data.map(this.renderProjectItem);
 	
 	}
 
 	renderProjectItem(item) {
-		item.img = "projects/" + item.img
+		let newItem = Object.assign({}, item);
+		newItem.img = "projects/" + newItem.img;
 
 		return (
 			<VerticalContentBox 
-				project={item} 
+				project={newItem} 
 				className="project-box"
 				textContainerClassName="project-text-container center"
 				imgClassName="project-box-img"/>
@@ -65,7 +68,7 @@ export default class Projects extends Component {
 		} 
 
 		return (
-			<SeeMore onClick={(() => this.setState({seeMore: true})).bind(this)}/>
+			<SeeMore onClick={() => this.setState({seeMore: true})}/>
 		)
 	}
 
