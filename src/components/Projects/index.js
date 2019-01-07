@@ -53,9 +53,9 @@ export default class Projects extends Component {
 		} 
 
 		return (
-			<div>
+			<div className="see-more-container">
 				<h2 className="center-text see-more-text">See More</h2>
-				<p className="center-text see-more-chevron"><i className="center-text chevron down"></i></p>
+				<p className="center-text see-more-chevron-p"><i className="center-text chevron down see-more-chevron"></i></p>
 			</div>
 		)
 	}

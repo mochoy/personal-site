@@ -124,11 +124,21 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   text-align: center;
 }
 
+.see-more-container {
+  cursor: pointer;
+}
+
 .chevron {
-  border: solid black;
+  border: solid;
+  border-color:  #545454;
   border-width: 0 5px 5px 0;
   display: inline-block;
-  padding: 10px;
+  padding: 7px;
+  transition: border-color .15s ease;
+}
+
+.see-more-container:hover .see-more-chevron {
+  border-color: #939393;
 }
 
 .down {
@@ -136,8 +146,17 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   -webkit-transform: rotate(45deg);
 }
 
-.see-more-text, .see-more-chevron {
+.see-more-text {
   margin: .4em;
+}
+
+.see-more-chevron-p {
+  margin: .4em;
+  transition: margin-top .15s ease;
+}
+
+.see-more-container:hover .see-more-chevron-p {
+  margin-top: 1em;
 }
 
 
