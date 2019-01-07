@@ -119,6 +119,15 @@ export const  data = {
 		},
 		{
 		  "key": 0,
+		  "img": "nerfSuperSoakerTurret.jpg",
+		  "title": "Nerf Super Soaker Turret",
+		  "description": "Remote-controlled motorized Nerf Super Soaker Thundershock watergun turret. Controlled with a Raspberry Pi with with an onboard camera and microphone allowing for realtime audio and video streaming of water blasting.",
+		  "links": [
+		  		  	
+		  ]
+		},
+		{
+		  "key": 0,
 		  "img": "smartstryfe.jpg",
 		  "title": "Smart Stryfe",
 		  "description": "Modified Arduino-powered Nerf Stryfe blaster. Includes a built-in ammo counter, chronograph, voltmeter, and variable motor control. Utilizes custom 3D printed and machined components specially designed for modified Nerf applications.",
