@@ -124,10 +124,6 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   text-align: center;
 }
 
-.see-more-container {
-  cursor: pointer;
-}
-
 .chevron {
   border: solid;
   border-color:  #545454;
@@ -137,27 +133,11 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   transition: border-color .15s ease;
 }
 
-.see-more-container:hover .see-more-chevron {
-  border-color: #939393;
-}
-
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
-.see-more-text {
-  margin: .4em;
-}
-
-.see-more-chevron-p {
-  margin: .4em;
-  transition: margin-top .15s ease;
-}
-
-.see-more-container:hover .see-more-chevron-p {
-  margin-top: 1em;
-}
 
 
 
