@@ -119,6 +119,18 @@ export const  data = {
 		},
 		{
 		  "key": 0,
+		  "img": "smartstryfe.jpg",
+		  "title": "Smart Stryfe",
+		  "description": "Modified Arduino-powered Nerf Stryfe blaster. Includes a built-in ammo counter, chronograph, voltmeter, and variable motor control. Utilizes custom 3D printed and machined components specially designed for modified Nerf applications.",
+		  "links": [
+		  	 	{
+		  	 		"name": "Code",
+		  	 		"link": "https://github.com/mochoy/smart-nerf-stryfes/tree/master/V1"
+		  	 	}
+		  ]
+		},
+		{
+		  "key": 0,
 		  "img": "mosfetBoardKit.png",
 		  "title": "MOSFET Board Kit",
 		  "description": "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation. Released as a product shipped and sold internationally.",
