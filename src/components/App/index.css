@@ -126,14 +126,18 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
 
 .chevron {
   border: solid black;
-  border-width: 0 3px 3px 0;
+  border-width: 0 5px 5px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 10px;
 }
 
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+
+.see-more-text, .see-more-chevron {
+  margin: .4em;
 }
 
 
