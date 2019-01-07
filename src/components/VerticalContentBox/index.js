@@ -22,7 +22,9 @@ export default class VerticalContentBox extends ContentBox {
 			<div className={"vertical-content-box " + this.props.className}>
 				<TextOnImageUponHover className={"content-img " + this.props.imgClassName}
 					src={this.props.project.img}
-					title={this.props.project.title}/>
+					title={this.props.project.title}>
+					{this.props.children}
+				</TextOnImageUponHover>
 				<div className={this.props.textContainerClassName}>
 					<h2 className="content-title">{this.props.project.title}</h2>
 					<p className="content-by"><i>{this.props.project.by}</i></p>
@@ -32,7 +34,7 @@ export default class VerticalContentBox extends ContentBox {
 						{linkBtns}
 					</div>
 				</div>
-				{this.props.children}
+				
 			</div>
 		)
 	}
