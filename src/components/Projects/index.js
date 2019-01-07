@@ -4,6 +4,14 @@ import './index.css';
 import VerticalContentBox from '../VerticalContentBox/index'
 
 export default class Projects extends Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			seeMore: false
+		}
+	}
+
 	render () {
 		let projectItems = this.props.data.map(this.renderProjectItems);
 
@@ -16,6 +24,7 @@ export default class Projects extends Component {
 				<div id="projects-container" className="flex-container-center">
 					{projectItems}
 				</div>
+				{this.renderSeeMore()}
 			</div>
 
 		)
@@ -33,6 +42,21 @@ export default class Projects extends Component {
 				className="project-box"
 				textContainerClassName="project-text-container center"
 				imgClassName="project-box-img"/>
+		)
+	}
+
+	renderSeeMore() {
+		if (this.state.seeMore) {
+			return (
+				<div></div>
+			)
+		} 
+
+		return (
+			<div>
+				<h2 className="center-text">See More</h2>
+				<i className="chevron down"></i>
+			</div>
 		)
 	}
 

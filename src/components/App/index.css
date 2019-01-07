@@ -120,6 +120,25 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   margin: 0 auto;
 }
 
+.center-text {
+  text-align: center;
+}
+
+.chevron {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+
+
 @media only screen and (min-width: 480px) {
   .section {
     padding-left: 1.5em;
@@ -134,12 +153,22 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   }
 }
 
-.center-text {
-  text-align: center;
-}
+
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.2); }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
