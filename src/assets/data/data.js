@@ -97,7 +97,18 @@ export const  data = {
 		  		"name": "Code",
 		  		"link": "https://github.com/mochoy/cal-poly-arduino-fest"
 		  	}
-  		]
+  		],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 0,
@@ -115,7 +126,18 @@ export const  data = {
 		  		"name": "Check It Out",
 		  		"link": "https://devpost.com/software/dorm-doorman"
 		  	}		  	
-		  ]
+		  ],
+  		filterCategories: {
+  			languages: [
+
+			 	],
+			 	technologies:[
+
+			 	],
+			 	categories: [
+			 		
+			 	]
+  		}
 		},
 		{
 		  "key": 0,

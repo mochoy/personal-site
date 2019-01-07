@@ -39,7 +39,9 @@ export default class Projects extends Component {
 	renderFilter() {
 		if (this.state.seeMore) {
 			return (
-				<Filter changeFilterItems={this.changeFilterItems.bind(this)}/>
+				<Filter 
+					filterCategories={this.props.filterCategories}
+					changeFilterItems={this.changeFilterItems.bind(this)}/>
 			)
 		}
 	}

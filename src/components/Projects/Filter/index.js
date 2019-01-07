@@ -6,10 +6,11 @@ export default class Filter extends Component {
   constructor (props) {
     super(props);
 
-    
+
   }
 
   render() {
+    console.log(this.props.filterCategories)
     return (
       <div className="Filter">
         Filter
