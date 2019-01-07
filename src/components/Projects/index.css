@@ -28,8 +28,8 @@
 
 @media only screen and (max-width: 1180px) {
 	.project-box-img {
-		height: 15em;
-		width: 15em;
+/*		height: 15em;
+		width: 15em;*/
 	}
 
 	#projects-container {
@@ -50,15 +50,10 @@
 
 	.project-box {
 		width: 95%;
-		justify-content: center;
 	}
 
 	.project-box-img {
-		width: 100%;
-		margin: 0;
+		width: 95%;
 	}
 
-	.project-text-container {
-		width: 80%;
-	}
 }
