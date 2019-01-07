@@ -232,6 +232,18 @@ export const  data = {
 		  ]
 		},
 		{
+		  "key": 0,
+		  "img": "SmartStrayven.jpg",
+		  "title": "Smart Strayven",
+		  "description": "Integration of two Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/mochoy/smart-strayven"
+		  	}
+		  ]
+		},
+		{
 		  "key": 2,
 		  "img": "nerfAmmoCounter.jpg",
 		  "title": "Nerf Ammo Counter",
