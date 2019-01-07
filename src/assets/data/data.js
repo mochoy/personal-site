@@ -307,6 +307,35 @@ export const  data = {
 		  ]
 		}
 	],
+	filterCategories: {
+		languages: [
+			"JavaScript",
+			"C++",
+			"HTML",
+			"CSS",
+			"Python",
+			"Arduino",
+			"C#"
+		],
+		technologies: [
+			"React",
+			"Node.js",
+			"Express",
+			"Arduino",
+			"Raspberry Pi",
+			"OpenCV",
+			"Phaser",
+			"Unity",
+			"EagleCAD"
+		],
+		categories: [
+			"Nerf Blasters",
+			"Games",
+			"Web",
+			"Electronics",
+			"PCB Design"
+		]
+	},
 	blasterData: [
 	  {
 	    "title": "Blasters",
