@@ -216,13 +216,14 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Electronics",
+  				"PCB Design"
 			 	],
 			 	[
 
 			 	],
 			 	[
-			 		
+			 		"EagleCAD"
 			 	]
   		]
 		},
