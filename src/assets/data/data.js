@@ -267,13 +267,20 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Web"
 			 	],
 			 	[
-
+			 		"JavaScript",
+			 		"HTML",
+			 		"CSS"
 			 	],
 			 	[
-			 		
+			 		"React",
+			 		"Node.js",
+			 		"Express",
+			 		"MongoDB",	
+					"Netlify",
+					"Heroku"
 			 	]
   		]
 		},
@@ -532,7 +539,9 @@ export const  data = {
 			"Phaser",
 			"Unity",
 			"EagleCAD",
-			"MongoDB"
+			"MongoDB",
+			"Netlify",
+			"Heroku"
 		]
 	},
 	blasterData: [
