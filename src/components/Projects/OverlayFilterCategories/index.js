@@ -11,8 +11,8 @@ export default class OverlayFilterCategories extends Component {
 
   render() {
     return (
-      <div className="Filter">
-        Filter
+      <div className="OverlayFilterCategories">
+        OverlayFilterCategories
       </div>
     );
   }

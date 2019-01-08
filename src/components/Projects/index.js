@@ -71,7 +71,7 @@ export default class Projects extends Component {
 		let newItem = Object.assign({}, item);
 		newItem.img = "projects/" + newItem.img;
 
-		newItem.filterCategories = this.renderFilterCategories(newItem);
+		newItem.overlayFilterCategories = this.renderFilterCategories(newItem);
 
 		return (
 			<VerticalContentBox 
@@ -80,7 +80,7 @@ export default class Projects extends Component {
 				textContainerClassName="project-text-container center"
 				imgClassName="project-box-img">
 
-				{newItem.filterCategories}
+				<OverlayFilterCategories filterCategories={newItem.filterCategories}/>
 
 			</VerticalContentBox>
 		)
