@@ -161,13 +161,14 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Nerf Blasters",
+			 		"Electronics"
 			 	],
 			 	[
-
+			 		"Python"
 			 	],
 			 	[
-			 		
+			 		"Raspberry Pi"
 			 	]
   		]
 		},
@@ -175,7 +176,7 @@ export const  data = {
 		  "key": 0,
 		  "img": "smartstryfe.jpg",
 		  "title": "Smart Stryfe",
-		  "description": "Modified Arduino-powered Nerf Stryfe blaster. Includes a built-in ammo counter, chronograph, voltmeter, and variable motor control. Utilizes custom 3D printed and machined components specially designed for modified Nerf applications.",
+		  "description": "Modified Arduino-powered Nerf Stryfe blaster. Includes a built-in ammo counter, chronograph, voltmeter, and variable motor control. Utilizes custom 3D printed and machined components specially designed for modified Nerf applications and custom Arduino shield.",
 		  "links": [
 	  	 	{
 	  	 		"name": "Code",
@@ -184,13 +185,17 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Nerf Blasters",
+  				"Electronics",
+  				"PCB Design"
 			 	],
 			 	[
-
+			 		"C++",
+			 		"Arduino"
 			 	],
 			 	[
-			 		
+			 		"Arduino",
+			 		"EagleCAD"
 			 	]
   		]
 		},
@@ -419,10 +424,10 @@ export const  data = {
   		]
 		},
 		{
-		"key": 4,
-		"img": "kingOfNepalNoodle.png",
-		"title": "King of Nepal Noodle",
-		"description": "In Andoid game code named 'King of Nepal Noodle', evolve through the ages to defend against the enemies from stealing your treasure by controlling your primary tower, building and upgrading more towers, and setting traps in this tower defense gamed played in the portrait orientation.",
+			"key": 4,
+			"img": "kingOfNepalNoodle.png",
+			"title": "King of Nepal Noodle",
+			"description": "In Andoid game code named 'King of Nepal Noodle', evolve through the ages to defend against the enemies from stealing your treasure by controlling your primary tower, building and upgrading more towers, and setting traps in this tower defense gamed played in the portrait orientation.",
 		  "links": [
 		  	{
 		  		"name": "Code",
