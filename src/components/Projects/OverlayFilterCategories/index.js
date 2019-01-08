@@ -12,7 +12,7 @@ export default class OverlayFilterCategories extends Component {
   render() {
     let categoryTitles = ["Category", "Languages", "Technologies"];
     return (
-      <div className="OverlayFilterCategories">
+      <div className="OverlayFilterCategories flex-container-left">
         {
           //map entire filterCategories arr
           this.props.filterCategories.map((category, i) => {
