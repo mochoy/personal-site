@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Filter from './Filter';
 import VerticalContentBox from '../VerticalContentBox/index';
 import SeeMore from '../SeeMore';
+import OverlayFilterCategories from './OverlayFilterCategories';
 
 
 import './index.css';
