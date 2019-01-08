@@ -21,7 +21,7 @@ export default class OverlayFilterCategories extends Component {
                 <p className="overlay-description overlay-filter-title">{categoryTitles[i]}</p>
                 {
                   //map sub filter categories
-                  category.map((subcategoryText) => {
+                  category.sort().map((subcategoryText) => {
                     return <li className="overlay-description overlay-filter-li">{subcategoryText}</li>
                   })
                 }
