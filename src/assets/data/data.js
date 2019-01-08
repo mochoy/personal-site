@@ -240,13 +240,17 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Web"
 			 	],
 			 	[
-
+			 		"JavaScript",
+			 		"CSS"
 			 	],
 			 	[
-			 		
+			 		"React",
+			 		"Node.js",
+			 		"Express",
+			 		"MongoDB"
 			 	]
   		]
 		},
@@ -527,7 +531,8 @@ export const  data = {
 			"OpenCV",
 			"Phaser",
 			"Unity",
-			"EagleCAD"
+			"EagleCAD",
+			"MongoDB"
 		]
 	},
 	blasterData: [
