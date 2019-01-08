@@ -71,8 +71,6 @@ export default class Projects extends Component {
 		let newItem = Object.assign({}, item);
 		newItem.img = "projects/" + newItem.img;
 
-		newItem.overlayFilterCategories = this.renderFilterCategories(newItem);
-
 		return (
 			<VerticalContentBox 
 				project={newItem} 
@@ -83,30 +81,6 @@ export default class Projects extends Component {
 				<OverlayFilterCategories filterCategories={newItem.filterCategories}/>
 
 			</VerticalContentBox>
-		)
-	}
-
-	renderFilterCategories(item) {
-		let categoryTitles = ["Category", "Languages", "Technologies"];
-		return (
-			<div className="project-filter-categories">
-				{
-					//map entire filterCategories arr
-					item.filterCategories.map((category, i) => {
-						return (
-							<div className="project-filter-categories">
-								<p className="overlay-description">{categoryTitles[i]}</p>
-								{
-									//map sub filter categories
-									category.map((subcategoryText) => {
-										return <li className="overlay-description">{subcategoryText}</li>
-									})
-								}
-							</div>
-						)
-					})
-				}
-			</div>
 		)
 	}
 
