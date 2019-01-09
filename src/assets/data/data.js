@@ -249,7 +249,8 @@ export const  data = {
 			 		"React",
 			 		"Node.js",
 			 		"Express",
-			 		"MongoDB"
+			 		"MongoDB",
+			 		"Lodash"
 			 	]
   		]
 		},
@@ -277,7 +278,8 @@ export const  data = {
 			 		"React",
 			 		"Node.js",
 			 		"Express",
-			 		"MongoDB"
+			 		"MongoDB",
+			 		"Lodash"
 			 	]
   		]
 		},
@@ -346,13 +348,14 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Electronics"
 			 	],
 			 	[
-
+			 		"C++",
+			 		"Arduino"
 			 	],
 			 	[
-			 		
+			 		"Arduino"
 			 	]
   		]
 		},
@@ -373,13 +376,16 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Nerf Blasters",
+  				"Electronics",
+  				"PCB Design"
 			 	],
 			 	[
-
+			 		"C++",
+			 		"Arduino"
 			 	],
 			 	[
-			 		
+			 		"Arduino"
 			 	]
   		]
 		},
@@ -396,13 +402,16 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Nerf Blasters",
+  				"Electronics",
+  				"PCB Design"
 			 	],
 			 	[
-
+			 		"C++",
+			 		"Arduino"
 			 	],
 			 	[
-			 		
+			 		"Arduino"
 			 	]
   		]
 		},
@@ -427,13 +436,15 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Nerf Blasters",
+  				"Electronics"
 			 	],
 			 	[
-
+			 		"C++",
+			 		"Arduino"
 			 	],
 			 	[
-			 		
+			 		"Arduino"
 			 	]
   		]
 		},
@@ -450,13 +461,17 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Web",
+  				"Games"
 			 	],
 			 	[
-
+			 		"JavaScript",
+			 		"HTML",
+			 		"CSS"
 			 	],
 			 	[
-			 		
+			 		"Phaser",
+			 		"Lodash"
 			 	]
   		]
 		},
@@ -479,13 +494,17 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Web",
+  				"Games"
 			 	],
 			 	[
-
+			 		"JavaScript",
+			 		"HTML",
+			 		"CSS"
 			 	],
 			 	[
-			 		
+			 		"Phaser",
+			 		"Lodash"
 			 	]
   		]
 		},
@@ -503,13 +522,13 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Game"
 			 	],
 			 	[
-
+			 		"C#"
 			 	],
 			 	[
-			 		
+			 		"Unity"
 			 	]
   		]
 		}
@@ -540,7 +559,8 @@ export const  data = {
 			"OpenCV",
 			"Phaser",
 			"Unity",
-			"MongoDB"
+			"MongoDB",
+			"Lodash"
 		]
 	},
 	blasterData: [
