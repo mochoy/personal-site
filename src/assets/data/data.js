@@ -295,13 +295,16 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Nerf Blasters",
+  				"Electronics",
+  				"PCB Design"
 			 	],
 			 	[
-
+			 		"Arduino",
+			 		"C++"
 			 	],
 			 	[
-			 		
+		 			"Arduino"
 			 	]
   		]
 		},
