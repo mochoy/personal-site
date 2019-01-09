@@ -222,7 +222,7 @@ export const  data = {
 
 			 	],
 			 	[
-			 	
+
 			 	]
   		]
 		},
@@ -321,13 +321,15 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-
+  				"Nerf Blasters",
+  				"Electronics",
+  				"Web"
 			 	],
 			 	[
-
+			 		"Python"
 			 	],
 			 	[
-			 		
+			 		"Raspberry Pi"
 			 	]
   		]
 		},
