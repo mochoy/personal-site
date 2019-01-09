@@ -102,7 +102,9 @@ export const  data = {
   			[
 			 		"Nerf Blasters",
 			 		"Web",
-			 		"Electronics"
+			 		"Electronics",
+			 		"Hardware",
+			 		"Software"
 			 	],
   			[
   				"Arduino",
@@ -138,7 +140,9 @@ export const  data = {
   		filterCategories: [
   			[
 			 		"Nerf Blasters",
-			 		"Electronics"
+			 		"Electronics",
+			 		"Hardware",
+			 		"Software"
 			 	],
   			[
   				"Python",
@@ -162,7 +166,8 @@ export const  data = {
   		filterCategories: [
   			[
   				"Nerf Blasters",
-			 		"Electronics"
+			 		"Electronics",
+			 		"Hardware"
 			 	],
 			 	[
 			 		"Python"
@@ -187,7 +192,9 @@ export const  data = {
   			[
   				"Nerf Blasters",
   				"Electronics",
-  				"PCB Design"
+  				"PCB Design",
+  				"Hardware",
+  				"Software"
 			 	],
 			 	[
 			 		"C++",
@@ -216,7 +223,8 @@ export const  data = {
   		filterCategories: [
   			[
   				"Electronics",
-  				"PCB Design"
+  				"PCB Design",
+  				"Hardware"
 			 	],
 			 	[
 
@@ -239,7 +247,8 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-  				"Web"
+  				"Web",
+  				"Software"
 			 	],
 			 	[
 			 		"JavaScript",
@@ -267,7 +276,8 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-  				"Web"
+  				"Web",
+  				"Software"
 			 	],
 			 	[
 			 		"JavaScript",
@@ -298,7 +308,9 @@ export const  data = {
   			[
   				"Nerf Blasters",
   				"Electronics",
-  				"PCB Design"
+  				"PCB Design",
+  				"Hardware",
+  				"Software"
 			 	],
 			 	[
 			 		"Arduino",
@@ -325,7 +337,9 @@ export const  data = {
   			[
   				"Nerf Blasters",
   				"Electronics",
-  				"Web"
+  				"Web",
+  				"Hardware",
+  				"Software"
 			 	],
 			 	[
 			 		"Python"
@@ -348,7 +362,9 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
-  				"Electronics"
+  				"Electronics",
+  				"Hardware",
+  				"Software"
 			 	],
 			 	[
 			 		"C++",
@@ -378,7 +394,9 @@ export const  data = {
   			[
   				"Nerf Blasters",
   				"Electronics",
-  				"PCB Design"
+  				"PCB Design",
+  				"Hardware",
+  				"Software"
 			 	],
 			 	[
 			 		"C++",
@@ -404,7 +422,9 @@ export const  data = {
   			[
   				"Nerf Blasters",
   				"Electronics",
-  				"PCB Design"
+  				"PCB Design",
+  				"Hardware",
+  				"Software"
 			 	],
 			 	[
 			 		"C++",
@@ -437,7 +457,9 @@ export const  data = {
   		filterCategories: [
   			[
   				"Nerf Blasters",
-  				"Electronics"
+  				"Electronics",
+  				"Hardware",
+  				"Software"
 			 	],
 			 	[
 			 		"C++",
@@ -461,6 +483,7 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
+  				"Software",
   				"Web",
   				"Games"
 			 	],
@@ -494,6 +517,7 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
+  				"Software",
   				"Web",
   				"Games"
 			 	],
@@ -522,6 +546,7 @@ export const  data = {
 		  ],
   		filterCategories: [
   			[
+  				"Software",
   				"Game"
 			 	],
 			 	[
@@ -539,7 +564,9 @@ export const  data = {
 			"Games",
 			"Web",
 			"Electronics",
-			"PCB Design"
+			"PCB Design",
+			"Hardware",
+			"Software"
 		],
 		languages: [
 			"JavaScript",
