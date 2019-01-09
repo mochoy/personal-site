@@ -194,8 +194,7 @@ export const  data = {
 			 		"Arduino"
 			 	],
 			 	[
-			 		"Arduino",
-			 		"EagleCAD"
+			 		"Arduino"
 			 	]
   		]
 		},
@@ -223,7 +222,7 @@ export const  data = {
 
 			 	],
 			 	[
-			 		"EagleCAD"
+			 	
 			 	]
   		]
 		},
@@ -539,7 +538,6 @@ export const  data = {
 			"OpenCV",
 			"Phaser",
 			"Unity",
-			"EagleCAD",
 			"MongoDB"
 		]
 	},
