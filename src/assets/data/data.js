@@ -278,9 +278,7 @@ export const  data = {
 			 		"React",
 			 		"Node.js",
 			 		"Express",
-			 		"MongoDB",	
-					"Netlify",
-					"Heroku"
+			 		"MongoDB"
 			 	]
   		]
 		},
@@ -539,9 +537,7 @@ export const  data = {
 			"Phaser",
 			"Unity",
 			"EagleCAD",
-			"MongoDB",
-			"Netlify",
-			"Heroku"
+			"MongoDB"
 		]
 	},
 	blasterData: [
