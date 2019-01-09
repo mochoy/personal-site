@@ -16,17 +16,20 @@ export default class OverlayFilterCategories extends Component {
         {
           //map entire filterCategories arr
           this.props.filterCategories.map((category, i) => {
-            return (
-              <div className="overlay-filter-container">
-                <p className="overlay-description overlay-filter-title">{categoryTitles[i]}</p>
-                {
-                  //map sub filter categories
-                  category.sort().map((subcategoryText) => {
-                    return <li className="overlay-description overlay-filter-li">{subcategoryText}</li>
-                  })
-                }
-              </div>
-            )
+            //don't render anything if subcategory is empty
+            if (category.length) {
+              return (
+                <div className="overlay-filter-container">
+                  <p className="overlay-description overlay-filter-title">{categoryTitles[i]}</p>
+                  {
+                    //map sub filter categories
+                    category.sort().map((subcategoryText) => {
+                      return <li className="overlay-description overlay-filter-li">{subcategoryText}</li>
+                    })
+                  }
+                </div>
+              )
+            }
           })
         }
       </div>
