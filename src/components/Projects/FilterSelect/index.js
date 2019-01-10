@@ -11,10 +11,27 @@ export default class FilterSelect extends Component {
 
   render() {
     return (
-      <div className="FilterSelect">
-        Filter
+      <div className="FilterSelect flex-container-center">
+        {this.renderSelectableFilterCategories(this.props.filterCategories.categories)}
+        {this.renderSelectableFilterCategories(this.props.filterCategories.languages)}
+        {this.renderSelectableFilterCategories(this.props.filterCategories.technologies)}
       </div>
     );
+  }
+
+  renderSelectableFilterCategories(filterCategory) {
+    return (
+      <div className="selectable-filter-category-container">
+      
+        {//render all items
+          filterCategory.map((item) => {
+            return (
+              <p>{item}</p>
+            )
+          })
+        }
+      </div>
+    )
   }
 }
 
