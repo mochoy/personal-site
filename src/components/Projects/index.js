@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Filter from './Filter';
+import FilterSelect from './FilterSelect';
 import VerticalContentBox from '../VerticalContentBox/index';
 import SeeMore from '../SeeMore';
 import OverlayFilterCategories from './OverlayFilterCategories';
@@ -27,7 +27,7 @@ export default class Projects extends Component {
 				id="Projects"
 				style={{backgroundColor: this.props.data[0].backgroundColor}}>
 				<h3 className="title center-text">Projects</h3>
-				{this.renderFilter()}
+				{this.renderFilterSelect()}
 				<div id="projects-container" className="flex-container-center">
 					{this.renderProjectItems()}
 				</div>
@@ -37,10 +37,10 @@ export default class Projects extends Component {
 		)
 	}
 
-	renderFilter() {
+	renderFilterSelect() {
 		if (this.state.seeMore) {
 			return (
-				<Filter 
+				<FilterSelect 
 					filterCategories={this.props.filterCategories}
 					changeFilterItems={this.changeFilterItems.bind(this)}/>
 			)

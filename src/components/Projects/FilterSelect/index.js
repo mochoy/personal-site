@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './index.css';
 
-export default class Filter extends Component {
+export default class FilterSelect extends Component {
   constructor (props) {
     super(props);
 
@@ -11,7 +11,7 @@ export default class Filter extends Component {
 
   render() {
     return (
-      <div className="Filter">
+      <div className="FilterSelect">
         Filter
       </div>
     );
