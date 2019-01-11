@@ -558,8 +558,8 @@ export const  data = {
   		]
 		}
 	],
-	filterCategories: {
-		categories: [
+	filterCategories: [
+		[
 			"Nerf Blasters",
 			"Games",
 			"Web",
@@ -568,7 +568,7 @@ export const  data = {
 			"Hardware",
 			"Software"
 		],
-		languages: [
+		[
 			"JavaScript",
 			"C++",
 			"HTML",
@@ -577,7 +577,7 @@ export const  data = {
 			"Arduino",
 			"C#"
 		],
-		technologies: [
+		[
 			"React",
 			"Node.js",
 			"Express",
@@ -589,7 +589,7 @@ export const  data = {
 			"MongoDB",
 			"Lodash"
 		]
-	},
+	],
 	blasterData: [
 	  {
 	    "title": "Blasters",
