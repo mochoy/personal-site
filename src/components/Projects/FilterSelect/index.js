@@ -11,10 +11,16 @@ export default class FilterSelect extends Component {
     }
   }
 
+  //populates this.state.selectableFilterCategories with properly structured arr of all filter categories and isSelected flag
   populateSelectableFilterCategories() {
-    return ({
-
-    })
+    return (this.props.filterCategories.map((filterCategory) => {
+      return filterCategory.map((filterCategoryItem) => {
+        return {
+          name: filterCategoryItem,
+          isSelected: true
+        }
+      })
+    }))
   }
 
   render() {
@@ -28,7 +34,7 @@ export default class FilterSelect extends Component {
   renderSelectableFilterCategories() {
     return (
       <div className="flex-container-center">
-        {this.props.filterCategories.map(this.renderIndivSelectableFilterCategory)}
+        {this.props.filterCategories.map(this.renderIndivSelectableFilterCategory.bind(this))}
       </div>
     )
   }
@@ -40,11 +46,13 @@ export default class FilterSelect extends Component {
       <div className="selectable-filter-category-container">
         <h3>{title}</h3>
         {//render all items
-          filterCategory.map((item) => {
+          filterCategory.map(((item, n) => {
+            console.log(this.state.selectableFilterCategories[i][n])
+            console.log(item + "\n")
             return (
-              <p>{item}</p>
+              <p className={}>{item}</p>
             )
-          })
+          }).bind(this))
         }
       </div>
     )
