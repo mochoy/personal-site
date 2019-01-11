@@ -7,5 +7,9 @@
 }
 
 .selected-filter-category-text {
-	
+	background-color: blue;
+}
+
+.unselected-filter-category-text {
+	background-color: blue;
 }

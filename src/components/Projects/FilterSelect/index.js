@@ -47,10 +47,9 @@ export default class FilterSelect extends Component {
         <h3>{title}</h3>
         {//render all items
           filterCategory.map(((item, n) => {
-            console.log(this.state.selectableFilterCategories[i][n])
-            console.log(item + "\n")
+            let isSelected = this.state.selectableFilterCategories[i][n];
             return (
-              <p className={}>{item}</p>
+              <p className={isSelected ? "selected-filter-category-text" : "unselected-filter-category-text"}>{item}</p>
             )
           }).bind(this))
         }
