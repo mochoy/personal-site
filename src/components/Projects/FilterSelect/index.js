@@ -7,21 +7,35 @@ export default class FilterSelect extends Component {
     super(props);
 
     this.state = {
-      
+      selectableFilterCategories: this.populateSelectableFilterCategories()
     }
+  }
+
+  populateSelectableFilterCategories() {
+    return ({
+
+    })
   }
 
   render() {
     return (
       <div className="FilterSelect flex-container-center">
-        {this.renderSelectableFilterCategories(this.props.filterCategories.categories, "Categories")}
-        {this.renderSelectableFilterCategories(this.props.filterCategories.languages, "Languages")}
-        {this.renderSelectableFilterCategories(this.props.filterCategories.technologies, "Technologies")}
+        {this.renderSelectableFilterCategories()}
       </div>
     );
   }
 
-  renderSelectableFilterCategories(filterCategory, title) {
+  renderSelectableFilterCategories() {
+    return (
+      <div>
+        {this.props.filterCategories.map(this.renderIndivSelectableFilterCategory)}
+      </div>
+    )
+  }
+
+  renderIndivSelectableFilterCategory(filterCategory, i) {
+    let title = ["Category", "Languages", "Technologies"][i];
+
     return (
       <div className="selectable-filter-category-container">
         <h3>{title}</h3>
