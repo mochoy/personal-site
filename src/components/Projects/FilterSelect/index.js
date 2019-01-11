@@ -19,7 +19,7 @@ export default class FilterSelect extends Component {
 
   render() {
     return (
-      <div className="FilterSelect flex-container-center">
+      <div className="FilterSelect">
         {this.renderSelectableFilterCategories()}
       </div>
     );
@@ -27,7 +27,7 @@ export default class FilterSelect extends Component {
 
   renderSelectableFilterCategories() {
     return (
-      <div>
+      <div className="flex-container-center">
         {this.props.filterCategories.map(this.renderIndivSelectableFilterCategory)}
       </div>
     )
