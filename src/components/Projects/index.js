@@ -16,9 +16,21 @@ export default class Projects extends Component {
 
 		this.state = {
 			seeMore: false,
-			filterItems: []
+			selectableFilterCategories: this.populateSelectableFilterCategories()
 		}
 	}
+
+	 //populates this.state.selectableFilterCategories with properly structured arr of all filter categories and isSelected flag
+  populateSelectableFilterCategories() {
+    return (this.props.filterCategories.map((filterCategory) => {
+      return filterCategory.sort().map((filterCategoryItem) => {
+        return {
+          name: filterCategoryItem,
+          isSelected: true
+        }
+      })
+    }))
+  }
 
 	render () {
 		return (
@@ -41,7 +53,7 @@ export default class Projects extends Component {
 		if (this.state.seeMore) {
 			return (
 				<FilterSelect 
-					filterCategories={this.props.filterCategories}
+					filterCategories={this.state.selectableFilterCategories}
 					changeFilterItems={this.changeFilterItems.bind(this)}/>
 			)
 		}

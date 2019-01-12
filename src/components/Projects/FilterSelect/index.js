@@ -7,20 +7,8 @@ export default class FilterSelect extends Component {
     super(props);
 
     this.state = {
-      selectableFilterCategories: this.populateSelectableFilterCategories()
-    }
-  }
 
-  //populates this.state.selectableFilterCategories with properly structured arr of all filter categories and isSelected flag
-  populateSelectableFilterCategories() {
-    return (this.props.filterCategories.map((filterCategory) => {
-      return filterCategory.sort().map((filterCategoryItem) => {
-        return {
-          name: filterCategoryItem,
-          isSelected: true
-        }
-      })
-    }))
+    }
   }
 
   render() {
@@ -47,7 +35,7 @@ export default class FilterSelect extends Component {
         <h3 className="selectable-filter-category-title center-text">{title}</h3>
         {//render all items
           filterCategory.map(((item, n) => {
-            let isSelected = this.state.selectableFilterCategories[i][n];
+            let isSelected = this.props.filterCategories[i][n];
             return (
               <p className={isSelected ? "selected-filter-category-text filter-category-text" : "unselected-filter-category-text filter-category-text"}
                 onClick={(() => {
@@ -55,7 +43,7 @@ export default class FilterSelect extends Component {
                   //n is index of item in the arr of its category
                   this.toggleFilterCategory(i, n);
                 }).bind(this)}>
-                {item}</p>
+                {items}</p>
             )
           }).bind(this))
         }
