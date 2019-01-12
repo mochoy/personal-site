@@ -18,8 +18,20 @@ export default class Projects extends Component {
 
 		this.state = {
 			seeMore: false,
+			indexesOfProjectItemsToShow: this.generateIndexesOfAllProjectItems(),
 			selectableFilterCategories: this.props.filterCategories
 		}
+	}
+
+	//generates indexes of all project items, so basically just 0 to num of projects - 1
+	generateIndexesOfAllProjectItems() {
+		let allIndexes = [];
+
+		for (let i = 0; i < this.props.data.length; i++) {
+			allIndexes.push(i);
+		}
+
+		return allIndexes;
 	}
 
 	render () {
