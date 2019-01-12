@@ -74,21 +74,30 @@ export default class Projects extends Component {
 	}
 
 	renderProjectItems() {
-		//only render 3 project boxes if not see more
-		if (!this.state.seeMore) {
-			return this.state.indexesOfProjectItemsToShow.map(((indexOfItemToShow, i) => {
-				if (i < 3) {
-					return this.renderProjectItem(indexOfItemToShow, true);
+		return (
+			this.props.data.map(((item, i) => {
+				//more
+				if (!this.state.seeMore) {
+					//only render 3 project boxes if not see more
+					if (i < 3) {
+						return this.renderProjectItem(item, true);
+					}
 				}
-			}).bind(this));
-		}
 
-		//at least 1 project is being shown
-		if (this.state.indexesOfProjectItemsToShow.length > 0) {
-			return this.state.indexesOfProjectItemsToShow.map(((indexOfItemToShow) => {
-				return this.renderProjectItem(indexOfItemToShow)
-			}).bind(this));
-		}
+				//see more
+				//at least 1 project is being shown
+				if (this.state.indexesOfProjectItemsToShow.length > 0) { 
+					let isVisible = true;
+					//project isn't in index of items to show, so it should be hidden
+					if (this.state.indexesOfProjectItemsToShow.indexOf(i) === -1) {
+						isVisible = false;
+					}
+
+					return this.renderProjectItem(item, isVisible);
+				}
+
+			}).bind(this))
+		)
 
 		//no projects are being shown
 		 return (
@@ -101,8 +110,8 @@ export default class Projects extends Component {
 	}
 
 	//renders individual project item based on index in data arr
-	renderProjectItem(indexOfItemToShow, isVisible) {
-		let newItem = Object.assign({}, this.props.data[indexOfItemToShow]);
+	renderProjectItem(item, isVisible) {
+		let newItem = Object.assign({}, item);
 		newItem.img = "projects/" + newItem.img;
 
 		let className = isVisible ? "project-box" : "invisible-project-box";
