@@ -158,6 +158,11 @@ h1, h2, h3, h4, h5, h6, p, a, #header, li {
   -webkit-transform: rotate(45deg);
 }
 
+.up {
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+}
+
 
 
 

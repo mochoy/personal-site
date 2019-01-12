@@ -72,12 +72,13 @@ export default class FilterSelect extends Component {
   //render each category and all the text boxes
   renderIndivSelectableFilterCategory(filterCategory, i) {
     let title = this.props.filterCategoryTitles[i];
+    let chevronDirection = this.state.categoryCollapseStates[i].isCollapsed ? "up" : "down";
 
     return (
       <div className="selectable-filter-category-container">
-        <div className="selectable-filter-title-container" onClick={(() => {this.toggleCollapseCategory(i)}).bind(this)}>
-          <h3 className="selectable-filter-category-title center-text">{title}</h3>
-          <p className="center-text see-more-chevron-p"><i className="center-text chevron down see-more-chevron"></i></p>
+        <div className="selectable-filter-title-container flex-container-center" onClick={(() => {this.toggleCollapseCategory(i)}).bind(this)}>
+          <h3 className="selectable-filter-category-title">{title}</h3>
+          <p className="center-text"><i className={"chevron filter-category-title-chevron " + chevronDirection}></i></p>
         </div>
         {this.renderSelectableFilterCategoryItems(filterCategory, i)}
       </div>
@@ -92,7 +93,7 @@ export default class FilterSelect extends Component {
       filterCategory.map(((item, n) => {
 
         //className from being  visible
-        let collapsedClassName = this.state.categoryCollapseStates[i].isCollapsed ? "collapsed-filter-category-text" : "filter-category-text"
+        let collapsedClassName = this.state.categoryCollapseStates[i].isCollapsed ? "collapsed-filter-category-text" : "filter-category-text";
 
         //className from being select and from collapsed
         let selectedClassName = item.isSelected ? "selected-filter-category-text " + collapsedClassName : "unselected-filter-category-text " + collapsedClassName
