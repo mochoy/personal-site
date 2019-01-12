@@ -49,12 +49,25 @@ export default class FilterSelect extends Component {
           filterCategory.map(((item, n) => {
             let isSelected = this.state.selectableFilterCategories[i][n];
             return (
-              <p className={isSelected ? "selected-filter-category-text filter-category-text" : "unselected-filter-category-text filter-category-text"}>{item}</p>
+              <p className={isSelected ? "selected-filter-category-text filter-category-text" : "unselected-filter-category-text filter-category-text"}
+                onClick={(() => {
+                  //i is index of all filter categories
+                  //n is index of item in the arr of its category
+                  this.toggleFilterCategory(i, n);
+                }).bind(this)}>
+                {item}</p>
             )
           }).bind(this))
         }
       </div>
     )
   }
+
+  //i is index of all filter categories
+  //n is index of item in the arr of its category
+  toggleFilterCategory(i, n) {
+    console.log(this.props.filterCategories[i][n]);
+  }
+
 }
 
