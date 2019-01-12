@@ -88,6 +88,34 @@ export const  data = {
 	projectData: [
 		{
 		  "key": 0,
+		  "img": "egg-robot.jpg",
+		  "by": "Drew, Jonathon, Monty, & Jackson",
+		  "title": "Egg Transporter Robot",
+		  "description": "Line-following and obstacle-avoiding robot that transports to radiated factory workers.",
+		  "event": "Cal Poly Intro to EE Lab",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/mochoy/ee151-labs/blob/master/EggRobot/EggRobot.ino"
+		  	}
+  		],
+  		filterCategories: [
+  			[
+			 		"Hardware",
+			 		"Software",
+			 		"Electronics"
+			 	],
+  			[
+  				"Arduino",
+  				"C++"
+			 	],
+			 	[
+			 		"Arduino"
+			 	]
+  		]
+		},
+		{
+		  "key": 0,
 		  "img": "lipocalculator.png",
 		  "title": "LiPo Calculator",
 		  "description": "A web application to calculate voltage and output current specs based on cell count, discharge rating, and capacity ratings of a LiPo.",
