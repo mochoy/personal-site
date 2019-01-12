@@ -83,9 +83,20 @@ export default class Projects extends Component {
 			}).bind(this));
 		}
 
-		return this.state.indexesOfProjectItemsToShow.map(((indexOfItemToShow) => {
-			return this.renderProjectItem(indexOfItemToShow)
-		}).bind(this)); 
+		//at least 1 project is being shown
+		if (this.state.indexesOfProjectItemsToShow.length > 0) {
+			return this.state.indexesOfProjectItemsToShow.map(((indexOfItemToShow) => {
+				return this.renderProjectItem(indexOfItemToShow)
+			}).bind(this));
+		}
+
+		//no projects are being shown
+		 return (
+		 	<div>
+		 		<h2 className="center-text">Nothing here!</h2> 
+		 		<p className="center-text">Try selecting more filter tags.</p>
+		 	</div>
+	 	)
 	
 	}
 
