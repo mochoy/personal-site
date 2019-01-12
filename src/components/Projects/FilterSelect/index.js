@@ -3,15 +3,15 @@ import React, { Component } from 'react';
 import './index.css';
 
 export default class FilterSelect extends Component {
-  constructor (props) {
-    super(props);
-
-    this.state = {
-      filterCategories: this.setSelectableFilterCategories(true)
-    }
+  componentWillMount() {
+    //set parent's state var selectableFilterItems when FilterSelect is mounted
+    //When the filter items are rendered in FilterSelect (here), they pull from the props
+    //when the filter items should be changed, they're  changed from the parent (Projects)
+    //Parent's filterItems is first set as purely the data from the data.js file until it's init here
+    this.props.updateSelectableFilterItems(this.setSelectableFilterCategories(true));
   }
 
-  //populates this.state.selectableFilterCategories with properly structured arr of all filter categories and isSelected flag
+  //populates Parent's (Projects component) selectableFilterCategories with properly structured arr of all filter categories and isSelected flag
   setSelectableFilterCategories(isSelected) {
     return (this.props.filterCategories.map((filterCategory) => {
       return filterCategory.sort().map((filterCategoryItem) => {
@@ -29,11 +29,11 @@ export default class FilterSelect extends Component {
         {this.renderSelectableFilterCategories()}
         <div className="flex-container-center">
           <button className="light-blue-btn round-btn"
-            onClick={(() => {this.props.toggleAll(true)}).bind(this)}>
+            onClick={(() => {this.toggleAll(true)}).bind(this)}>
             <p className="link-btn-text-content link-btn-txt">Show All</p>
           </button>
           <button className="red-btn round-btn"
-            onClick={(() => {this.props.toggleAll(false)}).bind(this)}>
+            onClick={(() => {this.toggleAll(false)}).bind(this)}>
             <p className="link-btn-text-content link-btn-txt">Hide All</p>
           </button>
         </div>
@@ -46,7 +46,7 @@ export default class FilterSelect extends Component {
   renderSelectableFilterCategories() {
     return (
       <div className="flex-container-center">
-        {this.state.filterCategories.map(this.renderIndivSelectableFilterCategory.bind(this))}
+        {this.props.filterCategories.map(this.renderIndivSelectableFilterCategory.bind(this))}
       </div>
     )
   }
@@ -81,20 +81,15 @@ export default class FilterSelect extends Component {
     let newSelectableFilterCategories = this.cloneSelectableFilterCategories();
     newSelectableFilterCategories[i][n].isSelected = !newSelectableFilterCategories[i][n].isSelected;
 
-    this.setState({
-      selectableFilterCategories: newSelectableFilterCategories
-    });
-
+    this.props.updateSelectableFilterItems(newSelectableFilterCategories);
   }
 
   toggleAll(toShow) {
-    this.setState({
-      selectableFilterCategories: this.setSelectableFilterCategories(toShow)
-    });
+    this.props.updateSelectableFilterItems(this.setSelectableFilterCategories(toShow));
   }
 
   cloneSelectableFilterCategories() {
-    return (this.state.filterCategories.map((filterCategory) => {
+    return (this.props.filterCategories.map((filterCategory) => {
       return filterCategory.sort().map((filterCategoryItem) => {
         return filterCategoryItem
       })
@@ -105,10 +100,7 @@ export default class FilterSelect extends Component {
     let newSelectableFilterCategories = this.cloneSelectableFilterCategories();
     newSelectableFilterCategories[i][n].isSelected = !newSelectableFilterCategories[i][n].isSelected;
 
-    this.setState({
-      selectableFilterCategories: newSelectableFilterCategories
-    });
-
+    this.props.updateSelectableFilterItems(newSelectableFilterCategories);
   }
 
 }

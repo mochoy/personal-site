@@ -16,7 +16,7 @@ export default class Projects extends Component {
 
 		this.state = {
 			seeMore: false,
-			selectableFilterCategories: []
+			selectableFilterCategories: this.props.filterCategories
 		}
 	}
 
@@ -41,7 +41,7 @@ export default class Projects extends Component {
 		if (this.state.seeMore) {
 			return (
 				<FilterSelect 
-					filterCategories={this.props.filterCategories}
+					filterCategories={this.state.selectableFilterCategories}
 					updateSelectableFilterItems={this.updateSelectableFilterItems.bind(this)}/>
 			)
 		}
