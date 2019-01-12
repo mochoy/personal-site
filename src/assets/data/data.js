@@ -323,6 +323,43 @@ export const  data = {
 		},
 		{
 		  "key": 0,
+		  "img": "nerfTime.jpg",
+		  "by": "Michael, Monty, & Elias",
+		  "title": "Nerf Time",
+		  "description": "Nerf turret controlled remotely using web app with live video steaming using a mobile device.",
+		  "event": "Rapid.io hackathon",
+		  "links": [
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/MiLeung/NerfTime"
+		  	}
+		  ],
+  		filterCategories: [
+  			[
+  				"Nerf Blasters",
+  				"Electronics",
+  				"Web",
+  				"Hardware",
+  				"Software"
+			 	],
+			 	[
+			 		"Python",
+			 		"JavaScript",
+			 		"Arduino",
+			 		"C++",
+			 		"HTML",
+			 		"CSS"
+			 	],
+			 	[
+			 		"Arduino",
+			 		"React",
+			 		"Node.js",
+			 		"Express"
+			 	]
+  		]
+		},
+		{
+		  "key": 0,
 		  "img": "Awesome-Nerf-Turret.png",
 		  "title": "Awesome Nerf Turret",
 		  "description": "Remote-controlled Nerf Hyperfire turret powered by Let's Robot's realtime platform that allows for real-time streaming and control of the turret through letsrobot.tv",
@@ -502,7 +539,7 @@ export const  data = {
 		{
 			"key": 4,
 			"img": "iatw.png",
-			"by": "Annie and Monty",
+			"by": "Annie & Monty",
 			"title": "Isaac Against the World",
 			"description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser.",
 			"event": "Mission Bit winter 2015, second place winner of 2016 Congressional App Challenge",
