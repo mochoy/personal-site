@@ -78,7 +78,7 @@ export default class Projects extends Component {
 		if (!this.state.seeMore) {
 			return this.state.indexesOfProjectItemsToShow.map(((indexOfItemToShow, i) => {
 				if (i < 3) {
-					return this.renderProjectItem(indexOfItemToShow);
+					return this.renderProjectItem(indexOfItemToShow, true);
 				}
 			}).bind(this));
 		}
@@ -101,14 +101,16 @@ export default class Projects extends Component {
 	}
 
 	//renders individual project item based on index in data arr
-	renderProjectItem(indexOfItemToShow) {
+	renderProjectItem(indexOfItemToShow, isVisible) {
 		let newItem = Object.assign({}, this.props.data[indexOfItemToShow]);
 		newItem.img = "projects/" + newItem.img;
+
+		let className = isVisible ? "project-box" : "invisible-project-box";
 
 		return (
 			<VerticalContentBox 
 				project={newItem} 
-				className="project-box"
+				className={className}
 				textContainerClassName="project-text-container center"
 				imgClassName="project-box-img">
 
