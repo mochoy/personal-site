@@ -7,8 +7,20 @@ export default class FilterSelect extends Component {
     super(props);
 
     this.state = {
-
+      filterCategories: this.setSelectableFilterCategories(true)
     }
+  }
+
+  //populates this.state.selectableFilterCategories with properly structured arr of all filter categories and isSelected flag
+  setSelectableFilterCategories(isSelected) {
+    return (this.props.filterCategories.map((filterCategory) => {
+      return filterCategory.sort().map((filterCategoryItem) => {
+        return {
+          name: filterCategoryItem,
+          isSelected: isSelected
+        }
+      })
+    }))
   }
 
   render() {
@@ -29,14 +41,17 @@ export default class FilterSelect extends Component {
     );
   }
 
+  //render all selectable filter categories
+  //renders from state data because it's formatted correctly with both the name and isSelected flag
   renderSelectableFilterCategories() {
     return (
       <div className="flex-container-center">
-        {this.props.filterCategories.map(this.renderIndivSelectableFilterCategory.bind(this))}
+        {this.state.filterCategories.map(this.renderIndivSelectableFilterCategory.bind(this))}
       </div>
     )
   }
 
+  //render each category and all the text boxes
   renderIndivSelectableFilterCategory(filterCategory, i) {
     let title = ["Category", "Languages", "Technologies"][i];
 
@@ -63,7 +78,37 @@ export default class FilterSelect extends Component {
   //i is index of all filter categories
   //n is index of item in the arr of its category
   toggleFilterItem(i, n) {
-    this.props.toggleFilterItem(i, n);
+    let newSelectableFilterCategories = this.cloneSelectableFilterCategories();
+    newSelectableFilterCategories[i][n].isSelected = !newSelectableFilterCategories[i][n].isSelected;
+
+    this.setState({
+      selectableFilterCategories: newSelectableFilterCategories
+    });
+
+  }
+
+  toggleAll(toShow) {
+    this.setState({
+      selectableFilterCategories: this.setSelectableFilterCategories(toShow)
+    });
+  }
+
+  cloneSelectableFilterCategories() {
+    return (this.state.filterCategories.map((filterCategory) => {
+      return filterCategory.sort().map((filterCategoryItem) => {
+        return filterCategoryItem
+      })
+    }))
+  }
+
+  changeFilterItems(i, n) {
+    let newSelectableFilterCategories = this.cloneSelectableFilterCategories();
+    newSelectableFilterCategories[i][n].isSelected = !newSelectableFilterCategories[i][n].isSelected;
+
+    this.setState({
+      selectableFilterCategories: newSelectableFilterCategories
+    });
+
   }
 
 }

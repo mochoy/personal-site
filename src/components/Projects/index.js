@@ -16,21 +16,9 @@ export default class Projects extends Component {
 
 		this.state = {
 			seeMore: false,
-			selectableFilterCategories: this.setSelectableFilterCategories(true)
+			selectableFilterCategories: []
 		}
 	}
-
-	 //populates this.state.selectableFilterCategories with properly structured arr of all filter categories and isSelected flag
-  setSelectableFilterCategories(isSelected) {
-    return (this.props.filterCategories.map((filterCategory) => {
-      return filterCategory.sort().map((filterCategoryItem) => {
-        return {
-          name: filterCategoryItem,
-          isSelected: isSelected
-        }
-      })
-    }))
-  }
 
 	render () {
 		return (
@@ -53,29 +41,10 @@ export default class Projects extends Component {
 		if (this.state.seeMore) {
 			return (
 				<FilterSelect 
-					filterCategories={this.state.selectableFilterCategories}
-					toggleFilterItem={this.changeFilterItems.bind(this)}
-					toggleAll={this.toggleAll.bind(this)}/>
+					filterCategories={this.props.filterCategories}
+					updateSelectableFilterItems={this.updateSelectableFilterItems.bind(this)}/>
 			)
 		}
-	}
-
-	cloneSelectableFilterCategories() {
-		return (this.state.selectableFilterCategories.map((filterCategory) => {
-      return filterCategory.sort().map((filterCategoryItem) => {
-        return filterCategoryItem
-      })
-    }))
-	}
-
-	changeFilterItems(i, n) {
-		let newSelectableFilterCategories = this.cloneSelectableFilterCategories();
-		newSelectableFilterCategories[i][n].isSelected = !newSelectableFilterCategories[i][n].isSelected;
-
-		this.setState({
-			selectableFilterCategories: newSelectableFilterCategories
-		});
-
 	}
 
 	renderProjectItems() {
@@ -121,9 +90,9 @@ export default class Projects extends Component {
 		)
 	}
 
-	toggleAll(toShow) {
+	updateSelectableFilterItems(newFilterItems) {
 		this.setState({
-			selectableFilterCategories: this.setSelectableFilterCategories(toShow)
+			selectableFilterCategories: newFilterItems
 		});
 	}
 
