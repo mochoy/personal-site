@@ -198,7 +198,8 @@ export const  data = {
 			 	],
 			 	[
 			 		"C++",
-			 		"Arduino"
+			 		"Arduino",
+			 		"Verilog"
 			 	],
 			 	[
 			 		"Arduino"
@@ -227,7 +228,7 @@ export const  data = {
   				"Hardware"
 			 	],
 			 	[
-
+			 		"Verilog"
 			 	],
 			 	[
 
@@ -312,7 +313,8 @@ export const  data = {
 			 	],
 			 	[
 			 		"Arduino",
-			 		"C++"
+			 		"C++",
+			 		"Verilog"
 			 	],
 			 	[
 		 			"Arduino"
@@ -398,7 +400,8 @@ export const  data = {
 			 	],
 			 	[
 			 		"C++",
-			 		"Arduino"
+			 		"Arduino",
+			 		"Verilog"
 			 	],
 			 	[
 			 		"Arduino"
@@ -426,7 +429,8 @@ export const  data = {
 			 	],
 			 	[
 			 		"C++",
-			 		"Arduino"
+			 		"Arduino",
+			 		"Verilog"
 			 	],
 			 	[
 			 		"Arduino"
@@ -571,7 +575,8 @@ export const  data = {
 			"CSS",
 			"Python",
 			"Arduino",
-			"C#"
+			"C#",
+	 		"Verilog"
 		],
 		[
 			"React",
