@@ -14,7 +14,7 @@ export default class FilterSelect extends Component {
   //populates this.state.selectableFilterCategories with properly structured arr of all filter categories and isSelected flag
   populateSelectableFilterCategories() {
     return (this.props.filterCategories.map((filterCategory) => {
-      return filterCategory.map((filterCategoryItem) => {
+      return filterCategory.sort().map((filterCategoryItem) => {
         return {
           name: filterCategoryItem,
           isSelected: true
