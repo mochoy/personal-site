@@ -49,7 +49,7 @@ export default class FilterSelect extends Component {
           filterCategory.map(((item, n) => {
             let isSelected = this.state.selectableFilterCategories[i][n];
             return (
-              <p className={isSelected ? "selected-filter-category-text" : "unselected-filter-category-text"}>{item}</p>
+              <p className={isSelected ? "selected-filter-category-text filter-category-text" : "unselected-filter-category-text filter-category-text"}>{item}</p>
             )
           }).bind(this))
         }
