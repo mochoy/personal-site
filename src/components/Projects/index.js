@@ -17,9 +17,9 @@ export default class Projects extends Component {
 		this.renderProjectItems = this.renderProjectItems.bind(this);
 
 		this.state = {
-			seeMore: false,
+			seeMore: true,
 			indexesOfProjectItemsToShow: this.generateIndexesOfAllProjectItems(),
-			selectableFilterCategories: this.props.filterCategories
+			selectableFilterCategories: this.setSelectableFilterCategories()
 		}
 	}
 
@@ -33,6 +33,17 @@ export default class Projects extends Component {
 
 		return allIndexes;
 	}
+
+	setSelectableFilterCategories() {
+    return (this.props.filterCategories.map((filterCategory) => {
+      return filterCategory.sort().map((filterCategoryItem) => {
+        return {
+          name: filterCategoryItem,
+          isSelected: true
+        }
+      })
+    }))
+  }
 
 	render () {
 		return (
@@ -112,26 +123,69 @@ export default class Projects extends Component {
 
 	updateSelectableFilterItems(newFilterItems) {
 		this.setState({
-			indexesOfProjectItemsToShow: this.getIndexesOfProjectsToShow(this.getUnselectedFilterItems(newFilterItems)),
+			indexesOfProjectItemsToShow: this.getIndexesOfProjectsToShow(this.getUnselectedFilterItems(newFilterItems), newFilterItems),
 			selectableFilterCategories: newFilterItems
 		});
 	}
 
 	//returns isSelected flag of a filter item based on its category and item
 	//category and item can be indexes or strings, but they both need to be the same type
-	isFilterItemSelected(category, item) {
+	//this method may be called upon updating filter items, so if the state hasn't been updated yet, compare to newFilterItems
+	isFilterItemSelected(category, item, newFilterItems) {
 		//if category and item are strings
 		if (isNaN(category) && isNaN(item)) {
-			let title = ["Categories", "Languages", "Technologies"];
+			let categoryIndex = this.findIndexOfCategory(category);
+
+			//if newFilterItems isn't passed in, so compare to state
+			//not working
+			if (!newFilterItems) {
+				//iterate only through the category that is being searched through
+				for (let i = 0; i < this.state.selectableFilterCategories[categoryIndex].length; i++) {
+					if (this.state.selectableFilterCategories[categoryIndex][i].isSelected) {
+						return true;
+					}
+				}
+
+				return false;
+			}
+
+			//newFilterItems passed in, so compare to that since it's more up to date
+			let categoryItemIndex = this.findIndexOfCategoryItem(item, categoryIndex);
+			if (newFilterItems[categoryIndex][categoryItemIndex].isSelected) {
+				return true;
+			}
+
+			return false;
 
 		}
 
 		//if category and item aren't strings
 		if (this.state.selectableFilterCategories[category][item].isSelected) {
-    	return true
+    	return true;
     }
 
-    return false
+    return false;
+	}
+
+	//returns index of category based on it's name, a string
+	//reads from member var of all category names
+	findIndexOfCategory(category) {
+		for (let i = 0; i < this.filterCategoryTitles.length; i++) {
+			if (this.filterCategoryTitles[i] === category) {
+				return i;
+			}
+		}
+	}
+
+	//returns index of category item based on it's name (string) and its category (index)
+	findIndexOfCategoryItem(categoryItem, categoryIndex) {
+		let category = this.state.selectableFilterCategories[categoryIndex];
+		
+		for (let i = 0; i < category.length; i++) {
+			if (category[i].name === (categoryItem.name || categoryItem)) {
+				return i;
+			}
+		}
 	}
 
 	//returns 2d arr of all unselected filter items
@@ -147,14 +201,47 @@ export default class Projects extends Component {
 		});
 
 
-		return unselectedFilterItems
+		return unselectedFilterItems;
 	}
 
 	//gets indexes of projects to show based on what categories are selected
-	getIndexesOfProjectsToShow(unselectedFilterItems) {
-		console.log(unselectedFilterItems)
+	//if a project's category items are in unselectedFilterItems, it should not be displayed
+	getIndexesOfProjectsToShow(unselectedFilterItems, newFilterItems) {
+		let indexesOfProjectItemsToShow = [];
 
-		return [];
+		//iterate though all data items
+		this.props.data.map((project, i) => {
+			let shouldItemBeVisible = true;
+			//iterate through all filter categories
+			//use for loop so the loop can be broken (maps can't be broken)
+			for (let filterCategoryIndex = 0; filterCategoryIndex < project.filterCategories.length; filterCategoryIndex++) {
+				let filterCategory = project.filterCategories[filterCategoryIndex];
+
+				//iterate through all filter items
+				//use for loop so the loop can be broken (maps can't be broken)
+				for (let filterItemIndex = 0; filterItemIndex < filterCategory.length; filterItemIndex++) {
+					let projectFilterItem = filterCategory[filterItemIndex];
+
+					//if the filter category shouldn't be displayed
+					if (!this.isFilterItemSelected(this.filterCategoryTitles[filterCategoryIndex], projectFilterItem, newFilterItems)) {
+						shouldItemBeVisible = false;
+						break;
+					}
+				}
+
+				//item shouldn't be visible, break loop and start validating next project
+				if(!shouldItemBeVisible) {
+					break
+				}
+
+			}
+
+			if (shouldItemBeVisible) {
+				indexesOfProjectItemsToShow.push(i);
+			}
+		});
+
+		return indexesOfProjectItemsToShow;
 	}
 
 }

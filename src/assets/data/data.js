@@ -236,7 +236,7 @@ export const  data = {
 			 	],
 			 	[
 			 		"Arduino",
-			 		"Open CV"
+			 		"OpenCV"
 			 	]
   		]
 		},
@@ -671,7 +671,7 @@ export const  data = {
   		filterCategories: [
   			[
   				"Software",
-  				"Game"
+  				"Games"
 			 	],
 			 	[
 			 		"C#"
@@ -696,7 +696,7 @@ export const  data = {
   		filterCategories: [
   			[
   				"Software",
-  				"Game"
+  				"Games"
 			 	],
 			 	[
 			 		
