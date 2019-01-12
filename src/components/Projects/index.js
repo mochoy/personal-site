@@ -112,6 +112,7 @@ export default class Projects extends Component {
 
 	updateSelectableFilterItems(newFilterItems) {
 		this.setState({
+			indexesOfProjectItemsToShow: this.getIndexesOfProjectsToShow(this.getUnselectedFilterItems(newFilterItems)),
 			selectableFilterCategories: newFilterItems
 		});
 	}
@@ -131,6 +132,29 @@ export default class Projects extends Component {
     }
 
     return false
+	}
+
+	//returns 2d arr of all unselected filter items
+	getUnselectedFilterItems(filterItems) {
+		let unselectedFilterItems = [];
+
+		filterItems.map((category) => {
+			category.map((filterItem) => {
+				if (filterItem.isSelected) {
+					unselectedFilterItems.push(filterItem);
+				}
+			});
+		});
+
+
+		return unselectedFilterItems
+	}
+
+	//gets indexes of projects to show based on what categories are selected
+	getIndexesOfProjectsToShow(unselectedFilterItems) {
+		console.log(unselectedFilterItems)
+
+		return [];
 	}
 
 }
