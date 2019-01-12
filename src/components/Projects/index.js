@@ -101,8 +101,8 @@ export default class Projects extends Component {
 	isFilterItemSelected(category, item) {
 		//if category and item are strings
 		if (isNaN(category) && isNaN(item)) {
-			let title = ["Category", "Languages", "Technologies"];
-			
+			let title = ["Categories", "Languages", "Technologies"];
+
 		}
 
 		//if category and item aren't strings
