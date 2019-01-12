@@ -10,7 +10,6 @@ export default class OverlayFilterCategories extends Component {
   }
 
   render() {
-    let categoryTitles = ["Category", "Languages", "Technologies"];
     return (
       <div className="OverlayFilterCategories flex-container-left">
         {
@@ -20,7 +19,7 @@ export default class OverlayFilterCategories extends Component {
             if (category.length) {
               return (
                 <div className="overlay-filter-container">
-                  <p className="overlay-description overlay-filter-title">{categoryTitles[i]}</p>
+                  <p className="overlay-description overlay-filter-title">{this.props.filterCategoryTitles[i]}</p>
                   {
                     //map sub filter categories
                     category.sort().map((subcategoryText) => {

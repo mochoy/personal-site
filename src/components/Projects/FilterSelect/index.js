@@ -53,7 +53,7 @@ export default class FilterSelect extends Component {
 
   //render each category and all the text boxes
   renderIndivSelectableFilterCategory(filterCategory, i) {
-    let title = ["Categories", "Languages", "Technologies"][i];
+    let title = this.props.filterCategoryTitles[i];
 
     return (
       <div className="selectable-filter-category-container">

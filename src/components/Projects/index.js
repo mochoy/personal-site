@@ -12,6 +12,8 @@ export default class Projects extends Component {
 	constructor(props) {
 		super(props);
 
+		this.filterCategoryTitles = ["Categories", "Languages", "Tools & Technologies"];
+
 		this.renderProjectItems = this.renderProjectItems.bind(this);
 
 		this.state = {
@@ -42,6 +44,7 @@ export default class Projects extends Component {
 			return (
 				<FilterSelect 
 					filterCategories={this.state.selectableFilterCategories}
+					filterCategoryTitles={this.filterCategoryTitles}
 					updateSelectableFilterItems={this.updateSelectableFilterItems.bind(this)}/>
 			)
 		}
@@ -72,7 +75,9 @@ export default class Projects extends Component {
 				textContainerClassName="project-text-container center"
 				imgClassName="project-box-img">
 
-				<OverlayFilterCategories filterCategories={newItem.filterCategories}/>
+				<OverlayFilterCategories 
+					filterCategories={newItem.filterCategories}
+					filterCategoryTitles={this.filterCategoryTitles}/>
 
 			</VerticalContentBox>
 		)
