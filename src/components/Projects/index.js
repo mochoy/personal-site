@@ -16,17 +16,17 @@ export default class Projects extends Component {
 
 		this.state = {
 			seeMore: false,
-			selectableFilterCategories: this.populateSelectableFilterCategories()
+			selectableFilterCategories: this.setSelectableFilterCategories(true)
 		}
 	}
 
 	 //populates this.state.selectableFilterCategories with properly structured arr of all filter categories and isSelected flag
-  populateSelectableFilterCategories() {
+  setSelectableFilterCategories(isSelected) {
     return (this.props.filterCategories.map((filterCategory) => {
       return filterCategory.sort().map((filterCategoryItem) => {
         return {
           name: filterCategoryItem,
-          isSelected: true
+          isSelected: isSelected
         }
       })
     }))
@@ -54,7 +54,9 @@ export default class Projects extends Component {
 			return (
 				<FilterSelect 
 					filterCategories={this.state.selectableFilterCategories}
-					toggleFilterItem={this.changeFilterItems.bind(this)}/>
+					toggleFilterItem={this.changeFilterItems.bind(this)}
+					hideAll={this.hideAll.bind(this)}
+					showAll={this.showAll.bind(this)}/>
 			)
 		}
 	}
@@ -118,6 +120,18 @@ export default class Projects extends Component {
 		return (
 			<SeeMore onClick={() => this.setState({seeMore: true})}/>
 		)
+	}
+
+	hideAll() {
+		this.setState({
+			selectableFilterCategories: this.setSelectableFilterCategories(false)
+		});
+	}
+
+	showAll() {
+		this.setState({
+			selectableFilterCategories: this.setSelectableFilterCategories(true)
+		});
 	}
 
 

@@ -16,8 +16,14 @@ export default class FilterSelect extends Component {
       <div className="FilterSelect">
         {this.renderSelectableFilterCategories()}
         <div className="flex-container-center">
-          <button className="light-blue-btn round-btn"><p className="link-btn-text-content link-btn-txt">Show All</p></button>
-          <button className="red-btn round-btn"><p className="link-btn-text-content link-btn-txt">Hide All</p></button>
+          <button className="light-blue-btn round-btn"
+            onClick={this.props.showAll.bind(this)}>
+            <p className="link-btn-text-content link-btn-txt">Show All</p>
+          </button>
+          <button className="red-btn round-btn"
+            onClick={this.props.hideAll.bind(this)}>
+            <p className="link-btn-text-content link-btn-txt">Hide All</p>
+          </button>
         </div>
       </div>
     );
