@@ -6,10 +6,15 @@
 	margin: 0 3em;
 }
 
+.selectable-filter-category-title {
+	
+}
+
 .filter-category-text {
 	cursor: pointer;
 	margin: .5em;
 	padding: .5em 2em;
+	padding-left: 1em;
 }
 
 .selected-filter-category-text {

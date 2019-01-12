@@ -44,7 +44,7 @@ export default class FilterSelect extends Component {
 
     return (
       <div className="selectable-filter-category-container">
-        <h3>{title}</h3>
+        <h3 className="selectable-filter-category-title center-text">{title}</h3>
         {//render all items
           filterCategory.map(((item, n) => {
             let isSelected = this.state.selectableFilterCategories[i][n];
