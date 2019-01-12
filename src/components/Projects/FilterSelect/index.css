@@ -7,8 +7,12 @@
 	width: 10em;
 }
 
-.selectable-filter-category-title {
+.selectable-filter-title-container {
 	cursor: pointer;
+}
+
+.selectable-filter-category-title {
+
 }
 
 .filter-category-text, .collapsed-filter-category-text {

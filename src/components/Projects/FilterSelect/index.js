@@ -75,9 +75,10 @@ export default class FilterSelect extends Component {
 
     return (
       <div className="selectable-filter-category-container">
-        <h3 
-          className="selectable-filter-category-title center-text"
-          onClick={(() => {this.toggleCollapseCategory(i)}).bind(this)}>{title}</h3>
+        <div className="selectable-filter-title-container" onClick={(() => {this.toggleCollapseCategory(i)}).bind(this)}>
+          <h3 className="selectable-filter-category-title center-text">{title}</h3>
+          <p className="center-text see-more-chevron-p"><i className="center-text chevron down see-more-chevron"></i></p>
+        </div>
         {this.renderSelectableFilterCategoryItems(filterCategory, i)}
       </div>
     )
