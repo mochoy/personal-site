@@ -40,7 +40,7 @@ export default class FilterSelect extends Component {
                 onClick={(() => {
                   //i is index of all filter categories
                   //n is index of item in the arr of its category
-                  this.toggleFilterCategory(i, n);
+                  this.toggleFilterItem(i, n);
                 }).bind(this)}>
                 {item.name}</p>
             )
@@ -52,8 +52,8 @@ export default class FilterSelect extends Component {
 
   //i is index of all filter categories
   //n is index of item in the arr of its category
-  toggleFilterCategory(i, n) {
-    console.log(this.props.filterCategories[i][n]);
+  toggleFilterItem(i, n) {
+    this.props.toggleFilterItem(i, n);
   }
 
 }

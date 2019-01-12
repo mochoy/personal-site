@@ -54,15 +54,27 @@ export default class Projects extends Component {
 			return (
 				<FilterSelect 
 					filterCategories={this.state.selectableFilterCategories}
-					changeFilterItems={this.changeFilterItems.bind(this)}/>
+					toggleFilterItem={this.changeFilterItems.bind(this)}/>
 			)
 		}
 	}
 
-	changeFilterItems(newFilterItems) {
+	cloneSelectableFilterCategories() {
+		return (this.state.selectableFilterCategories.map((filterCategory) => {
+      return filterCategory.sort().map((filterCategoryItem) => {
+        return filterCategoryItem
+      })
+    }))
+	}
+
+	changeFilterItems(i, n) {
+		let newSelectableFilterCategories = this.cloneSelectableFilterCategories();
+		newSelectableFilterCategories[i][n].isSelected = !newSelectableFilterCategories[i][n].isSelected;
+
 		this.setState({
-			filterItems: newFilterItems
+			selectableFilterCategories: newSelectableFilterCategories
 		});
+
 	}
 
 	renderProjectItems() {
