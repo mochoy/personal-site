@@ -88,8 +88,36 @@ export const  data = {
 	projectData: [
 		{
 		  "key": 0,
+		  "img": "lipocalculator.png",
+		  "title": "LiPo Calculator",
+		  "description": "A web application to calculate voltage and output current specs based on cell count, discharge rating, and capacity ratings of a LiPo.",
+		  "links": [
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://suild.com/tools/lipo-calculator"
+		  	}
+  		],
+  		filterCategories: [
+  			[
+			 		"Web",
+			 		"Software"
+			 	],
+  			[
+  				"JavaScript",
+  				"CSS"
+			 	],
+			 	[
+			 		"React",
+			 		"Node.js",
+			 		"Express",
+			 		"MongoDB"
+			 	]
+  		]
+		},
+		{
+		  "key": 0,
 		  "img": "lipochecker.png",
-		  "title": "Web-Controlled Nerf Blaster",
+		  "title": "LiPo Checker",
 		  "description": "A web application to verify if a given LiPo battery works with a setup of aftermarket Nerf motors. Supports undervolting, overvolting, motor options, and more!",
 		  "event": "Cal Poly Arduino Fest 2018",
 		  "links": [
