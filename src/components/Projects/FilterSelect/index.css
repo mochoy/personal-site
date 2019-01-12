@@ -4,6 +4,7 @@
 
 .selectable-filter-category-container {
 	margin: 0 3em;
+	margin-bottom: 2em;
 	width: 15em;
 }
 
@@ -36,7 +37,7 @@
 .filter-category-text {
 	visibility: visible;
 	opacity: 1;
-	transition: visibility 0s linear 0s, opacity 300ms;
+	transition: all 300ms;
 }
 
 .filter-category-text:hover {
