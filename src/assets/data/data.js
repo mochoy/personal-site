@@ -88,8 +88,37 @@ export const  data = {
 	projectData: [
 		{
 		  "key": 0,
-		  "img": "webControllerNerfBlaster.jpg",
+		  "img": "lipochecker.png",
 		  "title": "Web-Controlled Nerf Blaster",
+		  "description": "A web application to verify if a given LiPo battery works with a setup of aftermarket Nerf motors. Supports undervolting, overvolting, motor options, and more!",
+		  "event": "Cal Poly Arduino Fest 2018",
+		  "links": [
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://suild.com/tools/lipo-checker"
+		  	}
+  		],
+  		filterCategories: [
+  			[
+			 		"Web",
+			 		"Software"
+			 	],
+  			[
+  				"JavaScript",
+  				"CSS"
+			 	],
+			 	[
+			 		"React",
+			 		"Node.js",
+			 		"Express",
+			 		"MongoDB"
+			 	]
+  		]
+		},
+		{
+		  "key": 0,
+		  "img": "webControllerNerfBlaster.jpg",
+		  "title": "LiPo Checker",
 		  "description": "Web application to control power outputs to control rate-of-fire and firing power of a highly modified Nerf blaster.",
 		  "event": "Cal Poly Arduino Fest 2018",
 		  "links": [
