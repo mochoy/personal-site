@@ -65,19 +65,22 @@ export default class Projects extends Component {
 	renderProjectItems() {
 		//only render 3 project boxes if not see more
 		if (!this.state.seeMore) {
-			return this.props.data.map(((item, i) => {
+			return this.state.indexesOfProjectItemsToShow.map(((indexOfItemToShow, i) => {
 				if (i < 3) {
-					return this.renderProjectItem(item);
+					return this.renderProjectItem(indexOfItemToShow);
 				}
 			}).bind(this));
 		}
 
-		return this.props.data.map(this.renderProjectItem.bind(this));
+		return this.state.indexesOfProjectItemsToShow.map(((indexOfItemToShow) => {
+			return this.renderProjectItem(indexOfItemToShow)
+		}).bind(this)); 
 	
 	}
 
-	renderProjectItem(item) {
-		let newItem = Object.assign({}, item);
+	//renders individual project item based on index in data arr
+	renderProjectItem(indexOfItemToShow) {
+		let newItem = Object.assign({}, this.props.data[indexOfItemToShow]);
 		newItem.img = "projects/" + newItem.img;
 
 		return (
