@@ -16,7 +16,7 @@ export default class FilterSelect extends Component {
     return (this.props.filterCategories.map((filterCategory) => {
       return filterCategory.sort().map((filterCategoryItem) => {
         return {
-          name: filterCategoryItem,
+          name: filterCategoryItem.name || filterCategoryItem,
           isSelected: isSelected
         }
       })
