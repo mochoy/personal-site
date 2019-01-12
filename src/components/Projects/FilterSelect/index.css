@@ -7,7 +7,7 @@
 }
 
 .selectable-filter-category-title {
-	
+
 }
 
 .filter-category-text {
@@ -19,6 +19,10 @@
 
 .selected-filter-category-text {
 	background-color: #b2b2ff;
+}
+
+.selected-filter-category-text:hover {
+	background-color: #ff9999;
 }
 
 .unselected-filter-category-text {
