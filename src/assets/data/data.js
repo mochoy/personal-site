@@ -660,7 +660,7 @@ export const  data = {
 			"key": 4,
 			"img": "fps.png",
 			"by": "Monty and Wesley",
-			"title": "FPS",
+			"title": "Zombie FPS",
 			"description": "First-person survival shooter with tons of guns and zombies powered by Unity. Survive through endless wavies of zombies.",
 			"event": "CodeDay 2014",
 		  "links": [
