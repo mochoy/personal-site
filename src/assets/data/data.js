@@ -258,8 +258,7 @@ export const  data = {
 			 		"React",
 			 		"Node.js",
 			 		"Express",
-			 		"MongoDB",
-			 		"Lodash"
+			 		"MongoDB"
 			 	]
   		]
 		},
@@ -288,8 +287,7 @@ export const  data = {
 			 		"React",
 			 		"Node.js",
 			 		"Express",
-			 		"MongoDB",
-			 		"Lodash"
+			 		"MongoDB"
 			 	]
   		]
 		},
@@ -493,8 +491,7 @@ export const  data = {
 			 		"CSS"
 			 	],
 			 	[
-			 		"Phaser",
-			 		"Lodash"
+			 		"Phaser"
 			 	]
   		]
 		},
@@ -527,8 +524,7 @@ export const  data = {
 			 		"CSS"
 			 	],
 			 	[
-			 		"Phaser",
-			 		"Lodash"
+			 		"Phaser"
 			 	]
   		]
 		},
@@ -586,8 +582,7 @@ export const  data = {
 			"OpenCV",
 			"Phaser",
 			"Unity",
-			"MongoDB",
-			"Lodash"
+			"MongoDB"
 		]
 	],
 	blasterData: [
