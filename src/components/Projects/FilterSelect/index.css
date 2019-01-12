@@ -15,6 +15,12 @@
 	margin: .5em;
 	padding: .5em 2em;
 	padding-left: 1em;
+	transition: padding .3s;
+}
+
+.filter-category-text:hover {
+	padding: .7em 2.2em;
+	padding-left: 1.2em;
 }
 
 .selected-filter-category-text {
@@ -22,9 +28,9 @@
 }
 
 .selected-filter-category-text:hover {
-	background-color: #ff9999;
+	
 }
 
 .unselected-filter-category-text {
-	background-color: blue;
+	background-color: #ff9999;
 }
