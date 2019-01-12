@@ -17,11 +17,11 @@ export default class FilterSelect extends Component {
         {this.renderSelectableFilterCategories()}
         <div className="flex-container-center">
           <button className="light-blue-btn round-btn"
-            onClick={this.props.showAll.bind(this)}>
+            onClick={(() => {this.props.toggleAll(true)}).bind(this)}>
             <p className="link-btn-text-content link-btn-txt">Show All</p>
           </button>
           <button className="red-btn round-btn"
-            onClick={this.props.hideAll.bind(this)}>
+            onClick={(() => {this.props.toggleAll(false)}).bind(this)}>
             <p className="link-btn-text-content link-btn-txt">Hide All</p>
           </button>
         </div>

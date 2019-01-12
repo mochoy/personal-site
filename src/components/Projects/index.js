@@ -55,8 +55,7 @@ export default class Projects extends Component {
 				<FilterSelect 
 					filterCategories={this.state.selectableFilterCategories}
 					toggleFilterItem={this.changeFilterItems.bind(this)}
-					hideAll={this.hideAll.bind(this)}
-					showAll={this.showAll.bind(this)}/>
+					toggleAll={this.toggleAll.bind(this)}/>
 			)
 		}
 	}
@@ -122,17 +121,10 @@ export default class Projects extends Component {
 		)
 	}
 
-	hideAll() {
+	toggleAll(toShow) {
 		this.setState({
-			selectableFilterCategories: this.setSelectableFilterCategories(false)
+			selectableFilterCategories: this.setSelectableFilterCategories(toShow)
 		});
 	}
-
-	showAll() {
-		this.setState({
-			selectableFilterCategories: this.setSelectableFilterCategories(true)
-		});
-	}
-
 
 }
