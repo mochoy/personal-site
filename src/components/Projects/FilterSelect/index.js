@@ -3,6 +3,24 @@ import React, { Component } from 'react';
 import './index.css';
 
 export default class FilterSelect extends Component {
+  constructor (props) {
+    super(props);
+
+    this.state = {
+      categoryCollapseStates: [
+        {
+          isCollapsed: false
+        },
+        {
+          isCollapsed: false
+        },
+        {
+          isCollapsed: false
+        }
+      ]
+    }
+  }
+
   componentWillMount() {
     //set parent's state var selectableFilterItems when FilterSelect is mounted
     //When the filter items are rendered in FilterSelect (here), they pull from the props
@@ -57,22 +75,60 @@ export default class FilterSelect extends Component {
 
     return (
       <div className="selectable-filter-category-container">
-        <h3 className="selectable-filter-category-title center-text">{title}</h3>
-        {//render all items
-          filterCategory.map(((item, n) => {
-            return (
-              <p className={item.isSelected ? "selected-filter-category-text filter-category-text" : "unselected-filter-category-text filter-category-text"}
-                onClick={(() => {
-                  //i is index of all filter categories
-                  //n is index of item in the arr of its category
-                  this.toggleFilterItem(i, n);
-                }).bind(this)}>
-                {item.name}</p>
-            )
-          }).bind(this))
-        }
+        <h3 
+          className="selectable-filter-category-title center-text"
+          onClick={(() => {this.toggleCollapseCategory(i)}).bind(this)}>{title}</h3>
+        {this.renderSelectableFilterCategoryItems(filterCategory, i)}
       </div>
     )
+  }
+
+  //render all items of one category
+  //i is index of filter category
+  renderSelectableFilterCategoryItems(filterCategory, i) {
+    //render all items only if that category is visible
+    if (!this.state.categoryCollapseStates[i].isCollapsed) {
+      return ( 
+        filterCategory.map(((item, n) => {
+          return (
+            <p className={item.isSelected ? "selected-filter-category-text filter-category-text" : "unselected-filter-category-text filter-category-text"}
+              onClick={(() => {
+                //i is index of all filter categories
+                //n is index of item in the arr of its category
+                this.toggleFilterItem(i, n);
+              }).bind(this)}>
+              {item.name}</p>
+          )
+        }).bind(this))
+      )
+    }
+  }
+
+  toggleAll(toShow) {
+    this.props.updateSelectableFilterItems(this.setSelectableFilterCategories(toShow));
+  }
+
+  //collapses all filter items within a category based on the index of that category
+  toggleCollapseCategory(i) {
+    //won't have this namespace inside mapped function
+    let categoryCollapseStates = this.state.categoryCollapseStates;
+
+    let newCategoryCollapseStates = this.state.categoryCollapseStates.map((categoryCollapseState, categoryCollapseStateIndex) => {
+      //found collapse state to toggle
+      if (categoryCollapseStateIndex === i) {
+        return {
+          isCollapsed: !categoryCollapseStates[categoryCollapseStateIndex].isCollapsed
+        }
+      }
+
+      return {
+        isCollapsed: categoryCollapseStates[categoryCollapseStateIndex].isCollapsed
+      }
+    });
+
+    this.setState({
+      categoryCollapseStates: newCategoryCollapseStates
+    });
   }
 
   //i is index of all filter categories
@@ -82,10 +138,6 @@ export default class FilterSelect extends Component {
     newSelectableFilterCategories[i][n].isSelected = !newSelectableFilterCategories[i][n].isSelected;
 
     this.props.updateSelectableFilterItems(newSelectableFilterCategories);
-  }
-
-  toggleAll(toShow) {
-    this.props.updateSelectableFilterItems(this.setSelectableFilterCategories(toShow));
   }
 
   cloneSelectableFilterCategories() {

@@ -7,7 +7,7 @@
 }
 
 .selectable-filter-category-title {
-
+	cursor: pointer;
 }
 
 .filter-category-text {
