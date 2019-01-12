@@ -11,7 +11,7 @@
 	cursor: pointer;
 }
 
-.filter-category-text {
+.filter-category-text, .collapsed-filter-category-text {
 	cursor: pointer;
 	margin: .5em;
 	padding: .5em 2em;
@@ -19,8 +19,12 @@
 	transition: padding .3s;
 	width: 7em;
 	border-radius: 3px;
+}
 
+.filter-category-text {
 	visibility: visible;
+	opacity: 1;
+	transition: visibility 0s linear 0s, opacity 300ms;
 }
 
 .filter-category-text:hover {
@@ -39,5 +43,7 @@
 
 .collapsed-filter-category-text {
 	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s linear 300ms, opacity 300ms;
 	
 }
