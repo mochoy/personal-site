@@ -19,6 +19,8 @@
 	transition: padding .3s;
 	width: 7em;
 	border-radius: 3px;
+
+	visibility: visible;
 }
 
 .filter-category-text:hover {
@@ -33,4 +35,9 @@
 
 .unselected-filter-category-text {
 	background-color: #ff9999;
+}
+
+.collapsed-filter-category-text {
+	visibility: hidden;
+	
 }

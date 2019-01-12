@@ -87,21 +87,25 @@ export default class FilterSelect extends Component {
   //i is index of filter category
   renderSelectableFilterCategoryItems(filterCategory, i) {
     //render all items only if that category is visible
-    if (!this.state.categoryCollapseStates[i].isCollapsed) {
-      return ( 
-        filterCategory.map(((item, n) => {
-          return (
-            <p className={item.isSelected ? "selected-filter-category-text filter-category-text" : "unselected-filter-category-text filter-category-text"}
-              onClick={(() => {
-                //i is index of all filter categories
-                //n is index of item in the arr of its category
-                this.toggleFilterItem(i, n);
-              }).bind(this)}>
-              {item.name}</p>
-          )
-        }).bind(this))
-      )
-    }
+    return ( 
+      filterCategory.map(((item, n) => {
+
+        //className from being  visible
+        let collapsedClassName = this.state.categoryCollapseStates[i].isCollapsed ? "collapsed-filter-category-text" : "filter-category-text"
+
+        //className from being select and from collapsed
+        let selectedClassName = item.isSelected ? "selected-filter-category-text " + collapsedClassName : "unselected-filter-category-text " + collapsedClassName
+        return (
+          <p className={selectedClassName}
+            onClick={(() => {
+              //i is index of all filter categories
+              //n is index of item in the arr of its category
+              this.toggleFilterItem(i, n);
+            }).bind(this)}>
+            {item.name}</p>
+        )
+      }).bind(this))
+    )
   }
 
   toggleAll(toShow) {
