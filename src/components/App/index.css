@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6, p, a, #header, li {
   display: none;
 }
 
+
 .round-btn {
   border-radius: 20px;
   border-width: 0;
@@ -112,9 +113,28 @@ h1, h2, h3, h4, h5, h6, p, a, #header, li {
   background-color: #f19f4e;
 }
 
+.light-blue-btn {
+  background-color: #b2b2ff;
+}
+
+.light-blue-btn:hover {
+  background-color: #c1c1ff;
+}
+
+.red-btn {
+  background-color: #ff9999;
+}
+
+.red-btn:hover {
+  background-color: #ffadad;
+}
+
 .link-btn-text-content {
   color: white;
 }
+
+
+
 
 .center {
   margin: 0 auto;
