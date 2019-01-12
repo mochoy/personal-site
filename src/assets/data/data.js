@@ -659,7 +659,7 @@ export const  data = {
 		{
 			"key": 4,
 			"img": "fps.png",
-			"by": "Monty and Wesley",
+			"by": "Monty & Wesley",
 			"title": "Zombie FPS",
 			"description": "First-person survival shooter with tons of guns and zombies powered by Unity. Survive through endless wavies of zombies.",
 			"event": "CodeDay 2014",
@@ -678,6 +678,31 @@ export const  data = {
 			 	],
 			 	[
 			 		"Unity"
+			 	]
+  		]
+		},
+		{
+			"key": 4,
+			"img": "CryEngineFPS.png",
+			"by": "Monty & Oscar",
+			"title": "CRYENGINE FPS",
+			"description": "First-person survival shooter made in CRYENGINE.",
+			"event": "CodeDay 2013",
+		  "links": [
+		  	{
+		  		
+		  	}
+		  ],
+  		filterCategories: [
+  			[
+  				"Software",
+  				"Game"
+			 	],
+			 	[
+			 		
+			 	],
+			 	[
+			 		
 			 	]
   		]
 		}
