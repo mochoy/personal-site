@@ -340,7 +340,8 @@ export const  data = {
   				"Electronics",
   				"Web",
   				"Hardware",
-  				"Software"
+  				"Software",
+  				"Mobile"
 			 	],
 			 	[
 			 		"Python",
@@ -524,7 +525,8 @@ export const  data = {
   			[
   				"Software",
   				"Web",
-  				"Games"
+  				"Games",
+  				"Mobile"
 			 	],
 			 	[
 			 		"JavaScript",
@@ -603,7 +605,8 @@ export const  data = {
 			"Electronics",
 			"PCB Design",
 			"Hardware",
-			"Software"
+			"Software",
+			"Mobile"
 		],
 		[
 			"JavaScript",
