@@ -96,4 +96,21 @@ export default class Projects extends Component {
 		});
 	}
 
+	//returns isSelected flag of a filter item based on its category and item
+	//category and item can be indexes or strings, but they both need to be the same type
+	isFilterItemSelected(category, item) {
+		//if category and item are strings
+		if (isNaN(category) && isNaN(item)) {
+			let title = ["Category", "Languages", "Technologies"];
+			
+		}
+
+		//if category and item aren't strings
+		if (this.state.selectableFilterCategories[category][item].isSelected) {
+    	return true
+    }
+
+    return false
+	}
+
 }
