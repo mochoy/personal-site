@@ -174,7 +174,7 @@ export const  data = {
 		{
 		  "key": 0,
 		  "img": "webControllerNerfBlaster.jpg",
-		  "title": "LiPo Checker",
+		  "title": "Web-Controlled Nerf Blaster",
 		  "description": "Web application to control power outputs to control rate-of-fire and firing power of a highly modified Nerf blaster.",
 		  "event": "Cal Poly Arduino Fest 2018",
 		  "links": [
