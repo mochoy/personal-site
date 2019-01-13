@@ -12,7 +12,7 @@ export default class About extends Component {
 				<div className="about-description-container">
 					<h1 className="about-title title">Hi!</h1>
 					<p className="about-description-text">
-							I'm Monty. I like to make cool things with electronics and code and sometimes put them in my Nerf blasters. I'm currently interning at Apple as an electrical engineer on the Apple TV team. I also like to breakdance. 
+							I'm Monty. I like to make cool things with electronics and code and sometimes put them in my Nerf blasters. I'm currently interning at Apple as an electrical engineer for Apple TV. I also like to breakdance. 
 					</p>
 					<p className="about-description-text">
 						I'm a first year electrical engineering student at Cal Poly SLO. I learned to code after my brother brought me to a hackathon and got involved in electronics when he gifted me an Arduino kit a few years later.
