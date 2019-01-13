@@ -92,7 +92,7 @@ export const  data = {
 		  "by": "Drew, Jonathon, Monty, & Jackson",
 		  "title": "Egg Transporter Robot",
 		  "description": "Line-following and obstacle-avoiding robot that transports to radiated factory workers.",
-		  "event": "Cal Poly Intro to EE Lab",
+		  "event": "Cal Poly Intro to Electrical Engineering Lab",
 		  "links": [
 		  	{
 		  		"name": "Code",
