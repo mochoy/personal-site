@@ -40,6 +40,13 @@
 	transition: all 300ms;
 }
 
+.collapsed-filter-category-text {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s linear 300ms, opacity 300ms;
+	
+}
+
 .filter-category-text:hover {
 	padding-top: .7em;
 	padding-bottom: .7em;
@@ -54,9 +61,3 @@
 	background-color: #ff9999;
 }
 
-.collapsed-filter-category-text {
-	visibility: hidden;
-	opacity: 0;
-	transition: visibility 0s linear 300ms, opacity 300ms;
-	
-}

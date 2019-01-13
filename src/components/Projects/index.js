@@ -90,6 +90,7 @@ export default class Projects extends Component {
 					let isVisible = true;
 					//project isn't in index of items to show, so it should be hidden
 					if (this.state.indexesOfProjectItemsToShow.indexOf(i) === -1) {
+						console.log("hidden")
 						isVisible = false;
 					}
 
