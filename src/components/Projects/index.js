@@ -17,7 +17,7 @@ export default class Projects extends Component {
 		this.renderProjectItems = this.renderProjectItems.bind(this);
 
 		this.state = {
-			seeMore: true,
+			seeMore: false,
 			indexesOfProjectItemsToShow: this.generateIndexesOfAllProjectItems(),
 			selectableFilterCategories: this.setSelectableFilterCategories()
 		}
@@ -74,6 +74,16 @@ export default class Projects extends Component {
 	}
 
 	renderProjectItems() {
+		//no projects are being shown
+		if (!this.state.indexesOfProjectItemsToShow.length) {
+			return (
+				<div>
+					<h2 className="center-text">Nothing here!</h2> 
+					<p className="center-text">Try selecting more filter tags.</p>
+				</div>
+			)
+		}
+
 		return (
 			this.props.data.map(((item, i) => {
 				//more
@@ -85,28 +95,22 @@ export default class Projects extends Component {
 				}
 
 				//see more
-				//at least 1 project is being shown
-				if (this.state.indexesOfProjectItemsToShow.length > 0) { 
-					let isVisible = true;
-					//project isn't in index of items to show, so it should be hidden
-					if (this.state.indexesOfProjectItemsToShow.indexOf(i) === -1) {
-						console.log("hidden")
-						isVisible = false;
-					}
+				if (this.state.seeMore) {
+					//at least 1 project is being shown
+					if (this.state.indexesOfProjectItemsToShow.length > 0) { 
+						let isVisible = true;
+						//project isn't in index of items to show, so it should be hidden
+						if (this.state.indexesOfProjectItemsToShow.indexOf(i) === -1) {
+							console.log("hidden")
+							isVisible = false;
+						}
 
-					return this.renderProjectItem(item, isVisible);
+						return this.renderProjectItem(item, isVisible);
+					}
 				}
 
 			}).bind(this))
 		)
-
-		//no projects are being shown
-		 return (
-		 	<div>
-		 		<h2 className="center-text">Nothing here!</h2> 
-		 		<p className="center-text">Try selecting more filter tags.</p>
-		 	</div>
-	 	)
 	
 	}
 
