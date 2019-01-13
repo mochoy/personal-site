@@ -17,7 +17,7 @@ export default class Projects extends Component {
 		this.renderProjectItems = this.renderProjectItems.bind(this);
 
 		this.state = {
-			seeMore: true,
+			seeMore: false,
 			indexesOfProjectItemsToShow: this.generateIndexesOfAllProjectItems(),
 			selectableFilterCategories: this.setSelectableFilterCategories()
 		}
