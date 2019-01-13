@@ -28,12 +28,7 @@ export default class VerticalContentBox extends ContentBox {
 				<div className={this.props.textContainerClassName}>
 					<h2 className="content-title">{this.props.project.title}</h2>
 					<p className="content-by"><i>{this.props.project.by}</i></p>
-					<div className="inline-container">
-		    		<img 
-		    			src={require(`assets/images/icons/clock.png`)} 
-		    			className="clock-icon"/>
-		    		<p className="left-text project-date-text">{this.props.project.date}</p>
-		    	</div>
+					{this.renderDate()}
 					<p className="content-description">{this.props.project.description}</p>
 					<p><i>{this.props.project.event}</i></p>
 					<div className="link-btn-content-container">
@@ -43,6 +38,20 @@ export default class VerticalContentBox extends ContentBox {
 				
 			</div>
 		)
+	}
+
+	renderDate() {
+		if (this.props.project.date) {
+			return (
+				<div className="inline-container">
+	    		<img 
+	    			src={require(`assets/images/icons/clock.png`)} 
+	    			className="clock-icon"
+	    			alt="clock-icon"/>
+	    		<p className="left-text project-date-text">{this.props.project.date}</p>
+	    	</div>
+			)
+		}
 	}
 
 }
