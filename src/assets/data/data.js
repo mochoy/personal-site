@@ -861,6 +861,7 @@ export const  data = {
 	          "key": 0,
 	          "img": "mosfetTutorial.png",
 	          "title": "MOSFETs for Nerf",
+	          "date": "August 2017",
 	          "description": "An extensive technical write-up on everything there is to know about power MOSFETs for Nerf applications.",
 	          "links": [
 	          	{
@@ -873,6 +874,7 @@ export const  data = {
 	          "key": 1,
 	          "img": "awesome-nerf-turret-tutorial.png",
 	          "title": "Let's Robot powered Nerf Turret",
+	          "date": "July 2017",
 	          "description": "Follow this tutorial to make an internet-controlled Nerf blaster turret with Let's Robot's robot controllers.",
 	          "links": [
 	          	{
@@ -884,14 +886,15 @@ export const  data = {
 	      {
 	        "key": 2,
 	        "img": "nerf-ammo-counter-tutorial.jpg",
-	          "title": "Nerf Ammo Counter",
-	          "description": "Make your own simple and cheap DIY ammo counter for Nerf blasters.",
-	          "links": [
-	          	{
-	          		"name": "Check It Out",
-	          		"link": "https://suild.com/docs/2"
-	          	}
-	          ]
+          "title": "Nerf Ammo Counter",
+          "date": "November 2016",
+          "description": "Make your own simple and cheap DIY ammo counter for Nerf blasters.",
+          "links": [
+          	{
+          		"name": "Check It Out",
+          		"link": "https://suild.com/docs/2"
+          	}
+          ]
 	      }
 	    ]
 	  }
