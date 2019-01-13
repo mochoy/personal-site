@@ -89,8 +89,9 @@ export const  data = {
 		{
 		  "key": 0,
 		  "img": "egg-robot.jpg",
-		  "by": "Drew, Jonathon, Monty, & Jackson",
 		  "title": "Egg Transporter Robot",
+		  "by": "Drew, Jonathon, Monty, & Jackson",
+		  "date": "October - December 2018",
 		  "description": "Line-following and obstacle-avoiding robot that transports to radiated factory workers.",
 		  "event": "Cal Poly Intro to Electrical Engineering Lab",
 		  "links": [
