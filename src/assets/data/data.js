@@ -147,7 +147,6 @@ export const  data = {
 		  "img": "lipochecker.png",
 		  "title": "LiPo Checker",
 		  "description": "A web application to verify if a given LiPo battery works with a setup of aftermarket Nerf motors. Supports undervolting, overvolting, motor options, and more!",
-		  "event": "Cal Poly Arduino Fest 2018",
 		  "links": [
 		  	{
 		  		"name": "Check It Out",
