@@ -4,13 +4,13 @@
 
 	background-position: center;
 	background-repeat: no-repeat;
-  background-size: cover;
+	background-size: cover;
 
-  /*parallax*/
-  background-attachment: fixed;
-  background-position: center;
+	/*parallax*/
+	background-attachment: fixed;
+	background-position: center;
 	background-repeat: no-repeat;
-  background-size: cover;
+	background-size: cover;
 }
 
 #header {
@@ -61,5 +61,9 @@
 		margin-top: 0;
 		margin-bottom: 0;
 		/*width: 5em;*/
+	}
+
+	#header {
+		top: 10%;
 	}
 }

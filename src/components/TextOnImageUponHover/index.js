@@ -19,6 +19,7 @@ export default class TextOnImageUponHover extends Component {
 				style={{backgroundImage:  'url(' + require(`assets/images/${this.props.src}`) + ')'}}>
 
 				{title}
+				{this.props.children}
 				<p className={"overlay-description " + this.props.txtClassName}>{this.props.txt}</p>
 			</div>
 		)

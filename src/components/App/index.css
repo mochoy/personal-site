@@ -4,7 +4,7 @@ html, body, .App, #root {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, #header {
+h1, h2, h3, h4, h5, h6, p, a, #header, li {
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   display: none;
 }
 
+
 .round-btn {
   border-radius: 20px;
   border-width: 0;
@@ -87,6 +88,96 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   text-decoration: none;
   cursor: pointer;
 }
+
+.link-btn-blue-content {
+  background-color: #0070ba;
+}
+
+.link-btn-blue-content:hover {
+  background-color: #328cc7;
+}
+
+.link-btn-green-content {
+  background-color: #28a745;
+}
+
+.link-btn-green-content:hover {
+  background-color: #52b86a;
+}
+
+.link-btn-orange-content {
+  background-color: #ee8822;
+}
+
+.link-btn-orange-content:hover {
+  background-color: #f19f4e;
+}
+
+.light-blue-btn {
+  background-color: #b2b2ff;
+}
+
+.light-blue-btn:hover {
+  background-color: #c1c1ff;
+}
+
+.red-btn {
+  background-color: #ff9999;
+}
+
+.red-btn:hover {
+  background-color: #ffadad;
+}
+
+.link-btn-text-content {
+  color: white;
+}
+
+
+
+
+.center {
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.left-text {
+  text-align: left;
+}
+
+
+.chevron {
+  border: solid;
+  border-color:  #545454;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 7px;
+  transition: border-color .15s ease;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.up {
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+}
+
+.clock-icon {
+  height: 12px;
+  margin: auto 0;
+}
+
+.inline-container {
+  display: inline-flex;
+}
+
+
 
 
 @media only screen and (min-width: 480px) {
@@ -103,12 +194,22 @@ h1, h2, h3, h4, h5, h6, p, a, #header {
   }
 }
 
-.center-text {
-  text-align: center;
-}
+
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.2); }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

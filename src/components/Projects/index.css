@@ -12,27 +12,34 @@
 	margin-bottom: 2em;
 	background-color: #dde6ed;
 	border-radius: 4px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	width: 90%;
+	width: 22em;
+	margin: 2em;
+
+	display: block;
+	opacity: 1;
+	transition: linear 300ms, opacity 300ms;
+}
+
+.invisible-project-box {
+	display: none;
+	opacity: 0;
+	transition: linear 300ms, opacity 300ms;
 }
 
 .project-box-img {
 	height: 20em;
 	width: 20em;
-	margin-right: 2em;
 }
 
 .project-text-container {
-	width: 50%;
+	width: 80%;
 	padding-bottom: 1em;
 }
 
 @media only screen and (max-width: 1180px) {
 	.project-box-img {
-		height: 15em;
-		width: 15em;
+/*		height: 15em;
+		width: 15em;*/
 	}
 
 	#projects-container {
@@ -53,15 +60,10 @@
 
 	.project-box {
 		width: 95%;
-		justify-content: center;
 	}
 
 	.project-box-img {
-		width: 100%;
-		margin: 0;
+		width: 90%;
 	}
 
-	.project-text-container {
-		width: 80%;
-	}
 }

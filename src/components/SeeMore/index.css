@@ -1,0 +1,20 @@
+.SeeMore {
+  cursor: pointer;
+}
+
+.SeeMore:hover .see-more-chevron {
+  border-color: #939393;
+}
+
+.see-more-text {
+  margin: .4em;
+}
+
+.see-more-chevron-p {
+  margin: .4em;
+  transition: margin-top .15s ease;
+}
+
+.SeeMore:hover .see-more-chevron-p {
+  margin-top: 1em;
+}
