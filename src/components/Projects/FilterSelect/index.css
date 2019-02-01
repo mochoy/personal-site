@@ -61,3 +61,12 @@
 	background-color: #ff9999;
 }
 
+
+
+@media only screen and (min-width: 150px) {
+	.selectable-filter-category-container {
+		width: 90%;
+		margin: 0;
+		margin-bottom: 2em;
+	}
+}
