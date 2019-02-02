@@ -63,10 +63,14 @@
 
 
 
-@media only screen and (min-width: 150px) {
+@media only screen and (max-width: 150px) {
 	.selectable-filter-category-container {
 		width: 90%;
 		margin: 0;
 		margin-bottom: 2em;
+	}
+
+	.filter-category-text {
+		/*width: 80%;*/
 	}
 }
