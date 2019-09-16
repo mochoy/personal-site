@@ -11,7 +11,7 @@ export default class Home extends Component {
 
 	render () {
 		return (
-			<div id="Intro"
+			<section id="Intro"
 				style={{backgroundImage: 'url(' + require('assets/images/background/city_through_window.jpg') + ')'}}>
 				<div id="header">
 					<div id="header-text">
@@ -32,7 +32,7 @@ export default class Home extends Component {
 					</div>
 					
 				</div>
-			</div>
+			</section>
 		)
 	}
 
