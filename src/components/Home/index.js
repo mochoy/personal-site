@@ -17,7 +17,6 @@ export default class Home extends Component {
 					<div id="header-text">
 						<h1 id="header-title">Monty Choy</h1>
 						<h2 className="header-description">Hardware Hacker</h2>
-						<h2 className="header-description">San Francisco, CA</h2>
 					</div>
 
 				</div>
