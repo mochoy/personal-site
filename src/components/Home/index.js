@@ -11,8 +11,12 @@ export default class Home extends Component {
 
 	render () {
 		return (
-			<section id="Intro"
-				style={{backgroundImage: 'url(' + require('assets/images/background/architecture-buildings-city-hk.jpg') + ')'}}>
+			<section id="Intro">
+				<div
+					className="background-img"
+					style={{
+						backgroundImage: 'url(' + require('assets/images/background/architecture-buildings-city-hk.jpg') + ')'}}
+				/>
 				<div id="welcome">
 					<h1>Hi, I'm <strong>Monty Choy</strong></h1>
 					<h2>Hardware Hacker</h2>
