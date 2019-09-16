@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import '../../styles/background-img.css';
 import './index.css';
 
 import Home from '../Home/index';
