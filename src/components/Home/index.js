@@ -20,17 +20,6 @@ export default class Home extends Component {
 						<h2 className="header-description">San Francisco, CA</h2>
 					</div>
 
-					<div id="intro-btn-container">
-						<button className="intro-btn round-btn"
-							onClick={() => scrollToElement("#About")}>About</button>
-						<button className="intro-btn round-btn"
-							onClick={() => scrollToElement("#Projects")}>Projects</button>
-						<button className="intro-btn round-btn"
-							onClick={() => scrollToElement("#Architecture")}>Architecture</button>
-						<button className="intro-btn round-btn"
-							onClick={() => scrollToElement("#Tutorials")}>Tutorials</button>
-					</div>
-					
 				</div>
 			</section>
 		)
