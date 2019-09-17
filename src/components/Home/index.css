@@ -32,7 +32,7 @@
 	font-weight: normal;
 }
 
-.chevron-bottom {
+.chevron {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
@@ -41,7 +41,7 @@
   text-align: center;
 }
 
-.chevron-bottom::after {
+.chevron::after {
 	border-style: solid;
 	border-width: 0.25em 0.25em 0 0;
 	content: '';
@@ -55,7 +55,7 @@
 	width: 0.45em;
 }
 
-.chevron-bottom:after {
+.chevron.bottom:after {
 	top: 0;
 	transform: rotate(135deg);
 }
