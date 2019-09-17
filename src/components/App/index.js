@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import '../../styles/background-img.css';
 import '../../styles/flex-containers.css';
+import '../../styles/chevron.css';
 import './index.css';
 
 import Home from '../Home/index';
