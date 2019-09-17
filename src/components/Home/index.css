@@ -10,7 +10,7 @@
 
 #welcome {
 	color: white;
-
+	width: 90%;
 }
 
 
@@ -30,16 +30,22 @@
 	margin-top: 0;
 
 	font-weight: normal;
+} 
+
+#welcome-chevron {
+	position: fixed;
+  display: block;
+
+	left: 50%;
+	top: 80%;
 }
 
-@media only screen and (min-width: 992px) {
-	#welcome {
-    width: 970px;
+@media only screen and (max-width: 767px) {
+	#welcome h1 {
+		font-size: 3.5em;
 	}
-}
 
-@media only screen and (min-width: 768px) {
-	#welcome {
-    width: 750px;
-	}
+	#welcome h2 {
+		font-size: 2em;
+	} 
 }
