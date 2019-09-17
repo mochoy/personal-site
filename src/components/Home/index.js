@@ -11,7 +11,7 @@ export default class Home extends Component {
 
 	render () {
 		return (
-			<section id="Intro">
+			<section id="Intro" className="flex-container-center">
 				<div
 					className="background-img"
 					style={{
