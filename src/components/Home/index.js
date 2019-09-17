@@ -23,7 +23,7 @@ export default class Home extends Component {
 					<h2>Hardware Hacker</h2>
 				</div>
 
-				<div className="chevron-with-circle bottom"></div>
+				<i className="chevron down"></i>
 			</section>
 		)
 	}

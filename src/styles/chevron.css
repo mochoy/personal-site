@@ -1,26 +1,13 @@
-.chevron-with-circle {
+.chevron {
+  border: solid;
+  border-color: white;
+  border-width: 0 5px 5px 0;
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  border: 0.25em solid #333;
-  border-radius: 50%;
-  text-align: center;
+  padding: 7px;
+  transition: border-color .15s ease;
 }
 
-.chevron-with-circle::after {
-	border-style: solid;
-	border-width: 0.25em 0.25em 0 0;
-	content: '';
-	display: inline-block;
-	height: 0.45em;
-	position: relative;
-	top: 0.15em;
-	transform: rotate(-45deg);
-	vertical-align: middle;
-	width: 0.45em;
-}
-
-.chevron-with-circle.bottom:after {
-	top: 0;
-	transform: rotate(135deg);
+.chevron.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
