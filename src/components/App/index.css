@@ -148,26 +148,6 @@ h1, h2, h3, h4, h5, h6, p, a, #header, li {
   text-align: left;
 }
 
-
-.chevron {
-  border: solid;
-  border-color:  #545454;
-  border-width: 0 5px 5px 0;
-  display: inline-block;
-  padding: 7px;
-  transition: border-color .15s ease;
-}
-
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
-.up {
-  transform: rotate(225deg);
-  -webkit-transform: rotate(225deg);
-}
-
 .clock-icon {
   height: 12px;
   margin: auto 0;
