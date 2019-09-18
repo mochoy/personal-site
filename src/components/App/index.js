@@ -5,6 +5,7 @@ import '../../styles/flex-containers.css';
 import '../../styles/chevron.css';
 import '../../styles/misc.css';
 import '../../styles/animations.css';
+import '../../styles/text.css';
 
 import './index.css';
 
