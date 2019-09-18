@@ -1,3 +1,7 @@
 .mouse-on-hover {
 	cursor: pointer;
 }
+
+.center-text {
+	text-align: center;
+}
