@@ -1,0 +1,12 @@
+.skill-bar {
+	background-color: #eee;
+
+	/*Left-justified flex container*/
+	display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.skill-bar-title {
+	
+}
