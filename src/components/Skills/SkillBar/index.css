@@ -5,6 +5,8 @@
 	display: flex;
   flex-direction: row;
   justify-content: flex-start;
+
+  margin: 1em 0;
 }
 
 .skill-bar-title {
