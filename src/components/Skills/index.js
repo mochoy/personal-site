@@ -5,14 +5,14 @@ import SkillBar from './SkillBar';
 import './index.css';
 
 const ELECTRICAL_ENGINEERING_SKILLS = [
-	{type: "PCB Design", level: 85},
-  {type: "Motor Drives", level: 75},
-  {type: "Solenoid Drives", level: 75}
+	{name: "PCB Design", level: 85},
+  {name: "Motor Drives", level: 75},
+  {name: "Solenoid Drives", level: 10}
 ]
 
 const SOFTWARE_ENGINEERING_SKILLS = [
-	{type: "React", level: 85},
-  {type: "Javascript", level: 75},
+	{name: "React", level: 85},
+  {name: "Javascript", level: 75},
 ]
 
 export default class Skills extends Component {

@@ -4,8 +4,6 @@ import './index.css';
 
 export default class SkillBar extends Component {
 	render () {
-		console.log(this.props)
-
 		const { 
 			skills,
 			height, 
@@ -15,6 +13,8 @@ export default class SkillBar extends Component {
 			titleClassName,
 			titleWidth,
 			barClassName} = this.props;
+
+		const TITLE_WIDTH = titleWidth || "120px";
 
 		return (
 			<div className={"" + containerClassName}>
@@ -29,18 +29,25 @@ export default class SkillBar extends Component {
 
 							<div className={"skill-bar-title " + titleClassName}
 								style={{
-									width: titleWidth || "100px",
+									width: TITLE_WIDTH,
 								}}>	
-								Yes
+								{skill.name}
 							</div>
 
-							<div className={"skill-bar-bar " + barClassName}
-								style={{
-									height: "100%",
-									width: "100%",
-									backgroundColor: "red"
-								}}>
+							<div style={{width: "100%"}}>
+								<div className={"skill-bar-bar " + barClassName}
+									style={{
+										left: TITLE_WIDTH,
+										height: "100%",
+										width: skill.level + "%",
+										// width: "10%",
+										backgroundColor: "red"
+									}}>
+								</div>
 							</div>
+							
+
+							
 
 						</div>
 					)
