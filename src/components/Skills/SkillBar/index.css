@@ -12,5 +12,7 @@
 .skill-bar-title {
 	display: flex;
 	align-items: center;
-	margin: 0 1em;
+	padding: 0 1em;
+	
+	color: white;
 }

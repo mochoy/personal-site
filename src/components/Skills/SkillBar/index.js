@@ -10,11 +10,16 @@ export default class SkillBar extends Component {
 			width, 
 			containerClassName,
 			skillBarClassName,
+
 			titleClassName,
 			titleWidth,
-			barClassName} = this.props;
+			titleBackgroundColor,
+
+			barClassName,
+			barBackgroundColor} = this.props;
 
 		const TITLE_WIDTH = titleWidth || "120px";
+		const TITLE_BACKGROUND_COLOR = titleBackgroundColor || "#04C2C9";
 
 		return (
 			<div className={"" + containerClassName}>
@@ -30,6 +35,7 @@ export default class SkillBar extends Component {
 							<div className={"skill-bar-title " + titleClassName}
 								style={{
 									width: TITLE_WIDTH,
+									backgroundColor: TITLE_BACKGROUND_COLOR
 								}}>	
 								{skill.name}
 							</div>
