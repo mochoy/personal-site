@@ -40,8 +40,12 @@
 	left: 50%;
 	top: 80%;
 
-	animation: bounce .5s infinite alternate;
+	animation: welcome-chevron-bounce .5s infinite alternate;
 
+}
+
+@keyframes welcome-chevron-bounce {
+  from{ top:80% } to { top:85% }
 }
 
 @media only screen and (max-width: 767px) {
