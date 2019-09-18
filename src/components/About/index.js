@@ -8,7 +8,7 @@ export default class About extends Component {
 		let logos = this.props.data.map(this.renderLogos);
 
 		return (
-			<div id="About" className='section'>
+			<section id="About" className='section'>
 				<div className="about-description-container">
 					<h2>About Me</h2>
 					<p>
@@ -30,7 +30,7 @@ export default class About extends Component {
 				<div id="logos-container">
 					{logos}
 				</div>
-			</div>
+			</section>
 
 		)
 	}
