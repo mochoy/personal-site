@@ -10,17 +10,9 @@ export default class About extends Component {
 		return (
 			<div id="About" className='section'>
 				<div className="about-description-container">
-					<h2 className="">About Me</h2>
-					<p className="about-description-text">
+					<h2>About Me</h2>
+					<p>
 							I'm Monty. I like to make cool things with electronics and code and sometimes put them in my Nerf blasters. I'm currently interning at Apple as an electrical engineer for Apple TV. I also like to breakdance. 
-					</p>
-					<p className="about-description-text">
-						I'm a first year electrical engineering student at Cal Poly SLO. I learned to code after my brother brought me to a hackathon and got involved in electronics when he gifted me an Arduino kit a few years later.
-					</p>
-					<p className="about-description-text">
-					 I used to make games, but they took too long. They were mainly 3D games in Unity or web games with Phaser. I also can't draw or animate so that meant all my games were really ugly. I currently like to work in full-stack web development using the MERN stack. </p>
-					<p className="about-description-text">
-						On a lower level, I write firmware for Arduino, although I'm currently exploring other micrcontrollers, and design PCBs that go into my Nerf blasters. My go-to PCB editor and schematic capture tool is EagleCAD where I often design PCBs that are essentially Arduino shields and other cool things. 
 					</p>
 				</div>
 				<p className="center-text">Check out the source code for this React project:</p>
