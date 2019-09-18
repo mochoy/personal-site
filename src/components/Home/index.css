@@ -33,7 +33,7 @@
 } 
 
 #welcome-chevron {
-	position: fixed;
+	position: absolute;
   display: block;
 
   /*Location on page*/
