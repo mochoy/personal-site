@@ -16,15 +16,13 @@ export default class About extends Component {
 
 		return (
 			<section id="About" className='section'>
-				<div className="section-content-container">
-					<h1 className="section-title">About Me</h1>
-					<p>
-							I'm Monty. I do hardware system integration, PCB design, embedded programming, and full-stack web development all for my Nerf blasters. I'm studying electrical engineering at Cal Poly SLO. 
-					</p>
-					<p>
-							In my free time, I like to breakdance, wrestle, modify Nerf blasters, and play tennis. 
-					</p>
-				</div>
+				<h1 className="section-title">About Me</h1>
+				<p>
+						I'm Monty. I do hardware system integration, PCB design, embedded programming, and full-stack web development all for my Nerf blasters. I'm studying electrical engineering at Cal Poly SLO. 
+				</p>
+				<p>
+						In my free time, I like to breakdance, wrestle, modify Nerf blasters, and play tennis. 
+				</p>
 
 				<div id="skill-bars-container">
 					<h2 className="center-text">Software Engineering</h2>

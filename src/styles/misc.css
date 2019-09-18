@@ -2,7 +2,15 @@
 	cursor: pointer;
 }
 
-.section-content-container {
-	width: 80%;
+.section {
+  display: block;
+
+  width: 90%;
 	margin: 0 auto;
+
+	/*Spacing*/
+	padding-left: .5em;
+  padding-right: .5em;
+  padding-top: 3em;
+  padding-bottom: 5em;
 }
