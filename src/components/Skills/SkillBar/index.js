@@ -19,7 +19,6 @@ export default class SkillBar extends Component {
 			barBackgroundColor} = this.props;
 
 		const TITLE_WIDTH = titleWidth || "120px";
-		const TITLE_BACKGROUND_COLOR = titleBackgroundColor || "#04C2C9";
 
 		return (
 			<div className={"" + containerClassName}>
@@ -35,7 +34,7 @@ export default class SkillBar extends Component {
 							<div className={"skill-bar-title " + titleClassName}
 								style={{
 									width: TITLE_WIDTH,
-									backgroundColor: TITLE_BACKGROUND_COLOR
+									backgroundColor: titleBackgroundColor || "#04C2C9"
 								}}>	
 								{skill.name}
 							</div>
@@ -47,7 +46,7 @@ export default class SkillBar extends Component {
 										height: "100%",
 										width: skill.level + "%",
 										// width: "10%",
-										backgroundColor: "red"
+										backgroundColor: barBackgroundColor || "#00A1A7"
 									}}>
 								</div>
 							</div>
