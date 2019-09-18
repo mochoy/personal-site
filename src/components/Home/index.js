@@ -24,7 +24,8 @@ export default class Home extends Component {
 				</div>
 
 				<i id="welcome-chevron" 
-					className="chevron down mouse-on-hover"/>
+					className="chevron down mouse-on-hover"
+					onClick={e => scrollToElement("#About")}/>
 			</section>
 		)
 	}
