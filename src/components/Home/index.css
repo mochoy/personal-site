@@ -41,6 +41,7 @@
 	top: 80%;
 
 	animation: bounce .5s infinite alternate;
+
 }
 
 @media only screen and (max-width: 767px) {
