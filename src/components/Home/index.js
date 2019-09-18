@@ -23,7 +23,8 @@ export default class Home extends Component {
 					<h2>Hardware Hacker</h2>
 				</div>
 
-				<i id="welcome-chevron" className="animated infinite pulse  chevron down mouse-on-hover "></i>
+				<i id="welcome-chevron" 
+					className="chevron down mouse-on-hover"/>
 			</section>
 		)
 	}

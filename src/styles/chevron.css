@@ -17,3 +17,6 @@
   -webkit-transform: rotate(45deg);
 }
 
+@keyframes bounce {
+  from{ bottom:40px } to { bottom:20px }
+}
