@@ -1,9 +1,11 @@
 #About {
   /*background-color: #EEEEEE;*/
-  background-color: #2B2B2B;
+
+  /*Dark background*/
+  /*background-color: #2B2B2B;*/
   padding-bottom: 2em;
 
-  color: white;
+  /*color: white;*/
 }
 
 .about-description-container {
