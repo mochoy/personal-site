@@ -9,6 +9,7 @@ export default class SkillBar extends Component {
 			CONTAINER_CLASSNAME,
 			SKILL_BAR_CLASSNAME,
 			TITLE_CLASSNAME,
+			TITLE_WIDTH,
 			BAR_CLASSNAME} = this.props;
 
 		return (
@@ -20,14 +21,17 @@ export default class SkillBar extends Component {
 
 					}}>	
 
-					<div className={"skill-bar-title " + TITLE_CLASSNAME}>
+					<div className={"skill-bar-title " + TITLE_CLASSNAME}
+						style={{
+							width: TITLE_WIDTH || "100px",
+						}}>	
 						Yes
 					</div>
 
 					<div className={"skill-bar-bar " + BAR_CLASSNAME}
 						style={{
 							height: "100%",
-							width: "80%",
+							width: "100%",
 							backgroundColor: "red"
 						}}>
 					</div>
