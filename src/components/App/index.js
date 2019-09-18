@@ -4,6 +4,8 @@ import '../../styles/background-img.css';
 import '../../styles/flex-containers.css';
 import '../../styles/chevron.css';
 import '../../styles/misc.css';
+import '../../styles/animations.css';
+
 import './index.css';
 
 import Home from '../Home/index';

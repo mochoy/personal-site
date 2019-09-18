@@ -1,0 +1,3 @@
+@keyframes bounce {
+  from{ bottom:40px } to { bottom:20px }
+}
