@@ -10,17 +10,13 @@
   /*color: white;*/
 }
 
-.about-description-container {
+.about-description-container, #skill-bars-container {
 	width: 70%;
 	margin: 0 auto;
 }
 
-.about-title {
-  font-size: 3em;
-}
-
-.about-description-text {
-	font-size: 1.1em;
+#skill-bars-container {
+	font-weight: normal;
 }
 
 #gh-img {

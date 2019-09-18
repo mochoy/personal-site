@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
+import SkillBar from 'react-skillbars';
+
 import './index.css';
 
 import LinkBtn from '../LinkBtn/index';
+
+const SOFTWARE_ENGINEERING_SKILLS = [
+	{type: "Java", level: 85},
+  {type: "Javascript", level: 75},
+]
 
 export default class About extends Component {
 	render () {
@@ -18,6 +25,13 @@ export default class About extends Component {
 							In my free time, I like to breakdance, wrestle, modify Nerf blasters, and play tennis. 
 					</p>
 				</div>
+
+				<div id="skill-bars-container">
+					<SkillBar 
+						skills={SOFTWARE_ENGINEERING_SKILLS}
+						animationDelay={0}/>
+				</div>
+				
 				<p className="center-text">Check out the source code for this React project:</p>
 				<div className="flex-container-center">
 					<LinkBtn
