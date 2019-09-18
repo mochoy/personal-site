@@ -5,6 +5,8 @@
 #skill-bars-container {
 	width: 100%;
 	margin: 0 auto;
+	
+	align-items: flex-start;
 }
 
 /*For container that only contains skill bars and title*/
@@ -13,6 +15,7 @@
 	margin: 1em;
 
 	font-weight: normal;
+
 }
 
 @media only screen and (max-width: 900px) {

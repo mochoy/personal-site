@@ -18,7 +18,7 @@ export default class SkillBar extends Component {
 			barClassName,
 			barBackgroundColor} = this.props;
 
-		const TITLE_WIDTH = titleWidth || "120px";
+		const TITLE_WIDTH = titleWidth || "170px";
 
 		return (
 			<div className={"" + containerClassName}>
