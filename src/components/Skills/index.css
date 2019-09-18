@@ -3,8 +3,14 @@
 }
 
 #skill-bars-container {
-	width: 70%;
+	width: 100%;
 	margin: 0 auto;
+}
+
+/*For container that only contains skill bars and title*/
+.skill-bar-container {
+	width: 45%;
+	margin: 1em;
 
 	font-weight: normal;
 }

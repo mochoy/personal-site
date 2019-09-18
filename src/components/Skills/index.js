@@ -13,21 +13,27 @@ export default class Skills extends Component {
 		return (
 			<section id="Skills" className='section'>
 				<h1 className="section-title">Skills</h1>
-				<h2 className="center-text">Software Engineering</h2>
-					<SkillBar 
-						skills={SOFTWARE_ENGINEERING_SKILLS}
-						animationDelay={0}/>
+
+				<div id="skill-bars-container" className="flex-container-center">
+					<div className="skill-bar-container">
+						<h2 className="center-text">Electrical Engineering</h2>
+						<SkillBar 
+							skills={SOFTWARE_ENGINEERING_SKILLS}
+							animationDelay={0}/>
+					</div>
+
+					<div className="skill-bar-container">
+						<h2 className="center-text">Software Engineering</h2>
+						<SkillBar 
+							skills={SOFTWARE_ENGINEERING_SKILLS}
+							animationDelay={0}/>
+					</div>
+				</div>
+				
 
 			</section>
 
 		)
 	}
 
-	renderLogos(logoData) {
-		return (
-			<a href={logoData.link} target="_blank" className="about-logo grow">
-				<img className="about-logo-img" src={require(`assets/images/logos/${logoData.imgSrc}`)} alt={logoData.name + "logo"}/>
-			</a>
-		)
-	}
 }
