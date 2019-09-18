@@ -11,6 +11,7 @@ import './index.css';
 
 import Home from '../Home/index';
 import About from '../About/index';
+import Skills from '../Skills/index';
 import TransitionImg from '../TransitionImg/index';
 import Projects from '../Projects/index';
 import Architecture from '../Architecture/index';
@@ -30,6 +31,7 @@ export default class App extends Component {
       <div className="App">
         <Home data={this.data.homeData}/>
         <About data={this.data.about}/> 
+        <Skills/>
         <Projects data={this.data.projectData} filterCategories={this.data.filterCategories}/>
         <Architecture data={this.data.architectureData}/>
         <Tutorials data={this.data.tutorialsData}/>
