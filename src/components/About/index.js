@@ -12,7 +12,10 @@ export default class About extends Component {
 				<div className="about-description-container">
 					<h2>About Me</h2>
 					<p>
-							I'm Monty. I like to make cool things with electronics and code and sometimes put them in my Nerf blasters. I'm currently interning at Apple as an electrical engineer for Apple TV. I also like to breakdance. 
+							I'm Monty. I do hardware system integration, PCB design, embedded programming, and full-stack web development all for my Nerf blasters. I'm studying electrical engineering at Cal Poly SLO. 
+					</p>
+					<p>
+							In my free time, I like to breakdance, wrestle, modify Nerf blasters, and play tennis. 
 					</p>
 				</div>
 				<p className="center-text">Check out the source code for this React project:</p>
