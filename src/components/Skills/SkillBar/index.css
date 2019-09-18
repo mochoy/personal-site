@@ -19,6 +19,10 @@
 
 }
 
+.skill-bar-bar {
+	transition: 1.5s 0.2s width ease-in-out;
+}
+
 .skill-bar, .skill-bar-title {
   border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
