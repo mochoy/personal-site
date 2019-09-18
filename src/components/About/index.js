@@ -5,11 +5,6 @@ import './index.css';
 
 import LinkBtn from '../LinkBtn/index';
 
-const SOFTWARE_ENGINEERING_SKILLS = [
-	{type: "React", level: 85},
-  {type: "Javascript", level: 75},
-]
-
 export default class About extends Component {
 	render () {
 		return (
@@ -21,13 +16,6 @@ export default class About extends Component {
 				<p>
 						In my free time, I like to breakdance, wrestle, modify Nerf blasters, and play tennis. 
 				</p>
-
-				<div id="skill-bars-container">
-					<h2 className="center-text">Software Engineering</h2>
-					<SkillBar 
-						skills={SOFTWARE_ENGINEERING_SKILLS}
-						animationDelay={0}/>
-				</div>
 				
 				<p className="center-text">Check out the source code for this React project:</p>
 				<div className="flex-container-center">

@@ -13,7 +13,10 @@ export default class Skills extends Component {
 		return (
 			<section id="Skills" className='section'>
 				<h1 className="section-title">Skills</h1>
-				
+				<h2 className="center-text">Software Engineering</h2>
+					<SkillBar 
+						skills={SOFTWARE_ENGINEERING_SKILLS}
+						animationDelay={0}/>
 
 			</section>
 
