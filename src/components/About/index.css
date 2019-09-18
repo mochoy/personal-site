@@ -3,31 +3,20 @@
 
   /*Dark background*/
   /*background-color: #2B2B2B;*/
-  padding-bottom: 2em;
 
-  display: block;
-
+  /*Text color*/
   color: #616161;
 }
 
-.about-description-container, #skill-bars-container {
+#skill-bars-container {
 	width: 70%;
 	margin: 0 auto;
-}
 
-#skill-bars-container {
 	font-weight: normal;
-}
-
-#gh-img {
-  height: 3em;
 }
 
 #logos-container {
 	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
 	width: 90%;
 }
 
@@ -36,6 +25,6 @@
 }
 
 .about-logo-img {
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 }

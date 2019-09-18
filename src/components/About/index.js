@@ -12,13 +12,11 @@ const SOFTWARE_ENGINEERING_SKILLS = [
 
 export default class About extends Component {
 	render () {
-		let logos = this.props.data.map(this.renderLogos);
-
 		return (
 			<section id="About" className='section'>
 				<h1 className="section-title">About Me</h1>
 				<p>
-						I'm Monty. I do hardware system integration, PCB design, embedded programming, and full-stack web development all for my Nerf blasters. I'm studying electrical engineering at Cal Poly SLO. 
+						I'm Monty. I'm an electrical engineer with 3 years of practical experience and a software engineer with 7 years of practical experience. I do hardware system integration, PCB design, embedded programming, and full-stack web development all for my Nerf blasters. I'm currently studying electrical engineering at Cal Poly SLO. 
 				</p>
 				<p>
 						In my free time, I like to breakdance, wrestle, modify Nerf blasters, and play tennis. 
@@ -39,10 +37,12 @@ export default class About extends Component {
 						link={"https://github.com/mochoy/personal-site"}
 						text={"Code"}/>
 				</div>
+
 				<h2 className="center-text">Find me here:</h2>
-				<div id="logos-container">
-					{logos}
+				<div id="logos-container" className="flex-container-center">
+					{this.props.data.map(this.renderLogos)}
 				</div>
+
 			</section>
 
 		)
