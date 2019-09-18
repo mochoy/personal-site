@@ -6,7 +6,7 @@ import './index.css';
 import LinkBtn from '../LinkBtn/index';
 
 const SOFTWARE_ENGINEERING_SKILLS = [
-	{type: "Java", level: 85},
+	{type: "React", level: 85},
   {type: "Javascript", level: 75},
 ]
 
@@ -17,7 +17,7 @@ export default class About extends Component {
 		return (
 			<section id="About" className='section'>
 				<div className="about-description-container">
-					<h2>About Me</h2>
+					<h1 className="section-title">About Me</h1>
 					<p>
 							I'm Monty. I do hardware system integration, PCB design, embedded programming, and full-stack web development all for my Nerf blasters. I'm studying electrical engineering at Cal Poly SLO. 
 					</p>
@@ -27,6 +27,7 @@ export default class About extends Component {
 				</div>
 
 				<div id="skill-bars-container">
+					<h2 className="center-text">Software Engineering</h2>
 					<SkillBar 
 						skills={SOFTWARE_ENGINEERING_SKILLS}
 						animationDelay={0}/>
