@@ -37,7 +37,7 @@ export default class SkillBar extends Component {
 							<div style={{width: "100%"}}>
 								<div className={"skill-bar-bar " + barClassName}
 									style={{
-										left: TITLE_WIDTH,
+										// left: TITLE_WIDTH,
 										height: "100%",
 										width: skill.level + "%",
 										// width: "10%",
