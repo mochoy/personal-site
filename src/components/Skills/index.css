@@ -15,16 +15,6 @@
 	font-weight: normal;
 }
 
-/*Classname of skillbar title div. Specified in library, not by me*/
-.skillbar-title {
-	color: white;
-	width: 200px;
-}
-
-.skillbar-bar {
-	left: 200px;
-}
-
 @media only screen and (max-width: 900px) {
 	.skill-bar-container {
 		width: 90%;
