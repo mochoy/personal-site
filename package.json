@@ -12,6 +12,7 @@
     "react-scripts": "1.0.17",
     "react-scroll": "^1.6.4",
     "react-scroll-to-component": "^1.0.2",
+    "react-skillbars": "^1.5.1",
     "scroll-to-element": "^2.0.0"
   },
   "scripts": {
