@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SkillBar from 'react-skillbars';
 
 import './index.css';
 
