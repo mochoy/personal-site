@@ -8,9 +8,12 @@ export default class Experience extends Component {
   	console.log(this.props)
     return (
       <section id="Experience" className="section-dark">
-        <h1 className="section-title">Experience</h1>
-        fasdfasdf
-        dfasdf
+      	<div className="section-content">
+      		<h1 className="section-title">Experience</h1>
+	        fasdfasdf
+	        dfasdf
+      	</div>
+       
       </section>
     );
   }
