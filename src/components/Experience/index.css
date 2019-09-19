@@ -1,3 +1,27 @@
 #Experience {
 	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
+#experience-items-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.experience-item {
+	align-items: stretch;
+}
+
+.experience-item h3 {
+	/*color: #7A7A7A*/
+	color: #4ABDAC;
+}
+
+.experience-item-content {
+	padding:0 1em;
+
+}
+
+.experience-item-content.right {
+	border-left: solid white 1px;
 }
