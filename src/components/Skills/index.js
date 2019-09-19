@@ -4,20 +4,6 @@ import SkillBar from './SkillBar';
 
 import './index.css';
 
-const ELECTRICAL_ENGINEERING_SKILLS = [
-	{name: "System Design", level: 95},
-  {name: "MOSFET Drives", level: 90},
- 	{name: "PCB Design", level: 90},
-  {name: "Motor Drives", level: 85},
-  {name: "DC-DC Power", level: 85},
-  {name: "AVR & STM32 MCUs", level: 70}
-]
-
-const SOFTWARE_ENGINEERING_SKILLS = [
-	{name: "React", level: 85},
-  {name: "Javascript", level: 75},
-]
-
 export default class Skills extends Component {
 	render () {
 		return (
