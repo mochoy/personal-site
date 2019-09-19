@@ -29,8 +29,7 @@ export default class App extends Component {
 
   render() {
     const SKILLS_DATA = require('assets/data/SKILLS.js').DATA;
-
-    console.log(SKILLS_DATA)
+    const EXPERIENCE_DATA = require('assets/data/EXPERIENCE.js').DATA;
 
     return (
       <div className="App">
