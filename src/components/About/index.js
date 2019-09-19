@@ -15,7 +15,7 @@ export default class About extends Component {
 					marginBottom: "2em"
 				}}>
 					<p>
-							I'm Monty. I'm an electrical engineer with 3 years of practical experience and a software engineer with 7 years of practical experience. I do hardware system integration, PCB design, embedded programming, and full-stack web development all for my Nerf blasters. I'm currently studying electrical engineering at Cal Poly SLO. 
+							I'm Monty. I'm an <strong>electrical engineer</strong> with 3+ years of practical experience and a <strong>software engineer</strong> with 7+ years of practical experience. I do <strong>hardware system integration</strong>, PCB design, <strong>power electronics</strong>, embedded programming, and <strong>full-stack web development</strong> all for my <strong>Nerf blasters</strong>. I'm currently studying electrical engineering at Cal Poly SLO. 
 					</p>
 					<p>
 							In my free time, I like to breakdance, wrestle, modify Nerf blasters, and play tennis. 
