@@ -2,7 +2,7 @@
 	cursor: pointer;
 }
 
-.section {
+.section, .section-dark {
   display: block;
 
   width: 80%;
@@ -16,6 +16,13 @@
   padding-right: .5em;
   /*padding-top: 2em;*/
   /*padding-bottom: 5em;*/
+}
+
+.section-dark {
+  background-color: #3A3934;
+
+  /*Text color*/
+  color: white;
 }
 
 /*@media only screen and (min-width: 480px) {
