@@ -28,11 +28,15 @@ export default class App extends Component {
   }
 
   render() {
+    const SKILLS_DATA = require('assets/data/SKILLS.js').DATA;
+
+    console.log(SKILLS_DATA)
+
     return (
       <div className="App">
         <Home data={this.data.homeData}/>
         <About data={this.data.about}/> 
-        <Skills/>
+        <Skills data={SKILLS_DATA}/>
         <Experience/>
         <Projects data={this.data.projectData} filterCategories={this.data.filterCategories}/>
         <Architecture data={this.data.architectureData}/>
