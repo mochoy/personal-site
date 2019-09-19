@@ -6,6 +6,7 @@ import '../../styles/chevron.css';
 import '../../styles/misc.css';
 import '../../styles/animations.css';
 import '../../styles/text.css';
+import '../../styles/section.css';
 
 import './index.css';
 
