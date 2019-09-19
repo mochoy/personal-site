@@ -5,8 +5,7 @@
 .section, .section-dark {
   display: block;
 
-  width: 80%;
-	margin: 0 auto;
+  width: 100%;
 
   /*Text color*/
   color: #616161;
@@ -23,6 +22,11 @@
 
   /*Text color*/
   color: white;
+}
+
+.section-content {
+  width: 80%;
+  margin: 0 auto;
 }
 
 /*@media only screen and (min-width: 480px) {
