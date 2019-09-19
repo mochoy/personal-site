@@ -6,6 +6,8 @@ import './index.css';
 
 export default class Skills extends Component {
 	render () {
+		const { EE_SKILLS, SWE_SKILLS } = this.props.data;
+
 		return (
 			<section id="Skills" className='section'>
 				<h1 className="section-title">Skills</h1>
@@ -14,14 +16,14 @@ export default class Skills extends Component {
 					<div className="skill-bar-container">
 						<h2 className="center-text">Electrical Engineering</h2>
 						<SkillBar 
-							skills={ELECTRICAL_ENGINEERING_SKILLS}
+							skills={EE_SKILLS}
 							animationDelay={0}/>
 					</div>
 
 					<div className="skill-bar-container">
 						<h2 className="center-text">Software Engineering</h2>
 						<SkillBar 
-							skills={SOFTWARE_ENGINEERING_SKILLS}
+							skills={SWE_SKILLS}
 							animationDelay={0}/>
 					</div>
 				</div>
