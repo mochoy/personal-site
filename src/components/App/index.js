@@ -36,7 +36,7 @@ export default class App extends Component {
         <Home data={this.data.homeData}/>
         <About data={this.data.about}/> 
         <Skills data={SKILLS_DATA}/>
-        <Experience/>
+        <Experience data={EXPERIENCE_DATA}/>
         <Projects data={this.data.projectData} filterCategories={this.data.filterCategories}/>
         <Architecture data={this.data.architectureData}/>
         <Tutorials data={this.data.tutorialsData}/>
