@@ -2,33 +2,6 @@
 	cursor: pointer;
 }
 
-.section, .section-dark {
-  display: block;
-
-  width: 100%;
-
-  /*Text color*/
-  color: #616161;
-
-	/*Spacing*/
-	padding-left: .5em;
-  padding-right: .5em;
-  /*padding-top: 2em;*/
-  /*padding-bottom: 5em;*/
-}
-
-.section-dark {
-  background-color: #3A3934;
-
-  /*Text color*/
-  color: white;
-}
-
-.section-content {
-  width: 80%;
-  margin: 0 auto;
-}
-
 /*@media only screen and (min-width: 480px) {
   .section {
     padding-left: 1.5em;

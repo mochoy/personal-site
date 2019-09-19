@@ -6,16 +6,3 @@ h1, h2, h3, h4, h5, h6, p, a, #header, li, #skill-bars-container {
 	text-align: center;
 }
 
-.section-title, .section-dark-title {
-	font-size: 2.5em;
-	text-align: center;
-
-	padding-bottom: 0.5em;
-
-	border-bottom: 1px #d0d0d0 solid;
-}
-
-.section-dark-title {
-	border-bottom: 1px white solid;
-
-}
