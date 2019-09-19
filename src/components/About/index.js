@@ -9,12 +9,19 @@ export default class About extends Component {
 		return (
 			<section id="About" className='section'>
 				<h1 className="section-title">About Me</h1>
-				<p>
-						I'm Monty. I'm an electrical engineer with 3 years of practical experience and a software engineer with 7 years of practical experience. I do hardware system integration, PCB design, embedded programming, and full-stack web development all for my Nerf blasters. I'm currently studying electrical engineering at Cal Poly SLO. 
-				</p>
-				<p>
-						In my free time, I like to breakdance, wrestle, modify Nerf blasters, and play tennis. 
-				</p>
+				<div style={{
+					width: "80%",
+					margin: "0 auto",
+					marginBottom: "2em"
+				}}>
+					<p>
+							I'm Monty. I'm an electrical engineer with 3 years of practical experience and a software engineer with 7 years of practical experience. I do hardware system integration, PCB design, embedded programming, and full-stack web development all for my Nerf blasters. I'm currently studying electrical engineering at Cal Poly SLO. 
+					</p>
+					<p>
+							In my free time, I like to breakdance, wrestle, modify Nerf blasters, and play tennis. 
+					</p>
+				</div>
+
 				
 				<p className="center-text">Check out the source code for this React project:</p>
 				<div className="flex-container-center">
