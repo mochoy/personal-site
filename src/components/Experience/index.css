@@ -38,6 +38,10 @@
 	text-align: right;
 }
 
+.experience-item-title-and-name {
+	display: none;
+}
+
 /* On Mobile, render experience not as row */
 @media only screen and (max-width: 900px) {
 	.experience-item {
@@ -59,6 +63,14 @@
 
 	.experience-item-content.left {
 		text-align: left;
+	}
+
+	.experience-item-title-and-name {
+		display: block;
+	}
+
+	.experience-item-name, .experience-item-title {
+		display: none;
 	}
 
 }
