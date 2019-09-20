@@ -18,10 +18,16 @@
 }
 
 .experience-item-content {
-	padding:0 1em;
+	width: 45%;
 
 }
 
 .experience-item-content.right {
 	border-left: solid white 1px;
+
+	padding-left: 1em;
+}
+
+.experience-item-content.left {
+	padding-right: 1em;
 }
