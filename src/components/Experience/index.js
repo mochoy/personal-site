@@ -17,7 +17,7 @@ export default class Experience extends Component {
       			{ DATA.map(experience => {
 	      			return (
 	      				<div className="experience-item flex-container-center">
-		      				<div className="experience-item-content left right-text">
+		      				<div className="experience-item-content left">
 		      					<h3>{experience.name}</h3>
 		      					<p>{experience.location}</p>
 		      					<p>{experience.date}</p>

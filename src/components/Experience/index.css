@@ -10,6 +10,8 @@
 
 .experience-item {
 	align-items: stretch;
+
+	margin-bottom: 3em;
 }
 
 .experience-item h3 {
@@ -19,8 +21,6 @@
 
 .experience-item-content {
 	width: 45%;
-
-	margin-bottom: 3em;
 
 }
 
@@ -32,4 +32,23 @@
 
 .experience-item-content.left {
 	padding-right: 1em;
+
+	text-align: right;
+}
+
+/* On Mobile, render experience not as row */
+@media only screen and (max-width: 900px) {
+	.experience-item {
+		display: block;
+	}
+
+	.experience-item-content.right {
+		padding-left: 0;
+		border-left: none;
+	}
+
+	.experience-item-content.left {
+		text-align: left;
+	}
+
 }
