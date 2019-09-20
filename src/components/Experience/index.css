@@ -12,6 +12,8 @@
 	align-items: stretch;
 
 	margin-bottom: 3em;
+
+	border: none;
 }
 
 .experience-item h3 {
@@ -40,11 +42,19 @@
 @media only screen and (max-width: 900px) {
 	.experience-item {
 		display: block;
+
+		border-left: solid white 1px;
+	}
+
+	.experience-item-content {
+		width: 100%;
+
+		margin: none;
+		padding-left: 1em;
 	}
 
 	.experience-item-content.right {
-		padding-left: 0;
-		border-left: none;
+		border: none;
 	}
 
 	.experience-item-content.left {
