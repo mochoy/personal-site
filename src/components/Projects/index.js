@@ -48,7 +48,7 @@ export default class Projects extends Component {
 	render () {
 		return (
 			<div id="Projects" className="section">
-				<h3 className="title center-text">Projects</h3>
+    		<h1 className="section-title">Projects</h1>
 				{this.renderFilterSelect()}
 				<div id="projects-container" className="flex-container-center">
 					{this.renderProjectItems()}
