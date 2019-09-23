@@ -47,10 +47,7 @@ export default class Projects extends Component {
 
 	render () {
 		return (
-			<div
-				className="section"
-				id="Projects"
-				style={{backgroundColor: this.props.data[0].backgroundColor}}>
+			<div id="Projects" className="section">
 				<h3 className="title center-text">Projects</h3>
 				{this.renderFilterSelect()}
 				<div id="projects-container" className="flex-container-center">
