@@ -31,6 +31,7 @@ export default class App extends Component {
   render() {
     const SKILLS_DATA = require('assets/data/SKILLS.js').DATA;
     const EXPERIENCE_DATA = require('assets/data/EXPERIENCE.js').DATA;
+    const PROJECTS_DATA = require('assets/data/PROJECTS.js').DATA;
 
     return (
       <div className="App">
@@ -38,7 +39,7 @@ export default class App extends Component {
         <About data={this.data.about}/> 
         <Skills data={SKILLS_DATA}/>
         <Experience data={EXPERIENCE_DATA}/>
-        <Projects data={this.data.projectData} filterCategories={this.data.filterCategories}/>
+        <Projects data={PROJECTS_DATA} filterCategories={this.data.filterCategories}/>
         <Architecture data={this.data.architectureData}/>
         <Tutorials data={this.data.tutorialsData}/>
         <Footer/>
