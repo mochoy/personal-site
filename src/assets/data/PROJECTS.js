@@ -1,4 +1,4 @@
-export const  data = [
+export const DATA = [
 		{
 		  "key": 0,
 		  "img": "lipocalculator.png",
