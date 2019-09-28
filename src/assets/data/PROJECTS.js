@@ -274,6 +274,7 @@ export const DATA = [
 		  "img": "suildwebsite.png",
 		  "title": "Suild.com",
 		  "date": "February 2018 - Present",
+		  "isFeatured": true,
 		  "description": "Website to display tutorials and technical documentation and sell custom electronics for modifed Nerf blasters. Launched to the web with over 500 monthly views and growing.",
 		  "links": [
 		  	{
