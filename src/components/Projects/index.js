@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import FilterSelect from './FilterSelect';
+import FeaturedProject from './FeaturedProject';
+
 import VerticalContentBox from '../VerticalContentBox/index';
 import SeeMore from '../SeeMore';
 import OverlayFilterCategories from './OverlayFilterCategories';
