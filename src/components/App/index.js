@@ -40,7 +40,6 @@ export default class App extends Component {
         <Skills data={SKILLS_DATA}/>
         <Experience data={EXPERIENCE_DATA}/>
         <Projects data={PROJECTS_DATA} filterCategories={this.data.filterCategories}/>
-        <Architecture data={this.data.architectureData}/>
         <Tutorials data={this.data.tutorialsData}/>
         <Footer/>
       </div>
