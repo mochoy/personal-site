@@ -368,7 +368,7 @@ export const DATA = [
 		},
 		{
 		  "key": 1,
-		  "img": "smartBlaster.jpg",
+		  "img": "smart_blaster.jpg",
 		  "title": "Smart Blaster",
 		  "date": "July 2017 - Present",
 		  "description": "A hardware and software platform consisting of stackable PCB modules and a library compatible with Teensy and Arduino microcontrollers enabling ammo counting and more for modified Nerf blasters.",
