@@ -1,6 +1,32 @@
 export const DATA = [
 		{
 		  "key": 0,
+		  "img": "mosfet_board_2.jpg",
+		  "title": "MOSFET Board 2",
+		  "date": "February 2019",
+		  "description": "2nd version of the MOSFET Board. This new version brings a smaller form factor, expanable headers, and compatibility with the new MOSFET Board Ecosystem.",
+		  "links": [
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://suild.com/shop/0"
+		  	}
+		  ],
+  		filterCategories: [
+  			[
+  				"Electronics",
+  				"PCB Design",
+  				"Hardware"
+			 	],
+			 	[
+			 		"Prolog"
+			 	],
+			 	[
+
+			 	]
+  		]
+		},
+		{
+		  "key": 0,
 		  "img": "lipocalculator.png",
 		  "title": "LiPo Calculator",
 		  "date": "December 2018",
