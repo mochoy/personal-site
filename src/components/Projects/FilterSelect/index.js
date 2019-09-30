@@ -76,7 +76,7 @@ export default class FilterSelect extends Component {
 
     return (
       <div className="selectable-filter-category-container">
-        <h3 className="selectable-filter-category-title center-text">{title}</h3>
+        <h3 className="center-text">{title}</h3>
         {this.renderSelectableFilterCategoryItems(filterCategory, i)}
       </div>
     )
