@@ -247,7 +247,7 @@ export const DATA = [
 		},
 		{
 		  "key": 0,
-		  "img": "dormDoorman.jpg",
+		  "img": "dorm_doorman.jpg",
 		  "title": "Dorm Doorman",
 		  "by": "Josh and Monty",
 		  "date": "November 2018",
