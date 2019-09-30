@@ -10,12 +10,12 @@ export default class Tutorials extends Component {
 		let tutorialBoxes = data.map(this.renderTutorialBoxes)
 
 		return (
-			<div
-				className="section"
-				id="Tutorials">
-				<h1 className="center-text title">Tutorials</h1>
-				<div id="tutorials-container">
-					{tutorialBoxes}
+			<div id="Tutorials" className="section">
+				<div className="section-content">
+					<h1 className="section-title">Tutorials</h1>
+					<div id="tutorials-container">
+						{tutorialBoxes}
+					</div>
 				</div>
 			</div>
 
