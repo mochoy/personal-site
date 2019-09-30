@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
 
+import '../../styles/background-img.css';
+import '../../styles/flex-containers.css';
+import '../../styles/chevron.css';
+import '../../styles/misc.css';
+import '../../styles/animations.css';
+import '../../styles/text.css';
+import '../../styles/section.css';
+
 import './index.css';
 
 import Home from '../Home/index';
 import About from '../About/index';
+import Skills from '../Skills/index';
+import Experience from '../Experience/index';
 import TransitionImg from '../TransitionImg/index';
 import Projects from '../Projects/index';
 import Architecture from '../Architecture/index';
@@ -19,12 +29,17 @@ export default class App extends Component {
   }
 
   render() {
+    const SKILLS_DATA = require('assets/data/SKILLS.js').DATA;
+    const EXPERIENCE_DATA = require('assets/data/EXPERIENCE.js').DATA;
+    const PROJECTS_DATA = require('assets/data/PROJECTS.js').DATA;
+
     return (
       <div className="App">
         <Home data={this.data.homeData}/>
         <About data={this.data.about}/> 
-        <Projects data={this.data.projectData} filterCategories={this.data.filterCategories}/>
-        <Architecture data={this.data.architectureData}/>
+        <Skills data={SKILLS_DATA}/>
+        <Experience data={EXPERIENCE_DATA}/>
+        <Projects data={PROJECTS_DATA} filterCategories={this.data.filterCategories}/>
         <Tutorials data={this.data.tutorialsData}/>
         <Footer/>
       </div>

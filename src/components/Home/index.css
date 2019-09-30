@@ -1,69 +1,59 @@
 #Intro {
 	height: 100%;
 	width: 100%;
-
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-
-	/*parallax*/
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
-#header {
+#welcome {
+	margin: auto;
 	text-align: center;
-	width: 85%;
-	position: absolute;
-	top: 30%;
-	left: 15%;
 }
 
-#header-title, .header-description {
+#welcome {
 	color: white;
+	width: 90%;
+}
+
+
+#welcome h1 {
+	font-size: 5em;
+
 	margin-bottom: 0;
 	margin-top: 0;
-	font-weight: 1.0;
+
+	font-weight: normal;
+}
+
+#welcome h2 {
+	font-size: 3em;
+
+	margin-bottom: 0;
+	margin-top: 0;
+
+	font-weight: normal;
+} 
+
+#welcome-chevron {
+	position: absolute;
+  display: block;
+
+  /*Location on page*/
+	left: 50%;
+	top: 80%;
+
+	animation: welcome-chevron-bounce .5s infinite alternate;
 
 }
 
-#header-title {
-	font-size: 5em;
+@keyframes welcome-chevron-bounce {
+  from{ top:80% } to { top:85% }
 }
 
-.header-description {
-	font-size: 2em;
-}
-
-#intro-btn-container {
-	margin-top: 2em;
-}
-
-.intro-btn {
-	width: 7em;
-	background-color: transparent;
-	color: white;
-	font-size: 1.5em;
-}
-
-.intro-btn:hover {
-	color: #cccccc;
-}
-
-@media only screen and (max-width: 540px) {
-	#intro-btn-container {
-		margin-top: 1em;
+@media only screen and (max-width: 767px) {
+	#welcome h1 {
+		font-size: 3.5em;
 	}
 
-	.intro-btn {
-		margin-top: 0;
-		margin-bottom: 0;
-		/*width: 5em;*/
-	}
-
-	#header {
-		top: 10%;
-	}
+	#welcome h2 {
+		font-size: 2em;
+	} 
 }

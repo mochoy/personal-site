@@ -1,0 +1,34 @@
+.skill-bar {
+	background-color: #eee;
+
+	/*Left-justified flex container*/
+	display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  margin: 1em 0;
+
+}
+
+.skill-bar-title {
+	display: flex;
+	align-items: center;
+	padding: 0 1em;
+
+	color: white;
+
+}
+
+.skill-bar-bar {
+	transition: 1.5s 0.2s width ease-in-out;
+}
+
+.skill-bar, .skill-bar-title {
+  border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.skill-bar, .skill-bar-bar {
+  border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}

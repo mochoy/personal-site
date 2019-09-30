@@ -11,28 +11,22 @@ export default class Home extends Component {
 
 	render () {
 		return (
-			<div id="Intro"
-				style={{backgroundImage: 'url(' + require('assets/images/background/hawaii-beach.jpg') + ')'}}>
-				<div id="header">
-					<div id="header-text">
-						<h1 id="header-title">Monty Choy</h1>
-						<h2 className="header-description">Hardware Hacker</h2>
-						<h2 className="header-description">San Francisco, CA</h2>
-					</div>
+			<section id="Intro" className="flex-container-center">
+				<div
+					className="background-img"
+					style={{
+						backgroundImage: 'url(' + require('assets/images/background/architecture-buildings-city-hk.jpg') + ')'}}
+				/>
 
-					<div id="intro-btn-container">
-						<button className="intro-btn round-btn"
-							onClick={() => scrollToElement("#About")}>About</button>
-						<button className="intro-btn round-btn"
-							onClick={() => scrollToElement("#Projects")}>Projects</button>
-						<button className="intro-btn round-btn"
-							onClick={() => scrollToElement("#Architecture")}>Architecture</button>
-						<button className="intro-btn round-btn"
-							onClick={() => scrollToElement("#Tutorials")}>Tutorials</button>
-					</div>
-					
+				<div id="welcome">
+					<h1>Hi, I'm <strong>Monty Choy</strong></h1>
+					<h2>Hardware Hacker</h2>
 				</div>
-			</div>
+
+				<i id="welcome-chevron" 
+					className="chevron down mouse-on-hover"
+					onClick={e => scrollToElement("#About")}/>
+			</section>
 		)
 	}
 

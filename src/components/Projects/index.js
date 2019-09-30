@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import FilterSelect from './FilterSelect';
+import FeaturedProject from './FeaturedProject';
+
 import VerticalContentBox from '../VerticalContentBox/index';
 import SeeMore from '../SeeMore';
 import OverlayFilterCategories from './OverlayFilterCategories';
@@ -17,7 +19,7 @@ export default class Projects extends Component {
 		this.renderProjectItems = this.renderProjectItems.bind(this);
 
 		this.state = {
-			seeMore: false,
+			seeMore: true,
 			indexesOfProjectItemsToShow: this.generateIndexesOfAllProjectItems(),
 			selectableFilterCategories: this.setSelectableFilterCategories()
 		}
@@ -47,19 +49,23 @@ export default class Projects extends Component {
 
 	render () {
 		return (
-			<div
-				className="section"
-				id="Projects"
-				style={{backgroundColor: this.props.data[0].backgroundColor}}>
-				<h3 className="title center-text">Projects</h3>
-				{this.renderFilterSelect()}
-				<div id="projects-container" className="flex-container-center">
-					{this.renderProjectItems()}
+			<div id="Projects" className="section">
+				<div className="section-content">
+					<h1 className="section-title">Projects</h1>
+					{this.renderFeaturedProjects()}
+					{this.renderFilterSelect()}
+					<div id="projects-container" className="flex-container-center">
+						{this.renderProjectItems()}
+					</div>
+					{this.renderSeeMore()}
 				</div>
-				{this.renderSeeMore()}
 			</div>
 
 		)
+	}
+
+	renderFeaturedProjects() {
+		// console.log(this.props.data)
 	}
 
 	renderFilterSelect() {

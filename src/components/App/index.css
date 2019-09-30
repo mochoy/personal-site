@@ -4,21 +4,10 @@ html, body, .App, #root {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, #header, li {
-  font-family: 'Noto Sans', sans-serif;
-}
-
 .bg-img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.section {
-  padding-left: .5em;
-  padding-right: .5em;
-  padding-top: 3em;
-  padding-bottom: 5em
 }
 
 .title {
@@ -148,26 +137,6 @@ h1, h2, h3, h4, h5, h6, p, a, #header, li {
   text-align: left;
 }
 
-
-.chevron {
-  border: solid;
-  border-color:  #545454;
-  border-width: 0 5px 5px 0;
-  display: inline-block;
-  padding: 7px;
-  transition: border-color .15s ease;
-}
-
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
-.up {
-  transform: rotate(225deg);
-  -webkit-transform: rotate(225deg);
-}
-
 .clock-icon {
   height: 12px;
   margin: auto 0;
@@ -175,23 +144,6 @@ h1, h2, h3, h4, h5, h6, p, a, #header, li {
 
 .inline-container {
   display: inline-flex;
-}
-
-
-
-
-@media only screen and (min-width: 480px) {
-  .section {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
-}
-
-@media only screen and (min-width: 720px) {
-  .section {
-    padding-left: 3em;
-    padding-right: 3em;
-  }
 }
 
 

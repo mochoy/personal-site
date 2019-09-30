@@ -3,26 +3,10 @@
 }
 
 .selectable-filter-category-container {
-	margin: 0 3em;
+	margin: 0 2em;
 	margin-bottom: 2em;
 	width: 15em;
-}
-
-.selectable-filter-title-container {
-	cursor: pointer;
-	margin-bottom: 1em;
-	align-items: baseline;
-}
-
-.selectable-filter-category-title {
-	margin-bottom: 0;
-	margin-right: 1em;
 }	
-
-.filter-category-title-chevron {
-	border-width: 0 3px 3px 0;
-	padding: 5px;
-}
 
 .filter-category-text, .collapsed-filter-category-text {
 	cursor: pointer;
@@ -30,7 +14,7 @@
 	padding: .5em 2em;
 	padding-left: 1em;
 	transition: padding .3s;
-	width: 90%;
+	/*width: 90%;*/
 	border-radius: 3px;
 }
 
@@ -61,3 +45,16 @@
 	background-color: #ff9999;
 }
 
+
+
+@media only screen and (max-width: 150px) {
+	.selectable-filter-category-container {
+		width: 90%;
+		margin: 0;
+		margin-bottom: 2em;
+	}
+
+	.filter-category-text {
+		/*width: 80%;*/
+	}
+}

@@ -1,0 +1,78 @@
+#Experience {
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
+#experience-items-container {
+	width: 80%;
+	margin: 0 auto;
+
+	margin-bottom: 1em;
+}
+
+.experience-item {
+	align-items: stretch;
+
+	margin-top: 3em;
+
+	border: none;
+}
+
+.experience-item h3 {
+	/*color: #7A7A7A*/
+	color: #4ABDAC;
+}
+
+.experience-item-content {
+	width: 45%;
+
+}
+
+.experience-item-content.right {
+	border-left: solid white 1px;
+
+	padding-left: 1em;
+}
+
+.experience-item-content.left {
+	padding-right: 1em;
+
+	text-align: right;
+}
+
+.experience-item-title-and-name {
+	display: none;
+}
+
+/* On Mobile, render experience not as row */
+@media only screen and (max-width: 900px) {
+	.experience-item {
+		display: block;
+
+		border-left: solid white 1px;
+	}
+
+	.experience-item-content {
+		width: 100%;
+
+		margin: none;
+		padding-left: 1em;
+	}
+
+	.experience-item-content.right {
+		border: none;
+	}
+
+	.experience-item-content.left {
+		text-align: left;
+	}
+
+	.experience-item-title-and-name {
+		display: block;
+	}
+
+	.experience-item-name, .experience-item-title {
+		display: none;
+	}
+
+}
