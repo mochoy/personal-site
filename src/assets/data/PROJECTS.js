@@ -427,7 +427,7 @@ export const DATA = [
 		},
 		{
 		  "key": 0,
-		  "img": "VyperT28.jpg",
+		  "img": "vyper_t28.jpg",
 		  "title": "Vyper T-28",
 		  "date": "August 2014 - August 2017",
 		  "description": "Integration of three Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
