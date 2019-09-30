@@ -461,7 +461,7 @@ export const DATA = [
 		},
 		{
 		  "key": 0,
-		  "img": "SmartStrayven.jpg",
+		  "img": "smart_strayven.jpg",
 		  "title": "Smart Strayven",
 		  "date": "August 2013 - Present",
 		  "description": "Integration of two Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
