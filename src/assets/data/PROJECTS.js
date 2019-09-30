@@ -1,6 +1,44 @@
 export const DATA = [
 		{
 		  "key": 0,
+		  "img": "select-fire_rapidstrike_kit.jpg",
+		  "title": "Select-Fire Rapidstrike Kit",
+		  "date": "June 2019 - Present",
+		  "description": "Grants reliable select-fire control to your Rapidstrike with optional rate of fire control using a knob. Like every other kit, this one is super simple to install and requires no soldering directly onto the board to get everything up and runing in under a minute, even easier than a regular RS mod!",
+		  "links": [
+		  	{
+		  		"name": "Check It Out",
+		  		"link": "https://suild.com/shop/4"
+		  	},
+		  	{
+		  		"name": "Schematics",
+		  		"link": "https://github.com/Suild/select-fire-rapidstrike-kit"
+		  	},
+		  	{
+		  		"name": "Code",
+		  		"link": "https://github.com/Suild/select-fire-rapidstrike-kit"
+		  	}
+		  ],
+  		filterCategories: [
+  			[
+  				"Electronics",
+  				"PCB Design",
+  				"Hardware",
+  				"Nerf Blasters",
+  				"Software"
+			 	],
+			 	[
+			 		"Prolog",
+			 		"Arduino",
+			 		"C++"
+			 	],
+			 	[
+			 		"Arduino"
+			 	]
+  		]
+		},
+		{
+		  "key": 0,
 		  "img": "pwm_module.jpg",
 		  "title": "PWM Module",
 		  "date": "April - May 2019",
