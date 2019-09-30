@@ -52,8 +52,7 @@ export default class Projects extends Component {
 			<div id="Projects" className="section">
 				<div className="section-content">
 					<h1 className="section-title">Projects</h1>
-
-
+					{this.renderFeaturedProjects()}
 					{this.renderFilterSelect()}
 					<div id="projects-container" className="flex-container-center">
 						{this.renderProjectItems()}
@@ -63,6 +62,10 @@ export default class Projects extends Component {
 			</div>
 
 		)
+	}
+
+	renderFeaturedProjects() {
+		// console.log(this.props.data)
 	}
 
 	renderFilterSelect() {
