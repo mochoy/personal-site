@@ -8,14 +8,9 @@
 	width: 15em;
 }
 
-.selectable-filter-title-container {
-	cursor: pointer;
-	margin-bottom: 1em;
-	align-items: baseline;
-}
-
 .selectable-filter-category-title {
 	margin-bottom: 0;
+	width: 100%;
 }	
 
 .filter-category-title-chevron {
@@ -29,7 +24,7 @@
 	padding: .5em 2em;
 	padding-left: 1em;
 	transition: padding .3s;
-	width: 90%;
+	/*width: 90%;*/
 	border-radius: 3px;
 }
 
