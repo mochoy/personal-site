@@ -19,7 +19,7 @@ export default class Projects extends Component {
 		this.renderProjectItems = this.renderProjectItems.bind(this);
 
 		this.state = {
-			seeMore: false,
+			seeMore: true,
 			indexesOfProjectItemsToShow: this.generateIndexesOfAllProjectItems(),
 			selectableFilterCategories: this.setSelectableFilterCategories()
 		}
@@ -52,6 +52,8 @@ export default class Projects extends Component {
 			<div id="Projects" className="section">
 				<div className="section-content">
 					<h1 className="section-title">Projects</h1>
+
+
 					{this.renderFilterSelect()}
 					<div id="projects-container" className="flex-container-center">
 						{this.renderProjectItems()}

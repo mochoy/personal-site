@@ -491,7 +491,7 @@ export const DATA = [
 		},
 		{
 		  "key": 2,
-		  "img": "nerfAmmoCounter.jpg",
+		  "img": "nerf_ammo_counter.jpg",
 		  "title": "Nerf Ammo Counter",
 		  "date": "November 2016",
 		  "description": "Arduino-powered ammo counter for modified Nerf blasters. Can store and save various magazine sizes and count up from 0. Ammo displayed on small monochrome OLED display.",
