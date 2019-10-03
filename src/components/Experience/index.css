@@ -23,21 +23,20 @@
 	color: #4ABDAC;
 }
 
-.experience-item-content {
-	width: 45%;
+.experience-item-content.left {
+	padding-right: 1em;
 
+	width: 25%;
+
+	text-align: right;
 }
 
 .experience-item-content.right {
 	border-left: solid white 1px;
 
+	width: 70%;
+
 	padding-left: 1em;
-}
-
-.experience-item-content.left {
-	padding-right: 1em;
-
-	text-align: right;
 }
 
 .experience-item-title-and-name {
