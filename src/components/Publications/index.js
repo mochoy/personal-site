@@ -21,7 +21,7 @@ export default class Publications extends Component {
 	}
 
 	renderPublicationBoxes(item) {
-		item.img = "tutorials/" + item.img
+		item.img = "publications/" + item.img
 		return (
 			<ContentBox project={item} 
 				className="publication-box" 
