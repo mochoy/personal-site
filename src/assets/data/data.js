@@ -207,7 +207,7 @@ export const  data = {
 	    "description2": "This project includes a scale model made of butterboard and foam-core board as well as hand-drafted scale drawings of the interior sectional views, exterior elevation views, landscape view, and plan views of each floor according to architectural design standards."
 	  }
 	],
-	tutorialsData: [
+	publicationsData: [
 	  {
 	    "title": "Tutorials",
 	    "backgroundColor": "white",
