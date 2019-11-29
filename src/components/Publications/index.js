@@ -6,14 +6,13 @@ import ContentBox from '../ContentBox/index'
 export default class Publications extends Component {
 	render () {
 		let data = this.props.data[1].data;
-		let tutorialBoxes = data.map(this.renderTutorialBoxes)
 
 		return (
 			<div id="Publications" className="section">
 				<div className="section-content">
 					<h1 className="section-title">Publications</h1>
-					<div id="tutorials-container">
-						{tutorialBoxes}
+					<div id="publications-container">
+						{data.map(this.renderPublicationBoxes)}
 					</div>
 				</div>
 			</div>
@@ -21,13 +20,13 @@ export default class Publications extends Component {
 		)
 	}
 
-	renderTutorialBoxes(item) {
+	renderPublicationBoxes(item) {
 		item.img = "tutorials/" + item.img
 		return (
 			<ContentBox project={item} 
-				className="tutorial-box" 
-				textContainerClassName="tutorial-box-text-container"
-				imgClassName="tutorial-img"/>
+				className="publication-box" 
+				textContainerClassName="publication-box-text-container"
+				imgClassName="publication-img"/>
 		)
 	}
 
