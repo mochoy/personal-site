@@ -3,9 +3,8 @@ import React, { Component } from 'react';
 import './index.css';
 import ContentBox from '../ContentBox/index'
 
-export default class Tutorials extends Component {
+export default class Publications extends Component {
 	render () {
-		console.log()
 		let data = this.props.data[1].data;
 		let tutorialBoxes = data.map(this.renderTutorialBoxes)
 

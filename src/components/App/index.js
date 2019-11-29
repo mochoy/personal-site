@@ -18,7 +18,7 @@ import TransitionImg from '../TransitionImg/index';
 import Projects from '../Projects/index';
 import Architecture from '../Architecture/index';
 import Footer from '../Footer/index';
-import Tutorials from '../Tutorials/index';
+import Publications from '../Publications/index';
 
 
 export default class App extends Component {
@@ -40,7 +40,7 @@ export default class App extends Component {
         <Skills data={SKILLS_DATA}/>
         <Experience data={EXPERIENCE_DATA}/>
         <Projects data={PROJECTS_DATA} filterCategories={this.data.filterCategories}/>
-        <Tutorials data={this.data.tutorialsData}/>
+        <Publications data={this.data.tutorialsData}/>
         <Footer/>
       </div>
     );
