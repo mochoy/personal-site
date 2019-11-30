@@ -15,7 +15,7 @@ export default class Home extends Component {
 				<div
 					className="background-img"
 					style={{
-						backgroundImage: 'url(' + require('assets/images/background/architecture-buildings-city-hk.jpg') + ')'}}
+						backgroundImage: 'url(' + require('assets/images/background/bboy-icey.jpg') + ')'}}
 				/>
 
 				<div id="welcome">
