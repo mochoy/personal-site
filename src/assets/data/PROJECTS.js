@@ -131,6 +131,10 @@ export const DATA = [
 		  	{
 		  		"name": "Check It Out",
 		  		"link": "https://suild.com/shop/0"
+				},
+				{
+		  		"name": "Schematics",
+		  		"link": "https://github.com/suild/mosfet-boards"
 		  	}
 		  ],
   		filterCategories: [
