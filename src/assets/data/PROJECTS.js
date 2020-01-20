@@ -1,5 +1,29 @@
 export const DATA = [
 		{
+			"key": 0,
+			"img": "atmega328p_eval_board.jpg",
+			"title": "ATMega328P Eval Board",
+			"date": "December 2019 - Present",
+			"description": "ATMega328P MCU eval board for prototyping ATMega328P MCU and CH340G USB to UART controller before implementing the MCU into more complex projects.",
+			"links": [
+				{
+					"name": "Schematics",
+					"link": "https://github.com/mochoy/arduino-clone"
+				}
+			],
+			filterCategories: [
+				[
+					"Electronics",
+					"PCB Design",
+					"Hardware",
+				],
+				[
+				],
+				[
+				]
+			]
+		},
+		{
 		  "key": 0,
 		  "img": "select-fire_rapidstrike_kit.jpg",
 		  "title": "Select-Fire Rapidstrike Kit",
