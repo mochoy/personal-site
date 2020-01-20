@@ -17,8 +17,15 @@ export default class About extends Component {
 						{/* Text Intro */}
 						<div style={{width: "30em"}}>
 							<p>
-									I'm Monty. I'm an <strong>electrical engineer</strong> with 3+ years of practical experience and a <strong>software engineer</strong> with 7+ years of practical experience. I do <strong>hardware system integration</strong>, PCB design, <strong>power electronics</strong>, embedded programming, and <strong>full-stack web development</strong> all for my <strong>Nerf blasters</strong>. I'm currently studying electrical engineering at Cal Poly SLO. 
+								I'm Monty. I'm currently studying <strong>electrical engineering</strong> at <strong>Cal Poly SLO</strong>
 							</p>
+
+							<p>
+									I'm an <strong>electrical engineer</strong> with 4+ years of practical experience and a <strong>software engineer</strong> with 8+ years of practical experience. I do <strong>hardware system integration</strong>, PCB design, <strong>power electronics</strong>, embedded programming, and <strong>full-stack web development</strong> all for my <strong>Nerf blasters</strong>.
+							</p>
+
+							<p>On the <strong>hardware</strong> side, I've worked at <strong>Apple</strong> and I run <strong>Suild</strong>. I do DC-DC power electronics, high-speed digital design, MCUs, PCB layout and design, and motor and solenoid drives.</p>
+
 							<p>
 									In my free time, I like to breakdance, wrestle, play Yu-Gi-Oh, modify Nerf blasters, and play tennis. 
 							</p>
