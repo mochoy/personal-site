@@ -152,6 +152,38 @@ export const DATA = [
   		]
 		},
 		{
+			"key": 0,
+			"img": "cv_nerf_turret.jpg",
+			"title": "CV Nerf Turret",
+			"by": "Josh, Monty, & Raymond",
+			"date": "February 2019",
+			"description": "CV-powered facial-recognition Nerf turret. A CV application runs a host Mac machine and uses an Android phone camera for facial recognition. The host mac communicates with an ATMega328P MCU over USB to rotate the custom laser-cut turret to engage the Nerf blaster.",
+			"event": "Tree Hacks 2019",
+			"links": [
+				{
+					"name": "Check It Out",
+					"link": "https://github.com/mochoy/tree-hacks-cv-nerf-turret"
+				}
+			],
+			filterCategories: [
+				[
+					"Electronics",
+					"PCB Design",
+					"Hardware",
+					"Software"
+				],
+				[
+					"Arduino",
+					"C++",
+					"Python"
+				],
+				[
+					"Arduino",
+					"OpenCV"
+				]
+			]
+		},
+		{
 		  "key": 0,
 		  "img": "lipocalculator.png",
 		  "title": "LiPo Calculator",
