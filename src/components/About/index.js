@@ -20,7 +20,7 @@ export default class About extends Component {
 								I'm Monty. I'm an <strong>electrical engineer</strong> with 3+ years of practical experience and a <strong>software engineer</strong> with 7+ years of practical experience. I do <strong>hardware system integration</strong>, PCB design, <strong>power electronics</strong>, embedded programming, and <strong>full-stack web development</strong> all for my <strong>Nerf blasters</strong>. I'm currently studying electrical engineering at Cal Poly SLO. 
 						</p>
 						<p>
-								In my free time, I like to breakdance, wrestle, modify Nerf blasters, and play tennis. 
+								In my free time, I like to breakdance, wrestle, play Yu-Gi-Oh, modify Nerf blasters, and play tennis. 
 						</p>
 					</div>
 
