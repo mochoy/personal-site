@@ -6,8 +6,6 @@ import LinkBtn from '../LinkBtn/index';
 
 export default class About extends Component {
 	render () {
-		const contentWidth = "30em";
-
 		return (
 			<section id="About" className='section'>
 				<div className="section-content">
@@ -17,7 +15,7 @@ export default class About extends Component {
 						className="flex-container-center">
 
 						{/* Text Intro */}
-						<div style={{width: contentWidth}}>
+						<div style={{width: "30em"}}>
 							<p>
 									I'm Monty. I'm an <strong>electrical engineer</strong> with 3+ years of practical experience and a <strong>software engineer</strong> with 7+ years of practical experience. I do <strong>hardware system integration</strong>, PCB design, <strong>power electronics</strong>, embedded programming, and <strong>full-stack web development</strong> all for my <strong>Nerf blasters</strong>. I'm currently studying electrical engineering at Cal Poly SLO. 
 							</p>
@@ -27,10 +25,7 @@ export default class About extends Component {
 						</div>
 
 						{/* Links */}
-						<div id="logos-container" 
-							className="flex-container-center"
-							style={{width: contentWidth}}
-						>
+						<div id="logos-container">
 							{this.props.data.map(this.renderLogos)}
 						</div>
 
@@ -44,8 +39,8 @@ export default class About extends Component {
 
 	renderLogos(logoData) {
 		return (
-			<a href={logoData.link} target="_blank" className="about-logo grow">
-				<img className="about-logo-img" src={require(`assets/images/logos/${logoData.imgSrc}`)} alt={logoData.name + "logo"}/>
+			<a href={logoData.link} target="_blank" className="about-logo">
+				<img className="about-logo-img grow" src={require(`assets/images/logos/${logoData.imgSrc}`)} alt={logoData.name + "logo"}/>
 			</a>
 		)
 	}

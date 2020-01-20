@@ -13,13 +13,16 @@
 #logos-container {
 	/* margin: 0 auto; */
 	/* width: 90%; */
+	width: 5em;
+	margin-left: 2em;
 }
 
 .about-logo {
-	margin: 1em;
+	/* margin: 1em; */
 }
 
 .about-logo-img {
 	height: 40px;
 	width: 40px;
+	margin: 0.5em;
 }
