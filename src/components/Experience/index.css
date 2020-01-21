@@ -60,10 +60,12 @@
 
 	.experience-item-content.right {
 		border: none;
+		width: 100%;
 	}
 
 	.experience-item-content.left {
 		text-align: left;
+		width: 100%;
 	}
 
 	.experience-item-title-and-name {
