@@ -21,12 +21,11 @@ export const DATA = [
 		date: "January 2019 - September 2019",
 		title: "Apple TV Hardware Engineering Intern",
 		content: [
-			"Analyzed test coverage on factory line to ensure correct placement, value, etc. for every component through various test stations. Results increased component test coverage by over 25%",
-			"Assisted in prototype, schematic capture, & PCB layout, routing, & design of HDMI dev platform. Design lead for power, USB, & debug subsystems.",
-			"Validated HDMI, PMIC, SoC, NAND, & PDM microphone hardware subsystems ",
 			"Designed integrated electrical, mechanical, & software system to characterize IR performance",
-			"Implemented closed-loop stepper motor control, LCD drives, & I2C & Serial communication ",
-			"Programmed hardware abstraction API for intuitive implementation by software engineers "
+			"Implemented closed-loop stepper control, LCD drives, ALS, & I2C & Serial communication",
+			"Assisted in prototype, schematic capture, PCB layout, & design of HDMI dev platform. Design lead for DC-DC power, USB, & debug & assisted with high-speed digital & MCU subsystems",
+			"Analyzed test coverage on factory line to ensure correct placement, value, etc. for every component through various test stations. Results increased component test coverage by over 25%",
+			"Validated HDMI, PMU, SoC, CPU, GPU, UART, NAND, & PDM mic hardware subsystems"
 		]
 	}
 ]
