@@ -6,11 +6,10 @@ export const DATA = [
 		date: "February 2018 - Present",
 		title: "CEO",
 		content: [
-			"Completed entire product design lifecycle of multiple electronics products from concept, architecture, prototype, design, validation, assembly, manufacturing, testing, & shipping",
-			"Designed open-source PCBs & captured schematics for AVR-based embedded systems, DC-DC converters, brushed motor drive, & solenoid drive power electronics",
-			"Programmed robust open-source firmware sketches & library in C++ for Arduino",
-			"Shipped 300+ units of 4 products to 10+ countries",
-			"Developed e-commerce website UI, server, & database with 20,000+ annual sessions"
+			"Completed entire product design lifecycle of multiple electronics products from concept, architecture, prototype, design, coding, validation, assembly, manufacturing, testing, & shipping",
+			"Designed PCB-based products implementing AVR MCU-based embedded systems, USB, DC-DC converters, brushed motor drive, & solenoid drive power electronics",
+			"Programmed robust ATMega328P firmware & full-stack website with interactive applications",
+			"Shipped 500+ units of 4 products to 10+ countries through website with 20,000+ annual sessions"
 
 		]
 	},
