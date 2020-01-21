@@ -6,11 +6,10 @@ export const DATA = [
 		date: "February 2018 - Present",
 		title: "CEO",
 		content: [
-			"Completed entire product design lifecycle of multiple electronics products from concept, architecture, prototype, design, validation, assembly, manufacturing, testing, & shipping",
-			"Designed open-source PCBs & captured schematics for AVR-based embedded systems, DC-DC converters, brushed motor drive, & solenoid drive power electronics",
-			"Programmed robust open-source firmware sketches & library in C++ for Arduino",
-			"Shipped 300+ units of 4 products to 10+ countries",
-			"Developed e-commerce website UI, server, & database with 20,000+ annual sessions"
+			"Completed entire product design lifecycle of multiple electronics products from concept, architecture, prototype, design, coding, validation, assembly, manufacturing, testing, & shipping",
+			"Designed PCB-based products implementing AVR MCU-based embedded systems, USB, DC-DC converters, brushed motor drive, & solenoid drive power electronics",
+			"Programmed robust ATMega328P firmware & full-stack website with interactive applications",
+			"Shipped 500+ units of 4 products to 10+ countries through website with 20,000+ annual sessions"
 
 		]
 	},
@@ -21,12 +20,11 @@ export const DATA = [
 		date: "January 2019 - September 2019",
 		title: "Apple TV Hardware Engineering Intern",
 		content: [
-			"Analyzed test coverage on factory line to ensure correct placement, value, etc. for every component through various test stations. Results increased component test coverage by over 25%",
-			"Assisted in prototype, schematic capture, & PCB layout, routing, & design of HDMI dev platform. Design lead for power, USB, & debug subsystems.",
-			"Validated HDMI, PMIC, SoC, NAND, & PDM microphone hardware subsystems ",
 			"Designed integrated electrical, mechanical, & software system to characterize IR performance",
-			"Implemented closed-loop stepper motor control, LCD drives, & I2C & Serial communication ",
-			"Programmed hardware abstraction API for intuitive implementation by software engineers "
+			"Implemented closed-loop stepper control, LCD drives, ALS, & I2C & Serial communication",
+			"Assisted in prototype, schematic capture, PCB layout, & design of HDMI dev platform. Design lead for DC-DC power, USB, & debug & assisted with high-speed digital & MCU subsystems",
+			"Analyzed test coverage on factory line to ensure correct placement, value, etc. for every component through various test stations. Results increased component test coverage by over 25%",
+			"Validated HDMI, PMU, SoC, CPU, GPU, UART, NAND, & PDM mic hardware subsystems"
 		]
 	}
 ]
