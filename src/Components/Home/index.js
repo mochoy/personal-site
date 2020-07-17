@@ -1,11 +1,20 @@
 import React from 'react';
 
+import './index.css';
+
 
 const Home = props => {
   return (
-    <div id="Home">
+    <section id="Home">
+      <div id="bg-img"
+        style={{
+          backgroundImage: 'url(' + require('assets/images/background/bboy-icey.jpg') + ')'
+        }}
+      >
+          
+      </div>
       Home
-    </div>
+    </section>
   )
 }
 
