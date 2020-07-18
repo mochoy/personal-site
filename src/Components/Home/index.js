@@ -11,9 +11,7 @@ const Home = props => {
           backgroundImage: 'url(' + require('assets/images/background/bboy-icey.jpg') + ')'
         }}
       >
-          
       </div>
-      Home
     </section>
   )
 }
