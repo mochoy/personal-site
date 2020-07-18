@@ -1,5 +1,8 @@
 #Home {
   height: 100%;
+
+  /* Hide edges when making bg img bigger */
+  overflow: hidden;
 }
 
 #Home #bg-img {
@@ -12,4 +15,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  /* Make bg img bigger so edges don't look weird */
+  transform: scale(1.05);
 }
