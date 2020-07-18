@@ -3,10 +3,12 @@
 
   /* Hide edges when making bg img bigger */
   overflow: hidden;
+
 }
 
-#Home #bg-img {
+#bg-img {
   height: 100%;
+  width: 100%;
 
   /* Add the blur effect */
   filter: blur(8px);
@@ -18,4 +20,15 @@
 
   /* Make bg img bigger so edges don't look weird */
   transform: scale(1.05);
+
+  /* Parallax effect on scroll */
+  z-index: -200;
+  position: absolute;
+  overflow: hidden;
+  background-attachment: fixed;
+  /* background-position: 50%; */
+
+  /* Black bg color so if img moves around, the edges don't look weird */
+  background-color: black;
 }
+
