@@ -46,16 +46,16 @@ const About = props => {
       <h1 className="section-title">About Me</h1>
 
       {/* Main content */}
-      <div className="flex-container-center">
+      <div className="flex-container-horizontally-center">
         {/* Text */}
-        <div>
+        <div id="about-text-container">
           <p>
             In my free time, in addition to coding and electronics, I like to breakdance, modify Nerf guns, and play board games and Yu-Gi-Oh.
           </p>
         </div>
 
         {/* Links/logos */}
-        <div className="flex-container-vertical">
+        <div className="logos-container flex-container-vertical">
           {
             logosData.map((logoData, key) => {
               return (
@@ -76,7 +76,7 @@ const About = props => {
           }
           
         </div>
-        
+
       </div>
 
     </section>

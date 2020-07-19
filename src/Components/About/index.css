@@ -2,12 +2,16 @@
 
 }
 
+#about-text-container {
+  width: 40em;
+}
+
+#logos-container {
+  width: 5em;
+}
+
 #About .logo img {
   height: 40px;
 	width: 40px;
 	margin: 0.5em;
-}
-
-.grow {
-
 }
