@@ -33,10 +33,16 @@
   background-color: black;
 }
 
-#Home h1 {
-  margin: auto;
+#Home h1, h2 {
   color: white;
+  font-weight: 400;
+  margin: 0;
+}
 
-  /* filter: blur(0);
-  -webkit-filter: blur(0); */
+#Home h1 {
+  font-size: 5em;
+}
+
+#Home h2 {
+  font-size: 3em;
 }

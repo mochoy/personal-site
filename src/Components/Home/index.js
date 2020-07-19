@@ -15,8 +15,9 @@ const Home = props => {
       >
       </div>
       
-      <div className="txt-container">
-        <h1>fsdf</h1>
+      <div className="txt-container text-center">
+        <h1>Monty Choy</h1>
+        <h2>Hardware Hacker</h2>
       </div>
       
     </section>
