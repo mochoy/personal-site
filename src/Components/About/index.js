@@ -48,7 +48,11 @@ const About = props => {
       <div>
         <p>
           In my free time, in addition to coding and electronics, I like to breakdance, modify Nerf guns, and play board games and Yu-Gi-Oh.
-        </p>
+        <div>
+          <p>
+            In my free time, in addition to coding and electronics, I like to breakdance, modify Nerf guns, and play board games and Yu-Gi-Oh.
+          </p>
+        </div>
       </div>
 
     </section>
