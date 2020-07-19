@@ -1,5 +1,6 @@
 #Home {
   height: 100%;
+  width: 100%;
 
   /* Hide edges when making bg img bigger */
   overflow: hidden;
@@ -23,10 +24,10 @@
 
   /* Parallax effect on scroll */
   z-index: -200;
-  position: absolute;
-  overflow: hidden;
+  /* position: absolute; */
+  /* overflow: hidden; */
   background-attachment: fixed;
-  /* background-position: 50%; */
+  background-position: 50%;
 
   /* Black bg color so if img moves around, the edges don't look weird */
   background-color: black;
