@@ -50,12 +50,24 @@ const About = props => {
         {/* Text */}
         <div id="about-text-container">
           <p>
+            I'm Monty! I'm currently studying electrical engineering at Cal Poly SLO. I've worked at Apple and Microsoft and I also run Suild. I've been coding for 9+ years and working with electronics for 5+ years.
+          </p>
+
+          <p>
+            On the hardware side, I did a 9-month hardware engineering co-op at Apple and I run Suild. I do DC-DC power electronics, high-speed digital design, MCUs, embedded systems hardware, PCB layout and design, motor and solenoid drives, and electronics manufacturing and testing.
+          </p>
+
+          <p>
+            On the software side, I'm currently doing a software engineering internship at Microsoft. I do full-stack web development with the MERN stack, firmware, and embedded systems software. I've also dabbled with game development, Android development, machine learning, cloud development, and computer vision.
+          </p>
+
+          <p>
             In my free time, in addition to coding and electronics, I like to breakdance, modify Nerf guns, and play board games and Yu-Gi-Oh.
           </p>
         </div>
 
         {/* Links/logos */}
-        <div className="logos-container flex-container-vertical">
+        <div id="logos-container" className="flex-container-vertical">
           {
             logosData.map((logoData, key) => {
               return (

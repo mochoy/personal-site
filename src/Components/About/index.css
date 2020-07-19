@@ -3,10 +3,11 @@
 }
 
 #about-text-container {
-  width: 40em;
+  width: 30em;
 }
 
 #logos-container {
+  margin-left: 2em;
   width: 5em;
 }
 
