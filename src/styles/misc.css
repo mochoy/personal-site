@@ -14,3 +14,7 @@
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
+.horizontally-center {
+  margin: 0 auto;
+}
