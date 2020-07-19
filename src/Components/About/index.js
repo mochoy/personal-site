@@ -61,11 +61,11 @@ const About = props => {
               return (
                 <a href={logoData.link} 
                   target="_blank" 
-                  className="about-logo"
+                  className="logo cursor-on-hover"
                   key={key}
                 >
                   <img 
-                    className="about-logo-img grow" 
+                    className="grow" 
                     src={require(`assets/images/logos/${logoData.imgSrc}`)} 
                     alt={logoData.name + " logo"}
                   />
