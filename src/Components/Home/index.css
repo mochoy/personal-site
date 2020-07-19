@@ -37,7 +37,7 @@
   width: 90%;
 }
 
-#Home h1, h2, p {
+#Home h1, #Home h2, #Home p {
   color: white;
   font-weight: 400;
   margin: 0;
