@@ -15,7 +15,7 @@ const Home = props => {
       >
       </div>
       
-      <div className="txt-container text-center">
+      <div className="text-container text-center">
         <h1>Monty Choy</h1>
         <h2>Hardware Hacker</h2>
       </div>
