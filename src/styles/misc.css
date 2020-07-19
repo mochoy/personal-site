@@ -1,3 +1,16 @@
 .mouse-on-hover {
   cursor: pointer;
 }
+
+.chevron {
+  border: solid;
+  border-color: #fff;
+  border-width: 0 7px 7px 0;
+  padding: 9px;
+}
+
+.down {
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

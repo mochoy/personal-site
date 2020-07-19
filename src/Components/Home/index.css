@@ -67,3 +67,16 @@
   margin: 1em;
   font-size: 1.4em;
 }
+
+#Home .chevron {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 80%;
+  -webkit-animation: welcome-chevron-bounce .5s infinite alternate;
+  animation: welcome-chevron-bounce .5s infinite alternate;
+}
+
+@keyframes welcome-chevron-bounce {
+  from{ top:80% } to { top:85% }
+}

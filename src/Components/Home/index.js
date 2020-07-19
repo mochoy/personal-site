@@ -30,7 +30,8 @@ const Home = props => {
       </div>
 
       {/* See more cursor to go to About section */}
-      
+      <i className="chevron down mouse-on-hover"></i>
+
     </section>
   )
 }
