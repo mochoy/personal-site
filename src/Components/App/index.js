@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Home from '../Home'
+import Home from '../Home';
+import About from '../About';
 
 import logo from '../../assets/images/logo.svg';
 import './index.css';
@@ -9,6 +10,8 @@ function App() {
   return (
     <div className="App">
       <Home/>
+      <About/>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
