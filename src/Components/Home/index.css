@@ -57,3 +57,13 @@
   letter-spacing: 1px;
   margin-top: 0.5em;
 } */
+
+
+#Home .links-container {
+  margin-top: 0.5em;
+}
+
+#Home .links-container p {
+  margin: 1em;
+  font-size: 1.4em;
+}

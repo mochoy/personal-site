@@ -18,6 +18,12 @@ const Home = props => {
       <div className="text-container text-center">
         <h1>Monty Choy</h1>
         <h2>Hardware Hacker</h2>
+
+        <div className="links-container flex-container-horizontally-center">
+          <p>About</p>
+          <p>Projects</p>
+          <p>Articles</p>
+        </div>
       </div>
       
     </section>
