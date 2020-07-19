@@ -46,7 +46,7 @@ const About = props => {
       <h1 className="section-title">About Me</h1>
 
       {/* Main content */}
-      <div className="flex-container-horizontally-center">
+      <div className="flex-container-horizontally-center horizontally-center">
         {/* Text */}
         <div id="about-text-container">
           <p>
