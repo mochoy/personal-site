@@ -30,6 +30,7 @@ const Home = props => {
           >
             About
           </p>
+          <p className="mouse-on-hover">Experience</p>
           <p className="mouse-on-hover">Projects</p>
           <p className="mouse-on-hover">Articles</p>
         </div>
