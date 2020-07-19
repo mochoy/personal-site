@@ -1,5 +1,7 @@
 import React from 'react';
 
+import scrollToElement from 'scroll-to-element';
+
 import './index.css';
 
 
@@ -23,14 +25,20 @@ const Home = props => {
 
         {/* Links to different sections */}
         <div className="links-container flex-container-horizontally-center">
-          <p className="mouse-on-hover">About</p>
+          <p className="mouse-on-hover" 
+            onClick={e => scrollToElement("#About")}
+          >
+            About
+          </p>
           <p className="mouse-on-hover">Projects</p>
           <p className="mouse-on-hover">Articles</p>
         </div>
       </div>
 
       {/* See more cursor to go to About section */}
-      <i className="chevron down mouse-on-hover"></i>
+      <i className="chevron down mouse-on-hover" 
+        onClick={e => scrollToElement("#About")}
+      />
 
     </section>
   )
