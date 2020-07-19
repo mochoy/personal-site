@@ -20,9 +20,9 @@ const Home = props => {
         <h2>Hardware Hacker</h2>
 
         <div className="links-container flex-container-horizontally-center">
-          <p>About</p>
-          <p>Projects</p>
-          <p>Articles</p>
+          <p className="mouse-on-hover">About</p>
+          <p className="mouse-on-hover">Projects</p>
+          <p className="mouse-on-hover">Articles</p>
         </div>
       </div>
       
