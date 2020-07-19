@@ -45,13 +45,35 @@ const About = props => {
     <section id="About">
       <h1 className="section-title">About Me</h1>
 
-      <div>
-        <p>
-          In my free time, in addition to coding and electronics, I like to breakdance, modify Nerf guns, and play board games and Yu-Gi-Oh.
+      {/* Main content */}
+      <div className="flex-container-center">
+        {/* Text */}
         <div>
           <p>
             In my free time, in addition to coding and electronics, I like to breakdance, modify Nerf guns, and play board games and Yu-Gi-Oh.
           </p>
+        </div>
+
+        {/* Links/logos */}
+        <div>
+          {
+            logosData.map((logoData, key) => {
+              return (
+                <a href={logoData.link} 
+                  target="_blank" 
+                  className="about-logo"
+                  key={key}
+                >
+                  <img 
+                    className="about-logo-img grow" 
+                    src={require(`assets/images/logos/${logoData.imgSrc}`)} 
+                    alt={logoData.name + " logo"}
+                  />
+                </a>
+              )
+            })
+          }
+          
         </div>
       </div>
 
