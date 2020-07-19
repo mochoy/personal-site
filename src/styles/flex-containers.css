@@ -1,6 +1,7 @@
 .flex-container, 
 .flex-container-vertically-center, 
-.flex-container-horizontally-center {
+.flex-container-horizontally-center,
+.flex-container-vertical {
   display: flex;
   flex-wrap: wrap;
 }
@@ -11,4 +12,8 @@
 
 .flex-container-horizontally-center {
   justify-content: center;
+}
+
+.flex-container-vertical {
+  flex-direction: column;
 }

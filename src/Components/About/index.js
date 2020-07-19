@@ -55,7 +55,7 @@ const About = props => {
         </div>
 
         {/* Links/logos */}
-        <div>
+        <div className="flex-container-vertical">
           {
             logosData.map((logoData, key) => {
               return (
@@ -76,6 +76,7 @@ const About = props => {
           }
           
         </div>
+        
       </div>
 
     </section>
