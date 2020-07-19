@@ -60,14 +60,15 @@ const About = props => {
             logosData.map((logoData, key) => {
               return (
                 <a href={logoData.link} 
-                  target="_blank" 
                   className="logo cursor-on-hover"
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   key={key}
                 >
                   <img 
-                    className="grow" 
+                    className="grow-on-hover" 
                     src={require(`assets/images/logos/${logoData.imgSrc}`)} 
-                    alt={logoData.name + " logo"}
+                    alt={logoData.name + "-logo"}
                   />
                 </a>
               )
