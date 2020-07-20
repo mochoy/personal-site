@@ -2,9 +2,9 @@ import React from 'react';
 
 const Logos = props => {
   const { logosData } = props;
-  
+
   return (
-    <div id="logos-container" className="flex-container-vertical">
+    <div id="Logos" className="flex-container-vertical">
       {
         logosData.map((logoData, key) => {
           return (
