@@ -4,10 +4,12 @@ import Home from '../Home';
 import About from '../About';
 
 import logos from '../../assets/data/logos.js';
+import buzzwords from '../../assets/data/buzzwords.js';
 
 import logo from '../../assets/images/logo.svg';
 
 import './index.css';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Home/>
       <About
         logosData={logos}
+        buzzwords={buzzwords}
       />
 
       <header className="App-header">

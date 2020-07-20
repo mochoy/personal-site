@@ -8,70 +8,8 @@ import Logos from './Logos';
 import './index.css';
 
 
-const hweBuzzwords = [
-  {
-    name: "DC-DC Power Electronics",
-    rating: 4.75
-  },
-  {
-    name: "Embedded Systems",
-    rating: 4.75
-  },
-  {
-    name: "Inductive Load Drives",
-    rating: 4.5
-  },
-  {
-    name: "PCB Layout & Design",
-    rating: 4.5
-  },
-  {
-    name: "Microcontrollers",
-    rating: 4.4
-  },
-  {
-    name: "High-Speed Digital Design",
-    rating: 4.3
-  },
-  {
-    name: "Computer Architecture",
-    rating: 4.2
-  }
-];
-
-const sweBuzzwords = [
-  {
-    name: "JavaScript",
-    rating: 4.75
-  },
-  {
-    name: "Embedded Programming",
-    rating: 4.75
-  },
-  {
-    name: "React",
-    rating: 4.75
-  },
-  {
-    name: "Node.js",
-    rating: 4.6
-  },
-  {
-    name: "Python",
-    rating: 4.5
-  },
-  {
-    name: "C++",
-    rating: 4.4
-  },
-  {
-    name: "C",
-    rating: 4.3
-  }
-];
-
 const About = props => {
-  const { logosData } = props;
+  const { logosData, buzzwords } = props;
 
   return (
     <section id="About" className="section">
@@ -114,7 +52,7 @@ const About = props => {
             <h3 className="text-center">Hardware Engineering</h3>
 
             {
-              hweBuzzwords.map((buzzword, index) => {
+              buzzwords.hwe.map((buzzword, index) => {
                 const { name, rating } = buzzword;
 
                 return (
@@ -143,7 +81,7 @@ const About = props => {
             <h3 className="text-center">Software Engineering</h3>
 
             {
-              sweBuzzwords.map((buzzword, index) => {
+              buzzwords.swe.map((buzzword, index) => {
                 const { name, rating } = buzzword;
 
                 return (
