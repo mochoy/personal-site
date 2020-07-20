@@ -50,7 +50,7 @@ const About = props => {
         {/* Text */}
         <div id="about-text-container">
           <p>
-            I'm Monty! I'm currently studying electrical engineering at Cal Poly SLO. I've worked at Apple and Microsoft and I also run Suild. I've been coding for 9+ years and working with electronics for 5+ years.
+            I'm Monty! I'm based in San Francisco, CA and I'm currently studying electrical engineering at Cal Poly SLO. I've worked at Apple and Microsoft and I also run Suild. I've been coding for 9+ years and working with electronics for 5+ years.
           </p>
 
           <p>
@@ -89,6 +89,17 @@ const About = props => {
           
         </div>
 
+      </div>
+
+      {/* Buzzwords */}
+      <div id="buzzwords-container">
+        <h3 className="text-center">
+          Here are some buzzwords and meaningless quantifications if you're into that
+        </h3>
+
+        <div className="flex-container-horizontally-center">
+          
+        </div>
       </div>
 
     </section>

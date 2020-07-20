@@ -4,6 +4,7 @@
 
 #About .flex-container-horizontally-center {
   width: 80%;
+  padding-bottom: 2em;
 }
 
 #about-text-container {
@@ -13,12 +14,6 @@
 #logos-container {
   margin-left: 2em;
   width: 5em;
-}
-
-#About .logo img {
-  height: 40px;
-	width: 40px;
-	margin: 0.5em 1em;
 }
 
 
@@ -32,4 +27,14 @@
     justify-content: center;
     flex-direction: row;
 	}
+}
+
+#About .logo img {
+  height: 40px;
+	width: 40px;
+	margin: 0.5em 1em;
+}
+
+#About #buzzwords-container {
+  
 }
