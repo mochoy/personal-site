@@ -127,7 +127,7 @@ const About = props => {
           </p>
 
           <p>
-            In my free time, in addition to coding and electronics, I like to breakdance, modify Nerf guns, and play board games and Yu-Gi-Oh.
+            In my free time, in addition to coding and electronics, I like to breakdance (workng on Halos and headspins), modify Nerf guns (Stryfe is my favorite), and play board games (Dominion and Grifters are my favorites) and Yu-Gi-Oh (I run Agents link spam + Krystia turbo).
           </p>
         </div>
 
