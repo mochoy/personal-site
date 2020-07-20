@@ -4,6 +4,8 @@ import StarRatings from 'react-star-ratings';
 import GitHubCalendar from 'react-github-calendar';
 
 import Logos from './Logos';
+import Buzzwords from './Buzzwords';
+
 
 import './index.css';
 
@@ -41,6 +43,11 @@ const About = props => {
       </div>
 
       {/* Buzzwords */}
+      <Buzzwords
+        hweBuzzwords={buzzwords.hwe}
+        sweBuzzwords={buzzwords.swe}
+      />
+      
       <div id="buzzwords-container">
         <h2 className="text-center">
           Buzzwords and Meaningless Quantifications
