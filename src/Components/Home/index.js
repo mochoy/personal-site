@@ -25,18 +25,18 @@ const Home = props => {
 
         {/* Links to different sections */}
         <div className="links-container flex-container-horizontally-center">
-          <p className="mouse-on-hover" 
-            onClick={e => scrollToElement("#About")}
-          >
-            About
-          </p>
-          <p className="mouse-on-hover" 
-            onClick={e => scrollToElement("#Experience")}
-          >
-            Experience
-          </p>
-          <p className="mouse-on-hover">Projects</p>
-          <p className="mouse-on-hover">Articles</p>
+          {
+            ["About", "Experience", "Projects", "Articles"]
+              .map((section, key) => {
+                return (
+                  <p className="mouse-on-hover" 
+                    onClick={e => scrollToElement(`#${section}`)}
+                  >
+                    {section}
+                  </p>
+                )
+              })
+          }
         </div>
       </div>
 
