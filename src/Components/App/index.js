@@ -3,14 +3,19 @@ import React from 'react';
 import Home from '../Home';
 import About from '../About';
 
+import logos from '../../assets/data/logos.js';
+
 import logo from '../../assets/images/logo.svg';
+
 import './index.css';
 
 function App() {
   return (
     <div className="App">
       <Home/>
-      <About/>
+      <About
+        logosData={logos}
+      />
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
