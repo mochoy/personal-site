@@ -11,6 +11,7 @@ import './styles/flex-containers.css';
 import './styles/text.css';
 import './styles/misc.css';
 import './styles/animations.css';
+import './styles/section.css';
 
 
 ReactDOM.render(
