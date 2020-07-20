@@ -1,6 +1,5 @@
 import React from 'react';
 
-import StarRatings from 'react-star-ratings';
 import GitHubCalendar from 'react-github-calendar';
 
 import Logos from './Logos';
@@ -47,72 +46,6 @@ const About = props => {
         hweBuzzwords={buzzwords.hwe}
         sweBuzzwords={buzzwords.swe}
       />
-      
-      <div id="buzzwords-container">
-        <h2 className="text-center">
-          Buzzwords and Meaningless Quantifications
-        </h2>
-
-        <div className="flex-container-horizontally-center">
-          {/* Column 1 - HWE */}
-          <div className="column">
-            <h3 className="text-center">Hardware Engineering</h3>
-
-            {
-              buzzwords.hwe.map((buzzword, index) => {
-                const { name, rating } = buzzword;
-
-                return (
-                  <div className="flex-container-vertically-center" 
-                    key={index}
-                  >
-                    <p className="text">{name}</p>
-
-                    <StarRatings
-                      rating={rating}
-                      numberOfStars={5}
-
-                      starRatedColor="blue"
-                      starDimension="20px"
-                      starSpacing=""
-                    />
-                  </div>
-                )
-              })
-            }
-            
-          </div>
-
-          {/* Column 2 - SWE */}
-          <div className="column">
-            <h3 className="text-center">Software Engineering</h3>
-
-            {
-              buzzwords.swe.map((buzzword, index) => {
-                const { name, rating } = buzzword;
-
-                return (
-                  <div className="flex-container-vertically-center" 
-                    key={index}
-                  >
-                    <p className="text">{name}</p>
-
-                    <StarRatings
-                      rating={rating}
-                      numberOfStars={5}
-
-                      starRatedColor="blue"
-                      starDimension="20px"
-                      starSpacing=""
-                    />
-                  </div>
-                )
-              })
-            }
-          </div>
-          
-        </div>
-      </div>
       
       {/* Green boxes */}
       <div className="horizontally-center">

@@ -34,20 +34,12 @@
 	margin: 0.5em 1em;
 }
 
-#About #buzzwords-container {
-  
-}
-
-#About #buzzwords-container .column {
+#Buzzwords .column {
   margin: 0 1em;
 }
 
-#About #buzzwords-container .column .text {
+#Buzzwords .column .text {
   width: 15em;
   margin: 0.5em 0;
 }
 
-
-#About #green-boxes-container {
-
-}
