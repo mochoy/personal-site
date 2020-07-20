@@ -95,7 +95,7 @@ const About = props => {
       {/* Buzzwords */}
       <div id="buzzwords-container">
         <h3 className="text-center">
-          Here are some buzzwords and meaningless quantifications if you're into that
+          Here are some buzzwords and meaningless quantifications if you're into that:
         </h3>
 
         <div className="flex-container-horizontally-center">
@@ -104,7 +104,14 @@ const About = props => {
       </div>
       
       {/* Green boxes */}
-      <GitHubCalendar username="mochoy"/>
+      <div className="horizontally-center">
+        <h3 className="text-center">
+          Here are my contributions on GitHub:
+        </h3>
+        <div className="flex-container-horizontally-center">
+          <GitHubCalendar username="mochoy"/>
+        </div>
+      </div>
 
 
     </section>

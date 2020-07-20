@@ -1,10 +1,9 @@
 #About {
-  padding-bottom: 3em;
+
 }
 
 #About .flex-container-horizontally-center {
-  width: 80%;
-  padding-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 #about-text-container {
@@ -37,4 +36,8 @@
 
 #About #buzzwords-container {
   
+}
+
+#About #green-boxes-container {
+
 }
