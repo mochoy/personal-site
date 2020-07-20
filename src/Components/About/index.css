@@ -2,7 +2,7 @@
 
 }
 
-#About .flex-container-horizontally-center {
+#main-content {
   margin-bottom: 3em;
 }
 
@@ -14,7 +14,6 @@
   margin-left: 2em;
   width: 5em;
 }
-
 
 @media only screen and (max-width: 760px) {
 	#Logos {
@@ -32,6 +31,18 @@
   height: 40px;
 	width: 40px;
 	margin: 0.5em 1em;
+}
+
+#About h2 {
+  font-size: 2em;
+}
+
+#About h3 {
+  font-size: 1.5em;
+}
+
+#Buzzwords {
+  margin-bottom: 3em;
 }
 
 #Buzzwords .column {
