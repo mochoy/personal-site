@@ -19,7 +19,7 @@ const Buzzwords = props => {
           rating={rating}
           numberOfStars={5}
 
-          starRatedColor="blue"
+          starRatedColor="#61dafb"
           starDimension="20px"
           starSpacing=""
         />
