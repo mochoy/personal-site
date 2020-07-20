@@ -1,4 +1,6 @@
 import React from 'react';
+
+import StarRatings from 'react-star-ratings';
 import GitHubCalendar from 'react-github-calendar';
 
 import './index.css';
@@ -39,7 +41,69 @@ const logosData = [
     imgSrc: "suild.png",
     link: "https://suild.com"
   }
-]
+];
+
+const hweBuzzwords = [
+  {
+    name: "DC-DC Power Electronics",
+    rating: 4.75
+  },
+  {
+    name: "Embedded Systems",
+    rating: 4.75
+  },
+  {
+    name: "Inductive Load Drives",
+    rating: 4.5
+  },
+  {
+    name: "PCB Layout & Design",
+    rating: 4.5
+  },
+  {
+    name: "Microcontrollers",
+    rating: 4.4
+  },
+  {
+    name: "High-Speed Digital Design",
+    rating: 4.3
+  },
+  {
+    name: "Computer Architecture",
+    rating: 4.2
+  }
+];
+
+const sweBuzzwords = [
+  {
+    name: "JavaScript",
+    rating: 4.75
+  },
+  {
+    name: "Embedded Programming",
+    rating: 4.75
+  },
+  {
+    name: "React",
+    rating: 4.75
+  },
+  {
+    name: "Node.js",
+    rating: 4.6
+  },
+  {
+    name: "Python",
+    rating: 4.5
+  },
+  {
+    name: "C++",
+    rating: 4.4
+  },
+  {
+    name: "C",
+    rating: 4.3
+  }
+];
 
 const About = props => {
   return (
@@ -94,20 +158,77 @@ const About = props => {
 
       {/* Buzzwords */}
       <div id="buzzwords-container">
-        <h3 className="text-center">
-          Here are some buzzwords and meaningless quantifications if you're into that:
-        </h3>
+        <h2 className="text-center">
+          Buzzwords and Meaningless Quantifications
+        </h2>
 
         <div className="flex-container-horizontally-center">
+          {/* Column 1 - HWE */}
+          <div className="column">
+            <h3 className="text-center">Hardware Engineering</h3>
 
+            {
+              hweBuzzwords.map((buzzword, index) => {
+                const { name, rating } = buzzword;
+
+                return (
+                  <div className="flex-container-vertically-center" 
+                    key={index}
+                  >
+                    <p className="text">{name}</p>
+
+                    <StarRatings
+                      rating={rating}
+                      numberOfStars={5}
+
+                      starRatedColor="blue"
+                      starDimension="20px"
+                      starSpacing=""
+                    />
+                  </div>
+                )
+              })
+            }
+            
+          </div>
+
+          {/* Column 2 - SWE */}
+          <div className="column">
+            <h3 className="text-center">Software Engineering</h3>
+
+            {
+              sweBuzzwords.map((buzzword, index) => {
+                const { name, rating } = buzzword;
+
+                return (
+                  <div className="flex-container-vertically-center" 
+                    key={index}
+                  >
+                    <p className="text">{name}</p>
+
+                    <StarRatings
+                      rating={rating}
+                      numberOfStars={5}
+
+                      starRatedColor="blue"
+                      starDimension="20px"
+                      starSpacing=""
+                    />
+                  </div>
+                )
+              })
+            }
+          </div>
+          
         </div>
       </div>
       
       {/* Green boxes */}
       <div className="horizontally-center">
-        <h3 className="text-center">
-          Here are my contributions on GitHub:
-        </h3>
+        <h2 className="text-center">
+          GitHub Contributions
+        </h2>
+
         <div className="flex-container-horizontally-center">
           <GitHubCalendar username="mochoy"/>
         </div>
