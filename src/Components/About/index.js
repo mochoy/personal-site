@@ -3,6 +3,8 @@ import React from 'react';
 import StarRatings from 'react-star-ratings';
 import GitHubCalendar from 'react-github-calendar';
 
+import Logos from './Logos';
+
 import './index.css';
 
 
@@ -96,28 +98,7 @@ const About = props => {
           </p>
         </div>
 
-        {/* Links/logos */}
-        <div id="logos-container" className="flex-container-vertical">
-          {
-            logosData.map((logoData, key) => {
-              return (
-                <a href={logoData.link} 
-                  className="logo cursor-on-hover"
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  key={key}
-                >
-                  <img 
-                    className="grow-on-hover" 
-                    src={require(`assets/images/logos/${logoData.imgSrc}`)} 
-                    alt={logoData.name + "-logo"}
-                  />
-                </a>
-              )
-            })
-          }
-          
-        </div>
+        <Logos logosData={logosData} />
 
       </div>
 
