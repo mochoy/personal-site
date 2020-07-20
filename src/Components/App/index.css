@@ -2,6 +2,26 @@
 
 }
 
+.section {
+  width: 80%;
+  margin: 0 auto;
+  
+  margin-bottom: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

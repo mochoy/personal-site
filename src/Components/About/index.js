@@ -43,7 +43,7 @@ const logosData = [
 
 const About = props => {
   return (
-    <section id="About">
+    <section id="About" className="section">
       <h1 className="section-title">About Me</h1>
 
       {/* Main content */}
