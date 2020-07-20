@@ -1,4 +1,5 @@
 import React from 'react';
+import GitHubCalendar from 'react-github-calendar';
 
 import './index.css';
 
@@ -98,9 +99,13 @@ const About = props => {
         </h3>
 
         <div className="flex-container-horizontally-center">
-          
+
         </div>
       </div>
+      
+      {/* Green boxes */}
+      <GitHubCalendar username="mochoy"/>
+
 
     </section>
   )
