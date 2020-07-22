@@ -31,6 +31,7 @@ const Home = props => {
                 return (
                   <p className="mouse-on-hover" 
                     onClick={e => scrollToElement(`#${section}`)}
+                    key={key}
                   >
                     {section}
                   </p>
