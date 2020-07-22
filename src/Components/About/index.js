@@ -24,7 +24,7 @@ const About = props => {
           {/* Text */}
           <div id="about-text-container">
             <p>
-              I'm Monty! I'm based in San Francisco, CA and I'm currently studying electrical engineering at Cal Poly SLO. I've worked at Apple and Microsoft and I also run Suild. I've been coding for 9+ years and working with electronics for 5+ years.
+              I'm Monty! I'm from San Francisco, CA and I'm currently studying electrical engineering at Cal Poly SLO. I've worked at Apple and Microsoft and I also run Suild. I've been coding for 9+ years and working with electronics for 5+ years.
             </p>
 
             <p>
@@ -36,7 +36,7 @@ const About = props => {
             </p>
 
             <p>
-              In my free time, in addition to coding and electronics, I like to breakdance (workng on Halos and headspins), modify Nerf guns (Stryfe is my favorite), and play board games (Dominion and Grifters are my favorites) and Yu-Gi-Oh (I run Agents link spam + Krystia turbo).
+              In my free time, in addition to coding and electronics, I like to breakdance (working on Halos and headspins), modify Nerf guns (Stryfe is my favorite), and play board games (Dominion and Grifters are my favorites) and Yu-Gi-Oh (I run Agents link spam + Krystia turbo).
             </p>
           </div>
 
