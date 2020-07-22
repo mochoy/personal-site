@@ -3,6 +3,7 @@ import React from 'react';
 import Home from '../Home';
 import About from '../About';
 import Experience from '../Experience';
+import Projects from '../Projects';
 
 import logos from '../../assets/data/logos.js';
 import buzzwords from '../../assets/data/buzzwords.js';
@@ -21,6 +22,7 @@ function App() {
         buzzwords={buzzwords}
       />
       <Experience/>
+      <Projects/>
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
