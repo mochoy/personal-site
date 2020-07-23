@@ -18,3 +18,7 @@
 .horizontally-center {
   margin: 0 auto;
 }
+
+.display-inline {
+  display: inline;
+}

@@ -29,9 +29,15 @@ const Buzzwords = props => {
 
   return (
     <div id="Buzzwords">
-      <h2 className="text-center">
-        Skills and Meaningless Quantifications
-      </h2>
+      <div className="text-center">
+        <h2 className="display-inline">
+          Skills
+        </h2>
+        <p className="display-inline" style={{ marginLeft: "0.5em" }}>
+          (and meaningless quantifications)
+        </p>
+      </div>
+      
 
       <div className="flex-container-horizontally-center">
           {/* Column 1 - HWE */}
