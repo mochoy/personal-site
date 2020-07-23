@@ -6,11 +6,11 @@
   margin-bottom: 0;
 }
 
-.experience-item {
+.experience-item-desktop {
   margin: 2em 0;
 }
 
-.experience-item .left {
+.experience-item-desktop .left {
   width: 15em;
   padding-right: 2em;
 
@@ -20,8 +20,15 @@
 
 }
 
-.experience-item .right {
+.experience-item-desktop .right {
   width: 35em;
   padding-left: 1em;
+
+}
+
+@media only screen and (max-width: 1080px) {
+	.experience-item-desktop {
+    display: none !important;
+  }
 
 }

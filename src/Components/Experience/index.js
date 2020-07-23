@@ -19,7 +19,7 @@ const Experience = props => {
 
             return (
               <div key={key}
-                className="experience-item flex-container-horizontally-center"
+                className="experience-item-desktop flex-container-horizontally-center"
               >
                 <div className="left">
                   <h3>{company}</h3>
