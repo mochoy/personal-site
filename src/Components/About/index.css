@@ -1,6 +1,13 @@
-#About {
-
+#About h2 {
+  font-size: 2em;
 }
+
+#About h3 {
+  font-size: 1.5em;
+}
+
+
+
 
 #main-content {
   margin-bottom: 3em;
@@ -9,6 +16,9 @@
 #about-text-container {
   width: 30em;
 }
+
+
+
 
 #Logos {
   margin-left: 2em;
@@ -33,12 +43,11 @@
 	margin: 0.5em 1em;
 }
 
-#About h2 {
-  font-size: 2em;
-}
 
-#About h3 {
-  font-size: 1.5em;
+
+
+.resume-icon {
+  height: 64px;
 }
 
 #Buzzwords {
