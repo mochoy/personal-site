@@ -3,6 +3,7 @@ import React from 'react';
 import GitHubCalendar from 'react-github-calendar';
 
 import Logos from './Logos';
+import Resumes from './Resumes';
 import Buzzwords from './Buzzwords';
 
 
@@ -45,6 +46,7 @@ const About = props => {
         </div>
 
         {/* Resumes */}
+        <Resumes/>
         <div>
           <h2 className="text-center">
             Resumes
