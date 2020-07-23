@@ -1,9 +1,5 @@
-#Experience h3 {
-  margin-bottom: 0;
-}
-
-#Experience h4 {
-  margin-bottom: 0;
+.experience-item-mobile {
+  display: none;
 }
 
 .experience-item-desktop {
@@ -17,7 +13,14 @@
   text-align: right;
   
   /* border-right: white solid 1px; */
+}
 
+.experience-item-desktop h3 {
+  margin-bottom: 0;
+}
+
+.experience-item-desktop h4 {
+  margin-bottom: 0;
 }
 
 .experience-item-desktop .right {
@@ -31,4 +34,18 @@
     display: none !important;
   }
 
+  .experience-item-mobile {
+    display: block !important;
+  }
+}
+
+
+.experience-item-mobile {
+  margin-top: 2em;
+  display: none;
+}
+
+.experience-item-mobile h4, .experience-item-mobile h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
