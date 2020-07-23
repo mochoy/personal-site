@@ -46,13 +46,14 @@
 
 
 
+.resume-link {
+  width: 7em;
+  margin: 0 1em;
+}
+
 .resume-icon {
   height: 64px;
   display: block;
-}
-
-.resume-link-container {
-  width: 6em;
 }
 
 
@@ -63,7 +64,7 @@
 }
 
 #Buzzwords .column {
-  margin: 0 1em;
+  margin: 0 2em;
 }
 
 #Buzzwords .column .text {

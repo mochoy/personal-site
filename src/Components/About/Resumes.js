@@ -7,6 +7,18 @@ const resumesData = [
   {
     resume: hweResumePdf,
     name: "Hardware Engineering"
+  },
+  {
+    resume: hweResumePdf,
+    name: "Software Engineering - Web Development"
+  },
+  {
+    resume: hweResumePdf,
+    name: "Software Engineering - Embedded Systems"
+  },
+  {
+    resume: hweResumePdf,
+    name: "'Everything'"
   }
 ]
 
@@ -21,7 +33,7 @@ const Resumes = props => {
             const { resume, name } = resumeData;
 
             return (
-              <a className="mouse-on-hover resume-link-container" 
+              <a className="mouse-on-hover resume-link" 
                 href = {resume} 
                 target = "_blank"
                 rel="noopener noreferrer"
