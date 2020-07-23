@@ -6,7 +6,7 @@ import hweResumePdf from '../../assets/documents/Resume Monty Choy - Hardware En
 const resumesData = [
   {
     resume: hweResumePdf,
-    name: "Hardware Engineering"
+    name: "Hardware/ Electrical Engineering"
   },
   {
     resume: hweResumePdf,
