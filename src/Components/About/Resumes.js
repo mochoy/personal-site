@@ -10,6 +10,10 @@ const resumesData = [
   },
   {
     resume: hweResumePdf,
+    name: "Software Engineering"
+  },
+  {
+    resume: hweResumePdf,
     name: "Software Engineering - Web Development"
   },
   {
