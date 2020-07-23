@@ -1,7 +1,8 @@
 const experience = [
   {
     company: "Microsoft",
-    title: "Software Engineering Intern - Surface Duo Firmware",
+    title: "Software Engineering Intern",
+    team: "Surface Duo Firmware",
     location: "Remote",
     date: "Jun 2020 - Present",
     content: [
@@ -12,7 +13,8 @@ const experience = [
   },
   {
     company: "Apple",
-    title: "Hardware Engineering Intern - Apple TV Hardware Engineering",
+    title: "Hardware Engineering Intern",
+    team: "Apple TV Hardware Engineering",
     location: "Cupertino, CA",
     date: "Jan 2019 - Sept 2019 (9 months)",
     content: [
