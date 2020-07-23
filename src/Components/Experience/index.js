@@ -9,7 +9,7 @@ const Experience = props => {
   console.log(experienceData);
 
   return (
-    <section id="Experience" className="section-dark">
+    <section id="Experience" className="section-grey">
       <div className="section-content">
         <h1 className="section-title">Experience</h1>
       </div>
