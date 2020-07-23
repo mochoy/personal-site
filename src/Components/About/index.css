@@ -57,6 +57,12 @@
   margin: 0 2em;
 }
 
+@media only screen and (max-width: 460px) {
+  #Buzzwords .column {
+    margin: 0;
+  }
+}
+
 #Buzzwords .column .text {
   width: 13em;
   margin: 0.5em 0;
