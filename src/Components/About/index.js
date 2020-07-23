@@ -44,6 +44,13 @@ const About = props => {
 
         </div>
 
+        {/* Resumes */}
+        <div>
+          <h2 className="text-center">
+            Resumes
+          </h2>
+        </div>
+
         {/* Buzzwords */}
         <Buzzwords
           hweBuzzwords={buzzwords.hwe}
