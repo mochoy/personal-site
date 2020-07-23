@@ -7,6 +7,7 @@ import Projects from '../Projects';
 
 import logos from '../../assets/data/logos.js';
 import buzzwords from '../../assets/data/buzzwords.js';
+import experience from '../../assets/data/experience'; 
 
 import logo from '../../assets/images/logo.svg';
 
@@ -21,7 +22,9 @@ function App() {
         logosData={logos}
         buzzwords={buzzwords}
       />
-      <Experience/>
+      <Experience
+        experienceData={experience}
+      />
       <Projects/>
 
       <header className="App-header">
