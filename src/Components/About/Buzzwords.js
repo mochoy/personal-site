@@ -30,7 +30,7 @@ const Buzzwords = props => {
   return (
     <div id="Buzzwords">
       <h2 className="text-center">
-        Buzzwords and Meaningless Quantifications
+        Skills and Meaningless Quantifications
       </h2>
 
       <div className="flex-container-horizontally-center">
