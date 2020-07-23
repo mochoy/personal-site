@@ -2,24 +2,43 @@ import React from 'react';
 
 import hweResumePdf from '../../assets/documents/Resume Monty Choy - Hardware Engineering.pdf';
 
+
+const resumesData = [
+  {
+    resume: hweResumePdf,
+    name: "Hardware Engineering"
+  }
+]
+
 const Resumes = props => {
 
   return (
     <div id="Resumes">
       <h2 className="text-center">Resumes</h2>
       <div className="flex-container-horizontally-center">
+        {
+          resumesData.map((resumeData, key) => {
+            const { resume, name } = resumeData;
 
-        <a className="mouse-on-hover resume-link-container" 
-          href = {hweResumePdf} 
-          target = "_blank"
-        >
-          <img 
-            className="resume-icon grow-on-hover horizontally-center" 
-            src={require(`assets/images/icons/pdf.svg`)} 
-            alt={"resume-icon"}
-          />
-          <p className="text-center">Hardware Engineering</p>
-        </a>
+            return (
+              <a className="mouse-on-hover resume-link-container" 
+                href = {resume} 
+                target = "_blank"
+                rel="noopener noreferrer"
+                key={key}
+              >
+                <img 
+                  className="resume-icon grow-on-hover horizontally-center" 
+                  src={require(`assets/images/icons/pdf.svg`)} 
+                  alt={"resume-icon"}
+                />
+                <p className="text-center">{name}</p>
+              </a>
+            )
+          })
+        }
+
+        
         
       </div>
 
