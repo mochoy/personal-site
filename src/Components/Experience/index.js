@@ -6,8 +6,6 @@ import './index.css';
 const Experience = props => {
   const { experienceData } = props;
 
-  console.log(experienceData);
-
   return (
     <section id="Experience" className="section-grey">
       <div className="section-content">
