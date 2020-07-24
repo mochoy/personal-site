@@ -1,5 +1,29 @@
 export const projects = [
   {
+    "img": "teleMentary_box.jpg",
+    "title": "TeleMentary Box",
+    "date": "February 2020",
+    "description": "After watching Mark Rober's Glitter Bomb video, we realized something in common with most package theft. Thieves aren't your stereotypical hunched over hoodlum in a ski mask but they are your everyday person who can stealthily grab your package as it is too convenient to do so. We wanted to remove this convenience from thieves by creating a security box that tracks data for user-evidence as well as have some level of sensitivity on its own to inconvenience the theif.",
+    "links": [
+      {
+        "name": "Check It Out",
+        "link": "https://devpost.com/software/telementary-box"
+      },
+      {
+        name: "Code",
+        link: "https://github.com/warthogs32/locker"
+      }
+    ],
+    filterCategories: [
+      [
+      ],
+      [
+      ],
+      [
+      ]
+    ]
+  },
+  {
     "img": "atmega328p_eval_board.jpg",
     "title": "ATMega328P Eval Board",
     "date": "December 2019 - Present",
