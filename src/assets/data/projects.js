@@ -466,7 +466,7 @@ const projects = [
     ]
   },
   {
-    "img": "suildwebsite.png",
+    "img": "suild_website.png",
     "title": "Suild.com",
     "date": "February 2018 - Present",
     "isFeatured": true,
