@@ -4,6 +4,9 @@ import './index.css';
 
 
 const Projects = props => {
+  const { projectsData } = props;
+
+  console.log(projectsData)
 
   return (
     <section id="Projects" className="section">

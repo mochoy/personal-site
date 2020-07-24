@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
     "title": "TeleMentary Box",
     by: "Mark, Monty, Jason, & Ben",
@@ -825,3 +825,5 @@ export const projects = [
     ]
   }
 ];
+
+export default projects;
