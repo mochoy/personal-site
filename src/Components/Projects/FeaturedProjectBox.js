@@ -65,7 +65,9 @@ const FeaturedProjectBox = props => {
               .filter(({ text }) => !!text && text.length > 0)
               .map(({ Icon, text }, key) => {
                 return (
-                  <div className="flex-container-vertically-center flex-container-right">
+                  <div key={key}
+                    className="flex-container-vertically-center flex-container-right"
+                  >
                     <Icon className="icon"/>
                     <p className="display-inline icon-txt">{text}</p> 
                   </div>
