@@ -63,20 +63,22 @@ const Projects = props => {
                       <h2>{title}</h2>
 
                       {/* Icons + text */}
-                      { icons.map(({ Icon, text }, key) => {
-                          if (!!text && text.length > 0) {
-                            return (
-                              <div key={key}
-                                className="flex-container-vertically-center float-right"
-                              >
-                                <Icon className="icon"/>
-                                <p className="display-inline icon-txt">{text}</p> 
-                              </div>
-                            )
-                          } 
+                      { icons
+                        .filter(({ Icon, text }) => !!text && text.length > 0)
+                        .map(({ Icon, text }, key) => {
+                              return (
+                                <div key={key}
+                                  className="flex-container-vertically-center float-right"
+                                >
+                                  <Icon className="icon"/>
+                                  <p className="display-inline icon-txt">{text}</p> 
+                                </div>
+                              )
 
-                        })
+                          })
                       }
+
+                      <p>{description}</p>
                       
                     </div>
                   </div>
