@@ -54,7 +54,7 @@ const FeaturedProjectBox = props => {
         <div className="flex-container-horizontally-center">
           <div className="bg-img"
             style={{
-              backgroundImage: 'url(' + require("../../assets/images/projects/" + img) + ')'
+              backgroundImage: 'url(' + require(`../../assets/images/projects/${img}`)
             }}
           />
           <div className="content">
