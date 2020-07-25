@@ -21,11 +21,13 @@ const Projects = props => {
           .map((project, key) => {
             const { title, by, event, img, date, description} = project;
 
+            const direction = key % 2 === 0 ? "left" : "right";
+
             console.log(img)
 
             return (
               <div key={key}
-                className="featured-project-container horizontally-center flex-container-horizontally-center" 
+                className={`featured-project-container ${direction} horizontally-center flex-container-horizontally-center`} 
               >
                 <img alt={title + "-img"}
                   src={require("../../assets/images/projects/" + img)} 
