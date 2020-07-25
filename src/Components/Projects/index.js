@@ -2,8 +2,8 @@ import React from 'react';
 
 import { MdPeopleOutline } from "react-icons/md";
 import { IoMdTime } from 'react-icons/io';
-import { GoLocation } from "react-icons/go";
-import { FiAward } from "react-icons/fi";
+import { GoLocation, GoMarkGithub } from "react-icons/go";
+import { FiAward, FiExternalLink } from "react-icons/fi";
 
 import './index.css';
 
@@ -24,7 +24,14 @@ const Projects = props => {
         projectsData
           .filter(project => project.isFeatured)
           .map((project, key) => {
-            const { img, title, by, date, event, prize, description} = project;
+            const { img, 
+              title, 
+              by, 
+              date, 
+              event, 
+              prize, 
+              description,
+              links } = project;
 
             // Refers to image direction on left or right of text
             const direction = key % 2 === 0 ? "left" : "right";
@@ -47,7 +54,9 @@ const Projects = props => {
                 Icon: FiAward,
                 text: prize
               }
-            ]
+            ];
+
+            const { open, files } = links;
 
             return (
               <div key={key}
@@ -80,7 +89,31 @@ const Projects = props => {
                       }
 
                       <p>{description}</p>
-                      
+
+                      {/* Links */}
+                      <div className="flex-container-right">
+                        {/* gh/files */}
+                        { !!files &&
+                          <a className="mouse-on-hover project-link-icon" 
+                            href={files} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                          >
+                            <GoMarkGithub size="1.5em"/>
+                          </a>
+                        }
+
+                        {/* Open */}
+                        { !!open &&
+                          <a className="mouse-on-hover project-link-icon" 
+                            href={open} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                          >
+                            <FiExternalLink size="1.5em"/>
+                          </a>
+                        }
+                      </div>
                     </div>
                   </div>
                 }

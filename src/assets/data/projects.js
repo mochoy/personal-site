@@ -8,24 +8,11 @@ const projects = [
     "img": "telementary_box.jpg",
     "description": "Personal security locker to prevent package theft with live-streaming facial detection and gps.",
     isFeatured: true,
-    "links": [
-      {
-        "name": "Check It Out",
-        "link": "https://devpost.com/software/telementary-box"
-      },
-      {
-        name: "Code",
-        link: "https://github.com/warthogs32/locker"
-      }
-    ],
-    filterCategories: [
-      [
-      ],
-      [
-      ],
-      [
-      ]
-    ]
+    links: {
+      open: "https://devpost.com/software/telementary-box",
+      files: "https://github.com/warthogs32/locker"
+    },
+    categories: ""
   },
   {
     "img": "atmega328p_eval_board.jpg",
