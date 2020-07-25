@@ -1,32 +1,3 @@
-.FeaturedProject {
-  margin-top: 1em;
-  margin-bottom: 2em;
-}
-
-.FeaturedProject.right {
-  text-align: right;
-}
-
-
-.FeaturedProject .bg-img {
-  width: 20em;
-  height: 20em;
-}
-
-.FeaturedProject .content {
-  width: 30em;
-  background-color: #F3EFE0;
-}
-
-.FeaturedProject .content {
-  padding: 0.5em 2em;
-}
-
-.FeaturedProject h2 {
-  margin: 0;
-}
-
-
 .content .icon {
   margin: 0 0.5em;
 }
