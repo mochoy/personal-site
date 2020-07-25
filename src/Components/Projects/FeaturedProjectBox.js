@@ -23,6 +23,7 @@ const FeaturedProjectBox = props => {
   // Refers to text on left or right of text
   const direction = index % 2 === 1 ? "left" : "right";
 
+        <BgImg imgSrc={img}/>
   return (
     <div key={index}
       className={`FeaturedProject ${direction} horizontally-center`} 
@@ -65,6 +66,18 @@ const FeaturedProjectBox = props => {
     </div>
   )
 };
+
+const BgImg = props => {
+  const { imgSrc } = props;
+
+  return (
+    <div className="bg-img"
+      style={{
+        backgroundImage: 'url(' + require(`../../assets/images/projects/${imgSrc}`)
+      }}
+    />
+  )
+}
 
 const Content = props => {
   const { direction, 
