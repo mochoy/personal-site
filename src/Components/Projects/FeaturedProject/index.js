@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Icons from './Icons';
-import Links from './Links';
+import Icons from '../Icons';
+import Links from '../Links';
 
 
-const FeaturedProjectBox = props => {
+const FeaturedProject = props => {
   const { project, index } = props;
 
   const {
@@ -73,7 +73,7 @@ const BgImg = props => {
   return (
     <div className="bg-img"
       style={{
-        backgroundImage: 'url(' + require(`../../assets/images/projects/${imgSrc}`)
+        backgroundImage: 'url(' + require(`../../../assets/images/projects/${imgSrc}`)
       }}
     />
   )
@@ -108,4 +108,4 @@ const Content = props => {
   )
 }
 
-export default FeaturedProjectBox;
+export default FeaturedProject;
