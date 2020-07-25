@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { IoMdPeople } from 'react-icons/io';
+
 import './index.css';
 
 
@@ -21,6 +23,7 @@ const Projects = props => {
           .map((project, key) => {
             const { title, by, event, img, date, description} = project;
 
+            // Refers to image direction on left or right of text
             const direction = key % 2 === 0 ? "left" : "right";
 
             console.log(img)
@@ -37,6 +40,14 @@ const Projects = props => {
                     />
                     <div className="content">
                       <h2>{title}</h2>
+                      
+                      {/* By/ppl */}
+                      { !!by && by.length > 0 && 
+                        <div className="flex-container-vertically-center">
+                          <IoMdPeople/>
+                          <p className="display-inline">{by}</p> 
+                        </div>
+                      }
                     </div>
                   </div>
                 }
