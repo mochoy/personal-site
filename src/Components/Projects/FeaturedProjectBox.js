@@ -23,7 +23,35 @@ const FeaturedProjectBox = props => {
   // Refers to text on left or right of text
   const direction = index % 2 === 1 ? "left" : "right";
 
+  if (direction === "right") {
+    return (
+      <div className={`FeaturedProject ${direction} horizontally-center`}>
+      <div className="flex-container-horizontally-center">
         <BgImg imgSrc={img}/>
+
+        <Content
+          direction={direction}
+          title={title}
+          by={by}
+          date={date} 
+          event={event}
+          prize={prize}
+          description={description} 
+          open={open}
+          files={files}
+        />
+      </div>
+    </div>
+    )
+  } else {
+    return (
+      <div className={`FeaturedProject ${direction} horizontally-center`}>
+
+        fdfdsf
+      </div>
+    )
+  }
+
   return (
     <div key={index}
       className={`FeaturedProject ${direction} horizontally-center`} 
@@ -36,7 +64,7 @@ const FeaturedProjectBox = props => {
               backgroundImage: 'url(' + require(`../../assets/images/projects/${img}`)
             }}
           />
-          
+
           <Content
             direction={direction}
             title={title}
