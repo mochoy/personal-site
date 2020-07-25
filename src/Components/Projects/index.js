@@ -34,6 +34,18 @@ const Projects = props => {
               {
                 Icon: MdPeopleOutline,
                 text: by
+              },
+              {
+                Icon: IoMdTime,
+                text: date
+              },
+              {
+                Icon: GoLocation,
+                text: event
+              },
+              {
+                Icon: FiAward,
+                text: prize
               }
             ]
 
@@ -51,8 +63,7 @@ const Projects = props => {
                       <h2>{title}</h2>
 
                       {/* Icons + text */}
-                      {
-                        icons.map(({ Icon, text }, key) => {
+                      { icons.map(({ Icon, text }, key) => {
                           if (!!text && text.length > 0) {
                             return (
                               <div key={key}
@@ -62,41 +73,11 @@ const Projects = props => {
                                 <p className="display-inline icon-txt">{text}</p> 
                               </div>
                             )
-                          }
+                          } 
+
                         })
                       }
                       
-                      {/* By/ppl */}
-                      { !!by && by.length > 0 && 
-                        <div className="flex-container-vertically-center float-right">
-                          <MdPeopleOutline className="icon"/>
-                          <p className="display-inline icon-txt">{by}</p> 
-                        </div>
-                      }
-
-                      {/* Time/date */}
-                      { !!date && date.length > 0 && 
-                        <div className="flex-container-vertically-center float-right">
-                          <IoMdTime className="icon"/>
-                          <p className="display-inline icon-txt">{date}</p> 
-                        </div>
-                      }
-
-                      {/* Event */}
-                      { !!event && event.length > 0 && 
-                        <div className="flex-container-vertically-center float-right">
-                          <GoLocation className="icon"/>
-                          <p className="display-inline icon-txt">{event}</p> 
-                        </div>
-                      }
-
-                      {/* Award/Prize */}
-                      { !!prize && prize.length > 0 && 
-                        <div className="flex-container-vertically-center float-right">
-                          <FiAward className="icon"/>
-                          <p className="display-inline icon-txt">{prize}</p> 
-                        </div>
-                      }
                     </div>
                   </div>
                 }
