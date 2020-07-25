@@ -2,7 +2,8 @@
 .flex-container-vertically-center, 
 .flex-container-horizontally-center,
 .flex-container-vertical,
-.flex-container-left {
+.flex-container-left,
+.flex-container-right {
   display: flex;
   flex-wrap: wrap;
 }
@@ -21,4 +22,8 @@
 
 .flex-container-left {
   justify-content: flex-start;
+}
+
+.flex-container-right {
+  justify-content: flex-end;
 }
