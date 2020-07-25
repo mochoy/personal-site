@@ -29,6 +29,14 @@ const Projects = props => {
             // Refers to image direction on left or right of text
             const direction = key % 2 === 0 ? "left" : "right";
 
+            // Icons and corresponding text
+            const icons = [
+              {
+                Icon: MdPeopleOutline,
+                text: by
+              }
+            ]
+
             return (
               <div key={key}
                 className={`featured-project-container ${direction} horizontally-center`} 
@@ -41,6 +49,22 @@ const Projects = props => {
                     />
                     <div className="content">
                       <h2>{title}</h2>
+
+                      {/* Icons + text */}
+                      {
+                        icons.map(({ Icon, text }, key) => {
+                          if (!!text && text.length > 0) {
+                            return (
+                              <div key={key}
+                                className="flex-container-vertically-center float-right"
+                              >
+                                <Icon className="icon"/>
+                                <p className="display-inline icon-txt">{text}</p> 
+                              </div>
+                            )
+                          }
+                        })
+                      }
                       
                       {/* By/ppl */}
                       { !!by && by.length > 0 && 
