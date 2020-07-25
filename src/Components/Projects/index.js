@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { IoMdPeople, IoMdTime } from 'react-icons/io';
+import { MdPeopleOutline } from "react-icons/md";
+import { IoMdTime } from 'react-icons/io';
 
 import './index.css';
 
@@ -42,7 +43,7 @@ const Projects = props => {
                       {/* By/ppl */}
                       { !!by && by.length > 0 && 
                         <div className="flex-container-vertically-center float-right">
-                          <IoMdPeople className="icon"/>
+                          <MdPeopleOutline className="icon"/>
                           <p className="display-inline icon-txt">{by}</p> 
                         </div>
                       }
