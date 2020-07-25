@@ -19,51 +19,15 @@ const FeaturedProjectBox = props => {
 
   const { open, files } = links;
 
-
   // Refers to text on left or right of text
   const direction = index % 2 === 1 ? "left" : "right";
+
 
   if (direction === "right") {
     return (
       <div className={`FeaturedProject ${direction} horizontally-center`}>
-      <div className="flex-container-horizontally-center">
-        <BgImg imgSrc={img}/>
-
-        <Content
-          direction={direction}
-          title={title}
-          by={by}
-          date={date} 
-          event={event}
-          prize={prize}
-          description={description} 
-          open={open}
-          files={files}
-        />
-      </div>
-    </div>
-    )
-  } else {
-    return (
-      <div className={`FeaturedProject ${direction} horizontally-center`}>
-
-        fdfdsf
-      </div>
-    )
-  }
-
-  return (
-    <div key={index}
-      className={`FeaturedProject ${direction} horizontally-center`} 
-    >
-      {/* Left box */}
-      { direction === "right" &&
         <div className="flex-container-horizontally-center">
-          <div className="bg-img"
-            style={{
-              backgroundImage: 'url(' + require(`../../assets/images/projects/${img}`)
-            }}
-          />
+          <BgImg imgSrc={img}/>
 
           <Content
             direction={direction}
@@ -77,22 +41,30 @@ const FeaturedProjectBox = props => {
             files={files}
           />
         </div>
-      }
-      {
-        direction === "right" &&
+      </div>
+    )
+  } else {
+    return (
+      <div className={`FeaturedProject ${direction} horizontally-center`}>
         <div className="flex-container-horizontally-center">
-          <div className="content">
-            <h2>{title}</h2>
-          </div>
-          <img alt={title + "-img"}
-            src={require("../../assets/images/projects/" + img)} 
+          <Content
+            direction={direction}
+            title={title}
+            by={by}
+            date={date} 
+            event={event}
+            prize={prize}
+            description={description} 
+            open={open}
+            files={files}
           />
+          
+          <BgImg imgSrc={img}/>
         </div>
-      }
-      
-      
-    </div>
-  )
+      </div>
+    )
+  }
+
 };
 
 const BgImg = props => {

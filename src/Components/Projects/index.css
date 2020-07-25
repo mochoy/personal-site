@@ -18,10 +18,8 @@
   background-color: #F3EFE0;
 }
 
-.FeaturedProject.right .content {
-  padding-left: 2em;
-  padding-right: 1em;
-  padding-top: 0.5em;
+.FeaturedProject .content {
+  padding: 0.5em 2em;
 }
 
 .FeaturedProject h2 {
