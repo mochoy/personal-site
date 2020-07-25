@@ -56,8 +56,10 @@ const Projects = props => {
                 {/* Left box */}
                 { direction === "left" &&
                   <div className="flex-container-horizontally-center">
-                    <img alt={title + "-img"}
-                      src={require("../../assets/images/projects/" + img)} 
+                    <div className="bg-img"
+                      style={{
+                        backgroundImage: 'url(' + require("../../assets/images/projects/" + img) + ')'
+                      }}
                     />
                     <div className="content">
                       <h2>{title}</h2>

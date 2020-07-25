@@ -1,5 +1,4 @@
 .featured-project-container {
-  width: 50em;
   margin-top: 1em;
   margin-bottom: 2em;
 }
@@ -9,16 +8,20 @@
 }
 
 
-.featured-project-container img {
-  width: 40%;
+.featured-project-container .bg-img {
+  width: 20em;
+  height: 20em;
 }
 
 .featured-project-container .content {
-  width: 50%;
+  width: 30em;
+  background-color: #F3EFE0;
 }
 
 .featured-project-container.left .content {
-  padding-left: 3em;
+  padding-left: 2em;
+  padding-right: 1em;
+  padding-top: 0.5em;
 }
 
 .featured-project-container h2 {
