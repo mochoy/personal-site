@@ -2,6 +2,8 @@ import React from 'react';
 
 import { MdPeopleOutline } from "react-icons/md";
 import { IoMdTime } from 'react-icons/io';
+import { GoLocation } from "react-icons/go";
+import { FiAward } from "react-icons/fi";
 
 import './index.css';
 
@@ -22,7 +24,7 @@ const Projects = props => {
         projectsData
           .filter(project => project.isFeatured)
           .map((project, key) => {
-            const { title, by, event, img, date, description} = project;
+            const { img, title, by, date, event, prize, description} = project;
 
             // Refers to image direction on left or right of text
             const direction = key % 2 === 0 ? "left" : "right";
@@ -49,10 +51,26 @@ const Projects = props => {
                       }
 
                       {/* Time/date */}
-                      { !!by && by.length > 0 && 
+                      { !!date && date.length > 0 && 
                         <div className="flex-container-vertically-center float-right">
                           <IoMdTime className="icon"/>
                           <p className="display-inline icon-txt">{date}</p> 
+                        </div>
+                      }
+
+                      {/* Event */}
+                      { !!event && event.length > 0 && 
+                        <div className="flex-container-vertically-center float-right">
+                          <GoLocation className="icon"/>
+                          <p className="display-inline icon-txt">{event}</p> 
+                        </div>
+                      }
+
+                      {/* Award/Prize */}
+                      { !!prize && prize.length > 0 && 
+                        <div className="flex-container-vertically-center float-right">
+                          <FiAward className="icon"/>
+                          <p className="display-inline icon-txt">{prize}</p> 
                         </div>
                       }
                     </div>
