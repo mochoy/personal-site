@@ -14,12 +14,17 @@
 }
 
 .featured-project-container .content {
-  width: 60%;
+  width: 50%;
+}
+
+.featured-project-container.left .content {
+  padding-left: 3em;
 }
 
 .featured-project-container h2 {
   margin: 0;
 }
+
 
 .content .icon {
   margin: 0 0.5em;
@@ -27,4 +32,5 @@
 
 .content .icon-txt {
   margin: 0;
+  font-size: 0.8em;
 }

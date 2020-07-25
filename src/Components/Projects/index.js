@@ -64,18 +64,17 @@ const Projects = props => {
 
                       {/* Icons + text */}
                       { icons
-                        .filter(({ Icon, text }) => !!text && text.length > 0)
+                        .filter(({ text }) => !!text && text.length > 0)
                         .map(({ Icon, text }, key) => {
-                              return (
-                                <div key={key}
-                                  className="flex-container-vertically-center float-right"
-                                >
-                                  <Icon className="icon"/>
-                                  <p className="display-inline icon-txt">{text}</p> 
-                                </div>
-                              )
-
-                          })
+                          return (
+                            <div key={key}
+                              className="flex-container-vertically-center flex-container-right"
+                            >
+                              <Icon className="icon"/>
+                              <p className="display-inline icon-txt">{text}</p> 
+                            </div>
+                          )   // Return
+                        })  // Map
                       }
 
                       <p>{description}</p>
