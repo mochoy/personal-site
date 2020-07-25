@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { IoMdPeople } from 'react-icons/io';
+import { IoMdPeople, IoMdTime } from 'react-icons/io';
 
 import './index.css';
 
@@ -26,14 +26,12 @@ const Projects = props => {
             // Refers to image direction on left or right of text
             const direction = key % 2 === 0 ? "left" : "right";
 
-            console.log(img)
-
             return (
               <div key={key}
                 className={`featured-project-container ${direction} horizontally-center`} 
               >
-                {
-                  direction === "left" &&
+                {/* Left box */}
+                { direction === "left" &&
                   <div className="flex-container-horizontally-center">
                     <img alt={title + "-img"}
                       src={require("../../assets/images/projects/" + img)} 
@@ -44,8 +42,16 @@ const Projects = props => {
                       {/* By/ppl */}
                       { !!by && by.length > 0 && 
                         <div className="flex-container-vertically-center float-right">
-                          <IoMdPeople className="ppl-icon"/>
-                          <p className="display-inline by-txt">{by}</p> 
+                          <IoMdPeople className="icon"/>
+                          <p className="display-inline icon-txt">{by}</p> 
+                        </div>
+                      }
+
+                      {/* Time/date */}
+                      { !!by && by.length > 0 && 
+                        <div className="flex-container-vertically-center float-right">
+                          <IoMdTime className="icon"/>
+                          <p className="display-inline icon-txt">{date}</p> 
                         </div>
                       }
                     </div>
