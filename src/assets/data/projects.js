@@ -2,9 +2,10 @@ const projects = [
   {
     "title": "TeleMentary Box",
     by: "Mark, Monty, Jason, & Ben",
-    event: "Slo Hacks 2020 - 1st Place Google Cloud Platform",
+    date: "February 2020",
+    event: "Slo Hacks 2020",
+    prize: "1st Place Google Cloud Platform",
     "img": "telementary_box.jpg",
-    "date": "February 2020",
     "description": "After watching Mark Rober's Glitter Bomb video, we realized something in common with most package theft. Thieves aren't your stereotypical hunched over hoodlum in a ski mask but they are your everyday person who can stealthily grab your package as it is too convenient to do so. We wanted to remove this convenience from thieves by creating a security box that tracks data for user-evidence as well as have some level of sensitivity on its own to inconvenience the theif.",
     isFeatured: true,
     "links": [
