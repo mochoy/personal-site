@@ -1,30 +1,30 @@
-.featured-project-container {
+.FeaturedProject {
   margin-top: 1em;
   margin-bottom: 2em;
 }
 
-.featured-project-container.left {
+.FeaturedProject.left {
   text-align: right;
 }
 
 
-.featured-project-container .bg-img {
+.FeaturedProject .bg-img {
   width: 20em;
   height: 20em;
 }
 
-.featured-project-container .content {
+.FeaturedProject .content {
   width: 30em;
   background-color: #F3EFE0;
 }
 
-.featured-project-container.left .content {
+.FeaturedProject.left .content {
   padding-left: 2em;
   padding-right: 1em;
   padding-top: 0.5em;
 }
 
-.featured-project-container h2 {
+.FeaturedProject h2 {
   margin: 0;
 }
 
