@@ -27,12 +27,32 @@ const Projects = props => {
 
             return (
               <div key={key}
-                className={`featured-project-container ${direction} horizontally-center flex-container-horizontally-center`} 
+                className={`featured-project-container ${direction} horizontally-center`} 
               >
-                <img alt={title + "-img"}
-                  src={require("../../assets/images/projects/" + img)} 
-                />
-                {title}
+                {
+                  direction === "left" &&
+                  <div className="flex-container-horizontally-center">
+                    <img alt={title + "-img"}
+                      src={require("../../assets/images/projects/" + img)} 
+                    />
+                    <div className="content">
+                      <h2>{title}</h2>
+                    </div>
+                  </div>
+                }
+                {
+                  direction === "right" &&
+                  <div className="flex-container-horizontally-center">
+                    <div className="content">
+                      <h2>{title}</h2>
+                    </div>
+                    <img alt={title + "-img"}
+                      src={require("../../assets/images/projects/" + img)} 
+                    />
+                  </div>
+                }
+                
+                
               </div>
             );
           })
