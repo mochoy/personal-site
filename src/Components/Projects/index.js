@@ -43,9 +43,9 @@ const Projects = props => {
                       
                       {/* By/ppl */}
                       { !!by && by.length > 0 && 
-                        <div className="flex-container-vertically-center">
-                          <IoMdPeople/>
-                          <p className="display-inline">{by}</p> 
+                        <div className="flex-container-vertically-center float-right">
+                          <IoMdPeople className="ppl-icon"/>
+                          <p className="display-inline by-txt">{by}</p> 
                         </div>
                       }
                     </div>

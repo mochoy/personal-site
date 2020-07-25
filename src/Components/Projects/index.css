@@ -1,0 +1,30 @@
+.featured-project-container {
+  width: 50em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.featured-project-container.left {
+  text-align: right;
+}
+
+
+.featured-project-container img {
+  width: 40%;
+}
+
+.featured-project-container .content {
+  width: 60%;
+}
+
+.featured-project-container h2 {
+  margin: 0;
+}
+
+.ppl-icon {
+  margin: 0 0.5em;
+}
+
+.by-txt {
+  margin: 0;
+}
