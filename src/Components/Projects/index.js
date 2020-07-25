@@ -12,20 +12,23 @@ const Projects = props => {
     <section id="Projects" className="section">
       <div className="section-content">
         <h1 className="section-title">Projects</h1>
+
+        {/* Featured projects */}
+        { projectsData
+            .filter(project => project.isFeatured)
+            .map((project, index) => 
+              <FeaturedProjectBox
+                project={project}
+                index={index}
+
+                key={index}
+              />
+            )
+        }
+
+        
       </div>
 
-      {/* Featured projects */}
-      { projectsData
-          .filter(project => project.isFeatured)
-          .map((project, index) => 
-            <FeaturedProjectBox
-              project={project}
-              index={index}
-
-              key={index}
-            />
-          )
-      }
     </section>
   )
 };
