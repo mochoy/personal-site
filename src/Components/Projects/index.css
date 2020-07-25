@@ -3,7 +3,7 @@
   margin-bottom: 2em;
 }
 
-.FeaturedProject.left {
+.FeaturedProject.right {
   text-align: right;
 }
 
@@ -18,7 +18,7 @@
   background-color: #F3EFE0;
 }
 
-.FeaturedProject.left .content {
+.FeaturedProject.right .content {
   padding-left: 2em;
   padding-right: 1em;
   padding-top: 0.5em;

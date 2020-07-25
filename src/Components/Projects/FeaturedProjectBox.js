@@ -2,9 +2,10 @@ import React from 'react';
 
 import { MdPeopleOutline } from "react-icons/md";
 import { IoMdTime } from 'react-icons/io';
-import { GoLocation, GoMarkGithub } from "react-icons/go";
-import { FiAward, FiExternalLink } from "react-icons/fi";
+import { GoLocation } from "react-icons/go";
+import { FiAward } from "react-icons/fi";
 
+import Links from './Links';
 
 const FeaturedProjectBox = props => {
   const { project, index } = props;
@@ -22,8 +23,8 @@ const FeaturedProjectBox = props => {
   const { open, files } = links;
 
 
-  // Refers to image direction on left or right of text
-  const direction = index % 2 === 0 ? "left" : "right";
+  // Refers to text on left or right of text
+  const direction = index % 2 === 1 ? "left" : "right";
 
   // Icons and corresponding text
   const icons = [
@@ -50,7 +51,7 @@ const FeaturedProjectBox = props => {
       className={`FeaturedProject ${direction} horizontally-center`} 
     >
       {/* Left box */}
-      { direction === "left" &&
+      { direction === "right" &&
         <div className="flex-container-horizontally-center">
           <div className="bg-img"
             style={{
@@ -77,30 +78,7 @@ const FeaturedProjectBox = props => {
 
             <p>{description}</p>
 
-            {/* Links */}
-            <div className="flex-container-right">
-              {/* gh/files */}
-              { !!files &&
-                <a className="mouse-on-hover project-link-icon" 
-                  href={files} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  <GoMarkGithub size="1.5em"/>
-                </a>
-              }
-
-              {/* Open */}
-              { !!open &&
-                <a className="mouse-on-hover project-link-icon" 
-                  href={open} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  <FiExternalLink size="1.5em"/>
-                </a>
-              }
-            </div>
+            <Links open={open} files={files} direction={direction}/>
           </div>
         </div>
       }
