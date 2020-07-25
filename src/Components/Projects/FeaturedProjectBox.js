@@ -1,10 +1,6 @@
 import React from 'react';
 
-import { MdPeopleOutline } from "react-icons/md";
-import { IoMdTime } from 'react-icons/io';
-import { GoLocation } from "react-icons/go";
-import { FiAward } from "react-icons/fi";
-
+import Icons from './Icons';
 import Links from './Links';
 
 const FeaturedProjectBox = props => {
@@ -26,25 +22,7 @@ const FeaturedProjectBox = props => {
   // Refers to text on left or right of text
   const direction = index % 2 === 1 ? "left" : "right";
 
-  // Icons and corresponding text
-  const icons = [
-    {
-      Icon: MdPeopleOutline,
-      text: by
-    },
-    {
-      Icon: IoMdTime,
-      text: date
-    },
-    {
-      Icon: GoLocation,
-      text: event
-    },
-    {
-      Icon: FiAward,
-      text: prize
-    }
-  ];
+  
 
   return (
     <div key={index}
@@ -61,20 +39,12 @@ const FeaturedProjectBox = props => {
           <div className="content">
             <h2>{title}</h2>
 
-            {/* Icons + text */}
-            { icons
-              .filter(({ text }) => !!text && text.length > 0)
-              .map(({ Icon, text }, key) => {
-                return (
-                  <div key={key}
-                    className="flex-container-vertically-center flex-container-right"
-                  >
-                    <Icon className="icon"/>
-                    <p className="display-inline icon-txt">{text}</p> 
-                  </div>
-                )   // Return
-              })  // Map
-            }
+            <Icons direction={direction} 
+              by={by} 
+              date={date} 
+              event={event} 
+              prize={prize}
+            />
 
             <p>{description}</p>
 
