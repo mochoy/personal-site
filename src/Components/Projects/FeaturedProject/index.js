@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+import BgImg from '../BgImg';
 import Icons from '../Icons';
 import Links from '../Links';
 
@@ -72,17 +74,6 @@ const FeaturedProject = props => {
 
 };
 
-const BgImg = props => {
-  const { imgSrc } = props;
-
-  return (
-    <div className="bg-img"
-      style={{
-        backgroundImage: 'url(' + require(`../../../assets/images/projects/${imgSrc}`)
-      }}
-    />
-  )
-}
 
 const Content = props => {
   const { direction, 
