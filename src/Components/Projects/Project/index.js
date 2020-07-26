@@ -10,33 +10,15 @@ import './index.css';
 const Project = props => {
   const { project } = props;
 
-  const {
-    img, 
-    title, 
-    by, 
-    date, 
-    event, 
-    prize, 
-    description,
-    builtWith,
-    links } = project;
+  const { img } = project;
 
-  const { open, files } = links;
 
   return (
     <div className="Project">
       <BgImg imgSrc={img}/>
 
       <Content
-        title={title}
-        by={by}
-        date={date} 
-        event={event}
-        prize={prize}
-        description={description} 
-        builtWith={builtWith}
-        open={open}
-        files={files}
+        projectData={project}
       />
 
     </div>

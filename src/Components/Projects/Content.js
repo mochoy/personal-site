@@ -5,8 +5,9 @@ import Links from './Links';
 
 
 const Content = props => {
-  const { direction, 
-    title, 
+  const { direction, projectData } = props;
+
+  const { title, 
     by, 
     date, 
     event, 
@@ -14,7 +15,8 @@ const Content = props => {
     description, 
     builtWith,
     open, 
-    files} = props;
+    files,
+    categories} = projectData;
 
   return (
     <div className="Content">

@@ -10,19 +10,9 @@ import './index.css';
 const FeaturedProject = props => {
   const { project, index } = props;
 
-  const {
-    img, 
-    title, 
-    by, 
-    date, 
-    event, 
-    prize, 
-    description,
-    builtWith,
-    links } = project;
+  const { img } = project;
 
-  const { open, files } = links;
-
+  
   // Refers to text on left or right of text
   const direction = index % 2 === 1 ? "left" : "right";
 
@@ -35,15 +25,7 @@ const FeaturedProject = props => {
 
           <Content
             direction={direction}
-            title={title}
-            by={by}
-            date={date} 
-            event={event}
-            prize={prize}
-            description={description} 
-            builtWith={builtWith}
-            open={open}
-            files={files}
+            projectData={project}
           />
         </div>
       </div>
@@ -52,17 +34,9 @@ const FeaturedProject = props => {
     return (
       <div className={`FeaturedProject ${direction} horizontally-center`}>
         <div className="flex-container-horizontally-center">
-          <Content
+        <Content
             direction={direction}
-            title={title}
-            by={by}
-            date={date} 
-            event={event}
-            prize={prize}
-            description={description} 
-            builtWith={builtWith}
-            open={open}
-            files={files}
+            projectData={project}
           />
           
           <BgImg imgSrc={img}/>

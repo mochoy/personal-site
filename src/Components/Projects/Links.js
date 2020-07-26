@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { GoMarkGithub } from "react-icons/go";
+import { GoMarkGithub, GoFileCode } from "react-icons/go";
 import { FiExternalLink } from "react-icons/fi";
 
 
 const Links = props => {
-  const { open, files, direction } = props;
+  const { open, files, categories, direction } = props;
 
   return (
     <div className={`Links flex-container-${direction}`}>
@@ -30,6 +30,12 @@ const Links = props => {
           <FiExternalLink size="1.5em"/>
         </a>
       }
+
+      {/* Software Icon */}
+      {
+        GoFileCode
+      }
+
     </div>
   )
 }
