@@ -109,35 +109,29 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "mosfet_board_+.jpg",
-  //   "title": "MOSFET Board +",
-  //   "date": "May 2019",
-  //   "description": "The MOSFET Board + is a beefier version of the regular MOSFET board. It's able to drive up to 3 sets of flywheel motors and/or solenoids and installation is super simple! All the necessary electronics are included for complete protection of the MOSFET and the driving microcontroller. Being part of the MOSFET board ecosystem, you can stack on modules for more features like PWM and select-fire solenoid control or even more MOSFET boards to drive even more solenoids or flywheel motors.",
-  //   "links": [
-  //     {
-  //       "name": "Check It Out",
-  //       "link": "https://suild.com/shop/1"
-  //     },
-  //     {
-  //       "name": "Schematics",
-  //       "link": "https://github.com/Suild/mosfet-board-plus"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Electronics",
-  //       "PCB Design",
-  //       "Hardware"
-  //      ],
-  //      [
-  //        "Prolog"
-  //      ],
-  //      [
+  {
+    title: "MOSFET Board +",
+    date: "May 2019",
+    img: "mosfet_board_+.jpg",
+    description: "A beefy MOSFET-based inductive load driver for modified Nerf blasters. It's capable of driving up to 3 sets of flywheel motors or solenoids simultaneously!",
+    links: {
+      open: "https://suild.com/shop/1",
+      files: "https://github.com/Suild/mosfet-board-plus"
+    },
+    filterCategories: [
+      [
+        "Electronics",
+        "PCB Design",
+        "Hardware"
+       ],
+       [
+         "Prolog"
+       ],
+       [
 
-  //      ]
-  //   ]
-  // },
+       ]
+    ]
+  },
   // {
   //   "img": "mosfet_board_2.jpg",
   //   "title": "MOSFET Board 2",
