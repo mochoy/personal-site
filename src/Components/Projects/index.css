@@ -1,4 +1,4 @@
-.FeaturedProject .content, .Project {
+.FeaturedProject .Content, .Project {
   border-radius: 4px;
 }
 
@@ -6,11 +6,11 @@
   margin-bottom: 0.2em;
 }
 
-.content .icon {
+.Content .icon {
   margin-right: 0.3em;
 }
 
-.content .icon-txt {
+.Content .icon-txt {
   margin: 0.1em 0;
   font-size: 0.8em;
 }

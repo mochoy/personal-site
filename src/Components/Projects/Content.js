@@ -17,7 +17,7 @@ const Content = props => {
     files} = props;
 
   return (
-    <div className="content">
+    <div className="Content">
       <h2>{title}</h2>
 
       <Icons direction={direction} 

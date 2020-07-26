@@ -25,12 +25,12 @@
   }
 }
 
-.FeaturedProject .content {
+.FeaturedProject .Content {
   width: 30em;
   background-color: #F3EFE0;
 }
 
-.FeaturedProject .content {
+.FeaturedProject .Content {
   padding: 0.5em 2em;
 }
 
@@ -39,7 +39,7 @@
 }
 
 @media only screen and (max-width: 1100px) {
-  .FeaturedProject .content .icon-and-text {
+  .FeaturedProject .Content .icon-and-text {
     justify-content: flex-start;
   }
 }
@@ -52,7 +52,7 @@
 }
 
 @media only screen and (max-width: 1100px) {
-  .FeaturedProject .content .Links {
+  .FeaturedProject .Content .Links {
     justify-content: flex-start;
   }
 }
