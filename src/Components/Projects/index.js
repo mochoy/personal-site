@@ -38,7 +38,7 @@ const Projects = props => {
 
     setProjectsToDisplay(newProjectsToDisplay);
 
-  }, [ filter ]);
+  }, [ filter, projectsData ]);
 
 
   return (
