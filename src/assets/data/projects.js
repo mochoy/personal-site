@@ -6,7 +6,7 @@ const projects = [
     event: "Slo Hacks 2020",
     prize: "1st Place Google Cloud Platform",
     img: "telementary_box.jpg",
-    description: "Personal security locker to prevent package theft with live-streaming facial detection and gps. I devloped and depolyed the front-end web client and GCP cloud functions.",
+    description: "Personal security locker to prevent package theft with live-streaming facial detection and gps. I devloped and deployed the front-end web client and GCP cloud functions.",
     isFeatured: true,
     builtWith: ["React", "Google Cloud Platform", "Machine Learning"],
     links: {
@@ -39,24 +39,16 @@ const projects = [
     ]
   },
   {
-    "img": "select-fire_rapidstrike_kit.jpg",
-    "title": "Select-Fire Rapidstrike Kit",
-    "date": "June 2019 - Present",
-    "description": "Grants reliable select-fire control to your Rapidstrike with optional rate of fire control using a knob. Like every other kit, this one is super simple to install and requires no soldering directly onto the board to get everything up and runing in under a minute, even easier than a regular RS mod!",
-    "links": [
-      {
-        "name": "Check It Out",
-        "link": "https://suild.com/shop/4"
-      },
-      {
-        "name": "Schematics",
-        "link": "https://github.com/Suild/select-fire-rapidstrike-kit"
-      },
-      {
-        "name": "Code",
-        "link": "https://github.com/Suild/select-fire-rapidstrike-kit"
-      }
-    ],
+    title: "Select-Fire Rapidstrike Kit",
+    date: "June 2019 - Present",
+    img: "select-fire_rapidstrike_kit.jpg",
+    description: "PCB-based electronics product for select-fire control in modified Nerf blasters. Implements DC-DC converter for logic-level supply to power ATMega328P MCU and MOSFET-based PID controlled inductive drives. Sold over 500 units to 10+ countries.",
+    isFeatured: true,
+    builtWith: ["ATMega328P", "Real-Time Firmware", "PID Controller"],
+    links: {
+      open: "https://suild.com/shop/4",
+      files: "https://github.com/Suild/select-fire-rapidstrike-kit"
+    },
     filterCategories: [
       [
         "Electronics",
