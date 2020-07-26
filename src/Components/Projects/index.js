@@ -83,7 +83,7 @@ const Projects = props => {
               .map(
                 (project, index) => {
                   return (
-                    <div key={index}>
+                    <div key={Date.now() + (index * 10)}>
                       <Project project={project}/>
                     </div>
                   )
