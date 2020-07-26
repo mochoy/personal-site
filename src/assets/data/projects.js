@@ -2,6 +2,7 @@ const projects = [
   {
     title: "Flywheel Setup Picker",
     date: "Nov 2019 - July 2020",
+    event: "Suild Application",
     img: "flywheel_setup_picker.png",
     description: "Full-stack web application to submit, find, vote, and comment on Nerf blaster modification configurations.",
     isFeatured: false,
@@ -60,6 +61,7 @@ const projects = [
   {
     title: "Select-Fire Rapidstrike Kit",
     date: "June 2019 - Present",
+    event: "Suild Product",
     img: "select-fire_rapidstrike_kit.jpg",
     description: "PCB-based electronics product for select-fire control in modified Nerf blasters. Implements DC-DC converter for logic-level supply to power ATMega328P MCU and MOSFET-based PID controlled inductive drives. Sold over 500 units to 10+ countries.",
     isFeatured: true,
@@ -89,6 +91,7 @@ const projects = [
   {
     title: "PWM Module",
     date: "April - May 2019",
+    event: "Suild Product",
     img: "pwm_module.jpg",
     description: "Astable 555 with adjustable frequency and duty cycle for solenoid or motor control in modified Nerf blasters. It stacks on top of another custom PCB to safely drive large loads.",
     links: {
@@ -112,6 +115,7 @@ const projects = [
   {
     title: "MOSFET Board +",
     date: "May 2019",
+    event: "Suild Product",
     img: "mosfet_board_+.jpg",
     description: "A beefy MOSFET-based inductive load driver for modified Nerf blasters. It's capable of driving up to 3 sets of flywheel motors or solenoids simultaneously!",
     links: {
