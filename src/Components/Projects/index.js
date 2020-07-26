@@ -1,6 +1,7 @@
 import React from 'react';
 
 import FeaturedProject from './FeaturedProject';
+import Filter from './Filter';
 import Project from './Project';
 
 import './index.css';
@@ -33,6 +34,8 @@ const Projects = props => {
             />
           )
         }
+
+        <Filter/>
 
         {/* Regular projects */}
         <div className="flex-container-horizontally-center">
