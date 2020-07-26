@@ -1,8 +1,11 @@
 import React from 'react';
 
+import FlipMove from 'react-flip-move';
+
 import FeaturedProject from './FeaturedProject';
 import Filter from './Filter';
 import Project from './Project';
+
 
 import './index.css';
 
@@ -74,14 +77,20 @@ const Projects = props => {
           />
 
           {/* Regular projects */}
-          <div className="flex-container-horizontally-center">
+          <FlipMove className="flex-container-horizontally-center">
             { projectsToDisplay
               .filter(project => !project.isFeatured)
-              .map((project, index) => 
-                <Project project={project} key={index}/>
+              .map(
+                (project, index) => {
+                  return (
+                    <div key={index}>
+                      <Project project={project}/>
+                    </div>
+                  )
+                }
               )
             }
-          </div>
+          </FlipMove>
         </div>
           
       </div>
