@@ -36,7 +36,7 @@ const Icons = props => {
         <div key={key}
           className={`flex-container-vertically-center flex-container-${direction}`}
         >
-          <Icon className="icon"/>
+          <Icon className={`icon`}/>
           <p className="display-inline icon-txt">{text}</p> 
         </div>
       )   // Return
