@@ -12,6 +12,7 @@
     "react-icons": "^3.10.0",
     "react-scripts": "3.4.1",
     "react-star-ratings": "^2.3.0",
+    "react-tooltip": "^4.2.7",
     "scroll-to-element": "^2.0.3"
   },
   "scripts": {
