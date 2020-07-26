@@ -1,3 +1,7 @@
+#featured-projects-container {
+  margin-bottom: 4em;
+}
+
 .FeaturedProject .Content, .Project {
   border-radius: 4px;
 }
