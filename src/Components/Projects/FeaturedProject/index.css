@@ -7,6 +7,12 @@
   text-align: right;
 }
 
+@media only screen and (max-width: 1100px) {
+  .FeaturedProject.right {
+    text-align: left;
+  }
+}
+
 
 .FeaturedProject .bg-img {
   width: 20em;
@@ -16,7 +22,6 @@
 @media only screen and (max-width: 1100px) {
   .FeaturedProject .bg-img {
     width: 34em;
-    /* height: 10em; */
   }
 }
 
@@ -34,9 +39,21 @@
   margin: 0;
 }
 
+@media only screen and (max-width: 1100px) {
+  .FeaturedProject .content .icon-and-text {
+    justify-content: flex-start;
+  }
+}
+
 .FeaturedProject .built-with-text {
   flex-grow: 1;
   font-size: 0.8em;
   color: #5f5f5f;
   margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 1100px) {
+  .FeaturedProject .content .Links {
+    justify-content: flex-start;
+  }
 }

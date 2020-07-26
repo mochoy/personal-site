@@ -34,7 +34,7 @@ const Icons = props => {
     .map(({ Icon, text }, key) => {
       return (
         <div key={key}
-          className={`flex-container-vertically-center flex-container-${direction}`}
+          className={`flex-container-vertically-center flex-container-${direction} icon-and-text`}
         >
           <Icon className={`icon`}/>
           <p className="display-inline icon-txt">{text}</p> 
