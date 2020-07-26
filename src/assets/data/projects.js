@@ -19,7 +19,7 @@ const projects = [
     description: "Simple MCU to implement RISC-V ISA modeled in SystemVerilog.",
     isFeatured: false,
     links: {},
-    categories: ""
+    categories: ["Hardware"]
   },
   {
     title: "TeleMentary Box",
@@ -35,7 +35,7 @@ const projects = [
       open: "https://devpost.com/software/telementary-box",
       files: "https://github.com/warthogs32/locker"
     },
-    categories: ""
+    categories: ["Hardware", "Software"]
   },
   {
     title: "ATMega328P Eval Board",
@@ -45,7 +45,7 @@ const projects = [
     links: {
       files: "https://github.com/mochoy/arduino-clone"
     },
-    categories: "",
+    categories: ["Hardware"],
     filterCategories: [
       [
         "Electronics",
@@ -70,6 +70,7 @@ const projects = [
       open: "https://suild.com/shop/4",
       files: "https://github.com/Suild/select-fire-rapidstrike-kit"
     },
+    categories: ["Hardware", "Software"],
     filterCategories: [
       [
         "Electronics",
@@ -98,6 +99,7 @@ const projects = [
       open: "https://suild.com/shop/3",
       files: "https://github.com/Suild/pwm-module"
     },
+    categories: ["Hardware"],
     filterCategories: [
       [
         "Electronics",
@@ -122,6 +124,7 @@ const projects = [
       open: "https://suild.com/shop/1",
       files: "https://github.com/Suild/mosfet-board-plus"
     },
+    categories: ["Hardware"],
     filterCategories: [
       [
         "Electronics",
@@ -463,10 +466,11 @@ const projects = [
     date: "February 2018 - Present",
     isFeatured: true,
     description: "E-commerce webstore to sell custom designed PCB-based electronics, host interactive web applications, and provide technical documentation. Deployed to the web with over 20,000 annual sessions.",
+    builtWith: ["React", "Node.js", "Express", "MongoDB"],
     links: {
       open: "https://suild.com",
     },
-    builtWith: ["React", "Node.js", "Express", "MongoDB"],
+    categories: "",
     filterCategories: [
       [
         "Web",

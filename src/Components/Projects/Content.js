@@ -14,9 +14,10 @@ const Content = props => {
     prize, 
     description, 
     builtWith,
-    open, 
-    files,
+    links,
     categories} = projectData;
+
+  const { open, files } = links;
 
   return (
     <div className="Content">
@@ -42,7 +43,11 @@ const Content = props => {
       </div>
       
 
-      <Links open={open} files={files} direction={direction}/>
+      <Links direction={direction} 
+        open={open} 
+        files={files} 
+        categories={categories}
+      />
     </div>
   )
 };
