@@ -86,35 +86,29 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "pwm_module.jpg",
-  //   "title": "PWM Module",
-  //   "date": "April - May 2019",
-  //   "description": "The PWM module allows for PWM motor control or select-fire solenoid control. It's super easy to install, it takes less than 30 seconds after getting the switches and knobs wired up. This kit is part of the MOSFET board ecosystem, meaning it's compatible with the MOSFET Boards. Just stack the PWM module onto a MOSFET board like a Lego and you'll get PWM motor control or select-fire solenoid control!",
-  //   "links": [
-  //     {
-  //       "name": "Check It Out",
-  //       "link": "https://suild.com/shop/3"
-  //     },
-  //     {
-  //       "name": "Schematics",
-  //       "link": "https://github.com/Suild/pwm-module"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Electronics",
-  //       "PCB Design",
-  //       "Hardware"
-  //      ],
-  //      [
-  //        "Prolog"
-  //      ],
-  //      [
+  {
+    title: "PWM Module",
+    date: "April - May 2019",
+    img: "pwm_module.jpg",
+    description: "Astable 555 with adjustable frequency and duty cycle for solenoid or motor control in modified Nerf blasters. It stacks on top of another custom PCB to safely drive large loads.",
+    links: {
+      open: "https://suild.com/shop/3",
+      files: "https://github.com/Suild/pwm-module"
+    },
+    filterCategories: [
+      [
+        "Electronics",
+        "PCB Design",
+        "Hardware"
+       ],
+       [
+         "Prolog"
+       ],
+       [
 
-  //      ]
-  //   ]
-  // },
+       ]
+    ]
+  },
   // {
   //   "img": "mosfet_board_+.jpg",
   //   "title": "MOSFET Board +",
