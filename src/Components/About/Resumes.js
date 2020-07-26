@@ -32,26 +32,24 @@ const Resumes = props => {
     <div id="Resumes">
       <h2 className="text-center">Resumes</h2>
       <div className="flex-container-horizontally-center">
-        {
-          resumesData.map((resumeData, key) => {
-            const { resume, name } = resumeData;
+        { resumesData.map((resumeData, key) => {
+          const { resume, name } = resumeData;
 
-            return (
-              <a className="mouse-on-hover resume-link" 
-                href = {resume} 
-                target = "_blank"
-                rel="noopener noreferrer"
-                key={key}
-              >
-                <img 
-                  className="resume-icon grow-on-hover horizontally-center" 
-                  src={require(`assets/images/icons/pdf.svg`)} 
-                  alt={"resume-icon"}
-                />
-                <p className="text-center">{name}</p>
-              </a>
-            )
-          })
+          return (
+            <a className="mouse-on-hover resume-link no-style-link grow-on-hover underline-on-hover" 
+              href = {resume} 
+              target = "_blank"
+              rel="noopener noreferrer"
+              key={key}
+            >
+              <img 
+                className="resume-icon horizontally-center" 
+                src={require(`assets/images/icons/pdf.svg`)} 
+                alt={"resume-icon"}
+              />
+              <p className="text-center">{name}</p>
+            </a>
+          ) })
         }
 
         

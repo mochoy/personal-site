@@ -22,3 +22,7 @@ h4 {
   color: black;
   text-decoration: none;
 }
+
+.underline-on-hover:hover { 
+  text-decoration: underline;
+}
