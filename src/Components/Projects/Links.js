@@ -22,7 +22,7 @@ const Links = props => {
       <div style={{ flexGrow: 1 }}>
         {/* gh/files */}
         { !!files &&
-          <a className="mouse-on-hover project-link-icon" 
+          <a className="mouse-on-hover project-link-icon no-style-link" 
             href={files} 
             target="_blank" 
             rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const Links = props => {
 
         {/* Open */}
         { !!open &&
-          <a className="mouse-on-hover project-link-icon" 
+          <a className="mouse-on-hover project-link-icon no-style-link" 
             href={open} 
             target="_blank" 
             rel="noopener noreferrer"
