@@ -12,9 +12,31 @@ const filterOptions = ["All", "Hardware", "Software"];
 const Projects = props => {
   const { projectsData } = props;
 
+  const [ projectsToDisplay, setProjectsToDisplay ] = React.useState(projectsData);
+
   const [ filter, setFilter ] = React.useState("All");
 
-  console.log(filter)
+
+  // Update projects to display when filter changes
+  React.useEffect(() => {
+    let newProjectsToDisplay;
+
+    if (filter === filterOptions[1]) {  // hw
+      newProjectsToDisplay = projectsData.filter(
+        project => project.categories.indexOf(filterOptions[1]) !== -1
+      );
+    } else if (filter === filterOptions[2]) { //sw
+      newProjectsToDisplay = projectsData.filter(
+        project => project.categories.indexOf(filterOptions[2]) !== -1
+      );
+    } else {  // all
+      newProjectsToDisplay = projectsData;
+    }
+
+    setProjectsToDisplay(newProjectsToDisplay);
+
+  }, [ filter ]);
+
 
   return (
     <section id="Projects" className="section">
@@ -53,7 +75,7 @@ const Projects = props => {
 
           {/* Regular projects */}
           <div className="flex-container-horizontally-center">
-            { projectsData
+            { projectsToDisplay
               .filter(project => !project.isFeatured)
               .map((project, index) => 
                 <Project project={project} key={index}/>
