@@ -18,3 +18,20 @@
 .project-link-icon {
   margin: 0 0.2em;
 }
+
+#Filter #first:before {
+  content: "";
+  padding: 0;
+  
+}
+
+#Filter p {
+  margin-top: 0;
+}
+
+#Filter p:before {
+  content: "\2022";
+  padding: 0 10px;
+  color: black;
+}
+

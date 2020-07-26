@@ -35,6 +35,7 @@ const Projects = props => {
           )
         }
 
+        <h2 className="text-center">More Projects</h2>
         <Filter/>
 
         {/* Regular projects */}
