@@ -7,8 +7,14 @@ import Project from './Project';
 import './index.css';
 
 
+const filterOptions = ["All", "Hardware", "Software"];
+
 const Projects = props => {
   const { projectsData } = props;
+
+  const [ filter, setFilter ] = React.useState("All");
+
+  console.log(filter)
 
   return (
     <section id="Projects" className="section">
@@ -40,7 +46,10 @@ const Projects = props => {
         <div id="more-projects-container">
           <h2 className="text-center">More Projects</h2>
 
-          <Filter/>
+          <Filter filter={filter} 
+            setFilter={setFilter} 
+            filterOptions={filterOptions}
+          />
 
           {/* Regular projects */}
           <div className="flex-container-horizontally-center">

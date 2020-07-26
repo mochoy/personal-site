@@ -39,3 +39,7 @@
   color: black;
 }
 
+#Filter .selected {
+  color: green;
+  font-weight: 500;
+}
