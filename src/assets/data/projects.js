@@ -1,14 +1,23 @@
 const projects = [
   {
+    title: "Flywheel Setup Picker",
+    date: "Nov 2019 - July 2020",
+    img: "flywheel_setup_picker.png",
+    description: "Full-stack web application to submit, find, vote, and comment on Nerf blaster modification configurations.",
+    isFeatured: false,
+    links: { 
+      open: "https://suild.com/tools/flywheel-setup-picker" 
+    },
+    categories: ""
+  },
+  {
     title: "RISC-V OTTER MCU",
     date: "June 2020",
     event: "Cal Poly CPE 233 - Computer Design",
     img: "risc-v_otter_mcu.png",
     description: "Simple MCU to implement RISC-V ISA modeled in SystemVerilog.",
     isFeatured: false,
-    links: {
-      
-    },
+    links: {},
     categories: ""
   },
   {
