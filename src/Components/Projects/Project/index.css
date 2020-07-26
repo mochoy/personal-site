@@ -1,0 +1,20 @@
+.Project {
+  width: 20em;
+  /* height: 30em; */
+  background-color: #dde6ed;
+}
+
+.Project .bg-img {
+  width: 20em;
+  height: 20em;
+}
+
+.Project .content {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.Project h2 {
+  margin-top: 0.5em;
+}

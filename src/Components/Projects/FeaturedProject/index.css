@@ -28,7 +28,6 @@
 .FeaturedProject .content {
   width: 30em;
   background-color: #F3EFE0;
-  border-radius: 4px;
 }
 
 .FeaturedProject .content {
@@ -36,7 +35,7 @@
 }
 
 .FeaturedProject h2 {
-  margin: 0;
+  margin-top: 0;
 }
 
 @media only screen and (max-width: 1100px) {

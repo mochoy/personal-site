@@ -1,3 +1,11 @@
+.FeaturedProject .content, .Project {
+  border-radius: 4px;
+}
+
+.FeaturedProject h2, .Project h2 {
+  margin-bottom: 0.2em;
+}
+
 .content .icon {
   margin-right: 0.3em;
 }

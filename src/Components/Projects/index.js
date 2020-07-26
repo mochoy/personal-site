@@ -34,12 +34,15 @@ const Projects = props => {
           )
         }
 
-        { projectsData
-          .filter(project => !project.isFeatured)
-          .map((project, index) => 
-            <Project project={project} key={index}/>
-          )
-        }
+        {/* Regular projects */}
+        <div className="flex-container-horizontally-center">
+          { projectsData
+            .filter(project => !project.isFeatured)
+            .map((project, index) => 
+              <Project project={project} key={index}/>
+            )
+          }
+        </div>
 
         
       </div>

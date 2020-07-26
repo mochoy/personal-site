@@ -14,7 +14,7 @@ const Content = props => {
     description, 
     builtWith,
     open, 
-    files } = props;
+    files} = props;
 
   return (
     <div className="content">
