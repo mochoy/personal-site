@@ -1,13 +1,12 @@
 import React from 'react';
 
+import ReactTooltip from 'react-tooltip';
 import { GoMarkGithub, GoFileCode, GoCircuitBoard } from "react-icons/go";
 import { FiExternalLink } from "react-icons/fi";
 
 
 const Links = props => {
   const { open, files, categories, direction } = props;
-
-  console.log(!!direction)
 
   const containerClassName = (!!direction && direction.length > 0) 
     ? `flex-container-${direction}` 
@@ -60,13 +59,23 @@ const CategoryIcons = props => {
     <div>
       {/* Software Icon */}
       { categories.indexOf("Software") !== -1 &&
-        <GoFileCode size="1.5em"/>
+        <GoFileCode size="1.5em" data-tip data-for='softwareTooltip'/>
       }
+
+      <ReactTooltip id='softwareTooltip' effect='solid'>
+        <p style={{ margin: 0 }}>Software Project</p>
+      </ReactTooltip>
+
 
       {/* Hardware Icon */}
       { categories.indexOf("Hardware") !== -1 &&
-        <GoCircuitBoard size="1.5em"/>
+        <GoCircuitBoard size="1.5em" data-tip data-for='hardwareTooltip'/>
       }
+
+      <ReactTooltip id='hardwareTooltip' effect='solid'>
+        <p style={{ margin: 0 }}>Hardware Project</p>
+      </ReactTooltip>
+
     </div>
   )
 }
