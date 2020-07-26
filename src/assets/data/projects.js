@@ -458,13 +458,10 @@ const projects = [
     "title": "Suild.com",
     "date": "February 2018 - Present",
     "isFeatured": true,
-    "description": "Website to display tutorials and technical documentation and sell custom electronics for modifed Nerf blasters. Launched to the web with over 500 monthly views and growing.",
-    "links": [
-      {
-        "name": "Check It Out",
-        "link": "https://suild.com"
-      }
-    ],
+    description: "E-commerce webstore to sell custom designed PCB-based electronics, host interactive web applications, and provide technical documentation. Deployed to the web with over 20,000 annual sessions.",
+    links: {
+      open: "https://suild.com",
+    },
     filterCategories: [
       [
         "Web",
