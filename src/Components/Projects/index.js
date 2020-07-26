@@ -1,6 +1,7 @@
 import React from 'react';
 
 import FeaturedProject from './FeaturedProject';
+import Project from './Project';
 
 import './index.css';
 
@@ -22,15 +23,22 @@ const Projects = props => {
 
         {/* Featured projects */}
         { projectsData
-            .filter(project => project.isFeatured)
-            .map((project, index) => 
-              <FeaturedProject
-                project={project}
-                index={index}
+          .filter(project => project.isFeatured)
+          .map((project, index) => 
+            <FeaturedProject
+              project={project}
+              index={index}
 
-                key={index}
-              />
-            )
+              key={index}
+            />
+          )
+        }
+
+        { projectsData
+          .filter(project => !project.isFeatured)
+          .map((project, index) => 
+            <Project project={project} key={index}/>
+          )
         }
 
         
