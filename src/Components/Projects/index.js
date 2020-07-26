@@ -20,35 +20,39 @@ const Projects = props => {
           </p>
         </div>
 
-        <h2 className="text-center">Featured Projects</h2>
+        <div id="featured-projects-container">
+          <h2 className="text-center">Featured Projects</h2>
 
-        {/* Featured projects */}
-        { projectsData
-          .filter(project => project.isFeatured)
-          .map((project, index) => 
-            <FeaturedProject
-              project={project}
-              index={index}
-
-              key={index}
-            />
-          )
-        }
-
-        <h2 className="text-center">More Projects</h2>
-        <Filter/>
-
-        {/* Regular projects */}
-        <div className="flex-container-horizontally-center">
+          {/* Featured projects */}
           { projectsData
-            .filter(project => !project.isFeatured)
+            .filter(project => project.isFeatured)
             .map((project, index) => 
-              <Project project={project} key={index}/>
+              <FeaturedProject
+                project={project}
+                index={index}
+
+                key={index}
+              />
             )
           }
         </div>
-
         
+        <div id="more-projects-container">
+          <h2 className="text-center">More Projects</h2>
+
+          <Filter/>
+
+          {/* Regular projects */}
+          <div className="flex-container-horizontally-center">
+            { projectsData
+              .filter(project => !project.isFeatured)
+              .map((project, index) => 
+                <Project project={project} key={index}/>
+              )
+            }
+          </div>
+        </div>
+          
       </div>
 
     </section>
