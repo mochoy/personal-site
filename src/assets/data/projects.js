@@ -1,13 +1,14 @@
 const projects = [
   {
-    "title": "TeleMentary Box",
+    title: "TeleMentary Box",
     by: "Mark, Monty, Jason, & Ben",
     date: "February 2020",
     event: "Slo Hacks 2020",
     prize: "1st Place Google Cloud Platform",
-    "img": "telementary_box.jpg",
-    "description": "Personal security locker to prevent package theft with live-streaming facial detection and gps.",
+    img: "telementary_box.jpg",
+    description: "Personal security locker to prevent package theft with live-streaming facial detection and gps. I devloped and depolyed the front-end web client and GCP cloud functions.",
     isFeatured: true,
+    builtWith: ["React", "Google Cloud Platform", "Machine Learning"],
     links: {
       open: "https://devpost.com/software/telementary-box",
       files: "https://github.com/warthogs32/locker"

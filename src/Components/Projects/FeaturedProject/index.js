@@ -17,6 +17,7 @@ const FeaturedProject = props => {
     event, 
     prize, 
     description,
+    builtWith,
     links } = project;
 
   const { open, files } = links;
@@ -39,6 +40,7 @@ const FeaturedProject = props => {
             event={event}
             prize={prize}
             description={description} 
+            builtWith={builtWith}
             open={open}
             files={files}
           />
@@ -57,6 +59,7 @@ const FeaturedProject = props => {
             event={event}
             prize={prize}
             description={description} 
+            builtWith={builtWith}
             open={open}
             files={files}
           />
@@ -89,6 +92,7 @@ const Content = props => {
     event, 
     prize, 
     description, 
+    builtWith,
     open, 
     files } = props;
 
@@ -104,6 +108,17 @@ const Content = props => {
       />
 
       <p>{description}</p>
+
+      <div className="flex-container-horizontally-center">
+        { !!builtWith && 
+          builtWith.map((word, index) => (
+            <p key={index} className="built-with-text">
+              {word}
+            </p>)
+          )
+        }
+      </div>
+      
 
       <Links open={open} files={files} direction={direction}/>
     </div>

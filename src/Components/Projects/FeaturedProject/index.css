@@ -16,6 +16,7 @@
 .FeaturedProject .content {
   width: 30em;
   background-color: #F3EFE0;
+  border-radius: 4px;
 }
 
 .FeaturedProject .content {
@@ -24,4 +25,10 @@
 
 .FeaturedProject h2 {
   margin: 0;
+}
+
+.FeaturedProject .built-with-text {
+  flex-grow: 1;
+  font-size: 0.8em;
+  color: #5f5f5f;
 }
