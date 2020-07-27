@@ -26,7 +26,7 @@ const Home = props => {
         {/* Links to different sections */}
         <div className="links-container flex-container-horizontally-center">
           {
-            ["About", "Experience", "Projects", "Articles"]
+            ["About", "Experience", "Projects"]
               .map((section, key) => {
                 return (
                   <p className="mouse-on-hover" 
