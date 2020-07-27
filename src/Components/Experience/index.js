@@ -42,6 +42,7 @@ const Experience = props => {
                 <div className="experience-item-mobile">
                   <h3>{company}</h3>
                   <h4>{title}</h4>
+                  <p>{date}</p>
                   {contentPoints}
                 </div>
               </div>
