@@ -17,7 +17,7 @@ const Projects = props => {
 
   const [ projectsToDisplay, setProjectsToDisplay ] = React.useState(projectsData);
 
-  const [ filter, setFilter ] = React.useState("All");
+  const [ filter, setFilter ] = React.useState(filterOptions[0]);
 
 
   // Update projects to display when filter changes
@@ -81,12 +81,9 @@ const Projects = props => {
             { projectsToDisplay
               .filter(project => !project.isFeatured)
               .map(
-                (project, index) => {
-                  return (
-                    <div key={Date.now() + (index * 10)}>
-                      <Project project={project}/>
-                    </div>
-                  )
+                (project) => {
+                  const { id } = project;
+                  return <div key={id}><Project project={project}/></div>
                 }
               )
             }

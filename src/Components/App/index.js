@@ -16,6 +16,8 @@ import './index.css';
 
 
 function App() {
+  console.log("2564654")
+
   return (
     <div className="App">
       <Home/>
@@ -30,7 +32,15 @@ function App() {
       />
 
       <Projects
-        projectsData={projects}
+        projectsData={
+          projects.map((project, index) => {
+            // Apply id to each project
+            return {
+              id: Date.now() + index,
+              ...project
+            }
+          })
+        }
       />
 
       <Footer/>
