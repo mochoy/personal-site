@@ -11,7 +11,6 @@ import buzzwords from '../../assets/data/buzzwords.js';
 import experience from '../../assets/data/experience'; 
 import projects from '../../assets/data/projects'; 
 
-import logo from '../../assets/images/logo.svg';
 
 import './index.css';
 
