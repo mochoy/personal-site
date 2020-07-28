@@ -139,35 +139,31 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "mosfet_board_2.jpg",
-  //   "title": "MOSFET Board 2",
-  //   "date": "February 2019",
-  //   "description": "2nd version of the MOSFET Board. This new version brings a smaller form factor, expanable headers, and compatibility with the new MOSFET Board Ecosystem.",
-  //   "links": [
-  //     {
-  //       "name": "Check It Out",
-  //       "link": "https://suild.com/shop/0"
-  //     },
-  //     {
-  //       "name": "Schematics",
-  //       "link": "https://github.com/suild/mosfet-boards"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Electronics",
-  //       "PCB Design",
-  //       "Hardware"
-  //      ],
-  //      [
-  //        "Prolog"
-  //      ],
-  //      [
+  {
+    title: "MOSFET Board 2",
+    date: "February 2019",
+    event: "Suild Product",
+    img: "mosfet_board_2.jpg",
+    description: "2nd version of the MOSFET Board. This new version brings a smaller form factor, expanable headers, and compatibility with the new MOSFET Board Ecosystem.",
+    links: {
+      open: "https://suild.com/shop/0",
+      files: "https://github.com/suild/mosfet-boards"
+    },
+    categories: ["Hardware"],
+    filterCategories: [
+      [
+        "Electronics",
+        "PCB Design",
+        "Hardware"
+       ],
+       [
+         "Prolog"
+       ],
+       [
 
-  //      ]
-  //   ]
-  // },
+       ]
+    ]
+  },
   // {
   //   "img": "cv_nerf_turret.jpg",
   //   "title": "CV Nerf Turret",
