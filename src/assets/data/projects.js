@@ -196,6 +196,7 @@ const projects = [
   {
     title: "LiPo Calculator",
     date: "December 2018",
+    event: "Suild Application",
     img: "lipo_calculator.png",
     description: "A web application to calculate voltage and output current specs based on cell count, discharge rating, and capacity ratings of a LiPo.",
     links: {
@@ -233,48 +234,45 @@ const projects = [
     filterCategories: [
       [
          "Hardware",
-  //     [
-  //        "Hardware",
-  //        "Software",
-  //        "Electronics"
-  //      ],
-  //     [
-  //       "Arduino",
-  //       "C++"
-  //      ],
-  //      [
-  //        "Arduino"
-  //      ]
-  //   ]
-  // },
-  // {
-  //   "img": "lipochecker.png",
-  //   "title": "LiPo Checker",
-  //   "date": "November 2018",
-  //   "description": "A web application to verify if a given LiPo battery works with a setup of aftermarket Nerf motors. Supports undervolting, overvolting, motor options, and more!",
-  //   "links": [
-  //     {
-  //       "name": "Check It Out",
-  //       "link": "https://suild.com/tools/lipo-checker"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //        "Web",
-  //        "Software"
-  //      ],
-  //     [
-  //       "JavaScript",
-  //       "CSS"
-  //      ],
-  //      [
-  //        "React",
-  //        "Node.js",
-  //        "Express",
-  //        "MongoDB"
-  //      ]
-  //   ]
-  // },
+         "Software",
+         "Electronics"
+       ],
+      [
+        "Arduino",
+        "C++"
+       ],
+       [
+         "Arduino"
+       ]
+    ]
+  },
+  {
+    title: "LiPo Checker",
+    date: "November 2018",
+    event: "Suild Application",
+    img: "lipo_checker.png",
+    description: "A web application to verify if a given LiPo battery works with a setup of aftermarket Nerf motors. Supports undervolting, overvolting, motor options, and more!",
+    links: {
+      open: "https://suild.com/tools/lipo-checker",
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+         "Web",
+         "Software"
+       ],
+      [
+        "JavaScript",
+        "CSS"
+       ],
+       [
+         "React",
+         "Node.js",
+         "Express",
+         "MongoDB"
+       ]
+    ]
+  },
   // {
   //   "img": "webControllerNerfBlaster.jpg",
   //   "title": "Web-Controlled Nerf Blaster",
