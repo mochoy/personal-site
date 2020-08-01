@@ -193,34 +193,32 @@ const projects = [
       ]
     ]
   },
-  // {
-  //   "img": "lipocalculator.png",
-  //   "title": "LiPo Calculator",
-  //   "date": "December 2018",
-  //   "description": "A web application to calculate voltage and output current specs based on cell count, discharge rating, and capacity ratings of a LiPo.",
-  //   "links": [
-  //     {
-  //       "name": "Check It Out",
-  //       "link": "https://suild.com/tools/lipo-calculator"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //        "Web",
-  //        "Software"
-  //      ],
-  //     [
-  //       "JavaScript",
-  //       "CSS"
-  //      ],
-  //      [
-  //        "React",
-  //        "Node.js",
-  //        "Express",
-  //        "MongoDB"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "LiPo Calculator",
+    date: "December 2018",
+    img: "lipo_calculator.png",
+    description: "A web application to calculate voltage and output current specs based on cell count, discharge rating, and capacity ratings of a LiPo.",
+    links: {
+      open: "https://suild.com/tools/lipo-calculator"
+    },
+    categories: ["Software"],
+    filterCategories: [
+      [
+         "Web",
+         "Software"
+       ],
+      [
+        "JavaScript",
+        "CSS"
+       ],
+       [
+         "React",
+         "Node.js",
+         "Express",
+         "MongoDB"
+       ]
+    ]
+  },
   // {
   //   "img": "egg-robot.jpg",
   //   "title": "Egg Transporter Robot",
