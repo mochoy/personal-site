@@ -219,20 +219,20 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "egg-robot.jpg",
-  //   "title": "Egg Transporter Robot",
-  //   "by": "Drew, Jonathon, Monty, & Jackson",
-  //   "date": "October - December 2018",
-  //   "description": "Line-following and obstacle-avoiding robot that transports to radiated factory workers.",
-  //   "event": "Cal Poly Intro to Electrical Engineering Lab",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/mochoy/ee151-labs/blob/master/EggRobot/EggRobot.ino"
-  //     }
-  //   ],
-  //   filterCategories: [
+  {
+    title: "Egg Transporter Robot",
+    by: "Drew, Jonathon, Monty, & Jackson",
+    date: "October - December 2018",
+    event: "Cal Poly EE 151",
+    img: "egg_robot.jpg",
+    description: "Line-following and obstacle-avoiding robot that transports to radiated factory workers.",
+    links: {
+      files: "https://github.com/mochoy/ee151-labs/blob/master/EggRobot/EggRobot.ino"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+         "Hardware",
   //     [
   //        "Hardware",
   //        "Software",
