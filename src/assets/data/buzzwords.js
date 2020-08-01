@@ -21,12 +21,12 @@ const buzzwords = {
       rating: 4.4
     },
     {
-      name: "High-Speed Digital Design",
-      rating: 4.3
+      name: "Computer Architecture",
+      rating: 4.4
     },
     {
-      name: "Computer Architecture",
-      rating: 4.2
+      name: "High-Speed Digital Design",
+      rating: 4.3
     }
   ],
   swe: [
@@ -52,11 +52,11 @@ const buzzwords = {
     },
     {
       name: "C++",
-      rating: 4.4
+      rating: 4.5
     },
     {
       name: "C",
-      rating: 4.3
+      rating: 4.5
     }
   ]
 };
