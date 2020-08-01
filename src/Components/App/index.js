@@ -16,8 +16,6 @@ import './index.css';
 
 
 function App() {
-  console.log("2564654")
-
   return (
     <div className="App">
       <Home/>
