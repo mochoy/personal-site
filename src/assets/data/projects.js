@@ -273,40 +273,38 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "webControllerNerfBlaster.jpg",
-  //   "title": "Web-Controlled Nerf Blaster",
-  //   "date": "November 2018",
-  //   "description": "Web application to control power outputs to control rate-of-fire and firing power of a highly modified Nerf blaster.",
-  //   "event": "Cal Poly Arduino Fest 2018",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/mochoy/cal-poly-arduino-fest"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //        "Nerf Blasters",
-  //        "Web",
-  //        "Electronics",
-  //        "Hardware",
-  //        "Software"
-  //      ],
-  //     [
-  //       "Arduino",
-  //       "C++",
-  //       "JavaScript",
-  //       "CSS"
-  //      ],
-  //      [
-  //        "React",
-  //        "Node.js",
-  //        "Express",
-  //        "Arduino"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Web-Controlled Nerf Blaster",
+    date: "November 2018",
+    event: "Cal Poly Arduino Fest 2018",
+    img: "web_controlled_nerf_blaster.jpg",
+    description: "Web application to control power outputs to control rate-of-fire and firing power of a highly modified Nerf blaster.",
+    links: {
+      files: "https://github.com/mochoy/cal-poly-arduino-fest"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+         "Nerf Blasters",
+         "Web",
+         "Electronics",
+         "Hardware",
+         "Software"
+       ],
+      [
+        "Arduino",
+        "C++",
+        "JavaScript",
+        "CSS"
+       ],
+       [
+         "React",
+         "Node.js",
+         "Express",
+         "Arduino"
+       ]
+    ]
+  },
   // {
   //   "img": "dorm_doorman.jpg",
   //   "title": "Dorm Doorman",
