@@ -336,28 +336,27 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "nerfSuperSoakerTurret.jpg",
-  //   "title": "Nerf Super Soaker Turret",
-  //   "date": "Summer 2018",
-  //   "description": "Remote-controlled motorized Nerf Super Soaker Thundershock watergun turret. Controlled with a Raspberry Pi with with an onboard camera and microphone allowing for realtime audio and video streaming of water blasting.",
-  //   "links": [
-            
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Nerf Blasters",
-  //        "Electronics",
-  //        "Hardware"
-  //      ],
-  //      [
-  //        "Python"
-  //      ],
-  //      [
-  //        "Raspberry Pi"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Nerf Super Soaker Turret",
+    date: "Summer 2018",
+    img: "nerf_super_soaker_turret.jpg",
+    description: "Remote-controlled motorized Nerf Super Soaker Thundershock watergun turret. Controlled with a Raspberry Pi with with an onboard camera and microphone allowing for realtime audio and video streaming of water blasting.",
+    links: {},
+    categories: ["Hardware"],
+    filterCategories: [
+      [
+        "Nerf Blasters",
+         "Electronics",
+         "Hardware"
+       ],
+       [
+         "Python"
+       ],
+       [
+         "Raspberry Pi"
+       ]
+    ]
+  },
   // {
   //   "img": "smartstryfe.jpg",
   //   "title": "Smart Stryfe",
