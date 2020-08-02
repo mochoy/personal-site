@@ -305,41 +305,37 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "dorm_doorman.jpg",
-  //   "title": "Dorm Doorman",
-  //   "by": "Josh and Monty",
-  //   "date": "November 2018",
-  //   "description": "Uses machine learning and computer vision to unlock a door based upon facial recogition. Also includes Nerf blaster to engage unwanted intruders.",
-  //   "event": "Honorable mention at init() by SLO Hacks",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/JoshGrace/SLOhacks-init"
-  //     },
-  //     {
-  //       "name": "Check It Out",
-  //       "link": "https://devpost.com/software/dorm-doorman"
-  //     }		  	
-  //   ],
-  //   filterCategories: [
-  //     [
-  //        "Nerf Blasters",
-  //        "Electronics",
-  //        "Hardware",
-  //        "Software"
-  //      ],
-  //     [
-  //       "Python",
-  //       "Arduino",
-  //       "C++"
-  //      ],
-  //      [
-  //        "Arduino",
-  //        "OpenCV"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Dorm Doorman",
+    by: "Josh and Monty",
+    date: "November 2018",
+    event: "init() by SLO Hacks",
+    prize: "Honorable Mention",
+    img: "dorm_doorman.jpg",
+    description: "Uses machine learning and computer vision to unlock a door based upon facial recogition. Also includes Nerf blaster to engage unwanted intruders.",
+    links: {
+      open: "https://devpost.com/software/dorm-doorman",
+      files: "https://github.com/JoshGrace/SLOhacks-init"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+         "Nerf Blasters",
+         "Electronics",
+         "Hardware",
+         "Software"
+       ],
+      [
+        "Python",
+        "Arduino",
+        "C++"
+       ],
+       [
+         "Arduino",
+         "OpenCV"
+       ]
+    ]
+  },
   // {
   //   "img": "nerfSuperSoakerTurret.jpg",
   //   "title": "Nerf Super Soaker Turret",
