@@ -357,35 +357,33 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "smartstryfe.jpg",
-  //   "title": "Smart Stryfe",
-  //   "date": "Summer 2018",
-  //   "description": "Modified Arduino-powered Nerf Stryfe blaster. Includes a built-in ammo counter, chronograph, voltmeter, and variable motor control. Utilizes custom 3D printed and machined components specially designed for modified Nerf applications and custom Arduino shield.",
-  //   "links": [
-  //      {
-  //        "name": "Code",
-  //        "link": "https://github.com/mochoy/smart-nerf-stryfes/tree/master/V1"
-  //      }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Nerf Blasters",
-  //       "Electronics",
-  //       "PCB Design",
-  //       "Hardware",
-  //       "Software"
-  //      ],
-  //      [
-  //        "C++",
-  //        "Arduino",
-  //        "Prolog"
-  //      ],
-  //      [
-  //        "Arduino"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Smart Stryfe",
+    date: "Summer 2018",
+    img: "smart_stryfe.jpg",
+    description: "Modified Arduino-powered Nerf Stryfe blaster. Includes a built-in ammo counter, chronograph, voltmeter, and variable motor control. Utilizes custom 3D printed and machined components specially designed for modified Nerf applications and custom Arduino shield.",
+    links: { 
+      files: "https://github.com/mochoy/smart-nerf-stryfes/tree/master/V1" 
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+        "Nerf Blasters",
+        "Electronics",
+        "PCB Design",
+        "Hardware",
+        "Software"
+       ],
+       [
+         "C++",
+         "Arduino",
+         "Prolog"
+       ],
+       [
+         "Arduino"
+       ]
+    ]
+  },
   // {
   //   "img": "mosfetBoardKit.png",
   //   "title": "MOSFET Board Kit",
