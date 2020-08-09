@@ -657,6 +657,17 @@ const projects = [
   {
     title: "Nerf Ammo Counter",
     date: "November 2016",
+    event: "Suild Documentation",
+    img: "nerf_ammo_counter_tutorial.jpg",
+    description: "Make your own simple and cheap DIY ammo counter for Nerf blasters.",
+    links: {
+      open: "https://suild.com/docs/2",
+    },
+    categories: ["Hardware", "Software"]
+  },
+  {
+    title: "Nerf Ammo Counter",
+    date: "November 2016",
     img: "nerf_ammo_counter.jpg",
     description: "Arduino-powered ammo counter for modified Nerf blasters. Can store and save various magazine sizes and count up from 0. Ammo displayed on small monochrome OLED display.",
     links: {
