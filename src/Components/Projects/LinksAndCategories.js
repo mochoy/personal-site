@@ -5,7 +5,7 @@ import { GoMarkGithub, GoFileCode, GoCircuitBoard } from "react-icons/go";
 import { FiExternalLink } from "react-icons/fi";
 
 
-const Links = props => {
+const LinksAndCategories = props => {
   const { open, files, categories, direction } = props;
 
   const containerClassName = (!!direction && direction.length > 0) 
@@ -80,4 +80,4 @@ const CategoryIcons = props => {
   )
 }
 
-export default Links;
+export default LinksAndCategories;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Icons from './Icons';
-import Links from './Links';
+import LinksAndCategories from './LinksAndCategories';
 
 
 const Content = props => {
@@ -17,7 +17,7 @@ const Content = props => {
     links,
     categories} = projectData;
 
-  const { open, files } = links;
+  const { open, files } = !!links ? links : {};
 
   return (
     <div className="Content">
@@ -42,12 +42,12 @@ const Content = props => {
         }
       </div>
       
-
-      <Links direction={direction} 
+      <LinksAndCategories direction={direction} 
         open={open} 
         files={files} 
         categories={categories}
       />
+      
     </div>
   )
 };
