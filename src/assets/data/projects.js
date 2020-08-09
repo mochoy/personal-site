@@ -537,13 +537,13 @@ const projects = [
     ]
   },
   {
-    title: "Let's Robot powered Nerf Turret",
+    title: "Let's Robot powered Nerf Turret Tutorial",
     date: "July 2017",
     event: "Suild Documentation",
     img: "awesome_nerf_turret.jpg",
     description: "Follow this tutorial to make an internet-controlled Nerf blaster turret with Let's Robot's robot controllers.",
     links: {
-      files: "https://letsrobot.readme.io/docs/awesome-nerf-turret"
+      open: "https://suild.com/docs/1"
     },
     categories: ["Hardware", "Software"]
   },
@@ -655,7 +655,7 @@ const projects = [
     ]
   },
   {
-    title: "Nerf Ammo Counter",
+    title: "Nerf Ammo Counter Tutorial",
     date: "November 2016",
     event: "Suild Documentation",
     img: "nerf_ammo_counter_tutorial.jpg",
