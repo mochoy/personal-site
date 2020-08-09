@@ -552,34 +552,32 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "Awesome-Nerf-Turret.png",
-  //   "title": "Awesome Nerf Turret",
-  //   "date": "Summer 2017",
-  //   "description": "Remote-controlled Nerf Hyperfire turret powered by Let's Robot's realtime platform that allows for real-time streaming and control of the turret through letsrobot.tv",
-  //   "event": "Made for Let's Robot",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/mochoy/runmyrobot"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Nerf Blasters",
-  //       "Electronics",
-  //       "Web",
-  //       "Hardware",
-  //       "Software"
-  //      ],
-  //      [
-  //        "Python"
-  //      ],
-  //      [
-  //        "Raspberry Pi"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Awesome Nerf Turret",
+    date: "Summer 2017",
+    event: "Made for Let's Robot",
+    img: "awesome_nerf_turret.jpg",
+    description: "Remote-controlled Nerf Hyperfire turret powered by Let's Robot's realtime platform that allows for real-time streaming and control of the turret through letsrobot.tv",
+    links: {
+      files: "https://github.com/mochoy/runmyrobot"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+        "Nerf Blasters",
+        "Electronics",
+        "Web",
+        "Hardware",
+        "Software"
+       ],
+       [
+         "Python"
+       ],
+       [
+         "Raspberry Pi"
+       ]
+    ]
+  },
   // {
   //   "img": "vyper_t28.jpg",
   //   "title": "Vyper T-28",
