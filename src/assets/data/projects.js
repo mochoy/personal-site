@@ -501,7 +501,17 @@ const projects = [
        ]
     ]
   },
-  
+  {
+    title: "MOSFETs for Nerf Applications",
+    date: "August 2017",
+    img: "mosfet_tutorial.png",
+    event: "Suild Documentation",
+    description: "An extensive technical write-up on everything there is to know about power MOSFETs for Nerf applications.",
+    links: {
+      open: "https://suild.com/docs/0"
+    },
+    categories: ["Hardware"]
+  },
   {
     title: "Cardboard Chrony",
     date: "August 2017",
