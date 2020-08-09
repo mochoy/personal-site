@@ -405,37 +405,36 @@ const projects = [
        ],
        [
 
-  //      ]
-  //   ]
-  // },
-  // {
-  //   "img": "motorchart.png",
-  //   "title": "Interactive Motor Chart",
-  //   "date": "May 2018",
-  //   "description": "Interactive chart to display specifications, information, and purchase locations of aftermarket Nerf motors for flywheel system applications.",
-  //   "links": [
-  //     {
-  //       "name": "Check It Out",
-  //       "link": "https://suild.com/motor-chart"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Web",
-  //       "Software"
-  //      ],
-  //      [
-  //        "JavaScript",
-  //        "CSS"
-  //      ],
-  //      [
-  //        "React",
-  //        "Node.js",
-  //        "Express",
-  //        "MongoDB"
-  //      ]
-  //   ]
-  // },
+       ]
+    ]
+  },
+  {
+    title: "Interactive Motor Chart",
+    date: "May 2018",
+    event: "Suild Application",
+    img: "motor_chart.png",
+    description: "Interactive chart to display specifications, information, and purchase locations of aftermarket Nerf motors for flywheel system applications.",
+    links: {
+      open: "https://suild.com/motor-chart"
+    },
+    categories: ["Software"],
+    filterCategories: [
+      [
+        "Web",
+        "Software"
+       ],
+       [
+         "JavaScript",
+         "CSS"
+       ],
+       [
+         "React",
+         "Node.js",
+         "Express",
+         "MongoDB"
+       ]
+    ]
+  },
   {
     img: "suild_website.png",
     title: "Suild.com",
