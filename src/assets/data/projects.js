@@ -504,8 +504,8 @@ const projects = [
   {
     title: "MOSFETs for Nerf Applications",
     date: "August 2017",
-    img: "mosfet_tutorial.png",
     event: "Suild Documentation",
+    img: "mosfet_tutorial.png",
     description: "An extensive technical write-up on everything there is to know about power MOSFETs for Nerf applications.",
     links: {
       open: "https://suild.com/docs/0"
@@ -535,6 +535,17 @@ const projects = [
          "Arduino"
        ]
     ]
+  },
+  {
+    title: "Let's Robot powered Nerf Turret",
+    date: "July 2017",
+    event: "Suild Documentation",
+    img: "awesome_nerf_turret.jpg",
+    description: "Follow this tutorial to make an internet-controlled Nerf blaster turret with Let's Robot's robot controllers.",
+    links: {
+      files: "https://letsrobot.readme.io/docs/awesome-nerf-turret"
+    },
+    categories: ["Hardware", "Software"]
   },
   {
     title: "Smart Blaster",
