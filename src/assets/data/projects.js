@@ -384,31 +384,26 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "mosfetBoardKit.png",
-  //   "title": "MOSFET Board Kit",
-  //   "date": "January - February 2018",
-  //   "description": "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation. Released as a product shipped and sold internationally.",
-  //   "links": [
-  //     {
-  //       "name": "Check It Out",
-  //       "link": "https://suild.com/shop/0"
-  //     },
-  //     {
-  //       "name": "Schematics",
-  //       "link": "https://github.com/mochoy/suild-electrical-designs/blob/master/MOSFET%20Board%20v1.2.png"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Electronics",
-  //       "PCB Design",
-  //       "Hardware"
-  //      ],
-  //      [
-  //        "Prolog"
-  //      ],
-  //      [
+  {
+    title: "MOSFET Board Kit",
+    date: "January - February 2018",
+    event: "Suild Product",
+    img: "mosfe.png",
+    description: "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation. Released as a product shipped and sold internationally.",
+    links: {
+      open: "https://suild.com/shop/0"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+        "Electronics",
+        "PCB Design",
+        "Hardware"
+       ],
+       [
+         "Prolog"
+       ],
+       [
 
   //      ]
   //   ]
