@@ -714,64 +714,27 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "iatw.png",
-  //   "title": "Isaac Against the World",
-  //   "by": "Annie & Monty",
-  //   "date": "Fall 2016",
-  //   "description": "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser.",
-  //   "event": "Mission Bit winter 2015, second place winner of 2016 Congressional App Challenge",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/mochoy/isaac-against-the-world"
-  //     },
-  //     {
-  //       "name": "Check It Out",
-  //       "link": "https://www.youtube.com/watch?v=poX0YGmnplM"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Software",
-  //       "Web",
-  //       "Games"
-  //      ],
-  //      [
-  //        "JavaScript",
-  //        "HTML",
-  //        "CSS"
-  //      ],
-  //      [
-  //        "Phaser"
-  //      ]
-  //   ]
-  // },
-  // {
-  //   "img": "fps.png",
-  //   "title": "Zombie FPS",
-  //   "by": "Monty & Wesley",
-  //   "date": "November 2014",
-  //   "description": "First-person survival shooter with tons of guns and zombies powered by Unity. Survive through endless wavies of zombies.",
-  //   "event": "CodeDay 2014",
-  //   "links": [
-  //     {
-        
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Software",
-  //       "Games"
-  //      ],
-  //      [
-  //        "C#"
-  //      ],
-  //      [
-  //        "Unity"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Zombie FPS",
+    by: "Monty & Wesley",
+    date: "November 2014",
+    event: "CodeDay 2014",
+    img: "fps.jpg",
+    description: "First-person survival shooter with tons of guns and zombies powered by Unity. Survive through endless wavies of zombies.",
+    categories: ["Software"],
+    filterCategories: [
+      [
+        "Software",
+        "Games"
+       ],
+       [
+         "C#"
+       ],
+       [
+         "Unity"
+       ]
+    ]
+  },
   // {
   //   "img": "CryEngineFPS.png",
   //   "title": "CRYENGINE FPS",
