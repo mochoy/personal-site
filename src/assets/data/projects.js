@@ -735,31 +735,27 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "CryEngineFPS.png",
-  //   "title": "CRYENGINE FPS",
-  //   "by": "Monty & Oscar",
-  //   "date": "Winter 2013",
-  //   "description": "First-person survival shooter made in CRYENGINE.",
-  //   "event": "CodeDay 2013",
-  //   "links": [
-  //     {
-        
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Software",
-  //       "Games"
-  //      ],
-  //      [
+  {
+    title: "CRYENGINE FPS",
+    by: "Monty & Oscar",
+    event: "CodeDay 2013",
+    date: "Winter 2013",
+    img: "cryengine_fps.jpg",
+    description: "First-person survival shooter made in CRYENGINE.",
+    categories: ["Software"],
+    filterCategories: [
+      [
+        "Software",
+        "Games"
+       ],
+       [
          
-  //      ],
-  //      [
+       ],
+       [
          
-  //      ]
-  //   ]
-  // }
+       ]
+    ]
+  }
 ];
 
 export default projects;
