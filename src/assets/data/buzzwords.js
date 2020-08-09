@@ -10,23 +10,23 @@ const buzzwords = {
     },
     {
       name: "Inductive Load Drives",
-      rating: 4.5
+      rating: 4.6
     },
     {
       name: "PCB Layout & Design",
-      rating: 4.5
+      rating: 4.6
     },
     {
       name: "Microcontrollers",
-      rating: 4.4
+      rating: 4.5
     },
     {
       name: "Computer Architecture",
-      rating: 4.4
+      rating: 4.5
     },
     {
       name: "High-Speed Digital Design",
-      rating: 4.3
+      rating: 4.4
     }
   ],
   swe: [
