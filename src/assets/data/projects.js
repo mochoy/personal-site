@@ -358,6 +358,42 @@ const projects = [
     ]
   },
   {
+    title: "Nerf Time",
+    by: "Michael, Monty, & Elias",
+    date: "July 2018",
+    event: "Rapid.io Hackathon",
+    img: "nerf_time.jpg",
+    description: "Nerf turret controlled remotely using web app with live video steaming using a mobile device.",
+    links: {
+      files: "https://github.com/MiLeung/NerfTime"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+        "Nerf Blasters",
+        "Electronics",
+        "Web",
+        "Hardware",
+        "Software",
+        "Mobile"
+       ],
+       [
+         "Python",
+         "JavaScript",
+         "Arduino",
+         "C++",
+         "HTML",
+         "CSS"
+       ],
+       [
+         "Arduino",
+         "React",
+         "Node.js",
+         "Express"
+       ]
+    ]
+  },
+  {
     title: "Smart Stryfe",
     date: "Summer 2018",
     img: "smart_stryfe.jpg",
@@ -381,30 +417,6 @@ const projects = [
        ],
        [
          "Arduino"
-       ]
-    ]
-  },
-  {
-    title: "MOSFET Board Kit",
-    date: "January - February 2018",
-    event: "Suild Product",
-    img: "mosfet_board_kit.jpg",
-    description: "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation. Released as a product shipped and sold internationally.",
-    links: {
-      open: "https://suild.com/shop/0"
-    },
-    categories: ["Hardware", "Software"],
-    filterCategories: [
-      [
-        "Electronics",
-        "PCB Design",
-        "Hardware"
-       ],
-       [
-         "Prolog"
-       ],
-       [
-
        ]
     ]
   },
@@ -466,41 +478,30 @@ const projects = [
     ]
   },
   {
-    title: "Nerf Time",
-    by: "Michael, Monty, & Elias",
-    date: "July 2018",
-    event: "Rapid.io Hackathon",
-    img: "nerf_time.jpg",
-    description: "Nerf turret controlled remotely using web app with live video steaming using a mobile device.",
+    title: "MOSFET Board Kit",
+    date: "January - February 2018",
+    event: "Suild Product",
+    img: "mosfet_board_kit.jpg",
+    description: "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation. Released as a product shipped and sold internationally.",
     links: {
-      files: "https://github.com/MiLeung/NerfTime"
+      open: "https://suild.com/shop/0"
     },
     categories: ["Hardware", "Software"],
     filterCategories: [
       [
-        "Nerf Blasters",
         "Electronics",
-        "Web",
-        "Hardware",
-        "Software",
-        "Mobile"
+        "PCB Design",
+        "Hardware"
        ],
        [
-         "Python",
-         "JavaScript",
-         "Arduino",
-         "C++",
-         "HTML",
-         "CSS"
+         "Prolog"
        ],
        [
-         "Arduino",
-         "React",
-         "Node.js",
-         "Express"
+
        ]
     ]
   },
+  
   {
     title: "Cardboard Chrony",
     date: "August 2017",
