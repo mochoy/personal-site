@@ -632,41 +632,32 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "nerf_ammo_counter.jpg",
-  //   "title": "Nerf Ammo Counter",
-  //   "date": "November 2016",
-  //   "description": "Arduino-powered ammo counter for modified Nerf blasters. Can store and save various magazine sizes and count up from 0. Ammo displayed on small monochrome OLED display.",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/mochoy/nerf-ammo-counter"
-  //     },
-  //     {
-  //       "name": "Check It Out",
-  //       "link": "https://www.youtube.com/watch?v=rPU7j7KLtIw"
-  //     },
-  //     {
-  //       "name": "Schematics",
-  //       "link": "http://i.imgur.com/Qt0TCzn.jpg"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Nerf Blasters",
-  //       "Electronics",
-  //       "Hardware",
-  //       "Software"
-  //      ],
-  //      [
-  //        "C++",
-  //        "Arduino"
-  //      ],
-  //      [
-  //        "Arduino"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Nerf Ammo Counter",
+    date: "November 2016",
+    img: "nerf_ammo_counter.jpg",
+    description: "Arduino-powered ammo counter for modified Nerf blasters. Can store and save various magazine sizes and count up from 0. Ammo displayed on small monochrome OLED display.",
+    links: {
+      open: "https://www.youtube.com/watch?v=rPU7j7KLtIw",
+      files: "https://github.com/mochoy/nerf-ammo-counter"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+        "Nerf Blasters",
+        "Electronics",
+        "Hardware",
+        "Software"
+       ],
+       [
+         "C++",
+         "Arduino"
+       ],
+       [
+         "Arduino"
+       ]
+    ]
+  },
   // {
   //   "img": "kingOfNepalNoodle.png",
   //   "title": "King of Nepal Noodle",
