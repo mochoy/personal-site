@@ -578,39 +578,33 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "vyper_t28.jpg",
-  //   "title": "Vyper T-28",
-  //   "date": "August 2014 - August 2017",
-  //   "description": "Integration of three Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/mochoy/vyper_t-28"
-  //     },
-  //     {
-  //       "name": "Check It Out",
-  //       "link": "https://github.com/mochoy/vyper_t-28"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Nerf Blasters",
-  //       "Electronics",
-  //       "PCB Design",
-  //       "Hardware",
-  //       "Software"
-  //      ],
-  //      [
-  //        "C++",
-  //        "Arduino",
-  //        "Prolog"
-  //      ],
-  //      [
-  //        "Arduino"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Vyper T-28",
+    date: "August 2014 - August 2017",
+    img: "vyper_t28.jpg",
+    description: "Integration of three Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
+    links: {
+      files: "https://github.com/mochoy/vyper_t-28"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+        "Nerf Blasters",
+        "Electronics",
+        "PCB Design",
+        "Hardware",
+        "Software"
+       ],
+       [
+         "C++",
+         "Arduino",
+         "Prolog"
+       ],
+       [
+         "Arduino"
+       ]
+    ]
+  },
   // {
   //   "img": "smart_strayven.jpg",
   //   "title": "Smart Strayven",
