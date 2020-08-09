@@ -685,6 +685,35 @@ const projects = [
        ]
     ]
   },
+  {
+    title: "Isaac Against the World",
+    by: "Annie & Monty",
+    date: "Fall 2016",
+    event: "Mission Bit winter 2015",
+    award: "2nd Place Congressional App Challenge 2016",
+    img: "iatw.png",
+    description: "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser.",
+    links: {
+      open: "https://www.youtube.com/watch?v=poX0YGmnplM",
+      files: "https://github.com/mochoy/isaac-against-the-world"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+        "Software",
+        "Web",
+        "Games"
+       ],
+       [
+         "JavaScript",
+         "HTML",
+         "CSS"
+       ],
+       [
+         "Phaser"
+       ]
+    ]
+  },
   // {
   //   "img": "iatw.png",
   //   "title": "Isaac Against the World",
