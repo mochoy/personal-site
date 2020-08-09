@@ -18,7 +18,7 @@ const resumesData = [
   },
   {
     resume: hweResumePdf,
-    name: "Software Engineering - Embedded Systems"
+    name: "Software Engineering - Embedded Systems Programming"
   },
   {
     resume: hweResumePdf,
