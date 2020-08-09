@@ -465,44 +465,42 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "nerfTime.jpg",
-  //   "title": "Nerf Time",
-  //   "by": "Michael, Monty, & Elias",
-  //   "date": "July 2018",
-  //   "description": "Nerf turret controlled remotely using web app with live video steaming using a mobile device.",
-  //   "event": "Rapid.io hackathon",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/MiLeung/NerfTime"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Nerf Blasters",
-  //       "Electronics",
-  //       "Web",
-  //       "Hardware",
-  //       "Software",
-  //       "Mobile"
-  //      ],
-  //      [
-  //        "Python",
-  //        "JavaScript",
-  //        "Arduino",
-  //        "C++",
-  //        "HTML",
-  //        "CSS"
-  //      ],
-  //      [
-  //        "Arduino",
-  //        "React",
-  //        "Node.js",
-  //        "Express"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Nerf Time",
+    by: "Michael, Monty, & Elias",
+    date: "July 2018",
+    event: "Rapid.io Hackathon",
+    img: "nerf_time.jpg",
+    description: "Nerf turret controlled remotely using web app with live video steaming using a mobile device.",
+    links: {
+      files: "https://github.com/MiLeung/NerfTime"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+        "Nerf Blasters",
+        "Electronics",
+        "Web",
+        "Hardware",
+        "Software",
+        "Mobile"
+       ],
+       [
+         "Python",
+         "JavaScript",
+         "Arduino",
+         "C++",
+         "HTML",
+         "CSS"
+       ],
+       [
+         "Arduino",
+         "React",
+         "Node.js",
+         "Express"
+       ]
+    ]
+  },
   // {
   //   "img": "arduino_chronograph.jpg",
   //   "title": "Cardboard Chrony",
