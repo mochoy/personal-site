@@ -525,35 +525,33 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "smart_blaster.jpg",
-  //   "title": "Smart Blaster",
-  //   "date": "July 2017 - Present",
-  //   "description": "A hardware and software platform consisting of stackable PCB modules and a library compatible with Teensy and Arduino microcontrollers enabling ammo counting and more for modified Nerf blasters.",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/mochoy/smart-blaster"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Nerf Blasters",
-  //       "Electronics",
-  //       "PCB Design",
-  //       "Hardware",
-  //       "Software"
-  //      ],
-  //      [
-  //        "Arduino",
-  //        "C++",
-  //        "Prolog"
-  //      ],
-  //      [
-  //        "Arduino"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Smart Blaster",
+    date: "July 2017 - Present",
+    img: "smart_blaster.jpg",
+    description: "A hardware and software platform consisting of stackable PCB modules and a library compatible with Teensy and Arduino microcontrollers enabling ammo counting and more for modified Nerf blasters.",
+    links: {
+      files: "https://github.com/mochoy/smart-blaster"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+        "Nerf Blasters",
+        "Electronics",
+        "PCB Design",
+        "Hardware",
+        "Software"
+       ],
+       [
+         "Arduino",
+         "C++",
+         "Prolog"
+       ],
+       [
+         "Arduino"
+       ]
+    ]
+  },
   // {
   //   "img": "Awesome-Nerf-Turret.png",
   //   "title": "Awesome Nerf Turret",
