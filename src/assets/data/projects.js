@@ -388,7 +388,7 @@ const projects = [
     title: "MOSFET Board Kit",
     date: "January - February 2018",
     event: "Suild Product",
-    img: "mosfe.png",
+    img: "mosfet_board_kit.jpg",
     description: "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation. Released as a product shipped and sold internationally.",
     links: {
       open: "https://suild.com/shop/0"
