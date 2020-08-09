@@ -658,34 +658,33 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "kingOfNepalNoodle.png",
-  //   "title": "King of Nepal Noodle",
-  //   "date": "Summer 2016",
-  //   "description": "In Andoid game code named 'King of Nepal Noodle', evolve through the ages to defend against the enemies from stealing your treasure by controlling your primary tower, building and upgrading more towers, and setting traps in this tower defense gamed played in the portrait orientation.",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/mochoy/king-of-nepal-noodle"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Software",
-  //       "Web",
-  //       "Games",
-  //       "Mobile"
-  //      ],
-  //      [
-  //        "JavaScript",
-  //        "HTML",
-  //        "CSS"
-  //      ],
-  //      [
-  //        "Phaser"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "King of Nepal Noodle",
+    date: "Summer 2016",
+    img: "king_of_nepal_noodle.png",
+    description: "In Andoid game code named 'King of Nepal Noodle', evolve through the ages to defend against the enemies from stealing your treasure by controlling your primary tower, building and upgrading more towers, and setting traps in this tower defense gamed played in the portrait orientation.",
+    links: {
+      open: "https://devpost.com/software/telementary-box",
+      files: "https://github.com/mochoy/king-of-nepal-noodle"
+    },
+    categories: ["Software"],
+    filterCategories: [
+      [
+        "Software",
+        "Web",
+        "Games",
+        "Mobile"
+       ],
+       [
+         "JavaScript",
+         "HTML",
+         "CSS"
+       ],
+       [
+         "Phaser"
+       ]
+    ]
+  },
   // {
   //   "img": "iatw.png",
   //   "title": "Isaac Against the World",
