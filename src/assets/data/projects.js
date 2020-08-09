@@ -605,35 +605,33 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "smart_strayven.jpg",
-  //   "title": "Smart Strayven",
-  //   "date": "August 2013 - Present",
-  //   "description": "Integration of two Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/mochoy/smart-strayven"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Nerf Blasters",
-  //       "Electronics",
-  //       "PCB Design",
-  //       "Hardware",
-  //       "Software"
-  //      ],
-  //      [
-  //        "C++",
-  //        "Arduino",
-  //        "Prolog"
-  //      ],
-  //      [
-  //        "Arduino"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Smart Strayven",
+    date: "August 2013 - Present",
+    img: "smart_strayven.jpg",
+    description: "Integration of two Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
+    links: {
+      files: "https://github.com/mochoy/smart-strayven"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+        "Nerf Blasters",
+        "Electronics",
+        "PCB Design",
+        "Hardware",
+        "Software"
+       ],
+       [
+         "C++",
+         "Arduino",
+         "Prolog"
+       ],
+       [
+         "Arduino"
+       ]
+    ]
+  },
   // {
   //   "img": "nerf_ammo_counter.jpg",
   //   "title": "Nerf Ammo Counter",
