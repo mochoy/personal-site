@@ -501,32 +501,30 @@ const projects = [
        ]
     ]
   },
-  // {
-  //   "img": "arduino_chronograph.jpg",
-  //   "title": "Cardboard Chrony",
-  //   "date": "August 2017",
-  //   "description": "Arduino-powered blastics chronograph able to track and calculate muzzle velocity of Nerf blasters, airsoft guns, paintball guns, and more. Built with an Arduino Nano, side-looking IR emitters and receivers, I2C monochrome OLED display, PVC, and a cardboard box.",
-  //   "links": [
-  //     {
-  //       "name": "Code",
-  //       "link": "https://github.com/mochoy/arduino-chronograph"
-  //     }
-  //   ],
-  //   filterCategories: [
-  //     [
-  //       "Electronics",
-  //       "Hardware",
-  //       "Software"
-  //      ],
-  //      [
-  //        "C++",
-  //        "Arduino"
-  //      ],
-  //      [
-  //        "Arduino"
-  //      ]
-  //   ]
-  // },
+  {
+    title: "Cardboard Chrony",
+    date: "August 2017",
+    img: "arduino_chronograph.jpg",
+    description: "Arduino-powered blastics chronograph able to track and calculate muzzle velocity of Nerf blasters, airsoft guns, paintball guns, and more. Built with an Arduino Nano, side-looking IR emitters and receivers, I2C monochrome OLED display, PVC, and a cardboard box.",
+    links: {
+      files: "https://github.com/mochoy/arduino-chronograph"
+    },
+    categories: ["Hardware", "Software"],
+    filterCategories: [
+      [
+        "Electronics",
+        "Hardware",
+        "Software"
+       ],
+       [
+         "C++",
+         "Arduino"
+       ],
+       [
+         "Arduino"
+       ]
+    ]
+  },
   // {
   //   "img": "smart_blaster.jpg",
   //   "title": "Smart Blaster",
