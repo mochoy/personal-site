@@ -17,7 +17,10 @@ const Experience = props => {
 
             const contentPoints = content.map((contentPoint, contentKey) => {
               return (
-                <li key={contentKey}>{contentPoint}</li>
+                <div key={contentKey} className="flex-container-left">
+                  <span className="bullet">&#8226;</span>
+                  <p className="bullet-points-text">{contentPoint}</p>
+                </div>
               )
             });
 
