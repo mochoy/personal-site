@@ -24,17 +24,18 @@ const Projects = props => {
   React.useEffect(() => {
     let newProjectsToDisplay;
 
-    if (filter === filterOptions[1]) {  // hw
-      newProjectsToDisplay = projectsData.filter(
-        project => project.categories.indexOf(filterOptions[1]) !== -1
-      );
-    } else if (filter === filterOptions[2]) { //sw
-      newProjectsToDisplay = projectsData.filter(
-        project => project.categories.indexOf(filterOptions[2]) !== -1
-      );
-    } else {  // all
+    if (filter === filterOptions[0]) {    // "All" filter selected
       newProjectsToDisplay = projectsData;
+    } else {    // Any other filter besides "All"
+      const filterIndex = filterOptions.indexOf(filter);
+
+      // Allow a project to pass filter if the selected filter is in that 
+      // project's categories array 
+      newProjectsToDisplay = projectsData.filter(
+        project => project.categories.indexOf(filterOptions[filterIndex]) !== -1
+      );
     }
+
 
     setProjectsToDisplay(newProjectsToDisplay);
 
