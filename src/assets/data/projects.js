@@ -655,6 +655,17 @@ const projects = [
     ]
   },
   {
+    title: "Personal Website",
+    date: "January 2017 - Present",
+    img: "personal_site.jpg",
+    description: "You're on this right now!",
+    links: {
+      open: "https://montychoy.com/",
+      files: "https://github.com/mochoy/personal-site"
+    },
+    categories: ["Software", "Web"]
+  },
+  {
     title: "Nerf Ammo Counter Tutorial",
     date: "November 2016",
     event: "Suild Documentation",
