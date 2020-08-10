@@ -9,7 +9,7 @@ const projects = [
     links: { 
       open: "https://suild.com/tools/flywheel-setup-picker" 
     },
-    categories: ["Software"]
+    categories: ["Software", "Web"]
   },
   {
     title: "RISC-V OTTER MCU",
@@ -35,7 +35,7 @@ const projects = [
       open: "https://devpost.com/software/telementary-box",
       files: "https://github.com/warthogs32/locker"
     },
-    categories: ["Hardware", "Software"]
+    categories: ["Hardware", "Software", "Web"]
   },
   {
     title: "ATMega328P Eval Board",
@@ -202,7 +202,7 @@ const projects = [
     links: {
       open: "https://suild.com/tools/lipo-calculator"
     },
-    categories: ["Software"],
+    categories: ["Software", "Web"],
     filterCategories: [
       [
          "Web",
@@ -255,7 +255,7 @@ const projects = [
     links: {
       open: "https://suild.com/tools/lipo-checker",
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Software", "Web"],
     filterCategories: [
       [
          "Web",
@@ -282,7 +282,7 @@ const projects = [
     links: {
       files: "https://github.com/mochoy/cal-poly-arduino-fest"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Web"],
     filterCategories: [
       [
          "Nerf Blasters",
@@ -367,7 +367,7 @@ const projects = [
     links: {
       files: "https://github.com/MiLeung/NerfTime"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Web"],
     filterCategories: [
       [
         "Nerf Blasters",
@@ -429,7 +429,7 @@ const projects = [
     links: {
       open: "https://suild.com/motor-chart"
     },
-    categories: ["Software"],
+    categories: ["Software", "Web"],
     filterCategories: [
       [
         "Web",
@@ -458,7 +458,7 @@ const projects = [
     links: {
       open: "https://suild.com",
     },
-    categories: ["Software"],
+    categories: ["Software", "Web"],
     filterCategories: [
       [
         "Web",
@@ -583,7 +583,7 @@ const projects = [
     links: {
       files: "https://github.com/mochoy/runmyrobot"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Web"],
     filterCategories: [
       [
         "Nerf Blasters",
@@ -700,7 +700,7 @@ const projects = [
       open: "https://devpost.com/software/telementary-box",
       files: "https://github.com/mochoy/king-of-nepal-noodle"
     },
-    categories: ["Software"],
+    categories: ["Software", "Web"],
     filterCategories: [
       [
         "Software",
@@ -730,7 +730,7 @@ const projects = [
       open: "https://www.youtube.com/watch?v=poX0YGmnplM",
       files: "https://github.com/mochoy/isaac-against-the-world"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Web"],
     filterCategories: [
       [
         "Software",
