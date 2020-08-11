@@ -10,7 +10,7 @@ import Project from './Project';
 import './index.css';
 
 
-const filterOptions = ["All", "Hardware", "Software", "Web"];
+const filterOptions = ["All", "Hardware", "Software", "Web", "Nerf"];
 
 const Projects = props => {
   const { projectsData } = props;
