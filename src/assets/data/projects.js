@@ -9,7 +9,7 @@ const projects = [
     links: { 
       open: "https://suild.com/tools/flywheel-setup-picker" 
     },
-    categories: ["Software", "Web"]
+    categories: ["Software", "Web", "Nerf"]
   },
   {
     title: "RISC-V OTTER MCU",
