@@ -70,7 +70,7 @@ const projects = [
       open: "https://suild.com/shop/4",
       files: "https://github.com/Suild/select-fire-rapidstrike-kit"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Nerf"],
     filterCategories: [
       [
         "Electronics",
