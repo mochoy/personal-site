@@ -99,7 +99,7 @@ const projects = [
       open: "https://suild.com/shop/3",
       files: "https://github.com/Suild/pwm-module"
     },
-    categories: ["Hardware"],
+    categories: ["Hardware", "Nerf"],
     filterCategories: [
       [
         "Electronics",
