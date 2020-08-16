@@ -660,7 +660,13 @@ const projects = [
     date: "January 2017 - May 2017",
     event: "Advanced Architectural Design",
     prize: "3rd Place Best Group Design Bay Area Architectural Foundation Competition",
-    img: "serendipity/aerial.jpg",
+    img: [
+      "serendipity/aerial.jpg",
+      "serendipity/front.jpg",
+      "serendipity/group.jpg",
+      "serendipity/plans.jpg",
+      "serendipity/landscape.jpg"
+    ],
     description: "A Music Production Hub situated between Pier 1 and Pier 2 in Fort Mason's Historic Landmark District, residing close to the current home of the Fort Mason Center for Arts and Culture (FMCAC) which consolidates various outlets for people to explore their creative and artistic abilities.",
     links: {},
     categories: ["Architecture"]
