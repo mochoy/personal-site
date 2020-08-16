@@ -19,8 +19,12 @@
   width: 50%;
 }
 
-.left-select:hover, .right-select:hover {
-  background-color: black;
+.right-select:hover {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), black);
+}
+
+.left-select:hover {
+  background-image: linear-gradient(to left, rgba(255,0,0,0), black);
 }
 
 .Content .icon {
