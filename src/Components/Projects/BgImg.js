@@ -17,7 +17,7 @@ const BgImg = props => {
       { !!hasMultipleImgs &&
         <div className="flex-container">
           <div className="left-select mouse-on-hover">
-            <i className="chevron down"/>
+            
           </div>
           <div className="right-select mouse-on-hover"/>
         </div>
