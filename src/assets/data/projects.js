@@ -655,6 +655,17 @@ const projects = [
     ]
   },
   {
+    title: "Serendipity",
+    by: "Jet, Cherry, & Monty",
+    date: "January 2017 - May 2017",
+    event: "Advanced Architectural Design",
+    prize: "3rd Place Best Group Design Bay Area Architectural Foundation Competition",
+    img: "serendipity/aerial.jpg",
+    description: "A Music Production Hub situated between Pier 1 and Pier 2 in Fort Mason's Historic Landmark District, residing close to the current home of the Fort Mason Center for Arts and Culture (FMCAC) which consolidates various outlets for people to explore their creative and artistic abilities.",
+    links: {},
+    categories: ["Architecture"]
+  },
+  {
     title: "Personal Website",
     date: "January 2017 - Present",
     img: "personal_site.jpg",
@@ -705,7 +716,7 @@ const projects = [
   {
     title: "Calaveras County Cabin",
     date: "September 2016 - June 2017",
-    event: "Advanced Architecture",
+    event: "Advanced Architectural Design",
     img: "calaveras_county_cabin/front.jpg",
     description: "A small year-round vacation cabin used for fun and relaxation away from the hustle and bustle of the busy and congested metropolitan area. This cabin is a comfortable, well-designed retreat, with an approximate area of 1600 square-feet. This is a flexible and sustainable space, taking advantage of 'green' technology, energy savings, innovative and minimal materials, and attention to space and light. Intgration with the beautiful outdoors are also central to the design.",
     links: {},
