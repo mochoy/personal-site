@@ -19,6 +19,13 @@
   width: 50%;
 }
 
+.left-select .chevron {
+  position: absolute;
+  display: block;
+  /* left: 50%; */
+  /* top: 10%; */
+}
+
 .right-select:hover {
   background-image: linear-gradient(to right, rgba(255,0,0,0), black);
 }
