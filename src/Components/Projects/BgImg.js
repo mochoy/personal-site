@@ -19,13 +19,13 @@ const BgImg = props => {
       { !!hasMultipleImgs &&
         <div className="flex-container">
           <div className="left-select mouse-on-hover flex-container-vertically-center">
-            <FaArrowCircleLeft className="icon"/>
+            <FaArrowCircleLeft className="go-left-img-icon icon"/>
           </div>
 
           <div/>
 
           <div className="right-select mouse-on-hover  flex-container-vertically-center flex-container-right">
-            <FaArrowCircleRight className="icon"/>
+            <FaArrowCircleRight className="go-right-img-icon icon"/>
           </div>
         </div>
       }
