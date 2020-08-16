@@ -703,6 +703,15 @@ const projects = [
     ]
   },
   {
+    title: "Calaveras County Cabin",
+    date: "September 2016 - June 2017",
+    event: "Advanced Architecture",
+    img: "calaveras_county_cabin/front.jpg",
+    description: "A small year-round vacation cabin used for fun and relaxation away from the hustle and bustle of the busy and congested metropolitan area. This cabin is a comfortable, well-designed retreat, with an approximate area of 1600 square-feet. This is a flexible and sustainable space, taking advantage of 'green' technology, energy savings, innovative and minimal materials, and attention to space and light. Intgration with the beautiful outdoors are also central to the design.",
+    links: {},
+    categories: ["Architecture"]
+  },
+  {
     title: "King of Nepal Noodle",
     date: "Summer 2016",
     img: "king_of_nepal_noodle.png",
