@@ -124,7 +124,7 @@ const projects = [
       open: "https://suild.com/shop/1",
       files: "https://github.com/Suild/mosfet-board-plus"
     },
-    categories: ["Hardware"],
+    categories: ["Hardware", "Nerf"],
     filterCategories: [
       [
         "Electronics",
