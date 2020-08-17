@@ -4,6 +4,9 @@ import Icons from './Icons';
 import LinksAndCategories from './LinksAndCategories';
 
 
+import './index.css';
+
+
 const Content = props => {
   const { direction,
     projectData,
@@ -33,7 +36,7 @@ const Content = props => {
       { hasMultipleImgs && 
         <div className="flex-container-horizontally-center">
           { imgs.map((img, index) => {
-            
+
               return (
                 <div>
                   <img className="small-select-img"
