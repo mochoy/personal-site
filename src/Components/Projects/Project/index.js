@@ -25,6 +25,9 @@ const Project = props => {
     hasMultipleImgs ? img[0] : img
   );
 
+  // Get index of img being displayed if has multiple imgs, otherwise -1
+  const imgSrcIndex = hasMultipleImgs ? img.indexOf(imgToDisplay) : -1;
+
 
   return (
     <div className="Project">
@@ -34,12 +37,8 @@ const Project = props => {
 
         hasMultipleImgs={hasMultipleImgs}
 
-        imgs={img /* This should only be used if hasMultipleImgs is true */ }
-        imgSrcIndex={ /* This should only be used if hasMultipleImgs is true */ 
-          hasMultipleImgs 
-            ? img.indexOf(imgToDisplay)
-            : 0
-        }
+        imgs={img /* Should only be used if multiple imgs */ }
+        imgSrcIndex={ imgSrcIndex /* Should only be used if multiple imgs */ }
       />
 
       <Content
