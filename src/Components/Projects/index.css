@@ -10,32 +10,6 @@
   margin-bottom: 0.2em;
 }
 
-.bg-img .flex-container {
-  height: 100%;
-  width: 100%;
-}
-
-.bg-img .flex-container div {
-  /* background-color: green; */
-  flex-grow: 1;
-}
-
-.left-select .icon, .right-select .icon {
-  font-size: 1.5em;
-  margin: 0 0.2em;
-  visibility: hidden;
-}
-
-.left-select:hover .go-left-img-icon {
-  visibility: visible;
-  /* background-image: linear-gradient(to left, rgba(255,0,0,0), black); */
-}
-
-.right-select:hover .go-right-img-icon {
-  visibility: visible;
-  /* background-image: linear-gradient(to right, rgba(255,0,0,0), black); */
-}
-
 #Filter #first:before {
   content: "";
   padding: 0;

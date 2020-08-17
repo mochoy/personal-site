@@ -3,6 +3,9 @@ import React from 'react';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 
 
+import './index.css';
+
+
 const BgImg = props => {
   const { imgSrc, 
     setImgToDisplay, 
