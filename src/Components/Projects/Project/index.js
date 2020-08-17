@@ -41,8 +41,12 @@ const Project = props => {
         imgSrcIndex={ imgSrcIndex /* Should only be used if multiple imgs */ }
       />
 
-      <Content
+      <Content 
         projectData={project}
+
+        hasMultipleImgs={hasMultipleImgs}
+        imgs={img /* Should only be used if multiple imgs */ }
+        imgSrcIndex={ imgSrcIndex /* Should only be used if multiple imgs */ }
       />
 
     </div>

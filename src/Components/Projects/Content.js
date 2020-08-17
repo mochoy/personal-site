@@ -5,7 +5,14 @@ import LinksAndCategories from './LinksAndCategories';
 
 
 const Content = props => {
-  const { direction, projectData } = props;
+  const { direction,
+    projectData,
+
+    // Should only be used if multiple imgs, these vals are used for displaying
+    // and selecting img preview
+    hasMultipleImgs,
+    imgs,
+    imgSrcIndex } = props;
 
   const { title, 
     by, 
@@ -21,6 +28,26 @@ const Content = props => {
 
   return (
     <div className="Content">
+
+      { /* For small imgs */ }
+      { hasMultipleImgs && 
+        <div className="flex-container-horizontally-center">
+          { imgs.map((img, index) => {
+            console.log(img)
+
+              return (
+                <div>
+                  <img className="small-select-img"
+                    src={ require(`assets/images/projects/${img}`) }
+                  />
+                </div>
+              )
+            })
+          }
+        </div>
+
+      }
+
       <h2>{title}</h2>
 
       <Icons direction={direction} 
