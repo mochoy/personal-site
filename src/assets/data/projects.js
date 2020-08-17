@@ -662,7 +662,7 @@ const projects = [
     prize: "3rd Place Best Group Design Bay Area Architectural Foundation Competition",
     img: [
       "serendipity/aerial.jpg",
-      "serendipity/front.jpg",
+      "serendipity/front.jpeg",
       "serendipity/group.jpg",
       "serendipity/plans.jpg",
       "serendipity/landscape.jpg"
