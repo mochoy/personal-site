@@ -728,7 +728,7 @@ const projects = [
       "calaveras_county_cabin/aerial.jpg",
       "calaveras_county_cabin/back.jpg",
       "calaveras_county_cabin/side.jpg",
-      "calaveras_county_cabin/drawings.jpg",
+      "calaveras_county_cabin/drawings.png",
     ],
     description: "A small year-round vacation cabin used for fun and relaxation away from the hustle and bustle of the busy and congested metropolitan area. This cabin is a comfortable, well-designed retreat, with an approximate area of 1600 square-feet. This is a flexible and sustainable space, taking advantage of 'green' technology, energy savings, innovative and minimal materials, and attention to space and light. Intgration with the beautiful outdoors are also central to the design.",
     links: {},
