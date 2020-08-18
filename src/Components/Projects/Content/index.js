@@ -15,7 +15,8 @@ const Content = props => {
     // and selecting img preview
     hasMultipleImgs,
     imgs,
-    imgSrcIndex } = props;
+    imgSrcIndex,
+    setImgToDisplay } = props;
 
   const { title, 
     by, 
@@ -39,7 +40,7 @@ const Content = props => {
 
               return (
                 <div>
-                  <img className="small-select-img"
+                  <img onClick={e => setImgToDisplay(imgs[index])}
                     src={ require(`assets/images/projects/${img}`) }
                   />
                 </div>

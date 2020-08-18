@@ -47,6 +47,7 @@ const Project = props => {
         hasMultipleImgs={hasMultipleImgs}
         imgs={img /* Should only be used if multiple imgs */ }
         imgSrcIndex={ imgSrcIndex /* Should only be used if multiple imgs */ }
+        setImgToDisplay={setImgToDisplay /* Should only be used if multiple imgs */ }
       />
 
     </div>
