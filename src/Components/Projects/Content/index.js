@@ -35,12 +35,15 @@ const Content = props => {
 
       { /* For small imgs */ }
       { hasMultipleImgs && 
-        <div className="flex-container-horizontally-center">
+        <div className="small-select-imgs flex-container-horizontally-center">
           { imgs.map((img, index) => {
+              const isSelected = (index === imgSrcIndex);
+              const selectedClassName = isSelected ? "selected" : "";
 
               return (
-                <div>
+                <div key={index}>
                   <img onClick={e => setImgToDisplay(imgs[index])}
+                    className={`small-select-img mouse-on-hover ${selectedClassName}`}
                     src={ require(`assets/images/projects/${img}`) }
                   />
                 </div>
