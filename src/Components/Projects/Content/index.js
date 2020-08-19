@@ -42,9 +42,10 @@ const Content = props => {
 
               return (
                 <div key={index}>
-                  <img onClick={e => setImgToDisplay(imgs[index])}
+                  <img onClick={() => setImgToDisplay(imgs[index])}
                     className={`small-select-img mouse-on-hover ${selectedClassName}`}
-                    src={ require(`assets/images/projects/${img}`) }
+                    src={require(`assets/images/projects/${img}`)}
+                    alt={img}
                   />
                 </div>
               )
