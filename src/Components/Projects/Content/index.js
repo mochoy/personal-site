@@ -1,5 +1,6 @@
 import React from 'react';
 
+import SmallSelectImgs from './SmallSelectImgs';
 import Icons from './Icons';
 import LinksAndCategories from './LinksAndCategories';
 
@@ -32,6 +33,10 @@ const Content = props => {
 
   return (
     <div className="Content">
+      
+      <SmallSelectImgs
+      
+      />
 
       { /* For small imgs */ }
       { hasMultipleImgs && 
