@@ -3,6 +3,7 @@ import React from 'react';
 import ReactTooltip from 'react-tooltip';
 import { GoMarkGithub, GoFileCode, GoCircuitBoard } from "react-icons/go";
 import { FiExternalLink, FiGlobe } from "react-icons/fi";
+import { FaPencilRuler } from "react-icons/fa";
 
 
 const LinksAndCategories = props => {
@@ -76,6 +77,7 @@ const CategoryIcons = props => {
         <p style={{ margin: 0 }}>Hardware Project</p>
       </ReactTooltip>
 
+
       {/* Web Icon */}
       { categories.indexOf("Web") !== -1 &&
         <FiGlobe size="1.5em" data-tip data-for='webTooltip'/>
@@ -83,6 +85,16 @@ const CategoryIcons = props => {
 
       <ReactTooltip id='webTooltip' effect='solid'>
         <p style={{ margin: 0 }}>Web Project</p>
+      </ReactTooltip>
+
+
+      {/* Architecture Icon */}
+      { categories.indexOf("Architecture") !== -1 &&
+        <FaPencilRuler size="1.5em" data-tip data-for='architectureTooltip'/>
+      }
+
+      <ReactTooltip id='architectureTooltip' effect='solid'>
+        <p style={{ margin: 0 }}>Architecture Project</p>
       </ReactTooltip>
 
     </div>
