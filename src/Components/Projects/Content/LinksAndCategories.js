@@ -88,6 +88,19 @@ const CategoryIcons = props => {
       </ReactTooltip>
 
 
+      {/* Nerf Icon */}
+      { categories.indexOf("Nerf") !== -1 &&
+        <img src={require(`assets/images/logos/nerf_logo.svg`)}
+          alt={"nerf_logo"}
+          style={{ height: "1.5em" }}
+        />
+      }
+
+      <ReactTooltip id='nerfTooltip' effect='solid'>
+        <p style={{ margin: 0 }}>Nerf Project</p>
+      </ReactTooltip>
+
+
       {/* Architecture Icon */}
       { categories.indexOf("Architecture") !== -1 &&
         <FaPencilRuler size="1.5em" data-tip data-for='architectureTooltip'/>
