@@ -24,8 +24,6 @@ const App = () => {
 
     // if pathname specified, scroll to it 
     if (pathname.length > 0) {
-      console.log(`#${pathname}`)
-
       scrollToElement(`#${pathname}`)
     }
   }, []);

@@ -19,7 +19,9 @@ const FeaturedProject = props => {
 
   if (direction === "right") {
     return (
-      <div className={`FeaturedProject ${direction} horizontally-center`}>
+      <div id={project.title.replace(" ", "_").toLowerCase()}
+        className={`FeaturedProject ${direction} horizontally-center`}
+      >
         <div className="flex-container-horizontally-center">
           <BgImg imgSrc={img}/>
 

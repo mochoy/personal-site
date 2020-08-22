@@ -30,7 +30,7 @@ const Project = props => {
 
 
   return (
-    <div className="Project">
+    <div id={project.title.replace(" ", "_").toLowerCase()} className="Project">
       <BgImg 
         imgSrc={imgToDisplay}
         setImgToDisplay={setImgToDisplay}
