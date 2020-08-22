@@ -3,7 +3,7 @@ import React from 'react';
 import ReactTooltip from 'react-tooltip';
 import { GoMarkGithub, GoFileCode, GoCircuitBoard } from "react-icons/go";
 import { FiExternalLink, FiGlobe } from "react-icons/fi";
-import { FaPencilRuler } from "react-icons/fa";
+import { FaPencilRuler, FaPen } from "react-icons/fa";
 
 
 const LinksAndCategories = props => {
@@ -90,10 +90,8 @@ const CategoryIcons = props => {
 
       {/* Nerf Icon */}
       { categories.indexOf("Nerf") !== -1 &&
-        <img src={require(`assets/images/logos/nerf_logo.svg`)}
-          alt={"nerf_logo"}
-          style={{ height: "1.5em" }}
-        />
+      
+       <FaPen size="1.5em" data-tip data-for='nerfTooltip'/>
       }
 
       <ReactTooltip id='nerfTooltip' effect='solid'>
