@@ -20,7 +20,9 @@ const App = () => {
 
   // Need to wrap scroll event in useEffect, idk why
   React.useEffect(() => {
-    const pathname = window.location.pathname.replace("/", "");  // montychoy.com/{pathname}
+    const pathname = window.location.pathname // montychoy.com/{pathname}
+      .replace("/", "")
+      .toLowerCase();
 
     // if pathname specified, scroll to it 
     if (pathname.length > 0) {
