@@ -17,9 +17,20 @@ import './index.css';
 
 
 const App = () => {
-  const pathname = window.location.pathname;  // montychoy.com/{pathname}
 
-  console.log(pathname)
+  // Need to wrap scroll event in useEffect, idk why
+  React.useEffect(() => {
+    const pathname = window.location.pathname.replace("/", "");  // montychoy.com/{pathname}
+
+    // if pathname specified, scroll to it 
+    if (pathname.length > 0) {
+      console.log(`#${pathname}`)
+
+      scrollToElement(`#${pathname}`)
+    }
+  }, []);
+
+  
 
 
   return (
