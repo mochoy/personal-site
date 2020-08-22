@@ -1,4 +1,5 @@
 import React from 'react';
+import scrollToElement from 'scroll-to-element';
 
 import Home from '../Home';
 import About from '../About';
@@ -15,7 +16,12 @@ import projects from '../../assets/data/projects';
 import './index.css';
 
 
-function App() {
+const App = () => {
+  const pathname = window.location.pathname;  // montychoy.com/{pathname}
+
+  console.log(pathname)
+
+
   return (
     <div className="App">
       <Home/>
