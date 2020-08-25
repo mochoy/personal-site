@@ -1,5 +1,6 @@
 import React from 'react';
 import scrollToElement from 'scroll-to-element';
+import ReactGA from 'react-ga';
 
 import Home from '../Home';
 import About from '../About';
@@ -14,6 +15,10 @@ import projects from '../../assets/data/projects';
 
 
 import './index.css';
+
+
+ReactGA.initialize('UA-000000-01');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 const App = () => {
