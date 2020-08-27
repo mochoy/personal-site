@@ -17,7 +17,9 @@ import projects from '../../assets/data/projects';
 import './index.css';
 
 
-ReactGA.initialize('UA-128598718-1');
+ReactGA.initialize('UA-128598718-1', {
+  debug: true
+});
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 
