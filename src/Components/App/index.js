@@ -18,7 +18,8 @@ import './index.css';
 
 
 ReactGA.initialize('UA-128598718-1', {
-  debug: true
+  debug: true,
+  testMode: true
 });
 ReactGA.pageview(window.location.pathname + window.location.search);
 
