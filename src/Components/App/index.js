@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import scrollToElement from 'scroll-to-element';
 import ReactGA from 'react-ga';
 
