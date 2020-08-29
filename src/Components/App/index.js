@@ -19,7 +19,8 @@ import './index.css';
 
 ReactGA.initialize('UA-128598718-1', {
   debug: true,
-  testMode: true
+  testMode: true,
+  siteSpeedSampleRate: 100
 });
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -38,7 +39,6 @@ const App = () => {
     }
   }, []);
 
-  
 
 
   return (
