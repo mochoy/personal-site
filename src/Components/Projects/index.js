@@ -105,12 +105,17 @@ const Projects = props => {
                 (project) => {
                   const { id } = project;
                   return (
-                    <VisibilitySensor key={id}
-                      partialVisibility={true} 
-                      onChange={ isVisible => projectVisited(isVisible, project.title) }
-                    >
-                      <Project project={project}/>
-                    </VisibilitySensor>
+                    <div key={id}> 
+                    {/* This div is needed to make sure height doesnt get messed up from react-flip */}
+                    
+                      <VisibilitySensor
+                        partialVisibility={true} 
+                        onChange={ isVisible => projectVisited(isVisible, project.title) }
+                      >
+                        <Project project={project}/>
+                      </VisibilitySensor>
+                    </div>
+                    
                   )
                 }
               )
