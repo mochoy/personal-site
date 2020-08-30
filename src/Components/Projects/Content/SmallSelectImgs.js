@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import { ReactGACtx } from '../../App';
 
 
 const SmallSelectImgs = props => {
@@ -9,6 +11,9 @@ const SmallSelectImgs = props => {
     setImgToDisplay
   } = props;
 
+  const ReactGA = useContext(ReactGACtx);
+
+
   if (hasMultipleImgs) {
     return (
       <div className="SmallSelectImgs flex-container-horizontally-center">
@@ -18,7 +23,15 @@ const SmallSelectImgs = props => {
 
             return (
               <div key={index}>
-                <img onClick={() => setImgToDisplay(imgs[index])}
+                <img onClick={() => {
+                  ReactGA.event({
+                    category: 'Project',
+                    action: 'Big Img Carousel Small Img',
+                    label: index
+                  });
+
+                  setImgToDisplay(imgs[index])
+                }}
                   className={`small-select-img mouse-on-hover ${selectedClassName}`}
                   src={require(`assets/images/projects/${img}`)}
                   alt={img}
