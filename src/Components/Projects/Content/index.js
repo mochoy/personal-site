@@ -39,6 +39,7 @@ const Content = props => {
         imgs={imgs}
         imgSrcIndex={imgSrcIndex}
         setImgToDisplay={setImgToDisplay}
+        title={title}
       />
 
       <h2>{title}</h2>

@@ -8,7 +8,8 @@ const SmallSelectImgs = props => {
     hasMultipleImgs,
     imgs,
     imgSrcIndex,
-    setImgToDisplay
+    setImgToDisplay,
+    title
   } = props;
 
   const ReactGA = useContext(ReactGACtx);
@@ -27,7 +28,7 @@ const SmallSelectImgs = props => {
                   ReactGA.event({
                     category: 'Project',
                     action: 'Big Img Carousel Small Img',
-                    label: index
+                    label: `${title} - ${index}`
                   });
 
                   setImgToDisplay(imgs[index])

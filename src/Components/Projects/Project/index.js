@@ -39,6 +39,8 @@ const Project = props => {
 
         imgs={img /* Should only be used if multiple imgs */ }
         imgSrcIndex={ imgSrcIndex /* Should only be used if multiple imgs */ }
+
+        title={project.title}
       />
 
       <Content 

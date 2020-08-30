@@ -16,7 +16,9 @@ const BgImg = props => {
     // This should only be used if hasMultipleImgs is true/there are multiple 
     // images
     imgs,
-    imgSrcIndex} = props;
+    imgSrcIndex,
+  
+    title} = props;
 
   const ReactGA = useContext(ReactGACtx);
 
@@ -38,7 +40,7 @@ const BgImg = props => {
                 ReactGA.event({
                   category: 'Project',
                   action: 'Big Img Carousel Arrow Btns',
-                  label: "Left"
+                  label: `${title} - Left`
                 });
 
                 setImgToDisplay(imgs[imgSrcIndex - 1]);
@@ -63,7 +65,7 @@ const BgImg = props => {
                 ReactGA.event({
                   category: 'Project',
                   action: 'Big Img Carousel Arrow Btns',
-                  label: "Right"
+                  label: `${title} - Right`
                 });
 
                 setImgToDisplay(imgs[imgSrcIndex + 1]);
