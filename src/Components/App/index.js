@@ -25,9 +25,8 @@ ReactGA.initialize('UA-128598718-1', {
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 
-const ctx = React.createContext({
-  reactGA: ReactGA
-});
+export const ReactGACtx = createContext(ReactGA);
+
 
 const App = () => {
 
@@ -46,9 +45,7 @@ const App = () => {
 
 
   return (
-    <ctx.Provider value={{
-      reactGA: ReactGA
-    }}>
+    <ReactGACtx.Provider value={ReactGA}>
       <div className="App">
         <Home/>
 
@@ -75,7 +72,7 @@ const App = () => {
 
         <Footer/>
       </div>
-    </ctx.Provider>
+    </ReactGACtx.Provider>
     
   );
 }
