@@ -1,6 +1,7 @@
 import React, { createContext } from 'react';
-import scrollToElement from 'scroll-to-element';
 import ReactGA from 'react-ga';
+import scrollToElement from 'scroll-to-element';
+import TrackVisibility from 'react-on-screen';
 
 import Home from '../Home';
 import About from '../About';
@@ -55,28 +56,37 @@ const App = () => {
       <div className="App">
         <Home/>
 
-        <About
-          logosData={logos}
-          buzzwords={buzzwords}
-        />
+        <TrackVisibility once offset={400}>
+          <About
+            logosData={logos}
+            buzzwords={buzzwords}
+          />
+        </TrackVisibility>
+        
+        <TrackVisibility once offset={400}>
+          <Experience
+            experienceData={experience}
+          />
+        </TrackVisibility>
 
-        <Experience
-          experienceData={experience}
-        />
+        <TrackVisibility once offset={400}>
+          <Projects
+            projectsData={
+              projects.map((project, index) => {
+                // Apply id to each project
+                return {
+                  id: Date.now() + index,
+                  ...project
+                }
+              })
+            }
+          />
+        </TrackVisibility>
 
-        <Projects
-          projectsData={
-            projects.map((project, index) => {
-              // Apply id to each project
-              return {
-                id: Date.now() + index,
-                ...project
-              }
-            })
-          }
-        />
+        <TrackVisibility once offset={400}>
+          <Footer/>
+        </TrackVisibility>
 
-        <Footer/>
       </div>
     </ReactGACtx.Provider>
     

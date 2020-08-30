@@ -4,7 +4,9 @@ import './index.css';
 
 
 const Experience = props => {
-  const { experienceData } = props;
+  const { isVisible, experienceData } = props;
+
+  console.log("Exp is visible? " + isVisible)
 
   return (
     <section id="Experience" className="section-grey">

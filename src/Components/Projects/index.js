@@ -13,11 +13,13 @@ import './index.css';
 const filterOptions = ["All", "Hardware", "Software", "Web", "Nerf", "Architecture"];
 
 const Projects = props => {
-  const { projectsData } = props;
+  const { isVisible, projectsData } = props;
 
   const [ projectsToDisplay, setProjectsToDisplay ] = React.useState(projectsData);
 
   const [ filter, setFilter ] = React.useState(filterOptions[0]);
+
+  console.log("Projects is visible? " + isVisible)
 
 
   // Update projects to display when filter changes

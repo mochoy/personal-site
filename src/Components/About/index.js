@@ -1,5 +1,4 @@
 import React from 'react';
-
 import GitHubCalendar from 'react-github-calendar';
 
 import Logos from './Logos';
@@ -11,7 +10,9 @@ import './index.css';
 
 
 const About = props => {
-  const { logosData, buzzwords } = props;
+  const { isVisible, logosData, buzzwords } = props;
+
+  console.log("About is visible? " + isVisible)
 
   return (
     <section id="About" className="section">
