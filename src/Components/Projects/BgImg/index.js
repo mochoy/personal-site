@@ -1,6 +1,7 @@
-import React from 'react';
-
+import React, { useContext } from 'react';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
+
+import { ReactGACtx } from '../../App';
 
 
 import './index.css';
@@ -17,6 +18,8 @@ const BgImg = props => {
     imgs,
     imgSrcIndex} = props;
 
+  const ReactGA = useContext(ReactGACtx);
+
 
   return (
     <div className="bg-img"
@@ -32,6 +35,12 @@ const BgImg = props => {
 
             <div className="left-select mouse-on-hover flex-container-vertically-center"
               onClick={() => {
+                ReactGA.event({
+                  category: 'Project',
+                  action: 'Big Img Carousel',
+                  label: "Left"
+                });
+
                 setImgToDisplay(imgs[imgSrcIndex - 1]);
               }}
             >
@@ -51,6 +60,12 @@ const BgImg = props => {
 
             <div className="right-select mouse-on-hover  flex-container-vertically-center flex-container-right"
               onClick={() => {
+                ReactGA.event({
+                  category: 'Project',
+                  action: 'Big Img Carousel',
+                  label: "Right"
+                });
+
                 setImgToDisplay(imgs[imgSrcIndex + 1]);
               }}
             >
