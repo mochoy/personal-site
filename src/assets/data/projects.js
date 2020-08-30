@@ -675,7 +675,7 @@ const projects = [
     title: "Personal Website",
     date: "January 2017 - Present",
     img: "personal_site.jpg",
-    description: "You're on this right now!",
+    description: "You're on this right now! I remake this every year for application season",
     links: {
       open: "https://montychoy.com/",
       files: "https://github.com/mochoy/personal-site"
