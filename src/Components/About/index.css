@@ -35,6 +35,17 @@
 
 
 
+#Resumes {
+  width: 50em;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+	#Resumes {
+    width: 100%
+  }
+}
+
 .resume-link {
   width: 7em;
   margin: 0 1em;
