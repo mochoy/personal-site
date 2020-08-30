@@ -22,7 +22,7 @@ import './index.css';
 const initGA = () => {       
   ReactGA.initialize('UA-128598718-1', {
     debug: true,
-    testMode: true,
+    // testMode: true,
     siteSpeedSampleRate: 100
   });
 

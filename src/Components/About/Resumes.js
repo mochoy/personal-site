@@ -31,7 +31,6 @@ const resumesData = [
 const Resumes = props => {
   const ReactGA = useContext(ReactGACtx);
 
-  console.log(ReactGA);
 
   return (
     <div id="Resumes">
@@ -46,6 +45,13 @@ const Resumes = props => {
               target = "_blank"
               rel="noopener noreferrer"
               key={key}
+              onClick={() => {
+                // Send to analytics
+                ReactGA.event({
+                  category: 'Resume',
+                  action: `Viewed ${name} Resume`
+                });
+              }}
             >
               <img 
                 className="resume-icon horizontally-center" 
