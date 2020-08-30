@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import { ReactGACtx } from '../App';
+
 
 
 const Filter = props => {
   const { filter, setFilter, filterOptions } = props;
+
+  const ReactGA = useContext(ReactGACtx);
+
 
   return (
     <div id="Filter" className="flex-container-horizontally-center">
@@ -14,7 +20,15 @@ const Filter = props => {
             <p id={firstId}
               className={`mouse-on-hover ${selectedClass}`}
               key={index}
-              onClick={() => setFilter(filterOption)}
+              onClick={() => {
+                ReactGA.event({
+                  category: 'Filter',
+                  action: 'Selected',
+                  label: filterOption,
+                });
+
+                setFilter(filterOption)
+              }}
             >
               {filterOption}
             </p>
