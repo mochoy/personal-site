@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import ReactTooltip from 'react-tooltip';
 import { GoMarkGithub, GoFileCode, GoCircuitBoard } from "react-icons/go";
 import { FiExternalLink, FiGlobe, FiEdit2 } from "react-icons/fi";
 import { FaPencilRuler } from "react-icons/fa";
 
+import { ReactGACtx } from '../../App';
+
 
 const LinksAndCategories = props => {
-  const { open, files, categories, direction } = props;
+  const { open, title, files, categories, direction } = props;
+
+  const ReactGA = useContext(ReactGACtx);
 
   const containerClassName = (!!direction && direction.length > 0) 
     ? `flex-container-${direction}` 
@@ -16,7 +20,10 @@ const LinksAndCategories = props => {
   return (
     <div className={`Links ${containerClassName}`}>
       { direction === "right" &&
-        <CategoryIcons  categories={categories}/>
+        <CategoryIcons 
+          categories={categories} 
+          title={title}
+        />
       }
 
       {/* Links */}
@@ -45,7 +52,10 @@ const LinksAndCategories = props => {
       </div>
 
       { direction !== "right" &&
-        <CategoryIcons  categories={categories}/>
+        <CategoryIcons 
+          categories={categories} 
+          title={title}
+        />
       }
 
     </div>
@@ -54,13 +64,26 @@ const LinksAndCategories = props => {
 
 
 const CategoryIcons = props => {
-  const { categories } = props;
+  const { categories, title } = props;
+
+  const ReactGA = useContext(ReactGACtx);
+
 
   return (
     <div>
       {/* Software Icon */}
       { categories.indexOf("Software") !== -1 &&
-        <GoFileCode size="1.5em" data-tip data-for='softwareTooltip'/>
+        <GoFileCode 
+          size="1.5em" 
+          data-tip data-for='softwareTooltip' 
+          onMouseEnter={() => {
+            ReactGA.event({
+              category: 'Project',
+              action: 'Icon Hover',
+              label: `${title} - Software`
+            });
+          }}
+        />
       }
 
       <ReactTooltip id='softwareTooltip' effect='solid'>
@@ -70,7 +93,17 @@ const CategoryIcons = props => {
 
       {/* Hardware Icon */}
       { categories.indexOf("Hardware") !== -1 &&
-        <GoCircuitBoard size="1.5em" data-tip data-for='hardwareTooltip'/>
+        <GoCircuitBoard 
+          size="1.5em" 
+          data-tip data-for='hardwareTooltip'
+          onMouseEnter={() => {
+            ReactGA.event({
+              category: 'Project',
+              action: 'Icon Hover',
+              label: `${title} - Hardware`
+            });
+          }}
+        />
       }
 
       <ReactTooltip id='hardwareTooltip' effect='solid'>
@@ -80,7 +113,17 @@ const CategoryIcons = props => {
 
       {/* Web Icon */}
       { categories.indexOf("Web") !== -1 &&
-        <FiGlobe size="1.5em" data-tip data-for='webTooltip'/>
+        <FiGlobe 
+          size="1.5em" 
+          data-tip data-for='webTooltip'
+          onMouseEnter={() => {
+            ReactGA.event({
+              category: 'Project',
+              action: 'Icon Hover',
+              label: `${title} - Web`
+            });
+          }}
+        />
       }
 
       <ReactTooltip id='webTooltip' effect='solid'>
@@ -90,7 +133,17 @@ const CategoryIcons = props => {
 
       {/* Nerf Icon */}
       { categories.indexOf("Nerf") !== -1 &&
-       <FiEdit2 size="1.5em" data-tip data-for='nerfTooltip'/>
+       <FiEdit2 
+        size="1.5em" 
+        data-tip data-for='nerfTooltip'
+        onMouseEnter={() => {
+          ReactGA.event({
+            category: 'Project',
+            action: 'Icon Hover',
+            label: `${title} - Nerf`
+          });
+        }}
+       />
       }
 
       <ReactTooltip id='nerfTooltip' effect='solid'>
@@ -100,7 +153,18 @@ const CategoryIcons = props => {
 
       {/* Architecture Icon */}
       { categories.indexOf("Architecture") !== -1 &&
-        <FaPencilRuler size="1.5em" data-tip data-for='architectureTooltip'/>
+        <FaPencilRuler 
+          size="1.5em" 
+          data-tip 
+          data-for='architectureTooltip'
+          onMouseEnter={() => {
+            ReactGA.event({
+              category: 'Project',
+              action: 'Icon Hover',
+              label: `${title} - Architecture`
+            });
+          }}
+        />
       }
 
       <ReactTooltip id='architectureTooltip' effect='solid'>

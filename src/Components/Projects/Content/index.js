@@ -62,7 +62,9 @@ const Content = props => {
         }
       </div>
       
-      <LinksAndCategories direction={direction} 
+      <LinksAndCategories 
+        direction={direction} 
+        title={title}
         open={open} 
         files={files} 
         categories={categories}
