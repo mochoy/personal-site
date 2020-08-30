@@ -30,6 +30,14 @@ const initGA = () => {
   ReactGA.pageview(window.location.pathname + window.location.search);
 };
 
+// Called from VisibilitySensor onChange, if isVisible === true, then that 
+// section has been visited, so send an event to GA via GA event
+const sectionVisited = (isVisible, section) => {
+  if (isVisible) {
+    console.log(section + " is vis");
+  }
+}
+
 
 export const ReactGACtx = createContext(ReactGA);
 
@@ -54,24 +62,24 @@ const App = () => {
   return (
     <ReactGACtx.Provider value={ReactGA}>
       <div className="App">
-        <VisibilitySensor partialVisibility={true} onChange={ isVisible => console.log("Home is visible? ", isVisible) }>
+        <VisibilitySensor partialVisibility={true} onChange={ isVisible => sectionVisited(isVisible, "Home") }>
           <Home/>
         </VisibilitySensor>
 
-        <VisibilitySensor partialVisibility={true} onChange={ isVisible => console.log("About is visible? ", isVisible) }>
+        <VisibilitySensor partialVisibility={true} onChange={ isVisible => sectionVisited(isVisible, "About") }>
           <About
             logosData={logos}
             buzzwords={buzzwords}
           />
         </VisibilitySensor>
         
-        <VisibilitySensor partialVisibility={true} onChange={ isVisible => console.log("Exp is visible? ", isVisible) }>
+        <VisibilitySensor partialVisibility={true} onChange={ isVisible => sectionVisited(isVisible, "Experience") }>
           <Experience
             experienceData={experience}
           />
         </VisibilitySensor>
 
-        <VisibilitySensor partialVisibility={true} onChange={ isVisible => console.log("Proj is visible? ", isVisible) }>
+        <VisibilitySensor partialVisibility={true} onChange={ isVisible => sectionVisited(isVisible, "Projects") }>
           <Projects
             projectsData={
               projects.map((project, index) => {
@@ -85,7 +93,7 @@ const App = () => {
           />
         </VisibilitySensor>
 
-        <VisibilitySensor partialVisibility={true} onChange={ isVisible => console.log("Footer is visible? ", isVisible) }>
+        <VisibilitySensor partialVisibility={true} onChange={ isVisible => sectionVisited(isVisible, "Footer") }>
           <Footer/>
         </VisibilitySensor>
 
