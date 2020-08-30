@@ -12,6 +12,14 @@ const resumesData = [
   },
   {
     resume: hweResumePdf,
+    name: "Electrical Engineering - IC Design/ Verification"
+  },
+  {
+    resume: hweResumePdf,
+    name: "Electrical Engineering - Analog Design"
+  },
+  {
+    resume: hweResumePdf,
     name: "Software Engineering"
   },
   {
@@ -20,7 +28,7 @@ const resumesData = [
   },
   {
     resume: hweResumePdf,
-    name: "Software Engineering - Embedded Systems Programming"
+    name: "Software Engineering - Embedded Systems"
   },
   {
     resume: hweResumePdf,
