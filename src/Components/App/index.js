@@ -34,7 +34,11 @@ const initGA = () => {
 // section has been visited, so send an event to GA via GA event
 const sectionVisited = (isVisible, section) => {
   if (isVisible) {
-    console.log(section + " is vis");
+    ReactGA.event({
+      category: 'Section Visited',
+      action: `${section} section visited`,
+      nonInteraction: true
+    });
   }
 }
 
