@@ -34,6 +34,13 @@ const LinksAndCategories = props => {
             href={files} 
             target="_blank" 
             rel="noopener noreferrer"
+            onClick={() => {
+              ReactGA.event({
+                category: 'Project',
+                action: 'Click Link',
+                label: `${title} - gh/files`
+              });
+            }}
           >
             <GoMarkGithub size="1.5em"/>
           </a>
@@ -45,6 +52,13 @@ const LinksAndCategories = props => {
             href={open} 
             target="_blank" 
             rel="noopener noreferrer"
+            onClick={() => {
+              ReactGA.event({
+                category: 'Project',
+                action: 'Click Link',
+                label: `${title} - Open`
+              });
+            }}
           >
             <FiExternalLink size="1.5em"/>
           </a>
