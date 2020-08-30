@@ -1,6 +1,8 @@
-import React from 'react';
-
+import React, { useContext } from 'react';
+import VisibilitySensor from 'react-visibility-sensor';
 import FlipMove from 'react-flip-move';
+
+import { ReactGACtx } from '../App';
 
 import FeaturedProject from './FeaturedProject';
 import Filter from './Filter';
@@ -18,6 +20,20 @@ const Projects = props => {
   const [ projectsToDisplay, setProjectsToDisplay ] = React.useState(projectsData);
 
   const [ filter, setFilter ] = React.useState(filterOptions[0]);
+
+  const ReactGA = useContext(ReactGACtx);
+
+  // Called from VisibilitySensor onChange, if isVisible === true, then that 
+  // project has been visited, so send an event to GA via GA event
+  const projectVisited = (isVisible, section) => {
+    if (isVisible) {
+      ReactGA.event({
+        category: 'Project Visited',
+        action: `${section} project visited`,
+        nonInteraction: true
+      });
+    }
+  }
 
 
   // Update projects to display when filter changes
@@ -59,12 +75,15 @@ const Projects = props => {
           { projectsData
             .filter(project => project.isFeatured)
             .map((project, index) => 
-              <FeaturedProject
-                project={project}
-                index={index}
-
-                key={index}
-              />
+              <VisibilitySensor key={index}
+                partialVisibility={true} 
+                onChange={ isVisible => projectVisited(isVisible, project.title) }
+              >
+                <FeaturedProject
+                  project={project}
+                  index={index}
+                />
+              </VisibilitySensor>
             )
           }
         </div>
@@ -84,7 +103,14 @@ const Projects = props => {
               .map(
                 (project) => {
                   const { id } = project;
-                  return <div key={id}><Project project={project}/></div>
+                  return (
+                    <VisibilitySensor key={id}
+                      partialVisibility={true} 
+                      onChange={ isVisible => projectVisited(isVisible, project.title) }
+                    >
+                      <Project project={project}/>
+                    </VisibilitySensor>
+                  )
                 }
               )
             }
