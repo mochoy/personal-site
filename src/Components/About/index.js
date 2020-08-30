@@ -10,9 +10,7 @@ import './index.css';
 
 
 const About = props => {
-  const { isVisible, logosData, buzzwords } = props;
-
-  console.log("About is visible? " + isVisible)
+  const { logosData, buzzwords } = props;
 
   return (
     <section id="About" className="section">

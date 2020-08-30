@@ -1,7 +1,7 @@
 import React, { createContext } from 'react';
 import ReactGA from 'react-ga';
 import scrollToElement from 'scroll-to-element';
-import TrackVisibility from 'react-on-screen';
+import VisibilitySensor from 'react-visibility-sensor';
 
 import Home from '../Home';
 import About from '../About';
@@ -54,22 +54,24 @@ const App = () => {
   return (
     <ReactGACtx.Provider value={ReactGA}>
       <div className="App">
-        <Home/>
+        <VisibilitySensor partialVisibility={true} onChange={ isVisible => console.log("Home is visible? ", isVisible) }>
+          <Home/>
+        </VisibilitySensor>
 
-        <TrackVisibility once offset={400}>
+        <VisibilitySensor partialVisibility={true} onChange={ isVisible => console.log("About is visible? ", isVisible) }>
           <About
             logosData={logos}
             buzzwords={buzzwords}
           />
-        </TrackVisibility>
+        </VisibilitySensor>
         
-        <TrackVisibility once offset={400}>
+        <VisibilitySensor partialVisibility={true} onChange={ isVisible => console.log("Exp is visible? ", isVisible) }>
           <Experience
             experienceData={experience}
           />
-        </TrackVisibility>
+        </VisibilitySensor>
 
-        <TrackVisibility once offset={400}>
+        <VisibilitySensor partialVisibility={true} onChange={ isVisible => console.log("Proj is visible? ", isVisible) }>
           <Projects
             projectsData={
               projects.map((project, index) => {
@@ -81,11 +83,11 @@ const App = () => {
               })
             }
           />
-        </TrackVisibility>
+        </VisibilitySensor>
 
-        <TrackVisibility once offset={400}>
+        <VisibilitySensor partialVisibility={true} onChange={ isVisible => console.log("Footer is visible? ", isVisible) }>
           <Footer/>
-        </TrackVisibility>
+        </VisibilitySensor>
 
       </div>
     </ReactGACtx.Provider>
