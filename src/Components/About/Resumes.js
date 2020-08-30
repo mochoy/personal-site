@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import { ReactGACtx } from '../App';
 
 import hweResumePdf from '../../assets/documents/Resume Monty Choy - Hardware Engineering.pdf';
 
@@ -27,6 +29,9 @@ const resumesData = [
 ]
 
 const Resumes = props => {
+  const ReactGA = useContext(ReactGACtx);
+
+  console.log(ReactGA);
 
   return (
     <div id="Resumes">
