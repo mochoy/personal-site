@@ -25,6 +25,10 @@ ReactGA.initialize('UA-128598718-1', {
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 
+const ctx = React.createContext({
+  reactGA: ReactGA
+});
+
 const App = () => {
 
   // Need to wrap scroll event in useEffect, idk why
@@ -42,32 +46,37 @@ const App = () => {
 
 
   return (
-    <div className="App">
-      <Home/>
+    <ctx.Provider value={{
+      reactGA: ReactGA
+    }}>
+      <div className="App">
+        <Home/>
 
-      <About
-        logosData={logos}
-        buzzwords={buzzwords}
-      />
+        <About
+          logosData={logos}
+          buzzwords={buzzwords}
+        />
 
-      <Experience
-        experienceData={experience}
-      />
+        <Experience
+          experienceData={experience}
+        />
 
-      <Projects
-        projectsData={
-          projects.map((project, index) => {
-            // Apply id to each project
-            return {
-              id: Date.now() + index,
-              ...project
-            }
-          })
-        }
-      />
+        <Projects
+          projectsData={
+            projects.map((project, index) => {
+              // Apply id to each project
+              return {
+                id: Date.now() + index,
+                ...project
+              }
+            })
+          }
+        />
 
-      <Footer/>
-    </div>
+        <Footer/>
+      </div>
+    </ctx.Provider>
+    
   );
 }
 
