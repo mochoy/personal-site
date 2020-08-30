@@ -17,21 +17,27 @@ import projects from '../../assets/data/projects';
 import './index.css';
 
 
-ReactGA.initialize('UA-128598718-1', {
-  debug: true,
-  testMode: true,
-  siteSpeedSampleRate: 100
-});
-ReactGA.pageview(window.location.pathname + window.location.search);
+
+
+const initGA = () => {       
+  ReactGA.initialize('UA-128598718-1', {
+    debug: true,
+    testMode: true,
+    siteSpeedSampleRate: 100
+  });
+
+  ReactGA.pageview(window.location.pathname + window.location.search);
+};
 
 
 export const ReactGACtx = createContext(ReactGA);
 
 
 const App = () => {
-
   // Need to wrap scroll event in useEffect, idk why
   React.useEffect(() => {
+    initGA();
+
     const pathname = window.location.pathname // montychoy.com/{pathname}
       .replace("/", "")
       .toLowerCase();
