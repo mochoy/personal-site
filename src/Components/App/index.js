@@ -66,24 +66,36 @@ const App = () => {
   return (
     <ReactGACtx.Provider value={ReactGA}>
       <div className="App">
-        <VisibilitySensor partialVisibility={true} onChange={ isVisible => sectionVisited(isVisible, "Home") }>
+        <VisibilitySensor 
+          partialVisibility={true} 
+          onChange={ isVisible => sectionVisited(isVisible, "Home") }
+        >
           <Home/>
         </VisibilitySensor>
 
-        <VisibilitySensor partialVisibility={true} onChange={ isVisible => sectionVisited(isVisible, "About") }>
+        <VisibilitySensor 
+          partialVisibility={true} 
+          onChange={ isVisible => sectionVisited(isVisible, "About") }
+        >
           <About
             logosData={logos}
             buzzwords={buzzwords}
           />
         </VisibilitySensor>
         
-        <VisibilitySensor partialVisibility={true} onChange={ isVisible => sectionVisited(isVisible, "Experience") }>
+        <VisibilitySensor 
+          partialVisibility={true} 
+          onChange={ isVisible => sectionVisited(isVisible, "Experience") }
+        >
           <Experience
             experienceData={experience}
           />
         </VisibilitySensor>
 
-        <VisibilitySensor partialVisibility={true} onChange={ isVisible => sectionVisited(isVisible, "Projects") }>
+        <VisibilitySensor 
+          partialVisibility={true} 
+          onChange={ isVisible => sectionVisited(isVisible, "Projects") }
+        >
           <Projects
             projectsData={
               projects.map((project, index) => {
@@ -97,7 +109,10 @@ const App = () => {
           />
         </VisibilitySensor>
 
-        <VisibilitySensor partialVisibility={true} onChange={ isVisible => sectionVisited(isVisible, "Footer") }>
+        <VisibilitySensor 
+          partialVisibility={true} 
+          onChange={ isVisible => sectionVisited(isVisible, "Footer") }
+        >
           <Footer/>
         </VisibilitySensor>
 
