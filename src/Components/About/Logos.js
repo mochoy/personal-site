@@ -27,6 +27,14 @@ const Logos = props => {
                   label: name
                 });
               }}
+              onMouseEnter={() => {
+                // Send to analytics
+                ReactGA.event({
+                  category: 'Logo Link',
+                  action: "Hover",
+                  label: name
+                });
+              }}
             >
               <img 
                 className="grow-on-hover" 

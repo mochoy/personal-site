@@ -61,6 +61,14 @@ const Resumes = props => {
                   label: name
                 });
               }}
+              onMouseEnter={() => {
+                // Send to analytics
+                ReactGA.event({
+                  category: 'Resume',
+                  action: "Hover",
+                  label: name
+                });
+              }}
             >
               <img 
                 className="resume-icon horizontally-center" 
