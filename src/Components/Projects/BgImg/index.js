@@ -37,7 +37,7 @@ const BgImg = props => {
               onClick={() => {
                 ReactGA.event({
                   category: 'Project',
-                  action: 'Big Img Carousel',
+                  action: 'Big Img Carousel Arrow Btns',
                   label: "Left"
                 });
 
@@ -62,7 +62,7 @@ const BgImg = props => {
               onClick={() => {
                 ReactGA.event({
                   category: 'Project',
-                  action: 'Big Img Carousel',
+                  action: 'Big Img Carousel Arrow Btns',
                   label: "Right"
                 });
 
