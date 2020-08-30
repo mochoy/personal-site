@@ -23,7 +23,8 @@ const Logos = props => {
                 // Send to analytics
                 ReactGA.event({
                   category: 'Logo Link',
-                  action: `Clicked on ${name} logo link`
+                  action: "Clicked",
+                  label: name
                 });
               }}
             >

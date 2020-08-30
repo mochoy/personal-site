@@ -57,7 +57,8 @@ const Resumes = props => {
                 // Send to analytics
                 ReactGA.event({
                   category: 'Resume',
-                  action: `Viewed ${name} Resume`
+                  action: "Viewed",
+                  label: name
                 });
               }}
             >

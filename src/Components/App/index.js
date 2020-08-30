@@ -20,10 +20,10 @@ import './index.css';
 
 
 
-const initGA = () => {       
+const initGA = () => {
   ReactGA.initialize('UA-128598718-1', {
     debug: true,
-    testMode: true,
+    // testMode: true,
     siteSpeedSampleRate: 100
   });
 
@@ -35,8 +35,9 @@ const initGA = () => {
 const sectionVisited = (isVisible, section) => {
   if (isVisible) {
     ReactGA.event({
-      category: 'Section Visited',
-      action: `${section} section visited`,
+      category: 'Section',
+      action: "Visited",
+      lable: section,
       nonInteraction: true
     });
   }

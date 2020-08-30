@@ -25,11 +25,12 @@ const Projects = props => {
 
   // Called from VisibilitySensor onChange, if isVisible === true, then that 
   // project has been visited, so send an event to GA via GA event
-  const projectVisited = (isVisible, section) => {
+  const projectVisited = (isVisible, project) => {
     if (isVisible) {
       ReactGA.event({
-        category: 'Project Visited',
-        action: `${section} project visited`,
+        category: 'Project',
+        action: 'Visited',
+        label: project,
         nonInteraction: true
       });
     }
