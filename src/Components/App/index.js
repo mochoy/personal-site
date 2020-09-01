@@ -37,7 +37,7 @@ const sectionVisited = (isVisible, section) => {
     ReactGA.event({
       category: 'Section',
       action: "Visited",
-      lable: section,
+      label: section,
       nonInteraction: true
     });
   }
