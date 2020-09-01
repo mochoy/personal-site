@@ -1,11 +1,15 @@
-import React from 'react';
-
+import React, { useContext } from 'react';
 import scrollToElement from 'scroll-to-element';
+
+import { ReactGACtx } from '../App';
+
 
 import './index.css';
 
 
 const Home = props => {
+  const ReactGA = useContext(ReactGACtx);
+
   return (
     <section id="Home" 
       className="flex-container-vertically-center flex-container-horizontally-center"
@@ -30,7 +34,15 @@ const Home = props => {
               .map((section, key) => {
                 return (
                   <p className="mouse-on-hover" 
-                    onClick={e => scrollToElement(`#${section}`)}
+                    onClick={e => {
+                      ReactGA.event({
+                        category: 'Home Links',
+                        action: 'Clicked',
+                        label: section,
+                      });
+
+                      scrollToElement(`#${section}`)
+                    }}
                     key={key}
                   >
                     {section}
