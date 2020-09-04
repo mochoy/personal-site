@@ -24,7 +24,7 @@ const initGA = () => {
   ReactGA.initialize('UA-128598718-1', {
     debug: true,
     testMode: true,    // Uncomment/set to false if dont want data sent to ga
-    siteSpeedSampleRate: 100
+    // siteSpeedSampleRate: 100
   });
 
   ReactGA.pageview(window.location.pathname + window.location.search);
