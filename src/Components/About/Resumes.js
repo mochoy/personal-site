@@ -10,22 +10,22 @@ const resumesData = [
     resume: hweResumePdf,
     name: "Hardware/ Electrical Engineering"
   },
-  {
-    resume: hweResumePdf,
-    name: "Electrical Engineering - IC Design/ Verification"
-  },
+  // {
+  //   resume: hweResumePdf,
+  //   name: "Electrical Engineering - IC Design/ Verification"
+  // },
   {
     resume: hweResumePdf,
     name: "Software Engineering"
   },
-  {
-    resume: hweResumePdf,
-    name: "Software Engineering - Web Development"
-  },
-  {
-    resume: hweResumePdf,
-    name: "Software Engineering - Embedded Systems"
-  },
+  // {
+  //   resume: hweResumePdf,
+  //   name: "Software Engineering - Web Development"
+  // },
+  // {
+  //   resume: hweResumePdf,
+  //   name: "Software Engineering - Embedded Systems"
+  // },
   {
     resume: hweResumePdf,
     name: "'Everything'"
