@@ -16,10 +16,6 @@ const resumesData = [
   },
   {
     resume: hweResumePdf,
-    name: "Electrical Engineering - Analog Design"
-  },
-  {
-    resume: hweResumePdf,
     name: "Software Engineering"
   },
   {
