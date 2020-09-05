@@ -19,9 +19,8 @@ import './index.css';
 
 
 
-
 const initGA = () => {
-  ReactGA.initialize('UA-128598718-1', {
+  ReactGA.initialize(process.env.REACT_APP_GA_KEY, {
     debug: true,
     testMode: true,    // Uncomment/set to false if dont want data sent to ga
     // siteSpeedSampleRate: 100
