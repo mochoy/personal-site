@@ -3,7 +3,7 @@ const experience = [
     company: "Microsoft",
     title: "Software Engineering Intern - Surface Duo Firmware",
     location: "Sunnyvale, CA (Remote)",
-    date: "Jun 2020 - Present",
+    date: "Jun 2020 - Sept 2020",
     content: [
       "Software engineering intern on Microsoft Surface Duo firmware team"
     ]
