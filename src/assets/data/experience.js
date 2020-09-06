@@ -27,7 +27,7 @@ const experience = [
     company: "Suild",
     title: "CEO",
     location: "San Francisco, CA",
-    date: "Feb 2018 - Present",
+    date: "Feb 2018 - Jul 2020",
     content: [
       "Shipped 1k+ units to 10+ countries on webstore with 30k+ annual sessions & $15k+ revenue",
       "Managed entire product design lifecycle of multiple electronics products from concept, architecture, prototype, design, coding, validation, assembly, manufacturing, testing, & shipping",
