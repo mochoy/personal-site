@@ -21,13 +21,18 @@ const LinksAndCategories = props => {
     <div className={`Links ${containerClassName}`}>
       { direction === "right" &&
         <CategoryIcons 
+          containerStyle={{ 
+            // Make sure these icons stay on the left
+            flexGrow: 1, 
+            display: "flex" 
+          }}
           categories={categories} 
           title={title}
         />
       }
 
       {/* Links */}
-      <div style={{ flexGrow: 1 }}>
+      <div style={ direction !== "right" ? { flexGrow: 1 } : {} }>
         {/* gh/files */}
         { !!files &&
           <a className="mouse-on-hover project-link-icon no-style-link" 
@@ -78,13 +83,13 @@ const LinksAndCategories = props => {
 
 
 const CategoryIcons = props => {
-  const { categories, title } = props;
+  const { categories, title, containerStyle } = props;
 
   const ReactGA = useContext(ReactGACtx);
 
 
   return (
-    <div>
+    <div style={containerStyle}>
       {/* Software Icon */}
       { categories.indexOf("Software") !== -1 &&
         <GoFileCode 
