@@ -358,42 +358,6 @@ const projects = [
     ]
   },
   {
-    title: "Nerf Time",
-    by: "Michael, Monty, & Elias",
-    date: "July 2017",
-    event: "Rapid.io Hackathon",
-    img: "nerf_time.jpg",
-    description: "Nerf turret controlled remotely using web app with live video steaming using a mobile device.",
-    links: {
-      files: "https://github.com/MiLeung/NerfTime"
-    },
-    categories: ["Hardware", "Software", "Web"],
-    filterCategories: [
-      [
-        "Nerf Blasters",
-        "Electronics",
-        "Web",
-        "Hardware",
-        "Software",
-        "Mobile"
-       ],
-       [
-         "Python",
-         "JavaScript",
-         "Arduino",
-         "C++",
-         "HTML",
-         "CSS"
-       ],
-       [
-         "Arduino",
-         "React",
-         "Node.js",
-         "Express"
-       ]
-    ]
-  },
-  {
     title: "Smart Stryfe",
     date: "Summer 2018",
     img: "smart_stryfe.jpg",
@@ -624,6 +588,42 @@ const projects = [
        ],
        [
          "Arduino"
+       ]
+    ]
+  },
+  {
+    title: "Nerf Time",
+    by: "Michael, Monty, & Elias",
+    date: "July 2017",
+    event: "Rapid.io Hackathon",
+    img: "nerf_time.jpg",
+    description: "Nerf turret controlled remotely using web app with live video steaming using a mobile device.",
+    links: {
+      files: "https://github.com/MiLeung/NerfTime"
+    },
+    categories: ["Hardware", "Software", "Web"],
+    filterCategories: [
+      [
+        "Nerf Blasters",
+        "Electronics",
+        "Web",
+        "Hardware",
+        "Software",
+        "Mobile"
+       ],
+       [
+         "Python",
+         "JavaScript",
+         "Arduino",
+         "C++",
+         "HTML",
+         "CSS"
+       ],
+       [
+         "Arduino",
+         "React",
+         "Node.js",
+         "Express"
        ]
     ]
   },
