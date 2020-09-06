@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import scrollToElement from 'scroll-to-element';
+import VisibilitySensor from 'react-visibility-sensor';
 
 import { ReactGACtx } from '../App';
 
@@ -9,6 +10,8 @@ import './index.css';
 
 const Home = props => {
   const ReactGA = useContext(ReactGACtx);
+
+  const [ isHomeVisible, setIsHomeVisible ] = React.useState(true);
 
   return (
     <section id="Home" 
@@ -53,10 +56,25 @@ const Home = props => {
         </div>
       </div>
 
-      {/* See more cursor to go to About section */}
-      <i className="chevron down mouse-on-hover" 
-        onClick={e => scrollToElement("#About")}
-      />
+      <VisibilitySensor 
+          partialVisibility={true} 
+          onChange={ isVisible => setIsHomeVisible(isVisible)}
+        >
+        {/* See more cursor to go to About section */}
+        <i className="chevron down mouse-on-hover" 
+          onClick={e => scrollToElement("#About")}
+        />
+      </VisibilitySensor>
+      
+
+
+      { !isHomeVisible && 
+        <div style={{
+          backgroundColor: "green",
+          position: "fixed"
+        }}>yes</div>
+      }
+      
 
     </section>
   )
