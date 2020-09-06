@@ -29,6 +29,7 @@ const Content = props => {
     links,
     categories} = projectData;
 
+  // If there are links, destructure them into open and files
   const { open, files } = !!links ? links : {};
 
   return (
