@@ -762,6 +762,18 @@ const projects = [
     ]
   },
   {
+    title: "Awesome Game",
+    by: "Michael, Erica, Monty, & Danny",
+    date: "July 2016",
+    event: "CodeDay San Francisco Summer 2016",
+    img: "awesome-game.png",
+    description: "A real-time multiplayer side-scroller shooter web game built with Phaser and Firebase.",
+    links: {
+      files: "https://github.com/MiLeung/AwesomeGame/tree/master/src/Assets/Sprites"
+    },
+    categories: ["Hardware", "Web"],
+  },
+  {
     title: "Isaac Against the World",
     by: "Annie & Monty",
     date: "Fall 2016",
