@@ -360,7 +360,7 @@ const projects = [
   {
     title: "Nerf Time",
     by: "Michael, Monty, & Elias",
-    date: "July 2018",
+    date: "July 2017",
     event: "Rapid.io Hackathon",
     img: "nerf_time.jpg",
     description: "Nerf turret controlled remotely using web app with live video steaming using a mobile device.",
