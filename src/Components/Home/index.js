@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import scrollToElement from 'scroll-to-element';
 import VisibilitySensor from 'react-visibility-sensor';
 
+import Nav from '../Nav';
 import { ReactGACtx } from '../App';
 
 
@@ -69,10 +70,7 @@ const Home = props => {
 
 
       { !isHomeVisible && 
-        <div style={{
-          backgroundColor: "green",
-          position: "fixed"
-        }}>yes</div>
+        <Nav/>
       }
       
 
