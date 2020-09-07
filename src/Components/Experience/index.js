@@ -15,14 +15,18 @@ const Experience = props => {
           experienceData.map((expData, key) => {
             const { company, title, team, location, date, content} = expData;
 
-            const contentPoints = content.map((contentPoint, contentKey) => {
-              return (
-                <div key={contentKey} className="flex-container-left">
-                  <span className="bullet">&#8226;</span>
-                  <p className="bullet-points-text">{contentPoint}</p>
-                </div>
-              )
-            });
+            // If content is array (bullet points), render as bullet points, 
+            // otherwise if just text, just render as paragraph
+            const contentText = content.constructor === Array
+              ? content.map((contentPoint, contentKey) => {
+                  return (
+                    <div key={contentKey} className="flex-container-left">
+                      <span className="bullet">&#8226;</span>
+                      <p className="bullet-points-text">{contentPoint}</p>
+                    </div>
+                  )
+                })
+              : content;
 
             return (
               <div key={key}>
@@ -37,7 +41,7 @@ const Experience = props => {
                   <div className="right">
                     <h4>{title}</h4>
                     <p>{team}</p>
-                    {contentPoints}
+                    {contentText}
                   </div>
                 </div>
 
@@ -46,7 +50,7 @@ const Experience = props => {
                   <h3>{company}</h3>
                   <h4>{title}</h4>
                   <p>{date}</p>
-                  {contentPoints}
+                  {contentText}
                 </div>
               </div>
             )
