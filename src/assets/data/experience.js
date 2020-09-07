@@ -28,12 +28,14 @@ const experience = [
     title: "CEO",
     location: "San Francisco, CA",
     date: "Feb 2018 - Jul 2020",
-    content: [
-      "Shipped 1k+ units to 10+ countries on webstore with 30k+ annual sessions & $15k+ revenue",
-      "Managed entire product design lifecycle of multiple electronics products from concept, architecture, prototype, design, coding, validation, assembly, manufacturing, testing, & shipping",
-      "Designed & programmed embedded electronics products implementing AVR MCUs, USB, UART, DC-DC switching & linear converters, & PID controlled inductive loads",
-      "Developed frontend, backend, & system architecture e-commerce website with MERN stack"
-    ]
+    content: "I ran a small business to design, manufacture, and sell PCB-based electronics products for modified Nerf blasters. Shipped over 1,000 units to over 10 countries totalling over $15,000 in revenue. The products were typically MOSFET-based LiPo-powered inductive drives with additional functionally enabled by digital electronics and/or embedded systems. I also developed the website which receives over 30,000 annual sessions. The website hosts a webstore, technical documentation, and interactive applications."
+    
+    // [
+    //   "Shipped 1k+ units to 10+ countries on webstore with 30k+ annual sessions & $15k+ revenue",
+    //   "Managed entire product design lifecycle of multiple electronics products from concept, architecture, prototype, design, coding, validation, assembly, manufacturing, testing, & shipping",
+    //   "Designed & programmed embedded electronics products implementing AVR MCUs, USB, UART, DC-DC switching & linear converters, & PID controlled inductive loads",
+    //   "Developed frontend, backend, & system architecture e-commerce website with MERN stack"
+    // ]
   }
 ];
 
