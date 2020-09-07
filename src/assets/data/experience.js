@@ -4,7 +4,7 @@ const experience = [
     title: "Software Engineering Intern - Surface Duo Firmware",
     location: "Sunnyvale, CA (Remote)",
     date: "Jun 2020 - Sept 2020",
-    content: ""
+    content: "I worked on the Surface Duo, Microsoft's new folding phone. I built directly on my previous hardware engineering experience by developing code for hardware sensors that will be commercialized on the final product. I worked through the entire stack from device drivers and Android HAL all the way up to the Android framework and Android applications."
     // [
     //   "Software engineering intern on Microsoft Surface Duo firmware team"
     // ]
