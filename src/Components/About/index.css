@@ -86,3 +86,19 @@
   max-width: 100%;
 }
 
+#gh-stats-img {
+  margin-right: 1em;
+}
+
+@media only screen and (max-width: 1095px) {
+	#gh-stats-img {
+    margin-bottom: 1em;
+  }
+}
+
+/* Smooth transition, setting this in the above media thingy can mess up wrapping */
+@media only screen and (max-width: 1000px) {
+	#gh-stats-img {
+    margin-right: 0;
+  }
+}
