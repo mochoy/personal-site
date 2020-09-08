@@ -56,11 +56,30 @@ const About = props => {
         {/* Green boxes */}
         <div className="horizontally-center">
           <h2 className="text-center">
-            GitHub Contributions
+            GitHub Stats
           </h2>
 
           <div className="flex-container-horizontally-center">
             <GitHubCalendar username="mochoy"/>
+          </div>
+
+          <div className="flex-container-horizontally-center">
+            <a className="gh-stats-imgs" 
+              href="https://github.com/anuraghazra/github-readme-stats"
+            >
+              <img 
+                align="center" 
+                src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=mochoy&show_icons=true&count_private=true&hide=issues&include_all_commits=true" alt="My github stats" 
+              />
+            </a>  
+            <a className="top-languages"
+              href="https://github.com/anuraghazra/github-readme-stats"
+            >
+              <img 
+                align="center" 
+                src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=mochoy&layout=compact" 
+              />
+            </a>
           </div>
         </div>
 
