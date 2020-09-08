@@ -79,3 +79,10 @@
   margin: 0.5em 0;
 }
 
+
+
+
+#gh-stats-img, #top-languages-img {
+  max-width: 100%;
+}
+
