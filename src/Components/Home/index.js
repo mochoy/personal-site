@@ -55,7 +55,14 @@ const Home = props => {
       
       {/* See more cursor to go to About section */}
       <i className="chevron down mouse-on-hover" 
-        onClick={e => scrollToElement("#About")}
+        onClick={e => {
+          scrollToElement("#About");
+
+          ReactGA.event({
+            category: 'Home Chevron',
+            action: 'Clicked'
+          });
+        }}
       />
 
     </section>
