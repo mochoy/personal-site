@@ -28,7 +28,9 @@ const GithubStats = props => {
         </div>
 
         {/* Stats */}
-        <div className="flex-container-horizontally-center">
+        <div className="flex-container-horizontally-center"
+          style={{ marginTop: "1em" }}
+        >
           {/* gh stats */}
           <a href="https://github.com/anuraghazra/github-readme-stats"
             onClick={ () => {
