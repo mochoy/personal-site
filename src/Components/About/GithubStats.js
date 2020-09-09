@@ -12,9 +12,16 @@ const GithubStats = props => {
 
       {/* Green boxes */}
       <div className="horizontally-center">
-        <h2 className="text-center">
+        <h2 className="text-center"
+          style={{ marginBottom: "0em" }}
+        >
           GitHub Stats
         </h2>
+        <p className="text-center"
+          style={{ marginTop: "0em", marginBottom: "2em", fontSize: "0.8em" }}
+        >
+          (the most important info)
+        </p>
 
         <div className="flex-container-horizontally-center">
           <GitHubCalendar username="mochoy"/>
