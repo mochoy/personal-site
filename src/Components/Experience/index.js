@@ -31,7 +31,13 @@ const Experience = props => {
             return (
               <div key={key}>
                 { /* Exp item for desktop */ }
-                <div className="experience-item-desktop flex-container-horizontally-center">
+                <div className="experience-item-desktop flex-container-horizontally-center"
+                  style={ 
+                    // No bottom margin for last exp item or else bottom spacing 
+                    // won't be consistent
+                    key === experienceData.length - 1 ? { marginBottom: 0 } : {}
+                  }
+                >
                   <div className="left">
                     <h3>{company}</h3>
                     <p>{location}</p>
