@@ -4,6 +4,7 @@ import GitHubCalendar from 'react-github-calendar';
 import Logos from './Logos';
 import Resumes from './Resumes';
 import Buzzwords from './Buzzwords';
+import GithubStats from './GithubStats';
 
 
 import './index.css';
@@ -52,6 +53,8 @@ const About = props => {
           hweBuzzwords={buzzwords.hwe}
           sweBuzzwords={buzzwords.swe}
         />
+
+        <GithubStats/>
         
         {/* Green boxes */}
         <div className="horizontally-center">
