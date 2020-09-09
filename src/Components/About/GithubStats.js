@@ -5,6 +5,7 @@ import { ReactGACtx } from '../App';
 
 
 const GithubStats = props => {
+  const ReactGA = useContext(ReactGACtx);
 
   return (
     <div id="GithubStats">
@@ -21,14 +22,33 @@ const GithubStats = props => {
 
         {/* Stats */}
         <div className="flex-container-horizontally-center">
-          <a href="https://github.com/anuraghazra/github-readme-stats">
+          {/* gh stats */}
+          <a href="https://github.com/anuraghazra/github-readme-stats"
+            onClick={ () => {
+              ReactGA.event({
+                category: 'Github Stats',
+                action: "Clicked",
+                label: "Github stats"
+              })
+            }}
+          >
             <img id="gh-stats-img"
               align="center" 
               alt="gh-stats-img"
               src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=mochoy&show_icons=true&count_private=true&hide=issues&include_all_commits=true" 
             />
-          </a>  
-          <a href="https://github.com/anuraghazra/github-readme-stats">
+          </a> 
+
+          {/* Language stats */}
+          <a href="https://github.com/anuraghazra/github-readme-stats"
+            onClick={ () => {
+              ReactGA.event({
+                category: 'Github Stats',
+                action: "Clicked",
+                label: "Language stats"
+              })
+            }}
+          >
             <img id="top-languages-img"
               align="center" 
               alt="top-languages-img"
