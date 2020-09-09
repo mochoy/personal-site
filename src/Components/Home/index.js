@@ -13,6 +13,13 @@ const Home = props => {
   return (
     <section id="Home" 
       className="flex-container-vertically-center flex-container-horizontally-center"
+      onClick={e => {
+        ReactGA.event({
+          category: 'Home',
+          action: 'Clicked',
+          label: "If didn't click chevron or links, probably missed chevrom lmao"
+        });
+      }}
     >
       {/* Background image */}
       <div id="bg-img"
