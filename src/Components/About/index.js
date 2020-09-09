@@ -28,7 +28,7 @@ const About = props => {
             </p>
 
             <p>
-              On the hardware side, I did a 9-month hardware engineering co-op at Apple and I run Suild. I do DC-DC power electronics, high-speed digital design, MCUs, embedded systems hardware, PCB layout and design, motor and solenoid drives, and electronics manufacturing and testing.
+              On the hardware side, I did a 9-month hardware engineering co-op at Apple and I run Suild. I do DC-DC power electronics, high-speed digital design, MCUs, embedded systems hardware, PCB layout and design, motor and solenoid drives, electronics manufacturing and testing, computer organization, and SoC platform architecture.
             </p>
 
             <p>
