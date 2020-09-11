@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
+import { Collapse } from '@material-ui/core';
 import FlipMove from 'react-flip-move';
 
 import { ReactGACtx } from '../App';
@@ -18,7 +19,7 @@ const filterOptions = ["All", "Hardware", "Software", "Web", "Nerf", "Architectu
 const Projects = props => {
   const { projectsData } = props;
 
-  const [ isMoreProjectsCollapsed, setIsMoreProjectsCollapsed ] = useState(true);
+  const [ isMoreProjectsExpanded, setIsMoreProjectsExpanded ] = useState(false);
   const [ projectsToDisplay, setProjectsToDisplay ] = useState(projectsData);
 
   const [ filter, setFilter ] = React.useState(filterOptions[0]);
@@ -91,48 +92,49 @@ const Projects = props => {
 
         <CollapsibleTextTrigger
           containerClassName="flex-container-horizontally-center"
-          isExpanded={isMoreProjectsCollapsed}
-          setIsExpanded={setIsMoreProjectsCollapsed}
+          isExpanded={isMoreProjectsExpanded}
+          setIsExpanded={setIsMoreProjectsExpanded}
         >
           <h2 className="text-center" style={{ /* margin: 0 */ }}>
             More Projects
           </h2>
         </CollapsibleTextTrigger>
         
-        <div id="more-projects-container">
-          <Filter filter={filter} 
-            setFilter={setFilter} 
-            filterOptions={filterOptions}
-          />
+        <Collapse in={isMoreProjectsExpanded}>
+          <div id="more-projects-container">
+            <Filter filter={filter} 
+              setFilter={setFilter} 
+              filterOptions={filterOptions}
+            />
 
-          {/* Regular projects */}
-          <FlipMove className="flex-container-horizontally-center">
-            { projectsToDisplay
-              .filter(project => !project.isFeatured)
-              .map(
-                (project) => {
-                  const { id } = project;
-                  return (
-                    <div key={id}> 
-                    {/* This div is needed to make sure height doesnt get messed up from react-flip */}
-                    
-                      <VisibilitySensor
-                        partialVisibility={true} 
-                        onChange={ isVisible => projectVisited(isVisible, project.title) }
-                      >
-                        <Project project={project}/>
-                      </VisibilitySensor>
-                    </div>
-                    
-                  )
-                }
-              )
-            }
-          </FlipMove>
-        </div>
-          
+            {/* Regular projects */}
+            <FlipMove className="flex-container-horizontally-center">
+              { projectsToDisplay
+                .filter(project => !project.isFeatured)
+                .map(
+                  (project) => {
+                    const { id } = project;
+                    return (
+                      <div key={id}> 
+                      {/* This div is needed to make sure height doesnt get messed up from react-flip */}
+                      
+                        <VisibilitySensor
+                          partialVisibility={true} 
+                          onChange={ isVisible => projectVisited(isVisible, project.title) }
+                        >
+                          <Project project={project}/>
+                        </VisibilitySensor>
+                      </div>
+                      
+                    )
+                  }
+                )
+              }
+            </FlipMove>
+          </div>
+        </Collapse>
+
       </div>
-
     </section>
   )
 };
