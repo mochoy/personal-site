@@ -63,8 +63,7 @@ const Projects = props => {
 
 
   return (
-    <section id="Projects" className="section">
-      <div className="section-content">
+    <section id="Projects" className="section-content">
         <div className="section-title-container flex-container-horizontally-center flex-container-vertically-center">
           <h1>Projects</h1>
           <p style={{marginLeft: "0.5em"}}>
@@ -134,7 +133,6 @@ const Projects = props => {
           </div>
         </Collapse>
 
-      </div>
     </section>
   )
 };
