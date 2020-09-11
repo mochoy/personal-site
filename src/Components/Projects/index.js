@@ -1,10 +1,11 @@
-import React, { useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 import FlipMove from 'react-flip-move';
 
 import { ReactGACtx } from '../App';
 
 import FeaturedProject from './FeaturedProject';
+import CollapsibleTextTrigger from '../Functional/CollapsibleTextTrigger';
 import Filter from './Filter';
 import Project from './Project';
 
@@ -17,7 +18,8 @@ const filterOptions = ["All", "Hardware", "Software", "Web", "Nerf", "Architectu
 const Projects = props => {
   const { projectsData } = props;
 
-  const [ projectsToDisplay, setProjectsToDisplay ] = React.useState(projectsData);
+  const [ isMoreProjectsCollapsed, setIsMoreProjectsCollapsed ] = useState(true);
+  const [ projectsToDisplay, setProjectsToDisplay ] = useState(projectsData);
 
   const [ filter, setFilter ] = React.useState(filterOptions[0]);
 
@@ -70,8 +72,6 @@ const Projects = props => {
         </div>
 
         <div id="featured-projects-container">
-          <h2 className="text-center">Featured Projects</h2>
-
           {/* Featured projects */}
           { projectsData
             .filter(project => project.isFeatured)
@@ -88,10 +88,18 @@ const Projects = props => {
             )
           }
         </div>
+
+        <CollapsibleTextTrigger
+          containerClassName="flex-container-horizontally-center"
+          isExpanded={isMoreProjectsCollapsed}
+          setIsExpanded={setIsMoreProjectsCollapsed}
+        >
+          <h2 className="text-center" style={{ /* margin: 0 */ }}>
+            More Projects
+          </h2>
+        </CollapsibleTextTrigger>
         
         <div id="more-projects-container">
-          <h2 className="text-center">More Projects</h2>
-
           <Filter filter={filter} 
             setFilter={setFilter} 
             filterOptions={filterOptions}
