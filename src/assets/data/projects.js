@@ -778,7 +778,7 @@ const projects = [
     by: "Annie & Monty",
     date: "Fall 2016",
     event: "Mission Bit winter 2015",
-    award: "2nd Place Congressional App Challenge 2016",
+    prize: "2nd Place Congressional App Challenge 2016",
     img: "iatw.png",
     description: "A two-player bird's-eye-view shooter web game with guns, explosions, and zombies. Inspired by Boxhead. Made with Phaser.",
     links: {
