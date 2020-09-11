@@ -8,13 +8,19 @@ const CollapsibleTextTrigger = props => {
     setIsExpanded, 
     
     children, 
+
+    onClick,
     
     containerClassName, 
     containerStyle } = props;
 
   return (
     <div className={`CollapsibleTextTrigger ${containerClassName} mouse-on-hover flex-container-vertically-center`}
-      onClick={e => setIsExpanded(prev => !prev)}
+      onClick={e => {
+        if (!!onClick) onClick()
+
+        setIsExpanded(prev => !prev)
+      }}
       style={containerStyle}
     >
       {children}
