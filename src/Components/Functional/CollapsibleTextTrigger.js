@@ -17,7 +17,7 @@ const CollapsibleTextTrigger = props => {
   return (
     <div className={`CollapsibleTextTrigger ${containerClassName} mouse-on-hover flex-container-vertically-center`}
       onClick={e => {
-        if (!!onClick) onClick()
+        if (!!onClick) onClick(!isExpanded)
 
         setIsExpanded(prev => !prev)
       }}
