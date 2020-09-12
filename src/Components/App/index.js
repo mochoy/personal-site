@@ -21,8 +21,8 @@ import './index.css';
 
 const initGA = () => {
   ReactGA.initialize(process.env.REACT_APP_GA_KEY, {
-    debug: true,
-    testMode: true,    // Uncomment/set to false if dont want data sent to ga
+    // debug: true,
+    // testMode: true,    // Uncomment/set to false if dont want data sent to ga
     // siteSpeedSampleRate: 100
   });
 
