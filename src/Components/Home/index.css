@@ -1,0 +1,81 @@
+#Home {
+  height: 100%;
+  width: 100%;
+
+  /* Hide edges when making bg img bigger */
+  overflow: hidden;
+
+}
+
+#Home #bg-img {
+  height: 100%;
+  width: 100%;
+
+  /* Add the blur effect */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Make bg img bigger so edges don't look weird */
+  /* transform: scale(1.05); */
+
+  /* Parallax effect on scroll */
+  z-index: -200;
+  position: absolute;
+  /* overflow: hidden; */
+  background-attachment: fixed;
+  background-position: 50%;
+
+  /* Black bg color so if img moves around, the edges don't look weird */
+  background-color: black;
+}
+
+#Home .text-container {
+  width: 90%;
+}
+
+#Home h1, #Home h2, #Home p {
+  color: white;
+  margin: 0;
+}
+
+#Home h1 {
+  font-size: 5em;
+}
+
+#Home h2 {
+  font-size: 3em;
+}
+
+/* #Home p {
+  font-size: 1.5em;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  margin-top: 0.5em;
+} */
+
+
+#Home .links-container {
+  margin-top: 0.5em;
+}
+
+#Home .links-container p {
+  margin: 1em;
+  font-size: 1.4em;
+}
+
+#Home .chevron {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 80%;
+  -webkit-animation: welcome-chevron-bounce .5s infinite alternate;
+  animation: welcome-chevron-bounce .5s infinite alternate;
+}
+
+@keyframes welcome-chevron-bounce {
+  from{ top:80% } to { top:85% }
+}

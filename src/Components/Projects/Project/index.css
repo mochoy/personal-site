@@ -1,0 +1,25 @@
+.Project {
+  width: 20em;
+  /* height: 30em; */
+  background-color: #dde6ed;
+  margin: 1em;
+}
+
+.Project .bg-img {
+  width: 20em;
+  height: 20em;
+}
+
+.Project .Content {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+.Project h2 {
+  margin-top: 0.5em;
+}
+
+.Project .Content .icon-txt {
+  width: 90%;
+}

@@ -1,4 +1,29 @@
-.flex-container-center {
-	display: flex;
-	/*align-items: center;*/
+.flex-container, 
+.flex-container-vertically-center, 
+.flex-container-horizontally-center,
+.flex-container-vertical,
+.flex-container-left,
+.flex-container-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container-vertically-center {
+  align-items: center;
+}
+
+.flex-container-horizontally-center {
+  justify-content: center;
+}
+
+.flex-container-vertical {
+  flex-direction: column;
+}
+
+.flex-container-left {
+  justify-content: flex-start;
+}
+
+.flex-container-right {
+  justify-content: flex-end;
 }

@@ -1,0 +1,32 @@
+#featured-projects-container {
+  /* margin-bottom: 4em; */
+}
+
+.FeaturedProject .Content, .Project {
+  border-radius: 4px;
+}
+
+.FeaturedProject h2, .Project h2 {
+  margin-bottom: 0.2em;
+}
+
+#Filter #first:before {
+  content: "";
+  padding: 0;
+  
+}
+
+#Filter p {
+  margin-top: 0;
+}
+
+#Filter p:before {
+  content: "\2022";
+  padding: 0 10px;
+  color: black;
+}
+
+#Filter .selected {
+  color: green;
+  font-weight: 500;
+}

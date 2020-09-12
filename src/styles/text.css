@@ -1,11 +1,28 @@
-h1, h2, h3, h4, h5, h6, p, a, #header, li, #skill-bars-container {
-  font-family: 'Noto Sans', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
 }
 
-.center-text {
-	text-align: center;
+h2 {
+  font-size: 2em;
 }
 
-.right-text {
-	text-align: right;
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.no-style-link {
+  color: black;
+  text-decoration: none;
+}
+
+.underline-on-hover:hover { 
+  text-decoration: underline;
 }

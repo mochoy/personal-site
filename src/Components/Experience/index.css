@@ -1,0 +1,64 @@
+#Experience .bullet {
+  margin-right: 0.5em;
+  font-size: 1.5em;
+  line-height: 0;
+  margin-top: 0.4em;
+}
+
+#Experience .bullet-points-text {
+  margin: 0;
+  margin-bottom: 0.3em;
+  width: 90%;
+}
+
+.experience-item-mobile {
+  display: none;
+}
+
+.experience-item-desktop {
+  margin: 2em 0;
+}
+
+.experience-item-desktop .left {
+  width: 15em;
+  padding-right: 2em;
+
+  text-align: right;
+  
+  /* border-right: white solid 1px; */
+}
+
+.experience-item-desktop h3 {
+  margin-bottom: 0;
+}
+
+.experience-item-desktop h4 {
+  margin-bottom: 0;
+}
+
+.experience-item-desktop .right {
+  width: 35em;
+  padding-left: 1em;
+
+}
+
+@media only screen and (max-width: 1080px) {
+	.experience-item-desktop {
+    display: none !important;
+  }
+
+  .experience-item-mobile {
+    display: block !important;
+  }
+}
+
+
+.experience-item-mobile {
+  margin-top: 2em;
+  display: none;
+}
+
+.experience-item-mobile h4, .experience-item-mobile h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}

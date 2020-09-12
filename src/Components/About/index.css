@@ -1,0 +1,104 @@
+#main-content {
+  margin-bottom: 3em;
+}
+
+#about-text-container {
+  width: 30em;
+}
+
+
+
+
+#Logos {
+  margin-left: 2em;
+  width: 5em;
+}
+
+@media only screen and (max-width: 760px) {
+	#Logos {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 2em;
+
+		display: flex;
+    justify-content: center;
+    flex-direction: row;
+	}
+}
+
+#Logos .logo img {
+  height: 40px;
+	width: 40px;
+	margin: 0.5em 1em;
+}
+
+
+
+
+#Resumes {
+  width: 50em;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+	#Resumes {
+    width: 100%
+  }
+}
+
+.resume-link {
+  width: 7em;
+  margin: 0 1em;
+}
+
+.resume-icon {
+  height: 64px;
+  display: block;
+}
+
+
+
+
+#Buzzwords {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#Buzzwords .column {
+  margin: 0 2em;
+}
+
+@media only screen and (max-width: 460px) {
+  #Buzzwords .column {
+    margin: 0;
+  }
+}
+
+#Buzzwords .column .text {
+  width: 13em;
+  margin: 0.5em 0;
+}
+
+
+
+
+#gh-stats-img, #top-languages-img {
+  max-width: 100%;
+}
+
+#gh-stats-img {
+  margin-right: 1em;
+}
+
+@media only screen and (max-width: 1095px) {
+	#gh-stats-img {
+    margin-bottom: 1em;
+  }
+}
+
+/* Smooth transition, setting this in the above media thingy can mess up wrapping */
+@media only screen and (max-width: 1000px) {
+	#gh-stats-img {
+    margin-right: 0;
+  }
+}

@@ -1,17 +1,35 @@
 .mouse-on-hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
-/*@media only screen and (min-width: 480px) {
-  .section {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
+.chevron {
+  border: solid;
+  border-color: #fff;
+  border-width: 0 7px 7px 0;
+  padding: 9px;
 }
 
-@media only screen and (min-width: 720px) {
-  .section {
-    padding-left: 3em;
-    padding-right: 3em;
-  }
-}*/
+.down {
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.horizontally-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.float-right {
+  float: right;
+}
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
