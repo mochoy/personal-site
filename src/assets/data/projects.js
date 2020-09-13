@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "LTspice Buck Converter",
+    date: "August 2020 - Present",
+    img: "flywheel_setup_picker.png",
+    description: "LTspice simulation of buck converter. Similations first, then do a board.",
+    isFeatured: false,
+    categories: ["Hardware"]
+  },
+  {
     title: "Flywheel Setup Picker",
     date: "Nov 2019 - July 2020",
     event: "Suild Application",
