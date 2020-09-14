@@ -24,7 +24,7 @@ const BgImg = props => {
 
 
   return (
-    <div className="bg-img"
+    <div className="bg-img overlay"
       style={{
         backgroundImage: 'url(' + require(`../../../assets/images/projects/${imgSrc}`)
       }}
