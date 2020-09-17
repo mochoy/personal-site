@@ -70,7 +70,7 @@
 #Home .chevron {
   position: absolute;
   display: block;
-  left: 50%;
+  /* left: 50%; */
   top: 80%;
   -webkit-animation: welcome-chevron-bounce .5s infinite alternate;
   animation: welcome-chevron-bounce .5s infinite alternate;
