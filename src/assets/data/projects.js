@@ -38,6 +38,7 @@ const projects = [
     img: "telementary_box.jpg",
     description: "Personal security locker to prevent package theft with live-streaming facial detection and gps. I devloped and deployed the front-end web client and GCP cloud functions.",
     isFeatured: true,
+    featuredPriority: 1,  // higher num = lower priority
     builtWith: ["React", "Google Cloud Platform", "Machine Learning"],
     links: {
       open: "https://devpost.com/software/telementary-box",
