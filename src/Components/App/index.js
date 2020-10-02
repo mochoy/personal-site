@@ -1,5 +1,6 @@
 import React, { createContext } from 'react';
 import ReactGA from 'react-ga';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import scrollToElement from 'scroll-to-element';
 import VisibilitySensor from 'react-visibility-sensor';
 
