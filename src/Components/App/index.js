@@ -8,6 +8,7 @@ import Home from '../Home';
 import About from '../About';
 import Experience from '../Experience';
 import Projects from '../Projects';
+import Blog from '../Blog';
 import Footer from '../Footer';
 
 import logos from '../../assets/data/logos.js';
