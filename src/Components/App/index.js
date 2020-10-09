@@ -66,60 +66,61 @@ const App = () => {
 
   return (
     <ReactGACtx.Provider value={ReactGA}>
-      <div className="App">
-        <VisibilitySensor 
-          partialVisibility={true} 
-          onChange={ isVisible => sectionVisited(isVisible, "Home") }
-        >
-          <Home/>
-        </VisibilitySensor>
+      <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
+        <div className="App">
+          <VisibilitySensor 
+            partialVisibility={true} 
+            onChange={ isVisible => sectionVisited(isVisible, "Home") }
+          >
+            <Home/>
+          </VisibilitySensor>
 
-        <VisibilitySensor 
-          partialVisibility={true} 
-          onChange={ isVisible => sectionVisited(isVisible, "About") }
-        >
-          <About
-            logosData={logos}
-            buzzwords={buzzwords}
-          />
-        </VisibilitySensor>
-        
-        <VisibilitySensor 
-          partialVisibility={true} 
-          onChange={ isVisible => sectionVisited(isVisible, "Experience") }
-        >
-          <Experience
-            experienceData={experience}
-          />
-        </VisibilitySensor>
+          <VisibilitySensor 
+            partialVisibility={true} 
+            onChange={ isVisible => sectionVisited(isVisible, "About") }
+          >
+            <About
+              logosData={logos}
+              buzzwords={buzzwords}
+            />
+          </VisibilitySensor>
+          
+          <VisibilitySensor 
+            partialVisibility={true} 
+            onChange={ isVisible => sectionVisited(isVisible, "Experience") }
+          >
+            <Experience
+              experienceData={experience}
+            />
+          </VisibilitySensor>
 
-        <VisibilitySensor 
-          partialVisibility={true} 
-          onChange={ isVisible => sectionVisited(isVisible, "Projects") }
-        >
-          <Projects
-            projectsData={
-              projects.map((project, index) => {
-                // Apply id to each project
-                return {
-                  id: Date.now() + index,
-                  ...project
-                }
-              })
-            }
-          />
-        </VisibilitySensor>
+          <VisibilitySensor 
+            partialVisibility={true} 
+            onChange={ isVisible => sectionVisited(isVisible, "Projects") }
+          >
+            <Projects
+              projectsData={
+                projects.map((project, index) => {
+                  // Apply id to each project
+                  return {
+                    id: Date.now() + index,
+                    ...project
+                  }
+                })
+              }
+            />
+          </VisibilitySensor>
 
-        <VisibilitySensor 
-          partialVisibility={true} 
-          onChange={ isVisible => sectionVisited(isVisible, "Footer") }
-        >
-          <Footer/>
-        </VisibilitySensor>
+          <VisibilitySensor 
+            partialVisibility={true} 
+            onChange={ isVisible => sectionVisited(isVisible, "Footer") }
+          >
+            <Footer/>
+          </VisibilitySensor>
 
-      </div>
+        </div>
+      </BrowserRouter>
     </ReactGACtx.Provider>
-    
   );
 }
 
