@@ -74,6 +74,7 @@ const App = () => {
           >
             <Home/>
           </VisibilitySensor>
+          <Blog/>
 
           <VisibilitySensor 
             partialVisibility={true} 
