@@ -74,7 +74,17 @@ const App = () => {
           >
             <Home/>
           </VisibilitySensor>
-          <Blog/>
+
+          <Route 
+            exact path="/blog" 
+            render = {
+              (props) => (
+                <Blog {...props} 
+
+                />
+              )
+            } 
+          />
 
           <VisibilitySensor 
             partialVisibility={true} 
