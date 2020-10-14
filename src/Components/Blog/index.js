@@ -7,6 +7,8 @@ import './index.css';
 
 const Blog = props => {
   
+  const ReactGA = useContext(ReactGACtx);
+
   return (
     <div id="Blog">
       Blog
