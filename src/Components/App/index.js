@@ -8,6 +8,7 @@ import Home from '../Home';
 import About from '../About';
 import Experience from '../Experience';
 import Projects from '../Projects';
+import Main from '../Main';
 import Blog from '../Blog';
 import Footer from '../Footer';
 
