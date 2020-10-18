@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import { ReactGACtx } from '../App';
 
 
-const Blog = props => {
+const Main = props => {
   
   const ReactGA = useContext(ReactGACtx);
 
@@ -14,4 +14,4 @@ const Blog = props => {
   );
 };
 
-export default Blog;
+export default Main;
