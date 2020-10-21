@@ -76,6 +76,8 @@ const App = () => {
             <Home/>
           </VisibilitySensor>
 
+          <Main/>
+
           <Route 
             exact path="/blog" 
             render = {
