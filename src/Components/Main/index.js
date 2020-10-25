@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import Home from '../Home';
+import About from '../About';
 
 import { ReactGACtx } from '../App';
 
