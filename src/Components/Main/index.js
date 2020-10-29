@@ -8,6 +8,8 @@ import Projects from '../Projects';
 
 import { ReactGACtx } from '../App';
 
+import logos from '../../assets/data/logos.js';
+
 
 const Main = props => {
   
