@@ -9,6 +9,7 @@ import Projects from '../Projects';
 import { ReactGACtx } from '../App';
 
 import logos from '../../assets/data/logos.js';
+import buzzwords from '../../assets/data/buzzwords.js';
 
 
 const Main = props => {
