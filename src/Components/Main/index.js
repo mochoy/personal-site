@@ -10,6 +10,7 @@ import { ReactGACtx } from '../App';
 
 import logos from '../../assets/data/logos.js';
 import buzzwords from '../../assets/data/buzzwords.js';
+import experience from '../../assets/data/experience'; 
 
 
 const Main = props => {
