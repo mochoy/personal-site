@@ -11,6 +11,7 @@ import { ReactGACtx } from '../App';
 import logos from '../../assets/data/logos.js';
 import buzzwords from '../../assets/data/buzzwords.js';
 import experience from '../../assets/data/experience'; 
+import projects from '../../assets/data/projects'; 
 
 
 const Main = props => {
