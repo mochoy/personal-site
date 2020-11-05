@@ -14,6 +14,9 @@ import experience from '../../assets/data/experience';
 import projects from '../../assets/data/projects'; 
 
 
+import './index.css';
+
+
 const Main = props => {
   
   const ReactGA = useContext(ReactGACtx);
