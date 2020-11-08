@@ -36,7 +36,48 @@ const Main = props => {
 
   return (
     <div id="Main">
-      Main
+      <VisibilitySensor 
+        partialVisibility={true} 
+        onChange={ isVisible => sectionVisited(isVisible, "Home") }
+      >
+        <Home/>
+      </VisibilitySensor>
+
+      <VisibilitySensor 
+        partialVisibility={true} 
+        onChange={ isVisible => sectionVisited(isVisible, "About") }
+      >
+        <About
+          logosData={logos}
+          buzzwords={buzzwords}
+        />
+      </VisibilitySensor>
+      
+      <VisibilitySensor 
+        partialVisibility={true} 
+        onChange={ isVisible => sectionVisited(isVisible, "Experience") }
+      >
+        <Experience
+          experienceData={experience}
+        />
+      </VisibilitySensor>
+
+      <VisibilitySensor 
+        partialVisibility={true} 
+        onChange={ isVisible => sectionVisited(isVisible, "Projects") }
+      >
+        <Projects
+          projectsData={
+            projects.map((project, index) => {
+              // Apply id to each project
+              return {
+                id: Date.now() + index,
+                ...project
+              }
+            })
+          }
+        />
+      </VisibilitySensor>
     </div>
   );
 };
