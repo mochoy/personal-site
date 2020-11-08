@@ -60,19 +60,34 @@ const App = () => {
     <ReactGACtx.Provider value={ReactGA}>
       <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
         <div className="App">
-          <Main/>
-          
-          {/* Route to blog */}
-          <Route 
-            exact path="/blog" 
-            render = {
-              (props) => (
-                <Blog {...props} 
+          <Switch>
+            {/* Route to blog */}
+            <Route 
+              exact path="/blog" 
+              render = {
+                (props) => (
+                  <Blog {...props} 
 
-                />
-              )
-            } 
-          />
+                  />
+                )
+              } 
+            />
+
+            {/* Route to main */}
+            <Route 
+              exact path="/*" 
+              render = {
+                (props) => (
+                  <Main {...props} 
+
+                  />
+                )
+              } 
+            />
+
+          </Switch>
+          
+          
 
           <VisibilitySensor 
             partialVisibility={true} 
