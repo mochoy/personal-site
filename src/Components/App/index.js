@@ -4,18 +4,9 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import scrollToElement from 'scroll-to-element';
 import VisibilitySensor from 'react-visibility-sensor';
 
-import Home from '../Home';
-import About from '../About';
-import Experience from '../Experience';
-import Projects from '../Projects';
 import Main from '../Main';
 import Blog from '../Blog';
 import Footer from '../Footer';
-
-import logos from '../../assets/data/logos.js';
-import buzzwords from '../../assets/data/buzzwords.js';
-import experience from '../../assets/data/experience'; 
-import projects from '../../assets/data/projects'; 
 
 
 import './index.css';
@@ -70,7 +61,8 @@ const App = () => {
       <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
         <div className="App">
           <Main/>
-
+          
+          {/* Route to blog */}
           <Route 
             exact path="/blog" 
             render = {
