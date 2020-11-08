@@ -61,24 +61,24 @@ const App = () => {
       <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
         <div className="App">
           <Switch>
-            {/* Route to blog */}
+            {/* Route to main */}
             <Route 
-              exact path="/blog" 
+              exact path="/" 
               render = {
                 (props) => (
-                  <Blog {...props} 
+                  <Main {...props} 
 
                   />
                 )
               } 
             />
 
-            {/* Route to main */}
+            {/* Route to blog */}
             <Route 
-              exact path="/*" 
+              exact path="/blog" 
               render = {
                 (props) => (
-                  <Main {...props} 
+                  <Blog {...props} 
 
                   />
                 )
