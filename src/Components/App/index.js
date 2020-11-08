@@ -1,6 +1,6 @@
 import React, { createContext } from 'react';
 import ReactGA from 'react-ga';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import scrollToElement from 'scroll-to-element';
 import VisibilitySensor from 'react-visibility-sensor';
 
@@ -83,6 +83,14 @@ const App = () => {
                   />
                 )
               } 
+            />
+
+            {/* Redirect random/broken paths to main */}
+            <Route 
+              path="/*" 
+              render = {() => (
+                <Redirect to="/" />
+              )} 
             />
 
           </Switch>
