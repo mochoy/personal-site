@@ -64,25 +64,21 @@ const App = () => {
             {/* Route to main */}
             <Route 
               exact path="/" 
-              render = {
-                (props) => (
-                  <Main {...props} 
+              render = {(props) => (
+                <Main {...props} 
 
-                  />
-                )
-              } 
+                />
+              )} 
             />
 
             {/* Route to blog */}
             <Route 
               exact path="/blog" 
-              render = {
-                (props) => (
-                  <Blog {...props} 
+              render = {(props) => (
+                <Blog {...props} 
 
-                  />
-                )
-              } 
+                />
+              )} 
             />
 
             {/* Redirect random/broken paths to main */}
