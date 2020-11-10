@@ -1,7 +1,6 @@
 import React, { createContext } from 'react';
 import ReactGA from 'react-ga';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
-import scrollToElement from 'scroll-to-element';
 import VisibilitySensor from 'react-visibility-sensor';
 
 import Main from '../Main';
@@ -41,20 +40,9 @@ export const ReactGACtx = createContext(ReactGA);
 
 
 const App = () => {
-  // Need to wrap scroll event in useEffect, idk why
   React.useEffect(() => {
     initGA();
-
-    const pathname = window.location.pathname // montychoy.com/{pathname}
-      .replace("/", "")
-      .toLowerCase();
-
-    // if pathname specified, scroll to it 
-    if (pathname.length > 0) {
-      scrollToElement(`#${pathname}`)
-    }
   }, []);
-
 
   return (
     <ReactGACtx.Provider value={ReactGA}>
