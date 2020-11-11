@@ -1,4 +1,5 @@
 import React, { useState, useContext } from 'react';
+import scrollToElement from 'scroll-to-element';
 import VisibilitySensor from 'react-visibility-sensor';
 import { Collapse } from '@material-ui/core';
 import FlipMove from 'react-flip-move';
@@ -25,6 +26,21 @@ const Projects = props => {
   const [ filter, setFilter ] = React.useState(filterOptions[0]);
 
   const ReactGA = useContext(ReactGACtx);
+
+
+  // Scroll to project specified in url 
+  // Need to wrap scroll event in useEffect, idk why
+  React.useEffect(() => {
+    const pathname = window.location.pathname // montychoy.com/{pathname}
+      .replace("/", "")
+      .toLowerCase();
+
+    // if pathname specified, scroll to it 
+    if (pathname.length > 0) {
+      scrollToElement(`#${pathname}`)
+    }
+  }, []);
+  
 
   // Called from VisibilitySensor onChange, if isVisible === true, then that 
   // project has been visited, so send an event to GA via GA event
