@@ -53,9 +53,14 @@ const App = () => {
             <Route 
               exact path="/" 
               render = {(props) => (
-                <Main {...props} 
-
-                />
+                <Main {...props}>
+                  <VisibilitySensor 
+                    partialVisibility={true} 
+                    onChange={ isVisible => sectionVisited(isVisible, "Footer") }
+                  >
+                    <Footer/>
+                  </VisibilitySensor>
+                </Main>
               )} 
             />
 
@@ -78,15 +83,6 @@ const App = () => {
             />
 
           </Switch>
-          
-          
-
-          <VisibilitySensor 
-            partialVisibility={true} 
-            onChange={ isVisible => sectionVisited(isVisible, "Footer") }
-          >
-            <Footer/>
-          </VisibilitySensor>
 
         </div>
       </BrowserRouter>

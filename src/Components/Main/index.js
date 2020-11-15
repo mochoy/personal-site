@@ -18,6 +18,7 @@ import './index.css';
 
 
 const Main = props => {
+  const { children } = props;
   
   const ReactGA = useContext(ReactGACtx);
 
@@ -78,6 +79,8 @@ const Main = props => {
           }
         />
       </VisibilitySensor>
+
+      { children }
     </div>
   );
 };
