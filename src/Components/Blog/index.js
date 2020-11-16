@@ -11,7 +11,7 @@ const Blog = props => {
 
   return (
     <div id="Blog">
-      Blog
+      Wow quit hacking my site
     </div>
   );
 };
