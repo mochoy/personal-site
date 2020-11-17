@@ -22,17 +22,21 @@ const initGA = () => {
   ReactGA.pageview(window.location.pathname + window.location.search);
 };
 
-// Called from VisibilitySensor onChange, if isVisible === true, then that 
-// section has been visited, so send an event to GA via GA event
-const sectionVisited = (isVisible, section) => {
-  if (isVisible) {
-    ReactGA.event({
-      category: 'Section',
-      action: "Visited",
-      label: section,
-      nonInteraction: true
-    });
-  }
+
+// Custom GA stuff that will be tacked onto ReactGA that gets passed through contexts
+ReactGA.custom = {
+  // Called from VisibilitySensor onChange, if isVisible === true, then that 
+  // section has been visited, so send an event to GA via GA event
+  sectionVisited: (isVisible, section) => {
+    if (isVisible) {
+      ReactGA.event({
+        category: 'Section',
+        action: "Visited",
+        label: section,
+        nonInteraction: true
+      });
+    }
+  }  
 }
 
 
@@ -56,7 +60,7 @@ const App = () => {
                 <Main {...props}>
                   <VisibilitySensor 
                     partialVisibility={true} 
-                    onChange={ isVisible => sectionVisited(isVisible, "Footer") }
+                    onChange={ isVisible => ReactGA.custom.sectionVisited(isVisible, "Footer") }
                   >
                     <Footer/>
                   </VisibilitySensor>
