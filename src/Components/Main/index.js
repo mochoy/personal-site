@@ -22,6 +22,8 @@ const Main = props => {
   
   const ReactGA = useContext(ReactGACtx);
 
+  console.log(ReactGA.custom)
+
   // Called from VisibilitySensor onChange, if isVisible === true, then that 
   // section has been visited, so send an event to GA via GA event
   const sectionVisited = (isVisible, section) => {
