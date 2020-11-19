@@ -22,33 +22,19 @@ const Main = props => {
   
   const ReactGA = useContext(ReactGACtx);
 
-  console.log(ReactGA.custom)
-
-  // Called from VisibilitySensor onChange, if isVisible === true, then that 
-  // section has been visited, so send an event to GA via GA event
-  const sectionVisited = (isVisible, section) => {
-    if (isVisible) {
-      ReactGA.event({
-        category: 'Section',
-        action: "Visited",
-        label: section,
-        nonInteraction: true
-      });
-    }
-  }
 
   return (
     <div id="Main">
       <VisibilitySensor 
         partialVisibility={true} 
-        onChange={ isVisible => sectionVisited(isVisible, "Home") }
+        onChange={ isVisible => ReactGA.custom.sectionVisited(isVisible, "Home") }
       >
         <Home/>
       </VisibilitySensor>
 
       <VisibilitySensor 
         partialVisibility={true} 
-        onChange={ isVisible => sectionVisited(isVisible, "About") }
+        onChange={ isVisible => ReactGA.custom.sectionVisited(isVisible, "About") }
       >
         <About
           logosData={logos}
@@ -58,7 +44,7 @@ const Main = props => {
       
       <VisibilitySensor 
         partialVisibility={true} 
-        onChange={ isVisible => sectionVisited(isVisible, "Experience") }
+        onChange={ isVisible => ReactGA.custom.sectionVisited(isVisible, "Experience") }
       >
         <Experience
           experienceData={experience}
@@ -67,7 +53,7 @@ const Main = props => {
 
       <VisibilitySensor 
         partialVisibility={true} 
-        onChange={ isVisible => sectionVisited(isVisible, "Projects") }
+        onChange={ isVisible => ReactGA.custom.sectionVisited(isVisible, "Projects") }
       >
         <Projects
           projectsData={
