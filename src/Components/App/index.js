@@ -10,7 +10,7 @@ import Footer from '../Footer';
 
 import './index.css';
 
-
+// test pat
 
 const initGA = () => {
   ReactGA.initialize(process.env.REACT_APP_GA_KEY, {
