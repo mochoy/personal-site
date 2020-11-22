@@ -1,17 +1,25 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import VisibilitySensor from 'react-visibility-sensor';
 
+import { ReactGACtx } from '../App';
 
 import './index.css';
 
 
 const Footer = props => {
-  
+  const ReactGA = useContext(ReactGACtx);
+
   return (
-    <div id="Footer">
-      <p>Dope home image credit IG: robertklim</p>
-      <p className="text-center">Monty Choy</p>
-      <p className="text-center">2017 - 2020</p>
-    </div>
+    <VisibilitySensor 
+      partialVisibility={true} 
+      onChange={ isVisible => ReactGA.custom.sectionVisited(isVisible, "Footer") }
+    >
+      <div id="Footer">
+        <p>Dope home image credit IG: robertklim</p>
+        <p className="text-center">Monty Choy</p>
+        <p className="text-center">2017 - 2020</p>
+      </div>
+    </VisibilitySensor>
   );
 };
 

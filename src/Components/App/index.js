@@ -1,7 +1,6 @@
 import React, { createContext } from 'react';
 import ReactGA from 'react-ga';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
-import VisibilitySensor from 'react-visibility-sensor';
 
 import Main from '../Main';
 import Blog from '../Blog';
@@ -58,12 +57,7 @@ const App = () => {
               exact path="/" 
               render = {(props) => (
                 <Main {...props}>
-                  <VisibilitySensor 
-                    partialVisibility={true} 
-                    onChange={ isVisible => ReactGA.custom.sectionVisited(isVisible, "Footer") }
-                  >
-                    <Footer/>
-                  </VisibilitySensor>
+                  <Footer/>
                 </Main>
               )} 
             />
