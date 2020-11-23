@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import scrollToElement from 'scroll-to-element';
+import { Link } from 'react-router-dom';
 
 import { ReactGACtx } from '../App';
 
@@ -57,6 +58,19 @@ const Home = props => {
                 )
               })
           }
+          <Link to={"/blog"}>
+            <p className="mouse-on-hover" 
+              onClick={e => {
+                ReactGA.event({
+                  category: 'Home Links',
+                  action: 'Clicked',
+                  label: "Blog",
+                });
+              }}
+            >
+              Blog
+            </p>
+          </Link>
         </div>
       </div>
       
