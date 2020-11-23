@@ -66,9 +66,9 @@ const App = () => {
             <Route 
               exact path="/blog" 
               render = {(props) => (
-                <Blog {...props} 
-
-                />
+                <Blog {...props}>
+                  <Footer/>
+                </Blog>
               )} 
             />
 
