@@ -5,6 +5,7 @@ import { Collapse } from '@material-ui/core';
 import FlipMove from 'react-flip-move';
 
 import { ReactGACtx } from '../App';
+import { isProd } from '../../helpers/isDev';
 
 import FeaturedProject from './FeaturedProject';
 import CollapsibleTextTrigger from '../Functional/CollapsibleTextTrigger';
@@ -133,7 +134,8 @@ const Projects = props => {
             {/* Regular projects */}
             <FlipMove className="flex-container-horizontally-center">
               { projectsToDisplay
-                .filter(project => !project.isFeatured)
+                .filter(project => !project.isFeatured)   // Remove unfeatured projects
+                .filter(project => isProd() ? !project.hideForProd: true )    // Remove non prod projects for prod
                 .map(
                   (project) => {
                     const { id } = project;
