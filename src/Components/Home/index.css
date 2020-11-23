@@ -67,6 +67,10 @@
   font-size: 1.4em;
 }
 
+#Home .links-container a {
+  text-decoration: none;
+}
+
 #Home .chevron {
   position: absolute;
   display: block;
