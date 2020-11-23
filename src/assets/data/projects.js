@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "LTspice Buck Converter",
+    date: "August 2020 - Present",
+    img: "flywheel_setup_picker.png",
+    description: "LTspice simulation of buck converter. Similations first, then do a board.",
+    isFeatured: false,
+    hideForProd: true,
+    categories: ["Hardware"]
+  },
+  {
     title: "Flywheel Setup Picker",
     date: "Nov 2019 - July 2020",
     event: "Suild Application",
@@ -30,6 +39,7 @@ const projects = [
     img: "telementary_box.jpg",
     description: "Personal security locker to prevent package theft with live-streaming facial detection and gps. I devloped and deployed the front-end web client and GCP cloud functions.",
     isFeatured: true,
+    featuredPriority: 1,  // higher num = lower priority
     builtWith: ["React", "Google Cloud Platform", "Machine Learning"],
     links: {
       open: "https://devpost.com/software/telementary-box",

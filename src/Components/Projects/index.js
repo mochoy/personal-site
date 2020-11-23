@@ -1,9 +1,11 @@
 import React, { useState, useContext } from 'react';
+import scrollToElement from 'scroll-to-element';
 import VisibilitySensor from 'react-visibility-sensor';
 import { Collapse } from '@material-ui/core';
 import FlipMove from 'react-flip-move';
 
 import { ReactGACtx } from '../App';
+import { isProd } from '../../helpers/isDev';
 
 import FeaturedProject from './FeaturedProject';
 import CollapsibleTextTrigger from '../Functional/CollapsibleTextTrigger';
@@ -25,6 +27,21 @@ const Projects = props => {
   const [ filter, setFilter ] = React.useState(filterOptions[0]);
 
   const ReactGA = useContext(ReactGACtx);
+
+
+  // Scroll to project specified in url 
+  // Need to wrap scroll event in useEffect, idk why
+  React.useEffect(() => {
+    const pathname = window.location.pathname // montychoy.com/{pathname}
+      .replace("/", "")
+      .toLowerCase();
+
+    // if pathname specified, scroll to it 
+    if (pathname.length > 0) {
+      scrollToElement(`#${pathname}`)
+    }
+  }, []);
+  
 
   // Called from VisibilitySensor onChange, if isVisible === true, then that 
   // project has been visited, so send an event to GA via GA event
@@ -117,7 +134,8 @@ const Projects = props => {
             {/* Regular projects */}
             <FlipMove className="flex-container-horizontally-center">
               { projectsToDisplay
-                .filter(project => !project.isFeatured)
+                .filter(project => !project.isFeatured)   // Remove unfeatured projects
+                .filter(project => isProd() ? !project.hideForProd: true )    // Remove non prod projects for prod
                 .map(
                   (project) => {
                     const { id } = project;
