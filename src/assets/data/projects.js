@@ -5,6 +5,7 @@ const projects = [
     img: "flywheel_setup_picker.png",
     description: "LTspice simulation of buck converter. Similations first, then do a board.",
     isFeatured: false,
+    hideForProd: true,
     categories: ["Hardware"]
   },
   {
