@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
+import scrollToElement from 'scroll-to-element';
 
 import Home from '../Home';
 import About from '../About';
@@ -19,6 +20,24 @@ import './index.css';
 
 const Main = props => {  
   const ReactGA = useContext(ReactGACtx);
+
+  React.useEffect(() => {
+    const path = props.match.path // montychoy.com/{path}
+      .replace("/", "")
+      .toLowerCase();
+
+    // Wait 1 sec to scroll to make sure everything is properly rendered to
+    // ensure smooth scrolling all the way down to the component
+    setTimeout(() => {
+      // if pathname specified, scroll to it 
+      if (path.length > 0) {
+        const idOfComponentToScrollTo = path.charAt(0).toUpperCase() + path.slice(1);
+
+        scrollToElement(`#${idOfComponentToScrollTo}`)
+      }
+    }, 1000)
+
+  }, []);
 
   return (
     <div id="Main">
