@@ -1,5 +1,7 @@
 import React, { useContext } from 'react';
 
+import Nav from '../Nav';
+
 import { ReactGACtx } from '../App';
 
 import './index.css';
