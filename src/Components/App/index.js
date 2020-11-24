@@ -56,7 +56,7 @@ const App = () => {
           <Switch>
             {/* Route to main */}
             <Route 
-              exact path="/" 
+              exact path={["/", "/home", "/about", "/experience", "/projects"]}
               render = {(props) => (
                 <Main {...props}/>
               )} 
