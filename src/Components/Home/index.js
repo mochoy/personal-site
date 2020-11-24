@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import { ReactGACtx } from '../App';
 
+import useWindowSize from '../../hooks/useWindowSize';
+
 
 import './index.css';
 
@@ -11,9 +13,13 @@ import './index.css';
 const Home = props => {
   const ReactGA = useContext(ReactGACtx);
 
+  const { height } = useWindowSize();
+
+  
   return (
     <section id="Home" 
       className="flex-container-vertically-center flex-container-horizontally-center"
+      style={{ height: height + "px" }}
       onClick={e => {
         ReactGA.event({
           category: 'Home',
