@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useLayoutEffect } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 
 import Home from '../Home';
@@ -19,6 +19,18 @@ import './index.css';
 
 const Main = props => {  
   const ReactGA = useContext(ReactGACtx);
+
+  useLayoutEffect(() => {
+    function updateSize() {
+      console.log(window.innerHeight)
+      // setSize([window.innerWidth, window.innerHeight]);
+    }
+
+    window.addEventListener('resize', updateSize);
+    updateSize();
+
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
 
 
   return (
