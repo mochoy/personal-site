@@ -56,9 +56,7 @@ const App = () => {
             <Route 
               exact path="/" 
               render = {(props) => (
-                <Main {...props}>
-                  <Footer/>
-                </Main>
+                <Main {...props}/>
               )} 
             />
 
@@ -66,9 +64,7 @@ const App = () => {
             <Route 
               exact path="/blog" 
               render = {(props) => (
-                <Blog {...props}>
-                  <Footer/>
-                </Blog>
+                <Blog {...props}/>
               )} 
             />
 
@@ -81,6 +77,8 @@ const App = () => {
             />
 
           </Switch>
+
+          <Footer/>
 
         </div>
       </BrowserRouter>
