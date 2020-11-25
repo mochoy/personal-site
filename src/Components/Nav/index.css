@@ -1,6 +1,14 @@
 #Nav {
   position: fixed;
-  z-index: 2;
-  background-color: green;
+  /* z-index: 1; */
+  /* background-color: green; */
   width: 100%;
+}
+
+#Nav a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+
+  margin: 0 2em;
 }

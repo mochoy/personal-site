@@ -7,10 +7,10 @@ import './index.css';
 
 const Nav = props => {
   return (
-    <div id="Nav">
+    <div id="Nav" className="flex-container-horizontally-center">
       {["home", "about", "experience", "projects", "blog"].map(link => {
         return (
-          <p><Link to={"/" + "link"}>{link}</Link></p>
+          <p className="text-center"><Link to={"/" + "link"}>{link}</Link></p>
         )
       })}
 
