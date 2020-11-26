@@ -35,7 +35,7 @@ const Main = props => {
 
         scrollToElement(`#${idOfComponentToScrollTo}`)
       }
-    }, 1000)
+    }, 500)
 
   }, []);
 
