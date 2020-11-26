@@ -9,6 +9,8 @@ import Projects from '../Projects';
 
 import { ReactGACtx } from '../App';
 
+import uppercaseFirstChar from '../../helpers/uppercaseFirstChar';
+
 import logos from '../../assets/data/logos.js';
 import buzzwords from '../../assets/data/buzzwords.js';
 import experience from '../../assets/data/experience'; 
@@ -31,7 +33,7 @@ const Main = props => {
     setTimeout(() => {
       // if pathname specified, scroll to it 
       if (path.length > 0) {
-        const idOfComponentToScrollTo = path.charAt(0).toUpperCase() + path.slice(1);
+        const idOfComponentToScrollTo = uppercaseFirstChar(path);
 
         scrollToElement(`#${idOfComponentToScrollTo}`)
       }
