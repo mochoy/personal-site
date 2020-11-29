@@ -14,7 +14,7 @@ import './index.css';
 
 const initGA = () => {
   ReactGA.initialize(process.env.REACT_APP_GA_KEY, {
-    debug: true,
+    debug: false,       // Set to fale to disable logs
     testMode: true,    // Uncomment/set to false if dont want data sent to ga
     // siteSpeedSampleRate: 100
   });
@@ -53,6 +53,7 @@ const App = () => {
       <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
         <div className="App">
           <Nav/>
+          
           <Switch>
             {/* Route to main */}
             <Route 
