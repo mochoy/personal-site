@@ -45,7 +45,7 @@ const Nav = props => {
             </p>
           )
         })}
-        <p className="text-center"><Link to={"/blog"}>Blog</Link></p>
+        { /* <p className="text-center"><Link to={"/blog"}>Blog</Link></p> */}
       </div>
     )
   }
