@@ -24,7 +24,7 @@ import './index.css';
 const Main = props => {  
   const ReactGA = useContext(ReactGACtx);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const path = props.match.path // montychoy.com/{path}
       .replace("/", "")
       .toLowerCase();
@@ -40,7 +40,6 @@ const Main = props => {
       }
     }, 500)
 
-  }, []);
   });
 
   const [ isHomeVisible, setIsHomeVisible ] = useState(true)
