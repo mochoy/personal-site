@@ -1,5 +1,6 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
+import { InView } from 'react-intersection-observer';
 import scrollToElement from 'scroll-to-element';
 
 import Home from '../Home';
@@ -40,14 +41,26 @@ const Main = props => {
     }, 500)
 
   }, []);
+  });
+
+  const [ isHomeVisible, setIsHomeVisible ] = useState(true)
+
+  console.log(isHomeVisible)
 
   return (
     <div id="Main">
       <VisibilitySensor 
         partialVisibility={true} 
-        onChange={ isVisible => ReactGA.custom.sectionVisited(isVisible, "Home") }
+        onChange={ isVisible => {
+          ReactGA.custom.sectionVisited(isVisible, "Home")
+        } }
       >
-        <Home/>
+        
+        <InView as="div" onChange={(inView, entry) => setIsHomeVisible(inView)}>
+          <Home/>
+        </InView>
+
+
       </VisibilitySensor>
 
       <VisibilitySensor 
