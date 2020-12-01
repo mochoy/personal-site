@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
-import { InView } from 'react-intersection-observer';
 import scrollToElement from 'scroll-to-element';
 
 import Home from '../Home';
@@ -54,12 +53,7 @@ const Main = props => {
           ReactGA.custom.sectionVisited(isVisible, "Home")
         } }
       >
-        
-        <InView as="div" onChange={(inView, entry) => setIsHomeVisible(inView)}>
-          <Home/>
-        </InView>
-
-
+        <Home/>
       </VisibilitySensor>
 
       <VisibilitySensor 
