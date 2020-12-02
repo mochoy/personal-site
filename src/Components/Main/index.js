@@ -41,10 +41,6 @@ const Main = props => {
 
   });
 
-  const [ isHomeVisible, setIsHomeVisible ] = useState(true)
-
-  console.log(isHomeVisible)
-
   return (
     <div id="Main">
       <VisibilitySensor 
