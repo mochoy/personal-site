@@ -14,21 +14,6 @@ const Nav = props => {
       .replace("/", "")
       .toLowerCase();
 
-  
-  // Listen and save scroll pos to state
-  const [ scrollPosition, setScrollPosition ] = useState(0);
-  
-  useEffect(() => {
-    const onScroll = e => {
-      setScrollPosition(e.target.documentElement.scrollTop);
-    };
-    
-    window.addEventListener("scroll", onScroll);
-
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [scrollPosition]);
-
-
   // Opacity based on scroll position
   const { height } = useWindowSize();
 
