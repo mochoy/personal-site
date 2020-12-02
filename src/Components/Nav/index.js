@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import scrollToElement from 'scroll-to-element';
@@ -13,7 +13,19 @@ const Nav = props => {
       .replace("/", "")
       .toLowerCase();
 
-  console.log(path)
+  
+  // Listen and save scroll pos to state
+  const [ scrollPosition, setScrollPosition ] = useState(0);
+  
+  useEffect(() => {
+    const onScroll = e => {
+      setScrollPosition(e.target.documentElement.scrollTop);
+    };
+    
+    window.addEventListener("scroll", onScroll);
+
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [scrollPosition]);
 
 
   // If on a blog page, links to anything in main will be links to that section
@@ -24,7 +36,9 @@ const Nav = props => {
       <div id="Nav" className="flex-container-horizontally-center">
         {["home", "about", "experience", "projects", "blog"].map(link => {
           return (
-            <p className="text-center mouse-on-hover"><Link to={"/" + link}>{link}</Link></p>
+            <p className="text-center mouse-on-hover">
+              <Link to={"/" + link}>{link}</Link>
+            </p>
           )
         })}
   
@@ -35,7 +49,11 @@ const Nav = props => {
     console.log("rendering main")
 
     return (
-      <div id="Nav" className="flex-container-horizontally-center">
+      <div id="Nav" className="flex-container-horizontally-center"
+        style={{
+          backgroundColor: `rgba(0, 0, 0, ${scrollPosition/1000})`
+        }}
+      >
         {["home", "about", "experience", "projects"].map(link => {
           return (
             <p className="text-center mouse-on-hover" 
