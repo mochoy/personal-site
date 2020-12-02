@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import scrollToElement from 'scroll-to-element';
 
+import useScrollPosition from '../../hooks/useScrollPosition';
 import useWindowSize from '../../hooks/useWindowSize';
 import uppercaseFirstChar from '../../helpers/uppercaseFirstChar';
 
@@ -14,10 +15,15 @@ const Nav = props => {
       .replace("/", "")
       .toLowerCase();
 
-  // Opacity based on scroll position
+  // Background color opacity based on scroll position and height
+  const scrollPosition = useScrollPosition()
   const { height } = useWindowSize();
 
-  console.log(height)
+  const [ bgOpacity, setBgOpacity ] = useState(0);
+
+  useEffect(() => {
+    setBgOpacity(scrollPosition/height)
+  }, [scrollPosition, height]);
 
 
 
@@ -44,7 +50,7 @@ const Nav = props => {
     return (
       <div id="Nav" className="flex-container-horizontally-center"
         style={{
-          backgroundColor: `rgba(0, 0, 0, ${scrollPosition/1000})`
+          backgroundColor: `rgba(0, 0, 0, ${bgOpacity})`
         }}
       >
         {["home", "about", "experience", "projects"].map(link => {
