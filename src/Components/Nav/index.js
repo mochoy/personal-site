@@ -22,7 +22,14 @@ const Nav = props => {
   const [ bgOpacity, setBgOpacity ] = useState(0);
 
   useEffect(() => {
-    setBgOpacity(scrollPosition/height)
+    const maxOpacity = 0.8;   // Max opacity slightly clear 
+
+    // If scroll too far, bg opacity just max
+    if (scrollPosition/height > maxOpacity) {
+      setBgOpacity(maxOpacity);
+    } else {
+      setBgOpacity(scrollPosition/height);
+    }
   }, [scrollPosition, height]);
 
 
