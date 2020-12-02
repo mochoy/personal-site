@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import scrollToElement from 'scroll-to-element';
 
+import useWindowSize from '../../hooks/useWindowSize';
 import uppercaseFirstChar from '../../helpers/uppercaseFirstChar';
 
 import './index.css';
@@ -26,6 +27,13 @@ const Nav = props => {
 
     return () => window.removeEventListener("scroll", onScroll);
   }, [scrollPosition]);
+
+
+  // Opacity based on scroll position
+  const { height } = useWindowSize();
+
+  console.log(height)
+
 
 
   // If on a blog page, links to anything in main will be links to that section
