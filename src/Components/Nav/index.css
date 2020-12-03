@@ -3,13 +3,13 @@
   z-index: 1;
   width: 100%;
 
-  /* overflow: scroll;
-  flex-wrap: nowrap; */
+  overflow: scroll;
+  flex-wrap: nowrap;
 }
 
-/* #Nav::-webkit-scrollbar {
+#Nav::-webkit-scrollbar {
   display: none;
-} */
+}
 
 #Nav a {
   text-decoration: none;
@@ -26,9 +26,9 @@
     flex-grow: 1;
   }
 
-  #Nav p {
+  /* #Nav p {
     margin: 0.5em 0;
-  }
+  } */
 }
 
 @media only screen and (max-width: 420px) {
