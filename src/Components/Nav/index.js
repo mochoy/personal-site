@@ -64,7 +64,6 @@ const Nav = props => {
           backgroundColor: `rgba(40, 44, 52, ${bgOpacity})`
         }}
       >
-        {["home", "about", "experience", "projects"].map(link => {
         <HamburgerMenu
             isOpen={isMenuOpen}
             menuClicked={() => setIsMenuOpen(prev => !prev)}
@@ -77,6 +76,8 @@ const Nav = props => {
             borderRadius={0}
             animationDuration={0.5}
         />
+
+        {["home", "about", "experience", "projects", "blog"].map(link => {
           return (
             <p className="text-center mouse-on-hover" 
               onClick={() => scrollToElement(`#${uppercaseFirstChar(link)}`)}
