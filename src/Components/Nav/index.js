@@ -22,7 +22,7 @@ const Nav = props => {
   const [ bgOpacity, setBgOpacity ] = useState(0);
 
   useEffect(() => {
-    const maxOpacity = 0.8;   // Max opacity slightly clear 
+    const maxOpacity = 0.95;   // Max opacity slightly clear 
 
     // If scroll too far, bg opacity just max
     if (scrollPosition/height > maxOpacity) {
@@ -57,7 +57,7 @@ const Nav = props => {
     return (
       <div id="Nav" className="flex-container-horizontally-center"
         style={{
-          backgroundColor: `rgba(0, 0, 0, ${bgOpacity})`
+          backgroundColor: `rgba(40, 44, 52, ${bgOpacity})`
         }}
       >
         {["home", "about", "experience", "projects"].map(link => {
