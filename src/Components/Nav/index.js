@@ -2,11 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 
-import scrollToElement from 'scroll-to-element';
+import Links from './links';
 
 import useScrollPosition from '../../hooks/useScrollPosition';
 import useWindowSize from '../../hooks/useWindowSize';
-import uppercaseFirstChar from '../../helpers/uppercaseFirstChar';
 
 import './index.css';
 
@@ -59,7 +58,7 @@ const Nav = props => {
     console.log("rendering main")
 
     return (
-      <div id="Nav" className="flex-container-horizontally-center"
+      <div id="Nav"
         style={{
           backgroundColor: `rgba(40, 44, 52, ${bgOpacity})`
         }}
@@ -77,16 +76,8 @@ const Nav = props => {
             animationDuration={0.5}
         />
 
-        {["home", "about", "experience", "projects", "blog"].map(link => {
-          return (
-            <p className="text-center mouse-on-hover" 
-              onClick={() => scrollToElement(`#${uppercaseFirstChar(link)}`)}
-            >
-              <a>{link}</a>
-            </p>
-          )
-        })}
-        { /* <p className="text-center"><Link to={"/blog"}>Blog</Link></p> */}
+        <Links/>
+
       </div>
     )
   }
