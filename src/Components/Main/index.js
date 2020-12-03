@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 import scrollToElement from 'scroll-to-element';
 
