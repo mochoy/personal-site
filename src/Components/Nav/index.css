@@ -3,8 +3,13 @@
   z-index: 1;
   width: 100%;
 
-  /* background-color: rgba(0, 0, 0, 1); */
+  /* overflow: scroll;
+  flex-wrap: nowrap; */
 }
+
+/* #Nav::-webkit-scrollbar {
+  display: none;
+} */
 
 #Nav a {
   text-decoration: none;
@@ -13,4 +18,21 @@
   font-size: 1.2em;
 
   margin: 0 2em;
+}
+
+@media only screen and (max-width: 600px) {
+	#Nav a {  
+    margin: 0 1em;
+    flex-grow: 1;
+  }
+
+  #Nav p {
+    margin: 0.5em 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+	#Nav a {  
+    font-size: 1em;
+  }
 }
