@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import HamburgerMenu from 'react-hamburger-menu';
 
 import scrollToElement from 'scroll-to-element';
 
@@ -33,6 +34,9 @@ const Nav = props => {
   }, [scrollPosition, height]);
 
 
+  // Hamburger menu state
+  const [ isMenuOpen, setIsMenuOpen ] = useState(false);
+
 
   // If on a blog page, links to anything in main will be links to that section
   if (path === "blog") {
@@ -61,6 +65,18 @@ const Nav = props => {
         }}
       >
         {["home", "about", "experience", "projects"].map(link => {
+        <HamburgerMenu
+            isOpen={isMenuOpen}
+            menuClicked={() => setIsMenuOpen(prev => !prev)}
+            className="mouse-on-hover"
+            width={18}
+            height={15}
+            strokeWidth={1}
+            rotate={0}
+            color='white'
+            borderRadius={0}
+            animationDuration={0.5}
+        />
           return (
             <p className="text-center mouse-on-hover" 
               onClick={() => scrollToElement(`#${uppercaseFirstChar(link)}`)}
