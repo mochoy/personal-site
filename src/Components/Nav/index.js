@@ -63,21 +63,28 @@ const Nav = props => {
           backgroundColor: `rgba(40, 44, 52, ${bgOpacity})`
         }}
       >
-        <HamburgerMenu
-            isOpen={isMenuOpen}
-            menuClicked={() => setIsMenuOpen(prev => !prev)}
-            className="mouse-on-hover"
-            width={18}
-            height={15}
-            strokeWidth={1}
-            rotate={0}
-            color='white'
-            borderRadius={0}
-            animationDuration={0.5}
-        />
 
-        <Links/>
+        { width > 550 &&  // Show only links for desktop
+          <Links/>
+        }
 
+        { width < 550 &&  // Show mobile stuff
+          <div>
+            <HamburgerMenu
+              isOpen={isMenuOpen}
+              menuClicked={() => setIsMenuOpen(prev => !prev)}
+              className="mouse-on-hover"
+              width={18}
+              height={15}
+              strokeWidth={1}
+              rotate={0}
+              color='white'
+              borderRadius={0}
+              animationDuration={0.5}
+            />
+          </div>
+        }
+        
       </div>
     )
   }
