@@ -17,7 +17,7 @@ const Nav = props => {
 
   // Background color opacity based on scroll position and height
   const scrollPosition = useScrollPosition()
-  const { height } = useWindowSize();
+  const { height, width } = useWindowSize();
 
   const [ bgOpacity, setBgOpacity ] = useState(0);
 
