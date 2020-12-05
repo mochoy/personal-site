@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
+import { Collapse } from '@material-ui/core';
 
 import Links from './links';
 
@@ -63,7 +64,6 @@ const Nav = props => {
           backgroundColor: `rgba(40, 44, 52, ${bgOpacity})`
         }}
       >
-
         { width > 550 &&  // Show only links for desktop
           <Links/>
         }
@@ -85,6 +85,11 @@ const Nav = props => {
               borderRadius={0}
               animationDuration={0.5}
             />
+
+            <Collapse in={isMenuOpen}>
+              <Links/>
+            </Collapse>
+
           </div>
         }
         
