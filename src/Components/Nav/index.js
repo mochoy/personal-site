@@ -37,75 +37,53 @@ const Nav = props => {
   // Hamburger menu state
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
 
+  return (
+    <div id="Nav"
+      style={{
+        backgroundColor: `rgba(40, 44, 52, ${bgOpacity})`
+      }}
+    >
+      { width > 550 &&  // Show only links for desktop
+        <Links/>
+      }
 
-  // If on a blog page, links to anything in main will be links to that section
-  if (path === "blog") {
-    console.log("rendering blog")
-
-    return (
-      <div id="Nav" className="flex-container-horizontally-center">
-        {["home", "about", "experience", "projects", "blog"].map(link => {
-          return (
-            <p className="text-center mouse-on-hover">
-              <Link to={"/" + link}>{link}</Link>
-            </p>
-          )
-        })}
-  
-      </div>
-    )
-  // If on a main page, links to main will just be scrollto that section
-  } else {
-    console.log("rendering main")
-
-    return (
-      <div id="Nav"
-        style={{
-          backgroundColor: `rgba(40, 44, 52, ${bgOpacity})`
-        }}
-      >
-        { width > 550 &&  // Show only links for desktop
-          <Links/>
-        }
-
-        { width < 550 &&  // Show mobile stuff
-          <div className="mobile flex-container-horizontally-center flex-container-vertically-center"
-            style={ isMenuOpen ? { paddingBottom: 0 } : {} }
+      { width < 550 &&  // Show mobile stuff
+        <div className="mobile flex-container-horizontally-center flex-container-vertically-center"
+          style={ isMenuOpen ? { paddingBottom: 0 } : {} }
+        >
+          <p className="mouse-on-hover"
+            style={{ 
+              margin: 0, 
+              flexGrow: 1, 
+              fontSize: "1.5em", 
+              fontWeight: 450 
+            }}
           >
-            <p className="mouse-on-hover"
-              style={{ 
-                margin: 0, 
-                flexGrow: 1, 
-                fontSize: "1.5em", 
-                fontWeight: 450 
-              }}
-            >
-              Monty Choy
-            </p>
+            Monty Choy
+          </p>
 
-            <HamburgerMenu
-              isOpen={isMenuOpen}
-              menuClicked={() => setIsMenuOpen(prev => !prev)}
-              className="mouse-on-hover"
-              width={23}
-              height={20}
-              strokeWidth={1}
-              rotate={0}
-              color='white'
-              borderRadius={0}
-              animationDuration={0.5}
-            />
+          <HamburgerMenu
+            isOpen={isMenuOpen}
+            menuClicked={() => setIsMenuOpen(prev => !prev)}
+            className="mouse-on-hover"
+            width={23}
+            height={20}
+            strokeWidth={1}
+            rotate={0}
+            color='white'
+            borderRadius={0}
+            animationDuration={0.5}
+          />
 
-            <Collapse in={isMenuOpen}>
-              <Links/>
-            </Collapse>
+          <Collapse in={isMenuOpen}>
+            <Links/>
+          </Collapse>
 
-          </div>
-        }
-        
-      </div>
-    )
-  }
+        </div>
+      }
+      
+    </div>
+  )
   
 }
 
