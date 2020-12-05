@@ -9,32 +9,20 @@ import scrollToElement from 'scroll-to-element';
 
 import useScrollPosition from '../../hooks/useScrollPosition';
 import useWindowSize from '../../hooks/useWindowSize';
+import useOpacityBasedOnScrollPosition from '../../hooks/useOpacityBasedOnScrollPosition';
 
 import './index.css';
 
 
 const Nav = props => {
+  console.log(props)
+
   const path = window.location.pathname // montychoy.com/{path}
       .replace("/", "")
       .toLowerCase();
 
-  // Background color opacity based on scroll position and height
-  const scrollPosition = useScrollPosition()
-  const { height, width } = useWindowSize();
-
-  const [ bgOpacity, setBgOpacity ] = useState(0);
-
-  useEffect(() => {
-    const maxOpacity = 0.95;   // Max opacity slightly clear 
-
-    // If scroll too far, bg opacity just max
-    if (scrollPosition/height > maxOpacity) {
-      setBgOpacity(maxOpacity);
-    } else {
-      setBgOpacity(scrollPosition/height);
-    }
-  }, [scrollPosition, height]);
-
+  const { width } = useWindowSize();
+  const bgOpacity = useOpacityBasedOnScrollPosition(0.95);
 
   // Hamburger menu state
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
