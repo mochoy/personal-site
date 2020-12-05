@@ -5,6 +5,8 @@ import { Collapse } from '@material-ui/core';
 
 import Links from './links';
 
+import scrollToElement from 'scroll-to-element';
+
 import useScrollPosition from '../../hooks/useScrollPosition';
 import useWindowSize from '../../hooks/useWindowSize';
 
@@ -58,6 +60,7 @@ const Nav = props => {
               fontSize: "1.5em", 
               fontWeight: 450 
             }}
+            onClick={ () => scrollToElement("#Home") }
           >
             Monty Choy
           </p>
