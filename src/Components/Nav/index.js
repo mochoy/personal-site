@@ -77,8 +77,8 @@ const Nav = props => {
               isOpen={isMenuOpen}
               menuClicked={() => setIsMenuOpen(prev => !prev)}
               className="mouse-on-hover"
-              width={18}
-              height={15}
+              width={23}
+              height={20}
               strokeWidth={1}
               rotate={0}
               color='white'
