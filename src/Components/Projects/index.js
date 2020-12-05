@@ -21,7 +21,7 @@ const filterOptions = ["All", "Hardware", "Software", "Web", "Nerf", "Architectu
 const Projects = props => {
   const { projectsData } = props;
 
-  const [ isMoreProjectsExpanded, setIsMoreProjectsExpanded ] = useState(false);
+  const [ isMoreProjectsExpanded, setIsMoreProjectsExpanded ] = useState(true);
   const [ projectsToDisplay, setProjectsToDisplay ] = useState(projectsData);
 
   const [ filter, setFilter ] = React.useState(filterOptions[0]);
