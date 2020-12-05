@@ -69,7 +69,10 @@ const Nav = props => {
         }
 
         { width < 550 &&  // Show mobile stuff
-          <div>
+          <div className="mobile flex-container-horizontally-center flex-container-vertically-center">
+            <p style={{ margin: 0, flexGrow: 1 }} className="mouse-on-hover">
+              Monty Choy
+            </p>
             <HamburgerMenu
               isOpen={isMenuOpen}
               menuClicked={() => setIsMenuOpen(prev => !prev)}
