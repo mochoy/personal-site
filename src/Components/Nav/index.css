@@ -13,19 +13,23 @@
 
 #Nav p {
   color: white;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  margin: 1em 2em;
 }
 
 #Nav a {
   text-decoration: none;
-  text-transform: capitalize;
   color: white;
-  font-size: 1.2em;
-
-  margin: 0 2em;
 }
 
 #Nav .mobile {
   padding: 1em;
+}
+
+#Nav .mobile p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 #Nav #name-txt {
