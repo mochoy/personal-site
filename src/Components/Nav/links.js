@@ -6,13 +6,18 @@ import uppercaseFirstChar from '../../helpers/uppercaseFirstChar';
 
 
 const Links = props => {
-  
+
   return (
     <div id="Links" className="flex-container-horizontally-center">
       {["home", "about", "experience", "projects", "blog"].map(link => {
         return (
           <p className="text-center mouse-on-hover" 
-            onClick={() => scrollToElement(`#${uppercaseFirstChar(link)}`, { offset: scrollToOffset } )}
+            onClick={() => 
+              scrollToElement(
+                `#${uppercaseFirstChar(link)}`, 
+                { offset: scrollToOffset } 
+              )
+            }
           >
             <a>{link}</a>
           </p>
