@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 import { Collapse } from '@material-ui/core';
 
@@ -14,17 +14,17 @@ import './index.css';
 
 
 const Nav = props => {
-  console.log(props)
-
-  const path = window.location.pathname // montychoy.com/{path}
-      .replace("/", "")
-      .toLowerCase();
 
   const { width } = useWindowSize();
   const bgOpacity = useOpacityBasedOnScrollPosition(0.95);
 
   // Hamburger menu state
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
+
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    console.log(pathname)
+  }, [pathname])
 
   return (
     <div id="Nav"
