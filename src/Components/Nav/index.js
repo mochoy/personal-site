@@ -7,7 +7,6 @@ import Links from './links';
 
 import scrollToElement from 'scroll-to-element';
 
-import useScrollPosition from '../../hooks/useScrollPosition';
 import useWindowSize from '../../hooks/useWindowSize';
 import useOpacityBasedOnScrollPosition from '../../hooks/useOpacityBasedOnScrollPosition';
 
