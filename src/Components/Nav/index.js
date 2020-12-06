@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 import { Collapse } from '@material-ui/core';
 
@@ -21,6 +21,12 @@ const Nav = props => {
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
   
   const isOnBlogPath = useIsOnBlogPath();
+
+  // Collapse menu on link change
+  const { pathname } = useLocation();
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [pathname]);
 
 
   return (
