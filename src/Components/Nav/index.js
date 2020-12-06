@@ -34,9 +34,7 @@ const Nav = props => {
       }
 
       { width < 550 &&  // Show mobile stuff
-        <div className="mobile flex-container-horizontally-center flex-container-vertically-center"
-          style={ isMenuOpen ? { paddingBottom: 0 } : {} }
-        >
+        <div className="mobile flex-container-horizontally-center flex-container-vertically-center">
           <p id="name-txt" className="mouse-on-hover"
             onClick={ () => scrollToElement("#Home") }
           >
