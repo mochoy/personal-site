@@ -8,6 +8,8 @@ import useIsOnBlogPath from '../../hooks/useIsOnBlogPath';
 
 
 const Links = props => {
+  const { onLinkClick } = props;
+
   const isOnBlogPath = useIsOnBlogPath();
 
   return (
@@ -16,19 +18,23 @@ const Links = props => {
         return (
           <p className="text-center mouse-on-hover" 
             key={i}
-            onClick={() => 
+            onClick={e => {
+              onLinkClick(e);
+
               scrollToElement(
                 `#${uppercaseFirstChar(link)}`, 
                 { offset: scrollToOffset } 
               )
-            }
+            }}
           >
             { isOnBlogPath && <Link to={`/${link}`}>{link}</Link> }
             { !isOnBlogPath && link }
           </p>
         )
       })}
-      <p className="text-center mouse-on-hover"><Link to={"/blog"}>Blog</Link></p>
+      <p className="text-center mouse-on-hover" onClick={onLinkClick}>
+        <Link to={"/blog"}>Blog</Link>
+      </p>
     </div>
   )
 }

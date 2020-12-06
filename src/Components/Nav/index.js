@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 import { Collapse } from '@material-ui/core';
 
@@ -22,13 +22,6 @@ const Nav = props => {
   
   const isOnBlogPath = useIsOnBlogPath();
 
-  // Collapse menu on link change
-  const { pathname } = useLocation();
-  useEffect(() => {
-    setIsMenuOpen(false);
-  }, [pathname]);
-
-
   return (
     <div id="Nav"
       style={{
@@ -36,13 +29,16 @@ const Nav = props => {
       }}
     >
       { width > 550 &&  // Show only links for desktop
-        <Links/>
+        <Links onLinkClick={() => setIsMenuOpen(false)}/>
       }
 
       { width < 550 &&  // Show mobile stuff
         <div className="mobile flex-container-horizontally-center flex-container-vertically-center">
           <p id="name-txt" className="mouse-on-hover"
-            onClick={ () => scrollToElement("#Home") }
+            onClick={ () => {
+              setIsMenuOpen(false);
+              scrollToElement("#Home"); 
+          }}
           >
             { isOnBlogPath && <Link to={"/"}>Monty Choy</Link> }
             { !isOnBlogPath && "Monty Choy" }
@@ -62,7 +58,7 @@ const Nav = props => {
           />
 
           <Collapse in={isMenuOpen}>
-            <Links/>
+            <Links onLinkClick={() => setIsMenuOpen(false)}/>
           </Collapse>
 
         </div>
