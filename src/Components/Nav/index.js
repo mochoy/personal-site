@@ -28,7 +28,7 @@ const Nav = props => {
     setIsOnBlogPath(pathname.toLowerCase().includes("blog"))
   }, [pathname])
 
-  
+
   return (
     <div id="Nav"
       style={{
@@ -46,7 +46,8 @@ const Nav = props => {
           <p id="name-txt" className="mouse-on-hover"
             onClick={ () => scrollToElement("#Home") }
           >
-            <Link to={"/"}>Monty Choy</Link>
+            { isOnBlogPath && <Link to={"/"}>Monty Choy</Link> }
+            { !isOnBlogPath && "Monty Choy" }
           </p>
 
           <HamburgerMenu
