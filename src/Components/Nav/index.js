@@ -18,12 +18,10 @@ const Nav = props => {
   const { width } = useWindowSize();
   const bgOpacity = useOpacityBasedOnScrollPosition(0.95);
 
-  // Hamburger menu state
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
   
   const isOnBlogPath = useIsOnBlogPath();
 
-  console.log(isOnBlogPath)
 
   return (
     <div id="Nav"

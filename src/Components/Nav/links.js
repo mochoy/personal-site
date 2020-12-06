@@ -4,9 +4,11 @@ import scrollToElement from 'scroll-to-element';
 
 import { scrollToOffset } from '../../consts';
 import uppercaseFirstChar from '../../helpers/uppercaseFirstChar';
+import useIsOnBlogPath from '../../hooks/useIsOnBlogPath';
 
 
 const Links = props => {
+  const isOnBlogPath = useIsOnBlogPath();
 
   return (
     <div id="Links" className="flex-container-horizontally-center">
@@ -21,7 +23,8 @@ const Links = props => {
               )
             }
           >
-            <a href={link}>{link}</a>
+            { isOnBlogPath && <Link to={`/${link}`}>{link}</Link> }
+            { !isOnBlogPath && link }
           </p>
         )
       })}
