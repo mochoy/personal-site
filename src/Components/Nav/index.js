@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { useLocation, Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 import { Collapse } from '@material-ui/core';
 
@@ -9,6 +9,7 @@ import scrollToElement from 'scroll-to-element';
 
 import useWindowSize from '../../hooks/useWindowSize';
 import useOpacityBasedOnScrollPosition from '../../hooks/useOpacityBasedOnScrollPosition';
+import useIsOnBlogPath from '../../hooks/useIsOnBlogPath';
 
 import './index.css';
 
@@ -19,15 +20,10 @@ const Nav = props => {
 
   // Hamburger menu state
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
+  
+  const isOnBlogPath = useIsOnBlogPath();
 
-  // Determine if on blog path or regular path
-  const { pathname } = useLocation();
-  const [ isOnBlogPath, setIsOnBlogPath ] = useState(true);
-
-  useEffect(() => {
-    setIsOnBlogPath(pathname.toLowerCase().includes("blog"))
-  }, [pathname])
-
+  console.log(isOnBlogPath)
 
   return (
     <div id="Nav"
