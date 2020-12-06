@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useLocation, Link } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 import { Collapse } from '@material-ui/core';
 
@@ -14,18 +14,21 @@ import './index.css';
 
 
 const Nav = props => {
-
   const { width } = useWindowSize();
   const bgOpacity = useOpacityBasedOnScrollPosition(0.95);
 
   // Hamburger menu state
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
 
+  // Determine if on blog path or regular path
   const { pathname } = useLocation();
-  React.useEffect(() => {
-    console.log(pathname)
+  const [ isOnBlogPath, setIsOnBlogPath ] = useState(true);
+
+  useEffect(() => {
+    setIsOnBlogPath(pathname.toLowerCase().includes("blog"))
   }, [pathname])
 
+  
   return (
     <div id="Nav"
       style={{
@@ -43,7 +46,7 @@ const Nav = props => {
           <p id="name-txt" className="mouse-on-hover"
             onClick={ () => scrollToElement("#Home") }
           >
-            Monty Choy
+            <Link to={"/"}>Monty Choy</Link>
           </p>
 
           <HamburgerMenu
