@@ -25,7 +25,8 @@ const useOpacityBasedOnScrollPosition = ( maxOpacity = 1 ) => {
     } else {
       setBgOpacity(scrollPosition/height);
     }
-  }, [scrollPosition, height]);
+    
+  }, [scrollPosition, height, maxOpacity]);
 
   return bgOpacity;
 }
