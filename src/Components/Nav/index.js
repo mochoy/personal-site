@@ -28,11 +28,11 @@ const Nav = props => {
         backgroundColor: `rgba(40, 44, 52, ${bgOpacity})`
       }}
     >
-      { width > 550 &&  // Show only links for desktop
+      { width > 720 &&  // Show only links for desktop
         <Links onLinkClick={() => setIsMenuOpen(false)}/>
       }
 
-      { width < 550 &&  // Show mobile stuff
+      { width < 720 &&  // Show mobile stuff
         <div className="mobile flex-container-horizontally-center flex-container-vertically-center">
           <p id="name-txt" className="mouse-on-hover"
             onClick={ () => {
