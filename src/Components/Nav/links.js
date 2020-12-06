@@ -10,9 +10,10 @@ const Links = props => {
 
   return (
     <div id="Links" className="flex-container-horizontally-center">
-      {["home", "about", "experience", "projects"].map(link => {
+      {["home", "about", "experience", "projects"].map((link, i) => {
         return (
           <p className="text-center mouse-on-hover" 
+            key={i}
             onClick={() => 
               scrollToElement(
                 `#${uppercaseFirstChar(link)}`, 
