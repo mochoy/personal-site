@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import scrollToElement from 'scroll-to-element';
 
 import { scrollToOffset } from '../../consts';
@@ -9,7 +10,7 @@ const Links = props => {
 
   return (
     <div id="Links" className="flex-container-horizontally-center">
-      {["home", "about", "experience", "projects", "blog"].map(link => {
+      {["home", "about", "experience", "projects"].map(link => {
         return (
           <p className="text-center mouse-on-hover" 
             onClick={() => 
@@ -19,11 +20,11 @@ const Links = props => {
               )
             }
           >
-            <a>{link}</a>
+            <a href={link}>{link}</a>
           </p>
         )
       })}
-      { /* <p className="text-center"><Link to={"/blog"}>Blog</Link></p> */}
+      <p className="text-center mouse-on-hover"><Link to={"/blog"}>Blog</Link></p>
     </div>
   )
 }
