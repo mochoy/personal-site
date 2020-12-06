@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 import { Collapse } from '@material-ui/core';
 
-import Links from './Linksfsdaff';
+import Links from './Links';
 
 import scrollToElement from 'scroll-to-element';
 
