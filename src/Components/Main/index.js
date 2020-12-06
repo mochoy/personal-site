@@ -11,6 +11,8 @@ import { ReactGACtx } from '../App';
 
 import uppercaseFirstChar from '../../helpers/uppercaseFirstChar';
 
+import { scrollToOffset } from '../../consts';
+
 import logos from '../../assets/data/logos.js';
 import buzzwords from '../../assets/data/buzzwords.js';
 import experience from '../../assets/data/experience'; 
@@ -35,7 +37,7 @@ const Main = props => {
       if (path.length > 0) {
         const idOfComponentToScrollTo = uppercaseFirstChar(path);
 
-        scrollToElement(`#${idOfComponentToScrollTo}`)
+        scrollToElement(`#${idOfComponentToScrollTo}`, { offset: scrollToOffset })
       }
     }, 500)
 
