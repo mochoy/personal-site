@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import scrollToElement from 'scroll-to-element';
 
 import { ReactGACtx } from '../App';
-
+import { scrollToOffset } from '../../consts';
 import useWindowSize from '../../hooks/useWindowSize';
 
 
@@ -45,7 +45,7 @@ const Home = props => {
       {/* See more cursor to go to About section */}
       <i className="chevron down mouse-on-hover" 
         onClick={e => {
-          scrollToElement("#About");
+          scrollToElement("#About", { offset: scrollToOffset });
 
           ReactGA.event({
             category: 'Home Chevron',
