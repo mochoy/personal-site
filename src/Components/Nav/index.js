@@ -16,7 +16,9 @@ import './index.css';
 
 const Nav = props => {
   const { width } = useWindowSize();
-  const bgOpacity = useOpacityBasedOnScrollPosition(0.95);
+
+  const maxBgOpacity = 0.95;
+  const bgOpacity = useOpacityBasedOnScrollPosition(maxBgOpacity);
 
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
   
@@ -25,7 +27,7 @@ const Nav = props => {
   return (
     <div id="Nav"
       style={{
-        backgroundColor: `rgba(40, 44, 52, ${bgOpacity})`
+        backgroundColor: `rgba(40, 44, 52, ${ isOnBlogPath ? maxBgOpacity : bgOpacity })`
       }}
     >
       { width > 720 &&  // Show only links for desktop
