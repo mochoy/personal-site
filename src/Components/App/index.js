@@ -2,6 +2,7 @@ import React, { createContext } from 'react';
 import ReactGA from 'react-ga';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
+import Nav from '../Nav';
 import Main from '../Main';
 import Blog from '../Blog';
 import Footer from '../Footer';
@@ -51,14 +52,14 @@ const App = () => {
     <ReactGACtx.Provider value={ReactGA}>
       <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
         <div className="App">
+          <Nav/>
+          
           <Switch>
             {/* Route to main */}
             <Route 
-              exact path="/" 
+              exact path={["/", "/home", "/about", "/experience", "/projects"]}
               render = {(props) => (
-                <Main {...props}>
-                  <Footer/>
-                </Main>
+                <Main {...props}/>
               )} 
             />
 
@@ -66,9 +67,7 @@ const App = () => {
             <Route 
               exact path="/blog" 
               render = {(props) => (
-                <Blog {...props} 
-
-                />
+                <Blog {...props}/>
               )} 
             />
 
@@ -81,6 +80,8 @@ const App = () => {
             />
 
           </Switch>
+
+          <Footer/>
 
         </div>
       </BrowserRouter>

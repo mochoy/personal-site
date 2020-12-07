@@ -2,6 +2,8 @@ import React, { useContext } from 'react';
 import scrollToElement from 'scroll-to-element';
 
 import { ReactGACtx } from '../App';
+import { scrollToOffset } from '../../consts';
+import useWindowSize from '../../hooks/useWindowSize';
 
 
 import './index.css';
@@ -10,9 +12,13 @@ import './index.css';
 const Home = props => {
   const ReactGA = useContext(ReactGACtx);
 
+  const { height } = useWindowSize();
+
+  
   return (
     <section id="Home" 
       className="flex-container-vertically-center flex-container-horizontally-center"
+      style={{ height: height + "px" }}
       onClick={e => {
         ReactGA.event({
           category: 'Home',
@@ -34,36 +40,12 @@ const Home = props => {
         <h1>Monty Choy</h1>
         <h2>Hardware Hacker</h2>
 
-        {/* Links to different sections */}
-        <div className="links-container flex-container-horizontally-center">
-          {
-            ["About", "Experience", "Projects"]
-              .map((section, key) => {
-                return (
-                  <p className="mouse-on-hover" 
-                    onClick={e => {
-                      ReactGA.event({
-                        category: 'Home Links',
-                        action: 'Clicked',
-                        label: section,
-                      });
-
-                      scrollToElement(`#${section}`)
-                    }}
-                    key={key}
-                  >
-                    {section}
-                  </p>
-                )
-              })
-          }
-        </div>
       </div>
       
       {/* See more cursor to go to About section */}
       <i className="chevron down mouse-on-hover" 
         onClick={e => {
-          scrollToElement("#About");
+          scrollToElement("#About", { offset: scrollToOffset });
 
           ReactGA.event({
             category: 'Home Chevron',
