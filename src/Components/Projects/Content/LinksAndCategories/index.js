@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 import CategoryIcons from './CategoryIcons';
 
-import { ReactGACtx } from '../../App';
+import { ReactGACtx } from '../../../App';
 
 
 const LinksAndCategories = props => {

@@ -5,7 +5,7 @@ import { GoFileCode, GoCircuitBoard } from "react-icons/go";
 import { FiGlobe, FiEdit2 } from "react-icons/fi";
 import { FaPencilRuler } from "react-icons/fa";
 
-import { ReactGACtx } from '../../App';
+import { ReactGACtx } from '../../../App';
 
 
 const CategoryIcons = props => {
