@@ -20,11 +20,14 @@ const Links = props => {
             key={i}
             onClick={e => {
               onLinkClick(e);
-
-              scrollToElement(
-                `#${uppercaseFirstChar(link)}`, 
-                { offset: scrollToOffset } 
-              )
+              
+              // Scroll to corresponding element if not on blog path
+              if (!isOnBlogPath) {
+                scrollToElement(
+                  `#${uppercaseFirstChar(link)}`, 
+                  { offset: scrollToOffset } 
+                );
+              }
             }}
           >
             { isOnBlogPath && <Link to={`/${link}`}>{link}</Link> }
