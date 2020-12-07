@@ -45,6 +45,8 @@ const Links = props => {
           </p>
         )
       })}
+
+      { /*
       <p className="text-center mouse-on-hover" onClick={e => {
           onLinkClick(e);
 
@@ -57,6 +59,8 @@ const Links = props => {
       >
         <Link to={"/blog"}>Blog</Link>
       </p>
+
+      */}
     </div>
   )
 }
