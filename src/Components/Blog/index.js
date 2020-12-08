@@ -11,9 +11,9 @@ const Blog = props => {
   // const ReactGA = useContext(ReactGACtx);
 
   return (
-    <div id="Blog">
-      Wow quit hacking my site
-
+    <div id="Blog">      
+      <h1 className="text-center">Posts</h1>
+      
     </div>
   );
 };
