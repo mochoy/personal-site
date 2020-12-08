@@ -4,7 +4,7 @@ import React, {
 
 // import { ReactGACtx } from '../App';
 
-import first_post from '../../assets/blog/first_post';
+import posts from '../../assets/blog';
 
 import './index.css';
 
@@ -12,7 +12,7 @@ import './index.css';
 const Blog = props => {  
   // const ReactGA = useContext(ReactGACtx);
 
-  console.log(first_post)
+  console.log(posts)
 
   return (
     <div id="Blog">      
