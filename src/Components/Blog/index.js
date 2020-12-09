@@ -1,13 +1,11 @@
 import React, { 
   // useContext 
-  useEffect
 } from 'react';
-
 import ReactMarkdown from 'react-markdown'
 
 // import { ReactGACtx } from '../App';
 
-import posts from '../../assets/blog';
+import useBlogPosts from '../../hooks/useBlogPosts';
 
 import './index.css';
 
@@ -15,20 +13,20 @@ import './index.css';
 const Blog = props => {  
   // const ReactGA = useContext(ReactGACtx);
 
-  console.log(posts)
-
-  useEffect(() => {
-    console.log(posts)
-  }, [posts]);
+  const posts = useBlogPosts();
 
   return (
     <div id="Blog">      
       <h1 className="text-center">Posts</h1>
 
       { posts.map((post, i) => {
+        const { title, date, md } = post
+
         return (
           <div key={i}>
-            {post.date}
+            {title}
+            {date}
+            <ReactMarkdown source={md} />
           </div>
         )
       })
