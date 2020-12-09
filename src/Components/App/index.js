@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import Nav from '../Nav';
 import Main from '../Main';
 import Blog from '../Blog';
+import BlogDetail from '../Blog/Detail';
 import Footer from '../Footer';
 
 
@@ -68,6 +69,14 @@ const App = () => {
               exact path="/blog" 
               render = {(props) => (
                 <Blog {...props}/>
+              )} 
+            />
+
+            {/* Route to blog detail */}
+            <Route 
+              exact path="/blog/:id" 
+              render = {(props) => (
+                <BlogDetail {...props}/>
               )} 
             />
 
