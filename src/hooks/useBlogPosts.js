@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 
 import posts from '../assets/blog';
+import { maxNumOfCharInBlogPostPrev } from '../consts';
+
 
 /**
  * Hook to handle all logic for dealing with blogs.
@@ -18,11 +20,21 @@ const useBlogPosts = () => {
       // https://stackoverflow.com/questions/33438158/best-way-to-call-an-async-function-within-map
       const fetchedPosts = await Promise.all(posts.map(async (post) => {
         const postText = await (await fetch(post.postFile)).text();
+        
+        // Create post preview, which should be the first paragraph of the 
+        // post, but if that first paragraph has too many characters, more than
+        // maxNumOfCharInBlogPostPrev, then truncate all chars after the max
+        // and append a '...'
+        let previewMd = postText.split('\n')[0];    // Get first paragraph
 
+        if (previewMd.length > maxNumOfCharInBlogPostPrev) {
+          previewMd = previewMd.substr(0, maxNumOfCharInBlogPostPrev) + '...';
+        }
+        
         return {
           ...post,
           md: postText,
-          previewMd: postText.split('\n')[0] // Preview is just first paragrpah
+          previewMd:  previewMd
         }
       }));
 
