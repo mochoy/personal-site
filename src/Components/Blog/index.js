@@ -1,6 +1,7 @@
 import React, { 
   // useContext 
 } from 'react';
+import { Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown'
 
 // import { ReactGACtx } from '../App';
@@ -20,13 +21,16 @@ const Blog = props => {
       <h1 className="text-center">Posts</h1>
 
       { posts.map((post, i) => {
-        const { title, date, previewMd } = post;
+        const { title, url, date, previewMd } = post;
 
         return (
-          <div key={i}>
-            {title}
-            {date}
-            <ReactMarkdown source={previewMd} />
+          <div key={i} className="post-preview">
+            <Link className="title" to={url}>
+              <h2>{title}</h2>
+            </Link>
+            <p className="date">{date}</p>
+            <ReactMarkdown className="preview-md" source={previewMd}/>
+            <Link to={url} className="read-more-link">Read More</Link>
           </div>
         )
       })

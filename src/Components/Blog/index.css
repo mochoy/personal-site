@@ -1,7 +1,48 @@
 #Blog {
   padding-top: 4em;
+  margin-bottom: 4em;
 }
 
 #Blog h1 {
   font-size: 2.5em;
+}
+
+#Blog .post-preview {
+  margin: 0 auto;
+  width: 40%;
+
+  border-bottom: solid 1px #989898;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 1100px) {
+  #Blog .post-preview {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #Blog .post-preview {
+    width: 80%;
+  }
+}
+
+
+#Blog .post-preview .title, #Blog .post-preview .read-more-link {
+  text-decoration: none;
+  color: black;
+}
+
+#Blog .post-preview a:hover {
+  color: #767676;
+}
+
+#Blog .post-preview h2 {
+  margin-bottom: 0;
+}
+
+#Blog .post-preview .date {
+  margin-top: 0;
+  color: #989898;
 }
