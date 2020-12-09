@@ -1,13 +1,16 @@
 #Blog .cover {
   margin-bottom: 4em;
+  position: relative;
+
+  background-color:rgba(0, 0, 0, 0.3);
 }
 
 #Blog .bg-img {
   height: 100%;
   width: 100%;
 
-  /* z-index: -200; */
-  /* position: absolute; */
+  z-index: -200;
+  position: absolute;
 }
 
 #Blog .cover-title {
@@ -17,7 +20,7 @@
   -webkit-filter: blur(8px); */
   
   margin: auto;
-  padding-top: 0.5em;
+  padding-top: 2em;
 
   font-size: 4.5em;
   font-weight: 300;

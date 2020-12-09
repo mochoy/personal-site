@@ -14,8 +14,9 @@ const Cover = props => {
           backgroundImage: `url(${require('assets/images/background/blog.jpg')})`
         }}
       >
-        <h1 className="text-center cover-title">Posts</h1>
       </div>
+
+        <h1 className="text-center cover-title">Posts</h1>
     </div>
   )
 };
