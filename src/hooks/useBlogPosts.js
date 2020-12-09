@@ -17,9 +17,12 @@ const useBlogPosts = () => {
       //
       // https://stackoverflow.com/questions/33438158/best-way-to-call-an-async-function-within-map
       const fetchedPosts = await Promise.all(posts.map(async (post) => {
+        const postText = await (await fetch(post.postFile)).text();
+
         return {
           ...post,
-          md: await (await fetch(post.postFile)).text()
+          md: postText,
+          previewMd: postText.split('\n')[0] // Preview is just first paragrpah
         }
       }));
 
