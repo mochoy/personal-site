@@ -5,7 +5,11 @@ import { maxNumOfWordsInBlogPostPrev } from '../consts';
 
 
 /**
- * Hook to handle all logic for dealing with blogs.
+ * Hook to handle all logic for dealing with blogs. Parameters should be passed
+ * in as members in an object
+ * 
+ * @param {String} searchUrl: Url of post to search for, returns matching posts 
+ *    based off of post's url prop
  * 
  * @return {Array} posts: blog posts retrieved based on input parameters
  */
