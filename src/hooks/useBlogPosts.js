@@ -36,6 +36,7 @@ const useBlogPosts = () => {
         
         return {
           ...post,
+          url: "/blog/" + post.url,
           md: postText,
           previewMd:  previewMd
         }
