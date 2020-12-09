@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 import posts from '../assets/blog';
-import { maxNumOfCharInBlogPostPrev } from '../consts';
+import { maxNumOfWordsInBlogPostPrev } from '../consts';
 
 
 /**
@@ -22,13 +22,16 @@ const useBlogPosts = () => {
         const postText = await (await fetch(post.postFile)).text();
         
         // Create post preview, which should be the first paragraph of the 
-        // post, but if that first paragraph has too many characters, more than
-        // maxNumOfCharInBlogPostPrev, then truncate all chars after the max
+        // post, but if that first paragraph has too many wprds, more than
+        // maxNumOfWordsInBlogPostPrev, then truncate all words after the max
         // and append a '...'
         let previewMd = postText.split('\n')[0];    // Get first paragraph
 
-        if (previewMd.length > maxNumOfCharInBlogPostPrev) {
-          previewMd = previewMd.substr(0, maxNumOfCharInBlogPostPrev) + '...';
+        let previewWords = previewMd.split(" ");
+        if (previewWords.length > maxNumOfWordsInBlogPostPrev) {
+          previewMd = previewWords
+            .slice(0, maxNumOfWordsInBlogPostPrev)
+            .join(" ") + "...";
         }
         
         return {
