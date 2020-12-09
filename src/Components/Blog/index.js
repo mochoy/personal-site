@@ -20,13 +20,13 @@ const Blog = props => {
       <h1 className="text-center">Posts</h1>
 
       { posts.map((post, i) => {
-        const { title, date, md } = post
+        const { title, date, previewMd } = post;
 
         return (
           <div key={i}>
             {title}
             {date}
-            <ReactMarkdown source={md} />
+            <ReactMarkdown source={previewMd} />
           </div>
         )
       })
