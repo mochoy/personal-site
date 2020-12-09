@@ -13,25 +13,6 @@
   margin-bottom: 1em;
 }
 
-/* Blog content sizing, also applies to blog pages */
-.blog-content {
-  margin: 0 auto;
-  width: 40%;
-}
-
-@media only screen and (max-width: 1100px) {
-  .blog-content {
-    width: 60%;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .blog-content {
-    width: 80%;
-  }
-}
-
-
 #Blog .post-preview .title, #Blog .post-preview .read-more-link {
   text-decoration: none;
   color: black;
