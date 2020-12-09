@@ -24,7 +24,7 @@ const Blog = props => {
         const { title, url, date, previewMd } = post;
 
         return (
-          <div key={i} className="post-preview">
+          <div key={i} className="post-preview blog-content">
             <Link className="title" to={url}>
               <h2>{title}</h2>
             </Link>
