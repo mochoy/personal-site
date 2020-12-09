@@ -13,7 +13,15 @@ import { maxNumOfWordsInBlogPostPrev } from '../consts';
  * 
  * @return {Array} posts: blog posts retrieved based on input parameters
  */
-const useBlogPosts = () => {
+const useBlogPosts = params => {
+  // If there are params specified, destructure them
+  if (!!params) {
+    // Use var so I have scope outside of the if statement
+    var { searchUrl } = params;
+  }
+
+  console.log(searchUrl)
+
   const [ postsState, setPostsState ] = useState([]);
 
   // Fetch posts, set to postsState
