@@ -27,7 +27,7 @@ const Nav = props => {
   return (
     <div id="Nav"
       style={{
-        backgroundColor: `rgba(40, 44, 52, ${ isOnBlogPath ? maxBgOpacity : bgOpacity })`
+        backgroundColor: `rgba(40, 44, 52, ${ isOnBlogPath ? bgOpacity : bgOpacity })`
       }}
     >
       { width > 720 &&  // Show only links for desktop
