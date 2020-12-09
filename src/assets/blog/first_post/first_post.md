@@ -1,5 +1,3 @@
-# Introduction
-
 I never really considered starting a blog or anything until [I saw one of my friends start one](https://astrid.tech/blog/) and I was like "huh that's pretty cool, maybe I can give that a shot" and well here we are. I also wanted to try out [this dope Markdown editor in VSCode](https://github.com/yzhang-gh/vscode-markdown) and after writing these first two sentenences I can't believed I used to write raw Markdown like a primitive. 
 
 Anyways so like here's my blog! Nothing super official or anything, I'll just post random stuff occasionally, or like never, we'll see. I already built a very similar project for [my company](http://suild.com/) so I figured it wouldn't be too tough to get something together for my website too. Well I'm actually writing this before all the fancy blog stuff is even done yet so maybe it is harder than expected, and if so you probably won't be reading this anyways. 
