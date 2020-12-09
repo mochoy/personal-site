@@ -4,31 +4,6 @@
   width: 100%;
 }
 
-#Blog .cover {
-  margin-bottom: 4em;
-}
-
-#Blog .bg-img {
-  height: 100%;
-  width: 100%;
-
-  /* z-index: -200; */
-  /* position: absolute; */
-}
-
-#Blog .cover-title {
-  color: white;
-  /* Add the blur effect */
-  /* filter: blur(8px);
-  -webkit-filter: blur(8px); */
-  
-  margin: auto;
-  padding-top: 0.5em;
-
-  font-size: 4.5em;
-  font-weight: 300;
-}
-
 #Blog .post-preview {
   border-bottom: solid 1px #989898;
   padding-bottom: 1em;
