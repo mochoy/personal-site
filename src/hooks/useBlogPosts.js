@@ -19,7 +19,7 @@ const useBlogPosts = () => {
       const fetchedPosts = await Promise.all(posts.map(async (post) => {
         return {
           ...post,
-          post: await (await fetch(post.postFile)).text()
+          md: await (await fetch(post.postFile)).text()
         }
       }));
 
