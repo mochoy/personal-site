@@ -68,7 +68,12 @@ Apparently all the interns under my CVP got Surface Headphones, but funny enough
 I'm actually a pretty big techie so I was pretty hyped about the Surface Headphones. They were the first gen, I think the second gen was released a few weeks before I received mine. I used to use the Bose QC35ii's and the Sony WH1000-XM2 ANC headphones, but I really liked the Surface Headphones. I'm not an audiophile so I can't really tell the difference in sound quality too much, but I noticed that my Sony's had more bass. This was especially apparent because I listen to really bass-y music but I didn't mind too much. The ANC on the Surface Headphones isn't as good as the Sony's or the Bose, but that didn't matter for me too much since I was usually at home in my own room. I really like the overall user experience a lot more on the Surface Headphones. 
 
 ### Dock
-fsfasf
+
+I think the [Surface Dock](https://www.microsoft.com/en-us/p/surface-dock-2/8qd908364sg2?activetab=pivot%3aoverviewtab) was also part of the standard intern workstation and it was actually pretty cool. I didn't really know what a "dock" was before I got one since I usually just stuff directly into my laptop or monitor. I don't have a picture of the dock set up and everything, so here's the best I can do: 
+
+![dock](./images/dock.jpg)
+
+It's just a small, deceptively heavy black box that plugs into the Surface Laptop's/Book's proprietary charging port and breaks out stuff like USB (but not USB-C), HDMI, ethernet, etc. You basically need to plug in only the proprietary charging cable (which is magnetic) and all your mice/keyboard, monitor, everything else gets easily connected to your laptop. This was super convenient for me because I had two laptops and swapped between them, so the dock made that process super easy and fast. 
 
 ### Returning/Keeping Equipment
 
