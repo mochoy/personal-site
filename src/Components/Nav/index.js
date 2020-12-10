@@ -10,6 +10,7 @@ import scrollToElement from 'scroll-to-element';
 import useWindowSize from '../../hooks/useWindowSize';
 import useOpacityBasedOnScrollPosition from '../../hooks/useOpacityBasedOnScrollPosition';
 import useIsOnBlogPath from '../../hooks/useIsOnBlogPath';
+import useIsOnBlogDetailPath from '../../hooks/useIsOnBlogDetailPath';
 
 import './index.css';
 
@@ -23,11 +24,12 @@ const Nav = props => {
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
   
   const isOnBlogPath = useIsOnBlogPath();
+  const isOnBlogDetailPath = useIsOnBlogDetailPath();
 
   return (
     <div id="Nav"
       style={{
-        backgroundColor: `rgba(40, 44, 52, ${ isOnBlogPath ? bgOpacity : bgOpacity })`
+        backgroundColor: `rgba(40, 44, 52, ${ isOnBlogDetailPath ? maxBgOpacity : bgOpacity })`
       }}
     >
       { width > 720 &&  // Show only links for desktop
