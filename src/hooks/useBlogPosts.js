@@ -6,12 +6,14 @@ import { maxNumOfWordsInBlogPostPrev } from '../consts';
 
 /**
  * Hook to handle all logic for dealing with blogs. Parameters should be passed
- * in as members in an object
+ * in as members in an object. Return vals are returned in arr, so destructuring
+ * is required.
  * 
  * @param {String} searchUrl: Url of post to search for, returns matching posts 
  *    based off of post's url prop
  * 
  * @return {Array} posts: blog posts retrieved based on input parameters
+ * @return {Boolean} isLoading: true if blog post(s) is being fetched, else false
  */
 const useBlogPosts = params => {
   // If there are params specified, destructure them
@@ -22,11 +24,14 @@ const useBlogPosts = params => {
 
   console.log(searchUrl)
 
+  const [ isLoading, setIsLoading ] = useState(true);
   const [ postsState, setPostsState ] = useState([]);
 
   // Fetch posts, set to postsState
   useEffect(() => {
     (async function fetchAndSavePosts () {
+      setIsLoading(true);
+
       // Fetch posts and convert to text
       //
       // https://stackoverflow.com/questions/33438158/best-way-to-call-an-async-function-within-map
@@ -55,12 +60,13 @@ const useBlogPosts = params => {
       }));
 
       setPostsState(fetchedPosts);
+      setIsLoading(false);
     })();
     // https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174
 
   }, []);
 
-  return postsState;
+  return [postsState, isLoading];
 };
 
 export default useBlogPosts;
