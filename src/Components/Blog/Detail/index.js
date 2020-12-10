@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import ReactMarkdown from 'react-markdown'
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
 
@@ -6,17 +7,26 @@ import './index.css';
 
 const BlogDetail = props => {
   // Get post based on url: /blog/{post to get}
-  const post = useBlogPosts({ 
+  const [ post, isLoading ] = useBlogPosts({ 
     searchUrl: props.match.params.id
   });
 
-  console.log(post);
+  console.log(isLoading)
+  console.log(post)
 
-  return (
-    <div id="BlogDetail">
-      BlogDetail
-    </div>
-  )
+  if (isLoading) {
+    return (
+      <div id="BlogDetail">
+        Loading
+      </div>
+    )
+  } else {
+    return (
+      <div id="BlogDetail">
+        BlogDetail
+      </div>
+    )
+  }
 };
 
 export default BlogDetail;
