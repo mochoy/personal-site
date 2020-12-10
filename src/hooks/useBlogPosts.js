@@ -39,25 +39,13 @@ const useBlogPosts = params => {
           .filter(post => !!searchUrl ? post.url === searchUrl : true)
           .map(async (post) => {
             const postText = await (await fetch(post.postFile)).text();
-            
-            // Create post preview, which should be the first paragraph of the 
-            // post, but if that first paragraph has too many wprds, more than
-            // maxNumOfWordsInBlogPostPrev, then truncate all words after the 
-            // max and append a '...'
-            let previewMd = postText.split('\n')[0];    // Get first paragraph
-
-            let previewWords = previewMd.split(" ");
-            if (previewWords.length > maxNumOfWordsInBlogPostPrev) {
-              previewMd = previewWords
-                .slice(0, maxNumOfWordsInBlogPostPrev)
-                .join(" ") + "...";
-            }
+            const previewMd = generatePreviewMd(postText);
             
             return {
               ...post,
               url: "/blog/" + post.url,
               md: postText,
-              previewMd:  previewMd
+              previewMd: previewMd
             }
           })  // Map
       );  // Promise
@@ -71,5 +59,25 @@ const useBlogPosts = params => {
 
   return [postsState, isLoading];
 };
+
+
+// Create post preview, which should be the first paragraph of the post, but if
+// that first paragraph has too many wprds, more than
+// maxNumOfWordsInBlogPostPrev, then truncate all words after the max and append 
+// a '...'
+//
+// Pass in post txt, returns preview markdown 
+const generatePreviewMd = postText => {
+  let previewMd = postText.split('\n')[0];    // Get first paragraph
+
+  let previewWords = previewMd.split(" ");
+  if (previewWords.length > maxNumOfWordsInBlogPostPrev) {
+    previewMd = previewWords
+      .slice(0, maxNumOfWordsInBlogPostPrev)
+      .join(" ") + "...";
+  }
+
+  return previewMd;
+}
 
 export default useBlogPosts;
