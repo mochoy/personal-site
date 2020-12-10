@@ -22,8 +22,6 @@ const useBlogPosts = params => {
     var { searchUrl } = params;
   }
 
-  console.log(searchUrl)
-
   const [ isLoading, setIsLoading ] = useState(true);
   const [ postsState, setPostsState ] = useState([]);
 
@@ -35,36 +33,41 @@ const useBlogPosts = params => {
       // Fetch posts and convert to text
       //
       // https://stackoverflow.com/questions/33438158/best-way-to-call-an-async-function-within-map
-      const fetchedPosts = await Promise.all(posts.map(async (post) => {
-        const postText = await (await fetch(post.postFile)).text();
-        
-        // Create post preview, which should be the first paragraph of the 
-        // post, but if that first paragraph has too many wprds, more than
-        // maxNumOfWordsInBlogPostPrev, then truncate all words after the max
-        // and append a '...'
-        let previewMd = postText.split('\n')[0];    // Get first paragraph
+      const fetchedPosts = await Promise.all(
+        posts
+          // Get posts that match searchUrl if specified
+          .filter(post => !!searchUrl ? post.url === searchUrl : true)
+          .map(async (post) => {
+            const postText = await (await fetch(post.postFile)).text();
+            
+            // Create post preview, which should be the first paragraph of the 
+            // post, but if that first paragraph has too many wprds, more than
+            // maxNumOfWordsInBlogPostPrev, then truncate all words after the 
+            // max and append a '...'
+            let previewMd = postText.split('\n')[0];    // Get first paragraph
 
-        let previewWords = previewMd.split(" ");
-        if (previewWords.length > maxNumOfWordsInBlogPostPrev) {
-          previewMd = previewWords
-            .slice(0, maxNumOfWordsInBlogPostPrev)
-            .join(" ") + "...";
-        }
-        
-        return {
-          ...post,
-          url: "/blog/" + post.url,
-          md: postText,
-          previewMd:  previewMd
-        }
-      }));
+            let previewWords = previewMd.split(" ");
+            if (previewWords.length > maxNumOfWordsInBlogPostPrev) {
+              previewMd = previewWords
+                .slice(0, maxNumOfWordsInBlogPostPrev)
+                .join(" ") + "...";
+            }
+            
+            return {
+              ...post,
+              url: "/blog/" + post.url,
+              md: postText,
+              previewMd:  previewMd
+            }
+          })  // Map
+      );  // Promise
 
       setPostsState(fetchedPosts);
       setIsLoading(false);
     })();
     // https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174
 
-  }, []);
+  }, [searchUrl]);
 
   return [postsState, isLoading];
 };
