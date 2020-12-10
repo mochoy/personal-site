@@ -17,15 +17,18 @@ import './blog-content.css';
 const Blog = props => {  
   // const ReactGA = useContext(ReactGACtx);
 
-  const posts = useBlogPosts();
+  const [ posts, isLoading ] = useBlogPosts();
 
   return (
     <div id="Blog">
       
       <Cover/>
 
+      { isLoading &&
+        <p>Loading</p>
+      }
 
-      { posts.map((post, i) => {
+      { !isLoading && posts.map((post, i) => {
         const { title, url, date, previewMd } = post;
 
         return (
