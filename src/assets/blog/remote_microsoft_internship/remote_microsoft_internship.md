@@ -61,6 +61,8 @@ I can't really blame Microsoft or Ubuntu or anything since neither was really ma
 
 I was one of the lucky interns that received a pair of Surface Headphones. I was told to keep the boxes for the headphones since I'd need to return them. Some interns got other headphones, others didn't get any headphones at all. 
 
+![surface headphones](./images/surface_headphones.jpg)
+
 Apparently all the interns under my CVP got Surface Headphones, but funny enough the full-time engineers (FTEs) didn't. Well most of the FTEs on my team got other headphones, but one of the FTEs that started a few weeks before me actually got the Surface Headphones. 
 
 I'm actually a pretty big techie so I was pretty hyped about the Surface Headphones. They were the first gen, I think the second gen was released a few weeks before I received mine. I used to use the Bose QC35ii's and the Sony WH1000-XM2 ANC headphones, but I really liked the Surface Headphones. I'm not an audiophile so I can't really tell the difference in sound quality too much, but I noticed that my Sony's had more bass. This was especially apparent because I listen to really bass-y music but I didn't mind too much. The ANC on the Surface Headphones isn't as good as the Sony's or the Bose, but that didn't matter for me too much since I was usually at home in my own room. I really like the overall user experience a lot more on the Surface Headphones. 
