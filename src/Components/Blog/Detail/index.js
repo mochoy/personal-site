@@ -24,8 +24,8 @@ const BlogDetail = props => {
   } else {
     return (
       <div id="BlogDetail" className="blog-content">
-        <h1 className="text-center title">{title}</h1>
-        <p className="text-center date">{date}</p>
+        <h1 className="text-center" id="title">{title}</h1>
+        <p className="text-center" id="date">{date}</p>
         <ReactMarkdown className="md" source={md}/>
       </div>
     )
