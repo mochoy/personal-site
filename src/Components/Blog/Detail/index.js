@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ReactMarkdown from 'react-markdown'
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
@@ -23,7 +23,7 @@ const BlogDetail = props => {
     )
   } else {
     return (
-      <div id="BlogDetail">
+      <div id="BlogDetail" className="blog-content">
         <h1 className="text-center title">{title}</h1>
         <p className="text-center date">{date}</p>
         <ReactMarkdown className="md" source={md}/>
