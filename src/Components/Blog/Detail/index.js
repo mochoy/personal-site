@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import ReactMarkdown from 'react-markdown'
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
@@ -11,8 +11,9 @@ const BlogDetail = props => {
     searchUrl: props.match.params.id
   });
 
-  console.log(isLoading)
-  console.log(post)
+  if (!isLoading) {
+    var { title, date, md } = post[0];
+  }
 
   if (isLoading) {
     return (
@@ -23,7 +24,9 @@ const BlogDetail = props => {
   } else {
     return (
       <div id="BlogDetail">
-        BlogDetail
+        <h1 className="text-center title">{title}</h1>
+        <p className="text-center date">{date}</p>
+        <ReactMarkdown className="md" source={md}/>
       </div>
     )
   }
