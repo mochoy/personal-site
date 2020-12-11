@@ -13,6 +13,8 @@
 - [Fun Stuff!](#fun-stuff)
 - [Work Experience](#work-experience)
 
+Over this past summer, I was a software engineering intern at Microsoft on the Surface Duo (their new folding phone!) firmware team. I was working remote from home in San Francisco, but my team was nearby in Sunnyvale, CA. I'll go over my remote intern experience, including the fun stuff and the work stuff. There aren't that many posts like these out there and I think they're super valuable when evaluating internship offers and getting way too hyped for the summer. It looks like Summer 2021 will also be remote too, so here's a baseline of what to expect for a remote internship experience at Microsoft! Of course your results may vary. 
+
 # Interviews
 Now the interviews weren't really part of the internship experience, but my interview process was a bit different and sort of rolled over into my internship experience a bit. 
 
