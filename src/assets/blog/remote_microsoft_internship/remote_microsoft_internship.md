@@ -26,6 +26,12 @@ Luckily I new my team and manager during my interviews. I forgot to ask why my i
 
 I guess the "pre-internship" period encompasses the time after I accepted my offer to when my internship actually started which lined up pretty well with Covid first hitting the US, so there was a lot of uncertainty. Internships were getting cancelled left and right as companies rushed to get everything in place for the summer. 
 
+Microsoft also held some informational events before the summer to help interns and new grads get familiar with Microsoft and the surrounding areas, stuff like:
+
+- Meet Microsoft Devices
+- Exploring Seattle
+- Program Management at Microsoft
+
 ## Uncertainties
 
 I think Microsoft did a great job in handling everything during this period of uncertainty and confusion. We were scared that like [Workday, AirBnB, Yelp, and a ton of other companies](https://ismyinternshipcancelled.com/?company=&status=yes) our internships woud get cancelled. We were also hearing that other companies were transitioning to a remote internship. It would really suck if, for example, I declined an offer from a company that confirmed remote internships and Microsoft cancelled their internships. 
