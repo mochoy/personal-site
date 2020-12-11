@@ -77,6 +77,12 @@ It's just a small, deceptively heavy black box that plugs into the Surface Lapto
 
 ### Returning/Keeping Equipment
 
+Some interns got to keep some of their equipment, others didn't get to keep any, it seemed team/org dependant for the most part. Some interns got to keep their monitor(s) and mice + keyboard, but some had to return everything. I'm sure everyone had to return their laptops. 
+
+I was lucky in that I got to keep my Surface Headphones (which I was told I needed to return), mouse + keyboard, and Surface Pen. I still have my Surface Pen but I don't have any use for it since it requires special screens that utilize Microsoft proprietary tech. 
+
+I needed to return my laptops and monitor. Most interns needed to pack everything up and ship it out, but on my last day, I went into office and dropped everything off which was way more convenient.
+
 # Swag
 
 # Fun Stuff! 
