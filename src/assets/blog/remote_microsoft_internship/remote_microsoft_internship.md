@@ -97,7 +97,7 @@ I can't really blame Microsoft or Ubuntu or anything since neither was really ma
 
 I was one of the lucky interns that received a pair of Surface Headphones. I was told to keep the boxes for the headphones since I'd need to return them. Some interns got other headphones, others didn't get any headphones at all. 
 
-![surface headphones](./images/surface_headphones.jpg)
+![surface headphones](images/surface_headphones.jpg)
 
 Apparently all the interns under my CVP got Surface Headphones, but funny enough the full-time engineers (FTEs) didn't. Well most of the FTEs on my team got other headphones, but one of the FTEs that started a few weeks before me actually got the Surface Headphones. 
 
@@ -107,7 +107,7 @@ I'm actually a pretty big techie so I was pretty hyped about the Surface Headpho
 
 I think the [Surface Dock](https://www.microsoft.com/en-us/p/surface-dock-2/8qd908364sg2?activetab=pivot%3aoverviewtab) was also part of the standard intern workstation and it was actually pretty cool. I didn't really know what a "dock" was before I got one since I usually just stuff directly into my laptop or monitor. I don't have a picture of the dock set up and everything, so here's the best I can do: 
 
-![dock](./images/dock.jpg)
+![dock](images/dock.jpg)
 
 It's just a small, deceptively heavy black box that plugs into the Surface Laptop's/Book's proprietary charging port and breaks out stuff like USB (but not USB-C), HDMI, ethernet, etc. You basically need to plug in only the proprietary charging cable (which is magnetic) and all your mice/keyboard, monitor, everything else gets easily connected to your laptop. This was super convenient for me because I had two laptops and swapped between them, so the dock made that process super easy and fast. 
 
