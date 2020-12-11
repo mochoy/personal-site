@@ -41,6 +41,7 @@ const useBlogPosts = params => {
             const postText = await (await fetch(post.postFile)).text();
             const previewMd = generatePreviewMd(postText);
             
+            // Final object to represent the post and its corresponding metadata
             return {
               ...post,
               detailUrl: post.url,
