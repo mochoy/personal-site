@@ -1,4 +1,17 @@
-Over this past summer, I was a software engineering intern at Microsoft on the Surface Duo (their new folding phone!) firmware team. I'll go over my remote intern experience, including the fun stuff and the work stuff. There aren't that many posts like these out there and I think they're super valuable when evaluating internship offers and getting way too hyped for the summer. It looks like Summer 2021 will also be remote too, so here's a baseline of what to expect for a remote internship experience at Microsoft! Of course your results may vary. 
+# Table of Contents <!-- omit in toc -->
+
+- [Interviews](#interviews)
+- [Pre-Internship](#pre-internship)
+  - [Uncertainties](#uncertainties)
+  - [Offer Changes](#offer-changes)
+  - [Equipment](#equipment)
+    - [Surface Jet 3](#surface-jet-3)
+    - [Surface Headphones](#surface-headphones)
+    - [Dock](#dock)
+    - [Returning/Keeping Equipment](#returningkeeping-equipment)
+- [Swag](#swag)
+- [Fun Stuff!](#fun-stuff)
+- [Work Experience](#work-experience)
 
 # Interviews
 Now the interviews weren't really part of the internship experience, but my interview process was a bit different and sort of rolled over into my internship experience a bit. 
@@ -9,11 +22,11 @@ Luckily I new my team and manager during my interviews. I forgot to ask why my i
 
 # Pre-Internship
 
-I guess the "pre-internship" period encompasses the time after I accepted my offer to when my internship actually started which lined up pretty well Covid first hitting the US, so there was a lot of uncertainty. Internships were getting cancelled left and right as companies rushed to get everything in place for the summer. 
+I guess the "pre-internship" period encompasses the time after I accepted my offer to when my internship actually started which lined up pretty well with Covid first hitting the US, so there was a lot of uncertainty. Internships were getting cancelled left and right as companies rushed to get everything in place for the summer. 
 
 ## Uncertainties
 
-I think Microsoft did a great job in handling everything during this period of uncertainty and confusion. We were scared that like [Workday, AirBnB, Yelp, and a ton of other big companies](https://ismyinternshipcancelled.com/?company=&status=yes) our internships woud get cancelled. We were also hearing that other companies were transitioning to a remote internship. It would really suck if, for example, I declined an offer from a company that confirmed remote internships and Microsoft cancelled their internships. 
+I think Microsoft did a great job in handling everything during this period of uncertainty and confusion. We were scared that like [Workday, AirBnB, Yelp, and a ton of other companies](https://ismyinternshipcancelled.com/?company=&status=yes) our internships woud get cancelled. We were also hearing that other companies were transitioning to a remote internship. It would really suck if, for example, I declined an offer from a company that confirmed remote internships and Microsoft cancelled their internships. 
 
 Luckily, Microsoft kept us updated with weekly emails about any updates on the intern program. They sent surveys asking us for our summer plans like where we would be located and also promised dates on bigger announcements. Sometimes, the emails wouldn't contain any new info, but it was still reassuring and I really appreciate Microsoft's dedication to this. 
 
