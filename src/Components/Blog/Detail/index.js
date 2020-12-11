@@ -5,6 +5,7 @@ import useBlogPosts from '../../../hooks/useBlogPosts';
 
 import './index.css';
 
+
 const BlogDetail = props => {
   // Get post based on url: /blog/{post to get}
   const [ post, isLoading ] = useBlogPosts({ 
@@ -12,8 +13,16 @@ const BlogDetail = props => {
   });
 
   if (!isLoading) {
-    var { title, date, md } = post[0];
+    var { title, date, md, detailUrl } = post[0];
   }
+
+  // Md renderers
+  const renderers = {
+    // Render for img, make sure get correct path to image via require()
+    image: ({src, alt}) => {
+      return <img src={require(`assets/blog/${detailUrl}/${src}`)} alt={alt} />
+    }
+  };
 
   if (isLoading) {
     return (
@@ -26,7 +35,7 @@ const BlogDetail = props => {
       <div id="BlogDetail" className="blog-content">
         <h1 className="text-center" id="title">{title}</h1>
         <p className="text-center" id="date">{date}</p>
-        <ReactMarkdown className="md" source={md}/>
+        <ReactMarkdown className="md" renderers={renderers} source={md}/>
       </div>
     )
   }
