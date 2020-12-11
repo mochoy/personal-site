@@ -10,8 +10,23 @@
     - [Dock](#dock)
     - [Returning/Keeping Equipment](#returningkeeping-equipment)
 - [Swag](#swag)
+  - [Intern-Wide](#intern-wide)
+    - [Intern Giftbox](#intern-giftbox)
+    - [Hackathon](#hackathon)
+    - [Intern Day](#intern-day)
+  - [Org/Team-Specific](#orgteam-specific)
+    - [Experience + Devices](#experience--devices)
+    - [My Team](#my-team)
+    - [Other Teams](#other-teams)
 - [Fun Stuff!](#fun-stuff)
+  - [Intern Cohort](#intern-cohort)
+  - [Intern Day](#intern-day-1)
+  - [Hackathon](#hackathon-1)
+  - [Puzzle Day](#puzzle-day)
+  - [Co-Creation](#co-creation)
 - [Work Experience](#work-experience)
+- [Misc.](#misc)
+  - [Training Videos](#training-videos)
 
 Over this past summer, I was a software engineering intern at Microsoft on the Surface Duo (their new folding phone!) firmware team. I was working remote from home in San Francisco, but my team was nearby in Sunnyvale, CA. I'll go over my remote intern experience, including the fun stuff and the work stuff. There aren't that many posts like these out there and I think they're super valuable when evaluating internship offers and getting way too hyped for the summer. It looks like Summer 2021 will also be remote too, so here's a baseline of what to expect for a remote internship experience at Microsoft! Of course your results may vary. 
 
@@ -106,9 +121,86 @@ I needed to return my laptops and monitor. Most interns needed to pack everythin
 
 # Swag
 
+Ok now time for the most decisive factor when deciding between internship offers. Some swag was intern-wide, others were team/org dependant. Either way, Microsoft offers a ton of awesome swag like clothing, food, tech, and other goodies. Some interns also received swag during their interviews, but I didn't so it won't be included here. 
+
+Some swag was known beforehand, but other swag, especially the team/org specific swag, was straight up an actual surprise. For some people, their team/org swag would just show up on their doorstep one day. I have Fedex and UPS accounts, so whenever something is shipped to me, I get notified that a package is arriving, who sent the package, etc. I remember getting a few notificaions that an unexpected package was being shipped to me, so I got pretty hyped for a few days looking forward to that top secret swag.  
+
+## Intern-Wide 
+
+Some swag was given, or at least available, to every intern. I'll include event-based swag as well if the event was available to every intern.
+
+### Intern Giftbox
+
+Every intern received at least one intern giftbox that included a white Microsoft hoodie, a Microsoft insulating coffee bottle, and a puzzle all shipped in a cool little Microsoft Intern box. I think an external service put together these boxes and everything.
+
+![intern_box_closed](images/intern_box_closed.jpg)
+
+![intern_box_open](images/intern_box_open.jpg)
+
+I think the intern gifts were supposed to arrive around the start date for each intern, but it ended up getting pretty delayed. I received mine in late August and some interns didn't even get theirs until after they ended. 
+
+### Hackathon
+
+I'll talk more about the Microsoft Hackathon and Intern Day in the Fun Stuff section, but here's the swag. Everyone that signed up with a team for the hackathon got a dope Microsoft Hackathon 2020 t-shirt and stickers. I think the Hackathon might be themed so every year, each shirt has a differnt theme, but I'm not 100% sure. 
+
+![hackathon_swag](images/hackathon_swag.jpg)
+
+### Intern Day
+
+I'll go more into Intern Day later on as well, but we had a choice between three items, all of which were Microsoft labeled:
+
+- Backpack
+- Mug
+- Lunchbox
+
+Like the intern giftbox, I think an external service handled these gifts as well.  
+
+## Org/Team-Specific 
+
+Some orgs and teams also offered their own swag in addition to the intern-wide swag. I was on the Surface Duo firmware team which is under Surface, which is under Experience + Devices (E+D). I think E+D is the org, so I'm not sure what to call the Surface "org", which is in E+D, maybe it's the division?? I think Experience is the Windows side of things and of course Devices is Microsoft's hardware lineup including the Surface products, but not Xbox since I think that's in its own org. 
+
+### Experience + Devices
+
+E+D had some pretty cool swag, mainly the Xbox One X. I actually got my Xbox in the middle of my quarter way before my internship started since Microsoft wanted to send out all the Xboxes at the same time.
+
+![xbox](images/xbox.jpg)
+
+We also got an intern swag package that included a Microsoft Devices t-shirt, pen, notebook, stickers, and mug. 
+
+### My Team
+
+I think all the interns under my same CVP got to keep their Surface Headphones, keyboard + mouse, and Microsoft Pen so I'll go ahead and count that as swag. I also received a dope Surface Duo hoodie from my team. 
+
+### Other Teams
+
+The Xbox and Surface Duo hoodie were specific to my team/org, and other teams/orgs had their own swag too. A lot of the swag was branded with the org logo too. Here are a few things other teams/orgs offered. I'd throw in some pictures but unfortunately Slack deleted them. 
+
+- Hoodies
+- Backpacks
+- Seattle gift bags with food and other local goodies
+- Masks
+- Blankets
+- Stickers
+- T-shirts
+- Beanies/hats
+
 # Fun Stuff! 
 
+## Intern Cohort
+
+## Intern Day
+
+## Hackathon
+
+## Puzzle Day
+
+## Co-Creation
+
 # Work Experience
+
+# Misc.
+
+## Training Videos
 
 
 Want more insights? Check these out as well! 
