@@ -43,6 +43,7 @@ const useBlogPosts = params => {
             
             return {
               ...post,
+              detailUrl: post.url,
               url: "/blog/" + post.url,
               md: postText,
               previewMd: previewMd
