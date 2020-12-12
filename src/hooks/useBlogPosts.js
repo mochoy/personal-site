@@ -37,6 +37,12 @@ const useBlogPosts = params => {
         posts
           // Get posts that match searchUrl if specified
           .filter(post => !!searchUrl ? post.url === searchUrl : true)
+          // Remove isPreview posts if a searchURL is specified. I still want to 
+          // show posts preview for posts that are in preview mode, but I don't 
+          // want the entire post to be available on its own page and everything
+          .filter(post => !!searchUrl ? !post.isPreview : true)
+          // Apply any sort of data cleaning on remaining posts that didn't get 
+          // filtered out
           .map(async (post) => {
             const postText = await (await fetch(post.postFile)).text();
             const previewMd = generatePreviewMd(postText);
