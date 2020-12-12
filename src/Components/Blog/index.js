@@ -44,7 +44,7 @@ const Blog = props => {
             <ReactMarkdown className="preview-md" source={previewMd}/>
 
             <Link to={url} className={`read-more-link ${disabledLink}`}>
-              Read More
+              {isPreview ? "Coming Soon!" : "Read More"}
             </Link>
           </div>
         )
