@@ -1,34 +1,4 @@
-# Table of Contents <!-- omit in toc -->
-
-- [Interviews](#interviews)
-- [Pre-Internship](#pre-internship)
-  - [Uncertainties](#uncertainties)
-  - [Offer Changes](#offer-changes)
-  - [Equipment](#equipment)
-    - [Surface Jet 3](#surface-jet-3)
-    - [Surface Headphones](#surface-headphones)
-    - [Dock](#dock)
-    - [Returning/Keeping Equipment](#returningkeeping-equipment)
-- [Swag](#swag)
-  - [Intern-Wide](#intern-wide)
-    - [Intern Giftbox](#intern-giftbox)
-    - [Hackathon](#hackathon)
-    - [Intern Day](#intern-day)
-  - [Org/Team-Specific](#orgteam-specific)
-    - [Experience + Devices](#experience--devices)
-    - [My Team](#my-team)
-    - [Other Teams](#other-teams)
-- [Fun Stuff!](#fun-stuff)
-  - [Intern Cohort](#intern-cohort)
-  - [Intern Day](#intern-day-1)
-  - [Hackathon](#hackathon-1)
-  - [Puzzle Day](#puzzle-day)
-  - [Co-Creation](#co-creation)
-- [Work Experience](#work-experience)
-- [Misc.](#misc)
-  - [Training Videos](#training-videos)
-
-Over this past summer, I was a software engineering intern at Microsoft on the Surface Duo (their new folding phone!) firmware team. I was working remote from home in San Francisco, but my team was nearby in Sunnyvale, CA. I'll go over my remote intern experience, including the fun stuff and the work stuff. There aren't that many posts like these out there and I think they're super valuable when evaluating internship offers and getting way too hyped for the summer. It looks like Summer 2021 will also be remote too, so here's a baseline of what to expect for a remote internship experience at Microsoft! Of course your results may vary. 
+Over this past summer, I was a software engineering intern at Microsoft on the Surface Duo (their new folding phone!) firmware team. I was working remote from home in San Francisco, but my team was nearby in Sunnyvale, CA. I'll go over my remote intern experience, including the fun stuff and the work stuff. There aren't that many posts like these out there for the remote experience and I think they're super valuable when evaluating internship offers and getting way too hyped for the summer. It looks like Summer 2021 will also be remote too, so here's a baseline of what to expect for a remote internship experience at Microsoft! Of course your results may vary. 
 
 # Interviews
 Now the interviews weren't really part of the internship experience, but my interview process was a bit different and sort of rolled over into my internship experience a bit. 
@@ -131,7 +101,7 @@ Some swag was given, or at least available, to every intern. I'll include event-
 
 ### Intern Giftbox
 
-Every intern received at least one intern giftbox that included a white Microsoft hoodie, a Microsoft insulating coffee bottle, and a puzzle all shipped in a cool little Microsoft Intern box. I think an external service put together these boxes and everything.
+Every intern received at least one intern giftbox that included a white Microsoft sweater, a Microsoft insulating coffee bottle, and a puzzle all shipped in a cool little Microsoft Intern box. I think an external service put together these boxes and everything.
 
 ![intern_box_closed](images/intern_box_closed.jpg)
 
