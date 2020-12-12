@@ -24,4 +24,10 @@ If you Google "why I started a blog" or something similar, you'll find a ton of 
 
 ## Projects
 
-## Internships
+I also think a blog is a cool way to capture and log some of my projects. I don't really work on [Suild](http://suild.com/) stuff anymore, so my projects moving forward will probably just be random stuff that interests me. I hope to document sort of what/why/how I did things and my thought process behind those, but also things that I try but don't work. In engineering, we often see the final product, not too much all the "learning opportunies"/mistakes/failures that happen behind the scenes so I think it would be cool to explore that a bit. Even the best engineers are human and will never be perfect. 
+
+I also hear that hiring managers are also interested in that this of stuff, so that sounds like a win-win to me.  
+
+At the moment, I have two projects slated that I plan to write about. First is this blog, even though it's attached to my website it's sort of a brand new project and maybe it can be helpful to people looking to build blogs in React.
+
+I'm also designing my own buck converter. I don't have a name for it, so I just smack "epic" in front of what I'm building and call it a day, so my buck converter is just called "Epic Buck Converter". That name always cracks me up so when interviewers ask me "oh, so tell me about this 'Epic Buck Converter' project you have here" I'm always trying to hold in my laughter from that stupid name. I haven't taken a dedicated power electronics class yet or even the cool classes like controls or analog electronics, so a lot of my buck converter design is based on my previous experience, stuff I find online, and nagging professor Taufik (the power electronics professor at Cal Poly). I think that will provide a cool insight on things and it should be more investigative so I can document my findings like a *scientist*.
