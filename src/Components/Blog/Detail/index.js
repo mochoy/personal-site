@@ -1,4 +1,5 @@
 import React from 'react';
+import { Redirect } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 
 import Loading from '../../Functional/Loading';
@@ -14,10 +15,13 @@ const BlogDetail = props => {
     searchUrl: props.match.params.id
   });
 
+  console.log(post)
+
   if (isLoading) {
-    return (
-      <div id="BlogDetail"><Loading/></div>
-    )
+    return <div id="BlogDetail"><Loading/></div>
+  // No post found, so invalid link, reroute to 404
+  } else if (post.length === 0) {
+    return <Redirect to='/404' />
   } else {  
     const { title, date, md, detailUrl } = post[0];
   
