@@ -173,7 +173,7 @@ I think all the interns under my same CVP got to keep their Surface Headphones, 
 
 ### Other Teams
 
-The Xbox and Surface Duo hoodie were specific to my team/org, and other teams/orgs had their own swag too. A lot of the swag was branded with the org logo too. Here are a few things other teams/orgs offered. I'd throw in some pictures but unfortunately Slack deleted them. 
+The Xbox and Surface Duo hoodie were specific to my team/org, and other teams/orgs had their own swag. A lot of the swag was branded with the org logo too. Here are a few things other teams/orgs offered. I'd throw in some pictures but unfortunately Slack deleted them. 
 
 - Hoodies
 - Backpacks
