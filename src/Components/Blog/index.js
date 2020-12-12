@@ -28,16 +28,24 @@ const Blog = props => {
       <Loading isLoading={isLoading}/>
 
       { !isLoading && posts.map((post, i) => {
-        const { title, url, date, previewMd } = post;
+        const { title, url, date, previewMd, isPreview } = post;
+
+        // class for disabled link if post is preview, gets appended to classname
+        const disabledLink = isPreview ? " disabled-link" : ""
 
         return (
           <div key={i} className="post-preview blog-content">
-            <Link className="title" to={url}>
+            <Link className={`title ${disabledLink}`} to={url}>
               <h2>{title}</h2>
             </Link>
+
             <p className="date">{date}</p>
+
             <ReactMarkdown className="preview-md" source={previewMd}/>
-            <Link to={url} className="read-more-link">Read More</Link>
+
+            <Link to={url} className={`read-more-link ${disabledLink}`}>
+              Read More
+            </Link>
           </div>
         )
       })
