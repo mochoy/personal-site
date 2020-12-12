@@ -107,22 +107,9 @@ const Projects = props => {
           }
         </div>
 
-        <CollapsibleTextTrigger
-          containerClassName="flex-container-horizontally-center"
-          isExpanded={isMoreProjectsExpanded}
-          setIsExpanded={setIsMoreProjectsExpanded}
-          onClick={(isExpanded) => {
-            ReactGA.event({
-              category: 'Project',
-              action: 'Click',
-              label: isExpanded ? "Expanded" : "Collapsed"
-            });
-          }}
-        >
-          <h2 className="text-center" style={{ /* margin: 0 */ }}>
-            More Projects
-          </h2>
-        </CollapsibleTextTrigger>
+        <h2 className="text-center">
+          More Projects
+        </h2>
         
         <Collapse in={isMoreProjectsExpanded}>
           <div id="more-projects-container">
