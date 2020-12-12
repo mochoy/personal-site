@@ -14,23 +14,21 @@ const BlogDetail = props => {
     searchUrl: props.match.params.id
   });
 
-  if (!isLoading) {
-    var { title, date, md, detailUrl } = post[0];
-  }
-
-  // Md renderers
-  const renderers = {
-    // Render for img, make sure get correct path to image via require()
-    image: ({src, alt}) => {
-      return <img src={require(`assets/blog/${detailUrl}/${src}`)} alt={alt} />
-    }
-  };
-
   if (isLoading) {
     return (
       <div id="BlogDetail"><Loading/></div>
     )
-  } else {
+  } else {  
+    const { title, date, md, detailUrl } = post[0];
+  
+    // Md renderers
+    const renderers = {
+      // Render for img, make sure get correct path to image via require()
+      image: ({src, alt}) => {
+        return <img src={require(`assets/blog/${detailUrl}/${src}`)} alt={alt} />
+      }
+    };
+
     return (
       <div id="BlogDetail" className="blog-content">
         <h1 className="text-center" id="title">{title}</h1>
