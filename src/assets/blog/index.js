@@ -8,11 +8,11 @@ import remote_microsoft_internship from './remote_microsoft_internship';
 // Array of all posts before fetching and parsing the markdown file
 const posts = [
   first_post,
+  remote_microsoft_internship,
   epic_buck_converter_intro,
   how_i_made_this_blog,
   track_jobs_4_me_review,
-  summer_2021_internship_search,
-  remote_microsoft_internship
+  summer_2021_internship_search
 ];
 
 
