@@ -6,6 +6,7 @@ import Nav from '../Nav';
 import Main from '../Main';
 import Blog from '../Blog';
 import BlogDetail from '../Blog/Detail';
+import NotFound from '../NotFound';
 import Footer from '../Footer';
 
 
@@ -77,6 +78,14 @@ const App = () => {
               exact path="/blog/:id" 
               render = {(props) => (
                 <BlogDetail {...props}/>
+              )} 
+            />
+
+            {/* Route to 404 Not Found */}
+            <Route 
+              exact path="/404" 
+              render = {(props) => (
+                <NotFound {...props}/>
               )} 
             />
 
