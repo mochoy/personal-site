@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdown from 'react-markdown';
+import { BeatLoader } from "react-spinners";
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
 
@@ -27,7 +28,10 @@ const BlogDetail = props => {
   if (isLoading) {
     return (
       <div id="BlogDetail">
-        Loading
+        <div className="flex-container-horizontally-center">
+          <BeatLoader loading={isLoading}/>
+        </div>
+        <p className="text-center">Loading...</p>
       </div>
     )
   } else {
