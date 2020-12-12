@@ -4,6 +4,7 @@ import React, {
 import { Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown'
 
+import Loading from '../Functional/Loading';
 import Cover from './Cover';
 
 // import { ReactGACtx } from '../App';
@@ -24,9 +25,7 @@ const Blog = props => {
       
       <Cover/>
 
-      { isLoading &&
-        <p>Loading</p>
-      }
+      <Loading isLoading={isLoading}/>
 
       { !isLoading && posts.map((post, i) => {
         const { title, url, date, previewMd } = post;
