@@ -22,25 +22,3 @@
 #Blog .post-preview h2 {
   margin-bottom: 0;
 }
-
-#Blog .post-preview .date, 
-#Blog .post-preview .word-count,
-#Blog .post-preview .reading-time {
-  margin-top: 0;
-  color: #989898;
-}
-
-@media only screen and (max-width: 700px) {
-	#Blog .post-preview .date, 
-  #Blog .post-preview .word-count,
-  #Blog .post-preview .reading-time {
-    font-size: 0.7em;
-  }
-}
-
-#Blog .post-preview .word-count,
-#Blog .post-preview .reading-time {
-  margin-left: 0.5em;
-  padding-left: 0.5em;
-  border-left: 1px solid #acacac;
-}

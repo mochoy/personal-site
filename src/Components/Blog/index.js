@@ -6,6 +6,7 @@ import ReactMarkdown from 'react-markdown'
 
 import Loading from '../Functional/Loading';
 import Cover from './Cover';
+import DateInfo from './DateInfo';
 
 // import { ReactGACtx } from '../App';
 
@@ -28,13 +29,7 @@ const Blog = props => {
       <Loading isLoading={isLoading}/>
 
       { !isLoading && posts.map((post, i) => {
-        const { title, 
-          url, 
-          date, 
-          previewMd, 
-          isPreview, 
-          wordCount, 
-          readingTime } = post;
+        const { title, url, previewMd, isPreview} = post;
 
         // class for disabled link if post is preview, gets appended to classname
         const disabledLink = isPreview ? " disabled-link" : ""
@@ -45,13 +40,8 @@ const Blog = props => {
               <h2>{title}</h2>
             </Link>
 
-            <div className="flex-container">
-              <p className="date">{date}</p>
-              <p className="word-count">{`${wordCount} words`}</p>
-              <p className="reading-time">{`${readingTime} min read`}</p>
-            </div>
+            <DateInfo post={post}/>
             
-
             <ReactMarkdown className="preview-md" source={previewMd}/>
 
             <Link to={url} className={`read-more-link ${disabledLink}`}>
