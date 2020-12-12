@@ -4,3 +4,4 @@ In case you're also thinking of making your own blog, here are some other blogs 
 
 - ahmadawais.com
 - joelonsoftware.com
+- jonathancai.com
