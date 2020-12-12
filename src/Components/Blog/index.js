@@ -28,7 +28,13 @@ const Blog = props => {
       <Loading isLoading={isLoading}/>
 
       { !isLoading && posts.map((post, i) => {
-        const { title, url, date, previewMd, isPreview } = post;
+        const { title, 
+          url, 
+          date, 
+          previewMd, 
+          isPreview, 
+          wordCount, 
+          readingTime } = post;
 
         // class for disabled link if post is preview, gets appended to classname
         const disabledLink = isPreview ? " disabled-link" : ""
@@ -39,7 +45,12 @@ const Blog = props => {
               <h2>{title}</h2>
             </Link>
 
-            <p className="date">{date}</p>
+            <div className="flex-container">
+              <p className="date">{date}</p>
+              <p className="word-count">{`${wordCount} words`}</p>
+              <p className="reading-time">{`${readingTime} min read`}</p>
+            </div>
+            
 
             <ReactMarkdown className="preview-md" source={previewMd}/>
 
