@@ -3,6 +3,7 @@ import { Redirect } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 
 import Loading from '../../Functional/Loading';
+import DateInfo from '../DateInfo';
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
 
@@ -15,15 +16,18 @@ const BlogDetail = props => {
     searchUrl: props.match.params.id
   });
 
-  console.log(post)
-
+  
+  // Post is loading
   if (isLoading) {
     return <div id="BlogDetail"><Loading/></div>
+
   // No post found, so invalid link, reroute to 404
   } else if (post.length === 0) {
     return <Redirect to='/404' />
+  
+  // Render actual post
   } else {  
-    const { title, date, md, detailUrl } = post[0];
+    const { title, md, detailUrl } = post[0];
   
     // Md renderers
     const renderers = {
@@ -35,8 +39,8 @@ const BlogDetail = props => {
 
     return (
       <div id="BlogDetail" className="blog-content">
-        <h1 className="text-center" id="title">{title}</h1>
-        <p className="text-center" id="date">{date}</p>
+        <h1 id="title">{title}</h1>
+        <DateInfo post={post[0]} />
         <ReactMarkdown className="md" renderers={renderers} source={md}/>
       </div>
     )
