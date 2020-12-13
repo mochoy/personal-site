@@ -1,5 +1,7 @@
 import React, { createContext, useEffect } from 'react';
-import { FirebaseDatabaseProvider } from "@react-firebase/database";
+import { FirebaseDatabaseProvider,
+  FirebaseDatabaseNode,
+  FirebaseDatabaseMutation } from "@react-firebase/database";
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import firebase from 'firebase/app';
 import 'firebase/database';
@@ -55,7 +57,15 @@ const App = () => {
               <Route 
                 exact path="/blog/:id" 
                 render = {(props) => (
-                  <BlogDetail {...props}/>
+                  <FirebaseDatabaseNode path={props.location.pathname}>
+                    <div>
+                      <FirebaseDatabaseMutation type="set"
+                        path={props.location.pathname}
+                      >
+                      <BlogDetail {...props}/>
+                      </FirebaseDatabaseMutation>
+                    </div>
+                  </FirebaseDatabaseNode>
                 )} 
               />
 

@@ -27,15 +27,17 @@ const defaultDbPostEntry = {
 
 
 const BlogDetail = props => {
-  const { path, value } = props;
+  const { path, isLoading, value, runMutation } = props;
 
   // Get post based on url: /blog/{post to get}
-  const [ post, isLoading ] = useBlogPosts({ 
+  const [ post, isBlogPostLoading ] = useBlogPosts({ 
     searchUrl: props.match.params.id
   });
 
-  console.log("path: ", path)
-  console.log("value: ", value)
+  console.log(props)
+  console.log("isLoading: ", isLoading);
+  console.log("path: ", path);
+  console.log("value: ", value);
 
   // const [ comments, setComments ] = React.useState([]);
   // const [ votes, setVotes ] = React.useState([]);
@@ -76,8 +78,8 @@ const BlogDetail = props => {
   // console.log("votes: ", votes);
 
   
-  // Post is loading
-  if (isLoading) {
+  // Blog post is loading
+  if (isBlogPostLoading) {
     return <div id="BlogDetail"><Loading/></div>
 
   // No post found, so invalid link, reroute to 404
