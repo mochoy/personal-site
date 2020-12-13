@@ -27,48 +27,53 @@ const defaultDbPostEntry = {
 
 
 const BlogDetail = props => {
+  const { path, value } = props;
+
   // Get post based on url: /blog/{post to get}
   const [ post, isLoading ] = useBlogPosts({ 
     searchUrl: props.match.params.id
   });
 
-  const [ comments, setComments ] = React.useState([]);
-  const [ votes, setVotes ] = React.useState([]);
+  console.log("path: ", path)
+  console.log("value: ", value)
 
-  React.useEffect(() => {
-    // Connect to db and get vote/comment info for this post
-    const db = dbRef(`blog/${props.match.params.id}`);
+  // const [ comments, setComments ] = React.useState([]);
+  // const [ votes, setVotes ] = React.useState([]);
 
-    db.on('value', snapshot => {
-      const contents = snapshot.val();
+  // React.useEffect(() => {
+  //   // Connect to db and get vote/comment info for this post
+  //   const db = dbRef(`blog/${props.match.params.id}`);
 
-      // If no contents, means no votes/comments data for this post yet, create a
-      // new obj in db to store votes and posts
-      if (contents === null) {
-        // db.push will push to ref of db, which will be blog.{post_url}
-        // This is the standard format for comments/votes
-        db.set(defaultDbPostEntry);
+  //   db.on('value', snapshot => {
+  //     const contents = snapshot.val();
 
-        // Don't need to set comments/votes in state because when they get set in 
-        // db, the db is realtime so this callback will get set again but with the 
-        // new data, resetting comments/votes
+  //     // If no contents, means no votes/comments data for this post yet, create a
+  //     // new obj in db to store votes and posts
+  //     if (contents === null) {
+  //       // db.push will push to ref of db, which will be blog.{post_url}
+  //       // This is the standard format for comments/votes
+  //       db.set(defaultDbPostEntry);
 
-      } else {
-        // Only save commnets/votes to state from db contents if they're diff
-        if (contents.comments.length !== comments.length) {
-          setComments(contents.comments);
-        } 
+  //       // Don't need to set comments/votes in state because when they get set in 
+  //       // db, the db is realtime so this callback will get set again but with the 
+  //       // new data, resetting comments/votes
 
-        if (contents.votes.length !== votes.length) {
-          setVotes(contents.votes);
-        }
+  //     } else {
+  //       // Only save commnets/votes to state from db contents if they're diff
+  //       if (contents.comments.length !== comments.length) {
+  //         setComments(contents.comments);
+  //       } 
 
-      }
-    });
-  });
+  //       if (contents.votes.length !== votes.length) {
+  //         setVotes(contents.votes);
+  //       }
 
-  console.log("comments: ", comments);
-  console.log("votes: ", votes);
+  //     }
+  //   });
+  // });
+
+  // console.log("comments: ", comments);
+  // console.log("votes: ", votes);
 
   
   // Post is loading
