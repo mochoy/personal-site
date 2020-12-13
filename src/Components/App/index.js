@@ -1,5 +1,4 @@
 import React, { createContext, useEffect } from 'react';
-import ReactGA from 'react-ga';
 import firebase from 'firebase/app';
 import 'firebase/database';
 
@@ -12,38 +11,12 @@ import BlogDetail from '../Blog/Detail';
 import NotFound from '../NotFound';
 import Footer from '../Footer';
 
+import ReactGA from '../../services/reactGA';
 
 import './index.css';
 
 
-//
-// GA Stuff
-const initGA = () => {
-  ReactGA.initialize(process.env.REACT_APP_GA_KEY, {
-    debug: false,       // Set to fale to disable logs
-    testMode: true,    // Uncomment/set to false if dont want data sent to ga
-    // siteSpeedSampleRate: 100
-  });
 
-  ReactGA.pageview(window.location.pathname + window.location.search);
-};
-
-
-// Custom GA stuff that will be tacked onto ReactGA that gets passed through contexts
-ReactGA.custom = {
-  // Called from VisibilitySensor onChange, if isVisible === true, then that 
-  // section has been visited, so send an event to GA via GA event
-  sectionVisited: (isVisible, section) => {
-    if (isVisible) {
-      ReactGA.event({
-        category: 'Section',
-        action: "Visited",
-        label: section,
-        nonInteraction: true
-      });
-    }
-  }  
-}
 
 
 export const ReactGACtx = createContext(ReactGA);
@@ -70,7 +43,7 @@ const App = () => {
   const db = firebase.database().ref();
 
   useEffect(() => {
-    initGA();
+    ReactGA.initGA();
 
     db.on('value', snapshot => {
       console.log(snapshot.val())
