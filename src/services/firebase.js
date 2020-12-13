@@ -42,4 +42,4 @@ const dbRef = path => {
   return firebase.database().ref(path);
 }
 
-export { init, dbRef };
+export { firebaseConfig, init, dbRef };
