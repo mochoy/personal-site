@@ -9,6 +9,7 @@ import NotFound from '../NotFound';
 import Footer from '../Footer';
 
 import ReactGA from '../../services/reactGA';
+import { init } from '../../services/firebase';
 
 import './index.css';
 
@@ -17,14 +18,16 @@ export const ReactGACtx = createContext(ReactGA);
 
 
 const App = () => {
+  let db;
 
   useEffect(() => {
     ReactGA.initGA();
 
+    db = init();
     db.on('value', snapshot => {
       console.log(snapshot.val())
     });
-  }, []);
+  });
 
   return (
     <ReactGACtx.Provider value={ReactGA}>
