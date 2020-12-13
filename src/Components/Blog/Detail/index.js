@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 
 import Loading from '../../Functional/Loading';
 import DateInfo from '../DateInfo';
+import Comments from './Comments';
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
 import useCommentsAndVotesForBlog from '../../../hooks/useCommentsAndVotesForBlog';
@@ -55,6 +56,8 @@ const BlogDetail = props => {
         <h1 id="title">{title}</h1>
         <DateInfo post={post[0]} />
         <ReactMarkdown className="md" renderers={renderers} source={md}/>
+
+        <Comments comments={comments} submitComment={submitComment}/>
       </div>
     )
   }
