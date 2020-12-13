@@ -17,7 +17,11 @@ const BlogDetail = props => {
     searchUrl: props.match.params.id
   });
 
-  const { comments, votes } = useCommentsAndVotesForBlog(
+  const { comments, 
+    votes, 
+    
+    submitComment, 
+    submitVote } = useCommentsAndVotesForBlog(
     props.location.pathname
   );
 

@@ -25,7 +25,10 @@ const defaultDbPostEntry = {
  * 
  * @param {String} pathname: Path in db to the data that corresponds to this post 
  * 
- * @return {Array} 
+ * @return {Array} comments
+ * @return {Number} votes
+ * @return {Function} submitComment
+ * @return {Function} submitVote
  */
  const useCommentsAndVotesForBlog = (pathname) => {
   const [ comments, setComments ] = useState([]);
@@ -65,9 +68,23 @@ const defaultDbPostEntry = {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+
+  const submitComment = () => {
+    console.log("commenting!")
+  };
+
+
+  const submitVote = () => {
+    console.log("voting!")
+  };
+  
+
   return {
     comments,
-    votes
+    votes,
+
+    submitComment,
+    submitVote
   }
  };
 
