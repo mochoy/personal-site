@@ -16,13 +16,30 @@ const firebaseConfig = {
   measurementId: process.env.FIREBASE_MEASUREMENT_ID
 };
 
-// Init firebase app and connect to db. Returns ref to db
-const init = (ref) => {
+// Init firebase app if no app init yet
+const init = () => {
   if (firebase.apps.length === 0) {
     firebase.initializeApp(firebaseConfig);
   }
   
-  return firebase.database().ref(ref);
 };
 
-export { init };
+/**
+ * Get ref to db at path. Handles app init if not already init. bascially just 
+ * a wrapper around https://firebase.google.com/docs/reference/js/firebase.database.Database#ref
+ * 
+ * @param {string} path: path to location in db. Can omit if want ref to 
+ * entire db
+ * 
+ * @return {Object} return val of db.ref(), a ref pointing to db location 
+ */
+const dbRef = path => {
+  // If no app init yet, init app first
+  if (firebase.apps.length === 0) {
+    init();
+  }
+
+  return firebase.database().ref(path);
+}
+
+export { init, dbRef };
