@@ -1,29 +1,14 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Redirect } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 
 import Loading from '../../Functional/Loading';
 import DateInfo from '../DateInfo';
 
-import { FirebaseCtx } from '../../App';
 import useBlogPosts from '../../../hooks/useBlogPosts';
+import useCommentsAndVotesForBlog from '../../../hooks/useCommentsAndVotesForBlog';
 
 import './index.css';
-
-
-// What to set in db for a new post that wasn't already in db. Includes arr/obj
-// for comments and votes
-const defaultDbPostEntry = { 
-  comments: { 0: {
-    time: Date.now(),
-    username: "init",
-    text: "init"
-  }}, 
-  votes: { 0: { 
-    time: Date.now(),
-    vote: "init"
-  }} 
-};
 
 
 const BlogDetail = props => {
@@ -32,36 +17,10 @@ const BlogDetail = props => {
     searchUrl: props.match.params.id
   });
 
-  const [ comments, setComments ] = React.useState([]);
-  const [ votes, setVotes ] = React.useState([]);
+  const { comments, votes } = useCommentsAndVotesForBlog(
+    props.location.pathname
+  );
 
-  // Path in db to the data that corresponds to this post 
-  const dbPath = props.location.pathname;
-
-  const db = useContext(FirebaseCtx).ref(dbPath);
-
-  // Fetch comments and votes from db if they exist, otherwise create them
-  React.useEffect(() => {
-    db.on('value', snapshot => {
-      const dbContents = snapshot.val();
-  
-      // If no contents, means no votes/comments data for this post yet, create a
-      // new obj in db to store votes and posts
-      if (dbContents === null) {
-        db.set(defaultDbPostEntry);
-      } else {
-        setComments(dbContents.comments);
-        setVotes(dbContents.votes);
-      }
-  
-    });
-  
-  // Can't include db in dependancy arr, that will re-render at every time db 
-  // changes, which will cause infinte loop
-  
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-  
 
   console.log("Comments: ", comments)
   console.log("votes: ", votes)
