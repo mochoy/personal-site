@@ -11,10 +11,11 @@ const defaultDbPostEntry = {
     username: "init",
     text: "init"
   }}, 
-  votes: { 0: { 
+  voteEvents: { 0: { 
     time: Date.now(),
     vote: "init"
-  }} 
+  }},
+  votes: 0
 };
 
 /**
