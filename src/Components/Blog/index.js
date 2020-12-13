@@ -11,6 +11,7 @@ import DateInfo from './DateInfo';
 // import { ReactGACtx } from '../App';
 
 import useBlogPosts from '../../hooks/useBlogPosts';
+import { init } from '../../services/firebase';
 
 import './index.css';
 import './blog-content.css';
@@ -20,6 +21,11 @@ const Blog = props => {
   // const ReactGA = useContext(ReactGACtx);
 
   const [ posts, isLoading ] = useBlogPosts();
+
+  const db = init("blog/first_post");
+  db.on('value', snapshot => {
+    console.log(snapshot.val())
+  });
 
   return (
     <div id="Blog">
