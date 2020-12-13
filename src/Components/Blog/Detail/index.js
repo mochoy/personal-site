@@ -6,6 +6,7 @@ import Loading from '../../Functional/Loading';
 import DateInfo from '../DateInfo';
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
+import { dbRef } from '../../../services/firebase';
 
 import './index.css';
 
@@ -14,6 +15,12 @@ const BlogDetail = props => {
   // Get post based on url: /blog/{post to get}
   const [ post, isLoading ] = useBlogPosts({ 
     searchUrl: props.match.params.id
+  });
+
+  const db = dbRef(`blog/${props.match.params.id}`);
+
+  db.on('value', snapshot => {
+    console.log(snapshot.val())
   });
 
   
