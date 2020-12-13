@@ -11,7 +11,7 @@ import DateInfo from './DateInfo';
 // import { ReactGACtx } from '../App';
 
 import useBlogPosts from '../../hooks/useBlogPosts';
-import { init } from '../../services/firebase';
+import { dbRef } from '../../services/firebase';
 
 import './index.css';
 import './blog-content.css';
@@ -22,7 +22,13 @@ const Blog = props => {
 
   const [ posts, isLoading ] = useBlogPosts();
 
-  const db = init("blog/first_post");
+  // const db = init("blog/first_post");
+  // db.on('value', snapshot => {
+  //   console.log(snapshot.val())
+  // });
+
+  const db = dbRef("blog");
+
   db.on('value', snapshot => {
     console.log(snapshot.val())
   });
