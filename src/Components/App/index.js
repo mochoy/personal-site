@@ -17,68 +17,72 @@ import { firebaseConfig } from '../../services/firebase';
 import './index.css';
 
 
+firebase.initializeApp(firebaseConfig);
+
 export const ReactGACtx = createContext(ReactGA);
+export const FirebaseCtx = createContext(firebase.database());
 
 
 const App = () => {
   useEffect(() => {
     ReactGA.initGA();
-
   }, []);
 
   return (
     <ReactGACtx.Provider value={ReactGA}>
-      <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
-        <div className="App">
-          <Nav/>
-          
-          <Switch>
-            {/* Route to main */}
-            <Route 
-              exact path={["/", "/home", "/about", "/experience", "/projects"]}
-              render = {(props) => (
-                <Main {...props}/>
-              )} 
-            />
+      <FirebaseCtx.Provider value={firebase.database()}>
+        <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
+          <div className="App">
+            <Nav/>
+            
+            <Switch>
+              {/* Route to main */}
+              <Route 
+                exact path={["/", "/home", "/about", "/experience", "/projects"]}
+                render = {(props) => (
+                  <Main {...props}/>
+                )} 
+              />
 
-            {/* Route to blog */}
-            <Route 
-              exact path="/blog" 
-              render = {(props) => (
-                <Blog {...props}/>
-              )} 
-            />
+              {/* Route to blog */}
+              <Route 
+                exact path="/blog" 
+                render = {(props) => (
+                  <Blog {...props}/>
+                )} 
+              />
 
-            {/* Route to blog detail */}
-            <Route 
-              exact path="/blog/:id" 
-              render = {(props) => (
-                <BlogDetail {...props}/>
-              )} 
-            />
+              {/* Route to blog detail */}
+              <Route 
+                exact path="/blog/:id" 
+                render = {(props) => (
+                  <BlogDetail {...props}/>
+                )} 
+              />
 
-            {/* Route to 404 Not Found */}
-            <Route 
-              exact path="/404" 
-              render = {(props) => (
-                <NotFound {...props}/>
-              )} 
-            />
+              {/* Route to 404 Not Found */}
+              <Route 
+                exact path="/404" 
+                render = {(props) => (
+                  <NotFound {...props}/>
+                )} 
+              />
 
-            {/* Redirect random/broken paths to main */}
-            <Route 
-              path="/*" 
-              render = {() => (
-                <Redirect to="/" />
-              )} 
-            />
+              {/* Redirect random/broken paths to main */}
+              <Route 
+                path="/*" 
+                render = {() => (
+                  <Redirect to="/" />
+                )} 
+              />
 
-          </Switch>
+            </Switch>
 
-          <Footer/>
+            <Footer/>
 
-        </div>
-      </BrowserRouter>
+          </div>
+        </BrowserRouter>
+      </FirebaseCtx.Provider>
     </ReactGACtx.Provider>
   );
 }
