@@ -1,5 +1,8 @@
+// File for all/most React GA stuff 
 import ReactGA from 'react-ga';
 
+
+// Init React GA, called in app onComponentMount
 ReactGA.initGA = () => {
   ReactGA.initialize(process.env.REACT_APP_GA_KEY, {
     debug: false,       // Set to fale to disable logs
