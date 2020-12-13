@@ -1,5 +1,8 @@
 import React from 'react';
 
+import './index.css';
+
+
 const Comments = props => {
   const { comments, submitComment } = props;
 
