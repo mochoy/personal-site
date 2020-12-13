@@ -36,7 +36,10 @@ const defaultDbPostEntry = {
 
   // Fetch comments and votes from db if they exist, otherwise create them
   useEffect(() => {
-    db.on('value', snapshot => {
+    // Function to do the grab/initial setting in db. This function needs to be
+    // referenced twice, once as callback to subscribe to db, another as callback
+    // to detach from db to prevent mem leak
+    const getCommentsAndVotes = snapshot => {
       const dbContents = snapshot.val();
   
       // If no contents, means no votes/comments data for this post yet, create a
@@ -47,8 +50,14 @@ const defaultDbPostEntry = {
         setComments(dbContents.comments);
         setVotes(dbContents.votes);
       }
-  
-    });
+    }
+
+    db.on('value', getCommentsAndVotes);
+
+    // Return detaching function that gets executed on cleanup to prevent mem leak
+    return () => {
+      db.off('value', getCommentsAndVotes);
+    };
   
   // Can't include db in dependancy arr, that will re-render at every time db 
   // changes, which will cause infinte loop
