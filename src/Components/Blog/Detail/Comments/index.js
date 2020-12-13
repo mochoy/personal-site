@@ -4,7 +4,7 @@ import './index.css';
 
 
 const Comments = props => {
-  const { comments, submitComment } = props;
+  const { comments, username, updateUsername, comment, updateComment } = props;
 
   return (
     <div id="Comment">
@@ -12,6 +12,14 @@ const Comments = props => {
       { comments.length <= 1 &&
         <p>There are no comments.</p>
       }
+
+      <textarea 
+        className=""
+        placeHolder={"username"}
+        value={username}
+        onChange={(e) => updateUsername(e.target.value)}
+        required
+      />
     </div>
   );
 };

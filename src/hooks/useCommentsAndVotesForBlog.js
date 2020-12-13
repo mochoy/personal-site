@@ -27,12 +27,20 @@ const defaultDbPostEntry = {
  * 
  * @return {Array} comments
  * @return {Number} votes
- * @return {Function} submitComment
- * @return {Function} submitVote
+ * 
+ * @return {String} username
+ * @return {Function} updateUsername
+ * @return {String} comment
+ * @return {Function} updateComment
  */
  const useCommentsAndVotesForBlog = (pathname) => {
+  // Vals from db
   const [ comments, setComments ] = useState([]);
   const [ votes, setVotes ] = useState([]);
+
+  // User-entered vals
+  const [ username, updateUsername ] = useState("");
+  const [ comment, updateComment ] = useState("");
 
   const db = useContext(FirebaseCtx).ref(pathname);
 
@@ -69,22 +77,20 @@ const defaultDbPostEntry = {
   }, []);
 
 
-  const submitComment = () => {
-    console.log("commenting!")
-  };
-
-
-  const submitVote = () => {
-    console.log("voting!")
-  };
   
 
+
   return {
+    // Vals from db
     comments,
     votes,
 
-    submitComment,
-    submitVote
+    // Vals for comment form
+    username,
+    updateUsername,
+
+    comment, 
+    updateComment
   }
  };
 

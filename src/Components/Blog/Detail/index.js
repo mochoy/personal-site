@@ -21,14 +21,16 @@ const BlogDetail = props => {
   const { comments, 
     votes, 
     
-    submitComment, 
-    submitVote } = useCommentsAndVotesForBlog(
+    username, 
+    updateUsername,
+    comment, 
+    updateComment } = useCommentsAndVotesForBlog(
     props.location.pathname
   );
 
 
-  console.log("Comments: ", comments)
-  console.log("votes: ", votes)
+  // console.log("Comments: ", comments)
+  // console.log("votes: ", votes)
 
   
   // Blog post is loading
@@ -57,7 +59,12 @@ const BlogDetail = props => {
         <DateInfo post={post[0]} />
         <ReactMarkdown className="md" renderers={renderers} source={md}/>
 
-        <Comments comments={comments} submitComment={submitComment}/>
+        <Comments comments={comments} 
+          username={username}
+          updateUsername={updateUsername}
+          comment={comment}
+          updateComment={updateComment}
+        />
       </div>
     )
   }
