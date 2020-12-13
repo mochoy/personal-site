@@ -10,6 +10,9 @@
 
 #BlogDetail .md {
   margin-top: 2em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: black 1px solid;
 }
 
 #BlogDetail .md img {
