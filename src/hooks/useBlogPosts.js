@@ -57,8 +57,8 @@ const useBlogPosts = params => {
               wordCount: wordCount,
               readingTime: Math.ceil(wordCount/265),
 
-              detailUrl: post.url,
-              url: "/blog/" + post.url,
+              detailUrl: post.url,      // url of detail: .com/blog/{detailUrl}
+              url: "/blog/" + post.url, // full url: .com/{url}
 
               md: postText,
               previewMd: previewMd

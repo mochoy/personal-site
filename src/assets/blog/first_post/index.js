@@ -5,6 +5,7 @@ const firstPost = {
   date: "Monday, December 07, 2020",
   title: "First Post!",
   url: "first_post",
+  filePath: "first_post",
   postFile: first_post
 };
 

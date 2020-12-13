@@ -34,13 +34,13 @@ const BlogDetail = props => {
   
   // Render actual post
   } else {  
-    const { title, md, detailUrl } = post[0];
+    const { title, md, filePath } = post[0];
   
     // Md renderers
     const renderers = {
       // Render for img, make sure get correct path to image via require()
       image: ({src, alt}) => {
-        return <img src={require(`assets/blog/${detailUrl}/${src}`)} alt={alt} />
+        return <img src={require(`assets/blog/${filePath}/${src}`)} alt={alt} />
       }
     };
 
