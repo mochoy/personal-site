@@ -21,10 +21,7 @@ const App = () => {
   useEffect(() => {
     ReactGA.initGA();
 
-    const db = init();
-    db.on('value', snapshot => {
-      console.log(snapshot.val())
-    });
+    init();
   }, []);
 
   return (
