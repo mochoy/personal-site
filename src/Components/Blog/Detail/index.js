@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Redirect } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 
 import Loading from '../../Functional/Loading';
 import DateInfo from '../DateInfo';
 
+import { FirebaseCtx } from '../../App';
 import useBlogPosts from '../../../hooks/useBlogPosts';
 
 import './index.css';
@@ -26,26 +27,17 @@ const defaultDbPostEntry = {
 
 
 const BlogDetail = props => {
-  const { path, isLoading, value, runMutation } = props;
-
   // Get post based on url: /blog/{post to get}
   const [ post, isBlogPostLoading ] = useBlogPosts({ 
     searchUrl: props.match.params.id
   });
 
-  console.log("isLoading: ", isLoading);
-  console.log("path: ", path);
-  console.log("value: ", value);
+  const db = useContext(FirebaseCtx);
+  db.ref().on('value', snapshot => {
+    console.log(snapshot.val())
+    
+  });
 
-  React.useEffect(() => {
-    // After data finish loading from db, if no data for the path for this 
-    // specific post, that means that this post's entry isn't in db, so need to 
-    // create a db entry for this post
-    if (!isLoading && !!value) {
-      console.log("saving to db");
-      runMutation(defaultDbPostEntry);
-    }
-  }, [isLoading]);
   
   // Blog post is loading
   if (isBlogPostLoading) {
