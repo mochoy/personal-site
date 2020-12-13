@@ -21,6 +21,13 @@ const init = () => {
   firebase.initializeApp(firebaseConfig);
 
   return firebase.database().ref();
+// Init firebase app and connect to db. Returns ref to db
+const init = (ref) => {
+  if (firebase.apps.length === 0) {
+    firebase.initializeApp(firebaseConfig);
+  }
+  
+  return firebase.database().ref(ref);
 };
 
 export { init };
