@@ -1,7 +1,4 @@
 import React, { createContext, useEffect } from 'react';
-import { FirebaseDatabaseProvider,
-  FirebaseDatabaseNode,
-  FirebaseDatabaseMutation } from "@react-firebase/database";
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import firebase from 'firebase/app';
 import 'firebase/database';
@@ -31,67 +28,57 @@ const App = () => {
 
   return (
     <ReactGACtx.Provider value={ReactGA}>
-      <FirebaseDatabaseProvider firebase={firebase} {...firebaseConfig}>
-        <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
-          <div className="App">
-            <Nav/>
-            
-            <Switch>
-              {/* Route to main */}
-              <Route 
-                exact path={["/", "/home", "/about", "/experience", "/projects"]}
-                render = {(props) => (
-                  <Main {...props}/>
-                )} 
-              />
+      <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
+        <div className="App">
+          <Nav/>
+          
+          <Switch>
+            {/* Route to main */}
+            <Route 
+              exact path={["/", "/home", "/about", "/experience", "/projects"]}
+              render = {(props) => (
+                <Main {...props}/>
+              )} 
+            />
 
-              {/* Route to blog */}
-              <Route 
-                exact path="/blog" 
-                render = {(props) => (
-                  <Blog {...props}/>
-                )} 
-              />
+            {/* Route to blog */}
+            <Route 
+              exact path="/blog" 
+              render = {(props) => (
+                <Blog {...props}/>
+              )} 
+            />
 
-              {/* Route to blog detail */}
-              <Route 
-                exact path="/blog/:id" 
-                render = {(props) => (
-                  <FirebaseDatabaseNode path={props.location.pathname}>
-                    <div>
-                      <FirebaseDatabaseMutation type="set"
-                        path={props.location.pathname}
-                      >
-                      <BlogDetail {...props}/>
-                      </FirebaseDatabaseMutation>
-                    </div>
-                  </FirebaseDatabaseNode>
-                )} 
-              />
+            {/* Route to blog detail */}
+            <Route 
+              exact path="/blog/:id" 
+              render = {(props) => (
+                <BlogDetail {...props}/>
+              )} 
+            />
 
-              {/* Route to 404 Not Found */}
-              <Route 
-                exact path="/404" 
-                render = {(props) => (
-                  <NotFound {...props}/>
-                )} 
-              />
+            {/* Route to 404 Not Found */}
+            <Route 
+              exact path="/404" 
+              render = {(props) => (
+                <NotFound {...props}/>
+              )} 
+            />
 
-              {/* Redirect random/broken paths to main */}
-              <Route 
-                path="/*" 
-                render = {() => (
-                  <Redirect to="/" />
-                )} 
-              />
+            {/* Redirect random/broken paths to main */}
+            <Route 
+              path="/*" 
+              render = {() => (
+                <Redirect to="/" />
+              )} 
+            />
 
-            </Switch>
+          </Switch>
 
-            <Footer/>
+          <Footer/>
 
-          </div>
-        </BrowserRouter>
-      </FirebaseDatabaseProvider>
+        </div>
+      </BrowserRouter>
     </ReactGACtx.Provider>
   );
 }
