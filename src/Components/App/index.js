@@ -18,16 +18,14 @@ export const ReactGACtx = createContext(ReactGA);
 
 
 const App = () => {
-  let db;
-
   useEffect(() => {
     ReactGA.initGA();
 
-    db = init();
+    const db = init();
     db.on('value', snapshot => {
       console.log(snapshot.val())
     });
-  });
+  }, []);
 
   return (
     <ReactGACtx.Provider value={ReactGA}>
