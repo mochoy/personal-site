@@ -32,11 +32,39 @@ const BlogDetail = props => {
     searchUrl: props.match.params.id
   });
 
-  const db = useContext(FirebaseCtx);
-  db.ref().on('value', snapshot => {
-    console.log(snapshot.val())
-    
-  });
+  const [ comments, setComments ] = React.useState([]);
+  const [ votes, setVotes ] = React.useState([]);
+
+  // Path in db to the data that corresponds to this post 
+  const dbPath = props.location.pathname;
+
+  const db = useContext(FirebaseCtx).ref(dbPath);
+
+  // Fetch comments and votes from db if they exist, otherwise create them
+  React.useEffect(() => {
+    db.on('value', snapshot => {
+      const dbContents = snapshot.val();
+  
+      // If no contents, means no votes/comments data for this post yet, create a
+      // new obj in db to store votes and posts
+      if (dbContents === null) {
+        db.set(defaultDbPostEntry);
+      } else {
+        setComments(dbContents.comments);
+        setVotes(dbContents.votes);
+      }
+  
+    });
+  
+  // Can't include db in dependancy arr, that will re-render at every time db 
+  // changes, which will cause infinte loop
+  
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  
+
+  console.log("Comments: ", comments)
+  console.log("votes: ", votes)
 
   
   // Blog post is loading
