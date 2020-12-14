@@ -34,8 +34,10 @@ const Comments = props => {
                   <p className="text">{text}</p>
                 </div>
               )
+            // Need to return something to avoid warning
+            } else {
+              return <div></div>
             }
-            
           })
         }
       </div>
