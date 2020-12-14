@@ -28,7 +28,9 @@ const defaultDbPostEntry = {
  * @return {Array} comments
  * @return {Number} votes
  * 
+ * @return {String} name
  * @return {Function} updateName
+ * @return {String} comment
  * @return {Function} updateComment
  */
  const useCommentsAndVotesForBlog = (pathname) => {
@@ -82,7 +84,9 @@ const defaultDbPostEntry = {
     votes,
 
     // Vals for comment form
+    name,
     updateName,
+    comment,
     updateComment
   }
  };

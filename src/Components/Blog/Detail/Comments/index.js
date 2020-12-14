@@ -1,10 +1,11 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 
 import './index.css';
 
 
 const Comments = props => {
-  const { comments, updateName, updateComment } = props;
+  const { comments, name, updateName, comment, updateComment } = props;
 
   return (
     <div id="Comment">
@@ -28,7 +29,12 @@ const Comments = props => {
           />
         </div>
 
-        
+        <Button variant="contained" color="primary" disableElevation 
+          disabled={!(name.length > 1 && comment.length > 1)} 
+          onClick={() => console.log("click")}
+        >
+          Submit
+        </Button>
       </form>
     </div>
   );
