@@ -82,15 +82,12 @@ const defaultDbPostEntry = {
 
 
   const onCommentSubmit = () => {
-    console.log(name)
-    console.log(comment)
-
     // Push comment to db
     db.child('comments').push({
       id: Date.now(),
+      time: new Date().toString(),
       name: name,
-      text: comment,
-      time: new Date()
+      text: comment
     });
 
     // Clear comment form
