@@ -19,13 +19,13 @@ const Comments = props => {
 
         <div>
           <label>Name</label>
-          <input type="text" onBlur={e => updateName(e.target.value)}/>
+          <input type="text" onChange={e => updateName(e.target.value)}/>
         </div>
         
         <div>
           <label>Comment</label>
           <textarea rows="3"
-            onBlur={e => updateComment(e.target.value)}
+            onChange={e => updateComment(e.target.value)}
           />
         </div>
 
@@ -38,6 +38,7 @@ const Comments = props => {
       </form>
     </div>
   );
-};
+}
+
 
 export default Comments;
