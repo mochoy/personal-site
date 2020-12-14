@@ -7,12 +7,14 @@ import { FirebaseCtx } from '../Components/App';
 // for comments and votes
 const defaultDbPostEntry = { 
   comments: { 0: {
-    time: Date.now(),
+    id: Date.now(),
+    date: new Date().toString(),
     name: "init",
     text: "init"
   }}, 
   voteEvents: { 0: { 
-    time: Date.now(),
+    id: Date.now(),
+    date: new Date().toString(),
     vote: "init"
   }},
   votes: 0
