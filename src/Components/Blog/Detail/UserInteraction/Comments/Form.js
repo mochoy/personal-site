@@ -17,7 +17,7 @@ const Form = props => {
       
       <div>
         <label>Comment</label>
-        <textarea rows="3" value={comment}
+        <textarea rows="10" value={comment}
           onChange={e => updateComment(e.target.value)}
         />
       </div>
