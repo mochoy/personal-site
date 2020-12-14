@@ -98,8 +98,25 @@ const defaultDbPostEntry = {
 
 
   const onLikeEvent = likeEvent => {
-    console.log(likeEvent)
-    setLikeStatus(likeEvent)
+    // Push like event to db 
+    db.child('likeEvents').push({
+      id: Date.now(),
+      time: new Date().toString(),
+      status: likeEvent
+    });
+
+    // Increment/decrement like count in db
+    db.child('likes').transaction(currentLikes => {
+
+      if (likeEvent === "unliked") {
+        return currentLikes - 1;
+      } else {
+        return currentLikes + 1;
+      }
+    });
+
+    // Set like status
+    setLikeStatus(likeEvent);
   }
 
 
