@@ -44,7 +44,7 @@ const defaultDbPostEntry = {
   // User-entered vals
   const [ name, updateName ] = useState("");
   const [ comment, updateComment ] = useState("");
-  const [ likeStatus, setLikeStatus ] = useState("unlike");
+  const [ likeStatus, setLikeStatus ] = useState("unliked");
 
   const db = useContext(FirebaseCtx).ref(pathname);
 
@@ -98,7 +98,8 @@ const defaultDbPostEntry = {
 
 
   const onLikeEvent = likeEvent => {
-
+    console.log(likeEvent)
+    setLikeStatus(likeEvent)
   }
 
 
