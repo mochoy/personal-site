@@ -1,8 +1,6 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
 
-import './index.css';
-
 
 const Comments = props => {
   const { comments, name, updateName, comment, updateComment } = props;
