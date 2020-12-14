@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "Blog",
+    date: "December 2020",
+    img: "blog.png",
+    description: "Personal blog to share posts. Supports commenting and liking posts run on Firebase realtime database.",
+    isFeatured: false,
+    hideForProd: false,
+    categories: ["Software", "Web"]
+  },
+  {
     title: "LTspice Buck Converter",
     date: "August 2020 - Present",
     img: "flywheel_setup_picker.png",
