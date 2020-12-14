@@ -24,6 +24,11 @@ const Likes = props => {
       <ReactTooltip id='like-tooltip' effect='solid'>
         <p style={{ margin: 0 }}>{likeStatus === "unliked" ? "Like" : "Unlike"}</p>
       </ReactTooltip>
+
+      <p style={{ marginLeft: "0.5em" }}>
+        {`${likes} like${likes === 1 ? "" : "s"}`}
+      </p>
+       
     </div>
   )
 };
