@@ -12,12 +12,12 @@ const defaultDbPostEntry = {
     name: "init",
     text: "init"
   }}, 
-  voteEvents: { 0: { 
+  likeEvents: { 0: { 
     id: Date.now(),
     date: new Date().toString(),
-    vote: "init"
+    status: "init"
   }},
-  votes: 0
+  likes: 0
 };
 
 /**
@@ -39,7 +39,7 @@ const defaultDbPostEntry = {
  const useCommentsAndVotesForBlog = (pathname) => {
   // Vals from db
   const [ comments, setComments ] = useState([]);
-  const [ votes, setVotes ] = useState([]);
+  const [ likes, setLikes ] = useState([]);
 
   // User-entered vals
   const [ name, updateName ] = useState("");
@@ -63,7 +63,7 @@ const defaultDbPostEntry = {
         db.set(defaultDbPostEntry);
       } else {
         setComments(dbContents.comments);
-        setVotes(dbContents.votes);
+        setLikes(dbContents.likes);
       }
     }
 
@@ -99,7 +99,7 @@ const defaultDbPostEntry = {
   return {
     // Vals from db
     comments,
-    votes,
+    likes,
 
     // Vals for comment form
     name,
