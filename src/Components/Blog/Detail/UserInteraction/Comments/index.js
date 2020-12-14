@@ -17,12 +17,14 @@ const Comments = props => {
 
         <div>
           <label>Name</label>
-          <input type="text" onChange={e => updateName(e.target.value)}/>
+          <input type="text" value={name} 
+            onChange={e => updateName(e.target.value)}
+          />
         </div>
         
         <div>
           <label>Comment</label>
-          <textarea rows="3"
+          <textarea rows="3" value={comment}
             onChange={e => updateComment(e.target.value)}
           />
         </div>
