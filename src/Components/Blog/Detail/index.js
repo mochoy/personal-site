@@ -1,11 +1,10 @@
-import React, { memo } from 'react';
+import React from 'react';
 import { Redirect } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 
 import Loading from '../../Functional/Loading';
 import DateInfo from '../DateInfo';
 import UserInteraction from './UserInteraction';
-import Comments from './UserInteraction/Comments';
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
 
