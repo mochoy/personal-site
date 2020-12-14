@@ -40,7 +40,6 @@ const Comments = props => {
         }
       </div>
       
-      
       <Form {...props}/>
     </div>
   );

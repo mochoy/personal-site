@@ -19,7 +19,10 @@ const UserInteraction = props => {
     updateName,
     comment,
     updateComment,
-    onCommentSubmit } = useCommentsAndVotesForBlog(pathname);
+    onCommentSubmit,
+  
+    likeStatus,
+    onLikeEvent } = useCommentsAndVotesForBlog(pathname);
 
 
   return (
