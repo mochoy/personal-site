@@ -10,11 +10,11 @@ import how_to_land_an_internship from './how_to_land_an_internship';
 const posts = [
   first_post,
   remote_microsoft_internship,
+  how_to_land_an_internship,
+  summer_2021_internship_search,
   epic_buck_converter_intro,
   how_i_made_this_blog,
-  track_jobs_4_me_review,
-  summer_2021_internship_search,
-  how_to_land_an_internship
+  track_jobs_4_me_review
 ];
 
 
