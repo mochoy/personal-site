@@ -18,7 +18,8 @@ const UserInteraction = props => {
     name,
     updateName,
     comment,
-    updateComment } = useCommentsAndVotesForBlog(pathname);
+    updateComment,
+    onCommentSubmit } = useCommentsAndVotesForBlog(pathname);
 
   return (
     <div id="UserInteraction">
@@ -28,6 +29,7 @@ const UserInteraction = props => {
         updateName={updateName}
         comment={comment}
         updateComment={updateComment}
+        onCommentSubmit={onCommentSubmit}
       />
     </div>
   );

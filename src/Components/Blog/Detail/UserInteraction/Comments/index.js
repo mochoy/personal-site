@@ -3,7 +3,7 @@ import { Button } from '@material-ui/core';
 
 
 const Comments = props => {
-  const { comments, name, updateName, comment, updateComment } = props;
+  const { comments, name, updateName, comment, updateComment, onCommentSubmit } = props;
 
   return (
     <div id="Comment">
@@ -29,7 +29,7 @@ const Comments = props => {
 
         <Button variant="contained" color="primary" disableElevation 
           disabled={!(name.length > 1 && comment.length > 1)} 
-          onClick={() => console.log("click")}
+          onClick={onCommentSubmit}
         >
           Submit
         </Button>

@@ -32,6 +32,7 @@ const defaultDbPostEntry = {
  * @return {Function} updateName
  * @return {String} comment
  * @return {Function} updateComment
+ * @return {Function} onCommentSubmit
  */
  const useCommentsAndVotesForBlog = (pathname) => {
   // Vals from db
@@ -78,6 +79,24 @@ const defaultDbPostEntry = {
   }, []);
 
 
+  const onCommentSubmit = () => {
+    console.log(name)
+    console.log(comment)
+
+    // Push comment to db
+    db.child('comments').push({
+      id: Date.now(),
+      name: name,
+      text: comment,
+      time: new Date()
+    });
+
+    // Clear comment form
+    updateName("");
+    updateComment("");
+  };
+
+
   return {
     // Vals from db
     comments,
@@ -87,7 +106,8 @@ const defaultDbPostEntry = {
     name,
     updateName,
     comment,
-    updateComment
+    updateComment,
+    onCommentSubmit
   }
  };
 
