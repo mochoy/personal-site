@@ -1,0 +1,23 @@
+#Comment #form div {
+  margin-bottom: 1em;
+}
+
+#Comment #form label {
+  display: block;
+  margin-bottom: 0.5em;
+  /* font-weight: 500; */
+}
+
+#Comment #form textarea {
+  width: 100%;
+}
+
+#Comment #form input, #Comment #form textarea {
+  padding: 0 1.2em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  /* transition: all 0.3s; */
+  color: #444;
+  max-width: 100%;
+  line-height: 3em;
+}

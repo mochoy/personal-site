@@ -28,9 +28,7 @@ const defaultDbPostEntry = {
  * @return {Array} comments
  * @return {Number} votes
  * 
- * @return {String} username
  * @return {Function} updateUsername
- * @return {String} comment
  * @return {Function} updateComment
  */
  const useCommentsAndVotesForBlog = (pathname) => {
@@ -43,6 +41,7 @@ const defaultDbPostEntry = {
   const [ comment, updateComment ] = useState("");
 
   const db = useContext(FirebaseCtx).ref(pathname);
+
 
 
   // Fetch comments and votes from db if they exist, otherwise create them
@@ -86,10 +85,7 @@ const defaultDbPostEntry = {
     votes,
 
     // Vals for comment form
-    username,
     updateUsername,
-
-    comment, 
     updateComment
   }
  };

@@ -4,7 +4,7 @@ import './index.css';
 
 
 const Comments = props => {
-  const { comments, username, updateUsername, comment, updateComment } = props;
+  const { comments, updateUsername, updateComment } = props;
 
   return (
     <div id="Comment">
@@ -12,14 +12,24 @@ const Comments = props => {
       { comments.length <= 1 &&
         <p>There are no comments.</p>
       }
+      
+      <form id="form">
+        <h4>Submit a Comment</h4>
 
-      <textarea 
-        className=""
-        placeHolder={"username"}
-        value={username}
-        onChange={(e) => updateUsername(e.target.value)}
-        required
-      />
+        <div>
+          <label>Name</label>
+          <input type="text" onBlur={e => updateUsername(e.target.value)}/>
+        </div>
+        
+        <div>
+          <label>Comment</label>
+          <textarea rows="3"
+            onBlur={e => updateComment(e.target.value)}
+          />
+        </div>
+
+        
+      </form>
     </div>
   );
 };
