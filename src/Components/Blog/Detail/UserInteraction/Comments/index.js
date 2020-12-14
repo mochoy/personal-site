@@ -15,23 +15,31 @@ const Comments = props => {
     <div id="Comments">
       <h3>Comments</h3>
 
-      { Object.keys(comments).length <= 1 &&
-        <p>There are no comments.</p>
-      }
+      <div style={{ margin: "0 auto", width: "90%" }}>
+        { Object.keys(comments).length <= 1 &&
+          <p>There are no comments.</p>
+        }
 
-      { Object.keys(comments).length > 1 &&
-        Object.keys(comments).map((key, i) => {
-          const { id, name, text } = comments[key];
+        { Object.keys(comments).length > 1 &&
+          Object.keys(comments).map((key, i) => {
+            // Skip first comment because it's dummy init
+            if (i > 0) {
+              const { id, name, text } = comments[key];
 
-          return (
-            <div className="comment" key={i}>
-              <p>{timeAgo.format(id)}</p>
-              <p>{name}</p>
-              <p>{text}</p>
-            </div>
-          )
-        })
-      }
+              return (
+                <div className="comment" key={i}>
+                  <p className="name">{name}</p>
+                  <p className="time-ago">{timeAgo.format(id)}</p>
+                  
+                  <p className="text">{text}</p>
+                </div>
+              )
+            }
+            
+          })
+        }
+      </div>
+      
       
       <Form {...props}/>
     </div>

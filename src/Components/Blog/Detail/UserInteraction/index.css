@@ -1,3 +1,24 @@
+#Comments .comment {
+  margin-bottom: 2em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#Comments .comment .name {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+#Comments .comment .time-ago {
+  margin: 0;
+  font-size: 0.8em;
+  color: #797979;
+}
+
+#Comments .comment .text {
+  margin-top: 0.5em;
+}
+
+
 
 
 #Comments #form div {
