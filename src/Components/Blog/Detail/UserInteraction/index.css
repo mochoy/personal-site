@@ -35,12 +35,13 @@
   width: 100%;
 }
 
-#Comments #form input, #Comment #form textarea {
-  padding: 0 1.2em;
+#Comments #form input, #Comments #form textarea {
+  padding: 1em;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   /* transition: all 0.3s; */
   color: #444;
   max-width: 100%;
-  line-height: 3em;
+  /* line-height: 1em; */
 }
+
