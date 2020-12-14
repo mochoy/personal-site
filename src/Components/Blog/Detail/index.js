@@ -21,7 +21,7 @@ const BlogDetail = props => {
   const { comments, 
     votes, 
     
-    updateUsername,
+    updateName,
     updateComment } = useCommentsAndVotesForBlog(
     props.location.pathname
   );
@@ -58,7 +58,7 @@ const BlogDetail = props => {
         <ReactMarkdown className="md" renderers={renderers} source={md}/>
 
         <Comments comments={comments} 
-          updateUsername={updateUsername}
+          updateName={updateName}
           updateComment={updateComment}
         />
       </div>

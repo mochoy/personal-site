@@ -8,7 +8,7 @@ import { FirebaseCtx } from '../Components/App';
 const defaultDbPostEntry = { 
   comments: { 0: {
     time: Date.now(),
-    username: "init",
+    name: "init",
     text: "init"
   }}, 
   voteEvents: { 0: { 
@@ -28,7 +28,7 @@ const defaultDbPostEntry = {
  * @return {Array} comments
  * @return {Number} votes
  * 
- * @return {Function} updateUsername
+ * @return {Function} updateName
  * @return {Function} updateComment
  */
  const useCommentsAndVotesForBlog = (pathname) => {
@@ -37,7 +37,7 @@ const defaultDbPostEntry = {
   const [ votes, setVotes ] = useState([]);
 
   // User-entered vals
-  const [ username, updateUsername ] = useState("");
+  const [ name, updateName ] = useState("");
   const [ comment, updateComment ] = useState("");
 
   const db = useContext(FirebaseCtx).ref(pathname);
@@ -76,16 +76,13 @@ const defaultDbPostEntry = {
   }, []);
 
 
-  
-
-
   return {
     // Vals from db
     comments,
     votes,
 
     // Vals for comment form
-    updateUsername,
+    updateName,
     updateComment
   }
  };

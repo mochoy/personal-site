@@ -4,7 +4,7 @@ import './index.css';
 
 
 const Comments = props => {
-  const { comments, updateUsername, updateComment } = props;
+  const { comments, updateName, updateComment } = props;
 
   return (
     <div id="Comment">
@@ -18,7 +18,7 @@ const Comments = props => {
 
         <div>
           <label>Name</label>
-          <input type="text" onBlur={e => updateUsername(e.target.value)}/>
+          <input type="text" onBlur={e => updateName(e.target.value)}/>
         </div>
         
         <div>
