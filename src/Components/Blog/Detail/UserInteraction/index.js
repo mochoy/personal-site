@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Likes from './Likes';
 import Comments from './Comments';
 
 import useCommentsAndVotesForBlog from '../../../../hooks/useCommentsAndVotesForBlog';
@@ -27,6 +28,8 @@ const UserInteraction = props => {
 
   return (
     <div id="UserInteraction">
+
+      <Likes likes={likes} likeStatus={likeStatus} onLikeEvent={onLikeEvent}/>
       
       <Comments comments={comments} 
         name={name}
