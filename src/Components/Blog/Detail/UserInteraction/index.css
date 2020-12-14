@@ -1,3 +1,7 @@
+#Likes {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 #Comments .comment {
   margin-bottom: 2em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);

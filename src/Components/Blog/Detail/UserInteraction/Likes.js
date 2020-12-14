@@ -9,13 +9,13 @@ const Likes = props => {
   return (
     <div id="Likes" className="flex-container-vertically-center">
       { likeStatus === "unliked" &&
-        <ThumbUpAltOutlined fontSize="default" className="mouse-on-hover"
+        <ThumbUpAltOutlined className="mouse-on-hover"
           data-tip data-for='like-tooltip' 
           onClick={() => onLikeEvent("liked")}
         />
       }
       { likeStatus === "liked" &&
-        <ThumbUp fontSize="default" className="mouse-on-hover"
+        <ThumbUp className="mouse-on-hover"
           data-tip data-for='like-tooltip' 
           onClick={() => onLikeEvent("unliked")}
         />
