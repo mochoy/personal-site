@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 
 import Loading from '../../Functional/Loading';
 import DateInfo from '../DateInfo';
+import UserInteraction from './UserInteraction';
 import Comments from './Comments';
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
@@ -61,6 +62,8 @@ const BlogDetail = memo(
           <h1 id="title">{title}</h1>
           <DateInfo post={post[0]} />
           <ReactMarkdown className="md" renderers={renderers} source={md}/>
+
+          <UserInteraction/>
 
           <Comments comments={comments} 
             name={name}
