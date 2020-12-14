@@ -4,6 +4,7 @@ import how_i_made_this_blog from './how_i_made_this_blog';
 import track_jobs_4_me_review from './track_jobs_4_me_review';
 import summer_2021_internship_search from './summer_2021_internship_search';
 import remote_microsoft_internship from './remote_microsoft_internship';
+import how_to_land_an_internship from './how_to_land_an_internship';
 
 // Array of all posts before fetching and parsing the markdown file
 const posts = [
@@ -12,7 +13,8 @@ const posts = [
   epic_buck_converter_intro,
   how_i_made_this_blog,
   track_jobs_4_me_review,
-  summer_2021_internship_search
+  summer_2021_internship_search,
+  how_to_land_an_internship
 ];
 
 
