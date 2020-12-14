@@ -21,6 +21,7 @@ const UserInteraction = props => {
     updateComment,
     onCommentSubmit } = useCommentsAndVotesForBlog(pathname);
 
+    
   return (
     <div id="UserInteraction">
       
