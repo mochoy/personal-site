@@ -168,7 +168,7 @@ const projects = [
       open: "https://suild.com/shop/0",
       files: "https://github.com/suild/mosfet-boards"
     },
-    categories: ["Hardware"],
+    categories: ["Hardware", "Nerf"],
     filterCategories: [
       [
         "Electronics",
@@ -193,7 +193,7 @@ const projects = [
     links: {
       files: "https://github.com/mochoy/tree-hacks-cv-nerf-turret"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Nerf"],
     filterCategories: [
       [
         "Electronics",
@@ -274,7 +274,7 @@ const projects = [
     links: {
       open: "https://suild.com/tools/lipo-checker",
     },
-    categories: ["Software", "Web"],
+    categories: ["Software", "Web", "Nerf"],
     filterCategories: [
       [
          "Web",
@@ -301,7 +301,7 @@ const projects = [
     links: {
       files: "https://github.com/mochoy/cal-poly-arduino-fest"
     },
-    categories: ["Hardware", "Software", "Web"],
+    categories: ["Hardware", "Software", "Web", "Nerf"],
     filterCategories: [
       [
          "Nerf Blasters",
@@ -336,7 +336,7 @@ const projects = [
       open: "https://devpost.com/software/dorm-doorman",
       files: "https://github.com/JoshGrace/SLOhacks-init"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Nerf"],
     filterCategories: [
       [
          "Nerf Blasters",
@@ -361,7 +361,7 @@ const projects = [
     img: "nerf_super_soaker_turret.jpg",
     description: "Remote-controlled motorized Nerf Super Soaker Thundershock watergun turret. Controlled with a Raspberry Pi with with an onboard camera and microphone allowing for realtime audio and video streaming of water blasting.",
     links: {},
-    categories: ["Hardware"],
+    categories: ["Hardware", "Nerf"],
     filterCategories: [
       [
         "Nerf Blasters",
@@ -384,7 +384,7 @@ const projects = [
     links: { 
       files: "https://github.com/mochoy/smart-nerf-stryfes/tree/master/V1" 
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Nerf"],
     filterCategories: [
       [
         "Nerf Blasters",
@@ -412,7 +412,7 @@ const projects = [
     links: {
       open: "https://suild.com/motor-chart"
     },
-    categories: ["Software", "Web"],
+    categories: ["Software", "Web", "Nerf"],
     filterCategories: [
       [
         "Web",
@@ -441,7 +441,7 @@ const projects = [
     links: {
       open: "https://suild.com",
     },
-    categories: ["Software", "Web"],
+    categories: ["Software", "Web", "Nerf"],
     filterCategories: [
       [
         "Web",
@@ -469,7 +469,7 @@ const projects = [
     links: {
       open: "https://suild.com/shop/0"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Nerf"],
     filterCategories: [
       [
         "Electronics",
@@ -493,7 +493,7 @@ const projects = [
     links: {
       open: "https://suild.com/docs/0"
     },
-    categories: ["Hardware"]
+    categories: ["Hardware", "Nerf"]
   },
   {
     title: "Cardboard Chrony",
@@ -503,7 +503,7 @@ const projects = [
     links: {
       files: "https://github.com/mochoy/arduino-chronograph"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Nerf"],
     filterCategories: [
       [
         "Electronics",
@@ -528,7 +528,7 @@ const projects = [
     links: {
       open: "https://suild.com/docs/1"
     },
-    categories: ["Hardware", "Software"]
+    categories: ["Hardware", "Software", "Nerf"]
   },
   {
     title: "Smart Blaster",
@@ -538,7 +538,7 @@ const projects = [
     links: {
       files: "https://github.com/mochoy/smart-blaster"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Nerf"],
     filterCategories: [
       [
         "Nerf Blasters",
@@ -566,7 +566,7 @@ const projects = [
     links: {
       files: "https://github.com/mochoy/runmyrobot"
     },
-    categories: ["Hardware", "Software", "Web"],
+    categories: ["Hardware", "Software", "Web", "Nerf"],
     filterCategories: [
       [
         "Nerf Blasters",
@@ -591,7 +591,7 @@ const projects = [
     links: {
       files: "https://github.com/mochoy/vyper_t-28"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Nerf"],
     filterCategories: [
       [
         "Nerf Blasters",
@@ -620,7 +620,7 @@ const projects = [
     links: {
       files: "https://github.com/MiLeung/NerfTime"
     },
-    categories: ["Hardware", "Software", "Web"],
+    categories: ["Hardware", "Software", "Web", "Nerf"],
     filterCategories: [
       [
         "Nerf Blasters",
@@ -654,7 +654,7 @@ const projects = [
     links: {
       files: "https://github.com/mochoy/smart-strayven"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Nerf"],
     filterCategories: [
       [
         "Nerf Blasters",
@@ -710,7 +710,7 @@ const projects = [
     links: {
       open: "https://suild.com/docs/2",
     },
-    categories: ["Hardware", "Software"]
+    categories: ["Hardware", "Software", "Nerf"]
   },
   {
     title: "Nerf Ammo Counter",
@@ -721,7 +721,7 @@ const projects = [
       open: "https://www.youtube.com/watch?v=rPU7j7KLtIw",
       files: "https://github.com/mochoy/nerf-ammo-counter"
     },
-    categories: ["Hardware", "Software"],
+    categories: ["Hardware", "Software", "Nerf"],
     filterCategories: [
       [
         "Nerf Blasters",
@@ -788,7 +788,7 @@ const projects = [
     img: "awesome-game.png",
     description: "A real-time multiplayer side-scroller shooter web game built with Phaser and Firebase.",
     links: {
-      files: "https://github.com/MiLeung/AwesomeGame/tree/master/src/Assets/Sprites"
+      files: "https://github.com/MiLeung/AwesomeGame"
     },
     categories: ["Hardware", "Web"],
   },
