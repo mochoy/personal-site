@@ -20,6 +20,8 @@ Come to think of it, it's not common that I genuinely express my ideas and thoug
 
 I guess that's why I value a time capsule that captures the core of who I am, that's not something that's easily available. Well that and I can look back at myself in 50 years and see how much of an idiot I was with tangible evidence.
 
+I'm also starting this stuff over winter break where I pour like 10+ hours a day into my projects becuase I genuinely really enjoy coding and stuff. After a few hours, sometimes it's nice to take a break and change up my train of thought and work on regular English stuff.
+
 If you Google "why I started a blog" or something similar, you'll find a ton of posts about "writing being cathartic" and stuff like that and I guess that applies to me, but I'm not as intentional on that. Anyways you can sort of just copy and paste those other blog posts here and they would probably also apply to me, so I'll just save us both the time and continue onto other stuff.
 
 ## Projects
