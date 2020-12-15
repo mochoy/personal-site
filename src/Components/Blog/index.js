@@ -13,7 +13,6 @@ import DateInfo from './DateInfo';
 import useBlogPosts from '../../hooks/useBlogPosts';
 
 import './index.css';
-import './blog-content.css';
 
 
 const Blog = props => {  
@@ -28,30 +27,33 @@ const Blog = props => {
 
       <Loading isLoading={isLoading}/>
 
-      { !isLoading && posts.map((post, i) => {
-        const { title, url, previewMd, isPreview} = post;
+      <div id="post-previews">
+        { !isLoading && posts.map((post, i) => {
+          const { title, url, previewMd, isPreview} = post;
 
-        // class for disabled link if post is preview, gets appended to classname
-        const disabledLink = isPreview ? " disabled-link" : ""
+          // class for disabled link if post is preview, gets appended to classname
+          const disabledLink = isPreview ? " disabled-link" : ""
 
-        return (
-          <div key={i} className="post-preview blog-content">
-            <Link className={`title ${disabledLink}`} to={url}>
-              <h2>{title}</h2>
-            </Link>
+          return (
+            <div key={i} className="post-preview blog-content">
+              <Link className={`title ${disabledLink}`} to={url}>
+                <h2>{title}</h2>
+              </Link>
 
-            <DateInfo post={post}/>
-            
-            <ReactMarkdown className="preview-md" source={previewMd}/>
+              <DateInfo post={post}/>
+              
+              <ReactMarkdown className="preview-md" source={previewMd}/>
 
-            <Link to={url} className={`read-more-link ${disabledLink}`}>
-              {isPreview ? "Coming Soon!" : "Read More"}
-            </Link>
-          </div>
-        )
-      })
+              <Link to={url} className={`read-more-link ${disabledLink}`}>
+                {isPreview ? "Coming Soon!" : "Read More"}
+              </Link>
+            </div>
+          )
+        })
 
-      }
+        }
+      </div>
+      
     </div>
   );
 };
