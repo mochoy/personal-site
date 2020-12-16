@@ -66,10 +66,10 @@ const BlogDetail = props => {
         }
         
         return (
-          <div className="flex-container-vertically-center">
+          <div className="flex-container-vertically-center heading-container">
             {generateHeaderJSX()}
 
-            <Link to={`#${id}`} style={{ marginLeft: "0.5em", paddingTop: "1em" }}>
+            <Link to={`#${id}`} className="heading-link">
               <LinkIcon fontSize="small"/>
             </Link>
           </div>

@@ -29,3 +29,14 @@
   margin: 2em auto;
   width: 100%;
 }
+
+#BlogDetail .md .heading-container:hover .heading-link {
+  visibility: visible;
+}
+
+#BlogDetail .md .heading-link {
+  margin-left: 5px;
+  margin-top: 5px;
+
+  visibility: hidden;
+}
