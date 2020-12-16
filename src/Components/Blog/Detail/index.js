@@ -1,5 +1,6 @@
 import React from 'react';
-import { Redirect } from 'react-router-dom';
+import { Redirect, Link } from 'react-router-dom';
+import LinkIcon from '@material-ui/icons/Link'; 
 import ReactMarkdown from 'react-markdown';
 
 import Loading from '../../Functional/Loading';
@@ -49,18 +50,30 @@ const BlogDetail = props => {
         const text = node.children[0].value;
         const id = stringToUrl(text);
 
-        switch (level) {
-          case 1: 
-            return <h1 id={id}>{text}</h1>
-          case 2: 
-            return <h2 id={id}>{text}</h2>
-          case 3: 
-            return <h3 id={id}>{text}</h3>
-          case 4: 
-            return <h4 id={id}>{text}</h4>
-          default: 
-            return null;
+        const generateHeaderJSX = () => {
+          switch (level) {
+            case 1: 
+              return <h1 id={id}>{text}</h1>
+            case 2: 
+              return <h2 id={id}>{text}</h2>
+            case 3: 
+              return <h3 id={id}>{text}</h3>
+            case 4: 
+              return <h4 id={id}>{text}</h4>
+            default: 
+              return null;
+          }
         }
+        
+        return (
+          <div className="flex-container-vertically-center">
+            {generateHeaderJSX()}
+
+            <Link to={`#${id}`} style={{ marginLeft: "0.5em", paddingTop: "1em" }}>
+              <LinkIcon fontSize="small"/>
+            </Link>
+          </div>
+        );
       }
     };
 
