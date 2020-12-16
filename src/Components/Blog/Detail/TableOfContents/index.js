@@ -41,7 +41,9 @@ const TableOfContents = props => {
   return (
     <div id="TableOfContents">
       <h1>Table of Contents</h1>
-      {tableOfContents.map(renderToCLinks)}
+      <div id="links-container">
+        {tableOfContents.map(renderToCLinks)}
+      </div>
     </div>
   );
 };

@@ -1,0 +1,20 @@
+#BlogDetail #TableOfContents #links-container h1,
+#BlogDetail #TableOfContents #links-container h2,
+#BlogDetail #TableOfContents #links-container h3,
+#BlogDetail #TableOfContents #links-container h4,
+#BlogDetail #TableOfContents #links-container a {
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#BlogDetail #TableOfContents h2 {
+  margin-left: 1em;
+}
+
+#BlogDetail #TableOfContents h3 {
+  margin-left: 2em;
+}
