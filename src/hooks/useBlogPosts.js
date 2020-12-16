@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 import posts from '../assets/blog';
 import { maxNumOfWordsInBlogPostPrev } from '../consts';
+import stringToUrl from '../helpers/stringToUrl';
 
 
 /**
@@ -162,10 +163,7 @@ const generateTableOfContents = postText => {
       const node = {
         value: headingTxt,
         headingHierarchy: headingHierarchy,
-        url: "#" + headingTxt
-          .replace(" ", "_")
-          .replace(/[^a-zA-Z0-9-_]/g, '')
-          .toLowerCase(),
+        url: "#" + stringToUrl(headingTxt),
         children: []
       }
 
