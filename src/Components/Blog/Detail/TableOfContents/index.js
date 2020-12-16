@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Drawer } from '@material-ui/core';
 
 import scrollToElement from 'scroll-to-element';
 
@@ -35,7 +36,7 @@ const renderToCLinks = (node, i) => {
       >
         { renderToCText(value, headingHierarchy) }
       </Link>
-      
+
       {children.map(renderToCLinks)}
     </div>
     
@@ -46,12 +47,14 @@ const TableOfContents = props => {
   const { tableOfContents } = props;
 
   return (
-    <div id="TableOfContents">
-      <h1>Table of Contents</h1>
-      <div id="links-container">
-        {tableOfContents.map(renderToCLinks)}
+    <Drawer variant="permanent" open={true} anchor="right">
+      <div id="TableOfContents">
+        <h1>Table of Contents</h1>
+        <div id="links-container">
+          {tableOfContents.map(renderToCLinks)}
+        </div>
       </div>
-    </div>
+    </Drawer>
   );
 };
 

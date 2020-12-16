@@ -83,6 +83,7 @@ const BlogDetail = props => {
         <DateInfo post={post[0]}/>
 
         <TableOfContents tableOfContents={tableOfContents}/>
+        
 
         <ReactMarkdown className="md" renderers={renderers} source={md}/>
 
