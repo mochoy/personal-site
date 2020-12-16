@@ -4,23 +4,6 @@
   width: 100%;
 }
 
-#Blog #post-previews {
-  margin: 0 auto;
-  width: 40%;
-}
-
-@media only screen and (max-width: 1100px) {
-  #Blog #post-previews {
-    width: 60%;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  #Blog #post-previews {
-    width: 80%;
-  }
-}
-
 #Blog .post-preview {
   border-bottom: solid 1px #989898;
   padding-bottom: 1em;

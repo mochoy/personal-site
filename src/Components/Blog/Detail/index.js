@@ -78,7 +78,7 @@ const BlogDetail = props => {
     };
 
     return (
-      <div id="BlogDetail">
+      <div id="BlogDetail" className="blog-content">
         <h1 id="title">{title}</h1>
         <DateInfo post={post[0]}/>
 
