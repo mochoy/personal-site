@@ -136,13 +136,13 @@ const generatePreviewMd = postText => {
 const generateTableOfContents = postText => {
   let ToC = [];
 
-  // Pointers to the most recent of each hierarchy
-  let lastH1, lastH2, lastH3, lastH4;
+  // Pointers to the most recent of each hierarchy (assume nothing after h4/####)
+  let lastH1, lastH2, lastH3;
 
   postText.split('\n')
     // If first char of the line is a #, then it's a heading
     .filter(line => line[0] === "#")
-    .map(line => {
+    .forEach(line => {
       // The #'s at the beginning of the line are sep by a space before the txt,
       // so can use that pattern to get how many # there are to determine the 
       // heading hierarchy
@@ -173,7 +173,6 @@ const generateTableOfContents = postText => {
 
           lastH2 = null;
           lastH3 = null;
-          lastH4 = null;
           
           break;
         // Push h2's directly to mose recent h1, set this h2 as most recent h2, 
@@ -183,7 +182,6 @@ const generateTableOfContents = postText => {
           lastH2 = node;
 
           lastH3 = null;
-          lastH4 = null;
 
           break;
         // Push h3's directly to mose recent h2, set this h3 as most recent h3, 
@@ -192,15 +190,14 @@ const generateTableOfContents = postText => {
           lastH2.children.push(node);
           lastH3 = node;
 
-          lastH4 = null;
-
           break;
 
-        // Push h4's directly to mose recent h3, set this h4 as most recent h4
-        case 3:
+        // Push h4's directly to mose recent h3
+        case 4:
           lastH3.children.push(node);
-          lastH4 = node;
 
+          break;
+        default:
           break;
       }
 
