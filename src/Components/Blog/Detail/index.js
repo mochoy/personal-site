@@ -1,7 +1,6 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
-import { Drawer } from '@material-ui/core';
 
 import Loading from '../../Functional/Loading';
 import DateInfo from '../DateInfo';
@@ -48,10 +47,6 @@ const BlogDetail = props => {
         <TableOfContents tableOfContents={tableOfContents}/>
 
         <ReactMarkdown className="md" renderers={renderers} source={md}/>
-
-        <Drawer open={true} variant="permanent" anchor="right">
-          My drawer with long ass txt fsadassdfasfgdfg
-        </Drawer>
 
         <UserInteraction pathname={props.location.pathname}/>
       </div>
