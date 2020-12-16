@@ -8,6 +8,7 @@ import TableOfContents from './TableOfContents';
 import UserInteraction from './UserInteraction';
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
+import stringToUrl from '../../../helpers/stringToUrl';
 
 import './index.css';
 
@@ -36,6 +37,27 @@ const BlogDetail = props => {
       // Render for img, make sure get correct path to image via require()
       image: ({src, alt}) => {
         return <img src={require(`assets/blog/${filePath}/${src}`)} alt={alt} />
+      },
+
+      // Apply id's to headings so they can easily be scrolled to via links
+      heading: ({ level, node }) => {
+        // Get text and generate id based on url of text to correspond with ToC 
+        // links
+        const text = node.children[0].value;
+        const id = stringToUrl(text);
+
+        switch (level) {
+          case 1: 
+            return <h1 id={id}>{text}</h1>
+          case 2: 
+            return <h2 id={id}>{text}</h2>
+          case 3: 
+            return <h3 id={id}>{text}</h3>
+          case 4: 
+            return <h4 id={id}>{text}</h4>
+          default: 
+            return null;
+        }
       }
     };
 
