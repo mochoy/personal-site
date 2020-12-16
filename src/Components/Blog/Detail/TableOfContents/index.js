@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import scrollToElement from 'scroll-to-element';
+
+import { scrollToOffset } from '../../../../consts';
+
 import './index.css';
 
 
@@ -26,9 +30,12 @@ const renderToCLinks = (node, i) => {
 
   return (
     <div key={i}>
-      <Link to={url}>
+      <Link to={url} 
+        onClick={() => scrollToElement(url, { offset: scrollToOffset })}
+      >
         { renderToCText(value, headingHierarchy) }
       </Link>
+      
       {children.map(renderToCLinks)}
     </div>
     
