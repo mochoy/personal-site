@@ -22,11 +22,11 @@ const renderToCText = (value, headingHierarchy) => {
 
 // Recurisively renders all links in a ToC object
 const renderToCLinks = (node, i) => {
-  const { value, headingHierarchy, children } = node;
+  const { value, headingHierarchy, url, children } = node;
 
   return (
     <div key={i}>
-      <Link>
+      <Link to={url}>
         { renderToCText(value, headingHierarchy) }
       </Link>
       {children.map(renderToCLinks)}

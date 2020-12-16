@@ -153,12 +153,19 @@ const generateTableOfContents = postText => {
       const headingHierarchy = splitLine[0].length;
 
       // Text of actual heading
-      const headingTxt = splitLine.slice(1, splitLine.length).join(" ");
+      const headingTxt = splitLine
+        .slice(1, splitLine.length)
+        .join(" ")
+        .trim();
 
       // Node for this heading
       const node = {
         value: headingTxt,
         headingHierarchy: headingHierarchy,
+        url: "#" + headingTxt
+          .replace(" ", "_")
+          .replace(/[^a-zA-Z0-9-_]/g, '')
+          .toLowerCase(),
         children: []
       }
 
