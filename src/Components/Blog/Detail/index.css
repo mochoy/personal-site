@@ -30,13 +30,24 @@
   width: 100%;
 }
 
-#BlogDetail .md .heading-container:hover .heading-link {
+#BlogDetail .md a {
+  color: black;
+}
+
+#BlogDetail .md .heading-container {
+  text-decoration: none;
+}
+
+/* Hide/show link icon on hover of heading container */
+#BlogDetail .md .heading-container:hover .heading-link-icon {
   visibility: visible;
 }
 
-#BlogDetail .md .heading-link {
+#BlogDetail .md .heading-link-icon {
   margin-left: 5px;
   margin-top: 5px;
+
+  color: black;
 
   visibility: hidden;
 }
