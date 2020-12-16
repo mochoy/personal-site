@@ -5,6 +5,7 @@ import { Drawer } from '@material-ui/core';
 
 import Loading from '../../Functional/Loading';
 import DateInfo from '../DateInfo';
+import TableOfContents from './TableOfContents';
 import UserInteraction from './UserInteraction';
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
@@ -29,7 +30,7 @@ const BlogDetail = props => {
   
   // Render actual post
   } else {  
-    const { title, md, filePath } = post[0];
+    const { title, tableOfContents, md, filePath } = post[0];
   
     // Md renderers
     const renderers = {
@@ -43,6 +44,8 @@ const BlogDetail = props => {
       <div id="BlogDetail">
         <h1 id="title">{title}</h1>
         <DateInfo post={post[0]}/>
+
+        <TableOfContents tableOfContents={tableOfContents}/>
 
         <ReactMarkdown className="md" renderers={renderers} source={md}/>
 
