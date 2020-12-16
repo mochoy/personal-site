@@ -1,6 +1,7 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import { Drawer } from '@material-ui/core';
 
 import Loading from '../../Functional/Loading';
 import DateInfo from '../DateInfo';
@@ -39,10 +40,15 @@ const BlogDetail = props => {
     };
 
     return (
-      <div id="BlogDetail" className="blog-content">
+      <div id="BlogDetail">
         <h1 id="title">{title}</h1>
-        <DateInfo post={post[0]} />
+        <DateInfo post={post[0]}/>
+
         <ReactMarkdown className="md" renderers={renderers} source={md}/>
+
+        <Drawer open={true} variant="permanent" anchor="right">
+          My drawer with long ass txt fsadassdfasfgdfg
+        </Drawer>
 
         <UserInteraction pathname={props.location.pathname}/>
       </div>

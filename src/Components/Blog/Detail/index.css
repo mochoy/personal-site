@@ -1,6 +1,8 @@
 #BlogDetail {
-  padding-top: 6em;
-  margin-bottom: 5em;
+  padding: 5em 0;
+
+  width: 60%;
+  margin: 0 auto;
 }
 
 #BlogDetail #title {
@@ -8,9 +10,16 @@
   margin-bottom: 0;
 }
 
+#BlogDetail #ToC {
+  position: fixed;
+}
+
 #BlogDetail .md {
-  margin-top: 2em;
+  /* margin-top: 2em; */
   margin-bottom: 1em;
+
+  width: 60%;
+
   /* padding-bottom: 1em; */
   /* border-bottom: black 1px solid; */
 }
