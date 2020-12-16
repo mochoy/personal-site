@@ -1,16 +1,47 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './index.css';
 
 
+// Renders appropriate h-tag for ToC based on heading hierarchy
+const renderToCText = (value, headingHierarchy) => {
+  switch (headingHierarchy) {
+    case 1: 
+      return <h1>{value}</h1>
+    case 2: 
+      return <h2>{value}</h2>
+    case 3: 
+      return <h3>{value}</h3>
+    case 4: 
+      return <h4>{value}</h4>
+    default: 
+      return;
+  }
+}
+
+// Recurisively renders all links in a ToC object
+const renderToCLinks = (node, i) => {
+  const { value, headingHierarchy, children } = node;
+
+  return (
+    <div key={i}>
+      <Link>
+        { renderToCText(value, headingHierarchy) }
+      </Link>
+      {children.map(renderToCLinks)}
+    </div>
+    
+  )
+};
+
 const TableOfContents = props => {
   const { tableOfContents } = props;
 
-  console.log(tableOfContents);
-
   return (
     <div id="TableOfContents">
-      ToC
+      <h1>Table of Contents</h1>
+      {tableOfContents.map(renderToCLinks)}
     </div>
   );
 };
