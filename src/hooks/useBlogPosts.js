@@ -158,6 +158,7 @@ const generateTableOfContents = postText => {
       // Node for this heading
       const node = {
         value: headingTxt,
+        headingHierarchy: headingHierarchy,
         children: []
       }
 
