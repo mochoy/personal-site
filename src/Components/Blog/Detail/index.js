@@ -9,6 +9,7 @@ import UserInteraction from './UserInteraction';
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
 import stringToUrl from '../../../helpers/stringToUrl';
+import useScrollToElementOnLoad from '../../../hooks/useScrollToElementOnLoad';
 
 import './index.css';
 
@@ -18,6 +19,8 @@ const BlogDetail = props => {
   const [ post, isBlogPostLoading ] = useBlogPosts({ 
     searchUrl: props.match.params.id
   });
+
+  useScrollToElementOnLoad();
 
   
   // Blog post is loading
