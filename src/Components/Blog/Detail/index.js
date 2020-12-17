@@ -36,47 +36,6 @@ const BlogDetail = props => {
   } else {  
     const { title, tableOfContents, md, filePath } = post[0];
   
-    // Md renderers
-    const renderers = {
-      // Render for img, make sure get correct path to image via require()
-      image: ({src, alt}) => {
-        return <img src={require(`assets/blog/${filePath}/${src}`)} alt={alt} />
-      },
-
-      // Apply id's to headings so they can easily be scrolled to via links
-      heading: ({ level, node }) => {
-        // Get text and generate id based on url of text to correspond with ToC 
-        // links
-        const text = node.children[0].value;
-        const id = stringToUrl(text);
-
-        const generateHeaderJSX = () => {
-          switch (level) {
-            case 1: 
-              return <h1 id={id}>{text}</h1>
-            case 2: 
-              return <h2 id={id}>{text}</h2>
-            case 3: 
-              return <h3 id={id}>{text}</h3>
-            case 4: 
-              return <h4 id={id}>{text}</h4>
-            default: 
-              return null;
-          }
-        }
-        
-        return (
-          <Link to={`#${id}`} 
-            className="flex-container-vertically-center heading-container"
-          >
-            {generateHeaderJSX()}
-
-            <LinkIcon fontSize="small" className="heading-link-icon"/>
-        </Link>
-        );
-      }
-    };
-
     return (
       <div id="BlogDetail" className="blog-content">
         <h1 id="title">{title}</h1>
@@ -84,13 +43,55 @@ const BlogDetail = props => {
 
         <TableOfContents tableOfContents={tableOfContents}/>
         
-
-        <ReactMarkdown className="md" renderers={renderers} source={md}/>
+        <ReactMarkdown className="md" renderers={renderers(filePath)} source={md}/>
 
         <UserInteraction pathname={props.location.pathname}/>
       </div>
     )
   }
 };
+
+// Md renderers
+const renderers = (filePath) => {
+  return {
+    // Render for img, make sure get correct path to image via require()
+    image: ({src, alt}) => {
+      return <img src={require(`assets/blog/${filePath}/${src}`)} alt={alt} />
+    },
+
+    // Apply id's to headings so they can easily be scrolled to via links
+    heading: ({ level, node }) => {
+      // Get text and generate id based on url of text to correspond with ToC 
+      // links
+      const text = node.children[0].value;
+      const id = stringToUrl(text);
+
+      const generateHeaderJSX = () => {
+        switch (level) {
+          case 1: 
+            return <h1 id={id}>{text}</h1>
+          case 2: 
+            return <h2 id={id}>{text}</h2>
+          case 3: 
+            return <h3 id={id}>{text}</h3>
+          case 4: 
+            return <h4 id={id}>{text}</h4>
+          default: 
+            return null;
+        }
+      }
+      
+      return (
+        <Link to={`#${id}`} 
+          className="flex-container-vertically-center heading-container"
+        >
+          {generateHeaderJSX()}
+
+          <LinkIcon fontSize="small" className="heading-link-icon"/>
+      </Link>
+      );
+    }
+  };
+}
 
 export default BlogDetail;
