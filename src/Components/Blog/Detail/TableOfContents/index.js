@@ -22,7 +22,7 @@ const TableOfContents = props => {
     const { value, headingHierarchy, url, children } = node;
 
     return (
-      <div key={i}>
+      <React.Fragment key={i}>
         <Link to={url}
           onClick={() => scrollToElement(url, { offset: scrollToOffset })}
         >
@@ -30,7 +30,7 @@ const TableOfContents = props => {
         </Link>
 
         {children.map(renderToCLinks)}
-      </div>
+      </React.Fragment>
       
     )
   };
@@ -53,8 +53,14 @@ const TableOfContents = props => {
     }
   };
 
+  console.log(tableOfContents)
+
   // Actual jsx for ToC items
+  // Need to generate jsx before render to populate tocItems that's used in 
+  // scrollspy
   const tocLinksJsx = tableOfContents.map(renderToCLinks);
+
+  console.log(tocLinksJsx)
 
   return (
     <Drawer variant="permanent" open={true} anchor="right">
