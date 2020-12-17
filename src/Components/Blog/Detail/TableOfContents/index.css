@@ -11,6 +11,7 @@
 #BlogDetail #TableOfContents #links-container h2,
 #BlogDetail #TableOfContents #links-container h3,
 #BlogDetail #TableOfContents #links-container h4,
+#BlogDetail #TableOfContents #links-container p,
 #BlogDetail #TableOfContents #links-container a {
   font-size: 1em;
   text-decoration: none;
@@ -26,4 +27,12 @@
 
 #BlogDetail #TableOfContents #links-container h3 {
   margin-left: 2em;
+}
+
+.ugly {
+  border-bottom: 1px green solid;
+}
+
+.is-current {
+  border: none;
 }

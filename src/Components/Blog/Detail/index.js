@@ -85,9 +85,8 @@ const renderers = (filePath) => {
         <Link to={`#${id}`} 
           className="flex-container-vertically-center heading-container"
         >
-          {generateHeaderJSX()}
-
-          <LinkIcon fontSize="small" className="heading-link-icon"/>
+        {generateHeaderJSX()}
+        <LinkIcon fontSize="small" className="heading-link-icon"/>
       </Link>
       );
     }
