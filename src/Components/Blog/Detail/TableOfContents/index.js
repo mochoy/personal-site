@@ -9,6 +9,22 @@ import { scrollToOffset } from '../../../../consts';
 import './index.css';
 
 
+
+const TableOfContents = props => {
+  const { tableOfContents } = props;
+
+  return (
+    <Drawer variant="permanent" open={true} anchor="right">
+      <div id="TableOfContents">
+        <h3>Contents</h3>
+        <div id="links-container">
+          {tableOfContents.map(renderToCLinks)}
+        </div>
+      </div>
+    </Drawer>
+  );
+};
+
 // Renders appropriate h-tag for ToC based on heading hierarchy
 const renderToCText = (value, headingHierarchy) => {
   switch (headingHierarchy) {
@@ -41,21 +57,6 @@ const renderToCLinks = (node, i) => {
     </div>
     
   )
-};
-
-const TableOfContents = props => {
-  const { tableOfContents } = props;
-
-  return (
-    <Drawer variant="permanent" open={true} anchor="right">
-      <div id="TableOfContents">
-        <h1>Table of Contents</h1>
-        <div id="links-container">
-          {tableOfContents.map(renderToCLinks)}
-        </div>
-      </div>
-    </Drawer>
-  );
 };
 
 export default TableOfContents;
