@@ -55,6 +55,31 @@ const TableOfContents = props => {
 
   console.log(tableOfContents)
 
+  // Flatten table of contents into a single array of objs so no recursion is 
+  // needed to render anything. Scrollspy seems to have trouble dealing with
+  // nested elements
+  const flattenedTableOfContents = (() => {
+    let flattenedTableOfContents = [];
+
+    tableOfContents.forEach(node => {
+      const pushNode = node => {
+        // Push node itself
+        flattenedTableOfContents.push(node);
+
+        // Push all of node's children
+        node.children.forEach(childNode => pushNode(childNode))
+      };
+
+      pushNode(node);
+      
+    });
+
+    return flattenedTableOfContents;
+
+  })();
+
+  console.log(flattenedTableOfContents)
+
   // Actual jsx for ToC items
   // Need to generate jsx before render to populate tocItems that's used in 
   // scrollspy
