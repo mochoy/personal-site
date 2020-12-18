@@ -66,6 +66,10 @@ const TableOfContents = props => {
         // Push node itself
         flattenedToCArr.push(node);
 
+        // Push into arr to keep track of section items
+        tocItems.push(node.url.replace("#", ""));
+
+
         // Push all of node's children
         node.children.forEach(childNode => pushNode(childNode))
       };
@@ -80,24 +84,7 @@ const TableOfContents = props => {
 
   console.log(flattenedTableOfContents)
 
-  // Actual jsx for ToC items
-  // Need to generate jsx before render to populate tocItems that's used in 
-  // scrollspy
-  const tocLinksJsx = flattenedTableOfContents.map((node, i) => {
-    const { value, url } = node;
-
-    tocItems.push(url.replace("#", ""));
-
-    return (
-      <Link to={url} key={i}
-        onClick={() => scrollToElement(url, { offset: scrollToOffset })}
-      >
-        <a href={url}><p>{value}</p></a>
-        
-      </Link>
-    )
-
-  });
+  console.log(tocItems)
 
   return (
     <Drawer variant="permanent" open={true} anchor="right">
