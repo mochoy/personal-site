@@ -22,7 +22,7 @@ const TableOfContents = props => {
     const { value, headingHierarchy, url, children } = node;
 
     return (
-      <React.Fragment key={i}>
+      <div key={i}>
         <Link to={url}
           onClick={() => scrollToElement(url, { offset: scrollToOffset })}
         >
@@ -30,7 +30,7 @@ const TableOfContents = props => {
         </Link>
 
         {children.map(renderToCLinks)}
-      </React.Fragment>
+      </div>
       
     )
   };
@@ -83,9 +83,21 @@ const TableOfContents = props => {
   // Actual jsx for ToC items
   // Need to generate jsx before render to populate tocItems that's used in 
   // scrollspy
-  const tocLinksJsx = tableOfContents.map(renderToCLinks);
+  const tocLinksJsx = flattenedTableOfContents.map((node, i) => {
+    const { value, url } = node;
 
-  console.log(tocLinksJsx)
+    tocItems.push(url.replace("#", ""));
+
+    return (
+      <Link to={url} key={i}
+        onClick={() => scrollToElement(url, { offset: scrollToOffset })}
+      >
+        <a href={url}><p>{value}</p></a>
+        
+      </Link>
+    )
+
+  });
 
   return (
     <Drawer variant="permanent" open={true} anchor="right">
@@ -95,11 +107,16 @@ const TableOfContents = props => {
         <div id="links-container">
           <Scrollspy items={tocItems}
             currentClassName="ugly"
-            onUpdate={a => {
-              console.log("a: ", a)
-            }}
+            
           >
-            {tocLinksJsx}
+                <a href="interviews" className="disabled-link toc-link">
+                  Interviews
+                </a>
+
+                <a href="Pre-internship" className="disabled-link toc-link">
+                  Pre-internship
+                </a>
+            
           </Scrollspy>
         </div>
 

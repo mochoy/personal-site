@@ -29,8 +29,14 @@
   margin-left: 2em;
 }
 
+.toc-link {
+  display: block;
+  padding-left: 3px;
+}
+
 .ugly {
-  border-bottom: 1px green solid;
+  border-left: 2px green solid;
+  /* text-decoration: underline; */
 }
 
 .is-current {
