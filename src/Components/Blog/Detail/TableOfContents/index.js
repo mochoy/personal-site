@@ -107,16 +107,17 @@ const TableOfContents = props => {
         <div id="links-container">
           <Scrollspy items={tocItems}
             currentClassName="ugly"
-            
           >
-                <a href="interviews" className="disabled-link toc-link">
-                  Interviews
-                </a>
+             { flattenedTableOfContents.map((tocItem, i) => {
+                const { value, url } = tocItem
 
-                <a href="Pre-internship" className="disabled-link toc-link">
-                  Pre-internship
-                </a>
-            
+                return (
+                  <a href={url.replace("#", "")} className="disabled-link" key={i}>
+                    <h1>{value}</h1>
+                  </a>
+                )
+                
+              }) }
           </Scrollspy>
         </div>
 

@@ -29,7 +29,7 @@
   margin-left: 2em;
 }
 
-.toc-link {
+#BlogDetail #TableOfContents #links-container a {
   display: block;
   padding-left: 3px;
 }
