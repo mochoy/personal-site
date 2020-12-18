@@ -102,7 +102,8 @@ const TableOfContents = props => {
                   <a href={url.replace("#", "")} key={i}
                     className={`hh${headingHierarchy}`}
                     onClick={e => {
-                      e.preventDefault()
+                      e.preventDefault();
+                      scrollToElement(url, { offset: scrollToOffset });
                     }}
                   >
                     {value}
