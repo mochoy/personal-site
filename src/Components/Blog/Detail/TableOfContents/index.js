@@ -100,7 +100,10 @@ const TableOfContents = props => {
 
                 return (
                   <a href={url.replace("#", "")} key={i}
-                    className={`disabled-link hh${headingHierarchy}`}
+                    className={`hh${headingHierarchy}`}
+                    onClick={e => {
+                      e.preventDefault()
+                    }}
                   >
                     {value}
                   </a>
