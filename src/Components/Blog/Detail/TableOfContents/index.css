@@ -7,11 +7,6 @@
   border-left: none;
 }
 
-#BlogDetail #TableOfContents #links-container h1,
-#BlogDetail #TableOfContents #links-container h2,
-#BlogDetail #TableOfContents #links-container h3,
-#BlogDetail #TableOfContents #links-container h4,
-#BlogDetail #TableOfContents #links-container p,
 #BlogDetail #TableOfContents #links-container a {
   font-size: 1em;
   text-decoration: none;
@@ -21,11 +16,11 @@
   margin-bottom: 0.5em;
 }
 
-#BlogDetail #TableOfContents #links-container h2 {
+#BlogDetail #TableOfContents #links-container .hh2 {
   margin-left: 1em;
 }
 
-#BlogDetail #TableOfContents #links-container h3 {
+#BlogDetail #TableOfContents #links-container .hh3 {
   margin-left: 2em;
 }
 

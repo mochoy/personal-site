@@ -109,11 +109,13 @@ const TableOfContents = props => {
             currentClassName="ugly"
           >
              { flattenedTableOfContents.map((tocItem, i) => {
-                const { value, url } = tocItem
+                const { value, url, headingHierarchy } = tocItem
 
                 return (
-                  <a href={url.replace("#", "")} className="disabled-link" key={i}>
-                    <h1>{value}</h1>
+                  <a href={url.replace("#", "")} key={i}
+                    className={`disabled-link hh${headingHierarchy}`}
+                  >
+                    {value}
                   </a>
                 )
                 
