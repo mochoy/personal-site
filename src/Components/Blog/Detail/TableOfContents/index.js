@@ -59,12 +59,12 @@ const TableOfContents = props => {
   // needed to render anything. Scrollspy seems to have trouble dealing with
   // nested elements
   const flattenedTableOfContents = (() => {
-    let flattenedTableOfContents = [];
+    let flattenedToCArr = [];
 
     tableOfContents.forEach(node => {
       const pushNode = node => {
         // Push node itself
-        flattenedTableOfContents.push(node);
+        flattenedToCArr.push(node);
 
         // Push all of node's children
         node.children.forEach(childNode => pushNode(childNode))
@@ -74,7 +74,7 @@ const TableOfContents = props => {
       
     });
 
-    return flattenedTableOfContents;
+    return flattenedToCArr;
 
   })();
 
