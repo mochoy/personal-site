@@ -204,6 +204,15 @@ Wow I'm already almost 4500 words in and I haven't even gotten into the juicy st
 
 It's very difficult to land internships as a freshman or sophomore and especially as a high schooler, but there are still tons of things to get you ahead of the curve. Unfortunately, EE is a very textbook-heavy field where a strong understanding of math, physics, and EE concepts are necessary to perform well, and most of these aren't taught until junior or senior year. This isn't like SWE where you really only need to take one sophomore-level class to prepare you for 90% of SWE, and that class can easily be self-studied, no EE is *real* engineering (jk ofc). 
 
+## PTSD
+
+I know it's difficult to land an internship as an underclassman, here's a quick story that basically summarizes the trauma. I was at the career fair after my nine-month Apple co-op looking for internships. It was only my second quarter at school, so being the honest person I am, I claimed that I was a freshman, which was true. I go up to a recruiter the the Texas Instruments booth, hand her my resume, and do my elevator pitch: "Hi, I'm Monty, I'm a first-year - " and she cut me off after those first six words, handed me back my resume without ever looking at it, and dismissed me with "sorry, we don't hire freshman, company policy" and I believed it and didn't get too upset.
+
+Now that's not even the good part. The next quarter (I was still a freshman, it was my third quarter at school), I again went up to the TI booth, did my elevator pitch with no interruptions and landed an interview on the spot. I thought it was strange, considering how the previous recruiter dismissed me, but again, I didn't think too much of it. The interview went really well and at the end, I asked if they really had that "we don't hire freshman" policy and my interview said no. At this point, I was a bit upset but what happened in the passed happened, not much I can do about it so I continued on with my life. 
+
+Apparently, since I went through the career fair, I needed to also apply online to get my name in the system and actually apply for a req, all that business stuff. They let me know that I'm applying kind of late, so there might not be too many applications open. My interviewer worked on power electronics which was one of my interests, so I went online to look for that role assuming they were hiring, but to my surprise, there were only like five postings, four of which were business/non-technical, the last one being some digital design stuff I wasn't interested in. Well shoot, they were out of roles because it's later in the application season. If I applied in the fall/if the recruiter didn't dismiss me after six words, I probably would've found something. I ended up applying to that one digital role, getting autorejected, and to this day, I still get autorejected from TI.
+
+So that's the story of why I avoid telling people my year in school and if asked, I just tell everyone that I'm a junior (which is what it says on my online portal, so it's not a lie).
 # Pre-Application
 
 ## Getting Started Early
