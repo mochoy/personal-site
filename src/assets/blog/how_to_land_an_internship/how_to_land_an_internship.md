@@ -143,7 +143,7 @@ Companies host *tons* of awesome intern events, including but not limited to:
 - Nvidia: Party at the CEO's epic mansion
 - Microsoft: Intern day - interns get flown out to the HQ in Redmond for epic party + concert (with famous artisits like Chance the Rapper, Chainsmokers, etc)
 - Microsoft: Company-wide Hackathon
-- Apple: Legit QnA with Tim Cook at Apple's top secret, underground Steve Jobs theater
+- Apple: Legit Q&A with Tim Cook at Apple's top secret, underground Steve Jobs theater
 - Paintball
 - Sports games
 - Game nights
