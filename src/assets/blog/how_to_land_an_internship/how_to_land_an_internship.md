@@ -196,16 +196,6 @@ In addition to retaining talent, these companies also want to train that talent.
 
 Companies aren't spending tons of money for nothing, they themselves also realize the value of internship programs and compete against each other, millions of dollars at a time, for the top talent. In many cases, the relationship between the company and the employee is very much symbiotic. The company knows that it's nothing without the employees and companies are smart enough to realize the value of highly skilled employees. Internships programs are a way to support that initiative, companies are smart enough to realize that a "small" investment in interns pays off many times over in the long run. 
 
-# The Overall Process
-
-Wow I'm already almost 4500 words in and I haven't even gotten into the juicy stuff yet. I was considering splitting this into a few different posts, but I'm not too sure how that does on ad revenue. In terms of writing, I don't even think I'm halfway though yet, so here's a quick overview of what's to come. It can get difficult to navigate huge walls of text for the important stuff, so here's a quick snapshot of what the overall application process looks like: 
-
-- Develop your skillset: This step is continious (for the rest of your life!), but you need to develop your skills through your classes, research, and projects
-- Prepare your application: Get your resume and supplementing resources ready, reviewed, and locked down - how do you stand out as an applicant? 
-- Apply: Actually apply to jobs online, through the career fair, and through nepotism
-- Interview: Git grilled for hours and hours on end. There are typically many rounds, some technical, some behavior, some screens.
-- Offers!: Yay you got the offer! But that's not it, you still need to decide between offers, negotiate, plan stuff out, etc.
-
 # To Underclassmen
 
 It's very difficult to land internships as a freshman or sophomore and especially as a high schooler, but there are still tons of things to get you ahead of the curve. Unfortunately, EE is a very textbook-heavy field where a strong understanding of math, physics, and EE concepts are necessary to perform well, and most of these aren't taught until junior or senior year. This isn't like SWE where you really only need to take one sophomore-level class to prepare you for 90% of SWE, and that class can easily be self-studied, no EE is *real* engineering (jk ofc). 
@@ -246,6 +236,16 @@ Now that's not even the good part. The next quarter (I was still a freshman, it 
 Apparently, since I went through the career fair, I needed to also apply online to get my name in the system and actually apply for a req, all that business stuff. They let me know that I'm applying kind of late, so there might not be too many applications open. My interviewer worked on power electronics which was one of my interests, so I went online to look for that role assuming they were hiring, but to my surprise, there were only like five postings, four of which were business/non-technical, the last one being some digital design stuff I wasn't interested in. Well shoot, they were out of roles because it's later in the application season. If I applied in the fall/if the recruiter didn't dismiss me after six words, I probably would've found something. I ended up applying to that one digital role, getting autorejected, and to this day, I still get autorejected from TI.
 
 So that's the story of why I avoid telling people my year in school and if asked, I just tell everyone that I'm a junior (which is what it says on my online portal, so it's not a lie).
+
+# The Overall Process
+
+Wow I'm already almost 4500 words in and I haven't even gotten into the juicy stuff yet. I was considering splitting this into a few different posts, but I'm not too sure how that does on ad revenue. In terms of writing, I don't even think I'm halfway though yet, so here's a quick overview of what's to come. It can get difficult to navigate huge walls of text for the important stuff, so here's a quick snapshot of what the overall application process looks like: 
+
+- Develop your skillset: This step is continious (for the rest of your life!), but you need to develop your skills through your classes, research, and projects
+- Prepare your application: Get your resume and supplementing resources ready, reviewed, and locked down - how do you stand out as an applicant? 
+- Apply: Actually apply to jobs online, through the career fair, and through nepotism
+- Interview: Git grilled for hours and hours on end. There are typically many rounds, some technical, some behavior, some screens.
+- Offers!: Yay you got the offer! But that's not it, you still need to decide between offers, negotiate, plan stuff out, etc.
 
 # Pre-Application
 
