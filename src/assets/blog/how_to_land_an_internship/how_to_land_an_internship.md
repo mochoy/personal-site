@@ -47,7 +47,7 @@ Now with that's out of the way, let's get into some actual numbers. Here's what 
 - $7000 housing stipend (post-tax)
 - $1500 transportation + relocation stipend
 
-All in all, that's $39,000 for just one summer, which prorates to $156,000 for an entire year! That's over twice the average salary for an entry-level, full-time EE! I'd say that's quite a step up from minimum wage. Now imagine you intern at Microsoft for three or four summers, that's well over $100k you'll be making even before you graduate! 
+All in all, that's $39,000 for just one summer, which prorates to $156,000 for an entire year! Imagine how much crack you can buy with that! That's over twice the average salary for an entry-level, full-time EE! I'd say that's quite a step up from minimum wage. Now imagine you intern at Microsoft for three or four summers, that's well over $100k you'll be making even before you graduate! 
 
 The best part is Microsoft/FAANG (an acronym for the top tech companies, typically the highest paying) isn't even the highest paying, there are hedge funds/HFT firms out there that pay over twice this for a *very* select few interns (yes, there are some interns making $20k+/mo). These opportunies are *extremely* competitive and more selective because there are fewer opportunies. 
 
@@ -91,7 +91,9 @@ Maybe you did an internship at a startup and it turns out you don't like it *rig
 
 ### Context
 
-School is super conceptual and much of the material often feels disconnected from the industry, which is absolutely true. This isn't really a fault of our EE programs and education system, the conceptual background is very important to become a successful engineer. 
+School is super conceptual and much of the material often feels disconnected from the industry, which is absolutely true. This isn't really a fault of our EE programs and education system, the conceptual background is very important to become a successful engineer. But when you understand the physical and practical context where those concepts get applied, it makes learning those concepts much easier. You actually feel motivated to learn the concepts, it feels less like you're grinding through some random math stuff and more like you're learning why a physical system you're familiar with works and behaves the way it does. 
+
+School gets way more interesting and fun and you begin to learn more and more after realizing that the school material barely scratches the surface of what's actually happening. You go far beyond the textbook and end up getting a much more valuable and enriching educational experience at no extra cost, just motivation and background!
 
 ### New Grad Compensation
 
