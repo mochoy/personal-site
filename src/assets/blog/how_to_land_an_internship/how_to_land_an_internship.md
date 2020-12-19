@@ -273,11 +273,13 @@ There aren't too many resources out there about this stuff so I often hear a ton
 
 # Pre-Application
 
+Even before you send out your first application, there are still a few things I'd highly recommend getting under your belt to make you a competitive applicant. That being said, don't feel like you need each and every single one of these to be a successful applicant, like I said I don't even have them all. These are sort of a guideline to help you build up your application and it's difficult to juggle schoolwork, extracurriculars, work, and everything. Keep building on everything in parallel, but be sure to consider the timeline. 
+
+## The Timeline
+
 ## Getting Started Early
 
 ## What do you even want to do?
-
-## Timing
 
 ## Resume
 
