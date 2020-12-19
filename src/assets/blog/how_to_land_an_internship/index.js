@@ -6,6 +6,7 @@ const howToLandAnInternship = {
   date: "???",
   title: "How to Land an Electrical Engineering Internship",
   url: "how_to_land_an_electrical_engineering_internship",
+  filePath: "how_to_land_an_internship",
   postFile: how_to_land_an_internship
 };
 
