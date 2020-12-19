@@ -181,6 +181,14 @@ Companies aren't spending tons of money for nothing, they themselves also realiz
 
 # The Overall Process
 
+Wow I'm already almost 4500 words in and I haven't even gotten into the juicy stuff yet. I was considering splitting this into a few differnt posts, but I'm not too sure how that does on ad revenue. In terms of writing, I don't even think I'm halfway though yet, so here's a quick overview of what's to come. It can get difficult to navigate huge walls of text for the important stuff, so here's a quick snapshot of what the overall application process looks like: 
+
+- Develop your skillset: This step is continious (for the rest of your life), but you need to develop your skills through your classes, research, and projects
+- Prepare your application: Get your resume and supplementing resources ready, reviewed, and locked down
+- Apply: Actually apply to jobs online, through the career fair, and through nepotism
+- Interview: Git grilled for hours and hours on end
+- Offers!: Yay you got the offer! But that's not it, you still need to decide between offers, negotiate, plan stuff out, etc.
+
 # To Underclassmen
 
 # Pre-Application
@@ -236,11 +244,13 @@ General questions I usually ask them:
 
 ## Compensation
 
-### Housing
+### Housing/Location
 
 ## Competing Offers
 
 ## Learning More
+
+## Covid
 
 ## Negotiation
 
