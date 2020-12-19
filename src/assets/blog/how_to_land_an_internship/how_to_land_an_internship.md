@@ -26,6 +26,15 @@ I will be drawing many comparisons to the SWE process because their processes ar
 
 Alternatively, if you find out that you actually want to go into SWE as a result of this post, well more power to you! That's even a win for me since SWEs get paid more, so my 90% cut of your compensation (that you agreed to by existing) will continue to grow. 
 
+That being said, the inverse is also the case, this guide also has tons of information that will be super helpful to SWEs. Here are some of the biggest differences between the SWE and EE internship process, I've been through both at FAANG and can provide some insight:
+- SWEs have a standardized interview process, basically coding riddles that you can grind on a website called Leetcode (LC), EEs we don't. I've only ever had OAs twice for EE roles.
+- SWEs get more online assessments (OAs), basically online coding challenges/LC before the interview that act as another set of filters between your application and the job
+- FAANG/AFUNGALMASS (Acronym for top companies: Facebook, Apple, Amazon, Netflix, Google/Amazon, Facebook, Uber, Netflix, Google, Apple, Lyfy, Microsoft, Airbnb, Snap, Stripe) are often the target companies for most SWEs while for EEs, this isn't really the case. EE is a much broader field, there are less opportunies in tech and many people also shoot for positions in defense, semiconductors, aerospace, utilities/power/energy, biotech, etc which are often "looked down upon" by SWEs and don't offer as attractive salaries.
+- EE is much more textbook heavy, our EE concepts are based in physics and math and involve tons of calculus, linear algebra, differential equations, etc. while for SWEs, there's very little math/textbook info required for almost all jobs outside of data structures and algorithms for the interview. Some EE interviews actually expect you to solve complex, mathy transforms or at the very least, solve some circuits.
+- Every SWE and their mother has been coding since the womb, coding is much easier to pick up on your own that EE.
+- There are way more SWE opportunies out there and way more CS students applying to them.
+- There aren't too many EE career communities and resources out there.
+
 Anyways enough of the fine print let's get going to the real stuff!
 
 # Why Do I Need an Internship? 
