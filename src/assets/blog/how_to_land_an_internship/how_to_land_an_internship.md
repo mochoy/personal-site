@@ -53,7 +53,7 @@ Additionally, many students earning these levels of compensation are typically h
 
 Now with that's out of the way, let's get into some actual numbers. Here's what the  compensation breakdown looks like for my return intern offer at Microsoft (which was SWE, but HWE/EE gets the same TC):
 
-- $8500/mo salary
+- $8500/mo (~$53/hr) salary 
 - $5000 signing bonus
 - $7000 housing stipend (post-tax)
 - $1500 transportation + relocation stipend
