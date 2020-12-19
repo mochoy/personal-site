@@ -186,16 +186,6 @@ In my other post about my [Microsoft experience, I also included a dedication se
 
 We're young, this matters to us for some reason. Enjoy it while it lasts!
 
-# The Company's Perspective
-
-As interns and applicants, it can be easy to forget what's behind the face of these massive companies. I don't myself indentify as a company, but maybe I can offer some helpful insights on the company's interests that may not be as apparent. I've been talking a lot about how companies want you and that sort of stuff, so let me elaborate. 
-
-First of all, companies *want* you. They want interns. They want the most talented students to both continue their products that make them money and also to prevent the competition from poaching talent. They pay the big bucks, offer amazing perks, host awesome events; big companies invest in tens of millions of dollars every year into their internship programs to poach and retain top talent. 
-
-In addition to retaining talent, these companies also want to train that talent. Remember how earlier, I mentioned that returning, trained interns progress their careers faster? Well this is also benefitial for not only the interns not also the companies as they get access to better trained, higher quality engineers that can come in and hit the ground running.
-
-Companies aren't spending tons of money for nothing, they themselves also realize the value of internship programs and compete against each other, millions of dollars at a time, for the top talent. In many cases, the relationship between the company and the employee is very much symbiotic. The company knows that it's nothing without the employees and companies are smart enough to realize the value of highly skilled employees. Internships programs are a way to support that initiative, companies are smart enough to realize that a "small" investment in interns pays off many times over in the long run. 
-
 # To Underclassmen - Finding the Motivation
 
 It's very difficult to land internships as a freshman or sophomore and especially as a high schooler, but there are still tons of things to get you ahead of the curve. Unfortunately, EE is a very textbook-heavy field where a strong understanding of math, physics, and EE concepts are necessary to perform well, and most of these aren't taught until junior or senior year. This isn't like SWE where you really only need to take one sophomore-level class to prepare you for 90% of SWE, and that class can easily be self-studied, no EE is *real* engineering (jk ofc). 
@@ -260,9 +250,19 @@ Apparently, since I went through the career fair, I needed to also apply online 
 
 So that's the story of why I avoid telling people my year in school and if asked, I just tell everyone that I'm a junior (which is what it says on my online portal, so it's not a lie).
 
+# The Company's Perspective
+
+As interns and applicants, it can be easy to forget what's behind the face of these massive companies. I don't myself indentify as a company, but maybe I can offer some helpful insights on the company's interests that may not be as apparent. I've been talking a lot about how companies want you and that sort of stuff, so let me elaborate. 
+
+First of all, companies *want* you. They want interns. They want the most talented students to both continue their products that make them money and also to prevent the competition from poaching talent. They pay the big bucks, offer amazing perks, host awesome events; big companies invest in tens of millions of dollars every year into their internship programs to poach and retain top talent. 
+
+In addition to retaining talent, these companies also want to train that talent. Remember how earlier, I mentioned that returning, trained interns progress their careers faster? Well this is also benefitial for not only the interns not also the companies as they get access to better trained, higher quality engineers that can come in and hit the ground running.
+
+Companies aren't spending tons of money for nothing, they themselves also realize the value of internship programs and compete against each other, millions of dollars at a time, for the top talent. In many cases, the relationship between the company and the employee is very much symbiotic. The company knows that it's nothing without the employees and companies are smart enough to realize the value of highly skilled employees. Internships programs are a way to support that initiative, companies are smart enough to realize that a "small" investment in interns pays off many times over in the long run. 
+
 # The Overall Process
 
-Wow I'm already almost 4500 words in and I haven't even gotten into the juicy stuff yet. I was considering splitting this into a few different posts, but I'm not too sure how that does on ad revenue. In terms of writing, I don't even think I'm halfway though yet, so here's a quick overview of what's to come. It can get difficult to navigate huge walls of text for the important stuff, so here's a quick snapshot of what the overall application process looks like: 
+Wow I'm already almost 7500 words in and I haven't even gotten into the juicy stuff yet. I was considering splitting this into a few different posts, but I'm not too sure how that does on ad revenue. In terms of writing, I don't even think I'm halfway though yet, so here's a quick overview of what's to come. It can get difficult to navigate huge walls of text for the important stuff, so here's a quick snapshot of what the overall application process looks like: 
 
 - Prepare your application: Develop your skillset and get your resume and supplementing resources ready, reviewed, and locked down - how do you stand out as an applicant? 
 - Apply: Actually apply to jobs online, through the career fair, and through nepotism
