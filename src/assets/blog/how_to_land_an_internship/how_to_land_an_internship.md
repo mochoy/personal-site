@@ -79,6 +79,8 @@ The information taught at school is typically pretty disconnected from the indus
 
 I can't really fault the school for this, but practical information like this can really only be picked up through personal projects and industry experience and are pretty critical to passing interviews. They're also critical for the job, but you can pick them up during the job, that's much harder to do during the interviews. And even when you can pick it up during the job, I'd prefer to maximize my on-the-fly learning focused on more job-specific information.
 
+### Exploring EE
+
 EE is a *very* broad field. There's so much out there yet we have so little time at school to explore everything, our undergrad barely covers the fundementals. Internships are a great opportunity to explore what you do and don't want to do in your career. You get a ton of hands-on experience and exposure to a wide variety of real-world topics and it's a great opportunity to pick and choose what you want to continue for your career and focus on in school. 
 
 Interns have a great deal of mobility, we're in and out in three months, no obligations needed. That's why it's the perfect opportunity to explore everything. We know so little but we can learn so much when we're young. One summer go work at a startup, the next go to a big tech company, and after that to defense. Go explore PCB design one summer, computer architecture the next, and analog design after. When you go FTE, you don't get that same level of mobility. You can join a company FTE and leave after three months, see how that goes for you (life pro tip: don't do this!).  There are rotational programs, but that's exactly what internships are for. 
@@ -89,6 +91,8 @@ Again, EE is a broad field and we can do a lot with our degree. When you get the
 
 Maybe you did an internship at a startup and it turns out you don't like it *right now*, it was fast paced and you had a lot of freedom without the politics. The next summer you move to big tech and wow it's a blast! So you decide to go into big tech to start your FTE career but after a few years, it gets kinda dry and you want out. It's too slow for you and you feel bogged down by office politics. But wait! You did an internship a few years back at that startup free of these exact burdens! No experience is bad experience (ok not always, but you get the idea I'm trying to make here) and having all the background puts you in a very powerful position.
 
+Remember, an internship is like an extended interview, and interviews go both ways! It's a way for your company to evaluate you but also an opportunity for you to evaluate your company. 
+
 ### Context
 
 School is super conceptual and much of the material often feels disconnected from the industry, which is absolutely true. This isn't really a fault of our EE programs and education system, the conceptual background is very important to become a successful engineer. But when you understand the physical and practical context where those concepts get applied, it makes learning those concepts much easier. You actually feel motivated to learn the concepts, it feels less like you're grinding through some random math stuff and more like you're learning why a physical system you're familiar with works and behaves the way it does. 
@@ -96,6 +100,14 @@ School is super conceptual and much of the material often feels disconnected fro
 School gets way more interesting and fun and you begin to learn more and more after realizing that the school material barely scratches the surface of what's actually happening. You go far beyond the textbook and end up getting a much more valuable and enriching educational experience at no extra cost, just motivation and background!
 
 ### New Grad Compensation
+
+As you complete more and more internships, you become a much more competitive applicant with valuable experience and and strong skillsets. Being a strong, competitive applicant gives you much more negotiation power to earn higher NG TC (total compensation). A company is of course going to prefer someone with more relevant industry experience and has previously proven themselves to be a successful engineer and will offer a higher TC accordingly. 
+
+Additionally, you'll look more attractive to not only a one company, but many more. You'll begin to collect competing offers that opens up your options but also provides tons of leverage for negotiation. Most companies don't budge too much on TC, but once competing offers are introduce, things just got serious. It's common for NGs to negotiate their TCs up by tens of thousands, sometimes even over 100k, from competing offers. 
+
+### Return Offers
+
+Strong performers duri
 
 ### Career Growth
 
