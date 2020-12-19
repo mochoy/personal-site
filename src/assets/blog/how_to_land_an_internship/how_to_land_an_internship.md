@@ -79,6 +79,12 @@ The information taught at school is typically pretty disconnected from the indus
 
 I can't really fault the school for this, but practical information like this can really only be picked up through personal projects and industry experience and are pretty critical to passing interviews. They're also critical for the job, but you can pick them up during the job, that's much harder to do during the interviews. And even when you can pick it up during the job, I'd prefer to maximize my on-the-fly learning focused on more job-specific information.
 
+### Impact
+
+Companies recognize the value of interns and that turning interns into productive engineers ends up benefiting the company/team in the long run. That's why these internships aren't your coffeeboy internships (it's a shame I even need to mention that, so many people think they are). At these internships, interns have real opportunies to make impact. For example, at Microsoft, I the code I wrote got productized and shipped out to the final product to do cool stuff I can even say. We need to sign NDAs because we really do work on top secret stuff and learn about product roadmaps. iPhone interns actually work on the next-gen iPhones, you get the idea. It's just an awesome feeling to know that you built something that millions of customers will use. 
+
+Interns typically work alongside FTEs and are delegated the same tasks and they get the real experience of what it's like as an FTE. It's in the company's best interest to get you acustomed to working there and put on real tasks to get you to return. 
+
 ### Exploring EE
 
 EE is a *very* broad field. There's so much out there yet we have so little time at school to explore everything, our undergrad barely covers the fundementals. Internships are a great opportunity to explore what you do and don't want to do in your career. You get a ton of hands-on experience and exposure to a wide variety of real-world topics and it's a great opportunity to pick and choose what you want to continue for your career and focus on in school. 
@@ -162,6 +168,8 @@ In my other post about my [Microsoft experience, I also included a dedication se
 ## Clout
 
 We're young, this matters to us for some reason. Enjoy it while it lasts!
+
+# The Company's Perspective
 
 # The Overall Process
 
