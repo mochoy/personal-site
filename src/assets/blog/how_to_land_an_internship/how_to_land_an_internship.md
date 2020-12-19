@@ -226,6 +226,10 @@ Don't feel bad or intimidated that most of the upperclassmen around you know kno
 
 Instead, recognize that there are so many opportunies to grow. EE is a very broad and deep field, many people way smarter than both of us combined have spent their entire lives studying this stuff and there's still way more out there. Use this to humble yourself and as motivation to push yourself to learn more, but at the same time, don't underestimate yourself and put yourself out there because you never know what amazing opportunies are waiting for you right around the corner. 
 
+## What's the Worst that can Happen? 
+
+There's so much to gain yet so little to lose. What's the worst that can happen? You embarrass yourself in front of some random recruiter who sees 1000 people a day and won't remember you five minutes later? And what's the best that can happen? You land an awesome internship that catapults your career forward. That risk/reward ratio is off the charts, there's no risk and so much reward. 
+
 ## No Experience is Useless Experience
 
 The best way to learn many things is to experience it yourself, and this is again true for the application process. This guide may serve as a reference for you, but keep in mind that this guide was based off of my experiences and there's a pretty good chance you're not me living through my exact same situation. 
@@ -235,10 +239,6 @@ Ultimately, you should navigate the application process in the best manner that 
 By going to the career fair, doing interviews, and putting yourself out there, you're going through that process and developing the intuition yourself by doing which is way more powerful than some random online thingy. You get a good idea of how things work and can better develop your own methods and strategies to tailor the experience to yourself and your situation. 
 
 Even if you don't get an internship, you still have all of that valuable experience navigating the process and next year, you'll know exactly what to do. I'd rather spend my freshman and sophomore years learning the best approaches and applying them during my junior and senior year when the stakes are much higher. When you go to the career fair and start applying for the *first* time during your junior or senior year, you're going to have to learn the best approaches and apply them on the fly which makes everything much more difficult, especially when you're navigating  your junior year internship or new grad opportunies where these decisions can really drive the direction of your career. 
-
-## What's the Worst that can Happen? 
-
-There's so much to gain yet so little to lose. 
 
 ## PTSD
 
