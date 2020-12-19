@@ -107,9 +107,15 @@ Additionally, you'll look more attractive to not only a one company, but many mo
 
 ### Return Offers
 
-Strong performers duri
+Internships are like extended interviews, and if you perform well in your "three-month interview", there's a good chance you'll get a return offer! Return offers save you from the stress of another application season, but also offer TC benefits as well. Many companies offer higher TCs for returning interns. For example, Facebook gives high performing "Rockstar" interns a $100k *signing* bonus and the base Microsoft TC packages differ by $20-30k for returning interns.
+
+Not all companies offer return intern bonuses, but still strong returning interns have more leverage during negotiations. A strong intern has already proven themselves to be a strong performer while some random NG entering through the standard interview pipelines is much riskier, the team doesn't know how well they'll perform. That "random NG" will be much riskier to invest in. There are interviews to assess their skillset and knowledge, but a "three-month interview" is a much stronger assessment than a regular two-day/five-round interview.  
+
+It's also very expensive and time consuming to hire a brand new candidate. There are costs with the recruiter and all the time (and money) spend interviewing the candidate, so a previous intern who's skillset is a known is much safer and often prefered. 
 
 ### Career Growth
+
+
 
 ## Fun!
 
