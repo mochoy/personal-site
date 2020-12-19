@@ -49,6 +49,8 @@ I always like to mention money first because so many students (myself included!)
 
 Additionally, many students earning these levels of compensation are typically have a few internships under their belt, and most of the times, their earlier internships weren't paying this much. They busted their ass off to climb the "internship ladder" and that's completely normal so don't get discouraged! Even if your first internship doesn't pay as well, you have a still have a very good shot at landing these in the future! 
 
+### The Numbers
+
 Now with that's out of the way, let's get into some actual numbers. Here's what the  compensation breakdown looks like for my return intern offer at Microsoft (which was SWE, but HWE/EE gets the same TC):
 
 - $8500/mo salary
@@ -60,9 +62,13 @@ All in all, that's $39,000 for just one summer, which prorates to $156,000 for a
 
 The best part is Microsoft/FAANG (an acronym for the top tech companies, typically the highest paying) isn't even the highest paying, there are hedge funds/HFT firms out there that pay over twice this for a *very* select few interns (yes, there are some interns making $20k+/mo). These opportunies are *extremely* competitive and more selective because there are fewer opportunies. 
 
+### SWE vs EE
+
 Unlike for SWE, there aren't many resources out there to explore EE intern compensation. Here are a few resources for SWE intern compensation, just know that at the same company, EE interns will make slightly less than their SWE counterparts, and this difference extends throughout the entire career.  
 
 For example, At Apple, a first-time EE intern gets put at the $36-$40/hr band while a first time SWE intern gets at the $41-44/hr band. This is similar at Facebook as well where the EE interns get $7k/mo while the SWE inters get $8k/mo. At Microsoft, SWE and EE interns and new grads (NGs) actually receive the same compensation, but this isn't very common, Microsoft is the only company I know that offers this. 
+
+### Explore More Numbers
 
 Explore intern compensation: 
 
@@ -70,7 +76,7 @@ Explore intern compensation:
 - [Reddit](https://www.reddit.com/r/cscareerquestions/comments/kcthwn/official_salary_sharing_thread_for_interns/) [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/comments/isfzuz/official_salary_sharing_thread_for_interns/) [intern](https://www.reddit.com/r/cscareerquestions/comments/gufum4/official_salary_sharing_thread_for_interns_june/) [salary](https://www.reddit.com/r/cscareerquestions/comments/fc8cp9/official_salary_sharing_thread_for_interns_march/) [share](https://www.reddit.com/r/cscareerquestions/comments/e4ve4m/official_salary_sharing_thread_for_interns/) [threads](https://www.reddit.com/r/cscareerquestions/comments/cylp5r/official_salary_sharing_thread_for_interns/): Sweaty CS students on Reddit post their SWE internship offers. These figures are pretty accurate for the most part. Again, these are SWE salaries to keep in mind the points above. 
 - Glassdoor: glassdoor is ok for internships, but it's absolutely terrible for full-time engineers (FTE) because it fails to capture other components of compensation.
 
-And you think inters get paid a lot - now imagine the FTEs. Of course FTEs get paid more, I've seen TC packages at $200k+ for new grad (NG) FTEs and it's going to be these internships that make you a competive application and achieve these compensation figures. I won't drop any numbers here, but check out the [levels.fyi data on it](https://www.levels.fyi/comp.html?track=Hardware%20Engineer). 
+And you think inters get paid a lot - now imagine the FTEs. Of course FTEs get paid more, I've seen TC packages at $200k+ for new grad (NG) FTEs and it's going to be these internships that make you a competive application and achieve these compensation figures. I won't drop any FTE numbers here, but check out the [levels.fyi data on it](https://www.levels.fyi/comp.html?track=Hardware%20Engineer). 
 
 Here was a bit of info on compensation that was meant to entice you, but there's a dedicated section later on that goes more in-depth. 
 
