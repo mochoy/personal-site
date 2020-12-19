@@ -119,9 +119,33 @@ It's also very expensive and time consuming to hire a brand new candidate. There
 
 ## Fun!
 
+Internships are a blast! There's of course the technical side of things which I find a ton of fun, but there's also the *fun* fun stuff that not everyone may know about. Companies know that interns are young and energetic and they want to give interns an opportunity to explore the company and the surrounding area. They want to sell the interns on the company, they want the interns to return as happy, productive engineers. 
 
+Companies host *tons* of awesome intern events, including but not limited to:
+
+- Nvidia: Party at the CEO's epic mansion
+- Microsoft: Intern day - interns get flown out to the HQ in Redmond for epic party + concert (with famous artisits like Chance the Rapper, Chainsmokers, etc)
+- Microsoft: Company-wide Hackathon
+- Apple: Legit QnA with Tim Cook at Apple's top secret, underground Steve Jobs theater
+- Paintball
+- Sports games
+- Game nights
+- Movie nights (Apple rented out entire theaters for us)
+- Trips to nearby attractions like Yosemite, Lake Tahoe, etc. (for the Bay Area)
+- Parties
+- Amusement parks
+- Rafting
+- Go carting
+
+Yeah I'm sure you get the idea by now. And many of those intern activies are typically paid for and everything. Unfortunatley, Covid is meddling with a ton of these activities, but [here's another post I wrote on my internship experience at Microsoft, including all of the fun stuff!](http://montychoy.com/blog/my_remote_software_engineering_internship_experience_at_microsoft_summer_2020)
+
+In addition to the company-sponsored intern-wide events, there's so much more. Internships are basically a massive collection of the best minds all at the same age from all around the world living and working together - sounds kinda like school right? Except at internships, no one has homework and everyone has money so you can do all the fun stuff of school without needing to worry about exams or going broke. My friends took trips to Las Vegas, LA, Disneyland, etc. during their internships. Exploring California can be especially fun if it's your first time and you're from across the country or even from across the world. 
+
+Many companies offer intern housing, meaning they give you an appartment/hotel to live in for the internship. I'll get more into this later on, but some companies like Apple basically rent out an *entire* appartment complex to house their interns.  Google used to this, but one time the interns partied too hard and it annoyed the neighbors, so they cancelled the housing program (I'm serious, look it up!). With all the interns living together, it's sort of like the social dorm life but most of the interns are in their junior year so they already know how to drink and hopefully people aren't stupid enough to shit in the showers. The appartments are nice and clean, so the experience ends up being as social as the dorms without the drawbacks.
 
 ## Swag
+
+I was highly debating 
 
 ## Clout
 
@@ -183,6 +207,8 @@ General questions I usually ask them:
 # The Offer!
 
 ## Compensation
+
+### Housing
 
 ## Competing Offers
 
