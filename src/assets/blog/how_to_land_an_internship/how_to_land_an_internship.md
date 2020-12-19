@@ -103,6 +103,8 @@ Remember, an internship is like an extended interview, and interviews go both wa
 
 School is super conceptual and much of the material often feels disconnected from the industry, which is absolutely true. This isn't really a fault of our EE programs and education system, the conceptual background is very important to become a successful engineer. But when you understand the physical and practical context where those concepts get applied, it makes learning those concepts much easier. You actually feel motivated to learn the concepts, it feels less like you're grinding through some random math stuff and more like you're learning why a physical system you're familiar with works and behaves the way it does. 
 
+Fourier Transforms can feel like annoying plug-and-chug math, but when you get to work with practical applications of the frequency space, gears begin to click and "Ah hah! That's where it comes from!". You begin to understand and appreciate the true beauty of all this "random, janky math" and the school's curriculum begins to make a lot more sense.
+
 School gets way more interesting and fun and you begin to learn more and more after realizing that the school material barely scratches the surface of what's actually happening. You go far beyond the textbook and end up getting a much more valuable and enriching educational experience at no extra cost, just motivation and background!
 
 ### New Grad Compensation
@@ -181,15 +183,17 @@ Companies aren't spending tons of money for nothing, they themselves also realiz
 
 # The Overall Process
 
-Wow I'm already almost 4500 words in and I haven't even gotten into the juicy stuff yet. I was considering splitting this into a few differnt posts, but I'm not too sure how that does on ad revenue. In terms of writing, I don't even think I'm halfway though yet, so here's a quick overview of what's to come. It can get difficult to navigate huge walls of text for the important stuff, so here's a quick snapshot of what the overall application process looks like: 
+Wow I'm already almost 4500 words in and I haven't even gotten into the juicy stuff yet. I was considering splitting this into a few different posts, but I'm not too sure how that does on ad revenue. In terms of writing, I don't even think I'm halfway though yet, so here's a quick overview of what's to come. It can get difficult to navigate huge walls of text for the important stuff, so here's a quick snapshot of what the overall application process looks like: 
 
-- Develop your skillset: This step is continious (for the rest of your life), but you need to develop your skills through your classes, research, and projects
-- Prepare your application: Get your resume and supplementing resources ready, reviewed, and locked down
+- Develop your skillset: This step is continious (for the rest of your life!), but you need to develop your skills through your classes, research, and projects
+- Prepare your application: Get your resume and supplementing resources ready, reviewed, and locked down - how do you stand out as an applicant? 
 - Apply: Actually apply to jobs online, through the career fair, and through nepotism
 - Interview: Git grilled for hours and hours on end
 - Offers!: Yay you got the offer! But that's not it, you still need to decide between offers, negotiate, plan stuff out, etc.
 
 # To Underclassmen
+
+It's very difficult to land internships as a freshman or sophomore and especially as a high schooler, but there are still tons of things to get you ahead of the curve. Unfortunately, EE is a very textbook-heavy field where a strong understanding of math, physics, and EE concepts are necessary to perform well, and most of these aren't taught until junior or senior year. This isn't like SWE where you really only need to take one sophomore-level class to prepare you for 90% of SWE, and that class can easily be self-studied, no EE is *real* engineering (jk ofc). 
 
 # Pre-Application
 
