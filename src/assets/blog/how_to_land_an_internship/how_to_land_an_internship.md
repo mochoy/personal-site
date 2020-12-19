@@ -1,4 +1,4 @@
-Do a quick Google search for ["how to get a software engineering internship"](https://lmgtfy.app/?q=how+to+get+a+software+engineering+internship) and ["how to get an electrical engineering internship"](https://lmgtfy.app/?q=how+to+get+an+electrical+engineering+internship). The software engineers (SWE) get tons of online resources, blog posts, communites, etc. detailing every step of the process, all the tricks of the trade while we get next to nothing. Well not anymore! This EPIC guide will put all those SWE write-ups to shame and share basically everything I know about landing internships based off of my experiences landing offers at Facebook, Apple, Amazon, Nvidia, Microsoft, etc. through 100+ inteviews and 500+ applications.
+Do a quick Google search for ["how to get a software engineering internship"](https://lmgtfy.app/?q=how+to+get+a+software+engineering+internship) and ["how to get an electrical engineering internship"](https://lmgtfy.app/?q=how+to+get+an+electrical+engineering+internship). The software engineers (SWE) get tons of online resources, blog posts, communites, etc. detailing every step of the process, all the tricks of the trade while we get next to nothing. Well not anymore! This **EPIC** guide will put all those SWE write-ups to shame and share basically everything I know about landing internships based off of my experiences landing offers at Facebook, Apple, Amazon, Nvidia, Microsoft, etc. through 100+ inteviews and 500+ applications.
 
 # Disclaimers
 
@@ -115,15 +115,19 @@ It's also very expensive and time consuming to hire a brand new candidate. There
 
 ### Career Growth
 
-
+ I'm not anywhere in my career yet, so I can't offer too much insight on this section, but here are some general ideas I hear thrown around. Valuable internship experience can also help to skyrocket your career. The technical skillset and background gained through internship experience puts a strong intern candidate head-and-shoulders above their peers. A returning intern also already knows the ins and out of the company and can hop right into the deep end and start working on the cool stuff. A brand new hire will need learn everything and need lots of handholding to get up to speed. I've been told by recruiters and hiring mangers that returning interns often outpeform new hires because they're already familiar with everything and can hop right in. Finding your passion through internships helps to learn better faster in the job you most enjoy.
 
 ## Fun!
+
+
 
 ## Swag
 
 ## Clout
 
 We're young, this matters to us for some reason. Enjoy it while it lasts!
+
+# The Overall Process
 
 # Pre-Application
 
