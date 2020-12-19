@@ -283,6 +283,8 @@ Wow I'm already almost 4500 words in and I haven't even gotten into the juicy st
 
 ## Applying
 
+### Time Management
+
 ### Where to Find Listings
 
 Here's a fat list of companies to help you get started. These are typically my first go-to companies that I apply to and since I'm personally interested in tech, there will be a skew there:
