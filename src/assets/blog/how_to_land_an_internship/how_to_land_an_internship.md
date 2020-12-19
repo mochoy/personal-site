@@ -299,11 +299,13 @@ Many off-season co-ops for the following Fall or Winter also open up during the 
 
 This is purely speculative as this hasn't happened to me or anyone else I know, but if you land an off-season internship but get rejected for the summer position for whatever reason, there may be the opportunity to move that off-season internship to the summer. 
 
-Also, if you get invited for a phone screen/interview for an off-season internship, you have some recruiter contacts you can reach out to in the future. You get an idea of how the interview process works (the more interview experience you have the better!) and if you don't perform up to par, you can always ask for feedback and improve to apply for the summer position a few weeks later with a great advantage.
+If you get invited for a phone screen/interview for an off-season internship, you have some recruiter contacts you can reach out to in the future. You also get an idea of how the interview process works (the more interview experience you have the better!) and if you don't perform up to par, you can always ask for feedback and improve to apply for the summer position a few weeks later with a great advantage.
 
 #### Competing Offers 
 
-If you have a return offer, that return offer may have a 
+If you have a return offer, that return offer may have a deadline. This deadline can be a few weeks or even months after you complete your internship, depending on the company and even your school. If your return offer deadline is within a few weeks of your last day of the internship, that's a tough deadline to meet and make a decision. The whole interview process may take a few weeks and that might not be enough time to go through the entire interview process at your target companies. 
+
+If you start applying during the summer, you get a better buffer timeline-wise to get competing offers and decide where you want to continue at next summer. These competing offers can help with internship negotiation (yep that's a thing!) and just open up more doors for you. Even if a company hasn't begun their recruiting pipeline yet, if you have the contact info of a recruiter or hiring manager, you may be able to expediate that process using a competing return offer as leverage. 
 
 ### Fall
 
