@@ -171,6 +171,14 @@ We're young, this matters to us for some reason. Enjoy it while it lasts!
 
 # The Company's Perspective
 
+As interns and applicants, it can be easy to forget what's behind the face of these massive companies. I don't myself indentify as a company, but maybe I can offer some helpful insights on the company's interests that may not be as apparent. I've been talking a lot about how companies want you and that sort of stuff, so let me elaborate. 
+
+First of all, companies *want* you. They want interns. They want the most talented students to both continue their products that make them money and also to prevent the competition from poaching talent. They pay the big bucks, offer amazing perks, host awesome events; big companies invest in tens of millions of dollars every year into their internship programs to poach and retain top talent. 
+
+In addition to retaining talent, these companies also want to train that talent. Remember how earlier, I mentioned that returning, trained interns progress their careers faster? Well this is also benefitial for not only the interns not also the companies as they get access to better trained, higher quality engineers that can come in and hit the ground running.
+
+Companies aren't spending tons of money for nothing, they themselves also realize the value of internship programs and compete against each other, millions of dollars at a time, for the top talent. In many cases, the relationship between the company and the employee is very much symbiotic. The company knows that it's nothing without the employees and companies are smart enough to realize the value of highly skilled employees. Internships programs are a way to support that initiative, companies are smart enough to realize that a "small" investment in interns pays off many times over in the long run. 
+
 # The Overall Process
 
 # To Underclassmen
