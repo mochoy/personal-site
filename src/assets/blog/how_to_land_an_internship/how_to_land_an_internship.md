@@ -137,7 +137,7 @@ Companies host *tons* of awesome intern events, including but not limited to:
 - Rafting
 - Go carting
 
-Yeah I'm sure you get the idea by now. And many of those intern activies are typically paid for and everything. Unfortunatley, Covid is meddling with a ton of these activities, but [here's another post I wrote on my internship experience at Microsoft, including all of the fun stuff!](http://montychoy.com/blog/my_remote_software_engineering_internship_experience_at_microsoft_summer_2020)
+Yeah I'm sure you get the idea by now. And many of those intern activies are typically paid for and everything. Unfortunatley, Covid is meddling with a ton of these activities, but [here's another post I wrote on my internship experience at Microsoft, including all of the fun stuff!](http://montychoy.com/blog/my_remote_software_engineering_internship_experience_at_microsoft_summer_2020#fun_stuff)
 
 In addition to the company-sponsored intern-wide events, there's so much more. Internships are basically a massive collection of the best minds all at the same age from all around the world living and working together - sounds kinda like school right? Except at internships, no one has homework and everyone has money so you can do all the fun stuff of school without needing to worry about exams or going broke. My friends took trips to Las Vegas, LA, Disneyland, etc. during their internships. Exploring California can be especially fun if it's your first time and you're from across the country or even from across the world. 
 
@@ -145,7 +145,19 @@ Many companies offer intern housing, meaning they give you an appartment/hotel t
 
 ## Swag
 
-I was highly debating 
+I was highly debating putting this section first instead of the Money section since college students love free stuff too, but I think people care *slightly* more about money over swag. 
+
+Companies really want to sell you on their company because they want you to stay and attract the best talent, so they offer tons of swag. There's of course the standard stuff like stickers, pencils, and t-shirts, but also the cooler stuff like:
+
+- Branded Hydroflasks
+- Xboxs
+- Surface/Beats Headphones
+- Phones
+- Laptops
+- Hoodies/Jackets (Patagonia, North Face, etc)
+- Backpacks (Timbuk2, Patagonia, North Face, etc)
+
+In my other post about my [Microsoft experience, I also included a dedication section on swag. ](http://localhost:3000/blog/my_remote_software_engineering_internship_experience_at_microsoft_summer_2020#swag)
 
 ## Clout
 
