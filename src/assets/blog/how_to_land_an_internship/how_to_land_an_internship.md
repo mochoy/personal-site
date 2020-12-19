@@ -271,6 +271,10 @@ There aren't too many resources out there about this stuff so I often hear a ton
 
 ## Resume
 
+- 3 pillars of the resume, focus on your strengths
+- I prefer not to focus on education since there are 20,000 people with the exact same educational background and they all go to my school
+- That's not to say don't emphasize your high GPA, etc. 
+
 ## Projects
 
 ### Hackathons
