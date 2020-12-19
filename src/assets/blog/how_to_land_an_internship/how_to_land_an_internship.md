@@ -261,6 +261,12 @@ List of companies:
 
 # Interviews
 
+## Screening
+
+## Technical
+
+## Behavioral
+
 ## Questions
 
 Resources: 
