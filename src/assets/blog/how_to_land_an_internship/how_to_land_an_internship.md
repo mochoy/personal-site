@@ -247,6 +247,10 @@ So that's the story of why I avoid telling people my year in school and if asked
 
 ## Career Fairs/School Events
 
+- Free stuff
+- Go to companies you're not as interested in first
+- Dressed up
+
 ## Nepotism
 
 ## Applying
