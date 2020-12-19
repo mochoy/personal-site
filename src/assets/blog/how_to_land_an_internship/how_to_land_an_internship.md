@@ -241,11 +241,12 @@ So that's the story of why I avoid telling people my year in school and if asked
 
 Wow I'm already almost 4500 words in and I haven't even gotten into the juicy stuff yet. I was considering splitting this into a few different posts, but I'm not too sure how that does on ad revenue. In terms of writing, I don't even think I'm halfway though yet, so here's a quick overview of what's to come. It can get difficult to navigate huge walls of text for the important stuff, so here's a quick snapshot of what the overall application process looks like: 
 
-- Develop your skillset: This step is continious (for the rest of your life!), but you need to develop your skills through your classes, research, and projects
-- Prepare your application: Get your resume and supplementing resources ready, reviewed, and locked down - how do you stand out as an applicant? 
+- Prepare your application: Develop your skillset and get your resume and supplementing resources ready, reviewed, and locked down - how do you stand out as an applicant? 
 - Apply: Actually apply to jobs online, through the career fair, and through nepotism
 - Interview: Git grilled for hours and hours on end. There are typically many rounds, some technical, some behavior, some screens.
 - Offers!: Yay you got the offer! But that's not it, you still need to decide between offers, negotiate, plan stuff out, etc.
+
+There aren't too many resources out there about this stuff so I often hear a ton of misinformation circulating around about the application process so I hope the following sections clear everything up for you to help you navigate the process and to make the best decisions for yourself. 
 
 # Pre-Application
 
