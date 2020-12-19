@@ -122,13 +122,13 @@ Fourier Transforms can feel like annoying plug-and-chug math, but when you get t
 
 School gets way more interesting and fun and you begin to learn more and more after realizing that the school material barely scratches the surface of what's actually happening. You go far beyond the textbook and end up getting a much more valuable and enriching educational experience at no extra cost, just motivation and background!
 
-### New Grad Compensation
+## New Grad Compensation
 
 As you complete more and more internships, you become a much more competitive applicant with valuable experience and and strong skillsets. Being a strong, competitive applicant gives you much more negotiation power to earn higher NG TC (total compensation). A company is of course going to prefer someone with more relevant industry experience and has previously proven themselves to be a successful engineer and will offer a higher TC accordingly. 
 
 Additionally, you'll look more attractive to not only a one company, but many more. You'll begin to collect competing offers that opens up your options but also provides tons of leverage for negotiation. Most companies don't budge too much on TC, but once competing offers are introduce, things just got serious. It's common for NGs to negotiate their TCs up by tens of thousands, sometimes even over 100k, from competing offers. 
 
-### Return Offers
+## Return Offers
 
 Internships are like extended interviews, and if you perform well in your "three-month interview", there's a good chance you'll get a return offer! Return offers save you from the stress of another application season, but also offer TC benefits as well. Many companies offer higher TCs for returning interns. For example, Facebook gives high performing "Rockstar" interns a $100k *signing* bonus and the base Microsoft TC packages differ by $20-30k for returning interns.
 
@@ -136,7 +136,7 @@ Not all companies offer return intern bonuses, but still strong returning intern
 
 It's also very expensive and time consuming to hire a brand new candidate. There are costs with the recruiter and all the time (and money) spend interviewing the candidate, so a previous intern who's skillset is a known is much safer and often prefered. 
 
-### Career Growth
+## Career Growth
 
  I'm not anywhere in my career yet, so I can't offer too much insight on this section, but here are some general ideas I hear thrown around. Valuable internship experience can also help to skyrocket your career. The technical skillset and background gained through internship experience puts a strong intern candidate head-and-shoulders above their peers. A returning intern also already knows the ins and out of the company and can hop right into the deep end and start working on the cool stuff. A brand new hire will need learn everything and need lots of handholding to get up to speed. I've been told by recruiters and hiring mangers that returning interns often outpeform new hires because they're already familiar with everything and can hop right in. Finding your passion through internships helps to learn better faster in the job you most enjoy.
 
