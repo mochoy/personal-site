@@ -279,7 +279,31 @@ Even before you send out your first application, there are still a few things I'
 
 The earlier you apply, the better, but sometimes companies have their own hiring timeline that don't always align with everyone else. Be sure to keep the timeline into account when building your skills, sometimes you need to make a tradeoff between applications and skill-building. But don't wait, don't procrastinate. It isn't always worth it to wait a few weeks to wrap up that project before sending out applications because those few weeks can be the differnce between securing or loosing that dream internship. That balancing act between applications and skill building is difficult and different for everyone, which is why it's so important to start earlier and know what you're getting yourself into. 
 
+It's very important to apply early because many companies hire on a rolling basis, meaning they start hiring let's say in August, and once they're out of spots, they're out of spots, especially now with Covid where companies might not be able to afford massive intern classes. If you apply to that company in say November when their seats are almost full, it's going to be much more difficult for you to land that internship especially when considering the lengthy interview processes. I got burned by this a few times so watch out! 
+
+Every company has their own timeline, so try to read up on that beforehand for your top companies. Some companies like Microsoft hire their hardware engineers from September - December, other companies like Google and Amazon wait until the winter, and other companies like Apple are team-dependant and will hire summer interns starting as early as the previous July all the way through the year. 
+
 ### Summer
+
+Yep, that's right, the summer *before* that next summer's internship. A *whole year* in advanced is when you should start thinking about applications. The summer application season isn't as intense as the fall/winter, but be aware of the timeline. You should be developing your skillset ideally since you were born, but the deadline on that isn't as strict as it is for internships. Many companies open up their applications in June - July of the previous summer and may even close in August or September school begins for you. 
+
+Other applications may also open up in August or September which is still summer break for those of us on the quarter system. The unfair part is that those on the semester system may get evaluated earlier and get first shot at the available seats. Some companies like Microsoft have a certain amount of seats reserved for the quarter students who typically apply later, but I can't say the same for other companies. 
+
+#### Referrals
+
+If you have friends doing internships, reach out to them for referrals during this time. They typically aren't doing their internship during the year and they usually need to be working to submit the referral. Additionally, many interns have their "grind time" during the last two weeks to wrap up their projects and prepare for presentations and may not have time to accommdate your referral, so as always, the earlier the better. I'll talk a bit more later on about referrals, but this is just about the timeline. 
+
+#### Off-Season Internships
+
+Many off-season co-ops for the following Fall or Winter also open up during the summer. Off-season internships aren't as common as summer internships, so there isn't as much data on the timeline for these, but just remember, the earlier the better. Applying for these off-season internships may be helpful to get your foot in the door. 
+
+This is purely speculative as this hasn't happened to me or anyone else I know, but if you land an off-season internship but get rejected for the summer position for whatever reason, there may be the opportunity to move that off-season internship to the summer. 
+
+Also, if you get invited for a phone screen/interview for an off-season internship, you have some recruiter contacts you can reach out to in the future. You get an idea of how the interview process works (the more interview experience you have the better!) and if you don't perform up to par, you can always ask for feedback and improve to apply for the summer position a few weeks later with a great advantage.
+
+#### Competing Offers 
+
+If you have a return offer, that return offer may have a 
 
 ### Fall
 
