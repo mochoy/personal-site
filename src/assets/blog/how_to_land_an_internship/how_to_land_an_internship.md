@@ -49,7 +49,7 @@ I always like to mention money first because so many students (myself included!)
 
 Additionally, many students earning these levels of compensation are typically have a few internships under their belt, and most of the times, their earlier internships weren't paying this much. They busted their ass off to climb the "internship ladder" and that's completely normal so don't get discouraged! Even if your first internship doesn't pay as well, you have a still have a very good shot at landing these in the future! 
 
-Now with that's out of the way, let's get into some actual numbers. Here's what the  compensation breakdown looks like for my return intern offer at Microsoft:
+Now with that's out of the way, let's get into some actual numbers. Here's what the  compensation breakdown looks like for my return intern offer at Microsoft (which was SWE, but HWE/EE gets the same TC):
 
 - $8500/mo salary
 - $5000 signing bonus
