@@ -220,9 +220,11 @@ Dealing with these feelings is different for everyone. If I was good at managing
 
 ![cost benefit analysis](images/cost_benefit_analysis.png)
 
-
 ## We All Start Somewhere
 
+Don't feel bad or intimidated that most of the upperclassmen around you know know more than you. That's just how things work. But let me tell you something, you're probably a good deal further ahead than them just by reading this post. A ton of EE students don't have this much internship application experience and you're getting all for free here! The fact that you're reading this post, especially this far down, shows a great amount of initiative and dedication and speaks volumes for your character. 
+
+Instead, recognize that there are so many opportunies to grow. EE is a very broad and deep field, many people way smarter than both of us combined have spent their entire lives studying this stuff and there's still way more out there. Use this to humble yourself and as motivation to push yourself to learn more, but at the same time, don't underestimate yourself and put yourself out there because you never know what amazing opportunies are waiting for you right around the corner. 
 ## No Experience is Useless Experience
 
 ## What's the Worst that can Happen? 
