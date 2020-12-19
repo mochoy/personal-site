@@ -196,7 +196,7 @@ In addition to retaining talent, these companies also want to train that talent.
 
 Companies aren't spending tons of money for nothing, they themselves also realize the value of internship programs and compete against each other, millions of dollars at a time, for the top talent. In many cases, the relationship between the company and the employee is very much symbiotic. The company knows that it's nothing without the employees and companies are smart enough to realize the value of highly skilled employees. Internships programs are a way to support that initiative, companies are smart enough to realize that a "small" investment in interns pays off many times over in the long run. 
 
-# To Underclassmen
+# To Underclassmen - Finding the Motivation
 
 It's very difficult to land internships as a freshman or sophomore and especially as a high schooler, but there are still tons of things to get you ahead of the curve. Unfortunately, EE is a very textbook-heavy field where a strong understanding of math, physics, and EE concepts are necessary to perform well, and most of these aren't taught until junior or senior year. This isn't like SWE where you really only need to take one sophomore-level class to prepare you for 90% of SWE, and that class can easily be self-studied, no EE is *real* engineering (jk ofc). 
 
@@ -225,13 +225,24 @@ Dealing with these feelings is different for everyone. If I was good at managing
 Don't feel bad or intimidated that most of the upperclassmen around you know know more than you. That's just how things work. But let me tell you something, you're probably a good deal further ahead than them just by reading this post. A ton of EE students don't have this much internship application experience and you're getting all for free here! The fact that you're reading this post, especially this far down, shows a great amount of initiative and dedication and speaks volumes for your character. 
 
 Instead, recognize that there are so many opportunies to grow. EE is a very broad and deep field, many people way smarter than both of us combined have spent their entire lives studying this stuff and there's still way more out there. Use this to humble yourself and as motivation to push yourself to learn more, but at the same time, don't underestimate yourself and put yourself out there because you never know what amazing opportunies are waiting for you right around the corner. 
+
 ## No Experience is Useless Experience
+
+The best way to learn many things is to experience it yourself, and this is again true for the application process. This guide may serve as a reference for you, but keep in mind that this guide was based off of my experiences and there's a pretty good chance you're not me living through my exact same situation. 
+
+Ultimately, you should navigate the application process in the best manner that fits you. Maybe this guide aligns well with that, maybe it doesn't. But the only way for you to find out is to go out there and learn by doing. Figure out what's the best way to approach the interviews based on your skillset and strengths. Play around a little, test out some of my advice and play with it. 
+
+By going to the career fair, doing interviews, and putting yourself out there, you're going through that process and developing the intuition yourself by doing which is way more powerful than some random online thingy. You get a good idea of how things work and can better develop your own methods and strategies to tailor the experience to yourself and your situation. 
+
+Even if you don't get an internship, you still have all of that valuable experience navigating the process and next year, you'll know exactly what to do. I'd rather spend my freshman and sophomore years learning the best approaches and applying them during my junior and senior year when the stakes are much higher. When you go to the career fair and start applying for the *first* time during your junior or senior year, you're going to have to learn the best approaches and apply them on the fly which makes everything much more difficult, especially when you're navigating  your junior year internship or new grad opportunies where these decisions can really drive the direction of your career. 
 
 ## What's the Worst that can Happen? 
 
+There's so much to gain yet so little to lose. 
+
 ## PTSD
 
-I know it's difficult to land an internship as an underclassman, here's a quick story that basically summarizes the trauma. I was at the career fair after my nine-month Apple co-op looking for internships. It was only my second quarter at school, so being the honest person I am, I claimed that I was a freshman, which was true. I go up to a recruiter the the Texas Instruments booth, hand her my resume, and do my elevator pitch: "Hi, I'm Monty, I'm a first-year - " and she cut me off after those first six words, handed me back my resume without ever looking at it, and dismissed me with "sorry, we don't hire freshman, company policy" and I believed it so I didn't get too upset.
+I know it's difficult to land an internship as an underclassman, here's a quick story that basically summarizes the trauma. I was at the career fair after my nine-month Apple co-op looking for internships. It was only my second quarter at school, so being the honest person I am, I claimed that I was a freshman, which was true. I go up to a recruiter the the Texas Instruments (TI) booth, hand her my resume, and do my elevator pitch: "Hi, I'm Monty, I'm a first-year - " and she cut me off after those first six words, handed me back my resume without ever looking at it, and dismissed me with "sorry, we don't hire freshman, company policy" and I believed it so I didn't get too upset.
 
 Now that's not even the good part. The next quarter (I was still a freshman, it was my third quarter at school), I again went up to the TI booth, did my elevator pitch with no interruptions and landed an interview on the spot. I thought it was strange, considering how the previous recruiter dismissed me, but again, I didn't think too much of it. The interview went really well and at the end, I asked if they really had that "we don't hire freshman" policy and my interview said no. At this point, I was a bit upset but what happened in the passed happened, not much I can do about it so I continued on with my life. 
 
