@@ -20,13 +20,13 @@ So don't feel discouraged that you're not in the 99.999999th percentile of EE st
 
 You're going to see your classmates and friends landing internships left and right, and again, don't compare yourself to them. I get it, we're in college and we always compare ourselves to others and stuff. But at the end of the day, remember there's only one person you should compare yourself to and that's yourself from yesterday. And if your friends and classmates are landing amazing internships, that's great! Go leech off them LOL. 
 
-Anyways enough of the fine print let's get going to the real stuff!
-
 ## Similarities to SWE
 
 I will be drawing many comparisons to the SWE process because their processes are very similar to our's, but they just have way more resources. For the longest time, I actually had my career set on being a SWE and I still remain quite active in the SWE communities. If you want more tips and stuff, you could also read up on those SWE posts and 95% of their information will be directly applicable to you as an EE, especially if you're looking to get into tech. I will point out many of the key differences throughout this post as they come up so you get a good idea of what to ignore and what to take in. 
 
 Alternatively, if you find out that you actually want to go into SWE as a result of this post, well more power to you! That's even a win for me since SWEs get paid more, so my 90% cut of your compensation (that you agreed to by existing) will continue to grow. 
+
+Anyways enough of the fine print let's get going to the real stuff!
 
 # Why Do I Need an Internship? 
 
@@ -49,7 +49,7 @@ Now with that's out of the way, let's get into some actual numbers. Here's what 
 
 All in all, that's $39,000 for just one summer, which prorates to $156,000 for an entire year! That's over twice the average salary for an entry-level, full-time EE! I'd say that's quite a step up from minimum wage. Now imagine you intern at Microsoft for three or four summers, that's well over $100k you'll be making even before you graduate! 
 
-The best part is Microsoft/FAANG (an acronym for the top tech companies, typically the highest paying) isn't even the highest paying, there are hedge funds/HFT firms out there that pay over twice this for a *very* select few interns. These opportunies are *extremely* competitive and more selective because there are fewer opportunies. 
+The best part is Microsoft/FAANG (an acronym for the top tech companies, typically the highest paying) isn't even the highest paying, there are hedge funds/HFT firms out there that pay over twice this for a *very* select few interns (yes, there are some interns making $20k+/mo). These opportunies are *extremely* competitive and more selective because there are fewer opportunies. 
 
 Unlike for SWE, there aren't many resources out there to explore EE intern compensation. Here are a few resources for SWE intern compensation, just know that at the same company, EE interns will make slightly less than their SWE counterparts, and this difference extends throughout the entire career.  
 
@@ -67,9 +67,27 @@ Here was a bit of info on compensation that was meant to entice you, but there's
 
 ## Experience
 
+The experience gained during an internship is actually way more important than money, but I find that talking about intern comp turns more heads than gaining experience. Maybe us college students don't have our priorities straight, but you can be the judge of that. 
+
 ### Hands-On Experience
 
+As you can probably imagine, working in the industry is actually pretty different from school. I don't know of any engineers grinding Laplace Transforms at work, but how many LTs did you do in school? Having hands-on experience is incredibly valuable as I'll detail later. 
+
+Unlike for SWE, you it's very difficult to get hands-on experience on your own. I'm not sure about you, but I personally don't have a $500k lab setup in my bedroom. At this point in our lives, the only way to get lab experience is at school or at work, and apparently not every school offers a ton of hands-on lab exposure. 
+
+EE is a *very* broad field. There's so much out there yet we have so little time at school to explore everything, our undergrad barely covers the fundementals. Internships are a great opportunity to explore what you do and don't want to do in your career. You get a ton of hands-on experience and exposure to a wide variety of real-world topics and it's a great opportunity to pick and choose what you want to continue for your career and focus on in school. 
+
+Interns have a great deal of mobility, we're in and out in three months, no obligations needed. That's why it's the perfect opportunity to explore everything. We know so little but we can learn so much when we're young. One summer go work at a startup, the next go to a big tech company, and after that to defense. Go explore PCB design one summer, computer architecture the next, and analog design after. When you go FTE, you don't get that same level of mobility. You can join a company FTE and leave after three months, see how that goes for you (life pro tip: don't do this!).  There are rotational programs, but that's exactly what internships are for. 
+
+Knowing what you *don't* want to do is just as important as knowing what you *do* want to. I'd rather "waste" a summer doing something I thought I enjoyed but learning that I don't as opposed to actually wasting years of my career doing the same. 
+
+Again, EE is a broad field and we can do a lot with our degree. When you get the "buffet", you figure out what you like and don't like, but none of that experience goes down the drain. You'll know what you like and don't like *at the moment*, but life is dynamic. In a few years when circumstances change, you may want to pivot your career. Your internship "buffet" experience can prove extemely useful in these circumstances where you can make a much better decision having actually experienced a few options. 
+
+Maybe you did an internship at a startup and it turns out you don't like it *right now*, it was fast paced and you had a lot of freedom without the politics. The next summer you move to big tech and wow it's a blast! So you decide to go into big tech to start your FTE career but after a few years, it gets kinda dry and you want out. It's too slow for you and you feel bogged down by office politics. But wait! You did an internship a few years back at that startup free of these exact burdens! No experience is bad experience (ok not always, but you get the idea I'm trying to make here) and having all the background puts you in a very powerful position.
+
 ### Context
+
+School is super conceptual and much of the material often feels disconnected from the industry, which is absolutely true. This isn't really a fault of our EE programs and education system, the conceptual background is very important to become a successful engineer. 
 
 ### New Grad Compensation
 
