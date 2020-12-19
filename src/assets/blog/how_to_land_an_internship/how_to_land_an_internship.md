@@ -285,7 +285,41 @@ So that's the story of why I avoid telling people my year in school and if asked
 
 ### Where to Find Listings
 
-List of companies: 
+Here's a fat list of companies to help you get started. These are typically my first go-to companies that I apply to and since I'm personally interested in tech, there will be a skew there:
+
+- Facebook
+- Apple
+- Amazon
+- Nvidia
+- Google
+- Microsoft
+- Uber (sometimes)
+- Lyft (sometimes)
+- AMD
+- Waymo
+- IBM
+- Tesla
+- Garmin
+- Cisco
+- Intel
+- Broadcom
+- Qualcomm
+- Oculus
+- Dell
+- Analog Devices
+- Texas Instruments
+- ON Semiconductor
+- NXP
+- Infineon
+- TSMC
+- Northrop Grumman
+- Lockheed Martin
+- Oracle
+- SpaceX
+- Microchip
+- Roku
+- Samsung
+- Palo Alto Networks
 
 ### Tracking Your Applications
 
