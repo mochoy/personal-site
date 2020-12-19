@@ -219,6 +219,8 @@ So that's the story of why I avoid telling people my year in school and if asked
 
 ## What do you even want to do?
 
+## Timing
+
 ## Resume
 
 ## Projects
