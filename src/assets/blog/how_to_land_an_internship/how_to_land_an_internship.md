@@ -280,6 +280,10 @@ General questions I usually ask them:
   
 # The Offer!
 
+- School may have policy to extend timeline
+- Bomb offers!!
+- Think about it
+
 ## Compensation
 
 ### Housing/Location
