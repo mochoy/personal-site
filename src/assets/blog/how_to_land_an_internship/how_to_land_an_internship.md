@@ -277,6 +277,16 @@ Even before you send out your first application, there are still a few things I'
 
 ## The Timeline
 
+The earlier you apply, the better, but sometimes companies have their own hiring timeline that don't always align with everyone else. Be sure to keep the timeline into account when building your skills, sometimes you need to make a tradeoff between applications and skill-building. But don't wait, don't procrastinate. It isn't always worth it to wait a few weeks to wrap up that project before sending out applications because those few weeks can be the differnce between securing or loosing that dream internship. That balancing act between applications and skill building is difficult and different for everyone, which is why it's so important to start earlier and know what you're getting yourself into. 
+
+### Summer
+
+### Fall
+
+### Winter
+
+### Spring
+
 ## Getting Started Early
 
 ## What do you even want to do?
