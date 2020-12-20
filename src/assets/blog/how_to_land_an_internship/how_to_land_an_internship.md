@@ -240,6 +240,8 @@ Companies often delegate the same recruiters/hiring managers to manage recruitin
 
 The experience, insight, and information available at career events and interviews are just as important as the internship itself and these resources are available to everyone, you just need to take the initiative and go for it! 
 
+## Getting Your Foot in the Door
+
 ## PTSD
 
 I know it's difficult to land an internship as an underclassman, here's a quick story that basically summarizes the trauma. I was at the career fair after my nine-month Apple co-op looking for internships. It was only my second quarter at school, so being the honest person I am, I claimed that I was a freshman, which was true. I go up to a recruiter the the Texas Instruments (TI) booth, hand her my resume, and do my elevator pitch: "Hi, I'm Monty, I'm a first-year - " and she cut me off after those first six words, handed me back my resume without ever looking at it, and dismissed me with "sorry, we don't hire freshman, company policy" and I believed it so I didn't get too upset.
@@ -275,13 +277,15 @@ There aren't too many resources out there about this stuff so I often hear a ton
 
 Even before you send out your first application, there are still a few things I'd highly recommend getting under your belt to make you a competitive applicant. That being said, don't feel like you need each and every single one of these to be a successful applicant, like I said I don't even have them all. These are sort of a guideline to help you build up your application and it's difficult to juggle schoolwork, extracurriculars, work, and everything. Keep building on everything in parallel, but be sure to consider the timeline. 
 
-## The Timeline
+## The Pre-App Timeline
 
 The earlier you apply, the better, but sometimes companies have their own hiring timeline that don't always align with everyone else. Be sure to keep the timeline into account when building your skills, sometimes you need to make a tradeoff between applications and skill-building. But don't wait, don't procrastinate. It isn't always worth it to wait a few weeks to wrap up that project before sending out applications because those few weeks can be the differnce between securing or loosing that dream internship. That balancing act between applications and skill building is difficult and different for everyone, which is why it's so important to start earlier and know what you're getting yourself into. 
 
 It's very important to apply early because many companies hire on a rolling basis, meaning they start hiring let's say in August, and once they're out of spots, they're out of spots, especially now with Covid where companies might not be able to afford massive intern classes. If you apply to that company in say November when their seats are almost full, it's going to be much more difficult for you to land that internship especially when considering the lengthy interview processes. I got burned by this a few times so watch out! 
 
 Every company has their own timeline, so try to read up on that beforehand for your top companies. Some companies like Microsoft hire their hardware engineers from September - December, other companies like Google and Amazon wait until the winter, and other companies like Apple are team-dependant and will hire summer interns starting as early as the previous July all the way through the year. 
+
+- improve your chances
 
 ### Summer
 
@@ -538,9 +542,17 @@ I have an "everything" resume that just has every single bullet point, project, 
 
 If you don't have tons of resume budget, there are still tons of minor tweaks you can make. For example, my resumes for online applications have the education section on top, but my career fair resumes have education at the bottom because it's the career fair, the recruiter/hiring manager knows that it's Cal Poly and I typically indicate my major/year during my elevator pitch. 
 
+- font type
+
 ### Applicant Tracking System (ATS) Optimization
 
 ### Resume Feedback Loop
+
+- SHare with friends
+- Share online
+- Online tools
+
+- Build off of responses
 
 ## Cover Letters
 
@@ -560,13 +572,20 @@ We're lucky that it's pretty easy to get hands-on experience through personal an
 
 ### Clubs
 
+### Brand Name
+
+- Waterloo
+- Career fair/industry locations
+- HYPSM
+- Phyiscal location
+- Try hard in high school
+- Don't worry if not go to top 
+
 ## Coursework
 
 # Experience
 
 # Applying
-
-- Timeline
 
 ## Hierarchy of Applications
 
@@ -623,6 +642,8 @@ Here's a fat list of companies to help you get started. These are typically my f
 # Online Assessments (OAs)
 
 # Interviews
+
+## The Interview Timeline
 
 ## Screening
 
