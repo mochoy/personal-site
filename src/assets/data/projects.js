@@ -6,6 +6,10 @@ const projects = [
     description: "Personal blog to share posts. Supports commenting and liking posts run on Firebase realtime database.",
     isFeatured: false,
     hideForProd: false,
+    links: { 
+      open: "https://montychoy.com/blog",
+      files: "https://github.com/mochoy/personal-site/tree/blog"
+    },
     categories: ["Software", "Web"]
   },
   {
