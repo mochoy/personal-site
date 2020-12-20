@@ -347,8 +347,7 @@ With that in the back of your mind, here are a few things you can do as an EE. W
   - A lot of board-level/system-level design
   - Faster paced, products often typically released on an annual cadence
   - Your work goes right into the hands of consumers
-  - Typically a big overlap with tech
-  - Some of the best salaries
+  - Typically a big overlap with tech, good salaries (in tech)
   - Companies include:
     - Apple
     - Microsoft
@@ -366,15 +365,56 @@ With that in the back of your mind, here are a few things you can do as an EE. W
     - Akuna Capital
     - Jane Street (no EE internships)
     - DRW (no EE internships)
-- Automotive
-- Networking
-- Equipment 
+- Automotive/Self-Driving/EV:
+  - Companies include:
+    - Tesla
+    - Waymo
+    - Mercedes
+    - Zoox
+    - Lyft/Uber
+- Networking:
+  - Overlap with tech, good salaries (in tech)
+  - Companies include:
+    - Facebook
+    - HP Enterprise
+    - Cisco
+    - Palo Alto Networks
+    - Tencent
+- Equipment:
+  - Companies include:
+    - Keysight
+    - Fluke
+    - Agilent
+    - Tektronix
+    - Anritsu
 - Semiconductors
+  - Companies include:
+    - Nvidia
+    - Qualcomm
+    - Broadcom
+    - Texas Instruments
+    - Analog Devices
 - Robotics
-- Defense
-- Aerospace/Space
-- Power
-- Software Engineering
+  - Companies include:
+    - Boston Dynamics
+    - Amazon Robotics 
+- Defense/Space/Aerospace
+  - Companies include:
+    - NASA
+    - Northrop Grumman
+    - Lockheed Martin
+    - SpaceX/Blue Origin
+    - Boeing
+- Power/Energy/Utility:
+  - Companies include:
+    - PG&E
+- Software Engineering:
+  - Companies include:
+    - Google
+    - AirBnB
+    - Doordash
+    - Stripe
+    - Snap
 - And so much more!!!
 
 ## Getting Started Early
