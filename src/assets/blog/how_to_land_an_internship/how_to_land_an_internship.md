@@ -507,7 +507,14 @@ Resumes are and should be very personalized and target your strengths. These gen
 
 ### Find Resumes you Like
 
+It can be difficult to find creative ways to expand and improve your resume, especially after you feel that you've exhausted most of the advice out there. There's a good chance you didn't, so put that to the test by finding other resumes out there you like and improve your resume based off of those. I think this is a good way to get your resume off the ground and also further improve it from indirect input outside of your mindset. 
 
+For starters, you could ask your friends for their resumes and do a comparison, but there's a good chance those resumes will be very similar to your's just based on many similarities and shared interests. Feel free to check out my resume as well for inspiration. If you're reading this on my personal site, you can find my resumes over in the "About" section on the main page. There aren't too many solid EE resumes floating around out there, so I would also suggest looking into the plethora of SWE resumes out there: 
+
+- [Resumehub](https://www.careeers.org/): Student resumes, most of them are SWEs at top companies
+- [Reddit r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) [exemplary resume](https://www.reddit.com/r/cscareerquestions/comments/ioozqm/official_exemplary_resume_sharing_thread/) [sharing threads](https://www.reddit.com/r/cscareerquestions/comments/k90b9r/official_exemplary_resume_sharing_thread_december/): Users post resumes that have proven successful. Posts like these are posted every three months and at the time of writing this, there are only two threads, but that will continue to grow moving forward.
+
+They actually look awfully similar to solid EE intern resumes, just replace CS with EE and you're good to go and don't put too much emphasis on languages/technologies for projects/experience. Actually there may be a few more things, but you get the main idea. 
 
 ### Include Projects!
 
