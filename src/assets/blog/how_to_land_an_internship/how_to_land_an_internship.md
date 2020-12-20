@@ -337,6 +337,46 @@ That's why I would highly suggest diversifying your applications, especially for
 
 There's also a good shot you actually don't know what you really want to do either. We're young, our classes and experiences only cover a tiny sliver of what's out there. If you really want to work in defense but your first internship is on robotics, you might find out that you really like working on robotics! This goes back to the "no experience is useless experience" idea. It's great to have a focus, but don't always soley strive for that focus when you're first starting out. 
 
+### What's Out There
+
+With that in the back of your mind, here are a few things you can do as an EE. Whatever sounds the most interesting to you, go for it! This is by no means an exhaustive list, there's so much stuff out there I don't know about and it would be impossible to capture that here. Whatever you find the most interesting, please do your own research because there's so much more out there. Additionally, this is my list based off of my experiences and it may be skewed a bit to reflect that. 
+
+- Consumer Electronics: 
+  - Design stuff like your phones, laptops, computers
+  - Typically deal a lot with manufacturing/testing, often with overseas factores
+  - A lot of board-level/system-level design
+  - Faster paced, products often typically released on an annual cadence
+  - Your work goes right into the hands of consumers
+  - Typically a big overlap with tech
+  - Some of the best salaries
+  - Companies include:
+    - Apple
+    - Microsoft
+    - LG
+    - Samsung
+    - Sony
+- High-Frequency Trading (HFT)/Hedge Funds/Quant: 
+  - HFT/hedge funds/quant (I don't really know the difference lol) use computers to quickly analyze the stock market to make money
+  - Work on FPGAs and low-level fast stuff
+  - Wicked high salaries, even for EEs: Remember how I mentioned earlier interns making $20k+/mo? That's here. NG TCs hit up to $500k with only BS for SWEs, EEs trail behind
+  - Much smaller industry compared to others on the list. Even fewer online resources about this
+  - Companies include:
+    - IMC
+    - Jump Trading
+    - Akuna Capital
+    - Jane Street (no EE internships)
+    - DRW (no EE internships)
+- Automotive
+- Networking
+- Equipment 
+- Semiconductors
+- Robotics
+- Defense
+- Aerospace/Space
+- Power
+- Software Engineering
+- And so much more!!!
+
 ## Getting Started Early
 
 ## Resume
