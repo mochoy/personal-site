@@ -624,7 +624,6 @@ If you don't have tons of resume budget, there are still tons of minor tweaks yo
 
 I also use different fonts depending on my resume context. When reading a physical, paper copy, I use a font like Times New Roman because apparently studies show it's easier for people to read physically. For online resumes, I use Arial because those studies also show that fonts like Arial are easer to read on computers/screens. I'm not sure how much this actually matters and I stopped doing it because it got annoying given how many resume variants I maintain, but it's something I was taught in my tech writing class that may come in handy. 
 
-### Applicant Tracking System (ATS) Optimization
 
 ### Resume Feedback Loop
 
@@ -633,6 +632,7 @@ I also use different fonts depending on my resume context. When reading a physic
 - Online tools
 
 - Build off of responses
+### Applicant Tracking System (ATS) Optimization
 
 ## Cover Letters
 
