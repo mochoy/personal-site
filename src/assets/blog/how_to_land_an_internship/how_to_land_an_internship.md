@@ -348,6 +348,7 @@ With that in the back of your mind, here are a few things you can do as an EE. W
   - Faster paced, products often typically released on an annual cadence
   - Your work goes right into the hands of consumers
   - Typically a big overlap with tech, good salaries (in tech)
+  - Many located in San Francisco Bay Area, but also a lot throughout US and China
   - Companies include:
     - Apple
     - Microsoft
@@ -359,6 +360,7 @@ With that in the back of your mind, here are a few things you can do as an EE. W
   - Work on FPGAs and low-level fast stuff
   - Wicked high salaries, even for EEs: Remember how I mentioned earlier interns making $20k+/mo? That's here. NG TCs hit up to $500k with only BS for SWEs, EEs trail behind
   - Much smaller industry compared to others on the list. Even fewer online resources about this
+  - Mostly located in New York and Chicago
   - Companies include:
     - IMC
     - Jump Trading
@@ -366,6 +368,10 @@ With that in the back of your mind, here are a few things you can do as an EE. W
     - Jane Street (no EE internships)
     - DRW (no EE internships)
 - Automotive/Self-Driving/EV:
+  - Make cars, more growth due to rising popularity of EVs and autonomous vehicles
+  - Lots of work with motors/batteries, sensing/computer vision/signal processing, sensors
+  - Some overlap with tech
+  - Tech-focused companies are often in San Francisco Bay Area, but there are tons of opportunies everywhere
   - Companies include:
     - Tesla
     - Waymo
@@ -373,7 +379,10 @@ With that in the back of your mind, here are a few things you can do as an EE. W
     - Zoox
     - Lyft/Uber
 - Networking:
+  - Design servers, data centers, and networking equipment that serves as the foundation of the internet
+  - Work at board/system-level design and custom networking ASICs
   - Overlap with tech, good salaries (in tech)
+  - Tech-focused companies are often in San Francisco Bay Area, but there are tons of opportunies everywhere
   - Companies include:
     - Facebook
     - HP Enterprise
@@ -398,7 +407,8 @@ With that in the back of your mind, here are a few things you can do as an EE. W
   - Companies include:
     - Boston Dynamics
     - Amazon Robotics 
-- Defense/Space/Aerospace
+- Defense/Space/Aerospace:
+  - Often requires US citizenship
   - Companies include:
     - NASA
     - Northrop Grumman
@@ -409,6 +419,10 @@ With that in the back of your mind, here are a few things you can do as an EE. W
   - Companies include:
     - PG&E
 - Software Engineering:
+  - You can be an amazing software engineer with an EE degree!
+  - Code literally everything on this list
+  - Best pay 
+  - Mostly located in San Francisco Bay Area, but many opportunies around the world
   - Companies include:
     - Google
     - AirBnB
