@@ -502,7 +502,7 @@ Wow 10,000 words in and I'm finally getting to the actual application. I hope th
 
 ## Coursework
 
-# Applications
+# Applying
 
 ## Hierarchy of Applications
 
