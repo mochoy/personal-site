@@ -421,11 +421,16 @@ With that in the back of your mind, here are a few things you can do as an EE. W
     - Agilent
     - Tektronix
     - Anritsu
-- Robotics
+- Robotics:
+  - Robots/automation are taking over our lives!
+  - Overlap with tech, good salaries (in tech)
+  - Tech-focused companies are often in San Francisco Bay Area
   - Companies include:
     - Boston Dynamics
     - Amazon Robotics 
 - Power/Energy/Utility:
+  - Keeping our lights on
+  - Not as good pay
   - Companies include:
     - PG&E
 - Software Engineering:
