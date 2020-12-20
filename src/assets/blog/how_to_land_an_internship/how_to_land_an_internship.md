@@ -309,7 +309,7 @@ If you start applying during the summer, you get a better buffer timeline-wise t
 
 ### Fall (August - December)
 
-Fall and winter is when most of the applying happens, you should start applying here! For SWEs, most of the applying is focused in the fall and extends a bit into the winter with most of the available positions considerably dwindling in the spring. During the holidays and breaks, hiring slows down so be sure to take that into consideration. Many companies begin hiring during the fall and have almost everything finalized by the winter, so be sure not to miss that window!
+Fall and winter is when most of the applying happens, you should start applying here! Companies also want to start hiring earlier to poach the best talent. For SWEs, most of the applying is focused in the fall and extends a bit into the winter with most of the available positions considerably dwindling in the spring. During the holidays and breaks, hiring slows down so be sure to take that into consideration. Many companies begin hiring during the fall and have almost everything finalized by the winter, so be sure not to miss that window!
 
 The exact timeline in the fall differs a bit by company, but I begin applying when school starts for me in mid-September and by this time, there area already tons of postings out. This is pretty late so I'd actually suggest to start applying even earlier. In the fall, I typically apply up until around Thanksgiving time if I'm satisfied with my results, otherwise I still continue to apply. Interviews usually happen for me in October - November with a few extending out into December and offers come in November - December. That's a whole three to four months or applying but if I don't find anything good, I'll need to continue into winter.
 
@@ -319,7 +319,11 @@ Ideally, you should have begun applying in the fall and your search has just ext
 
 For SWEs, there aren't too many opportunies left but still plenty remain. For EEs, I don't have exact figures but again there are still many opportunies available. At my school's career fair, there may be a few less companies but there are still a ton. A few companies also exclusively recruit EEs for summer internships during the winter including Amazon, Google, and a few teams at Apple. A team I'm in touch with at Apple recruits for their summer interns in the winter as the fall season is reserved for winter interns. I landed my Summer 2021 internships earlier that winter in February - March, so don't give up!
 
-### Spring (March - Summer)
+### Spring (March - May/June)
+
+If you're still looking or just starting your search in the spring, you're sort of in trouble. There are typically very few opportunies left this close to the summer. I actually hear of people *starting* their search in the spring - don't do this!!! There are still a few opportunies left, but at this point most students have their internships secured. It's rare, but some bigger companies actually do their recruiting in the spring. I got an internship at Qualcomm in April, although I'm not sure if that's their regular schedule or just a Covid anomaly. 
+
+At this point, I would recommend focusing your efforts on smaller and local companies that do have the flexibility to take on interns so close to their start date. There are a few big companies that do limited hiring, I would assume that's just to fill any last minute slots from renegs and other outstanding circumstances, but definitely don't bank on this. 
 
 ## Getting Started Early
 
