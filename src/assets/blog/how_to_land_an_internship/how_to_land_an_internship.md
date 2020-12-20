@@ -715,6 +715,7 @@ Remember, landing an internship is tough. As of writing this, I've sent out 300+
 - HWE - Hardware Engineer: Can refer to EEs or MEs and EEs, but I use it here to mean EE
 - HYPSM - Acronym to refer to the top schools: Harvard, Yale, Princeton, Stanford, MIT. Fun fact, it's pronounced "hip-sum".
 - NG - New Grad: A recent grad/soon to graduate. The hiring process is typically handled by the same group of people that handle intern hiring, university relations (UR)
+- SV - Silicon Valley: The geographical area around the San Francisco Bay Area in California. Home to a ton of tech companies and this area in general for other companies typically offers the highest TC to compensate for the expensive CoL.
 - SWE - Software Engineer
 - [TC - Total Compensation](https://www.levels.fyi/blog/what-is-total-compensation.html): The total amount of money you're making, including stock, signing/starting bonuses, relocation, and other bonuses.
 - UR - Unveristy Relations: A dedicated division of HR to handle the recruiting of NGs and interns. At big companies, there are dedicated teams separate from experienced/industry hires, but at smaller companies, this may not be the case. 
