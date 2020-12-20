@@ -700,6 +700,16 @@ Resources:
 
 ## Don't Let a Bad Experience Ruin Everything
 
+# Key Takeaways
+
+If you've skipped everything, I guess here's a quick tl;dr of the main points
+
+- Apply early
+- Get started early
+- Apply everywhere
+- No experience is useless experience
+- Stay determined! 
+
 # Final Thoughts
 
 Remember, landing an internship is tough. As of writing this, I've sent out 300+ applications and haven't even secured an offer yet. Sure, internships have tons of benefits, but it's not the end of the world of you don't land one. I know tons of people who didn't land internships in school and they're doing great now. Don't get discouraged and keep moving forward! Throughout the application process, even if you get rejected hundreds of times, you're still becoming an even stronger applicant. You'll develop a valuable skillset on navigating the application process that will be utilized again and again and no one can ever take that from you. 
