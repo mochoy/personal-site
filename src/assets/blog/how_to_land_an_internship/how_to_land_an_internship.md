@@ -626,10 +626,12 @@ I also use different fonts depending on my resume context. When reading a physic
 
 ### Resume Feedback
 
+You should be continuously updating your resume, it's not a write-once-and-forget sort of thing. After an initial write/overhaul, proofreads, and a healthy amount of edits, share you resume with your friends, professors, your school's career services center, industry connections, and even online to get feedback. There's a good chance they have some opinions to share that you can take and implement as you see fit. 
 
-- SHare with friends
-- Share online
-- Online tools
+When sharing your resume for review online by strangers, its obviously a good idea to censor out some private info. There are a ton of online communites to give and receive personalized resume feedback, like [r/EngineeringResumes](https://reddit.com/r/EngineeringResumes/) and [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/comments/kg3uv8/resume_advice_thread_december_19_2020/) [resume](https://www.reddit.com/r/cscareerquestions/comments/kdhljw/resume_advice_thread_december_15_2020/) [advice](https://www.reddit.com/r/cscareerquestions/comments/kbldm8/resume_advice_thread_december_12_2020/) [threads](https://www.reddit.com/r/cscareerquestions/comments/k73nru/resume_advice_thread_december_05_2020/) (keeping in mind that the latter is primarily focused for SWEs). People also post on their engineering subreddits for advice, but that isn't the primary purpose. 
+
+I'd also recommend checking out [Resume Worded](https://resumeworded.com/), a super cool free site that uses AI to provide tailored feedback. 
+
 ### Real-World Feedback Loop
 
 - Build off of responses
