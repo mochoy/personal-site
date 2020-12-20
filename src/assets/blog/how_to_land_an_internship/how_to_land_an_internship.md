@@ -516,8 +516,6 @@ Wow 10,000 words in and I'm finally getting to the actual application. I hope th
 
 ## Applying
 
-### Time Management
-
 ### Where to Find Listings
 
 Here's a fat list of companies to help you get started. These are typically my first go-to companies that I apply to and since I'm personally interested in tech, there will be a skew there:
@@ -558,17 +556,19 @@ Here's a fat list of companies to help you get started. These are typically my f
 
 ### Tracking Your Applications
 
+### Time Management
+
 # Online Assessments (OAs)
 
 # Interviews
-
-## On-Sites
 
 ## Screening
 
 ## Technical
 
 ## Behavioral
+
+## On-Sites
 
 ## Questions
 
