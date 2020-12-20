@@ -349,6 +349,18 @@ If you're still looking or just starting your search in the spring, you're sort 
 
 At this point, I would recommend focusing your efforts on smaller and local companies that do have the flexibility to take on interns so close to their start date. There are a few big companies that do limited hiring, I would assume that's just to fill any last minute slots from renegs and other outstanding circumstances, but definitely don't bank on this. 
 
+## Networking
+
+We all hear about how important networking is because it is! I want to put networking earlier in this pre-app section because it ideally precedes a lot of applications and is pretty continuous, you do it all year round, even after landing your internship or even during the actual internship. I'll also throw in more specific networking advice in their dedication sections as they come up. I'm also awkard af and I wouldn't call myself "good" at networking or anything so my networking insights will be more limited compared to everything else. 
+
+### What is Networking? 
+
+### The Power of Networking
+
+### How do I do it? 
+
+- that werid guy
+
 ## What do you even want to do?
 
 Again, EE is a massive field and there's so much out there. Figuring out what you want to do is difficult but it can be helpful to focus your explorations. Even just a "I want to work on spaceships" is very good, you don't need to be super exact, and most of the times, you shouldn't be. You need to play a clever balance between what you want to do, what's available in your reach, and what's out there. You're going to have a tough time landing post grad-level EE research internships at CERN as a freshman for example. 
