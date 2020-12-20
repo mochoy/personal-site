@@ -505,6 +505,10 @@ If you know me irl, hit me up with your resume and I can review it for you. If y
 
 Resumes are and should be very personalized and target your strengths. These general tips worked well for me and another disclaimer, implement these as you see fit to best highlight who you are. 
 
+### Find Resumes you Like
+
+
+
 ### Include Projects!
 
 Projects are also a great way to highlight soft skills like your dedication, motivation, drive, and passion but also demonstrate that you have practical experience which often speaks louder than the standard set of EE courses every EE in the country takes. I'll go over way more about projects later on, but this section will target more on the resume side of things. 
@@ -516,8 +520,6 @@ Feel free to put your school projects as well! I'm not sure how much project-bas
 On my resume, I like to briefly describe the project, including what it does and what features it has. Then, I mention what/how I built it. Depending on how much space, I go more in-depth on the project, targetting the content on the jobs I'm applying for. 
 
 I also name my projects, some of them have their own names if they were hackathon submissions or products I designed, but others are just pure fun and I don't really have a name in mind. When this is the case, I just throw the word "epic" in front of what I built. For example, I'm designing a buck converter, so I call it "Epic Buck Converter" on my resume to make it sound at least 483x cooler. 
-
-### Find Resumes you Like
 
 ### Target Your Resumes
 
