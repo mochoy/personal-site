@@ -391,6 +391,7 @@ With that in the back of your mind, here are a few things you can do as an EE. W
     - Tencent
 - Semiconductors:
   - Design chips like microcontrollers, power management units, wireless chips, audio, logic, etc.
+  - Not as much on physically *making* the chips, that's often handled at semiconductor fabs/foundries
   - Tons of work throughout all of EE
   - Not as good pay
   - Many opportunies everywhere
@@ -400,6 +401,18 @@ With that in the back of your mind, here are a few things you can do as an EE. W
     - Nvidia
     - Qualcomm
     - Broadcom
+- Defense/Space/Aerospace:
+  - Design weapons, missles, jets, planes, satellites, rockets, spacecraft, etc.
+  - Tons of work throughout all of EE, but typically more advanced/expensive because of low volumes
+  - Often requires US citizenship
+  - Not as good pay
+  - Many opportunies everywhere
+  - Companies include:
+    - NASA
+    - Northrop Grumman
+    - Lockheed Martin
+    - SpaceX/Blue Origin
+    - Boeing
 - Equipment:
   - Design test equipment like oscilliscopes, mutlimeters, etc.
   - Companies include:
@@ -412,14 +425,6 @@ With that in the back of your mind, here are a few things you can do as an EE. W
   - Companies include:
     - Boston Dynamics
     - Amazon Robotics 
-- Defense/Space/Aerospace:
-  - Often requires US citizenship
-  - Companies include:
-    - NASA
-    - Northrop Grumman
-    - Lockheed Martin
-    - SpaceX/Blue Origin
-    - Boeing
 - Power/Energy/Utility:
   - Companies include:
     - PG&E
