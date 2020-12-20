@@ -389,20 +389,25 @@ With that in the back of your mind, here are a few things you can do as an EE. W
     - Cisco
     - Palo Alto Networks
     - Tencent
+- Semiconductors:
+  - Design chips like microcontrollers, power management units, wireless chips, audio, logic, etc.
+  - Tons of work throughout all of EE
+  - Not as good pay
+  - Many opportunies everywhere
+  - Companies include:
+    - Texas Instruments
+    - Analog Devices
+    - Nvidia
+    - Qualcomm
+    - Broadcom
 - Equipment:
+  - Design test equipment like oscilliscopes, mutlimeters, etc.
   - Companies include:
     - Keysight
     - Fluke
     - Agilent
     - Tektronix
     - Anritsu
-- Semiconductors
-  - Companies include:
-    - Nvidia
-    - Qualcomm
-    - Broadcom
-    - Texas Instruments
-    - Analog Devices
 - Robotics
   - Companies include:
     - Boston Dynamics
