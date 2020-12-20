@@ -526,7 +526,7 @@ You can also include accomplishments, but I don't have any so I exclude it lol.
 
 ## Resume
 
-There's honestly so much to a resume, even at the intern level, that I think it deserves its own post. There are also tons of resources online that help you get started too, so I'd definitely recommend checking those out first. I'm going to assume you have most of the basics down like:
+There's honestly so much to a resume, even at the intern level, that I think it deserves its own post. There are also tons of resources online that help you get started too, so I'd definitely recommend checking those out first, be sure to specify "engineering resumes" to get a better selection. [Here's an awesome one to start off.](https://www.youtube.com/watch?v=0JmdTN1bBOw&t) I'm going to assume you have most of the basics down like:
   
 - Formatting
 - Check spelling/grammar
@@ -534,8 +534,10 @@ There's honestly so much to a resume, even at the intern level, that I think it 
 - Use action verbs
 - Highlight impact/accomplishments
 - Focus on your Strengths
+- Use bullet points, not paragraphs
+- Keep it one page
 
-and I'll cover some of more tricks that you won't always find in your general "how to write a resume" video. Also keep in mind that I can only give so much general advice but after a point, I really need to see the resume to give good, specific feedback. 
+ I'll cover some of more tricks that you won't always find in your general "how to write a resume" video. Also keep in mind that I can only give so much general advice but after a point, I really need to see the resume to give good, specific feedback. 
 
 If you know me irl, hit me up with your resume and I can review it for you. If you don't, well you're out of luck. jk feel free to send me your resumes for review, but no promises there. But if you're sending me your resume, you better have those basics and these tips here implemented in your resume because I don't want to waste my time giving basic feedback like "you mispelled this" when you should've got those on your own. 
 
