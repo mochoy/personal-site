@@ -518,7 +518,7 @@ They actually look awfully similar to solid EE intern resumes, just replace CS w
 
 ### Include Projects!
 
-Projects are also a great way to highlight soft skills like your dedication, motivation, drive, and passion but also demonstrate that you have practical experience which often speaks louder than the standard set of EE courses every EE in the country takes. I'll go over way more about projects later on, but this section will target more on the resume side of things. 
+Projects are also a great way to highlight soft/personal skills like your dedication, motivation, drive, and passion but also demonstrate that you have practical experience which often speaks louder than the standard set of EE courses every EE in the country takes. I'll go over way more about projects later on, but this section will target more on the resume side of things. 
 
 Everything you put on your resume is an invitation for the interviewer to grill you on it, including your projects. Make sure you can actually talk about your projects: what you did, your design choices, collaboration efforts, etc. It might even look worse to an interviewer to have projects you can't talk about than having no projects at all. 
 
@@ -530,9 +530,13 @@ I also name my projects, some of them have their own names if they were hackatho
 
 ### Target Your Resumes
 
-- strong projects, include it
-- I prefer not to focus on education since there are 20,000 people with the exact same educational background and they all go to my school
-- That's not to say don't emphasize your high GPA, etc. 
+As usual, EE is a big field and one resume may be good for chip-level analog design in the semiconductor industry, but it may not fair as well for FPGA RTL roles. If you have the resume budget, it's typically recommended to target your resumes for specific roles, industries, and/or disciplines to maximize your fit. 
+
+I typically don't individually tailor each and every resume I send out, that would be impractical for the 300+ applications I've sent out this season. I usually hand tailor for roles I'm really interested in, but every other role I apply to gets a "general tailored" resume. I have a general EE resume that I send out to general EE roles, but for roles that indicate a focus on power electronics, board design, or my other strengths get a resume dedicated to that. 
+
+I have an "everything" resume that just has every single bullet point, project, and skill I can even put on a resume. If you're reading this on my blog, you can find my everything resume next to my other resumes in the About section on the home page. It ends up being pretty long, so I cut and trim points to tailor to a specific role/discipline. My customized resumes are just pre-cut versions of my everything resume. I tailor these resumes at the beginning of the application season but sort of leave it at that and don't really touch it again. I have like ten of these resumes that are all descendants of the 'everything' resume, so I make sure to double check that resume like 80 times to make sure it's all good. I don't want to have to individually tweak typos on ten resumes when I find an issue. 
+
+If you don't have tons of resume budget, there are still tons of minor tweaks you can make. For example, my resumes for online applications have the education section on top, but my career fair resumes have education at the bottom because it's the career fair, the recruiter/hiring manager knows that it's Cal Poly and I typically indicate my major/year during my elevator pitch. 
 
 ### Applicant Tracking System (ATS) Optimization
 
