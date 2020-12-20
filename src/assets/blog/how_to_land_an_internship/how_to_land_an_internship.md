@@ -494,26 +494,38 @@ There's honestly so much to a resume, even at the intern level, that I think it 
   
 - Formatting
 - Check spelling/grammar
+- Use professional language 
 - Use action verbs
 - Highlight impact/accomplishments
+- Focus on your Strengths
 
-and I'll cover some of more tricks that you won't always find in your general "how to write a resume" video. Also keep in mind that many times, I can only give so much advice but I really need to see the resume to give good, specific feedback. 
+and I'll cover some of more tricks that you won't always find in your general "how to write a resume" video. Also keep in mind that I can only give so much general advice but after a point, I really need to see the resume to give good, specific feedback. 
 
 If you know me irl, hit me up with your resume and I can review it for you. If you don't, well you're out of luck. jk feel free to send me your resumes for review, but no promises there. But if you're sending me your resume, you better have those basics and these tips here implemented in your resume because I don't want to waste my time giving basic feedback like "you mispelled this" when you should've got those on your own. 
 
-### Focus on your Strengths
+Resumes are and should be very personalized and target your strengths. These general tips worked well for me and another disclaimer, implement these as you see fit to best highlight who you are. 
 
 ### Include Projects!
+
+Projects are also a great way to highlight soft skills like your dedication, motivation, drive, and passion but also demonstrate that you have practical experience which often speaks louder than the standard set of EE courses every EE in the country takes. I'll go over way more about projects later on, but this section will target more on the resume side of things. 
+
+Everything you put on your resume is an invitation for the interviewer to grill you on it, including your projects. Make sure you can actually talk about your projects: what you did, your design choices, collaboration efforts, etc. It might even look worse to an interviewer to have projects you can't talk about than having no projects at all. 
+
+Feel free to put your school projects as well! I'm not sure how much project-based learning other schools have, but a cool class project I put on my resume is a RISC V core I built in my computer design class. Some class projects can be super practical like this one which may catch a hiring manager's eye, especially if they're looking for someone to help with CPU verification where that knowledge directly transfers over. Make sure you know the ins and out of that project though! Often times, many students BS their way through the project for a grade which ends up hurting them in the long run. Take advantage of the fact that you have experts like your professor and TAs to support you and make sure you understand the project very well.
+
+On my resume, I like to briefly describe the project, including what it does and what features it has. Then, I mention what/how I built it. Depending on how much space, I go more in-depth on the project, targetting the content on the jobs I'm applying for. 
+
+I also name my projects, some of them have their own names if they were hackathon submissions or products I designed, but others are just pure fun and I don't really have a name in mind. When this is the case, I just throw the word "epic" in front of what I built. For example, I'm designing a buck converter, so I call it "Epic Buck Converter" on my resume to make it sound at least 483x cooler. 
 
 ### Find Resumes you Like
 
 ### Target Your Resumes
 
-### Applicant Tracking System (ATS) Optimization
-
-- 3 pillars of the resume, focus on your strengths
+- strong projects, include it
 - I prefer not to focus on education since there are 20,000 people with the exact same educational background and they all go to my school
 - That's not to say don't emphasize your high GPA, etc. 
+
+### Applicant Tracking System (ATS) Optimization
 
 ## Cover Letters
 
@@ -522,6 +534,8 @@ If you know me irl, hit me up with your resume and I can review it for you. If y
 ## Personal Website
 
 ## Projects
+
+We're lucky that it's pretty easy to get hands-on experience through personal and class projects as an EE, especially when you have university resources like professors, TAs, labs, other motivated students, etc. It may not be as easy as CS, but it sure is much easier than say nuclear engineering or physics. 
 
 ### Hackathons
 
