@@ -242,6 +242,8 @@ The experience, insight, and information available at career events and intervie
 
 ## Getting Your Foot in the Door
 
+
+
 ## PTSD
 
 I know it's difficult to land an internship as an underclassman, here's a quick story that basically summarizes the trauma. I was at the career fair after my nine-month Apple co-op looking for internships. It was only my second quarter at school, so being the honest person I am, I claimed that I was a freshman, which was true. I go up to a recruiter the the Texas Instruments (TI) booth, hand her my resume, and do my elevator pitch: "Hi, I'm Monty, I'm a first-year - " and she cut me off after those first six words, handed me back my resume without ever looking at it, and dismissed me with "sorry, we don't hire freshman, company policy" and I believed it so I didn't get too upset.
@@ -673,7 +675,7 @@ General questions I usually ask them:
 ## Compensation
 
 ### Total Compensation (TC)
-the total amount of money you're making, including stock, signing/starting bonuses, and other bonuses. These components can be more than 2x your 100k+ salary as a NG and continues to grow as you progress in your career, so salary typically isn't entirely reflective of how much you're actually making. Some industries are more salary-focused, others offer tons of other stocks and bonuses. TC typically refers to FTE comp, but it's also used to refer to intern comp because there are a few components that can make up a large portion of TC, including relocation/housing, transportation, and signing bonus. If you're lucky, a lot of this money can be directly pocketed
+the total amount of money you're making, including stock, signing/starting bonuses, and other bonuses. These components can be more than 2x your 100k+ salary as a NG and continues to grow as you progress in your career, so salary typically isn't entirely reflective of how much you're actually making. Some industries are more salary-focused, others offer tons of other stocks and bonuses. TC typically refers to FTE comp, but it's also used to refer to intern comp because there are a few components that can make up a large portion of TC, including relocation/housing, transportation, and signing bonus. If you're lucky, a lot of this money can be directly pocketed. Typically doesn't include stuff liek 401k, insurance
 
 ### Housing/Location
 
@@ -702,11 +704,18 @@ Remember, landing an internship is tough. As of writing this, I've sent out 300+
 
 # Appendix
 
-- TC
-- NG
-- FAANG
-- AFUNGALMASS
-- YoE
-- FTE
-- SWE
-- ATS
+- AFUNGALMASS - Yet another acronym for top tech companies: Amazon, Facebook, Uber, Netflix, Google, Apple, Lyft, Microsoft, AirBnB, Stripe, Snap. Techies are obsessed with "top companies" and "tiers" and try to cram more and more companies into the "top tier" by appending random letters to the end of FAANG like this: FAANGTLLAUMSDRDR - Facebook, Amazon, Apple, Netflix, Google, Twitter, Lyft, Linkedin, AirBnB, Uber, Microsoft, Snap, Datadog, Roblox, Doordash, Robinhood and it's basically a meme, hence "a fungal mass". This is the term I use the most.
+- Big N - Another reference to the same top tech companies: Yes those techies need this many ways to refer to the same few companies. Big N is wider and more flexible in that the companies aren't "hardcoded" in a pronouncable acronym.
+- FAANG - Acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google. This term originates from finance that captured the fastest growing stocks at the time and just found its way over to tech.
+- FAANGMULAS - Another acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google, Microsoft, Uber, Lyft, Stripe 
+- [TC - Total Compensation](https://www.levels.fyi/blog/what-is-total-compensation.html): The total amount of money you're making, including stock, signing/starting bonuses, relocation, and other bonuses.
+- NG - New Grad: A recent grad/soon to graduate. The hiring process is typically handled by the same group of people that handle intern hiring, university relations (UR)
+- YoE - Years of Experience: Typically doesn't include internships, masters or PhD's may get 1-2 extra years
+- FTE/FT - Full-Time Engineer/Full-Time
+- SWE - Software Engineer
+- HWE - Hardware Engineer: Can refer to EEs or MEs and EEs, but I use it here to mean EE
+- ATS - Applicant Tracking System: Software implemented to track, filter, etc applicants.
+- HFT - High-Frequency Trading: The small industry that uses algorithms and software to make money by predicting the stock market. I use it synonomously with quant, hedge funds, and prop shops because I really don't know the difference. They're known to offer wicked salaries but are very competitive with limited seats because of the small industry size.
+- HYPSM - Acronym to refer to the top schools: Harvard, Yale, Princeton, Stanford, MIT. Fun fact, it's pronounced "hip-sum".
+- UR - Unveristy Relations: A dedicated division of HR to handle the recruiting of NGs and interns. At big companies, there are dedicated teams separate from experienced/industry hires, but at smaller companies, this may not be the case. 
+- HR - Human Resources: The part of a company that deals with recruiting and other people stuff.
