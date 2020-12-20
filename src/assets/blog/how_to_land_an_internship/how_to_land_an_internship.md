@@ -476,11 +476,19 @@ But ultimately, the most important thing about starting early is finding your pa
 
 But maybe you do find out that EE is your passion - even better! My passion in EE is one of the best things that happened to me, it's the intersection between a great career, doing what I love, and amazing pay. When you're truely passionate about something, you will get good at it and you will dedicate all your time and effort into it. Don't have time? Your passion will find you time. 
 
+# Your Application
+
+Wow 10,000 words in and I'm finally getting to the actual application. I hope that helps to illustrate t
+
 ## Resume
 
 - 3 pillars of the resume, focus on your strengths
 - I prefer not to focus on education since there are 20,000 people with the exact same educational background and they all go to my school
 - That's not to say don't emphasize your high GPA, etc. 
+
+## Cover Letters
+
+## Linkedin
 
 ## Projects
 
