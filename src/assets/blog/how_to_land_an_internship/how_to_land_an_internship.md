@@ -301,7 +301,7 @@ This is purely speculative as this hasn't happened to me or anyone else I know, 
 
 If you get invited for a phone screen/interview for an off-season internship, you have some recruiter contacts you can reach out to in the future. You also get an idea of how the interview process works (the more interview experience you have the better!) and if you don't perform up to par, you can always ask for feedback and improve to apply for the summer position a few weeks later with a great advantage.
 
-#### Competing Offers 
+#### Leveraging Other Offers 
 
 If you have a return offer, that return offer may have a deadline. This deadline can be a few weeks or even months after you complete your internship, depending on the company and even your school. If your return offer deadline is within a few weeks of your last day of the internship, that's a tough deadline to meet and make a decision. The whole interview process may take a few weeks and that might not be enough time to go through the entire interview process at your target companies. 
 
@@ -503,9 +503,11 @@ If you know me irl, hit me up with your resume and I can review it for you. If y
 
 ### Focus on your Strengths
 
-### Projects
+### Include Projects!
 
 ### Find Resumes you Like
+
+### Target Your Resumes
 
 ### Applicant Tracking System (ATS) Optimization
 
@@ -547,9 +549,7 @@ If you know me irl, hit me up with your resume and I can review it for you. If y
 
 ## Nepotism
 
-## Applying
-
-### Where to Find Listings
+## Where to Find Listings
 
 Here's a fat list of companies to help you get started. These are typically my first go-to companies that I apply to and since I'm personally interested in tech, there will be a skew there:
 
@@ -587,9 +587,9 @@ Here's a fat list of companies to help you get started. These are typically my f
 - Samsung
 - Palo Alto Networks
 
-### Tracking Your Applications
+## Tracking Your Applications
 
-### Time Management
+## Time Management
 
 # Online Assessments (OAs)
 
