@@ -339,7 +339,7 @@ There's also a good shot you actually don't know what you really want to do eith
 
 ### What's Out There
 
-With that in the back of your mind, here are a few things you can do as an EE. Whatever sounds the most interesting to you, go for it! This is by no means an exhaustive list, there's so much stuff out there I don't know about and it would be impossible to capture that here. Whatever you find the most interesting, please do your own research because there's so much more out there. Additionally, this is my list based off of my experiences and it may be skewed a bit to reflect that, but I have interviewed/received offers from almost every industry on this list. 
+With that in the back of your mind, here are a few industries you can expolre as an EE. I'm not even going to bother with the disciplines since that's something I know even less about. Whatever sounds the most interesting to you, go for it! This is by no means an exhaustive list, there's so much stuff out there I don't know about and it would be impossible to capture that here. Whatever you find the most interesting, please do your own research because there's so much more out there. Additionally, this is my list based off of my experiences and it may be skewed a bit to reflect that, but I have interviewed/received offers from almost every industry on this list. 
 
 - Consumer Electronics: 
   - Design stuff like your phones, laptops, computers
