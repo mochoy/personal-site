@@ -533,9 +533,55 @@ There's honestly so much to a resume, even at the intern level, that I think it 
 - Use professional language 
 - Use action verbs
 - Highlight impact/accomplishments
+- Use numbers to highlight impact
 - Focus on your Strengths
 - Use bullet points, not paragraphs
 - Keep it one page
+- Average time spent reading resume: six seconds
+- If GPA above 3.0 or 3.5, list it, otherwise, leave it off
+- Round up GPA within reason: 3.999 => 4.0
+- Put your highest GPA, whether that's major GPA, overall GPA, etc
+- Unless you're underclassmen or you have outstanding high school experience, leave high school stuff out
+- Keep everything short and concise
+- Cut out useless words
+- 11-12pt font size, don't do ugly stuff like double space
+- Be aware of how much space you have on your page
+- Three main sections: Education, Experience, Projects
+- Relevant coursework under education can be helpful
+- Typically order experience chronologically, but don't be afraid to put more relevant experience first
+- Most important info should be in first third of the page
+- Include links to portfolio, Linkedin, GitHub, etc
+- No images
+- No address, but location can be helpful
+- Keep it black and white
+- Don't use overly pretenious and extravagent language
+- Try not to repeat the same words again and again 
+- Fill in massive gaps of white space
+- Indicate any clubs or other extracurricular activies you're involved in
+- Don't lie
+- Add contact info
+- Use professional email adress
+- Include actual links when appropriate, especially for those reading digitally
+- Remove that ugly https://www. from links
+- Trim links and remove uncessary characters like trailing '/'
+- Try to make links hand-type-friendly for those who have a physical copy but want to check out your links. fasdgadsgdgf.com/gsdfgdfsg654664 isn't hand-type-friendly
+- Underline links to highlight that they're links, not regular text that should be ignored
+- Use **bold** and *italicized* text to draw attention to things, but don't overdo it 
+- No comic sans or rainbow lookin ass font
+- Keep it consistent. I don't want 10pt font here and 15pt font there.
+- Keep headings the same style
+- Name should be biggest text
+- Feel free to add objective statement, but I don't include it
+- Use engineering buzzwords that you're comfortable with
+- Know everything on your resume like the back of your hand
+- Continuously improve and rework your resume
+- Don't acronym-ize everything, stuff like your school should almost fully be spelled out
+- Include any minors or double majors
+- Irrelevant experience is better than no experience
+- Try to occupy the entire page
+- Sell yourself and your accomplishments
+- Highlight teamwork and technical achievements
+- Don't BS anything
 
  I'll cover some of more tricks that you won't always find in your general "how to write a resume" video. Also keep in mind that I can only give so much general advice but after a point, I really need to see the resume to give good, specific feedback. 
 
