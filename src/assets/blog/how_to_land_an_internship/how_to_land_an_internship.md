@@ -347,7 +347,7 @@ With that in the back of your mind, here are a few things you can do as an EE. W
   - A lot of board-level/system-level design
   - Faster paced, products often typically released on an annual cadence
   - Your work goes right into the hands of consumers
-  - Typically a big overlap with tech, good salaries (in tech)
+  - Big overlap with tech, good salaries (in tech)
   - Many located in San Francisco Bay Area, but also a lot throughout US and China
   - Companies include:
     - Apple
@@ -356,9 +356,9 @@ With that in the back of your mind, here are a few things you can do as an EE. W
     - Samsung
     - Sony
 - High-Frequency Trading (HFT)/Hedge Funds/Quant: 
-  - HFT/hedge funds/quant (I don't really know the difference lol) use computers to quickly analyze the stock market to make money
+  - HFT/hedge funds/quant (I don't really know the difference lol) use computers and algorithms to quickly analyze the stock market to make money
   - Work on FPGAs and low-level fast stuff
-  - Wicked high salaries, even for EEs: Remember how I mentioned earlier interns making $20k+/mo? That's here. NG TCs hit up to $500k with only BS for SWEs, EEs trail behind
+  - Wicked high salaries, even for EEs: Remember how I mentioned earlier interns making $20k+/mo? That's here. Top NG TCs hit up to $500k with only BS for SWEs, 1M+ TC after a few YoE, EEs trail behind
   - Much smaller industry compared to others on the list. Even fewer online resources about this
   - Mostly located in New York and Chicago
   - Companies include:
@@ -414,7 +414,7 @@ With that in the back of your mind, here are a few things you can do as an EE. W
     - SpaceX/Blue Origin
     - Boeing
 - Equipment:
-  - Design test equipment like oscilliscopes, mutlimeters, etc.
+  - Design equipment like oscilliscopes, mutlimeters, etc.
   - Companies include:
     - Keysight
     - Fluke
@@ -441,12 +441,40 @@ With that in the back of your mind, here are a few things you can do as an EE. W
   - Companies include:
     - Google
     - AirBnB
-    - Doordash
+    - Amazon
     - Stripe
     - Snap
 - And so much more!!!
 
 ## Getting Started Early
+
+The best thing to help your application is to get started early. EE isn't like SWE where everyone and their mother has been coding since the womb. It's very difficult and expensive to get hands-on EE experience on your own and many EE students didn't choose EE the same way many CS students chose CS. I can not emphasize how important it is to start early, it provides a massive advantage over your peers and gives you a huge leg up when searching for internships. 
+
+I started coding when I was 12 and started to teach myself electronics a few years later at 15. I funded my projects through my summer coding teacher job and starting my own company and my extensive background before entering college is the biggest reason why I landed so many amazing internships.
+
+If you're reading this and you're in high school or even midde school that's awesome you're so far ahead! If not, don't feel disadvantaged, you're the norm! Probably around 95% of EE students don't have any prior EE experience and it's definitely not expected of you, no one will mark you down for not having prior experience. 
+
+The previous section "To Underclassmen" went over *why* you should start early, now the rest of this will detail *what* you can do.
+
+### Arduino
+
+Here are a few tips to those of you starting early. I was also in your shoes and there are tons of resources out there to teach yourself. I may dedicate an entire separate post for this, but here are some quick tips. I'd recommend getting started with Arduino to get your feet wet in electronics and coding. Don't be afraid to code! It's an awesome skill actually make electronics so much easier for you. Try to get a simple Arduino starter kit, you can find them online for as cheap as $20-$30 although there are many fancier kits out there. 
+
+Start small, find an online tutorial to hold your hand, first at blinking an LED, then learn how to use buttons. Learn the fundementals as you go, *why* are things happening the way they are? When you decrease the resistance, why does the LED get brighter? No need to get into any of that complex math, a conceptual understanding is solid. Start working with cool peripherals like sensors, screens, motors, etc. and you basically know enough to make your own game! 
+
+### Google it!
+
+Don't be afraid to Google stuff! If you don't have a technical mentor, it can be intimitating but Google everything! Run into a coding bug? Google it! Want to learn how to use a sensor? Google it!! You have almost everyting known to man at your fingertips. This skill to Google search everything isn't as intuitive as you may think but it will stick with you for the rest of your life. Knowing that the world gets so much smaller when you utilize Google is reassuring. At first, it will be challenging but soon it becomes second nature and your most valuable skill. I recommended Arduino because there are tons of online resources and forums, so when you Google stuff, you'll actually find it! Then, as you move into more complex topics where the Google searches aren't as nice, you'll have the background and intuition on how to navigate the results and find what you need. 
+
+### Your First PCB!
+
+Now that you have a cool project, time to make it robust and mobile on its own PCB! PCBs are awesome projects and there are tons of resources online to hold your hand along the way. There are tons of services to make PCBs for you that are quick and affordable. And plus, they make killer resume projects that you can show off at your interviews!
+
+### Find Your Passion
+
+But ultimately, the most important thing about starting early is finding your passion. Maybe after a few projects, you find that EE isn't for you, coding is way more fun. It's way better to figure that out over a $20 kit and a few hours of your time, that beats $50,000 and a few semesters at school. Many students enter EE not knowing exactly what they want to do and after a few EE classes, they find out that EE isn't for them. I think something like 60-70% of EEs transfer out of the program and I'd rather sacrifice a few hours of my own time in middle school to figure that out. 
+
+But maybe you do find out that EE is your passion - even better! My passion in EE is one of the best things that happened to me, it's the intersection between a great career, doing what I love, and amazing pay. When you're truely passionate about something, you will get good at it and you will dedicate all your time and effort into it. Don't have time? Your passion will find you time. 
 
 ## Resume
 
