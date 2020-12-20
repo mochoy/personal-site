@@ -242,6 +242,12 @@ The experience, insight, and information available at career events and intervie
 
 ## Experience Compounds
 
+The sheer amount of advantage you can achieve just by starting out a few months or years is actually pretty insane. All that experience just keeps adding up faster and faster. Those projects you do in high school can help you land internships in your freshman year, and that internship helps you land even better internships in your sophomore year, and all that just compounds insanely fast, especially because internships are so valuable and internships don't come in big volumes. If you're a really *really* good student, you'll land three - four internships during your undergrad, while a good student may only land one or two. One internship already means *a lot*, now imagine three or four of them. Internship experience typically isn't linear, meaning that four internships is often has way more than 2x the value compared to two internships.  
+
+![starting_early_graph](images/starting_early_graph.png)
+
+Even though this graph isn't scaled and doesn't account for all the variables or anything, I hope it demostrates the main idea of how much advantage you're gaining by starting early. Experience and knowledge compounds, you use previous experience to get more experience. This doesn't account for internship experience or the vast amount of learning resources at your disposal while in college, which would further skew the data in favor of starting in middle school and high school.
+
 ## Getting Your Foot in the Door
 
 When you start getting involved in the intership scene, there's a good chance, even if you're awkward like me, to come across engineers, hiring managers, recruiters, and other students and make valuable networking connections. You never know how valuable these connections can be down the line and the more you have, the better. Recruiters and hiring managers love it when underclassmen network with them, it shows so much dedication and initiative and it could be a pretty good indicator of that student being a killer applicant later on because they're starting this early. 
