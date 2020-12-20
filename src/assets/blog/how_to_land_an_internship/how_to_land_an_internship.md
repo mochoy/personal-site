@@ -339,7 +339,7 @@ There's also a good shot you actually don't know what you really want to do eith
 
 ### What's Out There
 
-With that in the back of your mind, here are a few things you can do as an EE. Whatever sounds the most interesting to you, go for it! This is by no means an exhaustive list, there's so much stuff out there I don't know about and it would be impossible to capture that here. Whatever you find the most interesting, please do your own research because there's so much more out there. Additionally, this is my list based off of my experiences and it may be skewed a bit to reflect that. 
+With that in the back of your mind, here are a few things you can do as an EE. Whatever sounds the most interesting to you, go for it! This is by no means an exhaustive list, there's so much stuff out there I don't know about and it would be impossible to capture that here. Whatever you find the most interesting, please do your own research because there's so much more out there. Additionally, this is my list based off of my experiences and it may be skewed a bit to reflect that, but I have interviewed/received offers from almost every industry on this list. 
 
 - Consumer Electronics: 
   - Design stuff like your phones, laptops, computers
@@ -370,7 +370,7 @@ With that in the back of your mind, here are a few things you can do as an EE. W
 - Automotive/Self-Driving/EV:
   - Make cars, more growth due to rising popularity of EVs and autonomous vehicles
   - Lots of work with motors/batteries, sensing/computer vision/signal processing, sensors
-  - Some overlap with tech
+  - Overlap with tech, good salaries (in tech)
   - Tech-focused companies are often in San Francisco Bay Area, but there are tons of opportunies everywhere
   - Companies include:
     - Tesla
@@ -390,7 +390,7 @@ With that in the back of your mind, here are a few things you can do as an EE. W
     - Palo Alto Networks
     - Tencent
 - Semiconductors:
-  - Design chips like microcontrollers, power management units, wireless chips, audio, logic, etc.
+  - Design chips like microcontrollers, power management, wireless, audio, logic, etc.
   - Not as much on physically *making* the chips, that's often handled at semiconductor fabs/foundries
   - Tons of work throughout all of EE
   - Not as good pay
