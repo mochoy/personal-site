@@ -478,7 +478,15 @@ But maybe you do find out that EE is your passion - even better! My passion in E
 
 # Your Application
 
-Wow 10,000 words in and I'm finally getting to the actual application. I hope that helps to illustrate t
+Wow 10,000 words in and I'm finally getting to the actual application. I hope that helps to illustrate that there's so much that happens before you even write the first line on your resume. 
+
+There are three pillars to your application that gets wrapped up and presented to recruiters/hiring managers in the form of a resume: 
+
+- Experience
+- Projects
+- Education
+
+You can also include accomplishments, but I don't have any so I exclude it lol. 
 
 ## Resume
 
@@ -502,7 +510,11 @@ Wow 10,000 words in and I'm finally getting to the actual application. I hope th
 
 ## Coursework
 
+# Experience
+
 # Applying
+
+- Timeline
 
 ## Hierarchy of Applications
 
