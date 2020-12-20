@@ -490,6 +490,25 @@ You can also include accomplishments, but I don't have any so I exclude it lol.
 
 ## Resume
 
+There's honestly so much to a resume, even at the intern level, that I think it deserves its own post. There are also tons of resources online that help you get started too, so I'd definitely recommend checking those out first. I'm going to assume you have most of the basics down like:
+  
+- Formatting
+- Check spelling/grammar
+- Use action verbs
+- Highlight impact/accomplishments
+
+and I'll cover some of more tricks that you won't always find in your general "how to write a resume" video. Also keep in mind that many times, I can only give so much advice but I really need to see the resume to give good, specific feedback. 
+
+If you know me irl, hit me up with your resume and I can review it for you. If you don't, well you're out of luck. jk feel free to send me your resumes for review, but no promises there. But if you're sending me your resume, you better have those basics and these tips here implemented in your resume because I don't want to waste my time giving basic feedback like "you mispelled this" when you should've got those on your own. 
+
+### Focus on your Strengths
+
+### Projects
+
+### Find Resumes you Like
+
+### Applicant Tracking System (ATS) Optimization
+
 - 3 pillars of the resume, focus on your strengths
 - I prefer not to focus on education since there are 20,000 people with the exact same educational background and they all go to my school
 - That's not to say don't emphasize your high GPA, etc. 
@@ -497,6 +516,8 @@ You can also include accomplishments, but I don't have any so I exclude it lol.
 ## Cover Letters
 
 ## Linkedin
+
+## Personal Website
 
 ## Projects
 
@@ -635,3 +656,4 @@ Remember, landing an internship is tough. As of writing this, I've sent out 300+
 - YoE
 - FTE
 - SWE
+- ATS
