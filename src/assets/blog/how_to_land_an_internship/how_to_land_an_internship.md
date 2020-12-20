@@ -778,6 +778,21 @@ Resources:
 
 ## Don't Let a Bad Experience Ruin Everything
 
+
+# Common Misconceptions
+
+- I NEED to be a junior to get an internship
+- I NEED to match all the job requirements
+- I'm only a freshman, there's nothing I can do
+- I NEED internships to get internships
+- I will start looking for internships in March
+- Projects aren't important
+- Applying online is useless
+- The career fair is useless
+- My uncle works at Google, he'll get me in
+- I already have interviews, I can stop applying now
+- You NEED to put your GPA, no matter how low it is
+
 # Key Takeaways
 
 If you've skipped everything, I guess here's a quick tl;dr of the main points
