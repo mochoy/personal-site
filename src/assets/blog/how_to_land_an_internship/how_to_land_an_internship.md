@@ -66,7 +66,7 @@ The best part is Microsoft/FAANG (an acronym for the top tech companies, typical
 
 Unlike for SWE, there aren't many resources out there to explore EE intern compensation. Here are a few resources for SWE intern compensation, just know that at the same company, EE interns will make slightly less than their SWE counterparts, and this difference extends throughout the entire career.  
 
-For example, At Apple, a first-time EE intern gets put at the $36-$40/hr band while a first time SWE intern gets at the $41-44/hr band. This is similar at Facebook as well where the EE interns get $7k/mo while the SWE inters get $8k/mo. At Microsoft, SWE and EE interns and new grads (NGs) actually receive the same compensation, but this isn't very common, Microsoft is the only company I know that offers this. 
+For example, At Apple, a first-time EE intern gets put at the $36-$40/hr band while a first time SWE intern gets at the $41-44/hr band. This is similar at Facebook as well where the EE interns get $7k/mo while the SWE interns get $8k/mo. At Microsoft, SWE and EE interns and new grads (NGs) actually receive the same compensation, but this isn't very common, Microsoft is the only company I know that offers this. 
 
 ### Explore More Numbers
 
@@ -248,7 +248,7 @@ The sheer amount of advantage you can achieve just by starting out a few months 
 
 ![starting_early_graph](images/starting_early_graph.png)
 
-Even though this graph isn't scaled and doesn't account for all the variables or anything, I hope it demostrates the main idea of how much advantage you're gaining by starting early. Experience and knowledge compounds, you use previous experience to get more experience. This doesn't account for internship experience or the vast amount of learning resources at your disposal while in college, which would further skew the data in favor of starting in middle school and high school.
+Even though this graph isn't scaled and doesn't account for all the variables or anything, I hope it demostrates the main idea of how much advantage you're gaining by starting early, and this gap can be reflected in your TC and career progression. Experience and knowledge compounds, you use previous experience to get more experience. This doesn't account for internship experience or the vast amount of learning resources at your disposal while in college, which would further skew the data in favor of starting in middle school and high school.
 
 ## Getting Your Foot in the Door
 
@@ -305,8 +305,6 @@ It's very important to apply early because many companies hire on a rolling basi
 
 Every company has their own timeline, so try to read up on that beforehand for your top companies. Some companies like Microsoft hire their hardware engineers from September - December, other companies like Google and Amazon wait until the winter, and other companies like Apple are team-dependant and will hire summer interns starting as early as the previous July all the way through the year. 
 
-- improve your chances
-
 ### Summer
 
 Yep, that's right, the summer *before* that next summer's internship. A *whole year* in advanced is when you should start thinking about applications. The summer application season isn't as intense as the fall/winter, but be aware of the timeline. You should be developing your skillset ideally since you were born, but the deadline on that isn't as strict as it is for internships. Many companies open up their applications in June - July of the previous summer and may even close in August or September school begins for you. 
@@ -336,6 +334,8 @@ If you start applying during the summer, you get a better buffer timeline-wise t
 Fall and winter is when most of the applying happens, you should start applying here! Companies also want to start hiring earlier to poach the best talent. For SWEs, most of the applying is focused in the fall and extends a bit into the winter with most of the available positions considerably dwindling in the spring. During the holidays and breaks, hiring slows down so be sure to take that into consideration. Many companies begin hiring during the fall and have almost everything finalized by the winter, so be sure not to miss that window!
 
 The exact timeline in the fall differs a bit by company, but I begin applying when school starts for me in mid-September and by this time, there area already tons of postings out. This is pretty late so I'd actually suggest to start applying even earlier. In the fall, I typically apply up until around Thanksgiving time if I'm satisfied with my results, otherwise I still continue to apply. Interviews usually happen for me in October - November with a few extending out into December and offers come in November - December. That's a whole three to four months or applying but if I don't find anything good, I'll need to continue into winter.
+
+And to further incentivize you to being applying early in the fall and summer, here are some ballpark figures that will scare you away from beginning your application season in the winter or spring. If I had to best guess, I'd say that ~50% of EE internships are filled up by January. This means that if you start applying in January, your chances are basically half that of starting in August, and for your first internship, this can play a massive difference when you need everything you can get. And come spring when I'd guess that 95% of EE internships are filled, your chances are even worse. 
 
 ### Winter (January - March)
 
@@ -502,7 +502,7 @@ But maybe you do find out that EE is your passion - even better! My passion in E
 
 # Your Application
 
-Wow 10,000 words in and I'm finally getting to the actual application. I hope that helps to illustrate that there's so much that happens before you even write the first line on your resume. 
+Wow 10,000 words in and I'm finally getting to the actual application. I hope that helps to illustrate that there's so much that happens before you even write the first line on your resume. That's why preparation and starting early is so helpful, having that time developing your skillset, building projects, etc puts you miles ahead and I can't emphasize this enough. 
 
 There are three pillars to your application that gets wrapped up and presented to recruiters/hiring managers in the form of a resume: 
 
