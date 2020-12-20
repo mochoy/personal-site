@@ -704,18 +704,18 @@ Remember, landing an internship is tough. As of writing this, I've sent out 300+
 
 # Appendix
 
-- AFUNGALMASS - Yet another acronym for top tech companies: Amazon, Facebook, Uber, Netflix, Google, Apple, Lyft, Microsoft, AirBnB, Stripe, Snap. Techies are obsessed with "top companies" and "tiers" and try to cram more and more companies into the "top tier" by appending random letters to the end of FAANG like this: FAANGTLLAUMSDRDR - Facebook, Amazon, Apple, Netflix, Google, Twitter, Lyft, Linkedin, AirBnB, Uber, Microsoft, Snap, Datadog, Roblox, Doordash, Robinhood and it's basically a meme, hence "a fungal mass". This is the term I use the most.
-- Big N - Another reference to the same top tech companies: Yes those techies need this many ways to refer to the same few companies. Big N is wider and more flexible in that the companies aren't "hardcoded" in a pronouncable acronym.
-- FAANG - Acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google. This term originates from finance that captured the fastest growing stocks at the time and just found its way over to tech.
-- FAANGMULAS - Another acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google, Microsoft, Uber, Lyft, Stripe 
-- [TC - Total Compensation](https://www.levels.fyi/blog/what-is-total-compensation.html): The total amount of money you're making, including stock, signing/starting bonuses, relocation, and other bonuses.
-- NG - New Grad: A recent grad/soon to graduate. The hiring process is typically handled by the same group of people that handle intern hiring, university relations (UR)
-- YoE - Years of Experience: Typically doesn't include internships, masters or PhD's may get 1-2 extra years
-- FTE/FT - Full-Time Engineer/Full-Time
-- SWE - Software Engineer
-- HWE - Hardware Engineer: Can refer to EEs or MEs and EEs, but I use it here to mean EE
+- AFUNGALMASS - Yet another acronym for top tech companies: Amazon, Facebook, Uber, Netflix, Google, Apple, Lyft, Microsoft, AirBnB, Stripe, Snap. Techies are obsessed with "top companies" and "tiers" and try to cram more and more companies into the "top tier" by appending random letters to the end of FAANG like this: FAANGTLLAUMSDRDR (Facebook, Amazon, Apple, Netflix, Google, Twitter, Lyft, Linkedin, AirBnB, Uber, Microsoft, Snap, Datadog, Roblox, Doordash, Robinhood) and it's basically a meme, hence "a fungal mass". This is the term I use the most.
 - ATS - Applicant Tracking System: Software implemented to track, filter, etc applicants.
+- Big N - Another reference to the same top tech companies: Yes those techies need this many ways to refer to the same few companies. Big N is wider and more flexible in that the companies aren't "hardcoded" in a pronouncable acronym.
+- FAANG - Acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google. This term originates from finance that captured the fastest growing stocks at the time and just found its way over to tech. It also represents other top-paying tech companies because no one wants to memorize a voltaile achronym that changes three times a day.
+- FAANGMULAS - Another acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google, Microsoft, Uber, Lyft, Stripe.
+- FTE/FT - Full-Time Engineer/Full-Time
 - HFT - High-Frequency Trading: The small industry that uses algorithms and software to make money by predicting the stock market. I use it synonomously with quant, hedge funds, and prop shops because I really don't know the difference. They're known to offer wicked salaries but are very competitive with limited seats because of the small industry size.
-- HYPSM - Acronym to refer to the top schools: Harvard, Yale, Princeton, Stanford, MIT. Fun fact, it's pronounced "hip-sum".
-- UR - Unveristy Relations: A dedicated division of HR to handle the recruiting of NGs and interns. At big companies, there are dedicated teams separate from experienced/industry hires, but at smaller companies, this may not be the case. 
 - HR - Human Resources: The part of a company that deals with recruiting and other people stuff.
+- HWE - Hardware Engineer: Can refer to EEs or MEs and EEs, but I use it here to mean EE
+- HYPSM - Acronym to refer to the top schools: Harvard, Yale, Princeton, Stanford, MIT. Fun fact, it's pronounced "hip-sum".
+- NG - New Grad: A recent grad/soon to graduate. The hiring process is typically handled by the same group of people that handle intern hiring, university relations (UR)
+- SWE - Software Engineer
+- [TC - Total Compensation](https://www.levels.fyi/blog/what-is-total-compensation.html): The total amount of money you're making, including stock, signing/starting bonuses, relocation, and other bonuses.
+- UR - Unveristy Relations: A dedicated division of HR to handle the recruiting of NGs and interns. At big companies, there are dedicated teams separate from experienced/industry hires, but at smaller companies, this may not be the case. 
+- YoE - Years of Experience: Typically doesn't include internships, masters or PhD's may get 1-2 extra years
