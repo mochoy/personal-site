@@ -329,6 +329,8 @@ At this point, I would recommend focusing your efforts on smaller and local comp
 
 Again, EE is a massive field and there's so much out there. Figuring out what you want to do is difficult but it can be helpful to focus your explorations. Even just a "I want to work on spaceships" is very good, you don't need to be super exact, and most of the times, you shouldn't be. You need to play a clever balance between what you want to do, what's available in your reach, and what's out there. You're going to have a tough time landing post grad-level EE research internships at CERN as a freshman for example. 
 
+### Balance Your Focus
+
 You don't always want to focus yourself on one super specific topic or area, especially for your first internship. For example, let's say you want to work on smart phones so you *only* apply to companies that make smart phones like Apple, Samsung, Huawei, Oppo, Xiaomi, Google, and Microsoft. Well these are all very competitive companies and there's a good chance, especially for your first internship, you get rejected from all of them. Well if that's the case, since you *only* applied to these companies, you're sort of out of luck. 
 
 That's why I would highly suggest diversifying your applications, especially for your first internship. As you get more and more internship experience and discover where you want to take your career and gain valuable, localized experience, it makes more sense to apply to more specific roles. For your first internship, you want to cast a wide net, you might not get exactly what you want, but an internship in something you 60% enjoy is better than no internship at all. Any experience is super valuable and you can use that first internship as a stepping stone into stuff you really want to do.
