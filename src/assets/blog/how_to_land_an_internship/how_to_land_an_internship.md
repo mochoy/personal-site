@@ -307,11 +307,11 @@ If you have a return offer, that return offer may have a deadline. This deadline
 
 If you start applying during the summer, you get a better buffer timeline-wise to get competing offers and decide where you want to continue at next summer. These competing offers can help with internship negotiation (yep that's a thing!) and just open up more doors for you. Even if a company hasn't begun their recruiting pipeline yet, if you have the contact info of a recruiter or hiring manager, you may be able to expediate that process using a competing return offer as leverage. 
 
-### Fall
+### Fall (August - December)
 
-### Winter
+Fall and winter is when most of the applying happens. For SWEs, most of the applying is focused in the fall and extends a bit into the winter with most of the available positions considerably dwindling in the spring. During the holidays and breaks, hiring slows down so be sure to take that into consideration. Many companies begin hiring during the fall and have almost everything finalized by the winter, so be sure not to miss that window!
 
-### Spring
+The exact timeline in the fall differs a bit by company, but I begin applying when school starts for me in mid-September and by this time, there area already tons of postings out. This is pretty late so I'd actually suggest to start applying even earlier. In the fall, I typically apply up until around Thanksgiving time if I'm satisfied with my results, otherwise I still continue to apply. Interviews usually happen for me in October - November with a few extending out into December and offers come in November - December. That's a whole three to four months or applying but if I don't find anything good, I'll need to continue into winter.
 
 ## Getting Started Early
 
