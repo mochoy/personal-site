@@ -36,6 +36,10 @@
   margin-left: 2em;
 }
 
+#BlogDetail #TableOfContents #links-container .hh4 {
+  margin-left: 3em;
+}
+
 #BlogDetail #TableOfContents #links-container a {
   display: block;
   padding-left: 3px;
