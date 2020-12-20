@@ -192,6 +192,8 @@ It's very difficult to land internships as a freshman or sophomore and especiall
 
 I wanted to highlight this section so that the underclassmen can see something and say "Hey! this applies to me! I'll actually read it!" instead of skimming through 20000 words of nonsense (this is my guess at how long this post will be upon writing this, I'm currently at ~4500). I have another section below targetted at underclassmen, but this section will focus on *why* you should start building on your skills now and later on, I'll go over *what* specific things you can do starting early to give yourself the best advantage later on. 
 
+This will be emphasized so much: get started early. The best time to get started was yesterday, but the second-best time is *now*. If I could attribute my internship success to one thing that's under my control, it would be that I started early. 
+
 ## It's Intimidating
 
 I get it, I was also in your shoes. Seeing those big, bearded, smart-looking EEs practicing sorcery is intimidating. "I'm not good enough". "I'll just try later when I get better". "Nobody wants me". Face-to-face/social networking events like career fairs exacerbate these feelings tenfold. These are all valid emotions. Everyone gets these feelings. My friend with a 4.0 GPA still gives me that "I'm not good enougggghhhhh" when she has a **4.0 GPA**. Wanna hear another secret? I still get these feelings. I have two top internships, tons of projects, and tons of passion, and I still feel inadequate. You were looking for tips from me on how to get past those feelings weren't you? Well if you find them, feel free to let me know because I'm also looking. 
