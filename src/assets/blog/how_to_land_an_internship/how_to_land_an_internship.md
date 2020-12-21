@@ -662,6 +662,20 @@ Unfortunately, it's much more difficult to test how well your profile is receive
 
 ### Skills Section
 
+A dedicated section to list your skills helps to pass the ATS's buzzword analysis and I'd recommend throwing adding this section into your resume. It's more applicable for engineering resumes and I see it very often on SWE resumes where it's important to highlight their languages, framworks, libraries, and technologies. For EE, it's not as important but it's still very helpful. 
+
+A lot of the content in this section has come up again and again during interviews for me, it's one of those sections I continue to craft based on my recruiting experiences. I've been through a few interviews where my interviewer was asking me questions directly on the keywords I had under my skills section, I saw them circling and dotting right in that section lol. EE is a big field and many interviewers don't want to ask you stuff they know you don't know. Adding a "relevant coursework" list can help, but there are many common interview skills and topics that typically aren't covered in class so this skills section is a quick way to highlight some skills you have outside the classroom and demonstrate your strengths. 
+
+When first starting out on this section, I like to divide up between HW and SW skills. I list good SW skills that crossover to HW like C, C++, Python, and Matlab. I try to keep it under one line because my resume is HW focused, SW skills are just the cherry on top. 
+
+Then I list off my HW skills and topics I'm very comfortable with like I2C, SPI, UART, buck converters, motor drives, etc. If I see that many points can be catagorized into its own group, I do that. On my resume, I have a dedicate list for power electronics to include stuff like LiPo batteries, motor drives, buck converters, LDOs, etc. Most of the things I list here are more practical, but some good school material you can put include: controls, circuits, computer architecture, assembly, digital design, signal processing, MOSFETs, TTL/CMOS, transmision lines, etc. 
+
+I typically don't add a dedication list for equipment/software, but I see it a few times. If you have experience with scopes, DMMs, VNAs, power supplies, etc. or Eagle, Cadence, Altium, Matlab, etc, it could be a good idea to list them. I actually found out recently that many schools don't have too much hands-on lab experience with this sort of equipment/software, so listing these could give you a leg up above those other students. 
+
+Like everything else on your resume though, but sure to list things that you're comfortable with because this is basically a list of what the interview should grill you on. If you find that some items on your list are harder than expected, that's a good sign to remove it or review the material. 
+
+Of course don't lie. Your "thermoquantum electromagenonized MUUGUFET circuits" might impress a clueless recruiter, but good luck talking about random nonsense with an engineer who actually knows what they're doing. One time when I was like ten, I saw my dad working on some resume/job stuff and noticed some random technical term and askin him what it was. He said he made it up to get past recruiters or something, but I still to this day don't know if he was serious about that or if he just didn't want to explain some technical stuff to a ten-year-old.
+
 ## Cover Letters
 
 ## Linkedin
