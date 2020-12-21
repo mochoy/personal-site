@@ -559,7 +559,7 @@ There's honestly so much to a resume, even at the intern level, that I think it 
 - Fill in massive gaps of white space
 - Indicate any clubs or other extracurricular activies you're involved in
 - Don't lie
-- Add contact info
+- Add contact info like email address and phone number
 - Use professional email adress
 - Include actual links when appropriate, especially for those reading digitally
 - Remove that ugly https://www. from links
@@ -582,6 +582,7 @@ There's honestly so much to a resume, even at the intern level, that I think it 
 - Sell yourself and your accomplishments
 - Highlight teamwork and technical achievements
 - Don't BS anything
+- If you're a senior, avoid using your school email that may get deleted upon graduation
 
  I'll cover some of more tricks that you won't always find in your general "how to write a resume" video. Also keep in mind that I can only give so much general advice but after a point, I really need to see the resume to give good, specific feedback. 
 
