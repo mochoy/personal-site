@@ -689,7 +689,17 @@ Of course don't lie. Your "thermoquantum electromagenonized MUUGUFET circuits" m
 
 I'm going to be honest, I've only written two cover letters in my entire life, and they were both for summer jobs in high school. I've never written cover letters when applying to internships, it's just not practical for 300+ applications. Most positions that I apply to don't even have places to upload them and they're rarely even looked at from my understanding. Unless your industry requires it or you really want to go the extra mile, I'd advise against cover letters for the sake of time.
 
-## Linkedin
+## LinkedIn
+
+LinkedIn can be a very powerful tool to help you in your job search. I don't use LinkedIn too much for my search, so I can't provide too many insights there. I've only landed one or two interviews on LinkedIn and I haven't had any luck reaching out to recruiters either. Maybe it's because of my atrocious LinkedIn profile picture, but that's literally a meme and this point and must be preserved. If you're looking to leverage LinkedIn in your internship search (which I'd highly recommend!), you may need to look elsewhere to get more valuable and actionable information. 
+
+I have used LinkedIn to apply for a few jobs via LinkedIn Jobs, it offers a nice list of internship postings all compiled in one location which helps a ton with convenience. LinkedIn can also be helpful to expand your network. I've had someone reach out to me to talk about my internship experience and I was more than happy to help out with that. 
+
+I've had interviewers and recruiters view my LinkedIn profile, but I suspect those were through online applications I sent out. If my interviews/screenings went well, I usually add my interviewer on LinkedIn as well. I'm actually not sure how normal this is, but most of them do end up accepting my requests and I do this because I genuinley want to connect with them. 
+
+I suppose I could reach out to those interviewers in the future, but I don't think I've ever done that before. I usually have my recruiters' emails which since that's our primary point of contact and if I need to get in touch, it happens through email. If I'm trying to find an entry point into a company, I think the recruiter is a better for that instead of the interviewer. 
+
+In terms of career opportunies over LinkedIn, on of my intern friends at Apple actually landed his internship through LinkedIn. He was interning at another company in SV at the time and an interviewer reached out to him over LinkedIn over the summer to attend basically a mini Apple career fair at one of Apple's campuses. He ended up getting the internship! (well I sorta spoiled that part). LinkedIn is very powerful, but I have yet to unlock its full power. 
 
 ## Personal Website
 
