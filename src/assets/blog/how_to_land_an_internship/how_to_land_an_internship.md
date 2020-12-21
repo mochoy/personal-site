@@ -624,6 +624,8 @@ If you don't have tons of resume budget, there are still tons of minor tweaks yo
 
 I also use different fonts depending on my resume context. When reading a physical, paper copy, I use a font like Times New Roman because apparently studies show it's easier for people to read physically. For online resumes, I use Arial because those studies also show that fonts like Arial are easer to read on computers/screens. I'm not sure how much this actually matters and I stopped doing it because it got annoying given how many resume variants I maintain, but it's something I was taught in my tech writing class that may come in handy. 
 
+If you're applying to opportunies in the US, unfortunately there's lots of bias agianst foreign-sounding names. This obviously shouldn't be the case, but often times it is and if you're getting frustrating results, try changing your name on your resume to a more "western" sounding name and you'd be surprised at the results. I hear of people changing their name on their resume to their more western "nickname" and getting way more callbacks and interviews. It's unfortunate but that's just how it is sometimes. 
+
 ### Resume Feedback
 
 You should be continuously updating your resume, it's not a write-once-and-forget sort of thing. After an initial write/overhaul, proofreads, and a healthy amount of edits, share you resume with your friends, professors, your school's career services center, industry connections, and even online to get feedback. There's a good chance they have some opinions to share that you can take and implement as you see fit. 
