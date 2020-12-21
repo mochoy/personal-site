@@ -650,6 +650,18 @@ In my experience, I noticed that my SWE internship wasn't being mentioned as muc
 
 ### Applicant Tracking System (ATS) Optimization
 
+Many larger companies simply receive too many applications to read and manage each one, so they use Application Tracking Systems (ATS). ATS can parse your resume to look for keywords, for example, and see if you meet some sort of bar there. If you indicated that you're not a US citizen for a defense role, there's a good chance the ATS will auto-reject you. 
+
+ATSs are necessary for big companies like Google and Apple who receive a few million applications every year for only a couple thousand spots, so it definitely makes sense to have that process be automated. ATSs may not be as much a concern with smaller companies, though I don't have too much legitimate data to back that up. I think some recruiting software like Lever do have some ATS capabilities and Lever is often used by smaller companies as well.
+
+Most interns and even hiring managers aren't too involved on the ATS side of things, so my information on this won't be as thorough simply because I don't have much background on it. That being said, there still are ways to optimize your profile to best improve your chances through the ATS and get your resume in front of real eyes. The ATS or other computerized systems may filter out profiles and even reject them automatically without your profile ever seeing the light of day, so that's why it's critical to make sure your profile is ATS-ready.
+
+The first thing I'd recommend is to avoid fancy formatting like tables and two-column layouts. These look really nice on paper to our eyes, but ATS don't have eyes and it can be difficult for them to parse through unusual text. 
+
+Unfortunately, it's much more difficult to test how well your profile is received by an ATS, especially from the outside as an applicant. You can't ask the ATS 'hey! why'd you reject me?!'. Luckily, there are a few tools to help characterize how well a computer can analyze your resume. There's of course [Resume Worded](https://resumeworded.com/) and a few others like [cvlizer](https://www.joinvision.com/en/products/cvlizer/), but there aren't too many out there and I'm not sure how well they compare to what companies actually use. Alternatively, you can leverage job applications that auto-fill fields after uploading your resume like Workday and Taleo and see how those do. 
+
+### Skills Section
+
 ## Cover Letters
 
 ## Linkedin
