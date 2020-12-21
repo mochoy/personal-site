@@ -703,6 +703,14 @@ In terms of career opportunies over LinkedIn, on of my intern friends at Apple a
 
 ## Personal Website
 
+I'm actually not sure how much my personal website helps in terms of the application process, but I think my website is baller af and I'd highly suggest building one yourself if you have the time. If you're reading this on my website, feel free to check out the main page by navigating to "Home" in the navbar to check it out. I think my website deserves a few blog dedicated blog posts, so this section will just focus briefly how it helps the application. 
+
+I like to think of my website like an extended, more personalized resume. It's sort of like a resume in that it only helps me land the interview, but it won't carry me to the offer. It has almost everything I've ever done which would normally fill multiple resumes. It also has tons of pictures and visuals so the potential interviewers can actually see what I'm up to. It's also more personalized because it's *my* website. Of course I remain professional, but a lot of my descriptions have more me to them. Check out the "About Me" or "Experience" section for an example. I wouldn't necessarily put stuff like that on my resume, but for my personal website, it's totally fine. 
+
+Many of my interviewers have actually checked out out my personal website and my company's website prior to our interviews and mention it which just feels awesome. They actually get to see my pictures of my project and explore my ~40 projects beyond those 2-3 I include on my resume. 
+
+Unless you run some hate website or something, a personal website can only help your application, but it takes a lot of time and effort to build and maintain, especially if you don't already have the skillset. Personal websites are more important for SWEs, but even for them it's not that important. Don't feel at all like you need to have a personal website, it's nice icing on the cake but it's probably one of the weakest points of my profile. I'm the only EE student I know that runs and maintains their own website coded from scratch, meaning that literally every other EE student I know has landed amazing internships without a website.
+
 ## Projects
 
 Now with the resume/supplementing resources out of the way, let's get more into the actual meat of your resume, the three pillars of a successful resume: education, experience, and projects. I'm putting projects first because that's typically what you have the most control over. 
