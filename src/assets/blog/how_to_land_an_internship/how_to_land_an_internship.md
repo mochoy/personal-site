@@ -636,7 +636,18 @@ I'd also recommend checking out [Resume Worded](https://resumeworded.com/), a su
 
 ### Real-World Feedback Loop
 
-- Build off of responses
+Ok now with your resumed reviewed and as solid as possible, it's time to put it out there. But even now, your resume still has room to improve and possibly the best feedback you can get is from those actually reviewing your resume and deciding how to proceed. There's obviously the easy way, directly ask your interviewers/recruiter on resume feedback, but this does't always work because most of the time, you get ghosted or rejected without ever seeing the anyone. I've sent out ~300 applications this season with only sixteen of these landing me interviews, that's a response rate of ~5%, only sixteen opportunies to actually get human feedback from the inside. 
+
+Despite this, I can still use all of these rejections to continue to improve my resume. I play around with my resume, sending a few out and see how those fair. If I don't hear anything back after 50+ resumes, that points to an issue with my resume and I need to figure out what went wrong. This obviously isn't the best way to improve your resume, but it's certainly better than nothing. 
+
+When you do get face-to-face (or zoom-to-zoom now) conversations with your hiring managers/recruiters, there are other ways to get valuable feedback without directly asking them. Notice where how your conversation evolves and what topics are being brought up, especially when in reference to your resume content. If over many interviews, your Arduino project gets brought up a lot, that may be a good sign to emphasize it more and de-emphasize other projects to dedicate more space for that Arduino project. If your that Arduino project comes up more often than your coding teacher job, that may also be a good sign to restructure your resume and put that Arduino project before the coding teacher job. 
+
+Also notice what's not being mentioned. If no one talks about your robotics club from high school, that may be a good sign that it's not as significant as you thought it was. Your resume has very limited real estate and every line is extremely valueable so you want to pack as much as possible. 
+
+But before you start gutting stuff out left and right, be sure to get a wide sample size to make sure your experience actually reflects what's out there. If most of your interviewers are on power electronics team, you might not get as much attention on your digital design projects. If you're shooting for power electronics roles, that may be a good sign to remove to re-evaluate that digital design project, but if you're just looking for general EE roles, leaving that digital project would probably be a good iea. 
+
+In my experience, I noticed that my SWE internship wasn't being mentioned as much, it at all. This was expected, but I didn't anticipate that internship to get as little attention as it did. I actually went ahead and moved my EE internship to the top and cut down my SWE internship down to 2-3 lines to give more space for my EE internship to shine. There's also the general rule to put most recent experience at the top, but I've found great success bending that a bit in this situation. 
+
 ### Applicant Tracking System (ATS) Optimization
 
 ## Cover Letters
