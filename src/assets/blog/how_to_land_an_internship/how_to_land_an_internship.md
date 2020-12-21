@@ -686,13 +686,17 @@ Of course don't lie. Your "thermoquantum electromagenonized MUUGUFET circuits" m
 
 ## Cover Letters
 
+I'm going to be honest, I've only written two cover letters in my entire life, and they were both for summer jobs in high school. I've never written cover letters when applying to internships, it's just not practical for 300+ applications. Most positions that I apply to don't even have places to upload them and they're rarely even looked at from my understanding. Unless your industry requires it or you really want to go the extra mile, I'd advise against cover letters for the sake of time.
+
 ## Linkedin
 
 ## Personal Website
 
 ## Projects
 
-We're lucky that it's pretty easy to get hands-on experience through personal and class projects as an EE, especially when you have university resources like professors, TAs, labs, other motivated students, etc. It may not be as easy as CS, but it sure is much easier than say nuclear engineering or physics. 
+Now with the resume/supplementing resources out of the way, let's get more into the actual meat of your resume, the three pillars of a successful resume: education, experience, and projects. I'm putting projects first because that's typically what you have the most control over. 
+
+We're lucky that it's relatively easy to get hands-on experience through personal and class projects as an EE, especially when you have university resources like professors, TAs, labs, other motivated students, etc. It may not be as easy as CS, but it sure is much easier than say nuclear engineering or physics. 
 
 ### Hackathons
 
