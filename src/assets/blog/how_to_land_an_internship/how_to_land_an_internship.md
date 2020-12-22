@@ -757,8 +757,12 @@ When you're building your projects, there's a good chance your classes didn't te
 ## School
 
 ### Professors
+### Grades
 
 ### Clubs
+- higher gpa obviously better
+- put highest gpa on your resume
+- balance school, projects, etc
 
 ### Brand Name
 
