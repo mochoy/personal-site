@@ -738,7 +738,9 @@ These traits that get demonstrated by having side projects are also the same tra
 
 ### Developing a Focus
 
-- help to focus 
+Aside from internships, projects are one of the best ways to develop your EE focus and where to target your career, especially because you can do them on your own/with friends on the side. Want to get into power electronics? Design your own buck converter on a PCB. Want to get into computer architecture? Design your own RISC V core. Want to get into robotics? Design your own motor controller. I can go on and on, but you get the idea. 
+
+Many schools offer technical electives to help focus your studies on a particular topic, but those may not be available until later on, maybe too late to be leveraged for the internship search. With only the standard EE classes under your belt, your side projects tell that recruiter or hiring manager what your interests and skillsets are so they can best match you accordingly. 
 - you learn a lot
 - projects are like resume, don't help you land offer, but will carry you through interviews 
 
