@@ -540,6 +540,9 @@ There's honestly so much to a resume, even at the intern level, that I think it 
 - Use numbers to highlight impact
 - Focus on your Strengths
 - Use bullet points, not paragraphs
+- Bullet points should establish context, action, and results
+- Bullet points should be able to stand on their own, they shouldn't *need* other bullet points to make sense
+- Sub-bullet points can be used to break down big projects or go more in-depth
 - Keep it one page
 - Average time spent reading resume: six seconds
 - If GPA above 3.0 or 3.5, list it, otherwise, leave it off
@@ -554,7 +557,7 @@ There's honestly so much to a resume, even at the intern level, that I think it 
 - Relevant coursework under education can be helpful
 - Typically order experience chronologically, but don't be afraid to put more relevant experience first
 - Most important info should be in first third of the page
-- Include links to portfolio, Linkedin, GitHub, etc
+- Include links to portfolio, LinkedIn, GitHub, etc
 - No images
 - No address, but location can be helpful
 - Keep it black and white
@@ -572,7 +575,7 @@ There's honestly so much to a resume, even at the intern level, that I think it 
 - Underline links to highlight that they're links, not regular text that should be ignored
 - Use **bold** and *italicized* text to draw attention to things, but don't overdo it 
 - No comic sans or rainbow lookin ass font
-- Keep it consistent. I don't want 10pt font here and 15pt font there.
+- Keep it consistent. I don't want 10pt font here and 15pt font there. Everything of the same type should also have the same styles, don't italicized one date and not the others.
 - Keep headings the same style
 - Name should be biggest text
 - Feel free to add objective statement, but I don't include it
