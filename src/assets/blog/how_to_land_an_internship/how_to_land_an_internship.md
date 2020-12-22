@@ -922,9 +922,12 @@ the total amount of money you're making, including stock, signing/starting bonus
 Resources: 
 - https://www.levels.fyi/blog/what-is-desired-salary-and-compensation.html
 
+## Rejecting Offers
+
 # Misc.
 
 - like FTE search
+- If you don't get an internship, it's not the end of the world
 
 ## Luck
 
@@ -932,6 +935,7 @@ Resources:
 
 ## Don't Let a Bad Experience Ruin Everything
 
+## Your School's Career Services
 
 # Common Misconceptions
 
@@ -946,20 +950,27 @@ Resources:
 - My uncle works at Google, he'll get me in
 - I already have interviews, I can stop applying now
 - You NEED to put your GPA, no matter how low it is
+- It's already [month], it's too late
+- Internships aren't that useful
+- Interns get paid minimum wage/unpaid
+- Interns just do coffeeboy tasks
 
 # Key Takeaways
 
 If you've skipped everything, I guess here's a quick tl;dr of the main points
 
-- Apply early
 - Get started early
+- Do projects
+- Apply early
 - Apply everywhere
-- No experience is useless experience
+- No experience is useless experience, no knowledge is useless knowledge
 - Stay determined! 
 
 # Final Thoughts
 
 Remember, landing an internship is tough. As of writing this, I've sent out 300+ applications and haven't even secured an offer yet. Sure, internships have tons of benefits, but it's not the end of the world of you don't land one. I know tons of people who didn't land internships in school and they're doing great now. Don't get discouraged and keep moving forward! Throughout the application process, even if you get rejected hundreds of times, you're still becoming an even stronger applicant. You'll develop a valuable skillset on navigating the application process that will be utilized again and again and no one can ever take that from you. 
+
+- will go over fte search if interested
 
 # Appendix
 
