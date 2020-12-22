@@ -750,16 +750,24 @@ Many schools offer technical electives to help focus your studies on a particula
 
 When you're building your projects, there's a good chance your classes didn't teach you everything about everything and you'll need to do a ton of digging on your own. You'll learn a lot and all these information and skills you're picking up won't go to waste. Projects aid your resume, they'll help you get the interview but won't carry you through the interviews, but that's where all that experience from your projects come into play. All that extra reading and self teaching, even the information that isn't implemented in your projects, can come into play during the interviews and will also rollover into the internship. 
 
+I hope nearly 1000 words on the significance of projects helps to convice you to do your own projects (hint: prjects are super important!). Now, I'll go over more on that *what you can do* side of the projects and how to make the most of them. 
+
 ### Starting Off
+
+
+
+### Ideas
 
 ### Hackathons
 
+### Teach Yourself
+
+### Sharing Projects
+
 ## School
 
-### Professors
 ### Grades
 
-### Clubs
 - higher gpa obviously better
 - put highest gpa on your resume
 - balance school, projects, etc
@@ -773,9 +781,13 @@ When you're building your projects, there's a good chance your classes didn't te
 - Try hard in high school
 - Don't worry if not go to top 
 
-## Coursework
+### Professors
 
-# Experience
+### Clubs
+
+### Coursework
+
+## Experience
 
 # Applying
 
