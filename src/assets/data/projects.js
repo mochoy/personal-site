@@ -19,6 +19,7 @@ const projects = [
     description: "LTspice simulation of buck converter. Similations first, then do a board.",
     isFeatured: false,
     hideForProd: true,
+    links: {},
     categories: ["Hardware"]
   },
   {
