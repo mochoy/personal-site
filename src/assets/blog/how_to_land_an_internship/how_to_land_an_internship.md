@@ -700,7 +700,11 @@ I'm going to be honest, I've only written two cover letters in my entire life, a
 
 LinkedIn can be a very powerful tool to help you in your job search. I don't use LinkedIn too much for my search, so I can't provide too many insights there. I've only landed one or two interviews on LinkedIn and I haven't had any luck reaching out to recruiters either. Maybe it's because of my atrocious LinkedIn profile picture, but that's literally a meme and this point and must be preserved. If you're looking to leverage LinkedIn in your internship search (which I'd highly recommend!), you may need to look elsewhere to get more valuable and actionable information. 
 
-I have used LinkedIn to apply for a few jobs via LinkedIn Jobs, it offers a nice list of internship postings all compiled in one location which helps a ton with convenience. LinkedIn can also be helpful to expand your network. I've had someone reach out to me to talk about my internship experience and I was more than happy to help out with that. 
+I have used LinkedIn to apply for a few jobs via LinkedIn Jobs, it offers a nice list of internship postings all compiled in one location which helps a ton with convenience. 
+
+LinkedIn can also be helpful to expand your network. I've had someone reach out to me to talk about my internship experience and I was more than happy to help out with that. I hear of people reaching out to engineers and recruiters in a company they're interested and many times, there won't be a response but that one response can be all you need to get your foot in the door to land that internship. 
+
+People often post their application and interview experience, offering helpful tips and advice that I may not have personally experienced or covered here. There are LinkedIn "influencers" who offer periodic content because they also know how difficult the job market can be. The big one I see is Wonsulting/Jonathan Javier + Jerry Lee, they often post tons of awesome content to help students land internships/jobs, a lot of which I don't cover here because I haven't experienced it myself.
 
 I've had interviewers and recruiters view my LinkedIn profile, but I suspect those were through online applications I sent out. If my interviews/screenings went well, I usually add my interviewer on LinkedIn as well. I'm actually not sure how normal this is, but most of them do end up accepting my requests and I do this because I genuinley want to connect with them. 
 
