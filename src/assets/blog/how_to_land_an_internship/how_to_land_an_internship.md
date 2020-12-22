@@ -793,13 +793,32 @@ I hope nearly 1000 words on the significance of projects helps to convice you to
 
 ## Hierarchy of Applications
 
+## Apply Everywhere!
+
+- customized emails 
+
+### It's a Crapshoot
+
+## Underclassmen-Targeting programs
+
+- Microsoft Explore
+- Uber STAR
+- Google STEP
+- Amazon
+- Facebook University
+- Jane Street
+- Nvidia Immersion
+
 ## Career Fairs/School Events
 
 - Free stuff
 - Go to companies you're not as interested in first
 - Dressed up
+- Print enough resumes!
 
 ## Nepotism
+
+- Apple story
 
 ## Where to Find Listings
 
