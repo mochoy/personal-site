@@ -718,12 +718,15 @@ Many of my interviewers have actually checked out out my personal website and my
 
 Unless you run some hate website or something, a personal website can only help your application, but it takes a lot of time and effort to build and maintain, especially if you don't already have the skillset. Personal websites are more important for SWEs, but even for them it's not that important. Don't feel at all like you need to have a personal website, it's nice icing on the cake but it's probably one of the weakest points of my profile. I'm the only EE student I know that runs and maintains their own website coded from scratch, meaning that literally every other EE student I know has landed amazing internships without a website.
 
+Now with the resume/supplementing resources out of the way, let's get more into the actual meat of your resume, the three pillars of a successful resume: education, experience, and projects. I'm putting projects first because that's typically what you have the most control over. 
+
 ## Projects
 
-Now with the resume/supplementing resources out of the way, let's get more into the actual meat of your resume, the three pillars of a successful resume: education, experience, and projects. I'm putting projects first because that's typically what you have the most control over. 
+I can't stress the importance of projects, especially for underclassmen. Projects help you gain hands-on experience and discover your interests beyond the classroom in a practical context, but more importantly, they're what's going to help you land internships. I guaruntee you my undergrad EE curriculum up until like senior year looks probably about 90% the same as your's, so when all of our coursework look nearly identical, it's up to side projects to differentiate between us. When we finally do have the opportunity do differentiate ourselves in the form of coursework, it's probably going to be late in your junior year through senior year, way too late for internships (unless you plan on graduate studies). 
 
 We're lucky that it's relatively easy to get hands-on experience through personal and class projects as an EE, especially when you have university resources like professors, TAs, labs, other motivated students, etc. It may not be as easy as CS, but it sure is much easier than say nuclear engineering or physics. 
 
+If you don't have much work experience, don't be afraid to dedicate the bulk of your resumes to projects. Side projects are more than enough to land internships even if you're "only a first year" and they don't need to be substantial. My flagship side project that helped me land my first internship at Apple during my first quarter at school was a simple little motor drive PCB I designed for my Nerf blasters. 
 ### Hackathons
 
 ## School
