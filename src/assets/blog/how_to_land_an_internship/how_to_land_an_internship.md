@@ -730,6 +730,11 @@ If you don't have much work experience, don't be afraid to dedicate the bulk of 
 
 ### Personality Through Projects
 
+It's not always the fact that you have side projects that's most important, but your personal qualities that get demonstrated just by having them. Building your side projects in addition to the EE courseload shows a lot of dedication and initiative. EE is tough and squeezing in projects on top of your classes isn't easy. You probably don't know everything you need to know for the project, so you'll need to learn it on the fly and this again reflects very well in your favor. If you just have the standard EE courses and nothing else, it's really difficult to display these traits, you just look the same as every other EE student on paper. 
+
+When I was walking through my motor drive PCB project with a hiring manager from Apple at the career fair during my first quarter, he was impressed that I even had projects, given that I was a freshman, let alone a full PCB that I owned end-to-end. What impressed him even more was how well I knew the ins-an-outs of my projects, from the MOSFET design and operation to the PCB layout and LiPo battery behavior and that I learned all of these on my own in high school. These demostrated a great deal of initiative, determination, persistence, passion, and technical capability that helped me not only land the initial interview, but also succeed in those interviews and during the internship. If I just had the project but not any of the background, I'm not sure I would've secured that internship. 
+
+These traits that get demonstrated by having side projects are also the same traits that drive a successful engineer. An interviewer/hiring manager/recruiter knows this and looks for this in addition to a strong technical background. For your hyper-competitive internships, these are almost a given among the successful applicants and are almost required. For other internships that may not be as competitive, a strong academic background may suffice so don't feel that you're unworthy without side projects! They help *a lot*, but there are definitely opportunies out there that don't necessarily "require" them. Your coursework should almost always come first, so it might not always be worth it to sacrifice your grades for a few projects. 
 ### Starting Off
 ### Hackathons
 
