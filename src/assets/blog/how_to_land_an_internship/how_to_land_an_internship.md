@@ -866,7 +866,14 @@ Here's a fat list of companies to help you get started. These are typically my f
 
 # Interviews
 
+- harder interviews are better: expectations
+- Talk about projects
+
+## Hiring Mangers vs Recruiters
+
 ## The Interview Timeline
+
+- There's a gap between sending in your app and actually getting interviews, so don't wait too much
 
 ## Screening
 
@@ -886,12 +893,16 @@ Resources:
 ## Remember: You're Interviewing Them!
 
 General questions I usually ask them: 
-  
+- How many interns and people on the team? Get idea of intern ratio, want good support
+
+## Take Notes!
+
 # The Offer!
 
 - School may have policy to extend timeline
 - Bomb offers!!
 - Think about it
+- Talk to someone on team to learn more, just ask recruiter
 
 ## Compensation
 
