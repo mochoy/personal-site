@@ -764,6 +764,10 @@ I hope nearly 1000 words on the significance of projects helps to convice you to
 
 ### Sharing Projects
 
+- Github, include screenshots and readmes
+- Personal website (can be weebly/wix)
+- If in-person, bring iPad to show project off
+
 ## School
 
 ### Grades
