@@ -288,8 +288,10 @@ Wow I'm already almost 7500 words in and I haven't even gotten into the juicy st
 
 - Prepare your application: Develop your skillset and get your resume and supplementing resources ready, reviewed, and locked down - how do you stand out as an applicant? 
 - Apply: Actually apply to jobs online, through the career fair, and through nepotism
-- Interview: Git grilled for hours and hours on end. There are typically many rounds, some technical, some behavior, some screens.
+- Interview: Get grilled for hours and hours on end. There are typically many rounds, some technical, some behavior, some screens.
 - Offers!: Yay you got the offer! But that's not it, you still need to decide between offers, negotiate, plan stuff out, etc.
+
+Your resume is what lands you the interview, but your experience, technical background, and soft skills will land you the offer. It's a holistic process and you can't always focus all your efforts into one particular area. If you have an amazing skillset that's not reflected in your resume, you might have trouble landing those interviews to finalize the offers, and vice versa. 
 
 There aren't too many resources out there about this stuff so I often hear a ton of misinformation circulating around about the application process so I hope the following sections clear everything up for you to help you navigate the process and to make the best decisions for yourself. 
 
