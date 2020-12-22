@@ -357,6 +357,8 @@ We all hear about how important networking is because it is! I want to put netwo
 
 ### What is Networking? 
 
+Networking has become one of those terms that gets utilized so much its meaning gets lost and/or skewed. It seems to imply some sort of transactional, surface-level interactions which may sometimes be the case. 
+
 ### The Power of Networking
 
 ### How do I do it? 
