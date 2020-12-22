@@ -727,6 +727,10 @@ I can't stress the importance of projects, especially for underclassmen. Project
 We're lucky that it's relatively easy to get hands-on experience through personal and class projects as an EE, especially when you have university resources like professors, TAs, labs, other motivated students, etc. It may not be as easy as CS, but it sure is much easier than say nuclear engineering or physics. 
 
 If you don't have much work experience, don't be afraid to dedicate the bulk of your resumes to projects. Side projects are more than enough to land internships even if you're "only a first year" and they don't need to be substantial. My flagship side project that helped me land my first internship at Apple during my first quarter at school was a simple little motor drive PCB I designed for my Nerf blasters. 
+
+### Personality Through Projects
+
+### Starting Off
 ### Hackathons
 
 ## School
