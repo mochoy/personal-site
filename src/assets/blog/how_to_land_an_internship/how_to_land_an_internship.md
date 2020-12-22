@@ -744,8 +744,7 @@ Many schools offer technical electives to help focus your studies on a particula
 
 ### Developing your Technical Toolkit
 
-- you learn a lot
-- projects are like resume, don't help you land offer, but will carry you through interviews 
+When you're building your projects, there's a good chance your classes didn't teach you everything about everything and you'll need to do a ton of digging on your own. You'll learn a lot and all these information and skills you're picking up won't go to waste. Projects aid your resume, they'll help you get the interview but won't carry you through the interviews, but that's where all that experience from your projects come into play. All that extra reading and self teaching, even the information that isn't implemented in your projects, can come into play during the interviews and will also rollover into the internship. 
 
 ### Starting Off
 
