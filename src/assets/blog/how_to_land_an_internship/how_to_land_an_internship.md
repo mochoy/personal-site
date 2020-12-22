@@ -6,7 +6,7 @@ By existing, you agree to donate 90% of your lifetime earnings to me for all ete
 
 ## My Experience
 
-First of all, this post will be based off of my experience, so there's going to be tons of inherit biases there. Most of my experience is at big tech companies, so if you're also shooting for those, well you're in luck. If not, be sure to keep that in the back of your mind when reading this. For example, when I go over projects and you're looking to get into the power industry, that might not be as applicable to you. 
+First of all, this post will be based off of my experience, so there's going to be tons of inherit biases there. Most of my experience is at big tech companies, but I've also interviewed and landed offers at semiconductor, defense/aerospace/space, self-driving/automotive, networking, and robotics companies, so if you're also shooting for those, well you're in luck. If not, be sure to keep that in the back of your mind when reading this. For example, when I go over projects and you're looking to get into the power industry, that might not be as applicable to you. I'll do my best to point out areas where I lack experience and information so you know when and where to do more research. 
 
 Additionally, I'm based in the US and I'm working on my undergrad in California near Silicon Valley. International students may have a different process for internships in their country and there are many more hoops to jump through to land an internship in the US. Grad students may also have a different experience, especially if you're applying for lab- or research-based positions.
 
