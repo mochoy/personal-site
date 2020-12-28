@@ -3,6 +3,7 @@ import { Redirect, Link } from 'react-router-dom';
 import LinkIcon from '@material-ui/icons/Link'; 
 import { ArrowBack } from '@material-ui/icons';
 import ReactMarkdown from 'react-markdown';
+import scrollToElement from 'scroll-to-element';
 
 import Loading from '../../Functional/Loading';
 import DateInfo from '../DateInfo';
@@ -12,6 +13,7 @@ import UserInteraction from './UserInteraction';
 import useBlogPosts from '../../../hooks/useBlogPosts';
 import stringToUrl from '../../../helpers/stringToUrl';
 import useScrollToElementOnLoad from '../../../hooks/useScrollToElementOnLoad';
+import { scrollToOffset } from '../../../consts';
 
 import './index.css';
 
@@ -70,7 +72,8 @@ const renderers = (filePath) => {
       // Get text and generate id based on url of text to correspond with ToC 
       // links
       const text = node.children[0].value;
-      const id = stringToUrl(text);
+      const id = stringToUrl(text);   // Just id generated from heading txt
+      const fullId = `#${id}`;        // Id including the #
 
       const generateHeaderJSX = () => {
         switch (level) {
@@ -88,8 +91,9 @@ const renderers = (filePath) => {
       }
       
       return (
-        <Link to={`#${id}`} 
+        <Link to={fullId} 
           className="flex-container-vertically-center heading-container"
+          onClick={() => scrollToElement(fullId, { offset: scrollToOffset })}
         >
         {generateHeaderJSX()}
         <LinkIcon fontSize="small" className="heading-link-icon"/>
