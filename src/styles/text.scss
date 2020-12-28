@@ -1,3 +1,5 @@
+@import './colors.scss';
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
@@ -29,10 +31,10 @@ h4 {
 
 /* Becomes a light grey on hover */
 .text-hover-grey:hover {
-  color: #767676;
+  color: $grey;
 }
 
 /* Lighter grey than .text-hover-grey that gets applied if text is out of focus */
 .text-unfocused-grey {
-  color: #989898;
+  color: $lightGrey;
 }
