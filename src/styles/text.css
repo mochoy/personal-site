@@ -25,8 +25,14 @@ h4 {
 
 .underline-on-hover:hover { 
   text-decoration: underline;
+}
+
 /* Becomes a light grey on hover */
 .text-hover-grey:hover {
   color: #767676;
 }
+
+/* Lighter grey than .text-hover-grey that gets applied if text is out of focus */
+.text-unfocused-grey {
+  color: #989898;
 }
