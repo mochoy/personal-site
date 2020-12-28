@@ -52,8 +52,9 @@ const useBlogPosts = params => {
 
             const wordCount = postText.trim().split(/\s+/).length;
 
-            const tableOfContents = generateTableOfContents(postText);
-            
+            const tableOfContentsTree = generateTableOfContents(postText);
+            const flattenedTableOfContents = flattenTableOfContents(tableOfContentsTree);
+
             // Final object to represent the post and its corresponding metadata
             return {
               ...post,
@@ -66,7 +67,8 @@ const useBlogPosts = params => {
               md: postText,
               previewMd: previewMd,
               
-              tableOfContents: tableOfContents
+              tableOfContentsTree: tableOfContentsTree,
+              flattenedTableOfContents: flattenedTableOfContents
             }
           })  // Map
       );  // Promise
@@ -206,9 +208,37 @@ const generateTableOfContents = postText => {
           break;
       }
 
-    });
+    });   // for each
 
   return ToC;
-}
+};
+
+
+// Flatten table of contents into a single array of objs so no recursion is 
+// needed to render anything. Scrollspy seems to have trouble dealing with
+// nested elements
+const flattenTableOfContents = (tableOfContentsTree => {
+  let flattenedToCArr = [];
+
+  tableOfContentsTree.forEach(node => {
+    const pushNode = node => {
+      // Push node itself
+      flattenedToCArr.push(node);
+
+      // // Push into arr to keep track of section items
+      // tocItems.push(node.url.replace("#", ""));
+
+
+      // Push all of node's children
+      node.children.forEach(childNode => pushNode(childNode))
+    };
+
+    pushNode(node);
+    
+  });
+
+  return flattenedToCArr;
+
+});
 
 export default useBlogPosts;

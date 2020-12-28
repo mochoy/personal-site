@@ -14,34 +14,6 @@ const TableOfContents = props => {
   const { tableOfContents } = props;
 
   // Array of all toc items in order of appearance
-  let tocItems = [];
-
-  // Flatten table of contents into a single array of objs so no recursion is 
-  // needed to render anything. Scrollspy seems to have trouble dealing with
-  // nested elements
-  const flattenedTableOfContents = (() => {
-    let flattenedToCArr = [];
-
-    tableOfContents.forEach(node => {
-      const pushNode = node => {
-        // Push node itself
-        flattenedToCArr.push(node);
-
-        // Push into arr to keep track of section items
-        tocItems.push(node.url.replace("#", ""));
-
-
-        // Push all of node's children
-        node.children.forEach(childNode => pushNode(childNode))
-      };
-
-      pushNode(node);
-      
-    });
-
-    return flattenedToCArr;
-
-  })();
 
 
   return (
@@ -53,7 +25,7 @@ const TableOfContents = props => {
           <Scrollspy items={tocItems}
             currentClassName="ugly"
           >
-             { flattenedTableOfContents.map((tocItem, i) => {
+             { tableOfContents.map((tocItem, i) => {
                 const { value, url, headingHierarchy } = tocItem
 
                 return (

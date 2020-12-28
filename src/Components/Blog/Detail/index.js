@@ -35,7 +35,7 @@ const BlogDetail = props => {
   
   // Render actual post
   } else {  
-    const { title, tableOfContents, md, filePath } = post[0];
+    const { title, flattenedTableOfContents, md, filePath } = post[0];
   
     return (
       <div id="BlogDetail" className="blog-content">
@@ -47,7 +47,7 @@ const BlogDetail = props => {
         <h1 id="title">{title}</h1>
         <DateInfo post={post[0]}/>
 
-        <TableOfContents tableOfContents={tableOfContents}/>
+        <TableOfContents tableOfContents={flattenedTableOfContents}/>
         
         <ReactMarkdown className="md" renderers={renderers(filePath)} source={md}/>
 
