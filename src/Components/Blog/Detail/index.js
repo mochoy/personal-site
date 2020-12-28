@@ -1,6 +1,7 @@
 import React from 'react';
 import { Redirect, Link } from 'react-router-dom';
 import LinkIcon from '@material-ui/icons/Link'; 
+import { ArrowBack } from '@material-ui/icons';
 import ReactMarkdown from 'react-markdown';
 
 import Loading from '../../Functional/Loading';
@@ -38,8 +39,11 @@ const BlogDetail = props => {
   
     return (
       <div id="BlogDetail" className="blog-content">
-        <p>Back to posts</p>
-
+        <Link to="/blog" className="flex-container-vertically-center no-style-link">
+          <ArrowBack/>
+          <p style={{ marginLeft: "5px"}}>Back to posts</p>
+        </Link>
+          
         <h1 id="title">{title}</h1>
         <DateInfo post={post[0]}/>
 
