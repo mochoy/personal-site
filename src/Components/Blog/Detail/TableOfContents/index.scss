@@ -1,12 +1,19 @@
 @import '../../../../styles/colors.scss';
 
-#BlogDetail #TableOfContents {
-  padding-top: 5em;
-  width: 15em;
-}
 
 #BlogDetail .MuiDrawer-paperAnchorDockedRight {
   border-left: none;
+  // overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#BlogDetail #TableOfContents {
+  padding-top: 5em;
+  padding-right: 1em;
+  width: 15em;
 }
 
 /* Style "Contents" title */
