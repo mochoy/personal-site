@@ -8,9 +8,9 @@ import how_to_land_an_internship from './how_to_land_an_internship';
 
 // Array of all posts before fetching and parsing the markdown file
 const posts = [
+  how_to_land_an_internship,
   first_post,
   remote_microsoft_internship,
-  how_to_land_an_internship,
   summer_2021_internship_search,
   epic_buck_converter_intro,
   how_i_made_this_blog,
