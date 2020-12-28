@@ -12,6 +12,8 @@ import './styles/text.css';
 import './styles/misc.css';
 import './styles/animations.css';
 import './styles/section.css';
+import './styles/colors.scss';
+
 
 
 ReactDOM.render(
