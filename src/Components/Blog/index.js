@@ -32,11 +32,11 @@ const Blog = props => {
           const { title, url, previewMd, isPreview} = post;
 
           // class for disabled link if post is preview, gets appended to classname
-          const disabledLink = isPreview ? " disabled-link" : ""
+          const disabledLink = isPreview ? " disabled-link" : "text-hover-grey";
 
           return (
             <div key={i} className="post-preview">
-              <Link className={`title ${disabledLink}`} to={url}>
+              <Link className={`no-style-link ${disabledLink}`} to={url}>
                 <h2>{title}</h2>
               </Link>
 
@@ -44,8 +44,8 @@ const Blog = props => {
               
               <ReactMarkdown className="preview-md" source={previewMd}/>
 
-              <Link to={url} className={`read-more-link ${disabledLink}`}>
-                {isPreview ? "Coming Soon!" : "Read More"}
+              <Link to={url} className={`no-style-link ${disabledLink}`}>
+                <p>{isPreview ? "Coming Soon!" : "Read More"}</p>
               </Link>
             </div>
           )

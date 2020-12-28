@@ -6,17 +6,7 @@
 
 #Blog .post-preview {
   border-bottom: solid 1px #989898;
-  padding-bottom: 1em;
   margin-bottom: 3em;
-}
-
-#Blog .post-preview .title, #Blog .post-preview .read-more-link {
-  text-decoration: none;
-  color: black;
-}
-
-#Blog .post-preview a:hover {
-  color: #767676;
 }
 
 #Blog .post-preview h2 {
