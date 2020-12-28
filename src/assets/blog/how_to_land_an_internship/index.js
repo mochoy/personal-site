@@ -4,7 +4,6 @@ const howToLandAnInternship = {
   isDeployed: true,
   isPreview: false,
   date: "???",
-  url: "how_to_land_an_electrical_engineering_internship",
   title: "How to Land an Electrical Engineering Internship Part 1: The Internship Mindset",
   filePath: "how_to_land_an_internship",
   postFile: how_to_land_an_internship
