@@ -53,7 +53,6 @@ const TableOfContents = props => {
     }
   };
 
-  console.log(tableOfContents)
 
   // Flatten table of contents into a single array of objs so no recursion is 
   // needed to render anything. Scrollspy seems to have trouble dealing with
@@ -82,9 +81,6 @@ const TableOfContents = props => {
 
   })();
 
-  console.log(flattenedTableOfContents)
-
-  console.log(tocItems)
 
   return (
     <Drawer variant="permanent" open={true} anchor="right">
