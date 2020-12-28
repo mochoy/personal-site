@@ -7,7 +7,10 @@
  */
 export default function stringToUrl (string) {
   return string
-    .replace(" ", "_")
+    // Replace " " with _, replace() only replaces the first instance of " "
+    .split(' ')
+    .join('_')
+
     .replace(/[^a-zA-Z0-9-_]/g, '')
     .toLowerCase()
 }
