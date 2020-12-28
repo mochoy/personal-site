@@ -17,9 +17,11 @@ const DateInfo = ({ post }) => {
 
   return (
     <div className="DateInfo flex-container">
-      <p className="date">{date}</p>
-      <p className="word-count">{`${wordCount} words`}</p>
-      <p className="reading-time">{`${readingTime} min read`}</p>
+      <p className="date text-unfocused-grey">{date}</p>
+      <p className="word-count text-unfocused-grey">{`${wordCount} words`}</p>
+      <p className="reading-time text-unfocused-grey">
+        {`${readingTime} min read`}
+      </p>
     </div>
   );
 };
