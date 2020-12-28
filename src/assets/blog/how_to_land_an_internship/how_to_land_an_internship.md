@@ -364,6 +364,8 @@ Networking has become one of those terms that gets utilized so much its meaning 
 ### How do I do it? 
 
 - that werid guy
+- Networking events
+- Career fair and stuff will be talked about later
 
 ## What do you even want to do?
 
