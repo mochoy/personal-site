@@ -6,14 +6,15 @@
   // overflow: hidden;
 }
 
-::-webkit-scrollbar {
+#BlogDetail .MuiDrawer-paperAnchorDockedRight::-webkit-scrollbar {
   display: none;
 }
 
+
+
 #BlogDetail #TableOfContents {
-  padding-top: 5em;
-  padding-right: 1em;
-  padding-left: 1em;
+  padding: 5em 1em 0 1em;
+
   width: 15em;
 
   background-color: #f6f6f6;
