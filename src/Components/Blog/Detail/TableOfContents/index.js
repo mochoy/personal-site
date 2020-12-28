@@ -6,7 +6,7 @@ import scrollToElement from 'scroll-to-element';
 
 import { scrollToOffset } from '../../../../consts';
 
-import './index.css';
+import './index.scss';
 
 
 
