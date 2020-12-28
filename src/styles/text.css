@@ -25,4 +25,8 @@ h4 {
 
 .underline-on-hover:hover { 
   text-decoration: underline;
+/* Becomes a light grey on hover */
+.text-hover-grey:hover {
+  color: #767676;
+}
 }
