@@ -930,6 +930,8 @@ Resources:
 
 ## Rejecting Offers
 
+## Deciding Between Offers
+
 # Misc.
 
 - like FTE search
