@@ -37,7 +37,7 @@ const useBlogPosts = params => {
       const fetchedPosts = await Promise.all(
         posts
           // Get posts that match searchUrl if specified
-          .filter(post => !!searchUrl ? post.url === searchUrl : true)
+          .filter(post => !!searchUrl ? getPostUrl(post) === searchUrl : true)
 
           // Remove isPreview posts if a searchURL is specified. I still want to 
           // show posts preview for posts that are in preview mode, but I don't 
@@ -52,6 +52,9 @@ const useBlogPosts = params => {
 
             const wordCount = postText.trim().split(/\s+/).length;
 
+            // If url is defined, then that's the url, else generate one from title
+            const detailUrl = getPostUrl(post);
+
             const tableOfContentsTree = generateTableOfContents(postText);
             const flattenedTableOfContents = flattenTableOfContents(tableOfContentsTree);
 
@@ -61,8 +64,8 @@ const useBlogPosts = params => {
               wordCount: wordCount,
               readingTime: Math.ceil(wordCount/265),
 
-              detailUrl: post.url,      // url of detail: .com/blog/{detailUrl}
-              url: "/blog/" + post.url, // full url: .com/{url}
+              detailUrl: detailUrl,      // url of detail: .com/blog/{detailUrl}
+              url: "/blog/" + detailUrl, // full url: .com/{url}
 
               md: postText,
               previewMd: previewMd,
