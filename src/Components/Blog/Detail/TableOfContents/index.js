@@ -13,8 +13,9 @@ import './index.css';
 const TableOfContents = props => {
   const { tableOfContents } = props;
 
-  // Array of all toc items in order of appearance
-
+  // Array of all toc items in order of appearance, corresponds to id's of 
+  // header items
+  let tocItems = tableOfContents.map(tocItem => tocItem.url.replace("#", ""));
 
   return (
     <Drawer variant="permanent" open={true} anchor="right">
