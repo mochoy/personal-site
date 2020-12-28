@@ -1,6 +1,15 @@
 Do a quick Google search for ["how to get a software engineering internship"](https://lmgtfy.app/?q=how+to+get+a+software+engineering+internship) and ["how to get an electrical engineering internship"](https://lmgtfy.app/?q=how+to+get+an+electrical+engineering+internship). The software engineers (SWE) get tons of online resources, blog posts, communites, etc. detailing every step of the process, all the tricks of the trade while we get next to nothing. Well not anymore! This **EPIC** guide will put all those SWE write-ups to shame and share basically everything I know about landing internships based off of my experiences landing offers at Facebook, Apple, Amazon, Nvidia, Microsoft, Qualcomm, Northrop Grumman, and more through 100+ inteviews and 500+ applications.
 
 I have *tons* of stuff to write about, so I'm splitting this up into a few posts. I didn't originally intend for that, but at the time of writing this paragragh and making the decision to split this post up, this post has already amassed nearly 20,000 words/40 pages/~80 minute read and I'm not even halfway done yet. Long webpages are just annoying to deal with as a user and can compromise performance at the same time. I'm anticipating for this post to be around 50,000 words/100 pages, but I'm not sure how much that means considering that I projected this post to be less than 10,000 words. Here are the different sections with links to each one as they go live: 
+
+- The Internship Mindset (this one!): Why do you even need an internship? It's so intimidating!
+- Pre-Application: There are so many things to do before even sending out your first application
+- Your Application: What your application needs and how can you stand out
+- Applying: How to spam applications
+- Interviews: Cracking the EE interview!
+- The Offer!: Receiving an offer may not be the end yet
+- Closing: Final and misc. thoughts
+
 # Disclaimers
 
 By existing, you agree to donate 90% of your lifetime earnings to me for all eternity throughout the universe until the end of time. Just kidding, but there are a few nuances that I want to address because EE is a very broad field and everyone's situation will be different. Be sure to keep these in mind when reading this guide.
