@@ -24,7 +24,7 @@ const TableOfContents = props => {
 
         <div id="links-container">
           <Scrollspy items={tocItems}
-            currentClassName="ugly"
+            currentClassName="selected-toc-item"
           >
              { tableOfContents.map((tocItem, i) => {
                 const { value, url, headingHierarchy } = tocItem

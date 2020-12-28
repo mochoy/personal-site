@@ -44,7 +44,7 @@
   padding-left: 3px;
 }
 
-.ugly {
+.selected-toc-item {
   border-left: 2px green solid;
   color: black !important;
   /* text-decoration: underline; */
