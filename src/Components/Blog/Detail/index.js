@@ -39,7 +39,7 @@ const BlogDetail = props => {
   
     return (
       <div id="BlogDetail" className="blog-content">
-        <Link to="/blog" className="flex-container-vertically-center no-style-link">
+        <Link to="/blog" className="flex-container-vertically-center no-style-link text-hover-grey">
           <ArrowBack/>
           <p style={{ marginLeft: "5px"}}>Back to posts</p>
         </Link>
