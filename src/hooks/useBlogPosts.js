@@ -83,6 +83,10 @@ const useBlogPosts = params => {
   return [postsState, isLoading];
 };
 
+// Return post.url if specified, else generate a new url based on title
+const getPostUrl = post => {
+  return !!post.url ? post.url : stringToUrl(post.title);
+}
 
 // Create post preview, which should be the first paragraph of the post, but if
 // that first paragraph has too many wprds, more than
