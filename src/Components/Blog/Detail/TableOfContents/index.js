@@ -20,7 +20,6 @@ const TableOfContents = props => {
   return (
     <Drawer variant="permanent" open={true} anchor="right">
       <div id="TableOfContents">
-        <h3>Contents</h3>
 
         <div id="links-container">
           <Scrollspy items={tocItems}
