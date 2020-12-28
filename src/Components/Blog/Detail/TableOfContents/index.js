@@ -31,7 +31,7 @@ const TableOfContents = props => {
 
                 return (
                   <a href={url.replace("#", "")} key={i}
-                    className={`hh${headingHierarchy}`}
+                    className={`text-unfocused-grey no-style-link text-hover-grey hh${headingHierarchy}`}
                     onClick={e => {
                       e.preventDefault();
                       scrollToElement(url, { offset: scrollToOffset });

@@ -19,10 +19,9 @@
   padding-left: 1.5em;
 }
 
+/* Apply to all ToC links, select a instead of each .hh1, .hh2, etc */
 #BlogDetail #TableOfContents #links-container a {
   font-size: 1em;
-  text-decoration: none;
-  color: black;
 
   margin-top: 0.2em;
   margin-bottom: 0.2em;
