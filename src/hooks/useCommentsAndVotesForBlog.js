@@ -17,7 +17,8 @@ const defaultDbPostEntry = {
     date: new Date().toString(),
     status: "init"
   }},
-  likes: 0
+  likes: 0,
+  views: 0
 };
 
 /**
