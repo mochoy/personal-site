@@ -53,6 +53,11 @@ Remember, landing an internship is tough. As of writing this, I've sent out 300+
 - ATS - Applicant Tracking System: Software implemented to track, filter, etc applicants.
 - Big N - Another reference to the same top tech companies: Yes those techies need this many ways to refer to the same few companies. Big N is wider and more flexible in that the companies aren't "hardcoded" in a pronouncable acronym.
 - CoL - Cost of Living: How expensive it is to live somewhere. High CoL includes SV/California, New York, etc. Lower CoL includes Wyoming, Arkansas, etc. TC is typically scaled with CoL. [Here's a nice website to characterize CoL.](https://www.bestplaces.net/)
+- CS - Computer Science
+- CE/CPE - Computer Engineering: Typically a mix of EE and CS, other schools may refer to this as EECS
+- ECE - Electrical and Computer Engineering
+- EE - Electrical Engineer/Engineering
+- EECS - Electrical Enginering and Computer Science: Other schools may refer to this as CPE/CE
 - FAANG - Acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google. This term originates from finance that captured the fastest growing stocks at the time and just found its way over to tech. It also represents other top-paying tech companies because no one wants to memorize a voltaile achronym that changes three times a day.
 - FAANGMULAS - Another acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google, Microsoft, Uber, Lyft, Stripe.
 - FTE/FT - Full-Time Engineer/Full-Time
