@@ -199,6 +199,8 @@ I'll go over a lot more on projects later, but they're also super important to l
 
 ## Apply Early
 
+I'll go more into the application timeline and everything about the application and how to apply later on, but here, "Apply Early" means both applying as a freshman and begin applying the summer *before* your internship. I covered the timeline above, but even applying as a freshman is helpful to get a grasp of where you stand and get you accustomed to the application/interview process. If you send out 50 applications with no response, that's a good sign that you need to work on your resume/skills/projects, but even applying to those 50 applications is infinitely better than wasting your time playing video games thinking "I'm not good enough/ready yet". The worst that can happen is a few rejections, but the best that can happen is an actual internship offer or at the very least interview practice. 
+
 ## Start Getting Your Foot in the Door
 
 # Networking
