@@ -34,6 +34,11 @@ const useBlogPosts = params => {
     (async function fetchAndSavePosts () {
       setIsLoading(true);
 
+      // Clear prev and next post so when user goes to another post, they don't 
+      // roll over
+      setPrevPost({});
+      setNextPost({});
+
       // Fetch and filter posts and convert to text
       //
       // https://stackoverflow.com/questions/33438158/best-way-to-call-an-async-function-within-map
