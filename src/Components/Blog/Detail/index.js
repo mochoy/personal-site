@@ -112,8 +112,23 @@ const renderers = (filePath) => {
         <LinkIcon fontSize="small" className="heading-link-icon"/>
       </Link>
       );
+    },
+
+    // Use react-router links if the destination is within the site, otherwise 
+    // use <a> 
+    link: ({ href, node }) => {
+      const text = node.children[0].value;
+
+      // First char in link is /, meaning destination is internal
+      if (href[0] === "/") {
+        return (<Link to={href}>{text}</Link>)
+      }
+      // External destination
+      return (<a href={href}>{text}</a>)
     }
+
   };
-}
+
+} // Renderers
 
 export default BlogDetail;
