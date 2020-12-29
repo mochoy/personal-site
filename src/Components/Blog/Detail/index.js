@@ -52,14 +52,20 @@ const BlogDetail = props => {
           <p style={{ marginLeft: "5px"}}>Back to posts</p>
         </Link>
           
+        <AdjacentPosts prevPost={prevPost} nextPost={nextPost} />
+        
         <h1 id="title">{title}</h1>
         <DateInfo post={post[0]}/>
 
         <TableOfContents tableOfContents={flattenedTableOfContents}/>
         
-        <ReactMarkdown className="md" renderers={renderers(filePath)} source={md}/>
+        <ReactMarkdown className="md" 
+          renderers={renderers(filePath)} 
+          source={md}
+        />
 
         <AdjacentPosts prevPost={prevPost} nextPost={nextPost} />
+
         <UserInteraction pathname={props.location.pathname}/>
       </div>
     )
