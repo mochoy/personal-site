@@ -290,6 +290,8 @@ In addition to retaining talent, these companies also want to train that talent.
 
 Companies aren't spending tons of money for nothing, they themselves also realize the value of internship programs and compete against each other, millions of dollars at a time, for the top talent. In many cases, the relationship between the company and the employee is very much symbiotic. The company knows that it's nothing without the employees and companies are smart enough to realize the value of highly skilled employees. Internships programs are a way to support that initiative, companies are smart enough to realize that a "small" investment in interns pays off many times over in the long run. 
 
+# What's Next
+
 This is a multi-part post, here are the other parts:
 
 1. The Internship Mindset (this one!): Why do you even need an internship? It's so intimidating!

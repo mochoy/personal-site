@@ -221,6 +221,8 @@ Networking has become one of those terms that gets utilized so much its meaning 
 - Networking events
 - Career fair and stuff will be talked about later
 
+# What's Next
+
 This is a multi-part post, here are the other parts:
 
 1. [The Internship Mindset](http://montychoy.com/blog/how_to_land_an_electrical_engineering_internship_part_1_the_internship_mindset): Why do you even need an internship? It's so intimidating!
