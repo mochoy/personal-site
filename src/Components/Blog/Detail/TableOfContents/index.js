@@ -13,19 +13,26 @@ import './index.scss';
 const TableOfContents = props => {
   const { tableOfContents } = props;
 
-  // Array of all toc items in order of appearance, corresponds to id's of 
-  // header items
-  let tocItems = tableOfContents.map(tocItem => tocItem.url.replace("#", ""));
+  // All ToC items, including one manually added for the intro
+  const tocItems = [{
+    value: "Intro",       // Text in ToC
+    url: "#title",        // id of item to watch/spy, id of item to scroll to
+    headingHierarchy: 1   // 'hierarchy' depth, how much to indent in TOC
+  }, ...tableOfContents];
+
+  // Array of all ids of toc items in order of appearance, corresponds to id's  
+  // of header items
+  let tocItemsId = tocItems.map(tocItem => tocItem.url.replace("#", ""));
 
   return (
     <Drawer variant="permanent" open={true} anchor="right">
       <div id="TableOfContents">
 
         <div id="links-container">
-          <Scrollspy items={tocItems}
+          <Scrollspy items={tocItemsId}
             currentClassName="selected-toc-item"
           >
-             { tableOfContents.map((tocItem, i) => {
+             { tocItems.map((tocItem, i) => {
                 const { value, url, headingHierarchy } = tocItem
 
                 return (
