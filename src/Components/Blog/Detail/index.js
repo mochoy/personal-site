@@ -20,10 +20,15 @@ import './index.css';
 
 const BlogDetail = props => {
   // Get post based on url: /blog/{post to get}
-  const [ post, isBlogPostLoading ] = useBlogPosts({ 
+  const [ post, 
+    isBlogPostLoading, 
+    , // Prev post
+    nextPost ] 
+  = useBlogPosts({ 
     searchUrl: props.match.params.id
   });
 
+  
   useScrollToElementOnLoad();
 
   

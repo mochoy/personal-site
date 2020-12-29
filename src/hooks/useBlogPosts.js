@@ -24,7 +24,10 @@ const useBlogPosts = params => {
   }
 
   const [ isLoading, setIsLoading ] = useState(true);
+
   const [ postsState, setPostsState ] = useState([]);
+  const [ prevPost, setPrevPost ] = useState({});
+  const [ nextPost, setNextPost ] = useState({});
 
   // Fetch posts, set to postsState
   useEffect(() => {
@@ -37,25 +40,34 @@ const useBlogPosts = params => {
       const fetchedPosts = await findAndCleanPosts(searchUrl);
 
       setPostsState(fetchedPosts);
+      
+      // If only searching for 1 post (searchUrl is specified), find that post's 
+      // prev and next posts and save to state
+      if (!!searchUrl && fetchedPosts.length === 1) {
+        const { prev, next } = fetchedPosts[0];
 
-          // Remove isPreview posts if a searchURL is specified. I still want to 
-          // show posts preview for posts that are in preview mode, but I don't 
-          // want the entire post to be available on its own page and everything
-          .filter(post => !!searchUrl ? !post.isPreview : true)
+        if (!!prev) {
+          setPrevPost((await findAndCleanPosts(prev))[0]);
+        } 
 
-          // Apply any sort of data cleaning on remaining posts that didn't get 
-          // filtered out
-          .map(cleanPostData)
-      );  // Promise
+        if (!!next) {
+          setNextPost((await findAndCleanPosts(next))[0]);
+        }
+      }
 
-      setPostsState(fetchedPosts);
       setIsLoading(false);
     })();
     // https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174
 
   }, [searchUrl]);
 
-  return [postsState, isLoading];
+  return [
+    postsState, 
+    isLoading,
+    
+    prevPost,
+    nextPost
+  ];
 };
 
 // Return post.url if specified, else generate a new url based on title
