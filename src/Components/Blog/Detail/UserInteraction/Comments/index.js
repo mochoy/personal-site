@@ -36,7 +36,7 @@ const Comments = props => {
               )
             // Need to return something to avoid warning
             } else {
-              return <div></div>
+              return <div key={i}></div>
             }
           })
         }
