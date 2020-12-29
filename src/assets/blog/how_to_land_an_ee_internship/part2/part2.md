@@ -203,6 +203,8 @@ I'll go more into the application timeline and everything about the application 
 
 ## Start Getting Your Foot in the Door
 
+Start attending networking/career events as early as possible. I'll go over more into networking events in the next section on this post, but attending networking events even as an underclassmen is super helpful. You get amazing industry insights and all that good stuff, but you also start making connections and the more connections you have, the better. The connections you make early on will (hopefully) stick with you for a while. 
+
 # Networking
 
 We all hear about how important networking is because it is! I want to put networking earlier in this pre-app section because it ideally precedes a lot of applications and is pretty continuous, you do it all year round, even after landing your internship or even during the actual internship. I'll also throw in more specific networking advice in their dedication sections as they come up. I'm also awkard af and I wouldn't call myself "good" at networking or anything so my networking insights will be more limited compared to everything else. 
