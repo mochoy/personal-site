@@ -221,7 +221,7 @@ Networking has become one of those terms that gets utilized so much its meaning 
 
 This is a multi-part post, here are the other parts:
 
-1. The Internship Mindset: Why do you even need an internship? It's so intimidating!
+1. [The Internship Mindset](http://montychoy.com/blog/how_to_land_an_electrical_engineering_internship_part_1_the_internship_mindset): Why do you even need an internship? It's so intimidating!
 2. Pre-Application (this one!): There are so many things to do before even sending out your first application
 3. Your Application: What your application needs and how can you stand out
 4. Applying: How to spam applications
