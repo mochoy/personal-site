@@ -1,4 +1,9 @@
 
+- trap: need to apply early, but feel won't have enough exp
+- Up to you, if you have no projects or prior experience, it might be better use of time to work on projects
+- I can't provide a good balance there
+- Send out applications, if hear nothing back, work on some projects
+
 # Hierarchy of Applications
 
 # Apply Everywhere!
