@@ -3,7 +3,7 @@ Do a quick Google search for ["how to get a software engineering internship"](ht
 I have *tons* of stuff to write about, so I'm splitting this up into a few posts. I didn't originally intend for that, but at the time of writing this paragraph and making the decision to split this post up, this post has already amassed nearly 20,000 words/40 pages/~80 minute read and I'm not even halfway done yet. Long webpages are just annoying to deal with as a user and can compromise performance at the same time. I'm anticipating for this post to be around 50,000 words/100 pages, but I'm not sure how much that means considering that I initially projected this post to be less than 10,000 words. Here are the different sections with links to each one as they go live: 
 
 1. The Internship Mindset (this one!): Why do you even need an internship? It's so intimidating!
-2. Pre-Application: There are so many things to do before even sending out your first application
+2. [Pre-Application](http://montychoy.com/blog/how_to_land_an_electrical_engineering_internship_part_2_pre-application): There are so many things to do before even sending out your first application
 3. Your Application: What your application needs and how can you stand out
 4. Applying: How to spam applications
 5. Interviews: Cracking the EE interview!
@@ -289,3 +289,13 @@ First of all, companies *want* you. They want interns. They want the most talent
 In addition to retaining talent, these companies also want to train that talent. Remember how earlier, I mentioned that returning, trained interns progress their careers faster? Well this is also beneficial for not only the interns not also the companies as they get access to better trained, higher quality engineers that can come in and hit the ground running.
 
 Companies aren't spending tons of money for nothing, they themselves also realize the value of internship programs and compete against each other, millions of dollars at a time, for the top talent. In many cases, the relationship between the company and the employee is very much symbiotic. The company knows that it's nothing without the employees and companies are smart enough to realize the value of highly skilled employees. Internships programs are a way to support that initiative, companies are smart enough to realize that a "small" investment in interns pays off many times over in the long run. 
+
+This is a multi-part post, here are the other parts:
+
+1. The Internship Mindset (this one!): Why do you even need an internship? It's so intimidating!
+2. [Pre-Application](http://montychoy.com/blog/how_to_land_an_electrical_engineering_internship_part_2_pre-application): There are so many things to do before even sending out your first application
+3. Your Application: What your application needs and how can you stand out
+4. Applying: How to spam applications
+5. Interviews: Cracking the EE interview!
+6. The Offer!: Receiving an offer may not be the end yet
+7. Closing: Final and misc. thoughts
