@@ -46,34 +46,7 @@ const useBlogPosts = params => {
 
           // Apply any sort of data cleaning on remaining posts that didn't get 
           // filtered out
-          .map(async (post) => {
-            const postText = await (await fetch(post.postFile)).text();
-            const previewMd = generatePreviewMd(postText);
-
-            const wordCount = postText.trim().split(/\s+/).length;
-
-            // If url is defined, then that's the url, else generate one from title
-            const detailUrl = getPostUrl(post);
-
-            const tableOfContentsTree = generateTableOfContents(postText);
-            const flattenedTableOfContents = flattenTableOfContents(tableOfContentsTree);
-
-            // Final object to represent the post and its corresponding metadata
-            return {
-              ...post,
-              wordCount: wordCount,
-              readingTime: Math.ceil(wordCount/265),
-
-              detailUrl: detailUrl,      // url of detail: .com/blog/{detailUrl}
-              url: "/blog/" + detailUrl, // full url: .com/{url}
-
-              md: postText,
-              previewMd: previewMd,
-              
-              tableOfContentsTree: tableOfContentsTree,
-              flattenedTableOfContents: flattenedTableOfContents
-            }
-          })  // Map
+          .map(cleanPostData)
       );  // Promise
 
       setPostsState(fetchedPosts);
@@ -89,6 +62,37 @@ const useBlogPosts = params => {
 // Return post.url if specified, else generate a new url based on title
 const getPostUrl = post => {
   return !!post.url ? post.url : stringToUrl(post.title);
+}
+
+// Apply any sort of data cleaning on remaining posts that didn't get filtered
+// out
+async function cleanPostData (post) {
+  const postText = await (await fetch(post.postFile)).text();
+  const previewMd = generatePreviewMd(postText);
+
+  const wordCount = postText.trim().split(/\s+/).length;
+
+  // If url is defined, then that's the url, else generate one from title
+  const detailUrl = getPostUrl(post);
+
+  const tableOfContentsTree = generateTableOfContents(postText);
+  const flattenedTableOfContents = flattenTableOfContents(tableOfContentsTree);
+
+  // Final object to represent the post and its corresponding metadata
+  return {
+    ...post,
+    wordCount: wordCount,
+    readingTime: Math.ceil(wordCount/265),
+
+    detailUrl: detailUrl,      // url of detail: .com/blog/{detailUrl}
+    url: "/blog/" + detailUrl, // full url: .com/{url}
+
+    md: postText,
+    previewMd: previewMd,
+    
+    tableOfContentsTree: tableOfContentsTree,
+    flattenedTableOfContents: flattenedTableOfContents
+  }
 }
 
 // Create post preview, which should be the first paragraph of the post, but if
