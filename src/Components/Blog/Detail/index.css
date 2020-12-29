@@ -23,7 +23,8 @@
   width: 100%;
 }
 
-#BlogDetail .md a {
+#BlogDetail .md h1, #BlogDetail .md h2, #BlogDetail .md h3,
+#BlogDetail .md h4, #BlogDetail .md h5, #BlogDetail .md h6 {
   color: black;
 }
 
