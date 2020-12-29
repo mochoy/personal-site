@@ -191,9 +191,11 @@ I started coding when I was 12 and started to teach myself electronics a few yea
 
 If you're reading this and you're in high school or even midde school that's awesome you're so far ahead! If not, don't feel disadvantaged, you're the norm! Probably around 95% of EE students don't have any prior EE experience and it's definitely not expected of you, no one will mark you down for not having prior experience. 
 
-The previous section "To Underclassmen" went over *why* you should start early, now the rest of this will detail *what* you can do.
+The previous section "Finding the Motivation" went over *why* you should start early, now the rest of this will detail *what* you can do.
 
 ## Projects
+
+I'll go over a lot more on projects later, but they're also super important to land the top internships and stand out from the crowd. If there's anything you get out of these posts, it's to start early and work on projects. Arduino is a great start even for middle schoolers and will often prompt more complex projects. Getting started early gives you more time to build more awesome projects and develop your skillset but also gives you time to focus on more time-critical components of the application process like applying. 
 
 ## Apply Early
 
