@@ -196,21 +196,19 @@ In my other post about my [Microsoft experience, I also included a dedication se
 
 We're young, this matters to us for some reason. Enjoy it while it lasts!
 
-# To Underclassmen - Finding the Motivation
+# Finding the Motivation
 
 It's very difficult to land internships as a freshman or sophomore and especially as a high schooler, but there are still tons of things to get you ahead of the curve. Unfortunately, EE is a very textbook-heavy field where a strong understanding of math, physics, and EE concepts are necessary to perform well, and most of these aren't taught until junior or senior year. This isn't like SWE where you really only need to take one sophomore-level class to prepare you for 90% of SWE, and that class can easily be self-studied, no EE is *real* engineering (jk ofc). 
-
-I wanted to highlight this section so that the underclassmen can see something and say "Hey! this applies to me! I'll actually read it!" instead of skimming through 20000 words of nonsense (this is my guess at how long this post will be upon writing this, I'm currently at ~4500). I have another section below targeted at underclassmen, but this section will focus on *why* you should start building on your skills now and later on, I'll go over *what* specific things you can do starting early to give yourself the best advantage later on. 
 
 This will be emphasized so much: get started early. The best time to get started was yesterday, but the second-best time is *now*. If I could attribute my internship success to one thing that's under my control, it would be that I started early. 
 
 ## It's Intimidating
 
-I get it, I was also in your shoes. Seeing those big, bearded, smart-looking EEs practicing sorcery is intimidating. "I'm not good enough". "I'll just try later when I get better". "Nobody wants me". Face-to-face/social networking events like career fairs exacerbate these feelings tenfold. These are all valid emotions. Everyone gets these feelings. My friend with a 4.0 GPA still gives me that "I'm not good enougggghhhhh" when she has a **4.0 GPA**. Wanna hear another secret? I still get these feelings. I have two top internships, tons of projects, and tons of passion, and I still feel inadequate. You were looking for tips from me on how to get past those feelings weren't you? Well if you find them, feel free to let me know because I'm also looking. 
+I get it, I was also in your shoes. Seeing those big, bearded, smart-looking EEs practicing sorcery is intimidating. "I'm not good enough". "I'll just try later when I get better". "Nobody wants me". Face-to-face/social networking events like career fairs exacerbate these feelings. These are all valid feelings. Everyone gets these feelings. My friend with a 4.0 GPA still gives me that "I'm not good enougggghhhhh" when she has a **4.0 GPA**. I still get these feelings. I have two top internships, tons of projects, and tons of passion, and I still feel inadequate. You were looking for tips from me on how to get past those feelings weren't you? Well if you find them, feel free to let me know because I'm also looking. 
 
-Dealing with these feelings is different for everyone. If I was good at managing my emotions, well I probably wouldn't be writing this post. But here are a few of my solutions. 
+Dealing with these feelings is different for everyone, but here are a few of my solutions. 
 
-- Go with friends: Take advantage of our underdeveloped brains and out-of-control hormones and emotions and peer pressure yourself and your friends to go together. It gets much easier. Even just going to the career fair to walk around stealing swag is an amazing start.
+- Go with friends: Take advantage of our underdeveloped brains and out-of-control hormones and emotions and peer pressure yourself and your friends to go together. It gets much easier. Even just going to the career fair to walk around stealing swag is a great start.
 - The first one is always the hardest: Just do one, and after that one, you'll realize it's not that bad. All that anxiety was artificial, and when then comes to light, it becomes much easier to manager. Also, it's actually pretty fun, just like crack.
 - Just do it: Not going to lie, this is how I did it. I basically told myself "no balls" and went up to some random guy at the Apple booth during the career fair. A month later, I got the job!
 - Companies give tons of free stuff: At career fairs, companies often give out tshirts, socks, snacks, chargers, notebooks, pens, pencils, and other small freebees. They want people to go to them, even if it's just to jack some swag LOL. They also know that many people are hesitant to attend for a variety of reasons, including those feelings of inadequacy. And once you go to that booth to jack that nice Hydro, since your there, you might as well give it a shot and talk to a hiring manager!
