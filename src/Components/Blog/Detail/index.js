@@ -6,8 +6,9 @@ import ReactMarkdown from 'react-markdown';
 import scrollToElement from 'scroll-to-element';
 
 import Loading from '../../Functional/Loading';
-import DateInfo from '../DateInfo';
 import TableOfContents from './TableOfContents';
+import DateInfo from '../DateInfo';
+import AdjacentPosts from './AdjacentPosts';
 import UserInteraction from './UserInteraction';
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
@@ -22,13 +23,13 @@ const BlogDetail = props => {
   // Get post based on url: /blog/{post to get}
   const [ post, 
     isBlogPostLoading, 
-    , // Prev post
+    prevPost,
     nextPost ] 
   = useBlogPosts({ 
     searchUrl: props.match.params.id
   });
 
-  
+
   useScrollToElementOnLoad();
 
   
@@ -58,6 +59,7 @@ const BlogDetail = props => {
         
         <ReactMarkdown className="md" renderers={renderers(filePath)} source={md}/>
 
+        <AdjacentPosts prevPost={prevPost} nextPost={nextPost} />
         <UserInteraction pathname={props.location.pathname}/>
       </div>
     )
