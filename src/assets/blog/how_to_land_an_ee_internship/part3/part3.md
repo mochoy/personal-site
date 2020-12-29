@@ -237,7 +237,25 @@ I hope nearly 1000 words on the significance of projects helps to convice you to
 
 ## Starting Off
 
+## Arduino
 
+Here are a few tips to those of you starting early. I was also in your shoes and there are tons of resources out there to teach yourself. I may dedicate an entire separate post for this, but here are some quick tips. I'd recommend getting started with Arduino to get your feet wet in electronics and coding. Don't be afraid to code! It's an awesome skill actually make electronics so much easier for you. Try to get a simple Arduino starter kit, you can find them online for as cheap as $20-$30 although there are many fancier kits out there. 
+
+Start small, find an online tutorial to hold your hand, first at blinking an LED, then learn how to use buttons. Learn the fundementals as you go, *why* are things happening the way they are? When you decrease the resistance, why does the LED get brighter? No need to get into any of that complex math, a conceptual understanding is solid. Start working with cool peripherals like sensors, screens, motors, etc. and you basically know enough to make your own game! 
+
+## Google it!
+
+Don't be afraid to Google stuff! If you don't have a technical mentor, it can be intimitating but Google everything! Run into a coding bug? Google it! Want to learn how to use a sensor? Google it!! You have almost everyting known to man at your fingertips. This skill to Google search everything isn't as intuitive as you may think but it will stick with you for the rest of your life. Knowing that the world gets so much smaller when you utilize Google is reassuring. At first, it will be challenging but soon it becomes second nature and your most valuable skill. I recommended Arduino because there are tons of online resources and forums, so when you Google stuff, you'll actually find it! Then, as you move into more complex topics where the Google searches aren't as nice, you'll have the background and intuition on how to navigate the results and find what you need. 
+
+## Your First PCB!
+
+Now that you have a cool project, time to make it robust and mobile on its own PCB! PCBs are awesome projects and there are tons of resources online to hold your hand along the way. There are tons of services to make PCBs for you that are quick and affordable. And plus, they make killer resume projects that you can show off at your interviews!
+
+## Find Your Passion
+
+But ultimately, the most important thing about starting early is finding your passion. Maybe after a few projects, you find that EE isn't for you, coding is way more fun. It's way better to figure that out over a $20 kit and a few hours of your time, that beats $50,000 and a few semesters at school. Many students enter EE not knowing exactly what they want to do and after a few EE classes, they find out that EE isn't for them. I think something like 60-70% of EEs transfer out of the program and I'd rather sacrifice a few hours of my own time in middle school to figure that out. 
+
+But maybe you do find out that EE is your passion - even better! My passion in EE is one of the best things that happened to me, it's the intersection between a great career, doing what I love, and amazing pay. When you're truely passionate about something, you will get good at it and you will dedicate all your time and effort into it. Don't have time? Your passion will find you time.
 
 ## Ideas
 
