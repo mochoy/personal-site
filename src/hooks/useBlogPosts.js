@@ -34,10 +34,9 @@ const useBlogPosts = params => {
       // Fetch and filter posts and convert to text
       //
       // https://stackoverflow.com/questions/33438158/best-way-to-call-an-async-function-within-map
-      const fetchedPosts = await Promise.all(
-        posts
-          // Get posts that match searchUrl if specified
-          .filter(post => !!searchUrl ? getPostUrl(post) === searchUrl : true)
+      const fetchedPosts = await findAndCleanPosts(searchUrl);
+
+      setPostsState(fetchedPosts);
 
           // Remove isPreview posts if a searchURL is specified. I still want to 
           // show posts preview for posts that are in preview mode, but I don't 
@@ -62,6 +61,25 @@ const useBlogPosts = params => {
 // Return post.url if specified, else generate a new url based on title
 const getPostUrl = post => {
   return !!post.url ? post.url : stringToUrl(post.title);
+}
+
+// Find and clean data on posts based on search url. Async because data cleaning
+// is async
+async function findAndCleanPosts (searchUrl) {
+  return await Promise.all(
+    posts
+      // Get posts that match searchUrl if specified
+      .filter(post => !!searchUrl ? getPostUrl(post) === searchUrl : true)
+
+      // Remove isPreview posts if a searchURL is specified. I still want to 
+      // show posts preview for posts that are in preview mode, but I don't 
+      // want the entire post to be available on its own page and everything
+      .filter(post => !!searchUrl ? !post.isPreview : true)
+
+      // Apply any sort of data cleaning on remaining posts that didn't get 
+      // filtered out
+      .map(cleanPostData)
+  );
 }
 
 // Apply any sort of data cleaning on remaining posts that didn't get filtered
