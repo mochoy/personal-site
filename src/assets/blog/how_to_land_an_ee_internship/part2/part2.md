@@ -108,7 +108,7 @@ With that in the back of your mind, here are a few industries you can expolre as
   - Zoox
   - Lyft/Uber
 
-### Networking
+### Networking/Servers
 - Design servers, data centers, and networking equipment that serves as the foundation of the internet
 - Work at board/system-level design and custom networking ASICs
 - Overlap with tech, good salaries (in tech)
@@ -118,7 +118,7 @@ With that in the back of your mind, here are a few industries you can expolre as
   - HP Enterprise
   - Cisco
   - Palo Alto Networks
-  - Tencent
+  - Arista Networks
 
 ### Semiconductors
 - Design chips like microcontrollers, power management, wireless, audio, logic, etc.
