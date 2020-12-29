@@ -10,6 +10,12 @@
   display: none;
 }
 
+@media only screen and (max-width: 1250px) {
+  #BlogDetail .MuiDrawer-paperAnchorDockedRight {
+    display: none;
+  }
+}
+
 
 
 #BlogDetail #TableOfContents {
