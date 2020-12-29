@@ -1,0 +1,18 @@
+#AdjacentPosts {
+  display: flex;
+  justify-content: space-between;
+}
+
+#AdjacentPosts a {
+  max-width: 50%;
+}
+
+#AdjacentPosts #next-link {
+  text-align: right;
+}
+
+#AdjacentPosts .adj-txt {
+  width: 80%;
+  margin-left: 3px;
+  margin-right: 3px;
+}
