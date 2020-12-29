@@ -10,6 +10,7 @@ import howToLandAnEEInternshipPart2 from './how_to_land_an_ee_internship/part2';
 import howToLandAnEEInternshipPart3 from './how_to_land_an_ee_internship/part3';
 import howToLandAnEEInternshipPart4 from './how_to_land_an_ee_internship/part4';
 import howToLandAnEEInternshipPart5 from './how_to_land_an_ee_internship/part5';
+import howToLandAnEEInternshipPart6 from './how_to_land_an_ee_internship/part6';
 
 // Array of all posts before fetching and parsing the markdown file
 const posts = [
@@ -18,6 +19,7 @@ const posts = [
   howToLandAnEEInternshipPart3,
   howToLandAnEEInternshipPart4,
   howToLandAnEEInternshipPart5,
+  howToLandAnEEInternshipPart6,
   first_post,
   remote_microsoft_internship,
   summer_2021_internship_search,
