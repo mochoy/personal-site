@@ -78,7 +78,7 @@ You don't always want to focus yourself on one super specific topic or area, esp
 
 That's why I would highly suggest diversifying your applications, especially for your first internship. As you get more and more internship experience and discover where you want to take your career and gain valuable, localized experience, it makes more sense to apply to more specific roles. For your first internship, you want to cast a wide net, you might not get exactly what you want, but an internship in something you 60% enjoy is better than no internship at all. Any experience is super valuable and you can use that first internship as a stepping stone into stuff you really want to do.
 
-There's also a good shot you actually don't know what you really want to do either. We're young, our classes and experiences only cover a tiny sliver of what's out there. If you really want to work in defense but your first internship is on robotics, you might find out that you really like working on robotics! This goes back to the "no experience is useless experience" idea. It's great to have a focus, but don't always soley strive for that focus when you're first starting out. 
+There's also a good chance you actually don't know what you really want to do either. We're young, our classes and experiences only cover a tiny sliver of what's out there. If you really want to work in defense but your first internship is on robotics, you might find out that you really like working on robotics! This goes back to the "no experience is useless experience" idea. It's great to have a focus, but don't always soley strive for that focus when you're first starting out. 
 
 ## What's Out There
 
@@ -197,7 +197,7 @@ With that in the back of your mind, here are a few industries you can expolre as
   - Stripe
   - Snap
 
-- And so much more!!!
+And so much more!!!
 
 # Getting Started Early
 
@@ -209,8 +209,11 @@ If you're reading this and you're in high school or even midde school that's awe
 
 The previous section "To Underclassmen" went over *why* you should start early, now the rest of this will detail *what* you can do.
 
+## Projects
 
 ## Apply Early
+
+## Start Getting Your Foot in the Door
 
 This is a multi-part post, here are the other parts:
 
