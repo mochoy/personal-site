@@ -124,7 +124,7 @@ const renderers = (filePath) => {
         return (<Link to={href}>{text}</Link>)
       }
       // External destination
-      return (<a href={href}>{text}</a>)
+      return (<a href={href} target="_blank">{text}</a>)
     }
 
   };
