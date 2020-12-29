@@ -13,9 +13,9 @@ import UserInteraction from './UserInteraction';
 
 import useBlogPosts from '../../../hooks/useBlogPosts';
 import stringToUrl from '../../../helpers/stringToUrl';
+import useBlogPostViewAnalytics from '../../../hooks/useBlogPostViewAnalytics';
 import useScrollToElementOnLoad from '../../../hooks/useScrollToElementOnLoad';
 import { scrollToOffset } from '../../../consts';
-import { FirebaseCtx } from '../../App';
 
 import './index.css';
 
@@ -30,22 +30,7 @@ const BlogDetail = props => {
     searchUrl: props.match.params.id
   });
 
-  
-  // Need to use location.pathname because post may not be loaded yet
-  const db = React.useContext(FirebaseCtx).ref(props.location.pathname);
-
-  // Increment views counter in GA, should increment if post changes
-  React.useEffect(() => {
-    // Make sure there's actually a post and it's not just loading
-    if (post.length > 0) {
-      // Increment views in db
-      db.child('views').transaction(currentViews => currentViews + 1);
-    }
-
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [post]);
-
-
+  useBlogPostViewAnalytics(post);
   useScrollToElementOnLoad();
   
   // Blog post is loading
