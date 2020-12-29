@@ -60,7 +60,8 @@ Remember, landing an internship is tough. As of writing this, I've sent out 300+
 - HR - Human Resources: The part of a company that deals with recruiting and other people stuff.
 - HWE/HW - Hardware Engineer/Hardware: Can refer to EEs or MEs and EEs, but I use it here to mean EE
 - HYPSM - Acronym to refer to the top schools: Harvard, Yale, Princeton, Stanford, MIT. Fun fact, it's pronounced "hip-sum".
-- NG - New Grad: A recent grad/soon to graduate. The hiring process is typically handled by the same group of people that handle intern hiring, university relations (UR)
+- [LC - Leetcode](https://leetcode.com/): A website to practice coding questions/riddles/interviews. SWE interviews are often word for word LC problems or at least very very similar and there's a massive content disconnect between LC/coding interviews and the actual job. EEs don't have a similar alternative.
+- NG - New Grad: A recent grad/soon to graduate. The hiring process is typically handled by the same group of people that handle intern hiring, university relations (UR).
 - SV - Silicon Valley: The geographical area around the San Francisco Bay Area in California. Home to a ton of tech companies and this area in general for other companies typically offers the highest TC to compensate for the expensive CoL.
 - SWE/SW - Software Engineer/Software
 - [TC - Total Compensation](https://www.levels.fyi/blog/what-is-total-compensation.html): The total amount of money you're making, including stock, signing/starting bonuses, relocation, and other bonuses.
