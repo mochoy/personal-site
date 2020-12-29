@@ -227,4 +227,16 @@ Now that you have a cool project, time to make it robust and mobile on its own P
 
 But ultimately, the most important thing about starting early is finding your passion. Maybe after a few projects, you find that EE isn't for you, coding is way more fun. It's way better to figure that out over a $20 kit and a few hours of your time, that beats $50,000 and a few semesters at school. Many students enter EE not knowing exactly what they want to do and after a few EE classes, they find out that EE isn't for them. I think something like 60-70% of EEs transfer out of the program and I'd rather sacrifice a few hours of my own time in middle school to figure that out. 
 
-But maybe you do find out that EE is your passion - even better! My passion in EE is one of the best things that happened to me, it's the intersection between a great career, doing what I love, and amazing pay. When you're truely passionate about something, you will get good at it and you will dedicate all your time and effort into it. Don't have time? Your passion will find you time. 
+But maybe you do find out that EE is your passion - even better! My passion in EE is one of the best things that happened to me, it's the intersection between a great career, doing what I love, and amazing pay. When you're truely passionate about something, you will get good at it and you will dedicate all your time and effort into it. Don't have time? Your passion will find you time.
+
+## Apply Early
+
+This is a multi-part post, here are the other parts:
+
+1. The Internship Mindset: Why do you even need an internship? It's so intimidating!
+2. Pre-Application (this one!): There are so many things to do before even sending out your first application
+3. Your Application: What your application needs and how can you stand out
+4. Applying: How to spam applications
+5. Interviews: Cracking the EE interview!
+6. The Offer!: Receiving an offer may not be the end yet
+7. Closing: Final and misc. thoughts
