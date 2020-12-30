@@ -1,9 +1,9 @@
-Do a quick Google search for ["how to get a software engineering internship"](https://lmgtfy.app/?q=how+to+get+a+software+engineering+internship) and ["how to get an electrical engineering internship"](https://lmgtfy.app/?q=how+to+get+an+electrical+engineering+internship). The software engineers (SWE) get tons of online resources, blog posts, communities, etc. detailing every step of the process, all the tricks of the trade while we get next to nothing. Well not anymore! This **EPIC** guide will put all those SWE write-ups to shame and share basically everything I know about the entire internship process based off of my experiences landing offers at Facebook, Apple, Amazon, Nvidia, Microsoft, Qualcomm, Northrop Grumman, and more through 100+ interviews and 500+ applications.
+Do a quick Google search for ["how to get a software engineering internship"](https://lmgtfy.app/?q=how+to+get+a+software+engineering+internship) and ["how to get an electrical engineering internship"](https://lmgtfy.app/?q=how+to+get+an+electrical+engineering+internship). The software engineers (SWE) get tons of online resources, blog posts, communities, etc. detailing every step of the process, all the tricks of the trade, while we get next to nothing. Well not anymore! This **EPIC** guide will put all those SWE write-ups to shame and share basically everything I know about the entire internship process based off of my experiences landing offers at Facebook, Apple, Amazon, Nvidia, Qualcomm, Microsoft, Northrop Grumman, and more through 100+ interviews and 500+ applications.
 
 I have *tons* of stuff to write about, so I'm splitting this up into a few posts. I didn't originally intend for that, but at the time of writing this paragraph and making the decision to split this post up, this post has already amassed nearly 20,000 words/40 pages/~80 minute read and I'm not even halfway done yet. Long webpages are just annoying to deal with as a user and can compromise performance at the same time. I'm anticipating for this post to be around 50,000 words/100 pages, but I'm not sure how much that means considering that I initially projected this post to be less than 10,000 words. Here are the different sections with links to each one as they go live: 
 
 1. The Internship Mindset (this one!): Why do you even need an internship? It's so intimidating!
-2. [Pre-Application](http://montychoy.com/blog/how_to_land_an_electrical_engineering_internship_part_2_pre-application): There are so many things to do before even sending out your first application
+2. [Pre-Application](/blog/how_to_land_an_electrical_engineering_internship_part_2_pre-application): There are so many things to do before even sending out your first application
 3. Your Application: What your application needs and how can you stand out
 4. Applying: How to spam applications
 5. Interviews: Cracking the EE interview!
@@ -34,11 +34,11 @@ You're going to see your classmates and friends landing internships left and rig
 
 I will be drawing many comparisons to the SWE process because their processes are very similar to our's, but they just have way more resources. For the longest time, I actually had my career set on being a SWE and I still remain quite active in the SWE communities. If you want more tips and stuff, you could also read up on those SWE posts and 95% of their information will be directly applicable to you as an EE, especially if you're looking to get into tech. I will point out many of the key differences throughout this post as they come up so you get a good idea of what to ignore and what to take in. 
 
-Alternatively, if you find out that you actually want to go into SWE as a result of this post, well more power to you! That's even a win for me since SWEs get paid more, so my 90% cut of your compensation (that you agreed to by existing) will continue to grow. 
+Alternatively, if you find out that you actually want to go into SWE as a result of this post, well more power to you!
 
 That being said, the inverse is also the case, this guide also has tons of information that will be super helpful to SWEs. Here are some of the biggest differences between the SWE and EE internship process, I've been through both at FAANG and can provide some insight:
-- SWEs have a standardized interview process, basically coding riddles that you can grind on a website called Leetcode (LC), EEs we don't. I've only ever had OAs twice for EE roles.
-- SWEs get more online assessments (OAs), basically online coding challenges/LC before the interview that act as another set of filters between your application and the job
+- SWEs have a standardized interview process, basically coding riddles that you can grind on a website called Leetcode (LC), EEs we don't. 
+- SWEs get more online assessments (OAs), basically online coding challenges/LC before the interview that act as another set of filters between your application and the job. I've only ever had OAs twice for EE roles.
 - FAANG/AFUNGALMASS (Acronym for top companies: Facebook, Apple, Amazon, Netflix, Google/Amazon, Facebook, Uber, Netflix, Google, Apple, Lyft, Microsoft, Airbnb, Snap, Stripe) are often the target companies for most SWEs while for EEs, this isn't really the case. EE is a much broader field, there are less opportunities in tech and many people also shoot for positions in defense, semiconductors, aerospace, utilities/power/energy, biotech, etc which are often "looked down upon" by SWE students and don't offer as attractive salaries.
 - EE is much more textbook heavy, our EE concepts are based in physics and math and involve tons of calculus, linear algebra, differential equations, etc. while for SWEs, there's very little math/textbook info required for almost all jobs outside of data structures and algorithms for the interview. Some EE interviews actually expect you to solve complex, mathy transforms or at the very least, solve some circuits.
 - Every SWE and their mother has been coding since the womb, coding is much easier to pick up on your own that EE.
@@ -49,7 +49,7 @@ Anyways enough of the fine print let's get going to the real stuff!
 
 # Why Do I Need an Internship? 
 
-In my experience, EE students don't hold that same sense of rigor and determination to land internships compared to SWE students, we don't really have that same culture. This culture can be pretty toxic, especially among college-aged students but there are a tons of benefits as well. 
+In my experience, EE students don't hold that same sense of rigor and determination to land internships compared to SWE students, we don't really have that same culture. This culture can be pretty toxic, especially among college-aged students, but there are a tons of benefits as well. 
 
 If you were previously not super motivated to pursue internships, I hope these can convince you otherwise. If you're already super motivated, I hope these push you more!
 
@@ -70,7 +70,7 @@ Now with that's out of the way, let's get into some actual numbers. Here's what 
 
 All in all, that's $39,000 for just one summer, which prorates to $156,000 for an entire year. Imagine how much crack you can buy with that! That's over twice the average salary for an entry-level, full-time EE. I'd say that's quite a step up from minimum wage. Now imagine you intern at Microsoft for three or four summers, that's well over $100k you'll be making even before you graduate. 
 
-The best part is Microsoft/FAANG (an acronym for the top tech companies, typically the highest paying) isn't even the highest paying, there are hedge funds/HFT firms out there that pay over twice this for a *very* select few interns (yes, there are some interns making $20k+/mo). These opportunities are *extremely* competitive and more selective because there are fewer opportunities. 
+The best part is Microsoft/FAANG (an acronym for the "top" tech companies (Facebook, Apple, Amazon, Netflix, Google), typically some of the best paying) isn't even the highest paying. There are hedge funds/HFT firms out there that pay over twice this for a *very* select few interns (yes, there are some interns making $20k+/mo). These opportunities are *extremely* competitive and more selective because there are fewer opportunities. 
 
 ### SWE vs EE
 
@@ -83,10 +83,10 @@ For example, At Apple, a first-time EE intern gets put at the $36-$40/hr band wh
 Explore intern compensation: 
 
 - [levels.fyi internships](https://www.levels.fyi/internships/): Levels.fyi is an awesome website to explore compensation. I think it was originally intended for SWEs, but as it got more popular, they expanded to other fields as well. I will talk about them more during the compensation section, but here you can browse SWE internship salaries, keeping in mind the points above. 
-- [Reddit](https://www.reddit.com/r/cscareerquestions/comments/kcthwn/official_salary_sharing_thread_for_interns/) [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/comments/isfzuz/official_salary_sharing_thread_for_interns/) [intern](https://www.reddit.com/r/cscareerquestions/comments/gufum4/official_salary_sharing_thread_for_interns_june/) [salary](https://www.reddit.com/r/cscareerquestions/comments/fc8cp9/official_salary_sharing_thread_for_interns_march/) [share](https://www.reddit.com/r/cscareerquestions/comments/e4ve4m/official_salary_sharing_thread_for_interns/) [threads](https://www.reddit.com/r/cscareerquestions/comments/cylp5r/official_salary_sharing_thread_for_interns/): Sweaty CS students on Reddit post their SWE internship offers. These figures are pretty accurate for the most part. Again, these are SWE salaries to keep in mind the points above. 
-- Glassdoor: glassdoor is ok for internships, but it's absolutely terrible for full-time engineers (FTE) because it fails to capture other components of compensation.
+- [Reddit](https://www.reddit.com/r/cscareerquestions/comments/kcthwn/official_salary_sharing_thread_for_interns/) [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/comments/isfzuz/official_salary_sharing_thread_for_interns/) [intern](https://www.reddit.com/r/cscareerquestions/comments/gufum4/official_salary_sharing_thread_for_interns_june/) [salary](https://www.reddit.com/r/cscareerquestions/comments/fc8cp9/official_salary_sharing_thread_for_interns_march/) [share](https://www.reddit.com/r/cscareerquestions/comments/e4ve4m/official_salary_sharing_thread_for_interns/) [threads](https://www.reddit.com/r/cscareerquestions/comments/cylp5r/official_salary_sharing_thread_for_interns/): Sweaty CS students on Reddit post their SWE internship offers. These figures are accurate for the most part. Again, these are SWE salaries to keep in mind the points above. 
+- Glassdoor: glassdoor is ok for internships, but it's absolutely terrible for full-time engineers (FTE) because it fails to capture other components of compensation. I only use Glassdoor as a last resort.
 
-And you think inters get paid a lot - now imagine the FTEs. Of course FTEs get paid more, I've seen TC packages at $200k+ for new grad (NG) FTEs and it's going to be these internships that make you a competitive application and achieve these compensation figures. I won't drop any FTE numbers here, but check out the [levels.fyi data on it](https://www.levels.fyi/comp.html?track=Hardware%20Engineer). 
+And you think inters get paid a lot - now imagine the FTEs. Of course FTEs get paid more, there are plenty of $200k+ TC packages for new grad (NG) FTEs and it's going to be these internships that make you a competitive application and achieve these compensation figures. I won't drop any FTE numbers here, but check out the [levels.fyi data on it](https://www.levels.fyi/comp.html?track=Hardware%20Engineer). 
 
 Here was a bit of info on compensation that was meant to entice you, but there's a dedicated section later on that goes more in-depth. 
 
@@ -190,7 +190,7 @@ Companies really want to sell you on their company because they want you to stay
 - Hoodies/Jackets (Patagonia, North Face, etc)
 - Backpacks (Timbuk2, Patagonia, North Face, etc)
 
-In my other post about my [Microsoft experience, I also included a dedication section on swag. ](http://localhost:3000/blog/my_remote_software_engineering_internship_experience_at_microsoft_summer_2020#swag)
+In my other post about my [Microsoft experience, I also included a dedication section on swag. ](http://montychoy.com/blog/my_remote_software_engineering_internship_experience_at_microsoft_summer_2020#swag)
 
 ## Clout
 
@@ -198,7 +198,7 @@ We're young, this matters to us for some reason. Enjoy it while it lasts!
 
 # Finding the Motivation
 
-It's very difficult to land internships as a freshman or sophomore and especially as a high schooler, but there are still tons of things to get you ahead of the curve. Unfortunately, EE is a very textbook-heavy field where a strong understanding of math, physics, and EE concepts are necessary to perform well, and most of these aren't taught until junior or senior year. This isn't like SWE where you really only need to take one sophomore-level class to prepare you for 90% of SWE, and that class can easily be self-studied, no EE is *real* engineering (jk ofc). 
+It's very difficult to land internships as a freshman or sophomore and especially as a high schooler, but there are still tons of things to get you ahead of the curve. Unfortunately, EE is a very textbook-heavy field where a strong understanding of math, physics, and EE concepts are necessary to perform well, and most of these aren't taught until like junior year. This isn't like SWE where you really only need to take one "sophomore"-level class to prepare you for 90% of SWE, and that class can easily be self-studied, no EE is *real* engineering (jk ofc). 
 
 This will be emphasized so much: get started early. The best time to get started was yesterday, but the second-best time is *now*. If I could attribute my internship success to one thing that's under my control, it would be that I started early. 
 
@@ -252,7 +252,7 @@ The experience, insight, and information available at career events and intervie
 
 ## Experience Compounds
 
-The sheer amount of advantage you can achieve just by starting out a few months or years is actually pretty insane. All that experience just keeps adding up faster and faster. Those projects you do in high school can help you land internships in your freshman year, and that internship helps you land even better internships in your sophomore year, and all that just compounds insanely fast, especially because internships are so valuable and internships don't come in big volumes. If you're a really *really* good student, you'll land three - four internships during your undergrad, while a good student may only land one or two. One internship already means *a lot*, now imagine three or four of them. Internship experience typically isn't linear, meaning that four internships is often has way more than 2x the value compared to two internships.  
+The sheer amount of advantage you can achieve just by starting out a few months or years is actually pretty insane. All that experience just keeps adding up faster and faster. Those projects you do in high school can help you land internships in your freshman year, and that internship helps you land even better internships in your sophomore year, and all that just compounds insanely fast, especially because internships are so valuable and internships don't come in big volumes. If you're a really *really* good student, you'll land three or four internships during your undergrad, while a good student may only land one or two. One internship already means a lot, now imagine three or four of them. Internship experience typically isn't linear, meaning that four internships often has way more than 2x the value compared to two internships.  
 
 ![starting_early_graph](images/starting_early_graph.png)
 
@@ -295,7 +295,7 @@ Companies aren't spending tons of money for nothing, they themselves also realiz
 This is a multi-part post, here are the other parts:
 
 1. The Internship Mindset (this one!): Why do you even need an internship? It's so intimidating!
-2. [Pre-Application](http://montychoy.com/blog/how_to_land_an_electrical_engineering_internship_part_2_pre-application): There are so many things to do before even sending out your first application
+2. [Pre-Application](/blog/how_to_land_an_electrical_engineering_internship_part_2_pre-application): There are so many things to do before even sending out your first application
 3. Your Application: What your application needs and how can you stand out
 4. Applying: How to spam applications
 5. Interviews: Cracking the EE interview!
