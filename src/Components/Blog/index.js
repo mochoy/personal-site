@@ -1,6 +1,4 @@
-import React, { 
-  // useContext 
-} from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown'
 
@@ -8,15 +6,16 @@ import Loading from '../Functional/Loading';
 import Cover from './Cover';
 import DateInfo from './DateInfo';
 
-// import { ReactGACtx } from '../App';
-
 import useBlogPosts from '../../hooks/useBlogPosts';
+
+import { ReactGACtx } from '../App';
 
 import './index.css';
 import './blog-content.css';
 
+
 const Blog = props => {  
-  // const ReactGA = useContext(ReactGACtx);
+  const ReactGA = useContext(ReactGACtx);
 
   const [ posts, isLoading ] = useBlogPosts();
 
