@@ -9,7 +9,16 @@ import stringToUrl from '../../../helpers/stringToUrl';
 import { scrollToOffset } from '../../../consts';
 
 
-const renderers = (filePath) => {
+/**
+ * Hook to scroll to element based on hash in url
+ * 
+ * @param {String} filePath: filePath attribute from post, path to files use to
+ *  import images
+ * @param {Object} ReactGA: ReactGA object used for GA
+ * 
+ * @returns {Object}: Object of renderers to match remark renderer spec
+ */
+const renderers = (filePath, ReactGA) => {
   return {
     // Render for img, make sure get correct path to image via require()
     image: ({src, alt}) => {
