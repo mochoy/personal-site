@@ -1,3 +1,4 @@
+import React, { useContext } from 'react';
 import { Redirect, Link } from 'react-router-dom';
 import { ArrowBack } from '@material-ui/icons';
 import ReactMarkdown from 'react-markdown';
@@ -13,6 +14,9 @@ import useBlogPostViewAnalytics from '../../../hooks/useBlogPostViewAnalytics';
 import useScrollToElementOnLoad from '../../../hooks/useScrollToElementOnLoad';
 import renderers from './mdRenderers';
 
+import { ReactGACtx } from '../../App';
+
+
 import './index.css';
 
 
@@ -26,8 +30,11 @@ const BlogDetail = props => {
     searchUrl: props.match.params.id
   });
 
+  const ReactGA = useContext(ReactGACtx);
+
   useBlogPostViewAnalytics(post);
   useScrollToElementOnLoad();
+
   
   // Blog post is loading
   if (isBlogPostLoading) {
@@ -43,7 +50,16 @@ const BlogDetail = props => {
   
     return (
       <div id="BlogDetail" className="blog-content">
-        <Link to="/blog" className="flex-container-vertically-center no-style-link text-hover-grey">
+        <Link to="/blog" 
+          className="flex-container-vertically-center no-style-link text-hover-grey"
+          onClick={() => {
+            ReactGA.event({
+              category: 'Blog Post',
+              action: 'Click Link',
+              label: `Back to Blog Previews`
+            });
+          }}
+        >
           <ArrowBack/>
           <p style={{ marginLeft: "5px"}}>Back to posts</p>
         </Link>
@@ -56,7 +72,7 @@ const BlogDetail = props => {
         <TableOfContents tableOfContents={flattenedTableOfContents}/>
         
         <ReactMarkdown className="md" 
-          renderers={renderers(filePath)} 
+          renderers={renderers(filePath, ReactGA)} 
           source={md}
         />
 
