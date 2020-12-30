@@ -96,6 +96,12 @@ const defaultDbPostEntry = {
     // Clear comment form
     updateName("");
     updateComment("");
+
+    // Log via GA
+    ReactGA.event({
+      category: 'Blog Post',
+      action: `Comment Submit`
+    });
   };
 
 
