@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowBack, ArrowForward } from '@material-ui/icons';
+
+import { ReactGACtx } from '../../../App';
+
 
 import './index.scss';
 
@@ -13,11 +16,20 @@ const AdjacentPosts = ({ prevPost, nextPost }) => {
 
   const linkClassName="no-style-link flex-container-vertically-center flex-container-left text-hover-grey";
 
+  const ReactGA = useContext(ReactGACtx);
+
+
   return (
     <div id="AdjacentPosts">
       { !!prevUrl && !!prevTitle &&
-        <Link id="prev-link" className={linkClassName}
-        to={prevUrl}
+        <Link id="prev-link" className={linkClassName} to={prevUrl}
+          onClick={() => {
+            ReactGA.event({
+              category: 'Blog Post',
+              action: 'Click Adjacent Post',
+              label: `Prev to ${prevTitle}`
+            });
+          }}
         >
           <ArrowBack/>
           <p className="adj-txt">{prevTitle}</p>
@@ -28,8 +40,14 @@ const AdjacentPosts = ({ prevPost, nextPost }) => {
       }
 
       { !!nextUrl && !!nextTitle &&
-        <Link id="next-link" className={linkClassName}
-        to={nextUrl}
+        <Link id="next-link" className={linkClassName} to={nextUrl}
+          onClick={() => {
+            ReactGA.event({
+              category: 'Blog Post',
+              action: 'Click Adjacent Post',
+              label: `Next to ${nextTitle}`
+            });
+          }}
         >
           <p className="adj-txt">{nextTitle}</p>
           <ArrowForward/>
