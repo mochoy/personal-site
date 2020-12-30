@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Drawer } from '@material-ui/core';
 import Scrollspy from 'react-scrollspy'
 
 import scrollToElement from 'scroll-to-element';
 
 import { scrollToOffset } from '../../../../consts';
+import { ReactGACtx } from '../../../App';
+
 
 import './index.scss';
 
 
-
 const TableOfContents = props => {
   const { tableOfContents } = props;
+
+  const ReactGA = useContext(ReactGACtx);
 
   // All ToC items, including one manually added for the intro
   const tocItems = [{
@@ -41,6 +44,12 @@ const TableOfContents = props => {
                     onClick={e => {
                       e.preventDefault();
                       scrollToElement(url, { offset: scrollToOffset });
+
+                      ReactGA.event({
+                        category: 'Blog Post',
+                        action: 'Click Table of Contents',
+                        label: `${value}`
+                      });
                     }}
                   >
                     {value}
