@@ -3,6 +3,7 @@ import React from 'react';
 import LinkIcon from '@material-ui/icons/Link'; 
 import scrollToElement from 'scroll-to-element';
 import { Link } from 'react-router-dom';
+import VisibilitySensor from 'react-visibility-sensor';
 
 import stringToUrl from '../../../helpers/stringToUrl';
 
@@ -49,21 +50,28 @@ const renderers = (filePath, ReactGA) => {
       }
       
       return (
-        <Link to={fullId} 
-          className="flex-container-vertically-center heading-container"
-          onClick={() => {
-            ReactGA.event({
-              category: 'Blog Post',
-              action: 'Click Header',
-              label: `${text}`
-            });
-
-            scrollToElement(fullId, { offset: scrollToOffset });
+        <VisibilitySensor 
+          partialVisibility={true} 
+          onChange={isVisible => {
+            ReactGA.custom.sectionVisited(isVisible, text, true)
           }}
         >
-          {generateHeaderJSX()}
-          <LinkIcon fontSize="small" className="heading-link-icon"/>
-        </Link>
+          <Link to={fullId} 
+            className="flex-container-vertically-center heading-container"
+            onClick={() => {
+              ReactGA.event({
+                category: 'Blog Post',
+                action: 'Click Header',
+                label: `${text}`
+              });
+
+              scrollToElement(fullId, { offset: scrollToOffset });
+            }}
+          >
+            {generateHeaderJSX()}
+            <LinkIcon fontSize="small" className="heading-link-icon"/>
+          </Link>
+        </VisibilitySensor>
       );
     },
 
