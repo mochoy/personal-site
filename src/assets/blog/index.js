@@ -16,9 +16,9 @@ import howToLandAnEEInternshipPart7 from './how_to_land_an_ee_internship/part7';
 // Array of all posts before fetching and parsing the markdown file
 const posts = [
   howToLandAnEEInternshipPart1,
-  howToLandAnEEInternshipPart2,
   first_post,
   remote_microsoft_internship,
+  howToLandAnEEInternshipPart2,
   howToLandAnEEInternshipPart3,
   howToLandAnEEInternshipPart4,
   howToLandAnEEInternshipPart5,

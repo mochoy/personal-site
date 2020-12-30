@@ -38,7 +38,7 @@ Fall and winter is when most of the applying happens, you should start applying 
 
 The exact timeline in the fall differs a bit by company, but I begin applying when school starts for me in mid-September and by this time, there area already tons of postings out. This is pretty late so I'd actually suggest to start applying even earlier. In the fall, I typically apply up until around Thanksgiving time if I'm satisfied with my results, otherwise I still continue to apply. Interviews usually happen for me in October - November with a few extending out into December and offers come in November - December. That's a whole three to four months or applying but if I don't find anything good, I'll need to continue into winter.
 
-And to further incentivize you to being applying early in the fall and summer, here are some ballpark figures that will scare you away from beginning your application season in the winter or spring. If I had to best guess, I'd say that ~50% of EE internships are filled up by January. This means that if you start applying in January, your chances are basically half that of starting in August, and for your first internship, this can play a massive difference when you need everything you can get. And come spring when I'd guess that 95% of EE internships are filled, your chances are even worse. 
+And to further incentivize you to begin applying early in the fall and summer, here are some ballpark figures that will scare you away from beginning your application season in the winter or spring. If I had to best guess, I'd say that ~50% of EE internships are filled up by January. This means that if you start applying in January, your chances are basically half that of starting in August, and for your first internship, this can play a massive difference when you need everything you can get. And come spring when I'd guess that 95% of EE internships are filled, your chances are even worse. 
 
 ## Winter (January - March)
 
@@ -185,7 +185,7 @@ And so much more!!!
 
 # Getting Started Early
 
-The best thing to help your application is to get started early. EE isn't like SWE where everyone and their mother has been coding since the womb. It's very difficult and expensive to get hands-on EE experience on your own and many EE students didn't choose EE the same way many CS students chose CS. I can not emphasize how important it is to start early, it provides a massive advantage over your peers and gives you a huge leg up when searching for internships. 
+The best thing to help your application is to get started early. EE isn't like SWE where everyone and their mother has been coding since the womb. It's very difficult and expensive to get hands-on EE experience on your own and many EE students didn't choose EE the same way many CS students chose CS. I can not emphasize how important it is to start early, it provides a massive advantage over your peers and gives you a huge leg up when searching for internships. The earlier you start, the more time you have, so the more things you can do, and these investments pay off and can grant you a massive advantage. 
 
 I started coding when I was 12 and started to teach myself electronics a few years later at 15. I funded my projects through my summer coding teacher job and starting my own company and my extensive background before entering college is the biggest reason why I landed so many amazing internships.
 
@@ -225,7 +225,7 @@ Networking has become one of those terms that gets utilized so much its meaning 
 
 This is a multi-part post, here are the other parts:
 
-1. [The Internship Mindset](http://montychoy.com/blog/how_to_land_an_electrical_engineering_internship_part_1_the_internship_mindset): Why do you even need an internship? It's so intimidating!
+1. [The Internship Mindset](/blog/how_to_land_an_electrical_engineering_internship_part_1_the_internship_mindset): Why do you even need an internship? It's so intimidating!
 2. Pre-Application (this one!): There are so many things to do before even sending out your first application
 3. Your Application: What your application needs and how can you stand out
 4. Applying: How to spam applications
