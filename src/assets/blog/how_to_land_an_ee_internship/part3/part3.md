@@ -269,6 +269,8 @@ But maybe you do find out that EE is your passion - even better! My passion in E
 - Personal website (can be weebly/wix)
 - If in-person, bring iPad to show project off
 
+## Time Management
+
 # School
 
 ## Grades
