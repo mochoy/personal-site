@@ -35,7 +35,15 @@ const Blog = props => {
 
           return (
             <div key={i} className="post-preview">
-              <Link className={`no-style-link ${disabledLink}`} to={url}>
+              <Link className={`no-style-link ${disabledLink}`} to={url}
+                onClick={() => {
+                  ReactGA.event({
+                    category: 'Blog',
+                    action: 'Click Link to Post from Post Preview',
+                    label: `Title to '${title}'`
+                  });
+                }}
+              >
                 <h2>{title}</h2>
               </Link>
 
@@ -43,7 +51,15 @@ const Blog = props => {
               
               <ReactMarkdown className="preview-md" source={previewMd}/>
 
-              <Link to={url} className={`no-style-link ${disabledLink}`}>
+              <Link to={url} className={`no-style-link ${disabledLink}`}
+                onClick={() => {
+                  ReactGA.event({
+                    category: 'Blog',
+                    action: 'Click Link to Post from Post Preview',
+                    label: `Read More to '${title}'`
+                  });
+                }}
+              >
                 <p>{isPreview ? "Coming Soon!" : "Read More"}</p>
               </Link>
             </div>
