@@ -61,7 +61,7 @@ const renderers = (filePath) => {
       }
       // External destination
       return (
-        <a href={href} target="_blank" without rel="noopener noreferrer">
+        <a href={href} target="_blank" without="true" rel="noopener noreferrer">
           {text}
         </a>
       )
