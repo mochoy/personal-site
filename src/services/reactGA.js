@@ -18,16 +18,17 @@ ReactGA.initGA = () => {
 ReactGA.custom = {
   // Called from VisibilitySensor onChange, if isVisible === true, then that 
   // section has been visited, so send an event to GA via GA event
-  sectionVisited: (isVisible, section) => {
+  sectionVisited: (isVisible, section, isBlog) => {
     if (isVisible) {
       ReactGA.event({
-        category: 'Section',
+        category: `${!!isBlog ? "Blog" : "Main"} Section`,
         action: "Visited",
         label: section,
         nonInteraction: true
       });
     }
-  }  
+  },
+
 }
 
 export default ReactGA;
