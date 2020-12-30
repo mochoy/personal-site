@@ -27,6 +27,7 @@ const defaultDbPostEntry = {
  * Items are returned in an object and must be destructured
  * 
  * @param {String} pathname: Path in db to the data that corresponds to this post 
+ * @param {Object} ReactGA: GA object
  * 
  * @return {Array} comments
  * @return {Number} votes
@@ -37,7 +38,7 @@ const defaultDbPostEntry = {
  * @return {Function} updateComment
  * @return {Function} onCommentSubmit
  */
- const useCommentsAndVotesForBlog = (pathname) => {
+ const useCommentsAndVotesForBlog = (pathname, ReactGA) => {
   // Vals from db
   const [ comments, setComments ] = useState([]);
   const [ likes, setLikes ] = useState([]);
@@ -118,6 +119,12 @@ const defaultDbPostEntry = {
 
     // Set like status
     setLikeStatus(likeEvent);
+
+    // Log via GA
+    ReactGA.event({
+      category: 'Blog Post',
+      action: `${likeEvent}`
+    });
   }
 
 

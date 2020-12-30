@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import Likes from './Likes';
 import Comments from './Comments';
 
 import useCommentsAndVotesForBlog from '../../../../hooks/useCommentsAndVotesForBlog';
+import { ReactGACtx } from '../../../App';
 
 
 import './index.css';
@@ -12,6 +13,8 @@ import './index.css';
 // Voting and comments for posts
 const UserInteraction = props => {
   const { pathname } = props;
+
+  const ReactGA = useContext(ReactGACtx);
 
   const { comments, 
     likes, 
@@ -23,7 +26,7 @@ const UserInteraction = props => {
     onCommentSubmit,
   
     likeStatus,
-    onLikeEvent } = useCommentsAndVotesForBlog(pathname);
+    onLikeEvent } = useCommentsAndVotesForBlog(pathname, ReactGA);
 
 
   return (
