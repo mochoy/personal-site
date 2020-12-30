@@ -74,11 +74,31 @@ const renderers = (filePath, ReactGA) => {
 
       // First char in link is /, meaning destination is internal
       if (href[0] === "/") {
-        return (<Link to={href}>{text}</Link>)
+        return (
+          <Link to={href} 
+            onClick={() => {
+              ReactGA.event({
+                category: 'Blog Post',
+                action: 'Click Internal Destination Link',
+                label: `${text}`
+              });
+            }}
+          >
+            {text}
+          </Link>
+        )
       }
       // External destination
       return (
-        <a href={href} target="_blank" without="true" rel="noopener noreferrer">
+        <a href={href} target="_blank" without="true" rel="noopener noreferrer"
+          onClick={() => {
+            ReactGA.event({
+              category: 'Blog Post',
+              action: 'Click External Destination Link',
+              label: `${text}`
+            });
+          }}
+        >
           {text}
         </a>
       )
