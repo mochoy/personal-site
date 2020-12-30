@@ -51,11 +51,19 @@ const renderers = (filePath, ReactGA) => {
       return (
         <Link to={fullId} 
           className="flex-container-vertically-center heading-container"
-          onClick={() => scrollToElement(fullId, { offset: scrollToOffset })}
+          onClick={() => {
+            ReactGA.event({
+              category: 'Blog Post',
+              action: 'Click Header',
+              label: `${text}`
+            });
+
+            scrollToElement(fullId, { offset: scrollToOffset });
+          }}
         >
-        {generateHeaderJSX()}
-        <LinkIcon fontSize="small" className="heading-link-icon"/>
-      </Link>
+          {generateHeaderJSX()}
+          <LinkIcon fontSize="small" className="heading-link-icon"/>
+        </Link>
       );
     },
 
