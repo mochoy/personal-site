@@ -8,10 +8,12 @@ import * as serviceWorker from './serviceWorker';
 import './index.css';
 
 import './styles/flex-containers.css';
-import './styles/text.css';
+import './styles/text.scss';
 import './styles/misc.css';
 import './styles/animations.css';
 import './styles/section.css';
+import './styles/colors.scss';
+
 
 
 ReactDOM.render(

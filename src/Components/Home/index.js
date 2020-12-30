@@ -28,7 +28,7 @@ const Home = props => {
       }}
     >
       {/* Background image */}
-      <div id="bg-img"
+      <div className="bg-img"
         style={{
           backgroundImage: 'url(' + require('assets/images/background/bboy-icey-blurred.jpg') + ')'
         }}

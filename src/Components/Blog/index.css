@@ -1,0 +1,14 @@
+#Blog {
+  /* padding-top: 4em; */
+  margin-bottom: 4em;
+  width: 100%;
+}
+
+#Blog .post-preview {
+  border-bottom: solid 1px #989898;
+  margin-bottom: 3em;
+}
+
+#Blog .post-preview h2 {
+  margin-bottom: 0;
+}

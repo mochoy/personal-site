@@ -8,7 +8,7 @@ import { ReactGACtx } from '../App';
 import { isProd } from '../../helpers/isDev';
 
 import FeaturedProject from './FeaturedProject';
-import CollapsibleTextTrigger from '../Functional/CollapsibleTextTrigger';
+// import CollapsibleTextTrigger from '../Functional/CollapsibleTextTrigger';
 import Filter from './Filter';
 import Project from './Project';
 
@@ -21,7 +21,7 @@ const filterOptions = ["All", "Hardware", "Software", "Web", "Nerf", "Architectu
 const Projects = props => {
   const { projectsData } = props;
 
-  const [ isMoreProjectsExpanded, setIsMoreProjectsExpanded ] = useState(true);
+  // const [ isMoreProjectsExpanded, setIsMoreProjectsExpanded ] = useState(true);
   const [ projectsToDisplay, setProjectsToDisplay ] = useState(projectsData);
 
   const [ filter, setFilter ] = React.useState(filterOptions[0]);
@@ -107,24 +107,11 @@ const Projects = props => {
           }
         </div>
 
-        <CollapsibleTextTrigger
-          containerClassName="flex-container-horizontally-center"
-          isExpanded={isMoreProjectsExpanded}
-          setIsExpanded={setIsMoreProjectsExpanded}
-          onClick={(isExpanded) => {
-            ReactGA.event({
-              category: 'Project',
-              action: 'Click',
-              label: isExpanded ? "Expanded" : "Collapsed"
-            });
-          }}
-        >
-          <h2 className="text-center" style={{ /* margin: 0 */ }}>
-            More Projects
-          </h2>
-        </CollapsibleTextTrigger>
+        <h2 className="text-center">
+          More Projects
+        </h2>
         
-        <Collapse in={isMoreProjectsExpanded}>
+        <Collapse in={true}>
           <div id="more-projects-container">
             <Filter filter={filter} 
               setFilter={setFilter} 

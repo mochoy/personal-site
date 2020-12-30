@@ -46,21 +46,20 @@ const Links = props => {
         )
       })}
 
-      { /*
-      <p className="text-center mouse-on-hover" onClick={e => {
-          onLinkClick(e);
+      { true && 
+        <p className="text-center mouse-on-hover" onClick={e => {
+            onLinkClick(e);
 
-          ReactGA.event({
-            category: 'Nav',
-            action: 'Click Link',
-            label: `blog`
-          });
-        }}
-      >
-        <Link to={"/blog"}>Blog</Link>
-      </p>
-
-      */}
+            ReactGA.event({
+              category: 'Nav',
+              action: 'Click Link',
+              label: `blog`
+            });
+          }}
+        >
+          <Link to={"/blog"}>Blog</Link>
+        </p>
+      }
     </div>
   )
 }

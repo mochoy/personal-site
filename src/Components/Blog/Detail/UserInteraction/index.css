@@ -1,0 +1,58 @@
+#Likes {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#Comments .comment {
+  margin-bottom: 2em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  /* transition: fadein 0.3s; */
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#Comments .comment .name {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+#Comments .comment .time-ago {
+  margin: 0;
+  font-size: 0.8em;
+  color: #797979;
+}
+
+#Comments .comment .text {
+  margin-top: 0.5em;
+}
+
+
+
+
+#Comments #form div {
+  margin-bottom: 1em;
+}
+
+#Comments #form label {
+  display: block;
+  margin-bottom: 0.5em;
+  /* font-weight: 500; */
+}
+
+#Comments #form textarea {
+  width: 90%;
+}
+
+#Comments #form input, #Comments #form textarea {
+  padding: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  /* transition: all 0.3s; */
+  color: #444;
+  max-width: 100%;
+  /* line-height: 1em; */
+}
+

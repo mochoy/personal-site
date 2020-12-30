@@ -7,17 +7,13 @@
 
 }
 
-#Home #bg-img {
+#Home .bg-img {
   height: 100%;
   width: 100%;
 
   /* Add the blur effect */
   /* filter: blur(8px);
   -webkit-filter: blur(8px); */
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
   /* Make bg img bigger so edges don't look weird */
   /* transform: scale(1.05); */

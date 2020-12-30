@@ -19,7 +19,7 @@ const LinksAndCategories = props => {
 
   return (
     <div className={`Links ${containerClassName}`}>
-      { direction === "right" && true &&
+      { direction === "right" && false &&
         <CategoryIcons 
           containerStyle={{ 
             // Make sure these icons stay on the left
@@ -70,7 +70,7 @@ const LinksAndCategories = props => {
         }
       </div>
 
-      { direction !== "right" && true &&
+      { direction !== "right" && false &&
         <CategoryIcons 
           categories={categories} 
           title={title}

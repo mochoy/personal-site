@@ -1,90 +1,88 @@
-import React, { createContext } from 'react';
-import ReactGA from 'react-ga';
+import React, { createContext, useEffect } from 'react';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import firebase from 'firebase/app';
+import 'firebase/database';
 
 import Nav from '../Nav';
 import Main from '../Main';
 import Blog from '../Blog';
+import BlogDetail from '../Blog/Detail';
+import NotFound from '../NotFound';
 import Footer from '../Footer';
+
+import ReactGA from '../../services/reactGA';
+import { firebaseConfig } from '../../services/firebase';
 
 
 import './index.css';
 
-// test pat
 
-const initGA = () => {
-  ReactGA.initialize(process.env.REACT_APP_GA_KEY, {
-    // debug: true,
-    // testMode: true,    // Uncomment/set to false if dont want data sent to ga
-    // siteSpeedSampleRate: 100
-  });
-
-  ReactGA.pageview(window.location.pathname + window.location.search);
-};
-
-
-// Custom GA stuff that will be tacked onto ReactGA that gets passed through contexts
-ReactGA.custom = {
-  // Called from VisibilitySensor onChange, if isVisible === true, then that 
-  // section has been visited, so send an event to GA via GA event
-  sectionVisited: (isVisible, section) => {
-    if (isVisible) {
-      ReactGA.event({
-        category: 'Section',
-        action: "Visited",
-        label: section,
-        nonInteraction: true
-      });
-    }
-  }  
-}
-
+firebase.initializeApp(firebaseConfig);
 
 export const ReactGACtx = createContext(ReactGA);
+export const FirebaseCtx = createContext(firebase.database());
 
 
 const App = () => {
-  React.useEffect(() => {
-    initGA();
+  useEffect(() => {
+    ReactGA.initGA();
   }, []);
 
   return (
     <ReactGACtx.Provider value={ReactGA}>
-      <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
-        <div className="App">
-          <Nav/>
-          
-          <Switch>
-            {/* Route to main */}
-            <Route 
-              exact path={["/", "/home", "/about", "/experience", "/projects"]}
-              render = {(props) => (
-                <Main {...props}/>
-              )} 
-            />
+      <FirebaseCtx.Provider value={firebase.database()}>
+        <BrowserRouter onUpdate={() => ReactGA.pageview(window.location.hash)}>
+          <div className="App">
+            <Nav/>
+            
+            <Switch>
+              {/* Route to main */}
+              <Route 
+                exact path={["/", "/home", "/about", "/experience", "/projects"]}
+                render = {(props) => (
+                  <Main {...props}/>
+                )} 
+              />
 
-            {/* Route to blog */}
-            <Route 
-              exact path="/blog" 
-              render = {(props) => (
-                <Blog {...props}/>
-              )} 
-            />
+              {/* Route to blog */}
+              <Route 
+                exact path="/blog" 
+                render = {(props) => (
+                  <Blog {...props}/>
+                )} 
+              />
 
-            {/* Redirect random/broken paths to main */}
-            <Route 
-              path="/*" 
-              render = {() => (
-                <Redirect to="/" />
-              )} 
-            />
+              {/* Route to blog detail */}
+              <Route 
+                exact path="/blog/:id" 
+                render = {(props) => (
+                  <BlogDetail {...props}/>
+                )} 
+              />
 
-          </Switch>
+              {/* Route to 404 Not Found */}
+              <Route 
+                exact path="/404" 
+                render = {(props) => (
+                  <NotFound {...props}/>
+                )} 
+              />
 
-          <Footer/>
+              {/* Redirect random/broken paths to main */}
+              <Route 
+                path="/*" 
+                render = {() => (
+                  <Redirect to="/" />
+                )} 
+              />
 
-        </div>
-      </BrowserRouter>
+            </Switch>
+
+            <Footer/>
+
+          </div>
+        </BrowserRouter>
+      </FirebaseCtx.Provider>
     </ReactGACtx.Provider>
   );
 }
