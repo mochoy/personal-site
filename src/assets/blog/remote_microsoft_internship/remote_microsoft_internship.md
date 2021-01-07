@@ -5,7 +5,7 @@ Now the interviews weren't really part of the internship experience, but my inte
 
 I actually had my first round interview in January 2020 and my Super Day on-site interviews in February for my specific team at my team's office in Sunnyvale. This is actually pretty rare, most interviews happen between September and November and are typically put into a general intern pool. The two other interns on my team followed the standard application process. The team matching process happens way later closer to the summer so many interns don't really know what exact team they're on or their manager until closer to the summer. In fact, I heard that some people didn't even know who their manager was until a few days into their internship. 
 
-Luckily I new my team and manager during my interviews. I forgot to ask why my interview process was so different, so I guess we will never know. My best guess was that I was probably wasn't on the first-choice list, but after some people declined their offers in Decemember, Microsoft started to reach out to second-choice list and got to me. 
+Luckily I knew my team and manager from my interviews. I forgot to ask why my interview process was so different, so I guess we will never know. My best guess was that I was probably wasn't on the first-choice list, but after some people declined their offers in Decemember, Microsoft started to reach out to second-choice list and got to me. 
 
 # Pre-Internship
 
