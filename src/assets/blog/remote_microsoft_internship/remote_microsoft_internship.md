@@ -109,13 +109,13 @@ Every intern received at least one intern giftbox that included a white Microsof
 
 I think the intern gifts were supposed to arrive around the start date for each intern, but it ended up getting pretty delayed. I received mine in late August and some interns didn't even get theirs until after they ended. 
 
-### Hackathon
+### Hackathon Swag
 
 I'll talk more about the Microsoft Hackathon and Intern Day in the Fun Stuff section, but here's the swag. Everyone that signed up with a team for the hackathon got a dope Microsoft Hackathon 2020 t-shirt and stickers. I think the Hackathon might be themed so every year, each shirt has a differnt theme, but I'm not 100% sure. 
 
 ![hackathon_swag](images/hackathon_swag.jpg)
 
-### Intern Day
+### Intern Day Swag
 
 I'll go more into Intern Day later on as well, but we had a choice between three items, all of which were Microsoft labeled:
 
