@@ -156,6 +156,8 @@ The Xbox and Surface Duo hoodie were specific to my team/org, and other teams/or
 
 # Fun Stuff! 
 
+Microsoft really sells the interns on the whole Microsoft experience and offers tons of fun events throughout the summer. It would of course be better if we were in-person, but I still had a blast throughout the remote experience.
+
 ## Intern Cohort
 
 ## Intern Day
