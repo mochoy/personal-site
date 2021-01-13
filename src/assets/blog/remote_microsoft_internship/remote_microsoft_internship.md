@@ -160,6 +160,18 @@ Microsoft really sells the interns on the whole Microsoft experience and offers 
 
 ## Intern Cohort
 
+Microsoft has intern cohorts every summer which is basically just a group of random interns paired with two FTEs who organize and facilitate activities for the interns. My cohort had I think like ~20 interns or so, but 75% of them never showed up for anything. We actually had a few activities with pretty good turnout, apparently other cohort groups had way more trouble getting any turnout and never hosted any events. 
+
+All the interns in my cohort started and ended at around the same time and I think we were all supposed to be in the SF Bay Area offices. The cohort leaders were both in the SF offices, 
+
+### Game Nights
+
+### Scavenger Hunt
+
+### AirBnB Experiences
+
+### Former Intern Panel
+
 ## Intern Day
 
 ## Hackathon
