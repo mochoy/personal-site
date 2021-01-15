@@ -209,17 +209,13 @@ Start attending networking/career events as early as possible. I'll go over more
 
 We all hear about how important networking is because it is! I want to put networking earlier in this pre-app section because it ideally precedes a lot of applications and is pretty continuous, you do it all year round, even after landing your internship or even during the actual internship. I'll also throw in more specific networking advice in their dedication sections as they come up. I'm also awkard af and I wouldn't call myself "good" at networking or anything so my networking insights will be more limited compared to everything else. 
 
-## What is Networking? 
-
-Networking has become one of those terms that gets utilized so much its meaning gets lost and/or skewed. It seems to imply some sort of transactional, surface-level interactions which may sometimes be the case. 
-
-## The Power of Networking
-
 ## How do I do it? 
 
 - that werid guy
 - Networking events
 - Career fair and stuff will be talked about later
+
+## The Power of Networking
 
 # What's Next
 
