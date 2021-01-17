@@ -10,7 +10,7 @@ Every company has their own timeline, so try to read up on that beforehand for y
 
 ## Summer
 
-Yep, that's right, the summer *before* that next summer's internship. A *whole year* in advanced is when you should start thinking about applications. The summer application season isn't as intense as the fall/winter, but be aware of the timeline. You should be developing your skillset ideally since you were born, but the deadline on that isn't as strict as it is for internships. Many companies open up their applications in June - July of the previous summer and may even close in August or September school begins for you. 
+Yep, that's right, the summer *before* that next summer's internship. A *whole year* in advanced is when you should start thinking about applications. The summer application season isn't as intense as the fall/winter, but be aware of the timeline. There isn't really a hard deadline for developing your skillset, but there is when it comes to internships. Many companies open up their applications in June - July of the previous summer and may even close in August or September school begins for you. 
 
 Other applications may also open up in August or September which is still summer break for those of us on the quarter system. The unfair part is that those on the semester system may get evaluated earlier and get first shot at the available seats. Some companies like Microsoft have a certain amount of seats reserved for the quarter students who typically apply later, but I can't say the same for other companies. 
 
