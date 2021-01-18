@@ -45,6 +45,8 @@ That being said, the inverse is also the case, this guide also has tons of infor
 - There are way more SWE opportunities out there and way more CS students applying to them.
 - There aren't too many EE career communities and resources out there.
 
+## Uncounsious Nuances
+
 Anyways enough of the fine print let's get going to the real stuff!
 
 # Why Do I Need an Internship? 
