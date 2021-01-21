@@ -1,4 +1,12 @@
 
+# Reflection
+
+## How will improve?
+
+# Follow up Next year
+
+- Next time will be brand new, dont worry abt next time
+
 # Misc.
 
 - like FTE search
