@@ -30,7 +30,7 @@ If you get invited for a phone screen/interview for an off-season internship, yo
 
 If you have a return offer, that return offer may have a deadline. This deadline can be a few weeks or even months after you complete your internship, depending on the company and even your school. If your return offer deadline is within a few weeks of your last day of the internship, that's a tough deadline to meet and make a decision. The whole interview process may take a few weeks and that might not be enough time to go through the entire interview process at your target companies. 
 
-If you start applying during the summer, you get a better buffer timeline-wise to get competing offers and decide where you want to continue at next summer. These competing offers can help with internship negotiation (yep that's a thing!) and just open up more doors for you. Even if a company hasn't begun their recruiting pipeline yet, if you have the contact info of a recruiter or hiring manager, you may be able to expediate that process using a competing return offer as leverage. 
+If you start applying during the summer, you have a better timeline buffer to get competing offers and decide where you want to continue at next summer. These competing offers can help with internship negotiation (yep that's a thing!) and just open up more doors for you. Some companies post their listings in the beginning of the summer but don't ramp up until late summer or early fall, and if that's the case, you might not get that same timeline buffer. Even if a company hasn't begun their recruiting pipeline yet, if you have the contact info of a recruiter or hiring manager, you may be able to expediate that process using a competing return offer as leverage. 
 
 ## Fall (August - December)
 
