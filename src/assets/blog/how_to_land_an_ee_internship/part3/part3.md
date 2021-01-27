@@ -211,6 +211,8 @@ I can't stress the importance of projects, especially for underclassmen. Project
 
 We're lucky that it's relatively easy to get hands-on experience through personal and class projects as an EE, especially when you have university resources like professors, TAs, labs, other motivated students, etc. It may not be as easy as CS, but it sure is much easier than say nuclear engineering or physics. 
 
+## Why Projects?
+
 If you don't have much work experience, don't be afraid to dedicate the bulk of your resumes to projects. Side projects are more than enough to land internships even if you're "only a first year" and they don't need to be substantial. My flagship side project that helped me land my first internship at Apple during my first quarter at school was a simple little motor drive PCB I designed for my Nerf blasters. 
 
 Projects are super important, but if you're getting overwhelmed with school and other obligations, don't feel that you *need* projects to succeed. Many students waste their college education playing video games and end up fine, projects are just another way to boost your resume to the next level to tackle the more competitive internships. If you're aiming for companies like Apple and Nvidia with no projects (or experience) under your belt, well good luck with that, but there are still many amazing opportunities that don't necessarily require projects. 
