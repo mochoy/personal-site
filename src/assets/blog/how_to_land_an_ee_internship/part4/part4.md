@@ -4,6 +4,9 @@
 - I can't provide a good balance there
 - Send out applications, if hear nothing back, work on some projects
 - Be careful where sending out applications if you're just testing the waters
+- Emails to track where appliyng
+- When hear back?
+- Apply multiple roles at same company, can interview for multiple roles or sometimes better chance
 
 # Hierarchy of Applications
 
