@@ -280,6 +280,7 @@ But maybe you do find out that EE is your passion - even better! My passion in E
 - higher gpa obviously better
 - put highest gpa on your resume
 - balance school, projects, etc
+- Does GPA matter?
 
 ## Brand Name
 
