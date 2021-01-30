@@ -8,6 +8,7 @@
 - When hear back?
 - Apply multiple roles at same company, can interview for multiple roles or sometimes better chance
 
+# Application Timeline
 # Hierarchy of Applications
 
 # Apply Everywhere!
