@@ -7,6 +7,7 @@
 - Emails to track where appliyng
 - When hear back?
 - Apply multiple roles at same company, can interview for multiple roles or sometimes better chance
+- Keep track of things, they can be useful later on: Recruiters, where/when apply
 
 # Application Timeline
 # Hierarchy of Applications
