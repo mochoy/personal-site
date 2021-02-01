@@ -8,6 +8,7 @@
 - When hear back?
 - Apply multiple roles at same company, can interview for multiple roles or sometimes better chance
 - Keep track of things, they can be useful later on: Recruiters, where/when apply
+- For first internship, need to go for everything, don't turn down interview offers, it's still a great learning opportunity. Get the offer first, then decide
 
 # Application Timeline
 # Hierarchy of Applications
