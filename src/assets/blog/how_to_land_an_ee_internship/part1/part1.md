@@ -32,7 +32,7 @@ You're going to see your classmates and friends landing internships left and rig
 
 ## Similarities to SWE
 
-I will be drawing many comparisons to the SWE process because their processes are very similar to our's, but they just have way more resources. For the longest time, I actually had my career set on being a SWE and I still remain quite active in the SWE communities. If you want more tips and stuff, you could also read up on those SWE posts and 95% of their information will be directly applicable to you as an EE, especially if you're looking to get into tech. I will point out many of the key differences throughout this post as they come up so you get a good idea of what to ignore and what to take in. 
+I will be drawing many comparisons to the software engineering (SWE) process because their processes are very similar to our's, but they just have way more resources. For the longest time, I actually had my career set on being a software engineer (SWE) and I still remain quite active in the SWE communities. If you want more tips and stuff, you could also read up on those SWE posts and 95% of their information will be directly applicable to you as an EE, especially if you're looking to get into tech. I will point out many of the key differences throughout this post as they come up so you get a good idea of what to ignore and what to take in. 
 
 Alternatively, if you find out that you actually want to go into SWE as a result of this post, well more power to you!
 
