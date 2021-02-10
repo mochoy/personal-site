@@ -11,6 +11,7 @@
 - For first internship, need to go for everything, don't turn down interview offers, it's still a great learning opportunity. Get the offer first, then decide
   - I see a lot of people say, "Recruiter just reached out to inverview for X but I don't like the company, should I still interview?" Do it!
   - Things change when you actually get the offer letter
+- If already accepted another offer but get chance to interview with another company, what do to?
 
 # Application Timeline
 # Hierarchy of Applications
