@@ -24,6 +24,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 
 Resources: 
 - https://www.levels.fyi/blog/what-is-desired-salary-and-compensation.html
+- https://www.youtube.com/watch?v=1rAWA6CsAGU&t=163s
 
 # Rejecting Offers
 
