@@ -38,6 +38,7 @@
 - Go to companies you're not as interested in first
 - Dressed up
 - Print enough resumes!
+- PRactice actually speaking with people
 
 # Nepotism
 
