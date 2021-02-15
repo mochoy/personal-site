@@ -1,6 +1,7 @@
 
 - harder interviews are better: expectations
 - Talk about projects
+- Interview examples
 # Prep
 
 # Hiring Mangers vs Recruiters
