@@ -2,6 +2,7 @@
 - harder interviews are better: expectations
 - Talk about projects
 - Interview examples
+- Interviews can be highly team dependant
 # Prep
 
 # Hiring Mangers vs Recruiters
