@@ -3,6 +3,7 @@
 - Talk about projects
 - Interview examples
 - Interviews can be highly team dependant
+- Keep recruiters in the loop for other companies
 # Prep
 
 # Hiring Mangers vs Recruiters
