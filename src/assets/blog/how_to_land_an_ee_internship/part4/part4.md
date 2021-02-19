@@ -12,6 +12,7 @@
   - I see a lot of people say, "Recruiter just reached out to inverview for X but I don't like the company, should I still interview?" Do it!
   - Things change when you actually get the offer letter
 - If already accepted another offer but get chance to interview with another company, what do to?
+  - Interview with new company
 
 # Application Timeline
 # Hierarchy of Applications
