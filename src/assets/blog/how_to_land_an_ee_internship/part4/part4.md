@@ -13,6 +13,7 @@
   - Things change when you actually get the offer letter
 - If already accepted another offer but get chance to interview with another company, what do to?
   - Interview with new company
+  - Reneg old company
 
 # Application Timeline
 # Hierarchy of Applications
