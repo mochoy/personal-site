@@ -14,6 +14,7 @@
 - If already accepted another offer but get chance to interview with another company, what do to?
   - Interview with new company
   - Reneg old company
+  - Not as high priority though since you already have an offer
 
 # Application Timeline
 # Hierarchy of Applications
