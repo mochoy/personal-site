@@ -15,6 +15,7 @@
   - Interview with new company
   - Reneg old company
   - Not as high priority though since you already have an offer
+- Follow up if not calling you during interview time
 
 # Application Timeline
 # Hierarchy of Applications
