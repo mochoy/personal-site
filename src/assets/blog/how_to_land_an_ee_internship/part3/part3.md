@@ -233,6 +233,10 @@ Many schools offer technical electives to help focus your studies on a particula
 
 ### Finding Your Passion
 
+But ultimately, the most important thing about starting early is finding your passion. Maybe after a few projects, you find that EE isn't for you, coding is way more fun. It's way better to figure that out over a $20 kit and a few hours of your time, that beats $50,000 and a few semesters at school. Many students enter EE not knowing exactly what they want to do and after a few EE classes, they find out that EE isn't for them. I think something like 60-70% of EEs transfer out of the program and I'd rather sacrifice a few hours of my own time in middle school to figure that out. 
+
+But maybe you do find out that EE is your passion - even better! My passion in EE is one of the best things that happened to me, it's the intersection between a great career, doing what I love, and amazing pay. When you're truely passionate about something, you will get good at it and you will dedicate all your time and effort into it. Don't have time? Your passion will find you time.
+
 ### Expanding your Technical Toolkit
 
 When you're building your projects, there's a good chance your classes didn't teach you everything about everything and you'll need to do a ton of digging on your own. You'll learn a lot and all these information and skills you're picking up won't go to waste. Projects aid your resume, they'll help you get the interview but won't carry you through the interviews, but that's where all that experience from your projects come into play. All that extra reading and self teaching, even the information that isn't implemented in your projects, can come into play during the interviews and will also rollover into the internship. 
@@ -255,11 +259,6 @@ Don't be afraid to Google stuff! If you don't have a technical mentor, it can be
 
 Now that you have a cool project, time to make it robust and mobile on its own PCB! PCBs are awesome projects and there are tons of resources online to hold your hand along the way. There are tons of services to make PCBs for you that are quick and affordable. And plus, they make killer resume projects that you can show off at your interviews!
 
-## Find Your Passion
-
-But ultimately, the most important thing about starting early is finding your passion. Maybe after a few projects, you find that EE isn't for you, coding is way more fun. It's way better to figure that out over a $20 kit and a few hours of your time, that beats $50,000 and a few semesters at school. Many students enter EE not knowing exactly what they want to do and after a few EE classes, they find out that EE isn't for them. I think something like 60-70% of EEs transfer out of the program and I'd rather sacrifice a few hours of my own time in middle school to figure that out. 
-
-But maybe you do find out that EE is your passion - even better! My passion in EE is one of the best things that happened to me, it's the intersection between a great career, doing what I love, and amazing pay. When you're truely passionate about something, you will get good at it and you will dedicate all your time and effort into it. Don't have time? Your passion will find you time.
 ### Ideas
 
 
