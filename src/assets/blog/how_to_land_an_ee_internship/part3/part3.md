@@ -261,6 +261,7 @@ Now that you have a cool project, time to make it robust and mobile on its own P
 
 ### Ideas
 
+- See reddit upvoted
 
 ### Hackathons
 
