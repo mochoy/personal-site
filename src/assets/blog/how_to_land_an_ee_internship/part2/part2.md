@@ -16,7 +16,7 @@ Other applications may also open up in August or September which is still summer
 
 ### Referrals
 
-If you have friends doing internships, reach out to them for referrals during this time. They typically aren't doing their internship during the year and they usually need to be working to submit the referral. Additionally, many interns have their "grind time" during the last two weeks to wrap up their projects and prepare for presentations and may not have time to accommdate your referral, so as always, the earlier the better. I'll talk a bit more later on about referrals, but this is just about the timeline. 
+If you have friends doing internships, reach out to them for referrals during this time. They typically aren't doing their internship during the year and they usually need to be working to submit the referral. Additionally, many interns have their "grind time" during the last two weeks to wrap up their projects and prepare for presentations and may not have time to accommodate your referral, so as always, the earlier the better. I'll talk a bit more later on about referrals, but this is just about the timeline. 
 
 ### Off-Season Internships
 
