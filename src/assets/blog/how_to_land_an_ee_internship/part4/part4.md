@@ -17,6 +17,7 @@
   - Not as high priority though since you already have an offer
 - Follow up if not calling you during interview time
 - Let other companies know who you're in the loops with
+  - They dont care that you got rejected or anything from another company
 
 # Application Timeline
 # Hierarchy of Applications
