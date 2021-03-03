@@ -20,6 +20,7 @@
   - They dont care that you got rejected or anything from another company
 - Use autofill tool to help autofill stuff, I use https://chrome.google.com/webstore/detail/autofill/nlmmgnhgdeffjkdckmikfpnddkbbfkkk
 - Types of applications
+  - General/pool
 
 # Application Timeline
 # Hierarchy of Applications
