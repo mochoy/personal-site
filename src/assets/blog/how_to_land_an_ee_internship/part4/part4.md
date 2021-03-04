@@ -21,6 +21,7 @@
 - Use autofill tool to help autofill stuff, I use https://chrome.google.com/webstore/detail/autofill/nlmmgnhgdeffjkdckmikfpnddkbbfkkk
 - Types of applications
   - General/pool
+  - Role-specific
 
 # Application Timeline
 # Hierarchy of Applications
