@@ -22,6 +22,7 @@
 - Types of applications
   - General/pool
   - Role-specific
+- Applying online is largely inevitable, but increase chances through connections, direct contact
 
 # Application Timeline
 # Hierarchy of Applications
