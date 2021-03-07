@@ -25,7 +25,9 @@
 - Applying online is largely inevitable, but increase chances through connections, direct contact
 
 # Application Timeline
+
 - Example timelines
+- What can expediate/slow down timeline
 # Hierarchy of Applications
 
 # Apply Everywhere!
