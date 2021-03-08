@@ -28,6 +28,7 @@
 
 - Example timelines
 - What can expediate/slow down timeline
+- Getting rejections, you can't "hear back" after that
 # Hierarchy of Applications
 
 # Apply Everywhere!
