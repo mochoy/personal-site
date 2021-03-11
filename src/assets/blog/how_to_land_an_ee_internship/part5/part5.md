@@ -26,6 +26,7 @@ Resources:
 - https://chipress.co/
 - https://medium.com/@nerdrage/common-electrical-engineering-interview-topics-864babc90c50
 - https://www.reddit.com/r/ECE/comments/iwmpw7/technical_internship_interview_questions_at_big/
+- http://ebook.pldworld.com/_eBook/-%EB%B0%98%EB%8F%84%EC%B2%B4-/A%20New%20Graduate's%20Guide%20to%20the%20Analog%20interview.pdf
 
 # Remember: You're Interviewing Them!
 
