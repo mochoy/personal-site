@@ -31,6 +31,8 @@
 - Getting rejections, you can't "hear back" after that
 - Will go more into interview timeline later
 - Ex to explain why always apply until get offer
+
+# The Application Methodology
 # Hierarchy of Applications
 
 # Apply Everywhere!
