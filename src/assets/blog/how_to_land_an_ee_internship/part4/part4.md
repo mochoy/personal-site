@@ -33,6 +33,8 @@
 - Ex to explain why always apply until get offer
 
 # The Application Methodology
+
+- Keep applying until get offer
 # Hierarchy of Applications
 
 # Apply Everywhere!
