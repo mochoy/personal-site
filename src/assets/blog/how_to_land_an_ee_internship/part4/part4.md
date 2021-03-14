@@ -35,6 +35,7 @@
 # The Application Methodology
 
 - Keep applying until get offer
+- The more, the better
 # Hierarchy of Applications
 
 # Apply Everywhere!
