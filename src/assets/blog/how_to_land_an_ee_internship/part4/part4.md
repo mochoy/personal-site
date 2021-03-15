@@ -36,6 +36,8 @@
 
 - Keep applying until get offer
 - The more, the better
+- Little at a time, 2-5/day is a lot
+
 # Hierarchy of Applications
 
 # Apply Everywhere!
