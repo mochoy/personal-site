@@ -37,6 +37,7 @@
 - Internships aren't that useful
 - Interns get paid minimum wage/unpaid
 - Interns just do coffeeboy tasks
+- Don't need a cover letter
 
 # Key Takeaways
 
