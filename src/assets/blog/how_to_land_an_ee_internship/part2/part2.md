@@ -98,6 +98,9 @@ We all hear about how important networking is because it is! I want to put netwo
 
 ## How do I do it? 
 
+
+- networking helps to get foot in the door, but you usually can't be an idiot 
+
 - that werid guy
 - Networking events
 - Career fair and stuff will be talked about later
