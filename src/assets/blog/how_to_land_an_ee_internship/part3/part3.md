@@ -207,69 +207,73 @@ Now with the resume/supplementing resources out of the way, let's get more into 
 
 # Projects
 
-I can't stress the importance of projects, especially for underclassmen. Projects help you gain hands-on experience and discover your interests beyond the classroom in a practical context, but more importantly, they're what's going to help you land internships. I guaruntee you my undergrad EE curriculum up until like senior year looks probably about 90% the same as your's, so when all of our coursework look nearly identical, it's up to side projects to differentiate between us. When we finally do have the opportunity do differentiate ourselves in the form of coursework, it's probably going to be late in your junior year through senior year, way too late for internships (unless you plan on graduate studies). 
+I can't stress the importance of projects, especially for underclassmen. Projects help you gain hands-on experience and discover your interests beyond the classroom in a practical context, but more importantly (in this context), they're what's going to help you land internships. I guaruntee you my undergrad EE curriculum up until like senior year looks probably about 90% the same as your's, so when all of our coursework look nearly identical, it's up to side projects to differentiate between us. When we finally do have the opportunity do differentiate ourselves in the form of coursework, it's probably going to be late in your junior year through senior year, way too late for internships (unless you plan on graduate studies). 
 
 We're lucky that it's relatively easy to get hands-on experience through personal and class projects as an EE, especially when you have university resources like professors, TAs, labs, other motivated students, etc. It may not be as easy as CS, but it sure is much easier than say nuclear engineering or physics. 
 
+## Why Projects?
+
 If you don't have much work experience, don't be afraid to dedicate the bulk of your resumes to projects. Side projects are more than enough to land internships even if you're "only a first year" and they don't need to be substantial. My flagship side project that helped me land my first internship at Apple during my first quarter at school was a simple little motor drive PCB I designed for my Nerf blasters. 
 
-Projects are super important, but if you're getting overwhelmed with school and other obligations, don't feel that you *need* projects to succeed. Many students waste their college education playing video games and end up fine, projects are just another way to boost your resume to the next level to tackle the more competitive internships. If you're aiming for companies like Apple and Nvidia with no projects (or experience) under your belt, well good luck with that, but there are still many amazing opportunities that don't necessarily require projects. 
+Projects are super important, but if you're getting overwhelmed with school and other obligations, don't feel that you *need* projects to succeed. Many students waste their college education playing video games and end up fine, projects are just another way to boost your resume to the next level to tackle the more competitive internships. If you're aiming for companies like Apple and Nvidia with no projects (or experience) under your belt, well good luck with that, but there are still many amazing opportunities that don't necessarily "require" projects. Your coursework should almost always come first, so it might not always be worth it to sacrifice your grades for a few projects. 
 
-## Personality Through Projects
+### Personality Through Projects
 
 It's not always the fact that you have side projects that's most important, but your personal qualities that get demonstrated just by having them. Building your side projects in addition to the EE courseload shows a lot of dedication and initiative. EE is tough and squeezing in projects on top of your classes isn't easy. You probably don't know everything you need to know for the project, so you'll need to learn it on the fly and this again reflects very well in your favor. If you just have the standard EE courses and nothing else, it's really difficult to display these traits, you just look the same as every other EE student on paper. 
 
 When I was walking through my motor drive PCB project with a hiring manager from Apple at the career fair during my first quarter, he was impressed that I even had projects, given that I was a freshman, let alone a full PCB that I owned end-to-end. What impressed him even more was how well I knew the ins-an-outs of my projects, from the MOSFET design and operation to the PCB layout and LiPo battery behavior and that I learned all of these on my own in high school. These demostrated a great deal of initiative, determination, persistence, passion, and technical capability that helped me not only land the initial interview, but also succeed in those interviews and during the internship. If I just had the project but not any of the background, I'm not sure I would've secured that internship. 
 
-These traits that get demonstrated by having side projects are also the same traits that drive a successful engineer. An interviewer/hiring manager/recruiter knows this and looks for this in addition to a strong technical background. For your hyper-competitive internships, these are almost a given among the successful applicants and are almost required. For other internships that may not be as competitive, a strong academic background may suffice so don't feel that you're unworthy without side projects! They help *a lot*, but there are definitely opportunies out there that don't necessarily "require" them. Your coursework should almost always come first, so it might not always be worth it to sacrifice your grades for a few projects. 
+These traits that get demonstrated by having side projects are also the same traits that drive a successful engineer. An interviewer/hiring manager/recruiter knows this and looks for these traits in addition to a strong technical background. For your hyper-competitive internships, these traits are almost a given among the successful applicants and are basically required. 
 
-## Developing a Focus
+### Developing a Focus
 
 Aside from internships, projects are one of the best ways to develop your EE focus and where to target your career, especially because you can do them on your own/with friends on the side. Want to get into power electronics? Design your own buck converter on a PCB. Want to get into computer architecture? Design your own RISC V core. Want to get into robotics? Design your own motor controller. I can go on and on, but you get the idea. 
 
 Many schools offer technical electives to help focus your studies on a particular topic, but those may not be available until later on, maybe too late to be leveraged for the internship search. With only the standard EE classes under your belt, your side projects tell that recruiter or hiring manager what your interests and skillsets are so they can best match you accordingly. 
 
-## Developing your Technical Toolkit
-
-When you're building your projects, there's a good chance your classes didn't teach you everything about everything and you'll need to do a ton of digging on your own. You'll learn a lot and all these information and skills you're picking up won't go to waste. Projects aid your resume, they'll help you get the interview but won't carry you through the interviews, but that's where all that experience from your projects come into play. All that extra reading and self teaching, even the information that isn't implemented in your projects, can come into play during the interviews and will also rollover into the internship. 
-
-I hope nearly 1000 words on the significance of projects helps to convice you to do your own projects (hint: prjects are super important!). Now, I'll go over more on that *what you can do* side of the projects and how to make the most of them. 
-
-## Starting Off
-
-## Arduino
-
-Here are a few tips to those of you starting early. I was also in your shoes and there are tons of resources out there to teach yourself. I may dedicate an entire separate post for this, but here are some quick tips. I'd recommend getting started with Arduino to get your feet wet in electronics and coding. Don't be afraid to code! It's an awesome skill actually make electronics so much easier for you. Try to get a simple Arduino starter kit, you can find them online for as cheap as $20-$30 although there are many fancier kits out there. 
-
-Start small, find an online tutorial to hold your hand, first at blinking an LED, then learn how to use buttons. Learn the fundementals as you go, *why* are things happening the way they are? When you decrease the resistance, why does the LED get brighter? No need to get into any of that complex math, a conceptual understanding is solid. Start working with cool peripherals like sensors, screens, motors, etc. and you basically know enough to make your own game! 
-
-## Google it!
-
-Don't be afraid to Google stuff! If you don't have a technical mentor, it can be intimitating but Google everything! Run into a coding bug? Google it! Want to learn how to use a sensor? Google it!! You have almost everyting known to man at your fingertips. This skill to Google search everything isn't as intuitive as you may think but it will stick with you for the rest of your life. Knowing that the world gets so much smaller when you utilize Google is reassuring. At first, it will be challenging but soon it becomes second nature and your most valuable skill. I recommended Arduino because there are tons of online resources and forums, so when you Google stuff, you'll actually find it! Then, as you move into more complex topics where the Google searches aren't as nice, you'll have the background and intuition on how to navigate the results and find what you need. 
-
-## Your First PCB!
-
-Now that you have a cool project, time to make it robust and mobile on its own PCB! PCBs are awesome projects and there are tons of resources online to hold your hand along the way. There are tons of services to make PCBs for you that are quick and affordable. And plus, they make killer resume projects that you can show off at your interviews!
-
-## Find Your Passion
+### Finding Your Passion
 
 But ultimately, the most important thing about starting early is finding your passion. Maybe after a few projects, you find that EE isn't for you, coding is way more fun. It's way better to figure that out over a $20 kit and a few hours of your time, that beats $50,000 and a few semesters at school. Many students enter EE not knowing exactly what they want to do and after a few EE classes, they find out that EE isn't for them. I think something like 60-70% of EEs transfer out of the program and I'd rather sacrifice a few hours of my own time in middle school to figure that out. 
 
 But maybe you do find out that EE is your passion - even better! My passion in EE is one of the best things that happened to me, it's the intersection between a great career, doing what I love, and amazing pay. When you're truely passionate about something, you will get good at it and you will dedicate all your time and effort into it. Don't have time? Your passion will find you time.
 
-## Ideas
+### Expanding your Technical Toolkit
 
-## Hackathons
+When you're building your projects, there's a good chance your classes didn't teach you everything about everything and you'll need to do a ton of digging on your own. You'll learn a lot and all these information and skills you're picking up won't go to waste. Projects aid your resume, they'll help you get the interview but won't carry you through the interviews, but that's where all that experience from your projects come into play. All that extra reading and self teaching, even the information that isn't implemented in your projects, can come into play during the interviews and will also rollover into the internship. 
 
-## Teach Yourself
+I hope nearly 1000 words on the significance of projects helps to convice you to do your own projects (hint: prjects are super important!). Now, I'll go over more on that *what you can do* side of the projects and how to make the most of them. 
 
-## Sharing Projects
+## Building Projects
+
+### Arduino
+
+Here are a few tips to those of you starting early. I was also in your shoes and there are tons of resources out there to teach yourself. I may dedicate an entire separate post for this, but here are some quick tips. I'd recommend getting started with Arduino to get your feet wet in electronics and coding. Don't be afraid to code! It's an awesome skill actually make electronics so much easier for you. Try to get a simple Arduino starter kit, you can find them online for as cheap as $20-$30 although there are many fancier kits out there. 
+
+Start small, find an online tutorial to hold your hand, first at blinking an LED, then learn how to use buttons. Learn the fundementals as you go, *why* are things happening the way they are? When you decrease the resistance, why does the LED get brighter? No need to get into any of that complex math, a conceptual understanding is solid. Start working with cool peripherals like sensors, screens, motors, etc. and you basically know enough to make your own game! 
+
+### Google it!
+
+Don't be afraid to Google stuff! If you don't have a technical mentor, it can be intimitating but Google everything! Run into a coding bug? Google it! Want to learn how to use a sensor? Google it!! You have almost everyting known to man at your fingertips. This skill to Google search everything isn't as intuitive as you may think but it will stick with you for the rest of your life. Knowing that the world gets so much smaller when you utilize Google is reassuring. At first, it will be challenging but soon it becomes second nature and your most valuable skill. I recommended Arduino because there are tons of online resources and forums, so when you Google stuff, you'll actually find it! Then, as you move into more complex topics where the Google searches aren't as nice, you'll have the background and intuition on how to navigate the results and find what you need. 
+
+### Your First PCB!
+
+Now that you have a cool project, time to make it robust and mobile on its own PCB! PCBs are awesome projects and there are tons of resources online to hold your hand along the way. There are tons of services to make PCBs for you that are quick and affordable. And plus, they make killer resume projects that you can show off at your interviews!
+
+### Ideas
+
+- See reddit upvoted
+
+### Hackathons
+
+### Teach Yourself
+
+### Sharing Projects
 
 - Github, include screenshots and readmes
 - Personal website (can be weebly/wix)
 - If in-person, bring iPad to show project off
 
-## Time Management
+### Time Management
 
 # School
 
@@ -278,6 +282,8 @@ But maybe you do find out that EE is your passion - even better! My passion in E
 - higher gpa obviously better
 - put highest gpa on your resume
 - balance school, projects, etc
+- Does GPA matter?
+- Transcript?
 
 ## Brand Name
 

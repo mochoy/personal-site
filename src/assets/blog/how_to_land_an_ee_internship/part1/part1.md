@@ -1,4 +1,4 @@
-Do a quick Google search for ["how to get a software engineering internship"](https://lmgtfy.app/?q=how+to+get+a+software+engineering+internship) and ["how to get an electrical engineering internship"](https://lmgtfy.app/?q=how+to+get+an+electrical+engineering+internship). The software engineers (SWE) get tons of online resources, blog posts, communities, etc. detailing every step of the process, all the tricks of the trade, while we get next to nothing. Well not anymore! This **EPIC** guide will put all those SWE write-ups to shame and share basically everything I know about the entire internship process based off of my experiences landing offers at Facebook, Apple, Amazon, Nvidia, Qualcomm, Microsoft, Northrop Grumman, and more through 100+ interviews and 500+ applications.
+Do a quick Google search for ["how to get a software engineering internship"](https://lmgtfy.app/?q=how+to+get+a+software+engineering+internship) and ["how to get an electrical engineering internship"](https://lmgtfy.app/?q=how+to+get+an+electrical+engineering+internship). The software engineers (SWE) get tons of online resources, blog posts, communities, etc. detailing every step of the process, all the tricks of the trade, while we get next to nothing. Well not anymore! I've followed these types of posts in the software engineering (SWE) community for a long time and they've been super helpful to myself and tons of others. This **EPIC** guide will put all those SWE write-ups to shame and share basically everything I know about the entire internship process based off of my experiences landing offers at [insert obligatory internship post flex companies here] Facebook, Apple, Amazon, Nvidia, Qualcomm, Microsoft, Northrop Grumman, and more through 100+ interviews and 500+ applications.
 
 I have *tons* of stuff to write about, so I'm splitting this up into a few posts. I didn't originally intend for that, but at the time of writing this paragraph and making the decision to split this post up, this post has already amassed nearly 20,000 words/40 pages/~80 minute read and I'm not even halfway done yet. Long webpages are just annoying to deal with as a user and can compromise performance at the same time. I'm anticipating for this post to be around 50,000 words/100 pages, but I'm not sure how much that means considering that I initially projected this post to be less than 10,000 words. Here are the different sections with links to each one as they go live: 
 
@@ -32,7 +32,7 @@ You're going to see your classmates and friends landing internships left and rig
 
 ## Similarities to SWE
 
-I will be drawing many comparisons to the SWE process because their processes are very similar to our's, but they just have way more resources. For the longest time, I actually had my career set on being a SWE and I still remain quite active in the SWE communities. If you want more tips and stuff, you could also read up on those SWE posts and 95% of their information will be directly applicable to you as an EE, especially if you're looking to get into tech. I will point out many of the key differences throughout this post as they come up so you get a good idea of what to ignore and what to take in. 
+I will be drawing many comparisons to the software engineering (SWE) process because their processes are very similar to our's, but they just have way more resources. For the longest time, I actually had my career set on being a software engineer (SWE) and I still remain quite active in the SWE communities. If you want more tips and stuff, you could also read up on those SWE posts and 95% of their information will be directly applicable to you as an EE, especially if you're looking to get into tech. I will point out many of the key differences throughout this post as they come up so you get a good idea of what to ignore and what to take in. 
 
 Alternatively, if you find out that you actually want to go into SWE as a result of this post, well more power to you!
 
@@ -44,6 +44,8 @@ That being said, the inverse is also the case, this guide also has tons of infor
 - Every SWE and their mother has been coding since the womb, coding is much easier to pick up on your own that EE.
 - There are way more SWE opportunities out there and way more CS students applying to them.
 - There aren't too many EE career communities and resources out there.
+
+## Uncounsious Nuances
 
 Anyways enough of the fine print let's get going to the real stuff!
 
@@ -86,7 +88,7 @@ Explore intern compensation:
 - [Reddit](https://www.reddit.com/r/cscareerquestions/comments/kcthwn/official_salary_sharing_thread_for_interns/) [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/comments/isfzuz/official_salary_sharing_thread_for_interns/) [intern](https://www.reddit.com/r/cscareerquestions/comments/gufum4/official_salary_sharing_thread_for_interns_june/) [salary](https://www.reddit.com/r/cscareerquestions/comments/fc8cp9/official_salary_sharing_thread_for_interns_march/) [share](https://www.reddit.com/r/cscareerquestions/comments/e4ve4m/official_salary_sharing_thread_for_interns/) [threads](https://www.reddit.com/r/cscareerquestions/comments/cylp5r/official_salary_sharing_thread_for_interns/): Sweaty CS students on Reddit post their SWE internship offers. These figures are accurate for the most part. Again, these are SWE salaries to keep in mind the points above. 
 - Glassdoor: glassdoor is ok for internships, but it's absolutely terrible for full-time engineers (FTE) because it fails to capture other components of compensation. I only use Glassdoor as a last resort.
 
-And you think inters get paid a lot - now imagine the FTEs. Of course FTEs get paid more, there are plenty of $200k+ TC packages for new grad (NG) FTEs and it's going to be these internships that make you a competitive application and achieve these compensation figures. I won't drop any FTE numbers here, but check out the [levels.fyi data on it](https://www.levels.fyi/comp.html?track=Hardware%20Engineer). 
+And you think interns get paid a lot - now imagine the FTEs. Of course FTEs get paid more, there are plenty of $200k+ TC packages for new grad (NG) FTEs and it's going to be these internships that make you a competitive application and achieve these compensation figures. I won't drop any FTE numbers here, but check out the [levels.fyi data on it](https://www.levels.fyi/comp.html?track=Hardware%20Engineer). 
 
 Here was a bit of info on compensation that was meant to entice you, but there's a dedicated section later on that goes more in-depth. 
 
@@ -285,6 +287,8 @@ So that's the story of why I avoid telling people my year in school and if asked
 As interns and applicants, it can be easy to forget what's behind the face of these massive companies. I don't myself identify as a company, but maybe I can offer some helpful insights on the company's interests that may not be as apparent. I've been talking a lot about how companies want you and that sort of stuff, so let me elaborate. 
 
 First of all, companies *want* you. They want interns. They want the most talented students to both continue their products that make them money and also to prevent the competition from poaching talent. They pay the big bucks, offer amazing perks, host awesome events; big companies invest in tens of millions of dollars every year into their internship programs to poach and retain top talent. 
+
+For example, Microsoft hosts a few thousand interns over the summer, I've heard as high as 7,000. For the sake of estimation, let's say Microsoft hosts 3,000 interns in a summer, and each intern on average makes $7k/month. That's over $20 million/month Microsoft dishes out for their intern class for their salary alone, not accounting for other stuff like FTE mentorship and other FT employees to handle the interns, recruting/interviewing, intern benefits, events, support infrastructure, etc that can easily double or triple the $20 million/month salary estimation. 
 
 In addition to retaining talent, these companies also want to train that talent. Remember how earlier, I mentioned that returning, trained interns progress their careers faster? Well this is also beneficial for not only the interns not also the companies as they get access to better trained, higher quality engineers that can come in and hit the ground running.
 

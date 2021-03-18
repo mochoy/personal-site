@@ -5,7 +5,7 @@ Now the interviews weren't really part of the internship experience, but my inte
 
 I actually had my first round interview in January 2020 and my Super Day on-site interviews in February for my specific team at my team's office in Sunnyvale. This is actually pretty rare, most interviews happen between September and November and are typically put into a general intern pool. The two other interns on my team followed the standard application process. The team matching process happens way later closer to the summer so many interns don't really know what exact team they're on or their manager until closer to the summer. In fact, I heard that some people didn't even know who their manager was until a few days into their internship. 
 
-Luckily I new my team and manager during my interviews. I forgot to ask why my interview process was so different, so I guess we will never know. My best guess was that I was probably wasn't on the first-choice list, but after some people declined their offers in Decemember, Microsoft started to reach out to second-choice list and got to me. 
+Luckily I knew my team and manager from my interviews. I forgot to ask why my interview process was so different, so I guess we will never know. My best guess was that I was probably wasn't on the first-choice list, but after some people declined their offers in Decemember, Microsoft started to reach out to second-choice list and got to me. 
 
 # Pre-Internship
 
@@ -109,13 +109,13 @@ Every intern received at least one intern giftbox that included a white Microsof
 
 I think the intern gifts were supposed to arrive around the start date for each intern, but it ended up getting pretty delayed. I received mine in late August and some interns didn't even get theirs until after they ended. 
 
-### Hackathon
+### Hackathon Swag
 
 I'll talk more about the Microsoft Hackathon and Intern Day in the Fun Stuff section, but here's the swag. Everyone that signed up with a team for the hackathon got a dope Microsoft Hackathon 2020 t-shirt and stickers. I think the Hackathon might be themed so every year, each shirt has a differnt theme, but I'm not 100% sure. 
 
 ![hackathon_swag](images/hackathon_swag.jpg)
 
-### Intern Day
+### Intern Day Swag
 
 I'll go more into Intern Day later on as well, but we had a choice between three items, all of which were Microsoft labeled:
 
@@ -156,7 +156,21 @@ The Xbox and Surface Duo hoodie were specific to my team/org, and other teams/or
 
 # Fun Stuff! 
 
+Microsoft really sells the interns on the whole Microsoft experience and offers tons of fun events throughout the summer. It would of course be better if we were in-person, but I still had a blast throughout the remote experience.
+
 ## Intern Cohort
+
+Microsoft has intern cohorts every summer which is basically just a group of random interns paired with two FTEs who organize and facilitate activities for the interns. My cohort had I think like ~20 interns or so, but 75% of them never showed up for anything. We actually had a few activities with pretty good turnout, apparently other cohort groups had way more trouble getting any turnout and never hosted any events. 
+
+All the interns in my cohort started and ended at around the same time and I think we were all supposed to be in the SF Bay Area offices. The cohort leaders were both in the SF offices, 
+
+### Game Nights
+
+### Scavenger Hunt
+
+### AirBnB Experiences
+
+### Former Intern Panel
 
 ## Intern Day
 
