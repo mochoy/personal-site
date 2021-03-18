@@ -4,6 +4,7 @@
 - Interview examples
 - Interviews can be highly team dependant
 - Keep recruiters in the loop for other companies
+- Can get blacklisted?
 # Prep
 
 # Hiring Mangers vs Recruiters
