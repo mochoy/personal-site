@@ -4,6 +4,7 @@
 - Interview examples
 - Interviews can be highly team dependant
 - Keep recruiters in the loop for other companies
+- Interview after accpeting an offer: https://www.teamblind.com/post/Amazon-Has-Destroyed-Its-Reputation-xappoaC1
 - Can get blacklisted?
 # Prep
 
