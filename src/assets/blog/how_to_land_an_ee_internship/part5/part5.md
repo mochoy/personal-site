@@ -36,3 +36,5 @@ General questions I usually ask them:
 - How many interns and people on the team? Get idea of intern ratio, want good support
 
 # Take Notes!
+
+# Feedback
