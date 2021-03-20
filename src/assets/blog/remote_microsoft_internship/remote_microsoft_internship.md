@@ -187,6 +187,9 @@ Most of the events didn't interest me too much, but there was this one small thi
 # Work Experience
 
 I can't get too much into my work experience because there's a ton of confidentiality around the Surface and Duo stuff. I think all Microsoft interns have a mentor and a manager. The mentor is there to help more on the technical/day-to-day work while the manager is more for like manager stuff. My manager was also the team's manage, so he also managed the two other interns and half of the team. All of the interns on my team had their own mentor, but I'm not sure if this is the case for all Microsoft interns. I was closest to my mentor and talked most with him and I think that's generally the case. 
+
+I worked on the Surface Duo software and had two projects. My first project took me about 7 weeks but I'm not sure if this project was supposed to take up all 12 weeks. When my mentor introduced the project, he projected it to take only 3 weeks but I ran into a good number of issues that messed up the timeline. I think my manager mentioned that I finished the projects a few weeks early, so that leads me to believe the project was projected to take all 12 weeks. Either way, I always mention that I finished my projects 5 weeks early during interviews. 
+
 # Misc.
 
 ## Training Videos
