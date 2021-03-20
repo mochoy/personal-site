@@ -186,6 +186,7 @@ Most of the events didn't interest me too much, but there was this one small thi
 
 # Work Experience
 
+I can't get too much into my work experience because there's a ton of confidentiality around the Surface and Duo stuff. I think all Microsoft interns have a mentor and a manager. The mentor is there to help more on the technical/day-to-day work while the manager is more for like manager stuff. My manager was also the team's manage, so he also managed the two other interns and half of the team. All of the interns on my team had their own mentor, but I'm not sure if this is the case for all Microsoft interns. I was closest to my mentor and talked most with him and I think that's generally the case. 
 # Misc.
 
 ## Training Videos
