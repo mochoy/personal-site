@@ -180,6 +180,7 @@ All the interns in my cohort started and ended at around the same time and I thi
 
 ## Co-Creation
 
+Not gunna lie I still don't really know what co-creation is, but it has something to do with using Microsoft as a platform for your passions or something. I think interns set up events like diversity exec chats and music/dance videos and stuff through co-creation, but I can never be sure. 
 # Work Experience
 
 # Misc.
