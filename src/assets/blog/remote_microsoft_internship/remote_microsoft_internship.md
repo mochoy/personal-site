@@ -181,6 +181,9 @@ All the interns in my cohort started and ended at around the same time and I thi
 ## Co-Creation
 
 Not gunna lie I still don't really know what co-creation is, but it has something to do with using Microsoft as a platform for your passions or something. I think interns set up events like diversity exec chats and music/dance videos and stuff through co-creation, but I can never be sure. 
+
+Most of the events didn't interest me too much, but there was this one small thing that I think was set up through co-creation. A lot of interns were worried about the limited networking/social opportunities with other interns because of the remote internships, so there was this "meet other interns" survey thingy where based on our survey results, they would pair us up with 3 random interns who filled out similar answers. The survey had these casusal buzzfeed-style questions like "how many unread emails do you have right now?" and "you see a cute intern at a party what do you do?" and stuff like that. There were other opportunities to socialize with other interns, but this one felt more randomized yet more personal because they'd match you up with random interns throughout the company that probably aren't in your social/work group and the type of questions more uniquely captures your personality. 
+
 # Work Experience
 
 # Misc.
