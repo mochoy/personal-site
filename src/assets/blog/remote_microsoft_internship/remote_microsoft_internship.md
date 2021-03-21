@@ -195,6 +195,9 @@ My first project was a device driver for a sensor. It actually got commercialize
 Within the Surface Duo FW team, there are smaller "subteams" that work on specific subsystems of the phone. For example, there might be a few engineers working on the camera, battery, wireless, UEFI, etc. I worked alongside 4 other engineers, including my mentor and another engineer form Taiwan who joined a few weeks in. 
 
 I think the device driver was a great first project given my hardware background. I'm pretty sure this was entirely intentional and I really appreciate my team giving me this opportunity. I actually ran into some hardware issues so my hardware background actually came up a few times. It's not easy to debug hardware issues at home, so I needed to go into office a few times for some rework and equipment. 
+
+- presentation 
+
 # Misc.
 
 ## Training Videos
