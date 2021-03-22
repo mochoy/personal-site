@@ -186,9 +186,9 @@ Most of the events didn't interest me too much, but there was this one small thi
 
 # Work Experience
 
-I can't get too much into my work experience because there's a ton of confidentiality around the Surface and Duo stuff. I think all Microsoft interns have a mentor and a manager. The mentor is there to help more on the technical/day-to-day work while the manager is more for like manager stuff. My manager was also the team's manage, so he also managed the two other interns and half of the team. All of the interns on my team had their own mentor, but I'm not sure if this is the case for all Microsoft interns. I was closest to my mentor and talked most with him and I think that's generally the case. 
+I can't get too much into my work experience because there's a ton of confidentiality around the Surface and Duo stuff. I think all Microsoft interns have a mentor and a manager. The mentor is there to help more on the technical/day-to-day work while the manager is more for like manager stuff. My manager was also the team's manager, so he also managed the two other interns and half of the team. All of the interns on my team had their own mentor, but I'm not sure if this is the case for all Microsoft interns. I was closest to my mentor and talked most with him and I think that's generally the case. 
 
-I worked on the Surface Duo software and had two projects. My first project took me about 7 weeks but I'm not sure if this project was supposed to take up all 12 weeks. When my mentor introduced the project, he projected it to take only 3 weeks but I ran into a good number of issues that messed up the timeline. I think my manager mentioned that I finished the projects a few weeks early, so that leads me to believe the project was projected to take all 12 weeks. Either way, I always mention that I finished my projects 5 weeks early during interviews. 
+I worked on the Surface Duo software and had two projects. My first project took me about 7 weeks but I'm not sure if this project was supposed to take up all 12 weeks. When my mentor introduced the project, he projected it to take only 3 weeks but I ran into a good number of issues that messed up the timeline. I think my manager mentioned that I finished the projects a few weeks early, so that leads me to believe that the project was projected to take all 12 weeks. Either way, I always mention that I finished my projects 5 weeks early during interviews lol. 
 
 My first project was a device driver for a sensor. It actually got commercialized and I was working on the production code which was super cool. I'm super into smartphones and stuff so it was awesome to finally get to work on one and explore everything behind the scenes, especially with my fingerprints on the final product. I was super lucky to get a high-impact, commercialized project, not all interns get this type of opportunity. 
 
@@ -196,6 +196,7 @@ Within the Surface Duo FW team, there are smaller "subteams" that work on specif
 
 I think the device driver was a great first project given my hardware background. I'm pretty sure this was entirely intentional and I really appreciate my team giving me this opportunity. I actually ran into some hardware issues so my hardware background actually came up a few times. It's not easy to debug hardware issues at home, so I needed to go into office a few times for some rework and equipment. 
 
+I was also given a Duo dev board to do all my dev on. The dev board for the Duo has all the PCBs and electronics exposed for debugging, along with some additional debug hardware. It's also not assembled into the standard phone chassis, it's sort of all open in a custom rig so we can access all the electronics.
 - presentation 
 
 # Misc.
