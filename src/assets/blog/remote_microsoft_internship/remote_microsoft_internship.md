@@ -190,6 +190,9 @@ I can't get too much into my work experience because there's a ton of confidenti
 
 I worked on the Surface Duo software and had two projects. My first project took me about 7 weeks but I'm not sure if this project was supposed to take up all 12 weeks. When my mentor introduced the project, he projected it to take only 3 weeks but I ran into a good number of issues that messed up the timeline. I think my manager mentioned that I finished the projects a few weeks early, so that leads me to believe that the project was projected to take all 12 weeks. Either way, I always mention that I finished my projects 5 weeks early during interviews lol. 
 
+
+## Projects
+
 My first project was a device driver for a sensor. It actually got commercialized and I was working on the production code which was super cool. I'm super into smartphones and stuff so it was awesome to finally get to work on one and explore everything behind the scenes, especially with my fingerprints on the final product. I was super lucky to get a high-impact, commercialized project, not all interns get this type of opportunity. 
 
 Within the Surface Duo FW team, there are smaller "subteams" that work on specific subsystems of the phone. For example, there might be a few engineers working on the camera, battery, wireless, UEFI, etc. I worked alongside 4 other engineers, including my mentor and another engineer form Taiwan who joined a few weeks in. 
