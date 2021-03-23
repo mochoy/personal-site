@@ -210,6 +210,7 @@ At the end of my internship, I also presented my projects to my team and my mana
 
 ## Training Videos
 
+- talking to randos
 
 Want more insights? Check these out as well! 
 
