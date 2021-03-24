@@ -39,6 +39,8 @@
 - Interns just do coffeeboy tasks
 - Don't need a cover letter
 
+# Resources
+
 # Key Takeaways
 
 If you've skipped everything, I guess here's a quick tl;dr of the main points
