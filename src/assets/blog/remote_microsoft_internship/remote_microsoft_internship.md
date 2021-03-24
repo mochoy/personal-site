@@ -212,6 +212,8 @@ At the end of my internship, I also presented my projects to my team and my mana
 
 - talking to randos
 
+Will I be coming back? got rejected from all positions lol 
+
 Want more insights? Check these out as well! 
 
 - [Microsoft Explore Internship: A Remote Experience Self-Reflection](https://medium.com/@kendallnakai/summer-intern-reflections-ee432dc3c364)
