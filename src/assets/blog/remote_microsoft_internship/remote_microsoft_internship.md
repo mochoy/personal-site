@@ -248,6 +248,8 @@ I actually kinda had imposter syndrome for like the first time and didn't think 
 
 If I do return to Microsoft, it would be somewhere in their hardware groups like Surface/Devices, Xbox, Hololens, or Azure hardware. Microsoft has a few hardware teams in the SF Bay Area (which is where I plan to start my career) for Hololens, Azure, Surface, and Xbox and a brand new Microsoft campus in Mountain View is opening up for Microsoft to expand their Silicon Valley presence. Unfortunately, after applying online, I was promptly rejected from *every single* position I applied to, so it looks like I'll need to wait until next year to apply again, maybe with some nepotism.
 
+# Final Thoughts
+
 Whether I'm returning or not, I'm still super grateful for the awesome internship experience over the past summer. I worked on a great team on a super cool product and I learned a ton. My mentor, manager, and teammates were super helpful throughout my entire internship and I really enjoyed working with them. I had a ton of fun with my intern cohort and other interns and I really appreciate all the effort my cohort leaders put in so we could have an awesome summer at Microsoft. Microsoft is an amazing company with a great culture and awesome engineers nd I'd definitely want to return to Microsoft sometime in the future (if they stop rejecting me). 
 
 Want more insights? Check these out as well! 
