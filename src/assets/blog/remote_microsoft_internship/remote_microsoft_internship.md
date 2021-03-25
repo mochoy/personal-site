@@ -166,6 +166,8 @@ All the interns in my cohort started and ended at around the same time and I thi
 
 ### Game Nights
 
+Game nights are sort of the obligatory remote social event. The two cohort leaders organized game days like once every week or two and we placed Skribble.io, Typeracer, and Jackbox. At the beginning of our internships, our cohort leaders sent out this massive list of online games we could play, but of our entire intern cohort, only around five usually showed up for these events. 
+
 ### Scavenger Hunt
 
 ### AirBnB Experiences
