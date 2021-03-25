@@ -182,6 +182,8 @@ Even though this event was remote, it was still a lot of fun. I feel like it wou
 
 ### AirBnB Experiences
 
+I guess AirBnB was dying from the pandemic, so they launched this service called AirBnB Experiences where individuals or groups can sign up for tours and events. Maybe it was around pre-Corona, but I'm not too sure. For example, one of the events I remembered was a tour of a bee farm. We had a choice between a few events, so we picked out this "Magic and {food something}" event where a couple from South Africa showed taught us a few magic tricks and how to make a simple South African dessert. Halfway through, they cut off and it turns out they had a power outage. Apparently, their area of South Africa has scheduled rolling power outages to prevent overloading their electrical grid, but this power outage was unexpected. We ended up rescheduling and finishing the rest of the event later on. 
+
 ### Former Intern Panel
 
 ## Intern Day
