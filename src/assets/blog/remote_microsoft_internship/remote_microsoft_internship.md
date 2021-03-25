@@ -164,6 +164,8 @@ Microsoft has intern cohorts every summer which is basically just a group of ran
 
 All the interns in my cohort started and ended at around the same time and I think we were all supposed to be in the SF Bay Area offices. The cohort leaders were both in the SF offices and most of the interns that showed up to events were in the SF and Bay Area offices. Coincidentally a lot of us were located on the west coast too. 
 
+The intern cohorts also get a budget to spend on activities, which of course was more applicable during normal times. How this budget is spent depends on what the cohort leaders want to organize. For example, our cohort leaders spent their budget on local food/snacks the previous year when they were in person. This year, they spent a lot of the budget on giftcards they gave out for participating in the events to incentivize us to show up. 
+
 ### Game Nights
 
 Game nights are sort of the obligatory remote social event. The two cohort leaders organized game days like once every week or two and we placed Skribble.io, Typeracer, and Jackbox. At the beginning of our internships, our cohort leaders sent out this massive list of online games we could play, but of our entire intern cohort, only around five usually showed up for these events. 
