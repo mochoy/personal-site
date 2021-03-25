@@ -228,7 +228,7 @@ Within the Surface Duo FW team, there are smaller "subteams" that work on specif
 
 I think the device driver was a great first project given my hardware background. I'm pretty sure this was entirely intentional and I really appreciate my team giving me this opportunity. I actually ran into some hardware issues so my hardware background actually came up a few times. It's not easy to debug hardware issues at home, so I needed to go into office a few times for some rework and equipment. 
 
-After I wrapped up my first project, I started my second project, an app to configure settings in the modem's non-volatile (NV) memory. The modem has like 80,000 settings to configure random stuff like network bands and all that cellular RF stuff. I built an android app and did some work on the Java framework libraries and native libraries to get the app to talk to the modem. 
+After I wrapped up my first project, I started my second project, an app to configure settings in the modem. The modem has like 80,000 settings to configure random stuff like network bands and all that cellular RF stuff. I built an android app and did some work on the Java framework libraries and native libraries to get the app to talk to the modem. 
 
 At the end of my internship, I also presented my projects to my team and my manager's manager's manager's manager with other interns. I remember on the day of my presentation with my manager x4, we had some pretty bad forest fires in the Bay Area and the sky was orange like something out of Blade Runner.  
 
