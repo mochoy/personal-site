@@ -170,6 +170,7 @@ Game nights are sort of the obligatory remote social event. The two cohort leade
 
 ### Scavenger Hunt
 
+This was probably my favorite intern cohort event. Our intern cohort had interns that were supposed to be in the SF Bay Area Offices, so our leaders wanted to get us a feel for the area with the scavenger hunt. They gave us a list of all the neighborhoods in SF and we had to find a few places/landmarks of the neighborhoods. For example, the Golden Gate Bridge goes with the Presidio and Ocean Beach goes with the Sunset. We weren't given the landmarks, only the neighborhoods so we had to find out each of the landmarks and set it as our Teams background for a group picture. 
 ### AirBnB Experiences
 
 ### Former Intern Panel
