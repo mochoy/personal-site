@@ -190,6 +190,7 @@ Our cohort leaders had been at Microsoft for a few years and led a few cohorts d
 
 ## Intern Day
 
+Every summer, Microsoft hosts Intern Day, celebratory event for the interns. I'm not sure if they have an Intern Day equivalent for off-season interns or not. Intern Day is usually hosted at or near the headquarters in Redmond, so they fly and house the interns from satellite campuses up to Redmond for a week. 
 ## Hackathon
 
 ## Puzzle Day
