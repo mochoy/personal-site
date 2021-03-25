@@ -191,6 +191,9 @@ Our cohort leaders had been at Microsoft for a few years and led a few cohorts d
 ## Intern Day
 
 Every summer, Microsoft hosts Intern Day, celebratory event for the interns. I'm not sure if they have an Intern Day equivalent for off-season interns or not. Intern Day is usually hosted at or near the headquarters in Redmond, so they fly and house the interns from satellite campuses up to Redmond for a week. 
+
+This year, Intern Day was also remote and we had a virtual concert with Gryffin and Chance the Rapper and inspirational talks with Malala, Melinda Gates, and Luvvie Ajayi Jones. We also got from free swag, a choice between a Microsoft branded mug, backpack, or lunchbox. Some of the interns were kinda salty about the swag because for previous years, Microsoft gave out Xboxes and max-specc'd Surface Laptops and stuff. 
+
 ## Hackathon
 
 ## Puzzle Day
