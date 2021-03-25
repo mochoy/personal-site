@@ -172,11 +172,11 @@ Game nights are sort of the obligatory remote social event. The two cohort leade
 
 ### Scavenger Hunt
 
-This was probably my favorite intern cohort event. Our intern cohort had interns that were supposed to be in the SF Bay Area Offices, so our leaders wanted to get us a feel for the area with the scavenger hunt. They gave us a list of all the neighborhoods in SF and we had to find a few places/landmarks of the neighborhoods. For example, the Golden Gate Bridge goes with the Presidio and Ocean Beach goes with the Sunset. We weren't given the landmarks, only the neighborhoods so we had to find out each of the landmarks and set it as our Teams background for a group picture. 
+This was probably my favorite intern cohort event. Our intern cohort had interns that were supposed to be in the SF Bay Area Offices, so our leaders wanted to get us a feel for the area with the scavenger hunt. They gave us a list of all the neighborhoods in SF and we had to find a few places/landmarks of the neighborhoods. For example, the Golden Gate Bridge goes with the Presidio and Ocean Beach goes with the Sunset. We weren't given the landmarks, only the neighborhoods so we had to find out each of the landmarks on Google Maps or whatever and set a screenshot as our Teams background for a group picture. 
 
 Out of our entire intern cohort, I think only like five-ish people signed up (just my team and I), so our cohort leaders needed to invite other Bay Area intern cohort groups. In total, we ended up having three teams, around fifteen people. 
 
-We had a weekend to find all the landmarks and gather our group pictures for the judges to determine the winners. The top three teams got Amazon gift cards, but there were only three teams so everyone got gift cards. I'm still not too sure how the winners are determined, but my team ended up getting last place lol. To be fair, we only go to like half of the neighborhoods so that might be why. 
+We had a weekend to find all the landmarks and gather our group pictures for the judges to determine the winners. The top three teams got Amazon gift cards, but there were only three teams so everyone got gift cards. I'm still not too sure how the winners were determined, but my team ended up getting last place lol. To be fair, we only go to like half of the neighborhoods so that might be why. 
 
 Even though this event was remote, it was still a lot of fun. I feel like it would be more fun if it were in-person so we could actually go around the city to all the landmarks. It would probably take a lot longer since the city is pretty big but it would be a great experience for those new to the city. 
 
