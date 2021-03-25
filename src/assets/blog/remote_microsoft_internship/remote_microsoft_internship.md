@@ -246,7 +246,7 @@ Internships are great opportunities to explore different career paths, especiall
 
 I actually kinda had imposter syndrome for like the first time and didn't think my performance was up to par. Maybe this was because of the remote internship experience or I continuously compared myself to my previous internship performance and experience, but I ended up getting a return offer to join under my manager x4's group and had strong feedback from my mentor and manager. I heard that like 80% of interns get a return offer and you have to try really hard to not get a return offer so don't sweat it too much. 
 
-Will I be coming back? got rejected from all positions lol 
+If I do return to Microsoft, it would be somewhere in their hardware groups like Surface/Devices, Xbox, Hololens, or Azure hardware. Microsoft has a few hardware teams in the SF Bay Area (which is where I plan to start my career) for Hololens, Azure, Surface, and Xbox and a brand new Microsoft campus in Mountain View is opening up for Microsoft to expand their Silicon Valley presence. Unfortunately, after applying online, I was promptly rejected from *every single* position I applied to, so it looks like I'll need to wait until next year to apply again, maybe with some nepotism.
 
 Want more insights? Check these out as well! 
 
