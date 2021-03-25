@@ -242,6 +242,7 @@ At the end of my internship, I also presented my projects to my team and my mana
 
 # Returning
 
+Internships are great opportunities to explore different career paths, especially since interns have so much mobility and can intern a few months at a time without any consequences. I've been coding for about nine years when starting my internship and I've always been super passionate about coding and building things, but this internship led me to discover that software engineering isn't where I want to take my career. There's a big difference between writing software on your own and writing software with a team to be used by millions of people and I'm glad this internship gave me that experience. I still love coding (I mean check out my green boxes on GitHub lol) and I don't forsee that passion dying anytime soon. I personally find a career in hardware/electrical engineering much more fulfulling for me at the moment so that's where I'm taking my career. If my passions or circumstances change in the future, I can always switch out of hardware engineering (HWE) into software engineering (SWE), but going from SWE to HWE is unheard of. 
 Will I be coming back? got rejected from all positions lol 
 
 Want more insights? Check these out as well! 
