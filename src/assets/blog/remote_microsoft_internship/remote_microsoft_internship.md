@@ -196,6 +196,10 @@ This year, Intern Day was also remote and we had a virtual concert with Gryffin 
 
 ## Hackathon
 
+Every year during intern season, Microsoft hosts a week-long company-wide hackathon that both interns and FTEs can join. Upon joining a team, they'll send out swag like a dope t-shirt and stickers. FYI they only send out the swag while supplies last, but I signed up for a team like a few days before it started and I got my swag no problem in a few weeks. 
+
+I don't think the teams have a size limit so our team had like ten people, but people contributed based on their work schedules. There's also this internal site to find teams/projects to join and there are a few hackathon tracks as well. One of the tracks I remember was the Surface Duo track that challenged people to build an app or game to leverage the unique dual-screen experience. I've heard that hackathon winners are pretty legit some some of them even turn into bigger projects/products. 
+
 ## Puzzle Day
 
 ## Co-Creation
