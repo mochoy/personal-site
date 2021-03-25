@@ -186,6 +186,8 @@ I guess AirBnB was dying from the pandemic, so they launched this service called
 
 ### Former Intern Panel
 
+Our cohort leaders had been at Microsoft for a few years and led a few cohorts during the previous summers as well. They hosted an former intern panel with their old cohort interns, some of which returned as interns, others who returned as FTEs, and I think all were in the SF Bay Area offices. We had something like ten or so panelists but only like five interns.
+
 ## Intern Day
 
 ## Hackathon
