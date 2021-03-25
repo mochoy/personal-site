@@ -202,6 +202,8 @@ I don't think the teams have a size limit so our team had like ten people, but p
 
 ## Puzzle Day
 
+Apparently Microsoft has a pretty big puzzle culture, so every summer they host a Puzzle Day event, a couple-hour event where we try to crack some puzzles. I think this event might be open to FTEs as well. There might've been a prize for the winners, but my team wasn't even close to winning so it didn't much matter. I'm pretty bad at puzzles so some of them were super difficult. I think they're submitted my Microsoft employees and most of them had multiple stages. For example, I think one puzzle had a crossword puzzle, but you took the answers from the crossword puzzle into another sub-puzzle which would be used again to get the final answer. There were also meta-puzzles that required multiple other full puzzles to be completely solved. 
+
 ## Co-Creation
 
 Not gunna lie I still don't really know what co-creation is, but it has something to do with using Microsoft as a platform for your passions or something. I think interns set up events like diversity exec chats and music/dance videos and stuff through co-creation, but I can never be sure. 
