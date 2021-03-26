@@ -271,5 +271,6 @@ I use a few acronyms and Microsoft nomenclature that I'll try to list out here i
 - EE - Electrical Engineer
 - FT/FTE - Full-Fime/full-Time Engineer: Full-time employees, not interns
 - [Microsoft] Teams: Microsoft's version of Slack + Zoom, a chat app with video/voice chat
+- HW/HWE - Hardware/Hardware Engineer: I usually use this synonomously with EE here
 - Skip [Manager]: Your manager's manager. Often referred to as just "skip" or "skip manager"
 - XVP - Some Vice President: Senior management position, usually pretty high up the hierarchy because Microsoft is a big company. X = C (corporate), E (executive), S (senior), and probably more
