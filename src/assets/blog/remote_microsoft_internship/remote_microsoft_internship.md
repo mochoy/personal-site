@@ -232,13 +232,15 @@ After I wrapped up my first project, I started my second project, an app to conf
 
 At the end of my internship, I also presented my projects to my team and my manager's manager's manager's manager with other interns. I remember on the day of my presentation with my manager x4, we had some pretty bad forest fires in the Bay Area and the sky was orange like something out of Blade Runner.  
 
-# Misc.
-# The Social Experience
+# Social Experience
 
-## Training Videos
+With remote internships, it's much more difficult to get the same social experience with other interns, FTEs, and the team. Local lockdowns didn't help the situation. 
 
 - talking to randos
 
+# Misc.
+
+## Training Videos
 
 # Returning
 
