@@ -234,7 +234,7 @@ At the end of my internship, I also presented my projects to my team and my mana
 
 # Reaching out to Randos
 
-With remote internships, it's much more difficult to get the same social experience with other interns, FTEs, and the team. Local lockdowns didn't help the situation. 
+With remote internships, it's much more difficult to get the same social/networking experience with other interns, FTEs, and the team and local lockdowns didn't help the situation. Luckily Microsoft holds a ton of intern/social events to meet other interns 
 
 - talking to randos
 
