@@ -238,9 +238,8 @@ With remote internships, it's much more difficult to get the same social experie
 
 - talking to randos
 
-# Misc.
+# Training Videos
 
-## Training Videos
 
 # Returning
 
