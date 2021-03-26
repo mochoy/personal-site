@@ -19,7 +19,7 @@ Microsoft also held some informational events before the summer to help interns 
 
 ## Uncertainties
 
-I think Microsoft did a great job in handling everything during this period of uncertainty and confusion. We were scared that like [Workday, AirBnB, Yelp, and a ton of other companies](https://ismyinternshipcancelled.com/?company=&status=yes) our internships woud get cancelled. We were also hearing that other companies were transitioning to a remote internship. It would really suck if, for example, I declined an offer from a company that confirmed remote internships and Microsoft cancelled their internships. 
+I think Microsoft did a great job in handling everything during this period of uncertainty and confusion. We were scared that like [Workday, AirBnB, Yelp, and a ton of other companies](https://ismyinternshipcancelled.com/?company=&status=yes), our internships woud get cancelled. We were also hearing that other companies were transitioning to a remote internship. It would really suck if, for example, I declined an offer from a company that confirmed remote internships and Microsoft cancelled their internships. 
 
 Luckily, Microsoft kept us updated with weekly emails about any updates on the intern program. They sent surveys asking us for our summer plans like where we would be located and also promised dates on bigger announcements. Sometimes, the emails wouldn't contain any new info, but it was still reassuring and I really appreciate Microsoft's dedication to this. 
 
