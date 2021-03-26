@@ -266,3 +266,4 @@ I use a few acronyms and Microsoft nomenclature that I'll try to list out here i
 
 - BA - Business Admin: A FT employee that handles a lot of the business stuff like organizing equipment
 - FT/FTE - Full-Fime/full-Time Engineer: Full-time employees, not interns
+- [Microsoft] Teams: Microsoft's version of Slack + Zoom, a chat app with video/voice chat
