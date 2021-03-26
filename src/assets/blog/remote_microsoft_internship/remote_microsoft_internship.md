@@ -262,3 +262,4 @@ Want more insights? Check these out as well!
 
 # Glossary
 
+I use a few acronyms and Microsoft nomenclature that I'll try to list out here in alphabetical order. 
