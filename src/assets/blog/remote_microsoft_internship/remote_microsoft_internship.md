@@ -250,6 +250,8 @@ As interns/college students, we know very little and Microsoft has many engineer
 I first starting reaching out to other hardware/electrical engineers (HWE/EE) on the Surface Duo since that's what I was most interested in. At the end, I'd ask for more people to reach out too, specifically those who were experts in my fields of interest, and sort of expand from there. I stuck primarily to within Surface hardware (HW) since that's where a good amount of the EEs worked in and many of them already know each other, so when I asked for more people to reach out to, they usually suggested people within Surface. 
 
 Other interns found completely random FTEs to reach out to by literally picking a random name out of the org chart. Microsoft has org charts where you can sorta see the hierarchy of the whole company with each individual employee. The org chart is built into an internal site and Teams, but the Teams org chart UX is way better. 
+
+## Coffee Chats
 # Training Videos
 
 A ton of companies have required empoyee training on stuff like diversity and confidentiality. Sometimes these trainings are more involved and have quizzes, videos, and reading articles like online school. For some reason, one of the training videos was like a TV show or movie with SUPER high production quality with good lighting, acting, cameras, etc. They literally opened with "last time on {the training video's series name}" and did a quick recap for previous episodes/seasons (they were on like season four or something for my required training). I think this was the confidentiality training and it was pretty entertaining just like a regular TV show. 
