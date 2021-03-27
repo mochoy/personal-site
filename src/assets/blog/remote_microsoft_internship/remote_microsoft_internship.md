@@ -254,6 +254,8 @@ Other interns found completely random FTEs to reach out to by literally picking 
 ## Coffee Chats
 
 Additionally, Microsoft hosted a Coffee Chats program (this might've been a co-creation project) where interns and FTEs sign up and get paired up one-on-one based on similar interests. For example, I mentioned that I'm studying EE, so I got paired up with a few SWEs with HW backgrounds. The Coffee Chats were hosted once every two weeks for eight weeks I believe. It's possible the program ran for longer, but I started a bit later so my experience could've been cut short. 
+
+## Intern Buddy 
 # Training Videos
 
 A ton of companies have required empoyee training on stuff like diversity and confidentiality. Sometimes these trainings are more involved and have quizzes, videos, and reading articles like online school. For some reason, one of the training videos was like a TV show or movie with SUPER high production quality with good lighting, acting, cameras, etc. They literally opened with "last time on {the training video's series name}" and did a quick recap for previous episodes/seasons (they were on like season four or something for my required training). I think this was the confidentiality training and it was pretty entertaining just like a regular TV show. 
