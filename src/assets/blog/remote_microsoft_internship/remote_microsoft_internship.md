@@ -259,7 +259,7 @@ Additionally, Microsoft hosted a Coffee Chats program (this might've been a co-c
 
 ### Intern Buddy 
 
-## Misc
+### Misc
 # Training Videos
 
 A ton of companies have required empoyee training on stuff like diversity and confidentiality. Sometimes these trainings are more involved and have quizzes, videos, and reading articles like online school. For some reason, one of the training videos was like a TV show or movie with SUPER high production quality with good lighting, acting, cameras, etc. They literally opened with "last time on {the training video's series name}" and did a quick recap for previous episodes/seasons (they were on like season four or something for my required training). I think this was the confidentiality training and it was pretty entertaining just like a regular TV show. 
