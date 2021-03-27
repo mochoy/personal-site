@@ -237,9 +237,9 @@ At the end of my internship, I also presented my projects to my team and my mana
 
 # Networking Opportunities
 
-## Reaching out to Randos
+With remote internships, it's much more difficult to get the same social/networking experience with other interns, FTEs, and the team and local lockdowns didn't help the situation. Luckily Microsoft holds a ton of intern/social events to meet other interns and FTEs. Here, I'll focus more on networking opportunities with other FTEs. 
 
-With remote internships, it's much more difficult to get the same social/networking experience with other interns, FTEs, and the team and local lockdowns didn't help the situation. Luckily Microsoft holds a ton of intern/social events to meet other interns 
+## Reaching out to Randos
 
 Microsoft has this cool culture around interns so all the FTEs are super helpful to interns. Sometimes that means reaching out to a relevant FTE for technical help, but also reaching out to random FTEs to schedule chats and learn about them, their work, and more about the company. Interns can easily be identified by their special email alias and Teams also shows every employee's position. I thought this was strange at first because my previous internship advertised that interns were treated like FTE, so if someone didn't know that you were an intern, there wasn't an easy way to discover that. 
 
