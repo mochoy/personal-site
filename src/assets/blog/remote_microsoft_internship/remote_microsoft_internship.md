@@ -261,6 +261,7 @@ Additionally, Microsoft hosted a Coffee Chats program (this might've been a co-c
 
 ### Intern Buddy 
 
+I think Microsoft has two programs called "intern buddy", but to be fair like every company has an "intern buddy" program. I think at Apple it's called like iBuddy or something but I'm not sure if that's just a meme because I've never heard it around. 
 ### Misc
 # Training Videos
 
