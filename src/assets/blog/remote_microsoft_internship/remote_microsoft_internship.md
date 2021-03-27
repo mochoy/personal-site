@@ -297,6 +297,7 @@ I use a few acronyms and Microsoft nomenclature that I'll try to list out here i
 - FT/FTE - Full-Fime/full-Time Engineer: Full-time employees, not interns
 - Group: A business unit that typically includes many teams. I usually use this interchangably with Org because I don't know the difference lol
 - HW/HWE - Hardware/Hardware Engineer: I usually use this synonomously with EE here
+- Org - Organization: A business unit that typically includes many teams. I usually use this interchangably with Group because I don't know the difference lol
 - Skip [Manager]: Your manager's manager. Often referred to as just "skip" or "skip manager"
 - Surface: A subgroup of Devices that includes all of the Surface line of consumer electroncis products like the Surface Duo, Surface Book, Surface Laptop, and Surface Headphones
 - SWE: Software Engineer
