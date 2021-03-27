@@ -1,6 +1,6 @@
 
 - School may have policy to extend timeline
-- Bomb offers!!
+- Bomb offers!! - school may have a policy
 - Think about it
 - Talk to someone on team to learn more, just ask recruiter
 
