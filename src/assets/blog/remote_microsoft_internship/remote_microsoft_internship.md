@@ -296,6 +296,7 @@ I use a few acronyms and Microsoft nomenclature that I'll try to list out here i
 - BA - Business Admin: A FT employee that handles a lot of the business stuff like organizing equipment
 - Devices: Microsoft's consumer electronics hardware group that includes Surface, Xbox, and Hololens
 - EE - Electrical Engineer
+- E+D - Experience + Devices: Microsoft's group that handles Surface and Devices hardware and Windows OS and other Windows apps and SW
 - FT/FTE - Full-Fime/full-Time Engineer: Full-time employees, not interns
 - Group: A business unit that typically includes many teams. I usually use this interchangably with Org because I don't know the difference lol
 - HW/HWE - Hardware/Hardware Engineer: I usually use this synonomously with EE here
