@@ -262,6 +262,8 @@ Additionally, Microsoft hosted a Coffee Chats program (this might've been a co-c
 ### Intern Buddy 
 
 I think Microsoft has two programs called "intern buddy", but to be fair like every company has an "intern buddy" program. I think at Apple it's called like iBuddy or something but I'm not sure if that's just a meme because I've never heard it around. 
+
+My first intern buddy was a teammate who I could reach out to with any questions. Maybe this wasn't actually called "intern buddy", I don't really remember lol. He recently joined out of college so he was more familiar with the onboarding process and the transition from school to work. I think he was the only new grad on the team so I'm not sure if he was also the other interns' buddy. 
 ### Misc
 # Training Videos
 
