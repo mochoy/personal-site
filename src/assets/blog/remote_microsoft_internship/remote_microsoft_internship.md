@@ -266,6 +266,9 @@ Additionally, Microsoft hosted a Coffee Chats program (this might've been a co-c
 I think Microsoft has two programs called "intern buddy", but to be fair like every company has an "intern buddy" program. I think at Apple it's called like iBuddy or something but I'm not sure if that's just a meme because I've never heard it around. 
 
 My first intern buddy was a teammate who I could reach out to with any questions. Maybe this wasn't actually called "intern buddy", I don't really remember lol. He recently joined out of college so he was more familiar with the onboarding process and the transition from school to work. I think he was the only new grad on the team so I'm not sure if he was also the other interns' buddy. 
+
+My second intern buddy (maybe this actually wasn't called intern buddy either lol) was also a formal, one-on-one pairing with another FTE, but this time the FTE was kind of random. I'm not sure if this FTE buddy had other intern buddies. We met every week and I think the purpose was to help us out with Seattle/Microsoft and also talk a bit about work stuff in case we need help with something with someone that's not on our team, but we ended up talking about random stuff every time.
+
 ### Misc
 # Training Videos
 
