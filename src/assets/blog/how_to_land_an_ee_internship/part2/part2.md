@@ -104,6 +104,7 @@ We all hear about how important networking is because it is! I want to put netwo
 - that werid guy
 - Networking events
 - Career fair and stuff will be talked about later
+- Nepotism
 
 ## The Power of Networking
 
