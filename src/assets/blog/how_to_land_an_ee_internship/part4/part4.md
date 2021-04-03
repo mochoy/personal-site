@@ -113,3 +113,5 @@ Here's a fat list of companies to help you get started. These are typically my f
 # Time Management
 
 # Online Assessments (OAs)
+
+# Rejection
