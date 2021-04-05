@@ -7,6 +7,7 @@
 - Interview after accpeting an offer: https://www.teamblind.com/post/Amazon-Has-Destroyed-Its-Reputation-xappoaC1
 - Can get blacklisted?
 - Many interview questions are similar between NG and intern, so if you've interviewed a lot as an intern, a ton of that stuff will come back when FT
+- What to do if don't know something during interview?
 # Prep
 
 # Hiring Mangers vs Recruiters
