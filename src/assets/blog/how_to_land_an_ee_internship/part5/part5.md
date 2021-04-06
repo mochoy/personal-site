@@ -8,6 +8,7 @@
 - Can get blacklisted?
 - Many interview questions are similar between NG and intern, so if you've interviewed a lot as an intern, a ton of that stuff will come back when FT
 - What to do if don't know something during interview?
+  - Tell you dont know something but try to think through it and interviewer will help you
 # Prep
 
 # Hiring Mangers vs Recruiters
