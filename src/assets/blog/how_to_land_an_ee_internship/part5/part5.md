@@ -44,3 +44,5 @@ General questions I usually ask them:
 # Take Notes!
 
 # Feedback
+
+# Rejection
