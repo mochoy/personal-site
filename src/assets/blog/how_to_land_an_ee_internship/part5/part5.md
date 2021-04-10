@@ -46,3 +46,5 @@ General questions I usually ask them:
 # Feedback
 
 # Rejection
+
+- DOn't get too hurt
