@@ -48,3 +48,4 @@ General questions I usually ask them:
 # Rejection
 
 - DOn't get too hurt
+- First ones hurt he most
