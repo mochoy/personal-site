@@ -50,3 +50,4 @@ General questions I usually ask them:
 - DOn't get too hurt
 - First ones hurt he most
 - Take it as improvements
+- Get feedback
