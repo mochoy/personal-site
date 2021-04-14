@@ -51,3 +51,4 @@ General questions I usually ask them:
 - First ones hurt he most
 - Take it as improvements
 - Get feedback
+- Keep moving forward
