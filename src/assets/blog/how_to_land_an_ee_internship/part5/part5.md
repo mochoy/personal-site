@@ -12,6 +12,7 @@
   - Likely repeated question, so thinking through it gives good understanding for the future
   - I get strong feedback when doing this
   - Dont need to know everything
+- Cool off period
 
 # Prep
 
