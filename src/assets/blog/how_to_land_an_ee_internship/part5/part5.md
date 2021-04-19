@@ -55,3 +55,4 @@ General questions I usually ask them:
 - Take it as improvements
 - Get feedback
 - Keep moving forward
+- They want the best person, next yr will be better
