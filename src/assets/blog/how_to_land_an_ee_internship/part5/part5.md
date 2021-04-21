@@ -58,3 +58,5 @@ General questions I usually ask them:
 - They want the best person, next yr will be better
 
 # Improve Yourself After Interview
+
+- Talk to friends/upperclassmen/profs about interview questions
