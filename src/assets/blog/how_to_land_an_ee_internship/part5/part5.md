@@ -60,3 +60,4 @@ General questions I usually ask them:
 # Improve Yourself After Interview
 
 - Talk to friends/upperclassmen/profs about interview questions
+- Write down actual dos/donts 
