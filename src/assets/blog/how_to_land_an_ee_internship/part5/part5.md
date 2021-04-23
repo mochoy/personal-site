@@ -61,3 +61,4 @@ General questions I usually ask them:
 
 - Talk to friends/upperclassmen/profs about interview questions
 - Write down actual dos/donts 
+- Understand what and why you did wrong, even if successful
