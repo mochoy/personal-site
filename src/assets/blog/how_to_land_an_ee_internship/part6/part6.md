@@ -3,6 +3,7 @@
 - Bomb offers!! - school may have a policy
 - Think about it
 - Talk to someone on team to learn more, just ask recruiter
+- buy more time by asking for meeting with manager
 
 # Compensation
 
