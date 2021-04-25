@@ -4,6 +4,7 @@
 - Think about it
 - Talk to someone on team to learn more, just ask recruiter
 - buy more time by asking for meeting with manager
+- Deadline isnt always super hard
 
 # Compensation
 
