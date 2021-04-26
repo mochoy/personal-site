@@ -5,6 +5,7 @@
 - Talk to someone on team to learn more, just ask recruiter
 - buy more time by asking for meeting with manager
 - Deadline isnt always super hard
+- It's not final until you have written offer, they can still back out on verbal offer (but this is rare)
 
 # Compensation
 
