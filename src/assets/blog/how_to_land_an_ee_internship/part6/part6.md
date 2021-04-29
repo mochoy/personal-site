@@ -9,6 +9,9 @@
 - taxes + witholdings
 
 # Verbal Offer
+
+# Written Offer
+
 # Compensation
 
 - ranges
