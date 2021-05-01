@@ -31,6 +31,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 # Negotiation
 
 - Feels awkward for the first time, don't get as much practice
+- Get practice so it doesnt feel awkard when you go FT and its more important 
 
 Resources: 
 - https://www.levels.fyi/blog/what-is-desired-salary-and-compensation.html
