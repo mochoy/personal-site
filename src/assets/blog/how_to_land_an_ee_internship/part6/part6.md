@@ -39,4 +39,6 @@ Resources:
 
 # Rejecting Offers
 
+- Be careful not to be too exact with reason, mention HPE exp
+
 # Deciding Between Offers
