@@ -1,3 +1,4 @@
+Never let the fact that you don't have all of the "Required" skills or experience stop you from applying or interviewing as long as you are honest about it.
 
 Wow 10,000 words in and I'm finally getting to the actual application. I hope that helps to illustrate that there's so much that happens before you even write the first line on your resume. That's why preparation and starting early is so helpful, having that time developing your skillset, building projects, etc puts you miles ahead and I can't emphasize this enough. 
 
