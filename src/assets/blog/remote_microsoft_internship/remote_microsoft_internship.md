@@ -270,6 +270,10 @@ My first intern buddy was a teammate who I could reach out to with any questions
 My second intern buddy (maybe this actually wasn't called intern buddy either lol) was also a formal, one-on-one pairing with another FTE, but this time the FTE was kind of random. I'm not sure if this FTE buddy had other intern buddies. We met every week and I think the purpose was to help us out with Seattle/Microsoft and also talk a bit about work stuff in case we need help with something with someone that's not on our team, but we ended up talking about random stuff every time.
 
 ### Misc
+
+
+
+- random group 
 # Training Videos
 
 A ton of companies have required empoyee training on stuff like diversity and confidentiality. Sometimes these trainings are more involved and have quizzes, videos, and reading articles like online school. For some reason, one of the training videos was like a TV show or movie with SUPER high production quality with good lighting, acting, cameras, etc. They literally opened with "last time on {the training video's series name}" and did a quick recap for previous episodes/seasons (they were on like season four or something for my required training). I think this was the confidentiality training and it was pretty entertaining just like a regular TV show. 
