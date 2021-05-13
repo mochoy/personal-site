@@ -23,6 +23,8 @@ the total amount of money you're making, including stock, signing/starting bonus
 ## Salary
 
 ## Housing
+
+## Relocation
 # Competing Offers
 
 # Learning More
