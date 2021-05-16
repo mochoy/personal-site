@@ -22,6 +22,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 
 ## Salary
 
+- hourly or salary
 ## Housing
 
 ## Relocation
