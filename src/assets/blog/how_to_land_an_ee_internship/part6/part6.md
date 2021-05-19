@@ -25,6 +25,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 - hourly or salary
 - often paid bi-weekly (every 2 weeks)
 - hourly may have OT
+- Salary usually doesnt give OT
 ## Housing
 
 ## Relocation
