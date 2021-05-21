@@ -27,6 +27,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 - hourly may have OT
 - Salary usually doesnt give OT
 - If travel, may rack up OT
+- OT gets way more pay
 ## Housing
 
 ## Relocation
