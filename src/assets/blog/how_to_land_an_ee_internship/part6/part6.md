@@ -28,6 +28,8 @@ the total amount of money you're making, including stock, signing/starting bonus
 - Salary usually doesnt give OT
 - If travel, may rack up OT
 - OT gets way more pay
+  - Apple OT ex
+
 ## Housing
 
 ## Relocation
