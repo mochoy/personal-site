@@ -35,6 +35,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 - if living at home, can pocket stipend
 - coroporate housing more rare
   - google ex
+- How does corporate housing work?
 
 ## Relocation
 
