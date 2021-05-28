@@ -36,6 +36,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 - coroporate housing more rare
   - google ex
 - How does corporate housing work?
+  - apple ex
 
 ## Relocation
 
