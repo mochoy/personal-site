@@ -282,8 +282,6 @@ These are for the rest of the networking/informational events that I don't entir
 
 One day, there was this "Meet Devices (?)" event where a few interns would be grouped together with a few FTEs and we had the opportunity to ask them questions about MSTF and the Seattle area. After about fifteen minutes, we'd rotate groups. 
 
-- random group 
-- Intern panels, many organized opportunies to explore mstf and the area esp since most of us arent from seattle, I think they were mainly from our org
 We also had these "intern diversity panels" where I think about once a month, a set group of maybe ten to twenty interns would have the opportunity to ask questions or voice any concerns or struggles with two FTEs. Again I think this was another chance for us to learn more about MSTF/living in Seattle, but the hosts mentioned that it was also a space where we can destress on more work-related stuff. Out of the ten or twenty interns, we only had like five interns actually attend on the first panel before it dwindled down and eventually I was the last intern standing. 
 
 This set of panels also gave us a like $100 Visa giftcard that we could use to buy food since those panels usually have food when they're in person. For the first panel (which was also on my first day), I thought I read somewhere that we were supposed to order food and bring it (virtually) to the panel. I ended up ordering some pizza and it turns out no one else ordered food. Luckily my pizza came late and I wasn't the only one awkwardly eating during the panel lol. 
