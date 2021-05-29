@@ -278,6 +278,7 @@ My second intern buddy (maybe this actually wasn't called intern buddy either lo
 
 ### Misc
 
+These are for the rest of the networking/informational events that I don't entirely remember the name of. 
 
 
 - random group 
