@@ -280,6 +280,7 @@ My second intern buddy (maybe this actually wasn't called intern buddy either lo
 
 These are for the rest of the networking/informational events that I don't entirely remember the name of. 
 
+One day, there was this "Meet Devices (?)" event where a few interns would be grouped together with a few FTEs and we had the opportunity to ask them questions about MSTF and the Seattle area. After about fifteen minutes, we'd rotate groups. 
 
 - random group 
 - Intern panels, many organized opportunies to explore mstf and the area esp since most of us arent from seattle, I think they were mainly from our org
