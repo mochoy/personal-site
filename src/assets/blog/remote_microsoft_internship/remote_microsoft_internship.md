@@ -242,7 +242,7 @@ At the end of my internship, I also presented my projects to my team and my mana
 
 ## Work Hours
 
-
+I usually worked from 10AM-7PM with about an hour for lunch. Luckily I'm in the same timezone as my team, so I didn't need to worry about working late/early to make meetings. Actually, my intern presentation to the CVP was at like 8AM. For the first half of my internship, the sensors subteam had our standups at 10AM so that's also when I started working. Later on, an engineer from Taiwan joined us so we moved our standups to 6PM to accomodate. My mentor often worked a bit late and he sometimes had the bandwidth to help me out later in the evenening. 
 
 # Networking Opportunities
 
