@@ -18,7 +18,7 @@ const defaultDbPostEntry = {
     status: "init"
   }},
   likes: 0,
-  views: 0
+  views: 1
 };
 
 /**
