@@ -7,7 +7,7 @@ Now the interviews weren't really part of the internship experience, but my inte
 
 I actually had my first round interview in January 2020 and my Super Day on-site interviews in February for my specific team at my team's office in Sunnyvale. This is actually pretty rare, most interviews happen between September and November and are typically put into a general intern pool. The two other interns on my team followed the standard application process. The team matching process happens way later closer to the summer so many interns don't really know what exact team they're on or their manager until closer to the summer. In fact, I heard that some people didn't even know who their manager was until a few days into their internship. 
 
-Luckily I knew my team and manager from my interviews. I forgot to ask why my interview process was so different, so I guess we will never know. My best guess was that I was probably wasn't on the first-choice list, but after some people declined their offers in Decemember, Microsoft started to reach out to second-choice list and got to me. 
+Luckily I knew my team and manager from my interviews. I forgot to ask why my interview process was so different, so I guess we will never know. My best guess was that I was probably wasn't on the first-choice list, but after some people declined their offers in December, Microsoft started to reach out to second-choice list and got to me. 
 
 # Pre-Internship
 
@@ -21,17 +21,17 @@ Microsoft also held some informational events before the summer to help interns 
 
 ## Uncertainties
 
-I think Microsoft did a great job in handling everything during this period of uncertainty and confusion. We were scared that like [Workday, AirBnB, Yelp, and a ton of other companies](https://ismyinternshipcancelled.com/?company=&status=yes), our internships woud get cancelled. We were also hearing that other companies were transitioning to a remote internship. It would really suck if, for example, I declined an offer from a company that confirmed remote internships and Microsoft cancelled their internships. 
+I think Microsoft did a great job in handling everything during this period of uncertainty and confusion. We were scared that like [Workday, AirBnB, Yelp, and a ton of other companies](https://ismyinternshipcancelled.com/?company=&status=yes), our internships would get cancelled. We were also hearing that other companies were transitioning to a remote internship. It would really suck if, for example, I declined an offer from a company that confirmed remote internships and Microsoft cancelled their internships. 
 
 Luckily, Microsoft kept us updated with weekly emails about any updates on the intern program. They sent surveys asking us for our summer plans like where we would be located and also promised dates on bigger announcements. Sometimes, the emails wouldn't contain any new info, but it was still reassuring and I really appreciate Microsoft's dedication to this. 
 
 It was also kinda funny because the some people got their emails earlier than others, so someone would ask in the Slack like "oh did you guys see the new email??" and then like 50 people would respond instantly asking "what email??" "I didn't get anything yet!!" and those sort of things. 
 
-One of the emails indiciated that they would make their announcement on the status of the internship at some specific day. Well when that day rolls around, we get radio silence and suspense all day. Most of the other emails would get sent out around working hours PST, so we expected a similar timeline for the big announcement too. Well we finally get the email at like 10PM PST confirming remote internships, but only for US and Canada interns, everyone else got their internships cancelled with a few accomodations. 
+One of the emails indicated that they would make their announcement on the status of the internship at some specific day. Well when that day rolls around, we get radio silence and suspense all day. Most of the other emails would get sent out around working hours PST, so we expected a similar timeline for the big announcement too. Well we finally get the email at like 10PM PST confirming remote internships, but only for US and Canada interns, everyone else got their internships cancelled with a few accommodations. 
 
 ## Offer Changes
 
-For US interns, we had our housing stipend reduced from $7000 to $3500 and we lost our transportation/relocation benefits. Other than that, our compensation remained untouched. Some people were upset because they had already made housing plans for the summer and paid some deposits upfront. Others were upset because other companies that they may have declined offers to were offering the full compensation package, or as much as possible. Others were grateful that we still had a summer job, espeically under a crashing economy. 
+For US interns, we had our housing stipend reduced from $7000 to $3500 and we lost our transportation/relocation benefits. Other than that, our compensation remained untouched. Some people were upset because they had already made housing plans for the summer and paid some deposits upfront. Others were upset because other companies that they may have declined offers to were offering the full compensation package, or as much as possible. Others were grateful that we still had a summer job, especially under a crashing economy. 
 
 I think these reductions were justified for the most part. We weren't going to be on campus, so the transportations/relocation benefits getting removed entirely made sense. The housing stipend getting cut in half helped to recoup some of Microsoft's losses because I heard they reserve and pay for the intern housing ahead of time before Covid, so they just lost a ton of money there. 
 
@@ -43,15 +43,15 @@ On the bright side for starting later, I had more time to get my equipment sorte
 
 Typically, a business admin (BA) reached out to the interns to coordinate the equipment and everything. Sometimes, it's the team's BA but I also coordinated with I think by CVP's BA. 
 
-Most interns recieved a similar workstation setup: 
+Most interns received a similar workstation setup: 
 - Thinkpad or Surface Laptop, iOS devs got Macbooks
-- Keyboad + Mouse
+- Keyboard + Mouse
 - Thinkvision Monitor
 - Dock
 
 And if you were lucky, you got other goodies like headphones and/or extra monitor(s). 
 
-I personally got a Surface Laptop 3 laptop with I think max specs, a generic Microsoft keyboard + mouse, and a ThinkVision 27" monitor as part of the standard intern workstation package. For my org/team, I received a Micorosft Pen, Surface Book 3, Surface Headphones, and a Surface Duo prototype/dev board.
+I personally got a Surface Laptop 3 laptop with I think max specs, a generic Microsoft keyboard + mouse, and a ThinkVision 27" monitor as part of the standard intern workstation package. For my org/team, I received a Microsoft Pen, Surface Book 3, Surface Headphones, and a Surface Duo prototype/dev board.
 
 ### Surface Jet 3
 
@@ -95,15 +95,15 @@ I needed to return my laptops and monitor. Most interns needed to pack everythin
 
 Ok now time for the most decisive factor when deciding between internship offers. Some swag was intern-wide, others were team/org dependant. Either way, Microsoft offers a ton of awesome swag like clothing, food, tech, and other goodies. Some interns also received swag during their interviews, but I didn't so it won't be included here. 
 
-Some swag was known beforehand, but other swag, especially the team/org specific swag, was straight up an actual surprise. For some people, their team/org swag would just show up on their doorstep one day. I have Fedex and UPS accounts, so whenever something is shipped to me, I get notified that a package is arriving, who sent the package, etc. I remember getting a few notificaions that an unexpected package was being shipped to me, so I got pretty hyped for a few days looking forward to that top secret swag.  
+Some swag was known beforehand, but other swag, especially the team/org specific swag, was straight up an actual surprise. For some people, their team/org swag would just show up on their doorstep one day. I have Fedex and UPS accounts, so whenever something is shipped to me, I get notified that a package is arriving, who sent the package, etc. I remember getting a few notifications that an unexpected package was being shipped to me, so I got pretty hyped for a few days looking forward to that top secret swag.  
 
 ## Intern-Wide 
 
 Some swag was given, or at least available, to every intern. I'll include event-based swag as well if the event was available to every intern.
 
-### Intern Giftbox
+### Intern Gift Box
 
-Every intern received at least one intern giftbox that included a white Microsoft sweater, a Microsoft insulating coffee bottle, and a puzzle all shipped in a cool little Microsoft Intern box. I think an external service put together these boxes and everything.
+Every intern received at least one intern gift box that included a white Microsoft sweater, a Microsoft insulating coffee bottle, and a puzzle all shipped in a cool little Microsoft Intern box. I think an external service put together these boxes and everything.
 
 ![intern_box_closed](images/intern_box_closed.jpg)
 
@@ -113,7 +113,7 @@ I think the intern gifts were supposed to arrive around the start date for each 
 
 ### Hackathon Swag
 
-I'll talk more about the Microsoft Hackathon and Intern Day in the Fun Stuff section, but here's the swag. Everyone that signed up with a team for the hackathon got a dope Microsoft Hackathon 2020 t-shirt and stickers. I think the Hackathon might be themed so every year, each shirt has a differnt theme, but I'm not 100% sure. 
+I'll talk more about the Microsoft Hackathon and Intern Day in the Fun Stuff section, but here's the swag. Everyone that signed up with a team for the hackathon got a dope Microsoft Hackathon 2020 t-shirt and stickers. I think the Hackathon might be themed so every year, each shirt has a different theme, but I'm not 100% sure. 
 
 ![hackathon_swag](images/hackathon_swag.jpg)
 
@@ -125,7 +125,7 @@ I'll go more into Intern Day later on as well, but we had a choice between three
 - Mug
 - Lunchbox
 
-Like the intern giftbox, I think an external service handled these gifts as well.  
+Like the intern gift box, I think an external service handled these gifts as well.  
 
 ## Org/Team-Specific 
 
@@ -166,7 +166,7 @@ Microsoft has intern cohorts every summer which is basically just a group of ran
 
 All the interns in my cohort started and ended at around the same time and I think we were all supposed to be in the SF Bay Area offices. The cohort leaders were both in the SF offices and most of the interns that showed up to events were in the SF and Bay Area offices. Coincidentally a lot of us were located on the west coast too. 
 
-The intern cohorts also get a budget to spend on activities, which of course was more applicable during normal times. How this budget is spent depends on what the cohort leaders want to organize. For example, our cohort leaders spent their budget on local food/snacks the previous year when they were in person. This year, they spent a lot of the budget on giftcards they gave out for participating in the events to incentivize us to show up. 
+The intern cohorts also get a budget to spend on activities, which of course was more applicable during normal times. How this budget is spent depends on what the cohort leaders want to organize. For example, our cohort leaders spent their budget on local food/snacks the previous year when they were in person. This year, they spent a lot of the budget on gift cards they gave out for participating in the events to incentivize us to show up. 
 
 ### Game Nights
 
@@ -194,7 +194,7 @@ Our cohort leaders had been at Microsoft for a few years and led a few cohorts d
 
 Every summer, Microsoft hosts Intern Day, celebratory event for the interns. I'm not sure if they have an Intern Day equivalent for off-season interns or not. Intern Day is usually hosted at or near the headquarters in Redmond, so they fly and house the interns from satellite campuses up to Redmond for a week. 
 
-This year, Intern Day was also remote and we had a virtual concert with Gryffin and Chance the Rapper and inspirational talks with Malala, Melinda Gates, and Luvvie Ajayi Jones. We also got from free swag, a choice between a Microsoft branded mug, backpack, or lunchbox. Some of the interns were kinda salty about the swag because for previous years, Microsoft gave out Xboxes and max-specc'd Surface Laptops and stuff. 
+This year, Intern Day was also remote and we had a virtual concert with Gryffin and Chance the Rapper and inspirational talks with Malala, Melinda Gates, and Luvvie Ajayi Jones. We also got from free swag, a choice between a Microsoft branded mug, backpack, or lunchbox. Some of the interns were kinda salty about the swag because for previous years, Microsoft gave out Xboxes and max-spec'd Surface Laptops and stuff. 
 
 ## Hackathon
 
@@ -212,11 +212,11 @@ Not gunna lie I still don't really know what co-creation is, but it has somethin
 
 Most of the events didn't interest me too much, but there was this one small thing that I think was set up through co-creation. A lot of interns were worried about the limited networking/social opportunities with other interns because of the remote internships, so there was this "meet other interns" survey thingy where based on our survey results, they would pair us up with 3 random interns who filled out similar answers. I filled out the survey and kinda forgot about it and then one month later I get an email like "here's your people!".
 
-The survey had these casusal multiple-choice buzzfeed-style questions like "how many unread emails do you have right now?" and "you see a cute intern at a party, what do you do?" and stuff like that. One of the options for the latter was something along the lines of "stalk them on //who" and I thought to myself "wtf I ain't no creep I would never commit such diabolical abominations" and then I realized I may or may not have done exactly that LOL (dw we were pretty cool about it haha). 
+The survey had these casual multiple-choice buzzfeed-style questions like "how many unread emails do you have right now?" and "you see a cute intern at a party, what do you do?" and stuff like that. One of the options for the latter was something along the lines of "stalk them on //who" and I thought to myself "wtf I ain't no creep I would never commit such diabolical abominations" and then I realized I may or may not have done exactly that LOL (dw we were pretty cool about it haha). 
 
 There were other opportunities to socialize with other interns, but this one felt more randomized yet more personal because they'd match you up with random interns throughout the company that probably aren't in your social/work group and the type of questions more uniquely captures your personality. 
 
-There was also a co-creation project to make a dance music video, so I submitted a video of my headspins. Apparently they didn't get enough participants, so they didn't do the music video, but they would submit our videos to be used in Intern Day. Intern Day rolls around and they play some dance videos during Gryffin's vitual concert but I don't see my headspins so I'm a bit confused. I re-read the email and my dumbass didn't see that I needed to respond to the email to let them use the video smh.
+There was also a co-creation project to make a dance music video, so I submitted a video of my headspins. Apparently they didn't get enough participants, so they didn't do the music video, but they would submit our videos to be used in Intern Day. Intern Day rolls around and they play some dance videos during Gryffin's virtual concert but I don't see my head spins so I'm a bit confused. I re-read the email and my dumbass didn't see that I needed to respond to the email to let them use the video smh.
 
 # Work Experience
 
@@ -226,7 +226,7 @@ I worked on the Surface Duo software and had two projects. My first project took
 
 I was also given a Duo dev board to do all my dev on. The dev board for the Duo has all the PCBs and electronics exposed for debugging, along with some additional debug hardware. It's also not assembled into the standard phone chassis, it's sort of all open in a custom rig so we can access all the electronics.
 
-I was actually pretty surprised and excited about this because at Apple, we were pretty secretive about unreleased products. There's the of course issue of the unreleased product getting leaked, but also I heard that many of these prototypes also have non-production electronics. For example, the non-prod SoC may be 99.9% ready for production (meaning it's not really a "prototype" or anything), but there are some changes in the silicon to make it easier for engineers to debug. The SoC stores lots of top secret encryption keys and these keys are phyisically impossible to read on prod chips because the chips are fused at the silicon/chip-level in a certain way to ensure that the keys can't be written/read. If someone gets a hand on these keys and know what they're doing, they may be able to bypass some of the encryption that keeps our devices secure. On dev chips, these keys may be readable to help with debug, so it's important to keep it out of the hands of the wrong people. That was just an example, there may be more stuff like that but I'm not even sure how common the encryption thingy actually is. 
+I was actually pretty surprised and excited about this because at Apple, we were pretty secretive about unreleased products. There's the of course issue of the unreleased product getting leaked, but also I heard that many of these prototypes also have non-production electronics. For example, the non-prod SoC may be 99.9% ready for production (meaning it's not really a "prototype" or anything), but there are some changes in the silicon to make it easier for engineers to debug. The SoC stores lots of top secret encryption keys and these keys are physically impossible to read on prod chips because the chips are fused at the silicon/chip-level in a certain way to ensure that the keys can't be written/read. If someone gets a hand on these keys and know what they're doing, they may be able to bypass some of the encryption that keeps our devices secure. On dev chips, these keys may be readable to help with debug, so it's important to keep it out of the hands of the wrong people. That was just an example, there may be more stuff like that but I'm not even sure how common the encryption thingy actually is. 
 
 ## Projects
 
@@ -242,7 +242,7 @@ At the end of my internship, I also presented my projects to my team and my mana
 
 ## Work Hours
 
-I usually worked from 10AM-7PM with about an hour for lunch. Luckily I'm in the same timezone as my team, so I didn't need to worry about working late/early to make meetings. Actually, my intern presentation to the CVP was at like 8AM. For the first half of my internship, the sensors subteam had our standups at 10AM so that's also when I started working. Later on, an engineer from Taiwan joined us so we moved our standups to 6PM to accomodate. My mentor often worked a bit late and he sometimes had the bandwidth to help me out later in the evenening. 
+I usually worked from 10AM-7PM with about an hour for lunch. Luckily I'm in the same timezone as my team, so I didn't need to worry about working late/early to make meetings. Actually, my intern presentation to the CVP was at like 8AM. For the first half of my internship, the sensors subteam had our standups at 10AM so that's also when I started working. Later on, an engineer from Taiwan joined us so we moved our standups to 6PM to accommodate. My mentor often worked a bit late and he sometimes had the bandwidth to help me out later in the evening. 
 
 # Networking Opportunities
 
@@ -252,7 +252,7 @@ With remote internships, it's much more difficult to get the same social/network
 
 Microsoft has this cool culture around interns so all the FTEs are super helpful to interns. Sometimes that means reaching out to a relevant FTE for technical help, but also reaching out to random FTEs to schedule chats and learn about them, their work, and more about the company. Interns can easily be identified by their special email alias and Teams also shows every employee's position. I thought this was strange at first because my previous internship advertised that interns were treated like FTE, so if someone didn't know that you were an intern, there wasn't an easy way to discover that. 
 
-I was heavily encouraged to reach out to random FTEs and schedule quick chats with them to learn more. I don't remember where I got this from, maybe it was from the Slack/Discord or random videos/articles/blog posts online, but multiple sources highly recommend I take advantage of it. I would pass this encourgement to new interns, especially since this was my favorite FTE networking experience. 
+I was heavily encouraged to reach out to random FTEs and schedule quick chats with them to learn more. I don't remember where I got this from, maybe it was from the Slack/Discord or random videos/articles/blog posts online, but multiple sources highly recommend I take advantage of it. I would pass this encouragement to new interns, especially since this was my favorite FTE networking experience. 
 
 As interns/college students, we know very little and Microsoft has many engineers who have been working for longer than I've been alive, so it's super cool to get new insights from them about random stuff. They can also be a good resource to learn more about the company or area. Additionally, this is a unique way to expand your Microsoft network and find a new team to return to. Once you leave, you no longer have access and FTEs won't be as responsive to randos so these are great opportunities to leverage while still an intern.
 
@@ -262,7 +262,7 @@ Other interns found completely random FTEs to reach out to by literally picking 
 
 ## Microsoft-Organized
 
-Microsoft hosts tons of networking opportunies, some of which are more formal that require some sort of registration, others of which are more casual or pre-assigned. Some of these may also be specific to the Devices org, I don't entirely remember. 
+Microsoft hosts tons of networking opportunities, some of which are more formal that require some sort of registration, others of which are more casual or pre-assigned. Some of these may also be specific to the Devices org, I don't entirely remember. 
 
 ### Coffee Chats
 
@@ -284,17 +284,17 @@ One day, there was this "Meet Devices (?)" event where a few interns would be gr
 
 We also had these "intern diversity panels" where I think about once a month, a set group of maybe ten to twenty interns would have the opportunity to ask questions or voice any concerns or struggles with two FTEs. Again I think this was another chance for us to learn more about MSTF/living in Seattle, but the hosts mentioned that it was also a space where we can destress on more work-related stuff. Out of the ten or twenty interns, we only had like five interns actually attend on the first panel before it dwindled down and eventually I was the last intern standing. 
 
-This set of panels also gave us a like $100 Visa giftcard that we could use to buy food since those panels usually have food when they're in person. For the first panel (which was also on my first day), I thought I read somewhere that we were supposed to order food and bring it (virtually) to the panel. I ended up ordering some pizza and it turns out no one else ordered food. Luckily my pizza came late and I wasn't the only one awkwardly eating during the panel lol. 
+This set of panels also gave us a $100 Visa gift card that we could use to buy food since those panels usually have food when they're in person. For the first panel (which was also on my first day), I thought I read somewhere that we were supposed to order food and bring it (virtually) to the panel. I ended up ordering some pizza and it turns out no one else ordered food. Luckily my pizza came late and I wasn't the only one awkwardly eating during the panel lol. 
 
 There were also these "fireside chats" which I think was organized through co-creation. Interns had the opportunity to have a small chat with some MSTF execs, I think something like three or four interns. Since the intern groups were small, there wasn't that much space and I never got to check this one out :(. 
 
 # Training Videos
 
-A ton of companies have required empoyee training on stuff like diversity and confidentiality. Sometimes these trainings are more involved and have quizzes, videos, and reading articles like online school. For some reason, one of the training videos was like a TV show or movie with SUPER high production quality with good lighting, acting, cameras, etc. They literally opened with "last time on {the training video's series name}" and did a quick recap for previous episodes/seasons (they were on like season four or something for my required training). I think this was the confidentiality training and it was pretty entertaining just like a regular TV show. 
+A ton of companies have required employee training on stuff like diversity and confidentiality. Sometimes these trainings are more involved and have quizzes, videos, and reading articles like online school. For some reason, one of the training videos was like a TV show or movie with SUPER high production quality with good lighting, acting, cameras, etc. They literally opened with "last time on {the training video's series name}" and did a quick recap for previous episodes/seasons (they were on like season four or something for my required training). I think this was the confidentiality training and it was pretty entertaining just like a regular TV show. 
 
 # Returning
 
-Internships are great opportunities to explore different career paths, especially since interns have so much mobility and can intern a few months at a time without any consequences. I've been coding for about nine years when starting my internship and I've always been super passionate about coding and building things, but this internship led me to discover that software engineering isn't where I want to take my career. There's a big difference between writing software on your own and writing software with a team to be used by millions of people and I'm glad this internship gave me that experience. I still love coding (I mean check out my green boxes on GitHub lol) and I don't forsee that passion dying anytime soon. I personally find a career in hardware/electrical engineering much more fulfulling for me at the moment so that's where I'm taking my career. If my passions or circumstances change in the future, I can always switch out of hardware engineering (HWE) into software engineering (SWE), but going from SWE to HWE is unheard of. 
+Internships are great opportunities to explore different career paths, especially since interns have so much mobility and can intern a few months at a time without any consequences. I've been coding for about nine years when starting my internship and I've always been super passionate about coding and building things, but this internship led me to discover that software engineering isn't where I want to take my career. There's a big difference between writing software on your own and writing software with a team to be used by millions of people and I'm glad this internship gave me that experience. I still love coding (I mean check out my green boxes on GitHub lol) and I don't foresee that passion dying anytime soon. I personally find a career in hardware/electrical engineering much more fulfilling for me at the moment so that's where I'm taking my career. If my passions or circumstances change in the future, I can always switch out of hardware engineering (HWE) into software engineering (SWE), but going from SWE to HWE is unheard of. 
 
 I actually kinda had imposter syndrome for like the first time and didn't think my performance was up to par. Maybe this was because of the remote internship experience or I continuously compared myself to my previous internship performance and experience, but I ended up getting a return offer to join under my manager x4's group and had strong feedback from my mentor and manager. I heard that like 80% of interns get a return offer and you have to try really hard to not get a return offer so don't sweat it too much. 
 
@@ -318,12 +318,12 @@ I use a few acronyms and Microsoft nomenclature that I'll try to list out here i
 - Devices: Microsoft's consumer electronics hardware group that includes Surface, Xbox, and Hololens
 - EE - Electrical Engineer
 - E+D - Experience + Devices: Microsoft's group that handles Surface and Devices hardware and Windows OS and other Windows apps and SW
-- FT/FTE - Full-Fime/full-Time Engineer: Full-time employees, not interns
-- Group: A business unit that typically includes many teams. I usually use this interchangably with Org because I don't know the difference lol
-- HW/HWE - Hardware/Hardware Engineer: I usually use this synonomously with EE here
-- Org - Organization: A business unit that typically includes many teams. I usually use this interchangably with Group because I don't know the difference lol
+- FT/FTE - Full-Time/full-Time Engineer: Full-time employees, not interns
+- Group: A business unit that typically includes many teams. I usually use this interchangeably with Org because I don't know the difference lol
+- HW/HWE - Hardware/Hardware Engineer: I usually use this synonymously with EE here
+- Org - Organization: A business unit that typically includes many teams. I usually use this interchangeably with Group because I don't know the difference lol
 - Skip [Manager]: Your manager's manager. Often referred to as just "skip" or "skip manager"
-- Surface: A subgroup of Devices that includes all of the Surface line of consumer electroncis products like the Surface Duo, Surface Book, Surface Laptop, and Surface Headphones
+- Surface: A subgroup of Devices that includes all of the Surface line of consumer electronics products like the Surface Duo, Surface Book, Surface Laptop, and Surface Headphones
 - SWE: Software Engineer
 - [Microsoft] Teams: Microsoft's version of Slack + Zoom, a chat app with video/voice chat
 - XVP - Some Vice President: Senior management position, usually pretty high up the hierarchy because Microsoft is a big company. X = C (corporate), E (executive), S (senior), and probably more
