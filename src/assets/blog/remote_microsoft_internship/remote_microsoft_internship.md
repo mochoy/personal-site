@@ -262,11 +262,11 @@ Other interns found completely random FTEs to reach out to by literally picking 
 
 ## Microsoft-Organized
 
-Microsoft hosts tons of networking opportunies, some of which are more formal that require some sort of registration, others of which are more casual or pre-assigned. 
+Microsoft hosts tons of networking opportunies, some of which are more formal that require some sort of registration, others of which are more casual or pre-assigned. Some of these may also be specific to the Devices org, I don't entirely remember. 
 
 ### Coffee Chats
 
-Additionally, Microsoft hosted a Coffee Chats program (this might've been a co-creation project) where interns and FTEs sign up and get paired up one-on-one based on similar interests. For example, I mentioned that I'm studying EE, so I got paired up with a few SWEs with HW backgrounds. The Coffee Chats were hosted once every two weeks for eight weeks I believe. It's possible the program ran for longer, but I started a bit later so my experience could've been cut short. 
+Additionally, Microsoft hosted a Coffee Chats program (this might've been a co-creation project) where interns and FTEs sign up and get paired up one-on-one based on similar interests. For example, I mentioned that I'm studying EE, so I got paired up with a few SWEs with HW/EE backgrounds. The Coffee Chats were hosted once every two weeks for eight weeks I believe. It's possible the program ran for longer, but I started a bit later so my experience could've been cut short. 
 
 ### Intern Buddy 
 
