@@ -216,7 +216,7 @@ The survey had these casusal multiple-choice buzzfeed-style questions like "how 
 
 There were other opportunities to socialize with other interns, but this one felt more randomized yet more personal because they'd match you up with random interns throughout the company that probably aren't in your social/work group and the type of questions more uniquely captures your personality. 
 
-Dance
+There was also a co-creation project to make a dance music video, so I submitted a video of my headspins. Apparently they didn't get enough participants, so they didn't do the music video, but they would submit our videos to be used in Intern Day. Intern Day rolls around and they play some dance videos during Gryffin's vitual concert but I don't see my headspins so I'm a bit confused. I re-read the email and my dumbass didn't see that I needed to respond to the email to let them use the video smh.
 
 # Work Experience
 
