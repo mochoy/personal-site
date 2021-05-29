@@ -246,7 +246,7 @@ At the end of my internship, I also presented my projects to my team and my mana
 
 # Networking Opportunities
 
-With remote internships, it's much more difficult to get the same social/networking experience with other interns, FTEs, and the team and local lockdowns didn't help the situation. Luckily Microsoft holds a ton of intern/social events to meet other interns and FTEs which I think is amazing. A lot of the more formal FTE pairings were geared towards settling concerns we had about Seattle (since many of us weren't from or have ever been to Seattle) and get us comfortable at Microsoft. Here, I'll focus more on networking opportunities with other FTEs. Also some of these might be Devices/org specific, I don't entirely remember. 
+With remote internships, it's much more difficult to get the same social/networking experience with other interns, FTEs, and the team and local lockdowns didn't help the situation. Luckily Microsoft holds a ton of intern/social events to meet other interns and FTEs which I think is amazing. A lot of the more formal FTE pairings were geared towards settling concerns we had about Seattle (since many of us weren't from or have ever been to Seattle) and get us comfortable at Microsoft. Here, I'll focus more on networking/informational opportunities with other FTEs. Also some of these might be Devices/org specific, I don't entirely remember. There were also a good number of Intern/Co-Creation organized networking events. I didn't attend them all but I'll mention the ones I remember. 
 
 ## Reaching out to Randos
 
