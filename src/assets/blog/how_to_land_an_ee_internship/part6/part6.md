@@ -38,6 +38,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 - How does corporate housing work?
   - apple ex
   - mstf sf ex
+- even if local, id still recommend corporate housing if everyone lives together
 
 ## Relocation
 
