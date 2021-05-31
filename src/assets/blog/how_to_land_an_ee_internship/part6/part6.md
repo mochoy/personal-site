@@ -39,6 +39,7 @@ the total amount of money you're making, including stock, signing/starting bonus
   - apple ex
   - mstf sf ex
 - even if local, id still recommend corporate housing if everyone lives together
+- if stipend, need to search for housing in the city youre working in, which can be a pain
 
 ## Relocation
 
