@@ -293,6 +293,8 @@ There were also these "fireside chats" which I think was organized through co-cr
 Microsoft has an intern-wide group chat on Teams called like "Internz" or something, but ngl it was kinda dead. We had unoffical Discord and Slack channels that had way more activity and I think they're mainly run by 
 
 ### Cole
+
+Cole is like the mega goat at running these unofficial intern communities and I honestly can't thank him enough for hosting all this stuff. He runs the Discord server for MSTF interns and FTEs with like 3000 members. ngl our unoffical Apple Discord/Slack kinda suck compared to the MSTF ones lol. Unrelated but I don't even think this guy knows who I am because I tried adding him on Linkedin, but he just viewed my profile and never accepted my add request lmao :'(. 
 # Training Videos
 
 A ton of companies have required employee training on stuff like diversity and confidentiality. Sometimes these trainings are more involved and have quizzes, videos, and reading articles like online school. For some reason, one of the training videos was like a TV show or movie with SUPER high production quality with good lighting, acting, cameras, etc. They literally opened with "last time on {the training video's series name}" and did a quick recap for previous episodes/seasons (they were on like season four or something for my required training). I think this was the confidentiality training and it was pretty entertaining just like a regular TV show. 
