@@ -312,6 +312,7 @@ Want more insights? Check these out as well!
 - [Microsoft Explore Internship: A Remote Experience Self-Reflection](https://medium.com/@kendallnakai/summer-intern-reflections-ee432dc3c364)
 - [How Was Microsoft's 2020 SWE Internship?](https://www.reddit.com/r/microsoft/comments/jl9429/how_was_microsofts_2020_swe_internship/)
 - [microsoft-internships](https://github.com/CourtneyThurston/microsoft-internships)
+- [Microsoft Interns & FTE **Unofficial** Wiki](https://www.notion.so/Microsoft-Interns-FTE-Unofficial-Wiki-4fb1a0a0473e4e0b8edcdcf92481343c)
 
 # Glossary
 
