@@ -351,4 +351,4 @@ I use a few acronyms and Microsoft nomenclature that I'll try to list out here i
 - Surface: A subgroup of Devices that includes all of the Surface line of consumer electronics products like the Surface Duo, Surface Book, Surface Laptop, and Surface Headphones
 - SWE: Software Engineer
 - [Microsoft] Teams: Microsoft's version of Slack + Zoom, a chat app with video/voice chat
-- XVP - Some Vice President: Senior management position, usually pretty high up the hierarchy because Microsoft is a big company. X = C (corporate), E (executive), S (senior), and probably more
+- XVP - Some Vice President: Senior management position, usually pretty high up the hierarchy because Microsoft is a big company. X = C (corporate), E (executive), S (senior), and probably more- **FW**: Firmware
