@@ -299,6 +299,8 @@ Cole is like the mega goat at running these unofficial intern communities and I 
 In addition to the Discord/Slack servers, he also collected and compiled return offer data for the 2020 interns. I think he's a data scientist, so he knows how to do this data stuff. Salary transparency is very important and the return offer data is super helpful to understand how much we should expect from a return offer given our location, discipline, education, etc and it's a great resource to help with negotiation and make sure we don't get lowballed. 
 
 Speaking of negotiation, he also hosted a talk with a few hundred interns about negotiation and again this is super helpful. As interns, we don't have much experience negotiating so having someone outline everything is awesome. 
+
+He also hosted a few more talks about personal finance and home buying which again is super helpful. It's especially great because he caters his talks to his audience and there probably aren't too many personal finance resources out there for 22-year-olds making like 180k right out of schoool. 
 # Training Videos
 
 A ton of companies have required employee training on stuff like diversity and confidentiality. Sometimes these trainings are more involved and have quizzes, videos, and reading articles like online school. For some reason, one of the training videos was like a TV show or movie with SUPER high production quality with good lighting, acting, cameras, etc. They literally opened with "last time on {the training video's series name}" and did a quick recap for previous episodes/seasons (they were on like season four or something for my required training). I think this was the confidentiality training and it was pretty entertaining just like a regular TV show. 
