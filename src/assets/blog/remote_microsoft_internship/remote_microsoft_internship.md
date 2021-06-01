@@ -326,6 +326,11 @@ If I do return to Microsoft, it would be somewhere in their hardware groups like
 
 # Tips for Incoming Interns
 
+I might have a few suggestions for interns throughout this post, but here they are all in one place. 
+
+1. Reach out to 
+2. If you want to return, make the connections during your internship
+
 # Final Thoughts
 
 Whether I'm returning or not, I'm still super grateful for the awesome internship experience over the past summer. I worked on a great team on a super cool product and I learned a ton. My mentor, manager, and teammates were super helpful throughout my entire internship and I really enjoyed working with them. I had a ton of fun with my intern cohort and other interns and I really appreciate all the effort my cohort leaders put in so we could have an awesome summer at Microsoft. Microsoft is an amazing company with a great culture and awesome engineers nd I'd definitely want to return to Microsoft sometime in the future (if they stop rejecting me). 
