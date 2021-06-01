@@ -288,6 +288,9 @@ This set of panels also gave us a $100 Visa gift card that we could use to buy f
 
 There were also these "fireside chats" which I think was organized through co-creation. Interns had the opportunity to have a small chat with some MSTF execs, I think something like three or four interns. Since the intern groups were small, there wasn't that much space and I never got to check this one out :(. 
 
+## Unofficial Intern Community
+
+Microsoft has an intern-wide group chat on Teams called like "Internz" or something, but ngl it was kinda dead. We had unoffical Discord and Slack channels that had way more activity and I think they're mainly run by 
 # Training Videos
 
 A ton of companies have required employee training on stuff like diversity and confidentiality. Sometimes these trainings are more involved and have quizzes, videos, and reading articles like online school. For some reason, one of the training videos was like a TV show or movie with SUPER high production quality with good lighting, acting, cameras, etc. They literally opened with "last time on {the training video's series name}" and did a quick recap for previous episodes/seasons (they were on like season four or something for my required training). I think this was the confidentiality training and it was pretty entertaining just like a regular TV show. 
