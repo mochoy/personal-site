@@ -308,6 +308,10 @@ I'm still in the Discord and Slack channels as a corporate spy and they're still
 
 Cole has done a ton of great work to build the Microsoft intern community and he's sorta inspired me to try and do the same for the Apple interns this summer too. We first tried compiling intern salary data but we only got like 30 data points lol(compared to the 500+ Cole collected). We're also trying to do weekly in-person events (albeit not as organized) and so far they've been a blast. 
 
+There are a few Apple interns in Seattle where most of the Microsoft interns are. Similarly, there are a few Microsoft interns in the Bay Area where most of the Apple interns are, so we shall seek a compromise. 
+
+![intern_trade](images/intern_trade.jpg)
+
 # Training Videos
 
 A ton of companies have required employee training on stuff like diversity and confidentiality. Sometimes these trainings are more involved and have quizzes, videos, and reading articles like online school. For some reason, one of the training videos was like a TV show or movie with SUPER high production quality with good lighting, acting, cameras, etc. They literally opened with "last time on {the training video's series name}" and did a quick recap for previous episodes/seasons (they were on like season four or something for my required training). I think this was the confidentiality training and it was pretty entertaining just like a regular TV show. 
