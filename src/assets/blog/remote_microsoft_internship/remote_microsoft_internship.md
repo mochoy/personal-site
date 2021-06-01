@@ -339,16 +339,17 @@ Want more insights? Check these out as well!
 
 I use a few acronyms and Microsoft nomenclature that I'll try to list out here in alphabetical order. 
 
-- BA - Business Admin: A FT employee that handles a lot of the business stuff like organizing equipment
-- Devices: Microsoft's consumer electronics hardware group that includes Surface, Xbox, and Hololens
-- EE - Electrical Engineer
-- E+D - Experience + Devices: Microsoft's group that handles Surface and Devices hardware and Windows OS and other Windows apps and SW
-- FT/FTE - Full-Time/full-Time Engineer: Full-time employees, not interns
-- Group: A business unit that typically includes many teams. I usually use this interchangeably with Org because I don't know the difference lol
-- HW/HWE - Hardware/Hardware Engineer: I usually use this synonymously with EE here
-- Org - Organization: A business unit that typically includes many teams. I usually use this interchangeably with Group because I don't know the difference lol
-- Skip [Manager]: Your manager's manager. Often referred to as just "skip" or "skip manager"
-- Surface: A subgroup of Devices that includes all of the Surface line of consumer electronics products like the Surface Duo, Surface Book, Surface Laptop, and Surface Headphones
-- SWE: Software Engineer
-- [Microsoft] Teams: Microsoft's version of Slack + Zoom, a chat app with video/voice chat
-- XVP - Some Vice President: Senior management position, usually pretty high up the hierarchy because Microsoft is a big company. X = C (corporate), E (executive), S (senior), and probably more- **FW**: Firmware
+- **BA** - Business Admin: A FT employee that handles a lot of the business stuff like organizing equipment
+- **Devices**: Microsoft's consumer electronics hardware group that includes Surface, Xbox, and Hololens
+- **EE**: Electrical Engineer
+- **E+D** - Experience + Devices: Microsoft's group that handles Surface and Devices hardware and Windows OS and other Windows apps and SW
+- **FW**: Firmware
+- **FT/FTE** - Full-Time/full-Time Engineer: Full-time employees, not interns
+- **Group**: A business unit that typically includes many teams. I usually use this interchangeably with Org because I don't know the difference lol
+- **HW/HWE** - Hardware/Hardware Engineer: I usually use this synonymously with EE here
+- **Org** - Organization: A business unit that typically includes many teams. I usually use this interchangeably with Group because I don't know the difference lol
+- **Skip [Manager]**: Your manager's manager. Often referred to as just "skip" or "skip manager"
+- **Surface**: A subgroup of Devices that includes all of the Surface line of consumer electronics products like the Surface Duo, Surface Book, Surface Laptop, and Surface Headphones
+- **SWE**: Software Engineer
+- **[Microsoft] Teams**: Microsoft's version of Slack + Zoom, a chat app with video/voice chat
+- **XVP** - Some Vice President: Senior management position, usually pretty high up the hierarchy because Microsoft is a big company. X = C (corporate), E (executive), S (senior), and probably more
