@@ -305,6 +305,9 @@ He also hosted a few more talks about personal finance and home buying which aga
 Cole and the Discord server also run the [unofficial Wiki/Notion page](https://www.notion.so/Microsoft-Interns-FTE-Unofficial-Wiki-4fb1a0a0473e4e0b8edcdcf92481343c) which has tons of amazing resources on MSTF as both an intern and FTE. I think everything I talked about in this Cole section should be in the Wiki. 
 
 I'm still in the Discord and Slack channels as a corporate spy and they're still hosting a ton of awesome stuff. Now with the vaccines rolling out, Cole and a few other interns are organizing dope in-person events like camping, cook offs, laser tag, and skydiving every week for the interns in Seattle. The intern social experience is one of the funnest parts about being an intern and I'm super glad to see Cole bringing that experience despite the internship program being remote.
+
+Cole has done a ton of great work to build the Microsoft intern community and he's sorta inspired me to try and do the same for the Apple interns this summer too. We first tried compiling intern salary data but we only got like 30 data points lol(compared to the 500+ Cole collected). We're also trying to do weekly in-person events (albeit not as organized) and so far they've been a blast. 
+
 # Training Videos
 
 A ton of companies have required employee training on stuff like diversity and confidentiality. Sometimes these trainings are more involved and have quizzes, videos, and reading articles like online school. For some reason, one of the training videos was like a TV show or movie with SUPER high production quality with good lighting, acting, cameras, etc. They literally opened with "last time on {the training video's series name}" and did a quick recap for previous episodes/seasons (they were on like season four or something for my required training). I think this was the confidentiality training and it was pretty entertaining just like a regular TV show. 
