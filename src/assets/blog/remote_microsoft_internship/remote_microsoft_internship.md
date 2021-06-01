@@ -1,6 +1,6 @@
-Over this past summer, I was a software engineering intern at Microsoft on the Surface Duo (their new folding phone!) firmware team. I was working remote from home in San Francisco, but my team was nearby in Sunnyvale, CA. I'll go over my remote intern experience, including the fun stuff and the work stuff. There aren't that many posts like these out there for the remote experience and I think they're super valuable when evaluating internship offers and getting way too hyped for the summer. It looks like Summer 2021 will also be remote too, so here's a baseline of what to expect for a remote internship experience at Microsoft! Of course your results may vary. 
+Over this past summer, I interned at Microsoft on the Surface Duo (their new folding phone!) firmware (FW) team. I was working remote from home in San Francisco, but my team was nearby in Sunnyvale, CA. I'll go over my remote intern experience, including the fun stuff and the work stuff. There aren't that many posts like these out there for the remote experience and I think they're super valuable when evaluating internship offers and getting way too hyped for the summer. It looks like Summer 2021 will also be remote too, so here's a baseline of what to expect for a remote internship experience at Microsoft! Of course your results may vary. 
 
-For reference, my team is the Surface Duo firmware team, which is under Surface, which itself is under Devices, which again is under Experiences + Devices (E+D). in I've also included a glossary of acronyms and common Microsoft terminology. 
+For reference, my team is the Surface Duo firmware (FW) team, which is under Surface, which itself is under Devices, which again is under Experiences + Devices (E+D). in I've also included a glossary of acronyms and common Microsoft terminology. 
 
 # Interviews
 Now the interviews weren't really part of the internship experience, but my interview process was a bit different and sort of rolled over into my internship experience a bit. 
@@ -129,7 +129,7 @@ Like the intern gift box, I think an external service handled these gifts as wel
 
 ## Org/Team-Specific 
 
-Some orgs and teams also offered their own swag in addition to the intern-wide swag. I was on the Surface Duo firmware team which is under Surface, which is under Experience + Devices (E+D). I think E+D is the org, so I'm not sure what to call the Surface "org", which is in E+D, maybe it's the division?? I think Experience is the Windows side of things and of course Devices is Microsoft's hardware lineup including the Surface products, but not Xbox since I think that's in its own org. 
+Some orgs and teams also offered their own swag in addition to the intern-wide swag. I was on the Surface Duo FW team which is under Surface, which is under Experience + Devices (E+D). I think E+D is the org, so I'm not sure what to call the Surface "org", which is in E+D, maybe it's the division?? I think Experience is the Windows side of things and of course Devices is Microsoft's hardware lineup including the Surface products, but not Xbox since I think that's in its own org. 
 
 ### Experience + Devices
 
