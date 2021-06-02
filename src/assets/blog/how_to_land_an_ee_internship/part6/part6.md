@@ -41,6 +41,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 - even if local, id still recommend corporate housing if everyone lives together
 - if stipend, need to search for housing in the city youre working in, which can be a pain
 - how much stipend?
+  - offer examples
 
 ## Relocation
 
