@@ -42,6 +42,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 - if stipend, need to search for housing in the city youre working in, which can be a pain
 - how much stipend?
   - offer examples
+- watch out for scams
 
 ## Relocation
 
