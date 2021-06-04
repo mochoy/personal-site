@@ -43,6 +43,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 - how much stipend?
   - offer examples
 - watch out for scams
+- join intern groups to find roommates/rooms
 
 ## Relocation
 
