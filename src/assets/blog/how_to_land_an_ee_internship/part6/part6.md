@@ -51,6 +51,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 
 ## Benefits and Perks
 
+## Tax
 
 # Competing Offers
 
