@@ -49,6 +49,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 ## Relocation
 
 ## Transportation
+- bikes
 
 ## Benefits and Perks
 
