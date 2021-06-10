@@ -50,6 +50,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 
 ## Transportation
 - bikes
+- transpo stipend
 
 ## Benefits and Perks
 
