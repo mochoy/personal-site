@@ -119,6 +119,7 @@ There are a few "flavors" of networking, there's the "my dad is a director" type
 
 ## Recruiter Contacts through Interviewing/Applying
 - Get offer one year but decline, next year can reach back out and maybe have better leverage because you've proven yourself, save time/effort for the recruiter
+- Apple example
 
 # What's Next
 
