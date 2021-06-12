@@ -16,18 +16,18 @@ import howToLandAnEEInternshipPart7 from './how_to_land_an_ee_internship/part7';
 // Array of all posts before fetching and parsing the markdown file
 const posts = [
   howToLandAnEEInternshipPart1,
+  // howToLandAnEEInternshipPart2,
   first_post,
-  remote_microsoft_internship,
-  howToLandAnEEInternshipPart2,
-  howToLandAnEEInternshipPart3,
-  howToLandAnEEInternshipPart4,
-  howToLandAnEEInternshipPart5,
-  howToLandAnEEInternshipPart6,
-  howToLandAnEEInternshipPart7,
-  summer_2021_internship_search,
-  epic_buck_converter_intro,
-  how_i_made_this_blog,
-  track_jobs_4_me_review
+  remote_microsoft_internship
+  // howToLandAnEEInternshipPart3,
+  // howToLandAnEEInternshipPart4,
+  // howToLandAnEEInternshipPart5,
+  // howToLandAnEEInternshipPart6,
+  // howToLandAnEEInternshipPart7,
+  // summer_2021_internship_search,
+  // epic_buck_converter_intro,
+  // how_i_made_this_blog,
+  // track_jobs_4_me_review
 ];
 
 
