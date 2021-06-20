@@ -13,8 +13,8 @@ const projects = [
     title: "Music Generator",
     date: "February 2021",
     event: "Cal Poly EE368 - Signals and Systems Lab",
-    img: "aprsis_parser.png",
-    description: "Reconstructed song with time-varying frequency content by calculating signal frequencies, harmonics, envelope, and Fourier components.",
+    img: "music_generator.png",
+    description: "Reconstructed song with time-varying frequency content by calculating discrete-time signal frequencies, harmonics, envelope, and Fourier components.",
     isFeatured: false,
     links: {},
     categories: ["Software"]
