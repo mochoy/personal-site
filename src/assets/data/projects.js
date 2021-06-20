@@ -36,7 +36,7 @@ const projects = [
   //   title: "LTspice Buck Converter",
   //   date: "August 2020 - Present",
   //   img: "flywheel_setup_picker.png",
-  //   description: "LTspice simulation of buck converter. Similations first, then do a board.",
+  //   description: "LTspice simulation of buck converter. Simulations first, then do a board.",
   //   isFeatured: false,
   //   hideForProd: true,
   //   links: {},
@@ -71,7 +71,7 @@ const projects = [
     event: "Slo Hacks 2020",
     prize: "1st Place Google Cloud Platform",
     img: "telementary_box.jpg",
-    description: "Personal security locker to prevent package theft with live-streaming facial detection and gps. I devloped and deployed the front-end web client and GCP cloud functions.",
+    description: "Personal security locker to prevent package theft with live-streaming facial detection and gps. I developed and deployed the front-end web client and GCP cloud functions.",
     isFeatured: true,
     featuredPriority: 1,  // higher num = lower priority
     builtWith: ["React", "Google Cloud Platform", "Machine Learning"],
@@ -356,7 +356,7 @@ const projects = [
     event: "init() by SLO Hacks",
     prize: "Honorable Mention",
     img: "dorm_doorman.jpg",
-    description: "Uses machine learning and computer vision to unlock a door based upon facial recogition. Also includes Nerf blaster to engage unwanted intruders.",
+    description: "Uses machine learning and computer vision to unlock a door based upon facial recognition. Also includes Nerf blaster to engage unwanted intruders.",
     links: {
       open: "https://devpost.com/software/dorm-doorman",
       files: "https://github.com/JoshGrace/SLOhacks-init"
@@ -384,7 +384,7 @@ const projects = [
     title: "Nerf Super Soaker Turret",
     date: "Summer 2018",
     img: "nerf_super_soaker_turret.jpg",
-    description: "Remote-controlled motorized Nerf Super Soaker Thundershock watergun turret. Controlled with a Raspberry Pi with with an onboard camera and microphone allowing for realtime audio and video streaming of water blasting.",
+    description: "Remote-controlled motorized Nerf Super Soaker Thundershock water gun turret. Controlled with a Raspberry Pi with with an onboard camera and microphone allowing for realtime audio and video streaming of water blasting.",
     links: {},
     categories: ["Hardware", "Nerf"],
     filterCategories: [
@@ -490,7 +490,7 @@ const projects = [
     date: "January - February 2018",
     event: "Suild Product",
     img: "mosfet_board_kit.jpg",
-    description: "MOSFET board kits for modified Nerf blasters with protection from trasient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation. Released as a product shipped and sold internationally.",
+    description: "MOSFET board kits for modified Nerf blasters with protection from transient inductive spiking, dV/dt, and ESD failure modes. Also logic-level compatible with necessary components to mitigate parasitic oscillation. Released as a product shipped and sold internationally.",
     links: {
       open: "https://suild.com/shop/0"
     },
@@ -524,7 +524,7 @@ const projects = [
     title: "Cardboard Chrony",
     date: "August 2017",
     img: "arduino_chronograph.jpg",
-    description: "Arduino-powered blastics chronograph able to track and calculate muzzle velocity of Nerf blasters, airsoft guns, paintball guns, and more. Built with an Arduino Nano, side-looking IR emitters and receivers, I2C monochrome OLED display, PVC, and a cardboard box.",
+    description: "Arduino-powered ballistics chronograph able to track and calculate muzzle velocity of Nerf blasters, airsoft guns, paintball guns, and more. Built with an Arduino Nano, side-looking IR emitters and receivers, I2C monochrome OLED display, PVC, and a cardboard box.",
     links: {
       files: "https://github.com/mochoy/arduino-chronograph"
     },
@@ -587,7 +587,7 @@ const projects = [
     date: "Summer 2017",
     event: "Made for Let's Robot",
     img: "awesome_nerf_turret.jpg",
-    description: "Remote-controlled Nerf Hyperfire turret powered by Let's Robot's realtime platform that allows for real-time streaming and control of the turret through letsrobot.tv",
+    description: "Remote-controlled Nerf Hyperfire turret powered by Let's Robot's real time platform that allows for real-time streaming and control of the turret through letsrobot.tv",
     links: {
       files: "https://github.com/mochoy/runmyrobot"
     },
@@ -612,7 +612,7 @@ const projects = [
     title: "Vyper T-28",
     date: "August 2014 - August 2017",
     img: "vyper_t28.jpg",
-    description: "Integration of three Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
+    description: "Integration of three Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltmeter.",
     links: {
       files: "https://github.com/mochoy/vyper_t-28"
     },
@@ -641,7 +641,7 @@ const projects = [
     date: "July 2017",
     event: "Rapid.io Hackathon",
     img: "nerf_time.jpg",
-    description: "Nerf turret controlled remotely using web app with live video steaming using a mobile device.",
+    description: "Nerf turret controlled remotely using web app with live video streaming using a mobile device.",
     links: {
       files: "https://github.com/MiLeung/NerfTime"
     },
@@ -675,7 +675,7 @@ const projects = [
     title: "Smart Strayven",
     date: "August 2013 - Present",
     img: "smart_strayven.jpg",
-    description: "Integration of two Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltemeter.",
+    description: "Integration of two Nerf blasters with a built-in Arduino-powered ammo counter, chronograph, and voltmeter.",
     links: {
       files: "https://github.com/mochoy/smart-strayven"
     },
@@ -774,7 +774,7 @@ const projects = [
       "calaveras_county_cabin/side.jpg",
       "calaveras_county_cabin/drawings.png",
     ],
-    description: "A small year-round vacation cabin used for fun and relaxation away from the hustle and bustle of the busy and congested metropolitan area. This cabin is a comfortable, well-designed retreat, with an approximate area of 1600 square-feet. This is a flexible and sustainable space, taking advantage of 'green' technology, energy savings, innovative and minimal materials, and attention to space and light. Intgration with the beautiful outdoors are also central to the design.",
+    description: "A small year-round vacation cabin used for fun and relaxation away from the hustle and bustle of the busy and congested metropolitan area. This cabin is a comfortable, well-designed retreat, with an approximate area of 1600 square-feet. This is a flexible and sustainable space, taking advantage of 'green' technology, energy savings, innovative and minimal materials, and attention to space and light. Integration with the beautiful outdoors are also central to the design.",
     links: {},
     categories: ["Architecture"]
   },
@@ -782,7 +782,7 @@ const projects = [
     title: "King of Nepal Noodle",
     date: "Summer 2016",
     img: "king_of_nepal_noodle.png",
-    description: "In Andoid game code named 'King of Nepal Noodle', evolve through the ages to defend against the enemies from stealing your treasure by controlling your primary tower, building and upgrading more towers, and setting traps in this tower defense gamed played in the portrait orientation.",
+    description: "In Android game code named 'King of Nepal Noodle', evolve through the ages to defend against the enemies from stealing your treasure by controlling your primary tower, building and upgrading more towers, and setting traps in this tower defense gamed played in the portrait orientation.",
     links: {
       open: "https://devpost.com/software/telementary-box",
       files: "https://github.com/mochoy/king-of-nepal-noodle"
@@ -852,7 +852,7 @@ const projects = [
     date: "November 2014",
     event: "CodeDay 2014",
     img: "fps.jpg",
-    description: "First-person survival shooter with tons of guns and zombies powered by Unity. Survive through endless wavies of zombies.",
+    description: "First-person survival shooter with tons of guns and zombies powered by Unity. Survive through endless waves of zombies.",
     categories: ["Software"],
     filterCategories: [
       [
