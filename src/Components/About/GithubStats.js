@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import GitHubCalendar from 'react-github-calendar';
+// import GitHubCalendar from 'react-github-calendar';
 
 import { ReactGACtx } from '../App';
 
@@ -10,7 +10,6 @@ const GithubStats = props => {
   return (
     <div id="GithubStats">
 
-      {/* Green boxes */}
       <div className="horizontally-center">
         <h2 className="text-center"
           style={{ marginBottom: "0em" }}
@@ -23,9 +22,12 @@ const GithubStats = props => {
           (the most important info)
         </p>
 
+        {/* Green boxes */}
+        {/*
         <div className="flex-container-horizontally-center">
           <GitHubCalendar username="mochoy"/>
         </div>
+        */}
 
         {/* Stats */}
         <div className="flex-container-horizontally-center"
