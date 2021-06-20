@@ -3,22 +3,25 @@ Do a quick Google search for ["how to get a software engineering internship"](ht
 I have *tons* of stuff to write about, so I'm splitting this up into a few posts. I didn't originally intend for that, but at the time of writing this paragraph and making the decision to split this post up, this post has already amassed nearly 20,000 words/40 pages/~80 minute read and I'm not even halfway done yet. Long webpages are just annoying to deal with as a user and can compromise performance at the same time. I'm anticipating for this post to be around 50,000 words/100 pages, but I'm not sure how much that means considering that I initially projected this post to be less than 10,000 words. Here are the different sections with links to each one as they go live: 
 
 1. The Internship Mindset (this one!): Why do you even need an internship? It's so intimidating!
-2. [Pre-Application](/blog/how_to_land_an_electrical_engineering_internship_part_2_pre-application): There are so many things to do before even sending out your first application
+2. Pre-Application: There are so many things to do before even sending out your first application
 3. Your Application: What your application needs and how can you stand out
 4. Applying: How to spam applications
-5. Interviews: Cracking the EE interview!
-6. The Offer!: Receiving an offer may not be the end yet
-7. Closing: Final and misc. thoughts
+5. That awkward time between applications and interviews: Scheduling interviews, dealing with recruiters, coordinating timelines, it's all here!
+6. Interviews: Cracking the EE interview!
+7. The Offer!: Receiving an offer may not be the end yet
+8. Closing: Final and misc. thoughts
 
 # Disclaimers
 
-By existing, you agree to donate 90% of your lifetime earnings to me for all eternity throughout the universe until the end of time. Just kidding, but there are a few nuances that I want to address because EE is a very broad field and everyone's situation will be different. Be sure to keep these in mind when reading this guide.
+By existing, you agree to donate 90% of your lifetime earnings to me for all eternity throughout the universe until the end of time. Just kidding LOL but there are a few nuances that I want to address because EE is a very broad field and everyone's situation will be different. Be sure to keep these in mind when reading this guide.
 
 ## My Experience
 
-First of all, this post will be based off of my experience, so there's going to be tons of inherit biases there. Most of my experience is at big tech companies, but I've also interviewed and landed offers at semiconductor, defense/aerospace/space, self-driving/automotive, networking, and robotics companies, so if you're also shooting for those, well you're in luck. If not, be sure to keep that in the back of your mind when reading this. For example, when I go over projects and you're looking to get into the power industry, that might not be as applicable to you. I'll do my best to point out areas where I lack experience and information so you know when and where to do more research. 
+First of all, this post will be based off of my experience, so there's going to be tons of inherit biases there. The internship process may differ between industry, company, country/location, etc. but my internship search experience is pretty broad and I'll be able to capture and document quite a bit. 
 
-Additionally, I'm based in the US and I'm working on my undergrad in California near Silicon Valley. International students may have a different process for internships in their country and there are many more hoops to jump through to land an internship in the US. Grad students may also have a different experience, especially if you're more specialized and/or applying for lab- or research-based positions.
+Most of my experience is at big tech companies and I've also interviewed and landed offers at semiconductor, defense/aerospace/space, self-driving/automotive, networking, and robotics companies, all in the US, so if you're also shooting for those, well you're in luck. If not, be sure to keep that in the back of your mind when reading this. For example, when I go over projects and you're looking to get into the power/energy industry, that might not be as applicable to you. I'll do my best to point out areas where I lack experience and information so you know when and where to do more research. 
+
+Additionally, I'm based in the US and I'm working on my undergrad in California near Silicon Valley (SV). International students may have a different process for internships in their country and there are many more hoops to jump through to land an internship in the US. Grad students may also have a different experience, especially if you're more specialized and/or applying for lab- or research-based positions.  
 
 That being said, most of this advice will be highly applicable to you, no matter what industry you're going into, but obviously some more than others. Some of my advice around resume-writing and interviews for example extend beyond EE. Just like everything you read on the internet, take this with a grain of salt and remain thoughtful of what you want to implement and what you want to ignore.
 
@@ -44,8 +47,6 @@ That being said, the inverse is also the case, this guide also has tons of infor
 - Every SWE and their mother has been coding since the womb, coding is much easier to pick up on your own that EE.
 - There are way more SWE opportunities out there and way more CS students applying to them.
 - There aren't too many EE career communities and resources out there.
-
-## Uncounsious Nuances
 
 Anyways enough of the fine print let's get going to the real stuff!
 
@@ -299,9 +300,10 @@ Companies aren't spending tons of money for nothing, they themselves also realiz
 This is a multi-part post, here are the other parts:
 
 1. The Internship Mindset (this one!): Why do you even need an internship? It's so intimidating!
-2. [Pre-Application](/blog/how_to_land_an_electrical_engineering_internship_part_2_pre-application): There are so many things to do before even sending out your first application
+2. Pre-Application: There are so many things to do before even sending out your first application
 3. Your Application: What your application needs and how can you stand out
 4. Applying: How to spam applications
-5. Interviews: Cracking the EE interview!
-6. The Offer!: Receiving an offer may not be the end yet
-7. Closing: Final and misc. thoughts
+5. That awkward time between applications and interviews: Scheduling interviews, dealing with recruiters, coordinating timelines, it's all here!
+6. Interviews: Cracking the EE interview!
+7. The Offer!: Receiving an offer may not be the end yet
+8. Closing: Final and misc. thoughts

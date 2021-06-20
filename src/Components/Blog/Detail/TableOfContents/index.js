@@ -6,6 +6,7 @@ import scrollToElement from 'scroll-to-element';
 
 import { scrollToOffset } from '../../../../consts';
 import { ReactGACtx } from '../../../App';
+import useWindowSize from '../../../../hooks/useWindowSize';
 
 
 import './index.scss';
@@ -23,13 +24,35 @@ const TableOfContents = props => {
     headingHierarchy: 1   // 'hierarchy' depth, how much to indent in TOC
   }, ...tableOfContents];
 
+
   // Array of all ids of toc items in order of appearance, corresponds to id's  
   // of header items
   let tocItemsId = tocItems.map(tocItem => tocItem.url.replace("#", ""));
 
+
+  // Use window height to set height of ToC container
+  const { height } = useWindowSize();
+
+  // Height of toc container based on number of toc items:
+  //  - 112: offset from top of the page (7em defined in css)
+  //  - tocItems.length + 1: num of toc items, including manually added intro 
+  //      item
+  //  - 24: each toc item is 24px high
+  const heightBasedOnNumOfTOCItems = 112 + ((tocItems.length + 1) * 24);
+
   return (
     <Drawer variant="permanent" open={true} anchor="right">
-      <div id="TableOfContents">
+      <div id="TableOfContents"
+        style={{
+          // At minimum, the toc container should fill up the entire screen in 
+          // vertical direction
+          // If there aren't enough toc items to do this, manually set height to 
+          // 100%
+          height: heightBasedOnNumOfTOCItems < height 
+            ? "100%" 
+            : heightBasedOnNumOfTOCItems + "px"
+        }}
+      >
 
         <div id="links-container">
           <Scrollspy items={tocItemsId}

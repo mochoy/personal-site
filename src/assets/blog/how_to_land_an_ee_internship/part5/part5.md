@@ -4,7 +4,17 @@
 - Interview examples
 - Interviews can be highly team dependant
 - Keep recruiters in the loop for other companies
+- Interview after accpeting an offer: https://www.teamblind.com/post/Amazon-Has-Destroyed-Its-Reputation-xappoaC1
 - Can get blacklisted?
+- https://www.emilykager.com/writing/2021/02/12/interviewing.html
+- Many interview questions are similar between NG and intern, so if you've interviewed a lot as an intern, a ton of that stuff will come back when FT
+- What to do if don't know something during interview?
+  - Tell you dont know something but try to think through it and interviewer will help you
+  - Likely repeated question, so thinking through it gives good understanding for the future
+  - I get strong feedback when doing this
+  - Dont need to know everything
+- Cool off period
+
 # Prep
 
 # Hiring Mangers vs Recruiters
@@ -35,3 +45,20 @@ General questions I usually ask them:
 - How many interns and people on the team? Get idea of intern ratio, want good support
 
 # Take Notes!
+
+# Feedback
+
+# Rejection
+
+- DOn't get too hurt
+- First ones hurt he most
+- Take it as improvements
+- Get feedback
+- Keep moving forward
+- They want the best person, next yr will be better
+
+# Improve Yourself After Interview
+
+- Talk to friends/upperclassmen/profs about interview questions
+- Write down actual dos/donts 
+- Understand what and why you did wrong, even if successful

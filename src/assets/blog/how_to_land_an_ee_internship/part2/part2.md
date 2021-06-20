@@ -96,15 +96,30 @@ Start attending networking/career events as early as possible. I'll go over more
 
 We all hear about how important networking is because it is! I want to put networking earlier in this pre-app section because it ideally precedes a lot of applications and is pretty continuous, you do it all year round, even after landing your internship or even during the actual internship. I'll also throw in more specific networking advice in their dedication sections as they come up. I'm also awkard af and I wouldn't call myself "good" at networking or anything so my networking insights will be more limited compared to everything else. 
 
+There are a few "flavors" of networking, there's the "my dad is a director" type of "networking" that's just straight up unethical nepotism, and there's legit networking. I usually don't like to gatekeep, but I think we can all agree that "my dad is a director" isn't legit networking. Unfortunately, my dad isn't a director so I can't provide any insights about that type of "networking", but I first want explore a few networking anecdotal situations that may better illustrate things we can do at the university level and to help ground the idea of networking to help you realize it's not as difficult as you may think it is. Networking can be intimidating for a lot of people espeicially while we're college-aged, but like everything else in life, practice makes perfect. 
+
+
 ## How do I do it? 
+
+
+- networking helps to get foot in the door, but you usually can't be an idiot 
 
 - that werid guy
 - Networking events
 - Career fair and stuff will be talked about later
+- Nepotism
 
 ## The Power of Networking
 
 ## Reaching out to ppl
+
+## You Friends
+
+## Referrals
+
+## Recruiter Contacts through Interviewing/Applying
+- Get offer one year but decline, next year can reach back out and maybe have better leverage because you've proven yourself, save time/effort for the recruiter
+- Apple example
 
 # What's Next
 
