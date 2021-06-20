@@ -11,13 +11,13 @@ import howToLandAnEEInternshipPart1 from './how_to_land_an_ee_internship/part1-i
 // import howToLandAnEEInternshipPart4 from './how_to_land_an_ee_internship/part4-applying';
 // import howToLandAnEEInternshipPart5 from './how_to_land_an_ee_internship/part5';
 // import howToLandAnEEInternshipPart6 from './how_to_land_an_ee_internship/part6';
-// import howToLandAnEEInternshipPart7 from './how_to_land_an_ee_internship/part7';
+import howToLandAnEEInternshipPart8 from './how_to_land_an_ee_internship/part8-closing';
 
 // Array of all posts before fetching and parsing the markdown file
 const posts = [
   remote_microsoft_internship,
   howToLandAnEEInternshipPart1,
-  // howToLandAnEEInternshipPart4,
+  howToLandAnEEInternshipPart8,
   first_post
   
   // howToLandAnEEInternshipPart3,
