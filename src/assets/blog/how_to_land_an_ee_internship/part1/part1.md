@@ -6,9 +6,10 @@ I have *tons* of stuff to write about, so I'm splitting this up into a few posts
 2. Pre-Application: There are so many things to do before even sending out your first application
 3. Your Application: What your application needs and how can you stand out
 4. Applying: How to spam applications
-5. Interviews: Cracking the EE interview!
-6. The Offer!: Receiving an offer may not be the end yet
-7. Closing: Final and misc. thoughts
+5. That awkward time between applications and interviews: Scheduling interviews, dealing with recruiters, coordinating timelines, it's all here!
+6. Interviews: Cracking the EE interview!
+7. The Offer!: Receiving an offer may not be the end yet
+8. Closing: Final and misc. thoughts
 
 # Disclaimers
 
@@ -302,6 +303,7 @@ This is a multi-part post, here are the other parts:
 2. Pre-Application: There are so many things to do before even sending out your first application
 3. Your Application: What your application needs and how can you stand out
 4. Applying: How to spam applications
-5. Interviews: Cracking the EE interview!
-6. The Offer!: Receiving an offer may not be the end yet
-7. Closing: Final and misc. thoughts
+5. That awkward time between applications and interviews: Scheduling interviews, dealing with recruiters, coordinating timelines, it's all here!
+6. Interviews: Cracking the EE interview!
+7. The Offer!: Receiving an offer may not be the end yet
+8. Closing: Final and misc. thoughts
