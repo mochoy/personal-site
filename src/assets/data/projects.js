@@ -3,7 +3,7 @@ const projects = [
     title: "APRS-IS Parser",
     date: "April 2021 - June 2021",
     event: "Cal Poly EE271 - Intro to C Programming",
-    img: "blog.png",
+    img: "aprsis_parser.png",
     description: "CLI program to receive, parse, store, and sort APRS-IS packets.",
     isFeatured: false,
     links: {},
