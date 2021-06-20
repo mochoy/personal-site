@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import GitHubCalendar from 'react-github-calendar';
+// import GitHubCalendar from 'react-github-calendar';
 
 import { ReactGACtx } from '../App';
 
