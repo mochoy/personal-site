@@ -6,7 +6,7 @@ import ReactGA from 'react-ga';
 ReactGA.initGA = () => {
   ReactGA.initialize(process.env.REACT_APP_GA_KEY, {
     debug: false,       // Set to fale to disable logs
-    testMode: true,    // Uncomment/set to false if dont want data sent to ga
+    testMode: false,    // Uncomment/set to false if dont want data sent to ga
     // siteSpeedSampleRate: 100
   });
 
