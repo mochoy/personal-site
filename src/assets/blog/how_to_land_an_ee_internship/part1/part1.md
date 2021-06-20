@@ -12,13 +12,15 @@ I have *tons* of stuff to write about, so I'm splitting this up into a few posts
 
 # Disclaimers
 
-By existing, you agree to donate 90% of your lifetime earnings to me for all eternity throughout the universe until the end of time. Just kidding, but there are a few nuances that I want to address because EE is a very broad field and everyone's situation will be different. Be sure to keep these in mind when reading this guide.
+By existing, you agree to donate 90% of your lifetime earnings to me for all eternity throughout the universe until the end of time. Just kidding LOL but there are a few nuances that I want to address because EE is a very broad field and everyone's situation will be different. Be sure to keep these in mind when reading this guide.
 
 ## My Experience
 
-First of all, this post will be based off of my experience, so there's going to be tons of inherit biases there. Most of my experience is at big tech companies, but I've also interviewed and landed offers at semiconductor, defense/aerospace/space, self-driving/automotive, networking, and robotics companies, so if you're also shooting for those, well you're in luck. If not, be sure to keep that in the back of your mind when reading this. For example, when I go over projects and you're looking to get into the power industry, that might not be as applicable to you. I'll do my best to point out areas where I lack experience and information so you know when and where to do more research. 
+First of all, this post will be based off of my experience, so there's going to be tons of inherit biases there. The internship process may differ between industry, company, country/location, etc. but my internship search experience is pretty broad and I'll be able to capture and document quite a bit. 
 
-Additionally, I'm based in the US and I'm working on my undergrad in California near Silicon Valley. International students may have a different process for internships in their country and there are many more hoops to jump through to land an internship in the US. Grad students may also have a different experience, especially if you're more specialized and/or applying for lab- or research-based positions.
+Most of my experience is at big tech companies and I've also interviewed and landed offers at semiconductor, defense/aerospace/space, self-driving/automotive, networking, and robotics companies, all in the US, so if you're also shooting for those, well you're in luck. If not, be sure to keep that in the back of your mind when reading this. For example, when I go over projects and you're looking to get into the power/energy industry, that might not be as applicable to you. I'll do my best to point out areas where I lack experience and information so you know when and where to do more research. 
+
+Additionally, I'm based in the US and I'm working on my undergrad in California near Silicon Valley (SV). International students may have a different process for internships in their country and there are many more hoops to jump through to land an internship in the US. Grad students may also have a different experience, especially if you're more specialized and/or applying for lab- or research-based positions.  
 
 That being said, most of this advice will be highly applicable to you, no matter what industry you're going into, but obviously some more than others. Some of my advice around resume-writing and interviews for example extend beyond EE. Just like everything you read on the internet, take this with a grain of salt and remain thoughtful of what you want to implement and what you want to ignore.
 
@@ -44,8 +46,6 @@ That being said, the inverse is also the case, this guide also has tons of infor
 - Every SWE and their mother has been coding since the womb, coding is much easier to pick up on your own that EE.
 - There are way more SWE opportunities out there and way more CS students applying to them.
 - There aren't too many EE career communities and resources out there.
-
-## Uncounsious Nuances
 
 Anyways enough of the fine print let's get going to the real stuff!
 
