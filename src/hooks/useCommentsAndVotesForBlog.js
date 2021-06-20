@@ -59,15 +59,17 @@ const defaultDbPostEntry = {
     // to detach from db to prevent mem leak
     const getCommentsAndVotes = snapshot => {
       const dbContents = snapshot.val();
-  
-      // If no contents, means no votes/comments data for this post yet, create a
-      // new obj in db to store votes and posts
-      if (dbContents === null) {
-        db.set(defaultDbPostEntry);
-      } else {
+
+      // If there's already an appropriate obj in the db for this post, set 
+      // local comments and likes
+      if (!!dbContents) {
         setComments(dbContents.comments);
         setLikes(dbContents.likes);
+      // Else create a post obj in db for this post
+      } else {
+        db.set(defaultDbPostEntry);
       }
+
     }
 
     db.on('value', getCommentsAndVotes);
