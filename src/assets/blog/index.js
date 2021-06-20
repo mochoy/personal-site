@@ -9,7 +9,7 @@ import howToLandAnEEInternshipPart1 from './how_to_land_an_ee_internship/part1-i
 // import howToLandAnEEInternshipPart2 from './how_to_land_an_ee_internship/part2-pre-application';
 // import howToLandAnEEInternshipPart3 from './how_to_land_an_ee_internship/part3-your_application';
 // import howToLandAnEEInternshipPart4 from './how_to_land_an_ee_internship/part4-applying';
-// import howToLandAnEEInternshipPart5 from './how_to_land_an_ee_internship/part5';
+// import howToLandAnEEInternshipPart5 from './how_to_land_an_ee_internship/part5-awkward_period';
 // import howToLandAnEEInternshipPart6 from './how_to_land_an_ee_internship/part6-interviews';
 // import howToLandAnEEInternshipPart7 from './how_to_land_an_ee_internship/part7-offer';
 // import howToLandAnEEInternshipPart8 from './how_to_land_an_ee_internship/part8-closing';
@@ -18,7 +18,7 @@ import howToLandAnEEInternshipPart1 from './how_to_land_an_ee_internship/part1-i
 const posts = [
   remote_microsoft_internship,
   howToLandAnEEInternshipPart1,
-  // howToLandAnEEInternshipPart6,
+  // howToLandAnEEInternshipPart5,
   first_post
   
   // howToLandAnEEInternshipPart3,
