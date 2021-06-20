@@ -47,7 +47,7 @@ const projects = [
   {
     title: "RISC-V OTTER MCU",
     date: "June 2020",
-    event: "Cal Poly CPE 233 - Computer Design",
+    event: "Cal Poly CPE233 - Computer Design",
     img: "risc-v_otter_mcu.png",
     description: "Simple MCU to implement RISC-V ISA modeled in SystemVerilog.",
     isFeatured: false,
