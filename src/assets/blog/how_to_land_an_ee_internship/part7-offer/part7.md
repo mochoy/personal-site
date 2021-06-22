@@ -48,6 +48,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 
 ## Relocation
 
+- flat amount
 ## Transportation
 - bikes
 - transpo stipend
