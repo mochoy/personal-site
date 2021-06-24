@@ -59,6 +59,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 - shuttles
 
 ## Benefits and Perks
+- insurace
 
 ## Tax
 
