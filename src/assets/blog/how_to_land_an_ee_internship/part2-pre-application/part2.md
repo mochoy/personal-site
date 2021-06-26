@@ -116,8 +116,13 @@ When people refer to networking, they typically refer to explicit networking. Th
 
 There are some more implicit sides of explicit networking, but since they're developed in a professional context, I'd still consider them part of explicit networking. Examples include coworkers, interviewers, and recruiters. These are typically people that are an inherent part of the professional context, so in a sense you're "forced" to network with them. 
 
-## How do I do it? 
+## The Power of Networking
 
+- mstf 
+- apple 
+- northrop grumman 
+
+## How do I do it? 
 
 - networking helps to get foot in the door, but you usually can't be an idiot 
 
@@ -125,8 +130,6 @@ There are some more implicit sides of explicit networking, but since they're dev
 - Networking events
 - Career fair and stuff will be talked about later
 - Nepotism
-
-## The Power of Networking
 
 ## Reaching out to ppl
 
