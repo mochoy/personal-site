@@ -105,6 +105,8 @@ There are a few "flavors" of networking, there's the "my dad is a director" type
 I like to categorize networking first into two general categories. These aren't real names or anything, I kinda just made them up. Of course there are flavors of networking that may lie in between categories and others that lie in both categories, but I like to use this as a framework to deconstruct and demystify "networking". 
 
 ### Implicit Networking
+
+Implicit networking is where you build your network without intentionally building it,  often happening outside of a work context. For example, your when you meet friends and classmates, those connections are typically motivated by social or academic contexts, not necessarily in a professional context, but your friends and classmates are part of your network and can be strong connections down the lines. When your friends and classmates land internships and jobs later on, you can reach out to them for referrals, tips, and other professional advice. There's also your family, which is part of your network. Tons of people land opportunities, with varying levels of ethicality, through their parents, siblings, aunts/uncles, and family friends. 
 ## How do I do it? 
 
 
