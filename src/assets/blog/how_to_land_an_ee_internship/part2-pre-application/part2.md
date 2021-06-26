@@ -100,6 +100,9 @@ We all hear about how important networking is because it is! I want to put netwo
 
 There are a few "flavors" of networking, there's the "my dad is a director" type of "networking" that's just straight up unethical nepotism, and there's legit networking. I usually don't like to gatekeep, but I think we can all agree that "my dad is a director" isn't legit networking. Unfortunately, my dad literally isn't a director so I can't provide any insights about that type of "networking", but I first want explore a few networking anecdotal situations that may better illustrate things we can do at the university level and to help ground the idea of networking to help you realize it's not as difficult as you may think it is. Networking can be intimidating for a lot of people espeicially while we're college-aged, but like everything else in life, practice makes perfect. 
 
+## Types of Networking
+
+I like to categorize networking first into two general categories. These aren't real names or anything, I kinda just made them up. Of course there are flavors of networking that may lie in between categories and others that lie in both categories, but I like to use this as a framework to deconstruct and demystify "networking". 
 
 ## How do I do it? 
 
