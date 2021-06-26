@@ -107,6 +107,8 @@ I like to categorize networking first into two general categories. These aren't 
 ### Implicit Networking
 
 Implicit networking is where you build your network without intentionally building it,  often happening outside of a work context. For example, your when you meet friends and classmates, those connections are typically motivated by social or academic contexts, not necessarily in a professional context, but your friends and classmates are part of your network and can be strong connections down the lines. When your friends and classmates land internships and jobs later on, you can reach out to them for referrals, tips, and other professional advice. There's also your family, which is part of your network. Tons of people land opportunities, with varying levels of ethicality, through their parents, siblings, aunts/uncles, and family friends. 
+
+Like any other relationship, the closer and/or better liked you are by someone, the more they'll be likely do for you. If you try to ask someone you're not that close to for a referral, they'll probably be less inclined to give you that referral. If there's a time crunch, your referral may fall to the bottom of their priorities and possibly forgotten. On the other hand, if you ask a close friend for a referral, they may go above and beyond, finding hiring managers that would better fit your interests and vouch for you beyond the resume. 
 ## How do I do it? 
 
 
