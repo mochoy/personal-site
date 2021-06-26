@@ -104,6 +104,7 @@ There are a few "flavors" of networking, there's the "my dad is a director" type
 
 I like to categorize networking first into two general categories. These aren't real names or anything, I kinda just made them up. Of course there are flavors of networking that may lie in between categories and others that lie in both categories, but I like to use this as a framework to deconstruct and demystify "networking". 
 
+### Implicit Networking
 ## How do I do it? 
 
 
