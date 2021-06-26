@@ -113,6 +113,9 @@ Like any other relationship, the closer and/or better liked you are by someone, 
 ### Explicit Networking
 
 When people refer to networking, they typically refer to explicit networking. This is where you more actively build your network, whether that be over professional online platforms like LinkedIn, or in-person at career fairs, company info sessions, company events, etc. These are often opportunies of mutual networking, meaning the other party also gains you as part of their network. This also applies to companies, when you attend their networking sessions and chat with a few employees, for example, not only are you added to those employees' networks, but you're also added to the company's talent pool, which can be very valuable for that company and is one aspect of their "network". 
+
+There are some more implicit sides of explicit networking, but since they're developed in a professional context, I'd still consider them part of explicit networking. Examples include coworkers, interviewers, and recruiters. These are typically people that are an inherent part of the professional context, so in a sense you're "forced" to network with them. 
+
 ## How do I do it? 
 
 
