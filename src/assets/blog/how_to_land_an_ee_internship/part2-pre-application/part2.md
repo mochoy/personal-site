@@ -120,6 +120,17 @@ There are some more implicit sides of explicit networking, but since they're dev
 
 Here are a few personal networking examples. I wouldn't consider myself the best at networking, so I hope these examples can help convey a bit more nuance. 
 
+### Microsoft
+
+If you read part 1, I share this story there, but here I want to better emphasize the networking aspect of it. On the second week of my freshman year, Microsoft came to my campus for recruiting. They hosted a "Demystifying the Technical Resume & Interview" workshop a few days before the career fair, both of which I attended. At the end of the workshop, which I found very helpful especially as a freshman, they opened the floor for networking and chatting. At this point, a ton of students leave, but a few Microsoft employees stay to answer any questions remaining students may have. 
+
+Microsoft's recruiter for my school was one of the event hosts and was available for questions after the workshop when they opened the floor, so I asked her a few questions about hardware opportunies at Microsoft (where she introduced me to Russell - another connection!) and Linkedin. While we were talking, she seemed pretty interested in me as an applicant and invites me to visit her at the Career Fair a few days later. 
+
+### Apple
+
+### Northrop Grumman
+
+
 ## How do I do it? 
 
 - networking helps to get foot in the door, but you usually can't be an idiot 
@@ -138,6 +149,16 @@ Here are a few personal networking examples. I wouldn't consider myself the best
 ## Recruiter Contacts through Interviewing/Applying
 - Get offer one year but decline, next year can reach back out and maybe have better leverage because you've proven yourself, save time/effort for the recruiter
 - Apple example
+
+## Networking Events
+
+- what kind?
+- How do they work? 
+- At the end: opening the floor, stay even if you dont have questions!
+  - Listen in on other ppl 
+  - Learn more
+  - QUestions will pop up, get used to netwokring
+  - Often time more students than engineers, can go one on one, or group on one engineer
 
 # What's Next
 
