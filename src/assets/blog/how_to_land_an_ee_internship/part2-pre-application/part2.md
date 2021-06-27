@@ -118,9 +118,7 @@ There are some more implicit sides of explicit networking, but since they're dev
 
 ## The Power of Networking
 
-- mstf 
-- apple 
-- northrop grumman 
+Here are a few personal networking examples. I wouldn't consider myself the best at networking, so I hope these examples can help convey a bit more nuance. 
 
 ## How do I do it? 
 
