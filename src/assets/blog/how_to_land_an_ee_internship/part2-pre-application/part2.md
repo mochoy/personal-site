@@ -122,6 +122,7 @@ Here are a few personal networking examples. I wouldn't consider myself the best
 
 ### Microsoft
 
+If you read part 1, I share this story there, but here I want to better emphasize the networking aspect of it. On the second week of my freshman year, Microsoft came to my campus for recruiting. They hosted a "Demystifying the Technical Resume & Interview" workshop a few days before the career fair, both of which I attended. At the end of the workshop, which I found very helpful especially as a freshman, they opened the floor for networking and chatting. At this point, a ton of students leave, but a few Microsoft employees stay to answer any questions remaining students may have. 
 ### Apple
 ### Northrop Grumman
 ## How do I do it? 
