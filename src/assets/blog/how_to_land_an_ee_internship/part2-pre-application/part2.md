@@ -123,6 +123,7 @@ Here are a few personal networking examples. I wouldn't consider myself the best
 ### Microsoft
 
 ### Apple
+### Northrop Grumman
 ## How do I do it? 
 
 - networking helps to get foot in the door, but you usually can't be an idiot 
