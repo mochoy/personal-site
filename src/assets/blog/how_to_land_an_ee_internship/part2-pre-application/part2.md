@@ -120,6 +120,7 @@ There are some more implicit sides of explicit networking, but since they're dev
 
 Here are a few personal networking examples. I wouldn't consider myself the best at networking, so I hope these examples can help convey a bit more nuance. 
 
+### Microsoft
 ## How do I do it? 
 
 - networking helps to get foot in the door, but you usually can't be an idiot 
