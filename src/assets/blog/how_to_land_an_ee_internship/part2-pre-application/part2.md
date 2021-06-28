@@ -123,6 +123,8 @@ Here are a few personal networking examples. I wouldn't consider myself the best
 ### Microsoft
 
 If you read part 1, I share this story there, but here I want to better emphasize the networking aspect of it. On the second week of my freshman year, Microsoft came to my campus for recruiting. They hosted a "Demystifying the Technical Resume & Interview" workshop a few days before the career fair, both of which I attended. At the end of the workshop, which I found very helpful especially as a freshman, they opened the floor for networking and chatting. At this point, a ton of students leave, but a few Microsoft employees stay to answer any questions remaining students may have. 
+
+Microsoft's recruiter for my school was one of the event hosts and was available for questions after the workshop when they opened the floor, so I asked her a few questions about hardware opportunies at Microsoft (where she introduced me to Russell - another connection!) and putting my unoffical company on my Linkedin profile. I have to admit I think I was pretty awkward, but I appreciate how she didn't really seem to mind. While we were talking, she seemed pretty interested in me as an applicant and invites me to visit her at the career fair a few days later with my resume. She also gave me her LinkedIn for us to connect. She probably met hundreds of other similar interns, so I didn't think she would actually remember me. 
 ### Apple
 ### Northrop Grumman
 ## How do I do it? 
