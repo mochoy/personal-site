@@ -129,6 +129,15 @@ Microsoft's recruiter for my school was one of the event hosts and was available
 At the career fair, the Microsoft line is super long (fyi: lines for big companies are ALWAYS super long), so I decide to wait until the end of the career fair to visit the Microsoft table. This was my very first college career, so I made the mistake of printing only five resumes. I thought I saved one last resume for Microsoft, but I accidently gave them all out. I show up to meet that same recruiter, who remembers me to my surprise, but she's disappointed that I didn't have a resume for her. I can definitely put myself in her shoes, it really seemed like I didn't care enough about Microsoft opportunies to even save a resume. In reality, it was an honest mistake, but I guess she gave me the benefit of the doubt because a few weeks later, I had an interview with Microsoft when they returned to campus for interviews. 
 
 At that interview, I remember neither my or the interviewer actually knew what position I was interviewing for, so he asked me a few basic coding questions. I thought I did alright, but I got quickly rejected from everything. 
+
+The next year, I didn't have too much success from the Fall career fair, so I try to leverage my connections. A ton of hiring takes place in the Fall, so I didn't want to miss out. I reached out to her on LinkedIn, where she encouraged me to apply online and email her a copy of my resume, which she'd forward around. I'm not sure if she rememebered me or not, but I was happy that she was giving me a shot. 
+
+![mstf_recruiter_linkedin_msg](images/mstf_recruiter_linkedin_msg.png)
+
+(yes, I know my LinkedIn profile picture is mega baller)
+
+
+
 ### Apple
 ### Northrop Grumman
 ## How do I do it? 
