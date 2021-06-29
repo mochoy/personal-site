@@ -159,6 +159,7 @@ The next year, I didn't have too much success from the Fall career fair, so I tr
 - Get offer one year but decline, next year can reach back out and maybe have better leverage because you've proven yourself, save time/effort for the recruiter
 - Apple example
 
+## Networking Events
 # What's Next
 
 This is a multi-part post, here are the other parts:
