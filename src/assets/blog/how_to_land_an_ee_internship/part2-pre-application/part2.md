@@ -164,6 +164,7 @@ The next year, I didn't have too much success from the Fall career fair, so I tr
 - what kind?
   - Helpful application-based workshops
     - mstf resume workshop
+  - Technical workshops
 # What's Next
 
 This is a multi-part post, here are the other parts:
