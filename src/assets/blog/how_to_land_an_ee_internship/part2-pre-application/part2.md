@@ -167,6 +167,7 @@ The next year, I didn't have too much success from the Fall career fair, so I tr
   - Technical workshops
     - Intro to x and y 
   - About the company
+  - mini career fair
 # What's Next
 
 This is a multi-part post, here are the other parts:
