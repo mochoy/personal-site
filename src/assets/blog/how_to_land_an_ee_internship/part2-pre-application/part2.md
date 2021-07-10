@@ -171,6 +171,7 @@ The next year, I didn't have too much success from the Fall career fair, so I tr
 - How do they work? 
   - free food
   - swag
+  - swag for answering questions
 # What's Next
 
 This is a multi-part post, here are the other parts:
