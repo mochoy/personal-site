@@ -130,7 +130,9 @@ At the career fair, the Microsoft line is super long (fyi: lines for big compani
 
 At that interview, I remember neither my or the interviewer actually knew what position I was interviewing for, so he asked me a few basic coding questions. I thought I did alright, but I got quickly rejected from everything. 
 
-The next year, I didn't have too much success from the Fall career fair, so I try to leverage my connections. A ton of hiring takes place in the Fall, so I didn't want to miss out. I reached out to her on LinkedIn, where she encouraged me to apply online and email her a copy of my resume, which she'd forward around. I'm not sure if she rememebered me or not, but I was happy that she was giving me a shot. 
+The next year during the 2019-2020 school year, I didn't have too much success from the Fall career fair, so I try to leverage my connections. A ton of hiring takes place in the Fall, so I didn't want to miss out. I reached out to her on LinkedIn, where she encouraged me to apply online and email her a copy of my resume, which she'd forward around. I'm not sure if she rememebered me or not, but I like to think she did and I was happy that she was giving me a shot. 
+
+She also said she would forward my resume directly to the team, I don't know if this was the recruiting team or the hiring team, but at least I'd get some actual humans to look at my resume. Often times, especially at big companies that receive hundreds of thousands of applications, the resume filtering process is automated by an applicant tracking system (ATS). The ATS, among other things, can be used to filter out and analyze candidates automatically without needing a real human to analyze them. For large companies that receive hundreds of thousands of applicants, these ATSs can save tons of time and money. Microsoft says the "eValUAtE aLl cAnDidATes ThORoUghLY" like ok buddy if you say so. I bet like 90% of the applicants at Microsoft get filtered out by the ATS and are never actually seen by a living entity, so that's why getting your resume "forwarded to the team" can be very helpful. 
 
 ![mstf_recruiter_linkedin_msg](images/mstf_recruiter_linkedin_msg.png)
 
