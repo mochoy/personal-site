@@ -145,6 +145,12 @@ I'm not exactly sure what happened, but the next week, I heard back for an inter
 In January the next year, about a month after receiving that first rejection, I was reached out again to interview for the SWE internship. I was pretty surprised since Microsoft usually finishes intern hiring by December. I followed through that entire application process and ended up landing an offer (which I later accepted, I have another blog post about my internship experience there)!
 
 Now I wouldn't call this straight up nepotism because leveraged connections that I genuinely made. I attended the networking sessions and actively reached out to her and asked questions, which helped to stand out from the rest of the students and leave a good impression. When I was interested in applying to Microsoft, I had a genuine connection that was in a position to help me out. 
+
+How much impact she actually had on my application we will never know, but I do know that without her in the process, I get rejected instantly. Of course it's hard to understand all the variables, so I'll put it this way. After that internship in 2020, I got a return offer, so I knew for a fact that I at least met Microsoft's intern hiring bar and they wanted to retain me. I reapplied to Microsoft for 2021 internships, but I get rejected from EVERY SINGLE ONE without an interview, even with a high-performing return offer. I knew that I met their hiring bar, so there's obviously something more at play. I didn't leverage any of my internal connections this time around because I thought I would be in the clear, but I guess not. In summary:
+
+- in 2018 (for summer 2021 internship): leveraged connection, interview
+- in 2019 (for summer 2020 internship): leveraged connection, accepted
+- in 2020 (for summer 2021 internship): did not leverage connections, but had high-performing return offer, rejected
 ### Apple
 ### Northrop Grumman
 ## How do I do it? 
