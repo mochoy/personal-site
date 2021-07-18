@@ -163,6 +163,8 @@ In winter 2020, I interviewed for the iPhone team at Apple for a summer 2020 int
 Fast forward to September 2020 after that Microsoft internship and I'm on the internship hunt again. Because of covid, everything went remote and I was afraid how that would impact the application process. I wanted to work on the iPhones, so I reach out to the iPhone team, that same recruiter I had last year. 
 
 ![apple_recruiter_email_1](images/apple_recruiter_email_1.png)
+
+Unfortunately, they only hire summer interns starting in January, but my Microsoft return offer expired in Novemeber, so our timelines didn't align there. However, it came up that I was interested in other groups as well, including their chip development group, so he forwarded my resume to them since I didn't have any contacts in those groups. 
 ### Northrop Grumman
 ## How do I do it? 
 
