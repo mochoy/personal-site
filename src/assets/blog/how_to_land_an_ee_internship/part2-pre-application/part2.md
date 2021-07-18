@@ -136,7 +136,9 @@ The next year, I didn't have too much success from the Fall career fair, so I tr
 
 (yes, I know my LinkedIn profile picture is mega baller)
 
+I'm not exactly sure what happened, but the next week, I heard back for an interview! I ended up getting rejected a few weeks later, but the rejection letter wasn't just the generic "Thank you for your interest" they usually send out. This rejection letter stated that I would've moved onto the onsite final round interviews, but since it was towards the end of their recruting season, their final round interview slots were full. I've gotten tons of the generic Microsoft rejection letters, so I think this one was more authentic and to be honest, I really appreciate that Microsoft gave this sort of transparency into the process. 
 
+![mstf_nice_rejection](images/mstf_nice_rejection.png)
 
 ### Apple
 ### Northrop Grumman
