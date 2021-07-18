@@ -140,6 +140,7 @@ I'm not exactly sure what happened, but the next week, I heard back for an inter
 
 ![mstf_nice_rejection](images/mstf_nice_rejection.png)
 
+In January the next year, about a month after receiving that first rejection, I was reached out again to interview for the SWE internship. I was pretty surprised since Microsoft usually finishes intern hiring by December. I followed through that entire application process and ended up landing an offer (which I later accepted, I have another blog post about my internship experience there)!
 ### Apple
 ### Northrop Grumman
 ## How do I do it? 
