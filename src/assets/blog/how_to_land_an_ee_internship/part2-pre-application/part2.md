@@ -159,6 +159,10 @@ Also note how she only helped me to get my foot in the door by helping get my ap
 I landed a few offers at Apple, but because Apple is so big, all of those processes were separate from each other. I had different recruiters, hiring managers, and interviewers and the teams I interviewed for were entirely separate and worked on entirely different projects. 
 
 In winter 2020, I interviewed for the iPhone team at Apple for a summer 2020 internship opportunity. I went through the entire interview process and landed an offer, but I had competing offers at Microsoft and Amazon, so I decided to go with Microsoft. I let my recruiter know and he was super understanding, recruiters know that we can only do one internship in the summer and they're competing for us as much as we are competing for them. 
+
+Fast forward to September 2020 after that Microsoft internship and I'm on the internship hunt again. Because of covid, everything went remote and I was afraid how that would impact the application process. I wanted to work on the iPhones, so I reach out to the iPhone team, that same recruiter I had last year. 
+
+![apple_recruiter_email_1](images/apple_recruiter_email_1.png)
 ### Northrop Grumman
 ## How do I do it? 
 
