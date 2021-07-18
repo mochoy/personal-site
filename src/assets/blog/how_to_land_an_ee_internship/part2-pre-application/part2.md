@@ -143,6 +143,8 @@ I'm not exactly sure what happened, but the next week, I heard back for an inter
 ![mstf_nice_rejection](images/mstf_nice_rejection.png)
 
 In January the next year, about a month after receiving that first rejection, I was reached out again to interview for the SWE internship. I was pretty surprised since Microsoft usually finishes intern hiring by December. I followed through that entire application process and ended up landing an offer (which I later accepted, I have another blog post about my internship experience there)!
+
+Now I wouldn't call this straight up nepotism because leveraged connections that I genuinely made. I attended the networking sessions and actively reached out to her and asked questions, which helped to stand out from the rest of the students and leave a good impression. When I was interested in applying to Microsoft, I had a genuine connection that was in a position to help me out. 
 ### Apple
 ### Northrop Grumman
 ## How do I do it? 
