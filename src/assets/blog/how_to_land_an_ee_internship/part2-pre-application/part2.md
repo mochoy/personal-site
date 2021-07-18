@@ -155,6 +155,8 @@ How much impact she actually had on my application we will never know, but I do 
 Also note how she only helped me to get my foot in the door by helping get my application reviewed. If my application was bad, it would've gotten nowhere. I also needed to go through the standard interview process, so if my skillset and interviewing skills were bad, again it would've gotten nowhere. Conventional networking can only get so far and can't make up for a lack of skill or preparation. Instead, it's very helpful to get passed the ATS filtering and help get your application reviewed by a real person, which is already a large hurdle in the process, especially at big companies. 
 
 ### Apple
+
+I landed a few offers at Apple, but because Apple is so big, all of those processes were separate from each other. I had different recruiters, hiring managers, and interviewers and the teams I interviewed for were entirely separate and worked on entirely different projects. 
 ### Northrop Grumman
 ## How do I do it? 
 
