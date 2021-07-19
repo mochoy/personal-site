@@ -169,6 +169,8 @@ Unfortunately, they only hire summer interns starting in January, but my Microso
 A few weeks later, a recruiter reaches out for an interview! The role was working on the chips, which was super exciting. We schedule an interview and as usual, the interviewer introduces himself and the type of work his team does. It sounded pretty interesting, but it was primarily coding, which wasn't entirely my interest and I'm terrible at coding interviews. I let him know that I'm not super interested in this opportunity, so he calls of the interview after those first few minutes and tells me that a recruiter will reach out for other roles that better align with my interest. 
 
 I completely understand where he's coming from, but I get discouraged from stuff like that because "I'll circle back and see what's available", that's just code for "you're getting rejected". I've been burned by that a few times which is why I follow through on interviews for opportunites that I'm not super interesested in, I'd much rather have an offer on something I'm slightly interested in than no offer at all. 
+
+I don't hear anything back, confirming my suspicions, but one month later, I get contacted by a recruiter for an opportunity that seems right up my alley. I'm pretty excited to have a second shot at Apple and even better, for an opportunity that sounds like a great fit. I go through all four rounds and end up with an offer! 
 ### Northrop Grumman
 ## How do I do it? 
 
