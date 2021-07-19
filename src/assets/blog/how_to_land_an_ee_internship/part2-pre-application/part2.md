@@ -171,6 +171,8 @@ A few weeks later, a recruiter reaches out for an interview! The role was workin
 I completely understand where he's coming from, but I get discouraged from stuff like that because "I'll circle back and see what's available", that's just code for "you're getting rejected". I've been burned by that a few times which is why I follow through on interviews for opportunites that I'm not super interesested in, I'd much rather have an offer on something I'm slightly interested in than no offer at all. 
 
 I don't hear anything back, confirming my suspicions, but one month later, I get contacted by a recruiter for an opportunity that seems right up my alley. I'm pretty excited to have a second shot at Apple and even better, for an opportunity that sounds like a great fit. I go through all four rounds and end up with an offer! 
+
+After I received a verbal offer, I have a chat with the recruiter to discuss offer details and other stuff. I'm curious as to how they found me because I thought I "used up" my one and only shot with that first interview and I thought it was unlikely that I got a second shot through the same iPhone recruiter. Online applications are a black hole, so I would be surprised if they found me that way. It turns out they actually found me when the iPhone recruiter forwarded my resume to them, so I was wrong about having only one shot from the iPhone recruiter.
 ### Northrop Grumman
 ## How do I do it? 
 
