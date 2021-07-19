@@ -167,6 +167,8 @@ Fast forward to September 2020 after that Microsoft internship and I'm on the in
 Unfortunately, they only hire summer interns starting in January, but my Microsoft return offer expired in Novemeber, so our timelines didn't align there. However, it came up that I was interested in other groups as well, including their chip development group, so he forwarded my resume to them since I didn't have any contacts in those groups. 
 
 A few weeks later, a recruiter reaches out for an interview! The role was working on the chips, which was super exciting. We schedule an interview and as usual, the interviewer introduces himself and the type of work his team does. It sounded pretty interesting, but it was primarily coding, which wasn't entirely my interest and I'm terrible at coding interviews. I let him know that I'm not super interested in this opportunity, so he calls of the interview after those first few minutes and tells me that a recruiter will reach out for other roles that better align with my interest. 
+
+I completely understand where he's coming from, but I get discouraged from stuff like that because "I'll circle back and see what's available", that's just code for "you're getting rejected". I've been burned by that a few times which is why I follow through on interviews for opportunites that I'm not super interesested in, I'd much rather have an offer on something I'm slightly interested in than no offer at all. 
 ### Northrop Grumman
 ## How do I do it? 
 
