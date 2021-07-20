@@ -62,6 +62,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 - insurace
   - medical
   - dental 
+  - vision 
 
 ## Tax
 
