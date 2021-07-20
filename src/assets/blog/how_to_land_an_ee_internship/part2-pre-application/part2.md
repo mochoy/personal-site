@@ -172,7 +172,7 @@ I completely understand where he's coming from, but I get discouraged from stuff
 
 I don't hear anything back, confirming my suspicions, but one month later, I get contacted by a recruiter for an opportunity that seems right up my alley. I'm pretty excited to have a second shot at Apple and even better, for an opportunity that sounds like a great fit. I go through all four rounds and end up with an offer! 
 
-After I received a verbal offer, I have a chat with the recruiter to discuss offer details and other stuff. I'm curious as to how they found me because I thought I "used up" my one and only shot with that first interview and I thought it was unlikely that I got a second shot through the same iPhone recruiter. Online applications are a black hole, so I would be surprised if they found me that way. It turns out they actually found me when the iPhone recruiter forwarded my resume to them, so I was wrong about having only one shot from the iPhone recruiter.
+After I received a verbal offer, I have a chat with the recruiter to discuss offer details and other stuff. I was curious as to how they found me because I thought I "used up" my one and only shot with that first interview and I thought it was unlikely that I got a second shot through the same iPhone recruiter opportunity. Online applications are a black hole, so I would be surprised if they found me that way. It turns out they actually found me when the iPhone recruiter forwarded my resume to them, so I was wrong about having only one shot from the iPhone recruiter opportunity. I ended up accepting the offer! 
 ### Northrop Grumman
 ## How do I do it? 
 
