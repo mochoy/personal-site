@@ -182,6 +182,7 @@ That's of course obvious, I think everyone should be kind and respectful to be a
 
 Even if I failed the interviews the first time because I lacked technical skills, they know that students can improve a lot in just a few months, so it would've been possible for me to nail the interviews the second time around. If the recruiter liked me as an applicant, it's much easier for him to send me right to the interviews than it is to source a brand new candidate since I was already in the system and they were familiar with me. 
 
+Also, it's important to put out your best work even when it doesn't feel "necessary". I had other interviews and offers at top companies, so I wasn't to worried about the iPhone opportunity in particular. But even if I wasn't too worried, that wasn't an excuse for me to BS my way through the application process because that could reflect on me poorly. If I was lazy or uninspired, the recruiter might not have been incentivized to help me out later down the line. I often hear people saying stuff like "oh I already have an offer at X Company, so I'll just BS my way through the interview with Y Company tomorrow". The application process only captures a small glimpse of who you are, so you better make sure that small glimpse captures the best of you, becuase when you BS your way through stuff, that's not going to be the case. If you BS your way through Y Company and they can smell it, they may not be as quick to help you down the line. 
 ### Northrop Grumman
 ## How do I do it? 
 
