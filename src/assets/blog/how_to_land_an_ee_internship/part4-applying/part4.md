@@ -41,6 +41,7 @@
 # Hierarchy of Applications
 
 - nepotism 
+get resume instantly past ATS:
 # Apply Everywhere!
 
 - customized emails 
