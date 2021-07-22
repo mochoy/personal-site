@@ -63,6 +63,7 @@ the total amount of money you're making, including stock, signing/starting bonus
   - medical
   - dental 
   - vision 
+- 401k 
 
 ## Tax
 
