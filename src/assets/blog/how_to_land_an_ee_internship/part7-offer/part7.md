@@ -64,6 +64,7 @@ the total amount of money you're making, including stock, signing/starting bonus
   - dental 
   - vision 
 - 401k 
+- espp 
 
 ## Tax
 
