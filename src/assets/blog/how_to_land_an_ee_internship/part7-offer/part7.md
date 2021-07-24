@@ -65,6 +65,7 @@ the total amount of money you're making, including stock, signing/starting bonus
   - vision 
 - 401k 
 - espp 
+  - stay long
 
 ## Tax
 
