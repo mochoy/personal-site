@@ -66,6 +66,7 @@ the total amount of money you're making, including stock, signing/starting bonus
 - 401k 
 - espp 
   - stay long
+  - not always available 
 
 ## Tax
 
