@@ -307,3 +307,21 @@ This is a multi-part post, here are the other parts:
 6. Interviews: Cracking the EE interview!
 7. The Offer!: Receiving an offer may not be the end yet
 8. Closing: Final and misc. thoughts
+
+# Appendix
+
+- AFUNGALMASS - Yet another acronym for top tech companies: Amazon, Facebook, Uber, Netflix, Google, Apple, Lyft, Microsoft, AirBnB, Stripe, Snap. Techies are obsessed with "top companies" and "tiers" and try to cram more and more companies into the "top tier" by appending random letters to the end of FAANG like this: FAANGTLLAUMSDRDR (Facebook, Amazon, Apple, Netflix, Google, Twitter, Lyft, LinkedIn, AirBnB, Uber, Microsoft, Snap, Datadog, Roblox, Doordash, Robinhood) and it's basically a meme, hence "a fungal mass". This is the term I use the most.
+- Big N - Another reference to the same top tech companies: Yes those techies need this many ways to refer to the same few companies. Big N is wider and more flexible in that the companies aren't "hardcoded" in a pronouncable acronym.
+- CS - Computer Science
+- CE/CPE - Computer Engineering: Typically a mix of EE and CS, other schools may refer to this as EECS
+- ECE - Electrical and Computer Engineering
+- EE - Electrical Engineer/Engineering
+- EECS - Electrical Enginering and Computer Science: Other schools may refer to this as CPE/CE
+- FAANG - Acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google. This term originates from finance that captured the fastest growing stocks at the time and just found its way over to tech. It also represents other top-paying tech companies because no one wants to memorize a voltaile achronym that changes three times a day.
+- FAANGMULAS - Another acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google, Microsoft, Uber, Lyft, Stripe.
+- FTE/FT - Full-Time Engineer/Full-Time
+- HWE/HW - Hardware Engineer/Hardware: Can refer to EEs or MEs and EEs, but I use it here to mean EE
+- NG - New Grad: A recent grad/soon to graduate. The hiring process is typically handled by the same group of people that handle intern hiring, university relations (UR).
+- SV - Silicon Valley: The geographical area around the San Francisco Bay Area in California. Home to a ton of tech companies and this area in general for other companies typically offers the highest TC to compensate for the expensive CoL.
+- SWE/SW - Software Engineer(ing)/Software
+- [TC - Total Compensation](https://www.levels.fyi/blog/what-is-total-compensation.html): The total amount of money you're making, including stock, signing/starting bonuses, relocation, and other bonuses.
