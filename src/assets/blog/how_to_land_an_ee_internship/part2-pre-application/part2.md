@@ -231,6 +231,8 @@ Also, it's important to put out your best work even when it doesn't feel "necess
   - Often time more students than engineers, can go one on one, or group on one engineer
 
 ## Feedback Loop
+
+Again like everything else I mention here, practice makes perfect. With networking though, the feedback loop to evaluate yourself is much faster than other parts of the application process. For example, when you're sending out applications online, it may take a few weeks until you receive a response, so your feedback loop bandwdith is really limited by how long it takes for companies to respond to you. Some may take even longer, and some just never get back to you. Also, they don't even provide feedback or reasoning behind their decision. If you get rejected, there's a good chance your application needs improvement, but there's also a good chance that your application was perfect but you just got beat out by another applicant. 
 # What's Next
 
 This is a multi-part post, here are the other parts:
