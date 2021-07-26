@@ -100,6 +100,7 @@ We all hear about how important networking is because it is! I want to put netwo
 
 ## It's Intimidating
 
+First of all, I get it "networking" is super intimidating, especially when we're in college where we're more insecure, unmotivated, unconfident, awkward, and just generally unsure. For many of us, this is the first time we have to do real networking. Like everything else I mention here, starting early to get over those initial hurdles is super important, especially because networking is a lifelong adventure. 
 ## Types of Networking
 
 There are a few "flavors" of networking, there's the "my dad is a director" type of "networking" that's just straight up unethical nepotism, and there's legit networking. I usually don't like to gatekeep, but I think we can all agree that "my dad is a director" isn't legit networking. Unfortunately, my dad literally isn't a director so I can't provide any insights about that type of "networking", but I first want explore a few networking anecdotal situations that may better illustrate things we can do at the university level and to help ground the idea of networking to help you realize it's not as difficult as you may think it is. Networking can be intimidating for a lot of people espeicially while we're college-aged, but like everything else in life, practice makes perfect. 
