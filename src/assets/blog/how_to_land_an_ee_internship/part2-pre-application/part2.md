@@ -193,6 +193,7 @@ Also, it's important to put out your best work even when it doesn't feel "necess
 ## How do I do it? 
 
 - networking helps to get foot in the door, but you usually can't be an idiot 
+- At apple and mstf, I met the bar, but still got rejected
 
 - that werid guy
 - Networking events
