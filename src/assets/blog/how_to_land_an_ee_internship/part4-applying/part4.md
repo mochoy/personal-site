@@ -42,6 +42,7 @@
 
 - nepotism 
 get resume instantly past ATS:
+- direct referal 
 # Apply Everywhere!
 
 - customized emails 
