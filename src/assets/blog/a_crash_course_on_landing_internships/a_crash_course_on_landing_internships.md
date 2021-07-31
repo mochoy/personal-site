@@ -2,7 +2,7 @@ Do a quick Google search for "how to get a software engineering internship" and 
 
 I honestly have *wayyy* too much to write about, in fact this post is barely scratching the surface. At the time of first writing this, I have my whole "How to Land an Electrical Engineering Internship" series of posts that's only like 1/10th completed and has already ammassed ~20,000 words/40 pages. I'm not exactly sure how long those posts will eventually end up, but certainly looking like 100,000+/200 words. Ain't no body tryna read a book and I'm certianly not trying to write a book. I'm honestly not sure if I'll even ever finish those, so this shorter guide is better than no guide at all. I say "shorter", but I'm shooting for ~10,000 words/20 pages. This shorter post will consolidate the main ideas of the entire process and you'll find much more detail in their dedicated posts. 
 
-Here are the links to each post, updated as they come out: 
+Here are the links to each post, updated as they come out. I'll divide this post similarly, so you can check out  
 
 1. The Internship Mindset: Why do you even need an internship? It's so intimidating!
 2. Pre-Application: There are so many things to do before even sending out your first application
