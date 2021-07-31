@@ -236,6 +236,10 @@ Also, it's important to put out your best work even when it doesn't feel "necess
 Again like everything else I mention here, practice makes perfect. With networking though, the feedback loop to evaluate yourself is much faster than other parts of the application process. For example, when you're sending out applications online, it may take a few weeks until you receive a response, so your feedback loop bandwdith is really limited by how long it takes for companies to respond to you. Some may take even longer, and some just never get back to you. Also, they don't even provide feedback or reasoning behind their decision. If you get rejected, there's a good chance your application needs improvement, but there's also a good chance that your application was perfect but you just got beat out by another applicant. 
 
 Often times with networking, this isn't the case. You can get immediate feedback by the way people respond to you and their facial expressions. At this point, it's really a social situation. If the hiring manager you're talking to is really into a project you're talking about, that's a really good sign to keep talking about that project. The inverse is also true. The best part is you can literally ask them for feedback at the end of it, which takes out a lot of the guesswork and stuff that inherently comes from trying to analyze someone's response. It can be very sequential, so you can take what you learned, apply it to the next recruiter you talk to, and repeat. If you're at a career fair, you can get like 10-20 feedback loop iterations and by the end of it, you'll really get it down. 
+
+## Reciprocity
+
+
 # What's Next
 
 This is a multi-part post, here are the other parts:
