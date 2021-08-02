@@ -14,5 +14,9 @@ Here are the links to each post, updated as they come out. I'll divide this post
 8. Closing: Final and misc. thoughts
 
 # Disclaimers
+
+- First of all, this post will be based off of my experience, so there's going to be tons of inherit biases there. The internship process may differ between industry, company, country/location, etc. but my internship search experience is pretty broad and I'll be able to capture and document quite a bit.
+- I will be drawing many comparisons to the software engineering (SWE) process because their processes are very similar to our's, but they just have way more resources.
+
 # 1. The Internship Mindset
 
