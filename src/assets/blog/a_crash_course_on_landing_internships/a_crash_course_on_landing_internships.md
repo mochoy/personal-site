@@ -12,3 +12,6 @@ Here are the links to each post, updated as they come out. I'll divide this post
 6. Interviews: Cracking the EE interview!
 7. The Offer!: Receiving an offer may not be the end yet
 8. Closing: Final and misc. thoughts
+
+# 1. The Internship Mindset
+
