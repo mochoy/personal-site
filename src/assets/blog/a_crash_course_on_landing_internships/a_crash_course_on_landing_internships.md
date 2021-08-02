@@ -13,5 +13,6 @@ Here are the links to each post, updated as they come out. I'll divide this post
 7. The Offer!: Receiving an offer may not be the end yet
 8. Closing: Final and misc. thoughts
 
+# Disclaimers
 # 1. The Internship Mindset
 
