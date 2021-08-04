@@ -21,3 +21,5 @@ Here are the links to each post, updated as they come out. I'll divide this post
 # 1. The Internship Mindset
 
 In my experience, EE students don't hold that same sense of rigor and determination to land internships compared to SWE students, we don't really have that same culture. To motivate other students, I like to bring up two main points, money and experience. 
+
+## Money
