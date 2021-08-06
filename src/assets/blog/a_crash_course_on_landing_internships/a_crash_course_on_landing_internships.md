@@ -25,3 +25,5 @@ In my experience, EE students don't hold that same sense of rigor and determinat
 ## Money
 
 I often like to mention money first because so many students (myself included!) get really motivated when they learn how much money is on the line. For some numbers,here's what the compensation breakdown looks like for my return intern offer at Microsoft (which was SWE, but HWE/EE gets the same TC):
+
+- $8500/mo (~$53/hr) salary
