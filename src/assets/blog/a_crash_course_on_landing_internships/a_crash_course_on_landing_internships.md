@@ -30,3 +30,4 @@ I often like to mention money first because so many students (myself included!) 
 - $5000 signing bonus
 # 2. Pre-Application
 # 3. Your Application
+# 4. Applying
