@@ -31,3 +31,5 @@ I often like to mention money first because so many students (myself included!) 
 # 2. Pre-Application
 # 3. Your Application
 # 4. Applying
+
+Applying is the process of getting your resume/application to the company and not all applications are treated equally. There's a hierarchy of how you send out your applications. 
