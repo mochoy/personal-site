@@ -35,3 +35,9 @@ I often like to mention money first because so many students (myself included!) 
 Applying is the process of getting your resume/application to the company and not all applications are treated equally. There's a hierarchy of how you send out your applications. 
 
 ## The Hierarchy of Applications
+
+1. "my dad's a director" nepotism
+2. Resume and pitch directly to manager/recruiter
+3. Resume directly to hiring manager/recruiter
+4. Referral to general applicant pool
+5. Cold application - just applying online with no connections
