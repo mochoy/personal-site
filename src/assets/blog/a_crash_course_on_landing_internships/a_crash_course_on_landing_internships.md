@@ -41,6 +41,7 @@ Applying is the process of getting your resume/application to the company and no
 3. Resume directly to hiring manager/recruiter
 4. Referral to general applicant pool
 5. "Cold application"
+### "my dad's a director"
 
 These are the main forms of applying I've encountered (well all except for 1). I mean is an application really required at that point? If exploited properly, this can land you an offer without any interviews or other overhead, since many other forms of nepotism or networking require that you display something more than hereditary luck. 
 
