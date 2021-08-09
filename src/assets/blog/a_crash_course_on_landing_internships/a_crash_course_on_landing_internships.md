@@ -59,3 +59,5 @@ In summary:
 | 3    |  Resume directly to hiring manager/recruiter   |                No                 |        Yes |
 | 4    |       Referral to general applicant pool       | Yes, but may be different than #5 |        Yes |
 | 5    |                Cold application                |                Yes                |        Yes |
+
+Also remember that every company may do things a bit differently. At some companies, thid might not be the exact order with the exact process, this is just a generalizion of my analyis of what I've seen. 
