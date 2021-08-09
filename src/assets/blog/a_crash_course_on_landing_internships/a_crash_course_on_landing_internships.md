@@ -49,3 +49,13 @@ These are the main forms of applying I've encountered (well all except for 1). I
 The difference is that for 2, you actually have the opportunity to pitch yourself and talk to the hiring manager/recruiter. Your resume obviously doesn't capture everything about you, so being able to pitch yourself is extremely powerful to go beyond the resume. The hiring manager/recruiter will get a better gauge of who you are and may even skip some interviews as a result! 
 
 Usually, getting your application to the hiring manager is stronger than the recruiter because the hiring manager is the person directly hiring you, while the recruiter is often the filter between your application and the hiring manager. At smaller companies, the boundary between these functions may not be as clear and concise. 
+
+In summary: 
+
+|      |                Application Type                |                ATS                | Interviews |
+| :--- | :--------------------------------------------: | :-------------------------------: | ---------: |
+| 1    |         "my dad's a director" nepotism         |                No                 |         No |
+| 2    | Resume and pitch directly to manager/recruiter |                No                 |        Yes |
+| 3    |  Resume directly to hiring manager/recruiter   |                No                 |        Yes |
+| 4    |       Referral to general applicant pool       | Yes, but may be different than #5 |        Yes |
+| 5    |                Cold application                |                Yes                |        Yes |
