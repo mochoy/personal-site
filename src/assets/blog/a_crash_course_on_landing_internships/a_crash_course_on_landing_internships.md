@@ -53,6 +53,8 @@ The difference is that for 2, you actually have the opportunity to pitch yoursel
 
 Usually, getting your application to the hiring manager is stronger than the recruiter because the hiring manager is the person directly hiring you, while the recruiter is often the filter between your application and the hiring manager. At smaller companies, the boundary between these functions may not be as clear and concise. 
 
+### Referral Pools
+
 Some referrals forward your application directly to the hiring manager/recruiter, while others place you in a prioritized application pool. The degree of this prioritization may vary between companies and it's something I don't have too much direct insight into. Sometimes, this priortized pool may still be subject to some ATS filtering. Other times, they're genuinely reviewed and vastly increase your chances of moving forward. Either way, they're greatly preferred over cold applications. 
 In summary: 
 
