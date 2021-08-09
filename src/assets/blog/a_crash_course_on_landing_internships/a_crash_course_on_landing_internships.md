@@ -56,6 +56,8 @@ Usually, getting your application to the hiring manager is stronger than the rec
 ### Referral Pools
 
 Some referrals forward your application directly to the hiring manager/recruiter, while others place you in a prioritized application pool. The degree of this prioritization may vary between companies and it's something I don't have too much direct insight into. Sometimes, this priortized pool may still be subject to some ATS filtering. Other times, they're genuinely reviewed and vastly increase your chances of moving forward. Either way, they're greatly preferred over cold applications. 
+
+### Cold Applications
 In summary: 
 
 |      |                Application Type                |                ATS                | Interviews |
