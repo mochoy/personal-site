@@ -58,6 +58,10 @@ Usually, getting your application to the hiring manager is stronger than the rec
 Some referrals forward your application directly to the hiring manager/recruiter, while others place you in a prioritized application pool. The degree of this prioritization may vary between companies and it's something I don't have too much direct insight into. Sometimes, this priortized pool may still be subject to some ATS filtering. Other times, they're genuinely reviewed and vastly increase your chances of moving forward. Either way, they're greatly preferred over cold applications. 
 
 ### Cold Applications
+
+"Cold applying" is when you just apply online with no connections, referrals, or anything. Most applications are submitted this way and it's of course the weakest application. Cold applications may never be seen by a real person and are subject to ATS filtering. If your application doesn't hit the right keywords, your GPA is too low, you're just a freshman, etc. the ATS filtering can detect this and instantly reject you. You may have cured cancer from the womb, but since you got filtered out by the ATS, no human will ever know that, and you just get rejected. That's why getting your resume seen by a real person is so important, because a vast majority of applications never receive any form of human contact. 
+
+
 In summary: 
 
 |      |                Application Type                |                ATS                | Interviews |
