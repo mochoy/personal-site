@@ -45,6 +45,8 @@ Applying is the process of getting your resume/application to the company and no
 
 These are the main forms of applying I've encountered (well all except for 1). I mean is an application really required at that point? If exploited properly, this can land you an offer without any interviews or other overhead, since many other forms of nepotism or networking require that you display something more than hereditary luck. 
 
+### Direct Applications
+
 2 - Resume and pitch directly to hiring manager and 3 - Resume directly to recruiter are pretty similar but with a small nuance between them. They both can be achieved through career fair/networking event, referral, or networking and typically require some sort of interview(s) to display your skillset. They're both also much stronger than cold applying online because they bypass the ATS. 
 
 The difference is that for 2, you actually have the opportunity to pitch yourself and talk to the hiring manager/recruiter. Your resume obviously doesn't capture everything about you, so being able to pitch yourself is extremely powerful to go beyond the resume. The hiring manager/recruiter will get a better gauge of who you are and may even skip some interviews as a result! 
