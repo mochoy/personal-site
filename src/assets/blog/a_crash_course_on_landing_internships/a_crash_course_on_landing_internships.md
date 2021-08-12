@@ -76,3 +76,6 @@ In summary:
 | 5    |                Cold application                |                Yes                |        Yes |
 
 Also remember that every company may do things a bit differently. At some companies, thid might not be the exact order with the exact process, this is just a generalizion of my analyis of what I've seen. 
+
+## The Application Methodology
+
