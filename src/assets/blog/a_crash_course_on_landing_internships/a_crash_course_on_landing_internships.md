@@ -79,3 +79,6 @@ Also remember that every company may do things a bit differently. At some compan
 
 ## The Application Methodology
 
+
+
+## Quality or Quantity? 
