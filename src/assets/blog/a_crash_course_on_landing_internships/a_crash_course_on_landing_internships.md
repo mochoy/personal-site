@@ -82,3 +82,7 @@ Also remember that every company may do things a bit differently. At some compan
 
 
 ## Quality or Quantity? 
+
+
+
+## The Application Timeline
