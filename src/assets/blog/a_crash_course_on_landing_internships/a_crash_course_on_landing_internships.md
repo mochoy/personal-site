@@ -69,13 +69,14 @@ Companies may also have their own way of priortizing applications. Sometimes, th
 
 In summary: 
 
-|      |                Application Type                |                ATS                | Interviews |
-| :--- | :--------------------------------------------: | :-------------------------------: | ---------: |
-| 1    |         "my dad's a director" nepotism         |                No                 |         No |
-| 2    | Resume and pitch directly to manager/recruiter |                No                 |        Yes |
-| 3    |  Resume directly to hiring manager/recruiter   |                No                 |        Yes |
-| 4    |       Referral to general applicant pool       | Yes, but may be different than #5 |        Yes |
-| 5    |                Cold application                |                Yes                |        Yes |
+|      |                Application Type                |  ATS  | Interviews |
+| :--- | :--------------------------------------------: | :---: | ---------: |
+| 1    |         "my dad's a director" nepotism         |  No   |         No |
+| 2    | Resume and pitch directly to manager/recruiter |  No   |        Yes |
+| 3    |  Resume directly to hiring manager/recruiter   |  No   |        Yes |
+| 4    |       Referral to general applicant pool       | Maybe |        Yes |
+| 5    |                Cold application                |  Yes  |        Yes |
+| 6    |                Company-specific                | Maybe |      Maybe |
 
 Also remember that every company may do things a bit differently. At some companies, thid might not be the exact order with the exact process, this is just a generalizion of my analyis of what I've seen. 
 
