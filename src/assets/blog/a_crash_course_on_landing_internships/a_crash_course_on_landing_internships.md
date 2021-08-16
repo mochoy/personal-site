@@ -84,6 +84,7 @@ Also remember that every company may do things a bit differently. At some compan
 
 Your first internship is always the hardest, so unless you're *highly* skilled or something, it's more important to spam applications and see what sticks. You're at the bottom of the barrel in these situations and applications are always a crapshoot, which is why sheer volume is so important. As an undergrad without any internships or notable experience, your resume probably looks 99% identical to others in a similar situation, which coincedenally happens to be like 90% of EE undergrads. 
 
+Once you gain more experience and become a more attactive candidate, you're better able to focus on more specific roles that match your interest and can slow down on the volume of applications.
 
 ## Quality or Quantity? 
 
