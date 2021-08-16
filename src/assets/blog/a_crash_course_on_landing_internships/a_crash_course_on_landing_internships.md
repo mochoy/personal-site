@@ -86,6 +86,7 @@ Your first internship is always the hardest, so unless you're *highly* skilled o
 
 Once you gain more experience and become a more attactive candidate, you're better able to focus on more specific roles that match your interest and can slow down on the volume of applications.
 
+Before proceding to the next paragraph, just take a guess - how many applications did I send out? How many interviews and offers did I get? The numbers may surprise you! (numbers are spelled out so you can't just cheat and read them in your periphery vision)
 ## Quality or Quantity? 
 
 
