@@ -65,6 +65,8 @@ Some referrals forward your application directly to the hiring manager/recruiter
 
 ### Company-Specific
 
+Companies may also have their own way of priortizing applications. Sometimes, they can bypass certain steps in the process, but it really depends. For example, Apple values returning interns so their applications get flagged in their ATS. This doesn't guaruntee an interview, but it is an advantage over regular applicants. 
+
 In summary: 
 
 |      |                Application Type                |                ATS                | Interviews |
