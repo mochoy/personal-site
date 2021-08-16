@@ -89,6 +89,12 @@ Once you gain more experience and become a more attactive candidate, you're bett
 Before proceding to the next paragraph, just take a guess - how many applications did I send out? How many interviews and offers did I get? The numbers may surprise you! (numbers are spelled out so you can't just cheat and read them in your periphery vision)
 
 For numbers, I sent out ~five hundred and twenty applications in my summer 2021 internship search, with only thirty companies giving me interviews and landing only twelve offers. I have an interview rate of ~6% and an offer rate of ~2%, and that was with an 9-month co-op at Apple and a software internship at Microsoft under my belt, along with my own comapny and 30+ personal projects. Imagine how much more difficult it is for those with no internships and no projects, that's why spamming applications is so important! 
+
+|                    |  Qty  | Percentage |
+| :----------------- | :---: | ---------: |
+| Total Applications |  520  |        100 |
+| Interviews         |  32   |       6.15 |
+| Offers             |  12   |       2.31 |
 ## Quality or Quantity? 
 
 
