@@ -107,3 +107,7 @@ For numbers, I sent out ~five hundred and twenty applications in my summer 2021 
 
 
 ## Finding the Time
+
+
+
+## Blacklists
