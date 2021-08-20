@@ -28,6 +28,7 @@ I often like to mention money first because so many students (myself included!) 
 
 - $8500/mo (~$53/hr) salary
 - $5000 signing bonus
+- $7000 housing stipend (post-tax)
 # 2. Pre-Application
 # 3. Your Application
 # 4. Applying
