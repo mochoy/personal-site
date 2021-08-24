@@ -121,3 +121,6 @@ For numbers, I sent out ~five hundred and twenty applications in my summer 2021 
 
 
 # 5. That awkward time between applications and interviews
+
+# 6. Interviews
+
