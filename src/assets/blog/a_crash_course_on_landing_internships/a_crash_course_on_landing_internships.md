@@ -124,3 +124,6 @@ For numbers, I sent out ~five hundred and twenty applications in my summer 2021 
 
 # 6. Interviews
 
+
+
+# 7. The Offer!
