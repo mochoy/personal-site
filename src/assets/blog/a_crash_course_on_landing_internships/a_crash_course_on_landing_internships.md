@@ -127,3 +127,5 @@ For numbers, I sent out ~five hundred and twenty applications in my summer 2021 
 
 
 # 7. The Offer!
+
+# 8. CLosing
