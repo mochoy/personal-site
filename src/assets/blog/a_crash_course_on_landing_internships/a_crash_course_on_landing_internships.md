@@ -36,6 +36,7 @@ All in all, that's $39,000 for just one summer, which prorates to $156,000 for a
 
 
 People defs 
+- recruiter/technical recruiter, internal recruiter
 # 3. Your Application
 # 4. Applying
 
