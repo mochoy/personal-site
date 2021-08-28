@@ -33,6 +33,9 @@ I often like to mention money first because so many students (myself included!) 
 
 All in all, that's $39,000 for just one summer, which prorates to $156,000 for an entire year. Imagine how much crack you can buy with that!
 # 2. Pre-Application
+
+
+People defs 
 # 3. Your Application
 # 4. Applying
 
