@@ -104,6 +104,8 @@ For numbers, I sent out ~five hundred and twenty applications in my summer 2021 
 | Total Applications |  520  |        100 |
 | Interviews         |  32   |       6.15 |
 | Offers             |  12   |       2.31 |
+
+Target resumes for positions you like
 ## Quality or Quantity? 
 
 
