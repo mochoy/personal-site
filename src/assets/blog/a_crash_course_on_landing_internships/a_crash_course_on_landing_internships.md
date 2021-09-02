@@ -39,6 +39,8 @@ People defs
 - recruiter/technical recruiter, internal recruiter
 - hiring manager
 - hiring commitee 
+- Interviewers
+
 # 3. Your Application
 # 4. Applying
 
