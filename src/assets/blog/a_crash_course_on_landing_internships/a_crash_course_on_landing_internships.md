@@ -111,6 +111,9 @@ For numbers, I sent out ~five hundred and twenty applications in my summer 2021 
 Target resumes for positions you like
 
 Cover letter?
+
+Don't be afraid of prestigious companies
+
 ## Quality or Quantity? 
 
 
