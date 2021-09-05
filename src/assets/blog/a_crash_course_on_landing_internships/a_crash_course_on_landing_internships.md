@@ -119,6 +119,8 @@ Don't be afraid of prestigious companies
 
 
 ## It's a Crapshoot
+
+- don't stop applying 
 ## The Application Timeline
 
 
