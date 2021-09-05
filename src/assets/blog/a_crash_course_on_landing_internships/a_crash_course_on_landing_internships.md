@@ -121,6 +121,7 @@ Don't be afraid of prestigious companies
 ## It's a Crapshoot
 
 - don't stop applying 
+- chances are fuq'd 
 ## The Application Timeline
 
 
