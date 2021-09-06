@@ -122,6 +122,8 @@ Don't be afraid of prestigious companies
 
 - don't stop applying 
 - chances are fuq'd 
+- sometimes you luck out, sometimes you dont 
+
 ## The Application Timeline
 
 
