@@ -143,6 +143,9 @@ Don't be afraid of prestigious companies
 ## Tracking your Applications
 
 
+## Don't Reject Yourself
+
+
 # 5. That awkward time between applications and interviews
 
 # 6. Interviews
