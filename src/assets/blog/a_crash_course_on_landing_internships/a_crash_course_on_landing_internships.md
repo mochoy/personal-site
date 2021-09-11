@@ -157,3 +157,5 @@ Don't be afraid of prestigious companies
 # 8. CLosing
 
 # 8. Closing
+
+## Example Timelines
