@@ -163,3 +163,5 @@ Don't be afraid of prestigious companies
 
 
 # Appendix
+
+- ATS- Applicant Tracking System: Application tracking/managment software used by companies. 
