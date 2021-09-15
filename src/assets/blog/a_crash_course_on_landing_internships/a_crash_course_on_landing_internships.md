@@ -166,3 +166,4 @@ Don't be afraid of prestigious companies
 
 - ATS- Applicant Tracking System: Application tracking/managment software used by companies. 
 - CS - Computer Science
+- CE/CPE - Computer Engineering: Typically a mix of EE and CS, other schools may refer to this as EECS
