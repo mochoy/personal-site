@@ -169,3 +169,4 @@ Don't be afraid of prestigious companies
 - CE/CPE - Computer Engineering: Typically a mix of EE and CS, other schools may refer to this as EECS
 - ECE - Electrical and Computer Engineering
 - EE - Electrical Engineer/Engineering
+- EECS - Electrical Enginering and Computer Science: Other schools may refer to this as CPE/CE
