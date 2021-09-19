@@ -170,3 +170,6 @@ Don't be afraid of prestigious companies
 - ECE - Electrical and Computer Engineering
 - EE - Electrical Engineer/Engineering
 - EECS - Electrical Enginering and Computer Science: Other schools may refer to this as CPE/CE
+- SWE/SW - Software Engineer(ing)/Software
+
+
