@@ -28,15 +28,15 @@ const About = props => {
             </p>
 
             <p>
-              On the hardware side, I did a 9-month hardware engineering co-op at Apple and I run Suild. I do DC-DC power electronics, high-speed digital design, MCUs, embedded systems hardware, PCB layout and design, motor and solenoid drives, electronics manufacturing and testing, computer organization, and SoC platform architecture.
+              On the hardware side, I did a two hardware engineering internships at Apple and I run Suild. I do DC-DC power electronics, high-speed  design, MCUs, embedded systems hardware, PCB layout and design, motor and solenoid drives, electronics manufacturing and testing, computer organization, and SoC platform architecture.
             </p>
 
             <p>
-              On the software side, I'm currently doing a software engineering internship at Microsoft. I do full-stack web development with the MERN stack, firmware, and embedded systems software. I've also dabbled with game development, Android development, machine learning, cloud development, and computer vision.
+              On the software side, I'm did a software engineering internship at Microsoft. I do full-stack web development with the MERN stack, firmware, and embedded systems software. I've also dabbled with game development, Android development, machine learning, cloud development, and computer vision.
             </p>
 
             <p>
-              In my free time, in addition to coding and electronics, I like to breakdance (working on Halos and headspins), modify Nerf guns (Stryfe is my favorite), and play board games (Dominion and Grifters are my favorites) and Yu-Gi-Oh (I run Agents link spam + Krystia turbo).
+              In my free time, in addition to coding and electronics, I like to breakdance (working on Halos and headspins), modify Nerf guns (Stryfe is my favorite), and play board games (Dominion and Grifters are my favorites), Yu-Gi-Oh (I run Agents link spam + Krystia turbo), and Call of Duty Mobile (Top 64 in North America).
             </p>
           </div>
 
