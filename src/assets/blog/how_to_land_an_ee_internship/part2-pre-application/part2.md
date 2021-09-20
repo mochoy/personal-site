@@ -239,6 +239,8 @@ Often times with networking, this isn't the case. You can get immediate feedback
 
 ## Reciprocity
 
+# People Involved in the Process
+
 
 # What's Next
 
