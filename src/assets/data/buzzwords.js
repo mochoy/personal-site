@@ -25,7 +25,7 @@ const buzzwords = {
       rating: 4.5
     },
     {
-      name: "High-Speed Digital Design",
+      name: "High-Speed Design",
       rating: 4.4
     }
   ],

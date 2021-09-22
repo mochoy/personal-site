@@ -5,7 +5,7 @@ const howToLandAnEEInternshipPart3 = {
   isPreview: true,
   date: "???",
   title: "How to Land an Electrical Engineering Internship Part 3: Your Application",
-  filePath: "how_to_land_an_ee_internship/part3",
+  filePath: "how_to_land_an_ee_internship/part3-your_application",
   postFile: part3
 };
 
