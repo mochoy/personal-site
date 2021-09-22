@@ -53,6 +53,8 @@ If you've skipped everything, I guess here's a quick tl;dr of the main points
 - Stay determined! 
 
 # Understanding Rejections
+
+- when you get rejected matters
 # Example Processes
 # Final Thoughts
 
