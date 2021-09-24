@@ -55,6 +55,8 @@ If you've skipped everything, I guess here's a quick tl;dr of the main points
 # Understanding Rejections
 
 - when you get rejected matters
+- after applying with no interviews vs first round interview vs later interviews
+
 # Example Processes
 # Final Thoughts
 
