@@ -67,6 +67,8 @@ the total amount of money you're making, including stock, signing/starting bonus
 - espp 
   - stay long
   - not always available 
+  - how does it work?
+
 
 ## Tax
 
