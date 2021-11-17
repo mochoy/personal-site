@@ -154,7 +154,8 @@ Don't be afraid of prestigious companies
 
 # 7. The Offer!
 
-# 8. CLosing
+This is the moment we've all worked so hard for. 
+
 
 # 8. Closing
 
