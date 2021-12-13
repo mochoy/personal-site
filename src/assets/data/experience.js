@@ -1,5 +1,12 @@
 const experience = [
   {
+    company: "Apple",
+    title: "Electrical Engineering Intern - PMIC/PMU Post-Silicon Validation",
+    location: "Cupertino, CA",
+    date: "Jun 2021 - Sept 2021",
+    content: "I worked on the power electronics side of Apple Silicon "
+  },
+  {
     company: "Microsoft",
     title: "Software Engineering Intern - Surface Duo Firmware",
     location: "Sunnyvale, CA (Remote)",

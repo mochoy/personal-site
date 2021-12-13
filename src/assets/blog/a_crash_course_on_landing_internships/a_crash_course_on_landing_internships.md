@@ -32,6 +32,8 @@ I often like to mention money first because so many students (myself included!) 
 - $1500 transportation + relocation stipend
 
 All in all, that's $39,000 for just one summer, which prorates to $156,000 for an entire year. Imagine how much crack you can buy with that!
+
+
 # 2. Pre-Application
 
 
@@ -42,6 +44,8 @@ People defs
 - Interviewers
 
 # 3. Your Application
+
+
 # 4. Applying
 
 Applying is the process of getting your resume/application to the company and not all applications are treated equally. There's a hierarchy of how you send out your applications. 
@@ -147,6 +151,14 @@ Don't be afraid of prestigious companies
 
 
 # 5. That awkward time between applications and interviews
+
+After sending out applications, you usually won't hear back immediately. Sometimes you do when you get immediately auto-rejected by the ATS, but usually there are a few steps to take upon getting rejected or before your first interviews. This part is usually left out of many other writeups because it's usually the most straightforward part of the process. As a result, I won't go as much in depth in this section, but I still want to shed some light since for many first-timers, this part can be a bit intimidating and I can emphathize with those feelings. 
+
+
+Interview
+
+Rejected
+
 
 # 6. Interviews
 

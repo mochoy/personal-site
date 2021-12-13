@@ -45,6 +45,8 @@ get resume instantly past ATS:
 - direct referal 
 - pool referral 
 - career fair 
+- 
+
 # Apply Everywhere!
 
 - customized emails 

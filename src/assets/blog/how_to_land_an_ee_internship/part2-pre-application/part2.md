@@ -189,7 +189,18 @@ That's of course obvious, I think everyone should be kind and respectful to be a
 Even if I failed the interviews the first time because I lacked technical skills, they know that students can improve a lot in just a few months, so it would've been possible for me to nail the interviews the second time around. If the recruiter liked me as an applicant, it's much easier for him to send me right to the interviews than it is to source a brand new candidate since I was already in the system and they were familiar with me. 
 
 Also, it's important to put out your best work even when it doesn't feel "necessary". I had other interviews and offers at top companies, so I wasn't to worried about the iPhone opportunity in particular. But even if I wasn't too worried, that wasn't an excuse for me to BS my way through the application process because that could reflect on me poorly. If I was lazy or uninspired, the recruiter might not have been incentivized to help me out later down the line. I often hear people saying stuff like "oh I already have an offer at X Company, so I'll just BS my way through the interview with Y Company tomorrow". The application process only captures a small glimpse of who you are, so you better make sure that small glimpse captures the best of you, becuase when you BS your way through stuff, that's not going to be the case. If you BS your way through Y Company and they can smell it, they may not be as quick to help you down the line. 
+
+
+
+
+Networking opportunities often converge with other parts of the application process. Some are more intentional, like that Microsoft info workshop, but other times, it's inevitable. By going through the application process, you'll inevitably work with recruiters, hiring managers, and interviewers, all of which can be used to expand your network. Recruiters are the easiest, since you interact with them most throughout the entire application process and it's part of their job to walk you through it. 
+
 ### Northrop Grumman
+
+At another on-campus event (you see how important these on-campus events are now?), Northrop Grumman came with a few engineers and other employees to talk about the type of work they do and maybe a bit about their internship experience. At the end, they opened up the floor to take questions, so students lined up behind their employee of interest. Some had lines and took questions one student at a time, while others had a group conversation with students circled around them. 
+
+
+
 ## How do I do it? 
 
 - networking helps to get foot in the door, but you usually can't be an idiot 
@@ -199,6 +210,7 @@ Also, it's important to put out your best work even when it doesn't feel "necess
 - Networking events
 - Career fair and stuff will be talked about later
 - Nepotism
+- Reach out, the worst they can do is ignre you, they're not going to blacklist you LOL
 
 ## Reaching out to ppl
 
@@ -250,6 +262,7 @@ This is a multi-part post, here are the other parts:
 2. Pre-Application (this one!): There are so many things to do before even sending out your first application
 3. Your Application: What your application needs and how can you stand out
 4. Applying: How to spam applications
-5. Interviews: Cracking the EE interview!
-6. The Offer!: Receiving an offer may not be the end yet
-7. Closing: Final and misc. thoughts
+5. That awkward time between applications and interviews: Scheduling interviews, dealing with recruiters, coordinating timelines, it's all here!
+6. Interviews: Cracking the EE interview!
+7. The Offer!: Receiving an offer may not be the end yet
+8. Closing: Final and misc. thoughts
