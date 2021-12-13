@@ -89,7 +89,7 @@ Explore intern compensation:
 - [Reddit](https://www.reddit.com/r/cscareerquestions/comments/kcthwn/official_salary_sharing_thread_for_interns/) [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/comments/isfzuz/official_salary_sharing_thread_for_interns/) [intern](https://www.reddit.com/r/cscareerquestions/comments/gufum4/official_salary_sharing_thread_for_interns_june/) [salary](https://www.reddit.com/r/cscareerquestions/comments/fc8cp9/official_salary_sharing_thread_for_interns_march/) [share](https://www.reddit.com/r/cscareerquestions/comments/e4ve4m/official_salary_sharing_thread_for_interns/) [threads](https://www.reddit.com/r/cscareerquestions/comments/cylp5r/official_salary_sharing_thread_for_interns/): Sweaty CS students on Reddit post their SWE internship offers. These figures are accurate for the most part. Again, these are SWE salaries to keep in mind the points above. 
 - Glassdoor: glassdoor is ok for internships, but it's absolutely terrible for full-time engineers (FTE) because it fails to capture other components of compensation. I only use Glassdoor as a last resort.
 
-And you think interns get paid a lot - now imagine the FTEs. Of course FTEs get paid more, there are plenty of $200k+ TC packages for new grad (NG) FTEs and it's going to be these internships that make you a competitive application and achieve these compensation figures. I won't drop any FTE numbers here, but check out the [levels.fyi data on it](https://www.levels.fyi/comp.html?track=Hardware%20Engineer). 
+And you think interns get paid a lot - now imagine the FTEs. Of course FTEs get paid more, there are plenty of $200k+ total compensation (TC) packages for new grad (NG) FTEs and it's going to be these internships that make you a competitive application and achieve these compensation figures. I won't drop any FTE numbers here, but check out the [levels.fyi data on it](https://www.levels.fyi/comp.html?track=Hardware%20Engineer). 
 
 Here was a bit of info on compensation that was meant to entice you, but there's a dedicated section later on that goes more in-depth. 
 
@@ -294,6 +294,10 @@ For example, Microsoft hosts a few thousand interns over the summer, I've heard 
 In addition to retaining talent, these companies also want to train that talent. Remember how earlier, I mentioned that returning, trained interns progress their careers faster? Well this is also beneficial for not only the interns not also the companies as they get access to better trained, higher quality engineers that can come in and hit the ground running.
 
 Companies aren't spending tons of money for nothing, they themselves also realize the value of internship programs and compete against each other, millions of dollars at a time, for the top talent. In many cases, the relationship between the company and the employee is very much symbiotic. The company knows that it's nothing without the employees and companies are smart enough to realize the value of highly skilled employees. Internships programs are a way to support that initiative, companies are smart enough to realize that a "small" investment in interns pays off many times over in the long run. 
+
+# How Do I Get Started? 
+
+- "just do it" 
 
 # What's Next
 
