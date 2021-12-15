@@ -4,7 +4,7 @@ const experience = [
     title: "Electrical Engineering Intern - PMIC/PMU Post-Silicon Validation",
     location: "Cupertino, CA",
     date: "Jun 2021 - Sept 2021",
-    content: "I worked on the power electronics side of Apple Silicon "
+    content: "I worked on the power electronics side of Apple Silicon to develop an end-to-end automated validation and characterization methodology on multiphase buck converters that simulates the dynamic, random, and high di/dt SoC behavior."
   },
   {
     company: "Microsoft",
