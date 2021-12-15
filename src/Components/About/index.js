@@ -32,7 +32,7 @@ const About = props => {
             </p>
 
             <p>
-              On the software side, I'm did a software engineering internship at Microsoft. I do full-stack web development with the MERN stack, firmware, and embedded systems software. I've also dabbled with game development, Android development, machine learning, cloud development, and computer vision.
+              On the software side, I did a software engineering internship at Microsoft. I do full-stack web development with the MERN stack, firmware, and embedded systems software. I've also dabbled with game development, Android development, machine learning, cloud development, and computer vision.
             </p>
 
             <p>
