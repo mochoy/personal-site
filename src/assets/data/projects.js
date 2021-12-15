@@ -1,5 +1,35 @@
 const projects = [
   {
+    title: "Digital Multimeter",
+    date: "December 2021",
+    event: "Cal Poly EE329 - MCU-Based System Design",
+    img: "dmm.png",
+    description: "DMM implemented on STM32 and CLI to measure AC frequency, RMS voltage, peak-to-peak voltage, and DC voltage of signal frequencies up to 40kHz with 25mV voltage accuracy and 1Hz frequency accuracy.",
+    isFeatured: false,
+    links: {},
+    categories: ["Software", "Hardware"]
+  },
+  {
+    title: "Function Generator",
+    date: "October 2021",
+    event: "Cal Poly EE329 - MCU-Based System Design",
+    img: "function_generator.png",
+    description: "Function generator implemented on STM32 to output periodic square, sine, sawtooth, and triangle waveforms of variable frequency, voltage swing, and duty cycle.",
+    isFeatured: false,
+    links: {},
+    categories: ["Software", "Hardware"]
+  },
+  {
+    title: "Digital Lockbox",
+    date: "October 2021",
+    event: "Cal Poly EE329 - MCU-Based System Design",
+    img: "digital_lockbox.png",
+    description: "Digital lockbox implemented on STM32 with keypad and LCD interface. Supports locking/unlocking and password reprogramming.",
+    isFeatured: false,
+    links: {},
+    categories: ["Software", "Hardware"]
+  },
+  {
     title: "APRS-IS Parser",
     date: "April 2021 - June 2021",
     event: "Cal Poly EE271 - Intro to C Programming",

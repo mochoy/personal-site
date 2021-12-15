@@ -148,6 +148,8 @@ In my experience, I noticed that my SWE internship wasn't being mentioned as muc
 
 ## Applicant Tracking System (ATS) Optimization
 
+- can be amazing application, but if can't get passed ATS, it doesnt matter
+
 Many larger companies simply receive too many applications to read and manage each one, so they use Application Tracking Systems (ATS). ATS can parse your resume to look for keywords, for example, and see if you meet some sort of bar there. If you indicated that you're not a US citizen for a defense role, there's a good chance the ATS will auto-reject you. 
 
 ATSs are necessary for big companies like Google and Apple who receive a few million applications every year for only a couple thousand spots, so it definitely makes sense to have that process be automated. ATSs may not be as much a concern with smaller companies, though I don't have too much legitimate data to back that up. I think some recruiting software like Lever do have some ATS capabilities and Lever is often used by smaller companies as well.

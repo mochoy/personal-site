@@ -89,7 +89,7 @@ Explore intern compensation:
 - [Reddit](https://www.reddit.com/r/cscareerquestions/comments/kcthwn/official_salary_sharing_thread_for_interns/) [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/comments/isfzuz/official_salary_sharing_thread_for_interns/) [intern](https://www.reddit.com/r/cscareerquestions/comments/gufum4/official_salary_sharing_thread_for_interns_june/) [salary](https://www.reddit.com/r/cscareerquestions/comments/fc8cp9/official_salary_sharing_thread_for_interns_march/) [share](https://www.reddit.com/r/cscareerquestions/comments/e4ve4m/official_salary_sharing_thread_for_interns/) [threads](https://www.reddit.com/r/cscareerquestions/comments/cylp5r/official_salary_sharing_thread_for_interns/): Sweaty CS students on Reddit post their SWE internship offers. These figures are accurate for the most part. Again, these are SWE salaries to keep in mind the points above. 
 - Glassdoor: glassdoor is ok for internships, but it's absolutely terrible for full-time engineers (FTE) because it fails to capture other components of compensation. I only use Glassdoor as a last resort.
 
-And you think interns get paid a lot - now imagine the FTEs. Of course FTEs get paid more, there are plenty of $200k+ TC packages for new grad (NG) FTEs and it's going to be these internships that make you a competitive application and achieve these compensation figures. I won't drop any FTE numbers here, but check out the [levels.fyi data on it](https://www.levels.fyi/comp.html?track=Hardware%20Engineer). 
+And you think interns get paid a lot - now imagine the FTEs. Of course FTEs get paid more, there are plenty of $200k+ total compensation (TC) packages for new grad (NG) FTEs and it's going to be these internships that make you a competitive application and achieve these compensation figures. I won't drop any FTE numbers here, but check out the [levels.fyi data on it](https://www.levels.fyi/comp.html?track=Hardware%20Engineer). 
 
 Here was a bit of info on compensation that was meant to entice you, but there's a dedicated section later on that goes more in-depth. 
 
@@ -295,6 +295,10 @@ In addition to retaining talent, these companies also want to train that talent.
 
 Companies aren't spending tons of money for nothing, they themselves also realize the value of internship programs and compete against each other, millions of dollars at a time, for the top talent. In many cases, the relationship between the company and the employee is very much symbiotic. The company knows that it's nothing without the employees and companies are smart enough to realize the value of highly skilled employees. Internships programs are a way to support that initiative, companies are smart enough to realize that a "small" investment in interns pays off many times over in the long run. 
 
+# How Do I Get Started? 
+
+- "just do it" 
+
 # What's Next
 
 This is a multi-part post, here are the other parts:
@@ -307,3 +311,21 @@ This is a multi-part post, here are the other parts:
 6. Interviews: Cracking the EE interview!
 7. The Offer!: Receiving an offer may not be the end yet
 8. Closing: Final and misc. thoughts
+
+# Appendix
+
+- AFUNGALMASS - Yet another acronym for top tech companies: Amazon, Facebook, Uber, Netflix, Google, Apple, Lyft, Microsoft, AirBnB, Stripe, Snap. Techies are obsessed with "top companies" and "tiers" and try to cram more and more companies into the "top tier" by appending random letters to the end of FAANG like this: FAANGTLLAUMSDRDR (Facebook, Amazon, Apple, Netflix, Google, Twitter, Lyft, LinkedIn, AirBnB, Uber, Microsoft, Snap, Datadog, Roblox, Doordash, Robinhood) and it's basically a meme, hence "a fungal mass". This is the term I use the most.
+- Big N - Another reference to the same top tech companies: Yes those techies need this many ways to refer to the same few companies. Big N is wider and more flexible in that the companies aren't "hardcoded" in a pronouncable acronym.
+- CS - Computer Science
+- CE/CPE - Computer Engineering: Typically a mix of EE and CS, other schools may refer to this as EECS
+- ECE - Electrical and Computer Engineering
+- EE - Electrical Engineer/Engineering
+- EECS - Electrical Enginering and Computer Science: Other schools may refer to this as CPE/CE
+- FAANG - Acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google. This term originates from finance that captured the fastest growing stocks at the time and just found its way over to tech. It also represents other top-paying tech companies because no one wants to memorize a voltaile achronym that changes three times a day.
+- FAANGMULAS - Another acronym for top tech companies: Facebook, Apple, Amazon, Netflix, Google, Microsoft, Uber, Lyft, Stripe.
+- FTE/FT - Full-Time Engineer/Full-Time
+- HWE/HW - Hardware Engineer/Hardware: Can refer to EEs or MEs and EEs, but I use it here to mean EE
+- NG - New Grad: A recent grad/soon to graduate. The hiring process is typically handled by the same group of people that handle intern hiring, university relations (UR).
+- SV - Silicon Valley: The geographical area around the San Francisco Bay Area in California. Home to a ton of tech companies and this area in general for other companies typically offers the highest TC to compensate for the expensive CoL.
+- SWE/SW - Software Engineer(ing)/Software
+- [TC - Total Compensation](https://www.levels.fyi/blog/what-is-total-compensation.html): The total amount of money you're making, including stock, signing/starting bonuses, relocation, and other bonuses.

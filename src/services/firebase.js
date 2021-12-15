@@ -5,6 +5,9 @@ import 'firebase/database';
 
 
 // Get config info here: https://firebase.google.com/docs/web/setup#add_firebase_to_your_app
+// Or in the fb console, go to "Project settings" and scroll down to "Your apps"
+// section
+// https://firebase.google.com/docs/projects/api-keys
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
