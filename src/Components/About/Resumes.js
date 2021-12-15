@@ -2,23 +2,22 @@ import React, { useContext } from 'react';
 
 import { ReactGACtx } from '../App';
 
-import hweResumePdf from '../../assets/documents/Resume Monty Choy - Electrical Engineering.pdf';
-import sweResumePdf from '../../assets/documents/Resume Monty Choy - Software Engineering.pdf';
-import everythingResumePdf from '../../assets/documents/Resume Monty Choy - Everything.pdf';
+import resumePdf from '../../assets/documents/Resume Monty Choy - Electrical Engineering Personal Website.pdf';
+
 
 const resumesData = [
   {
-    resume: hweResumePdf,
-    name: "Hardware/ Electrical Engineering"
+    resume: resumePdf,
+    name: "Resume"
   },
   // {
   //   resume: hweResumePdf,
   //   name: "Electrical Engineering - IC Design/ Verification"
   // },
-  {
-    resume: sweResumePdf,
-    name: "Software Engineering"
-  },
+  // {
+  //   resume: sweResumePdf,
+  //   name: "Software Engineering"
+  // },
   // {
   //   resume: hweResumePdf,
   //   name: "Software Engineering - Web Development"
@@ -27,10 +26,10 @@ const resumesData = [
   //   resume: hweResumePdf,
   //   name: "Software Engineering - Embedded Systems"
   // },
-  {
-    resume: everythingResumePdf,
-    name: "'Everything'"
-  }
+  // {
+  //   resume: everythingResumePdf,
+  //   name: "'Everything'"
+  // }
 ]
 
 const Resumes = props => {
