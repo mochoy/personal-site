@@ -21,7 +21,7 @@ const experience = [
     title: "Hardware Engineering Intern - Apple TV Hardware Engineering",
     location: "Cupertino, CA",
     date: "Jan 2019 - Sept 2019 (9 months)",
-    content: "I did a 9-month hardware engineering co-op on the Apple TV and Apple TV Remote. I experienced Apple's hardware product design, testing, and manufacturing methodologies and how that all comes together to make amazing products. I most enjoyed exploring behind the scenes on Apple's custom SoCs, DC-DC buck converters, especially on Apple's custom PMUs, and high-speed digital design and communication on HDMI, specifically the PHYs."
+    content: "I did a 9-month hardware engineering co-op on the Apple TV and Apple TV Remote. I experienced Apple's hardware product design, testing, and manufacturing methodologies and how that all comes together to make amazing products."
     // [
     //   "Designed electrical, mechanical, & software system to characterize IR performance",
     //   "Developed embedded firmware abstraction layer on STM32F1 MCU for closed-loop motor control, LCD driver, sensor/peripheral control, & I2C & UART communication",
@@ -37,7 +37,7 @@ const experience = [
     title: "CEO",
     location: "San Francisco, CA",
     date: "Feb 2018 - Jul 2020",
-    content: "I ran a small business to design, manufacture, and sell PCB-based electronics products for modified Nerf blasters. Shipped over 1,000 units to over 10 countries totalling over $15,000 in revenue. The products were typically MOSFET-based LiPo-powered inductive drives with additional functionally enabled by digital electronics and/or embedded systems. I also developed the website which receives over 30,000 annual sessions. The website hosts a webstore, technical documentation, and interactive applications."
+    content: "I ran a small business to design, manufacture, and sell PCB-based electronics products for modified Nerf blasters. Shipped over 1,000 units to over 10 countries totalling over $15,000 in revenue. I also developed the website which receives over 30,000 annual sessions. The website hosts a webstore, technical documentation, and interactive applications."
     
     // [
     //   "Shipped 1k+ units to 10+ countries on webstore with 30k+ annual sessions & $15k+ revenue",
