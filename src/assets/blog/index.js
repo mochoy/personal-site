@@ -18,11 +18,11 @@ import aCrashCourseOnLandingInternships from './a_crash_course_on_landing_intern
 
 // Array of all posts before fetching and parsing the markdown file
 const posts = [
-  aCrashCourseOnLandingInternships,
+  // aCrashCourseOnLandingInternships,
   remote_microsoft_internship,
   howToLandAnEEInternshipPart1,
-  howToLandAnEEInternshipPart2,
-  howToLandAnEEInternshipPart3,
+  // howToLandAnEEInternshipPart2,
+  // howToLandAnEEInternshipPart3,
   first_post
   
   // howToLandAnEEInternshipPart3,
