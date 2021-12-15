@@ -3,6 +3,9 @@ import ReactGA from 'react-ga';
 
 
 // Init React GA, called in app onComponentMount
+// The GA tracking id/REACT_APP_GA_KEY can be found here:
+// https://analytics.google.com/analytics/web/#/a128598718w187666651p184425591/admin/property/settings
+// Admin > Property Settings > Basic Settings > Tracking Id
 ReactGA.initGA = () => {
   ReactGA.initialize(process.env.REACT_APP_GA_KEY, {
     debug: false,       // Set to fale to disable logs
