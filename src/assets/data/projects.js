@@ -1,5 +1,15 @@
 const projects = [
   {
+    title: "Digital Multimeter",
+    date: "December 2021",
+    event: "Cal Poly EE329 - 	MCU-Based System Design",
+    img: "dmm.png",
+    description: "DMM implemented on STM32 and CLI to measure AC frequency, RMS voltage, peak-to-peak voltage, and DC voltage of signal frequencies up to 40kHz with 25mV voltage accuracy and 1Hz frequency accuracy.",
+    isFeatured: false,
+    links: {},
+    categories: ["Software", "Hardware"]
+  },
+  {
     title: "APRS-IS Parser",
     date: "April 2021 - June 2021",
     event: "Cal Poly EE271 - Intro to C Programming",
