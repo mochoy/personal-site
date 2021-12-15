@@ -24,7 +24,7 @@ const About = props => {
           {/* Text */}
           <div id="about-text-container">
             <p>
-              I'm Monty! I'm from San Francisco, CA and I'm currently studying electrical engineering at Cal Poly SLO. I've worked at Apple and Microsoft and I also run Suild. I've been coding for 9+ years and working with electronics for 5+ years.
+              I'm Monty! I'm from San Francisco, CA and I'm currently studying electrical engineering at Cal Poly SLO. I've worked at Apple twice and Microsoft and I also run Suild. I've been coding for 9+ years and working with electronics for 5+ years.
             </p>
 
             <p>
