@@ -220,11 +220,14 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 
 
 # Digital Logic
+- Do the K-map for this 
 
 # RTL
 
 # VLSI
 
+## Computer Architecture
+- Describe the five-stage pipeline.
 
 # Transmission Lines/High-Speed Design
 
