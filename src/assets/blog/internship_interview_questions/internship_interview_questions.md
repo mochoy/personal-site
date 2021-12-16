@@ -169,6 +169,18 @@ Buck converter routing is in PCB Design/Layout section.
 # Embedded Systems
 
 ## Communication Buses
+A lot on GPIO design is very applicable, those are in the Analog Electronics section. 
+
+- What are the three common communication protocols?
+- How do they (I2C, SPI, UART) work? 
+- What's the difference between I2C and SPI? 
+- Which is faster? Why?
+
+### I2C
+- Why are pullups needed? How do you spec them? 
+- How do you increase rise time on I2C? 
+- Why would rise time be too slow on I2C?
+- If the logic low state of signal doesn't reach logic-low threshold of device, what could be happening? 
 
 # Digital Electronics
 
