@@ -9,5 +9,48 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - These questions are reflective of my skillset and strengths. I'm doing my undergrad at Cal Poly SLO, so everything is mostly focused on analog electronics and embedded systems. I'm pretty trash at digital stuff, so those sections will be lacking in comparison.
 - I take notes of almost every interview (which I'd recommend you do!) and every question they ask, so this post will just be a reflection of that content. 
 
+# Behavioral
+
+# Technical/Behavioral
+
+# System Architecture
+
+# Semiconductor Devices
+
+# Analog Circuits
+
+# Analog Electronics
+
+# Power Electronics
+
+## Buck Converters
+
+## Boost Converters
+
+## LDOs
+
+## Batteries
+
+## Inductive Loads (Motors/Solenoids)
+
+# PCB Design/Layout
+
+# Embedded Systems
+
+## Communication Buses
+
+# Digital Electronics
+
+# Digital Logic
+
+# RTL
+
+# VLSI
+
+
+# Transmission Lines/High-Speed Design
+
+# Misc.
+
 # Appendix
 - FTE/FT - Full-Time Engineer/Full-Time
