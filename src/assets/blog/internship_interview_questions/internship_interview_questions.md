@@ -64,6 +64,30 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - Internal body diode
 - Given Vgs and Vt, how will the FET behave?
 
+# Analog Circuits/Electronics
+
+## Logic Gates (Analog Perspective)
+- TTL vs CMOS? 
+- What's shoot-through on a CMOS logic gate? How can it be prevented?
+- CMOS efficiency analysis. How does operational frequency impact efficiency? What about logic/swing levels? Rise/fall times? 
+
+## Amplifiers
+- What determines slew rate and rise/fall time?
+- Pros/cons of fast/slow slew rates? 
+- How to bias an amplifer? 
+
+## ADC
+- How does an ADC work? 
+
+## DAC
+- How does a DAC work?
+
+## PLL
+
+- What can you use increase clock frequency? 
+- How does a PLL work? 
+- What happens if your PLL locks too fast or too slow? 
+
 # Power Electronics
 
 ## Buck Converters
