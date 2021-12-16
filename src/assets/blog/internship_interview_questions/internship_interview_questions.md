@@ -28,9 +28,41 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 
 # Semiconductor Devices
 
-# Analog Circuits
+- What's a depletion region and how does it form? 
+- What materials are typically used for semiconductors?
+- What is doping? 
+- How does doping improve performance? 
+- What elements are typically used for doping? 
+- Which charge carriers are more mobile - holes or electrons?
+- What's the difference between P-type semiconductors vs N-type semiconductors? 
+- Why do N-type semiconductors typically have lower resistance? 
 
-# Analog Electronics
+## Diodes
+
+- How does a diode work? 
+- What are the different kinds of diodes?
+- What's the typical forward voltage drop across a dioide? Why is it this value? 
+
+## BJTs
+
+- Draw a NPN/BJT symbol. 
+- What's the difference between a BJT and MOSFET? 
+- Draw IV curve.
+- How does it work?
+- What's the difference between an NPN and PNP?
+- What are the different modes of operation? 
+
+## FETs
+
+- Draw a PFET/NFET symbol. 
+- What's the difference between a BJT and MOSFET? 
+- Draw IV curve for MOSFET
+- How does it work?
+- What's the difference between an N-channel and P-channel?
+- What's the difference between enhancement-mode and dehancement mode? 
+- What are the different modes of operation? 
+- Internal body diode
+- Given Vgs and Vt, how will the FET behave?
 
 # Power Electronics
 
