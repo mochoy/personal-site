@@ -216,6 +216,9 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 
 # Digital Electronics
 
+## Logic Gates (Digital Perspective)
+
+
 # Digital Logic
 
 # RTL
