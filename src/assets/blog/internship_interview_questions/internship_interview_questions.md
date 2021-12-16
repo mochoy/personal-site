@@ -181,6 +181,17 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 - How do you increase rise time on I2C? 
 - Why would rise time be too slow on I2C?
 - If the logic low state of signal doesn't reach logic-low threshold of device, what could be happening? 
+- How many pins are needed? What if I have more slaves? 
+- How interface with slaves?
+- How many slaves can there be? 
+- Explain address/data frames. 
+- Explain NACK/ACK. 
+- Explain clock stretching. 
+
+### SPI
+- How many slaves can there be? 
+- How to interface with slaves? 
+- How does daisy-chaining work? 
 
 # Digital Electronics
 
