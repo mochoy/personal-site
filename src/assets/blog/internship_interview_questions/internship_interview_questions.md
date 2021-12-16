@@ -8,3 +8,6 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - These questions were for internships, but there's a lot of overlap with full-time (FT) interviews. In fact, I'm doing FT interviews at the time of writing this and they basically ask the same stuff. If the questions end up being super similar, I may just rename this post instead of making a new one. 
 - These questions are reflective of my skillset and strengths. I'm doing my undergrad at Cal Poly SLO, so everything is mostly focused on analog electronics and embedded systems. I'm pretty trash at digital stuff, so those sections will be lacking in comparison.
 - I take notes of almost every interview (which I'd recommend you do!) and every question they ask, so this post will just be a reflection of that content. 
+
+# Appendix
+- FTE/FT - Full-Time Engineer/Full-Time
