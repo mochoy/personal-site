@@ -157,6 +157,15 @@ Buck converter routing is in PCB Design/Layout section.
 
 # PCB Design/Layout
 
+- How to choose board stackup? 
+- What material would I want for conduction layers? 
+
+## Diff Pairs
+- What's a differential pair? 
+- How should it be routed? What are advantages/disadvantages? 
+- How does it improve noise immunity? 
+- When are they typically used? 
+
 # Embedded Systems
 
 ## Communication Buses
