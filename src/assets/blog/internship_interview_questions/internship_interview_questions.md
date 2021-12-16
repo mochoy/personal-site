@@ -89,16 +89,71 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - What happens if your PLL locks too fast or too slow? 
 
 # Power Electronics
+- What are some ways to increase/decrease voltage? What about for a power rail? 
+- What's the difference between a buck converter vs LDO? 
 
 ## Buck Converters
+Buck converter routing is in PCB Design/Layout section. 
+
+- How does a buck converter work? 
+- Explain synchronous rectification. What are its pros/cons? 
+- If the diode is replaced with an ideal diode, how does it impact performance? 
+- Design a circuit to properly drive a high-side NFET. 
+- How to measure output voltage? 
+- What is a feed-forward capacitor? 
+- What limits the switching frequency on the upper and lower ends? 
+- Why are buck converteres more efficient? 
+- What determines the output voltage?
+- How to calculate duty cycle?
+- What's the difference between discontinuous and continuous operation? 
+- NFET vs PFET for high-side FET? What are pros and cons? 
+
+### Efficiency and Ripple
+- How to size inductors/capacitors to meet ripple spec? 
+- Component-by-component analysis on efficiency and ripple impact. 
+- What are some ways to increase efficiency? 
+- What are some ways to decrease ripple?
+- How does switching frequency impact frequency/ripple?
+
+### PFM Operation
+- What can you do to increase efficiency at light loads? 
+- What's PFM? 
+- What's the difference between PFM and PWM? 
+
+### Controls/Stability
+- How do inductor/capacitor values impact stability? 
+- Explain different control schemes. 
+- What is slope compensation and when is it needed? 
+
+### Multiphase Buck Converters
+- What is a multiphase buck converter? 
+- How do they work and what challenges are presented? 
+- When should they be used?
+- How do they increase output current?
 
 ## Boost Converters
 
+- How does a boost converter work?
+
 ## LDOs
+
+- What does LDO stand for? 
+- How does an LDO work?
+
+## Charge Pumps
+
+- How does a charge pump work? 
+- Draw a circuit for a charge pump. 
+- What are they used for? 
+
 
 ## Batteries
 
 ## Inductive Loads (Motors/Solenoids)
+
+- Design a circuit to drive an inductive load from a microcontroller GPIO. 
+- What sort of protection circuitry do you need? 
+- Tradeoffs between different drive circuits: relay, MOSFET, BJT, etc. 
 
 # PCB Design/Layout
 
