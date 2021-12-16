@@ -203,6 +203,17 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 - How can I measure current? 
 - Probe input impedance - what should it be any why? 
 - When would I want different probe impedance? 
+
+# Signal Integrity/Power Integrity (SI/PI)
+
+## SI
+- How to characterize quality of a signal?
+- Explain ground bounce? 
+- What happens if signal rising edge is too slow? Too fast? 
+
+## PI
+- How to characterize quality of power supply? 
+
 # Digital Electronics
 
 # Digital Logic
