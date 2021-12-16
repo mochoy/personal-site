@@ -16,6 +16,16 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 
 # System Architecture
 
+# Basic Circuits
+
+- What's ohm law? (do people even get this wrong??)
+- What's the equation to find power? 
+- What's the voltage divider equation?
+- Basic RLC circuit analysis. 
+- Basic LPF/BPF/HPF filter analysis. 
+- Passive components' parastics. 
+- Basic op-amp circuit analysis. 
+
 # Semiconductor Devices
 
 # Analog Circuits
