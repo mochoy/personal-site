@@ -251,17 +251,6 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 - How to interface with slaves? 
 - How does daisy-chaining work? 
 
-# Measurement
-- What sample rate/bandwidth will I need to measure a signal? 
-- How should I measure X signal? 
-- What's a diff probe? When do I need it?
-- What's an active probe? When do I need it?
-- What does the 10x attenuation do on a probe?
-- How does an oscillicope work? 
-- How can I measure current? 
-- Probe input impedance - what should it be any why? 
-- When would I want different probe impedance? 
-
 # Signal Integrity/Power Integrity (SI/PI)
 
 ## SI
