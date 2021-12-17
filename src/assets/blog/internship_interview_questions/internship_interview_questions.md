@@ -310,6 +310,7 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 # Misc.
 
 # Appendix
+- CSA - Current Sense Amplifer
 - FTE/FT - Full-Time Engineer/Full-Time
 - SI/PI - Signal Integrity/Power Integrity
 - TL - Transmission Line
