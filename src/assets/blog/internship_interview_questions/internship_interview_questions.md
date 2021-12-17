@@ -197,12 +197,21 @@ Buck converter board routing is in PCB Design/Layout section.
 - How can you determine the state of charge? 
 
 ## Inductive Loads (Motors/Solenoids)
-
 - Design a circuit to drive an inductive load from a microcontroller GPIO. 
 - What sort of protection circuitry do you need? 
 - Tradeoffs between different drive circuits: relay, MOSFET, BJT, etc. 
 
-# PCB Design/Layout
+## Current Sensing
+- How to measure current?
+- What's the difference between high-side and low-side current sensing? What are the advantages/disadvantages of each? When do you need to use one vs the other? 
+- How can you use drain-source measurements of a MOSFET to determine current? What are the pros and cons of this setup? 
+- What's a kelvin connection for a sense resistor? 
+- How do you spec a current sense resistor? What happens if it's too big/small? 
+- What's a current sense amplifer (CSA)? 
+- When do you need a CSA? 
+- What's the difference between a CSA and a regular op-amp? 
+- How do you spec a CSA?
+- How does inductive/magnetic current sensing work? What are its pros and cons? 
 
 - How to choose board stackup? 
 - What material would I want for conduction layers? 
