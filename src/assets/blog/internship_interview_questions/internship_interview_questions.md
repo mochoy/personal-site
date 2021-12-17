@@ -165,22 +165,36 @@ Buck converter board routing is in PCB Design/Layout section.
 - How do they impact transient response? 
 
 ## Boost Converters
-
 - How does a boost converter work?
+- Why are they less efficient than buck converters? 
 
 ## LDOs
-
 - What does LDO stand for? 
 - How does an LDO work?
 
 ## Charge Pumps
-
 - How does a charge pump work? 
 - Draw a circuit for a charge pump. 
 - What are they used for? 
 
-
 ## Batteries
+- What are some common battery chemistries? 
+- How do you characterize a battery? 
+- What are some desirable characteristics in a battery?
+- How do you measure battery voltage/current? 
+- What do you have to monitor in a battery to ensure it's operating safely? 
+
+### LiPo
+- What is the common bettery chemistry used in rechargable consumer electronics? 
+- What is the typical cell voltage of a LiPo? What are its ranges and why? 
+- What happens when you overcharge the battery? 
+- Explain the LiPo discharge and charge curve. 
+- How do you charge a LiPo? What steps and precautions are needed?
+- What are the constant-current and constant-voltage procedures in the charge curve? 
+- When do LiPos charge fastest? 
+- How does temperature impact LiPo performance? 
+- What are some tradeoffs in a LiPo? 
+- How can you determine the state of charge? 
 
 ## Inductive Loads (Motors/Solenoids)
 
