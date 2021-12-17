@@ -279,6 +279,17 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 - What causes reflections? 
 - How can I control the characteristic impedance of a TL? 
 
+# Measurement
+- What sample rate/bandwidth will I need to measure a signal? 
+- How should I measure X signal? 
+- What's a diff probe? When do I need it?
+- What's an active probe? When do I need it?
+- What does the 10x attenuation do on a probe?
+- How does an oscillicope work? 
+- How can I measure current? 
+- Probe input impedance - what should it be any why? 
+- When would I want different probe impedance? 
+
 # Digital Electronics
 - How can you interface two devices with different logic levels? 
 - Design a level shifter. 
