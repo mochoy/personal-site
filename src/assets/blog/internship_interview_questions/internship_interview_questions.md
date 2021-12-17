@@ -11,7 +11,6 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - I try to include every question, no matter how dumb it may seem. What you might think is a dumb question may actually be a very good question for someone else to study. 
 
 # Basic Circuits
-
 - What's ohm law? (do people even get this wrong??)
 - What's the equation to find power? 
 - What's the voltage divider equation?
@@ -19,9 +18,9 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - Basic LPF/BPF/HPF filter analysis. 
 - Passive components' parastics. 
 - Basic op-amp circuit analysis. 
+- What happens when an inductor saturates? 
 
 # Semiconductor Devices
-
 - What's a depletion region and how does it form? 
 - What materials are typically used for semiconductors?
 - What is doping? 
@@ -32,13 +31,12 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - Why do N-type semiconductors typically have lower resistance? 
 
 ## Diodes
-
 - How does a diode work? 
 - What are the different kinds of diodes?
 - What's the typical forward voltage drop across a dioide? Why is it this value? 
+- How can you build an ideal diode? 
 
 ## BJTs
-
 - Draw a NPN/BJT symbol. 
 - What's the difference between a BJT and MOSFET? 
 - Draw IV curve.
@@ -47,7 +45,6 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - What are the different modes of operation? 
 
 ## FETs
-
 - Draw a PFET/NFET symbol. 
 - What's the difference between a BJT and MOSFET? 
 - Draw IV curve for MOSFET
