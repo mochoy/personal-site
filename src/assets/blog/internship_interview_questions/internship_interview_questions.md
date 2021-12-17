@@ -69,12 +69,15 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 
 ## ADC
 - How does an ADC work? 
+- How does a flash ADC work?
+- How does a SAR ADC work?
+- Design an ADC. 
 
 ## DAC
 - How does a DAC work?
+- Design a DAC. 
 
 ## PLL
-
 - What can you use increase clock frequency? 
 - How does a PLL work? 
 - What happens if your PLL locks too fast or too slow? 
