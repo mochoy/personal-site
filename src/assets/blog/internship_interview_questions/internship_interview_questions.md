@@ -10,12 +10,6 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - I take notes of almost every interview (which I'd recommend you do!) and every question they ask, so this post will just be a reflection of that content. 
 - I try to include every question, no matter how dumb it may seem. What you might think is a dumb question may actually be a very good question for someone else to study. 
 
-# Behavioral
-
-# Technical/Behavioral
-
-# System Architecture
-
 # Basic Circuits
 
 - What's ohm law? (do people even get this wrong??)
@@ -229,12 +223,11 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 ## Computer Architecture
 - Describe the five-stage pipeline.
 
-# Transmission Lines/High-Speed Design
-- When is transmission line (TL) analysis valid? 
-- What is characteristic impedance?
-- What are reflections? Why do I care about them? 
-- What causes reflections? 
-- How can I control the characteristic impedance of a TL? 
+# Behavioral
+
+# Technical/Behavioral
+
+# System Architecture
 
 # Misc.
 
