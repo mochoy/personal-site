@@ -85,18 +85,24 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 # Power Electronics
 - What are some ways to increase/decrease voltage? What about for a power rail? 
 - What's the difference between a buck converter vs LDO? 
+- Design a power supply. 
 
 ## Buck Converters
-Buck converter routing is in PCB Design/Layout section. 
+Buck converter board routing is in PCB Design/Layout section. 
 
 - How does a buck converter work? 
 - How to measure output voltage? 
 - What limits the switching frequency on the upper and lower ends? 
-- Why are buck converteres more efficient? 
+- Why are buck converters more efficient than LDOs? 
+- How does switching requency impact performance? 
 - What determines the output voltage?
 - How to calculate duty cycle?
 - What's the difference between discontinuous and continuous operation? 
 - NFET vs PFET for high-side FET? What are pros and cons? 
+- How do you validate/characterize a buck converter? What properties/behaviors do you look out for? 
+- How is the output voltage typically sensed? What network is typically used? 
+- How can the output current be sensed? 
+- Design a circuit to properly drive a high-side NFET. 
 
 ### Circuit Analysis
 - Why is the diode needed? What if it's removed? 
@@ -131,22 +137,32 @@ Buck converter routing is in PCB Design/Layout section.
 - What are some ways to increase efficiency? 
 - What are some ways to decrease ripple?
 - How does switching frequency impact frequency/ripple?
+- What components are most responsible for efficiency losses? 
+- Why should ripple be decreased? 
+- When does ripple not as matter as much? 
 
 ### PFM Operation
 - What can you do to increase efficiency at light loads? 
-- What's PFM? 
+- Explain PFM operation.
 - What's the difference between PFM and PWM? 
+- How does the ripple compare between PFM and PWM? 
+- What happens to the inductor current? 
+- Describe the charge/discharge cycle of inductor and capacitor. 
 
 ### Controls/Stability
 - How do inductor/capacitor values impact stability? 
-- Explain different control schemes. 
-- What is slope compensation and when is it needed? 
+- Explain different control topologies. 
+- What is slope compensation and when is it needed?
+- Explain subharmonic oscillation. 
+- How is transient response characterized?
+- What is a feed-forward capacitor? 
 
 ### Multiphase Buck Converters
 - What is a multiphase buck converter? 
 - How do they work and what challenges are presented? 
 - When should they be used?
 - How do they increase output current?
+- How do they impact transient response? 
 
 ## Boost Converters
 
