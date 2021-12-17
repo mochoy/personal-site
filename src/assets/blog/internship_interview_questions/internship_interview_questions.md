@@ -272,6 +272,13 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 ## PI
 - How to characterize quality of power supply? 
 
+# Transmission Lines/High-Speed Design
+- When is transmission line (TL) analysis valid? 
+- What is characteristic impedance?
+- What are reflections? Why do I care about them? 
+- What causes reflections? 
+- How can I control the characteristic impedance of a TL? 
+
 # Digital Electronics
 
 ## Logic Gates (Digital Perspective)
