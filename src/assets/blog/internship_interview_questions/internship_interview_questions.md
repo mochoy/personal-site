@@ -280,12 +280,19 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 - How can I control the characteristic impedance of a TL? 
 
 # Digital Electronics
+- How can you interface two devices with different logic levels? 
+- Design a level shifter. 
+- Design a single-FET level shifter (passives are allowed).
 
 ## Logic Gates (Digital Perspective)
-
+- Draw a NOT/AND/etc gate symbol. 
+- Draw the truth table for NOT/AND/etc gate. 
+- What is the universal logic gate? 
 
 # Digital Logic
-- Do the K-map for this 
+- Do the K-map for a given truth table. 
+- What's an FSM? 
+- What's the difference between a Mealy and Moore FSM? 
 
 # RTL
 
