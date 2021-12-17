@@ -213,8 +213,10 @@ Buck converter board routing is in PCB Design/Layout section.
 - How do you spec a CSA?
 - How does inductive/magnetic current sensing work? What are its pros and cons? 
 
+# PCB Design/Layout
 - How to choose board stackup? 
 - What material would I want for conduction layers? 
+- Sense resistor routing
 
 ## Diff Pairs
 - What's a differential pair? 
