@@ -453,19 +453,31 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 
 # Digital
 I get so few digital questions (not including embedded systems) that I can group everything into one section. 
+
+- What's the difference between analog and digital? 
+
 ## Digital Electronics
 - How can you interface two devices with different logic levels? 
 - Design a level shifter. 
 - Design a single-FET level shifter (passives are allowed).
-
-## Logic Gates (Digital Perspective)
+- What are setup and hold times? What happens if they're violated? 
+- What's the difference between a flip-flop and latch? 
+- How does a flip flop/latch work? 
+- Design a memeory cell. 
+- Why are clocks needed? 
+- What happens if a clock is too fast?
+- What's a register?
+- What's metastability?
 
 ### Logic Gates (Digital Perspective)
 - Draw a NOT/AND/etc gate symbol. 
+- Draw a NOT/AND/etc gate from transistors. 
 - Draw the truth table for NOT/AND/etc gate. 
 - What is the universal logic gate? 
+- Convert some binary/hex/oct/decimal number to a different base. 
 
 ## Digital Logic
+- What is a truth table? 
 - Do the K-map for a given truth table. 
 - What's an FSM? 
 - What's the difference between a Mealy and Moore FSM? 
