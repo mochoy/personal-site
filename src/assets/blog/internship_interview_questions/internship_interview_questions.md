@@ -527,6 +527,8 @@ I'm trash at RTL lol
 
 # System Architecture
 
+# General Debug
+
 # Misc.
 
 # Appendix
