@@ -330,28 +330,32 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - Given a range of input currents, a sense resitor value, and ADC input voltage range, find an apporpriate CSA gain. 
 
 # PCB Design/Layout
-- How to choose board stackup? 
-- What material would I want for conduction layers? 
-- Sense resistor routing
+- What are some general rule of thumbs for board routing?
 
-## Diff Pairs
+## Stackup
+- What material would I want for conduction layers? 
+- How to choose how many layers for PCB? 
+- How to choose board stackup? 
+- What should be routed on each layer? What should be routed on inner layers vs top/bottom layer?
+
+## Diff Pairs (PCB Perspective)
+Diff paris from board layout/design perspective, as opposed to SI perspective. 
 - What's a differential pair? 
 - How should it be routed? What are advantages/disadvantages? 
 - How does it improve noise immunity? 
 - When are they typically used? 
 
-# Embedded Systems
+## Sense Restistor Layout/Routing
+- How do you route a current sense resitors? 
+- What's a kelvin connection for a sense resistor? What are the tradeoffs?
 
-## Communication Buses
-A lot on GPIO design is very applicable, those are in the Analog Electronics section. 
+## Power Supply Layout/Routing
+- How do you route decoupling vs bulk capacitors? 
 
-- What are the three common communication protocols?
-- How do they (I2C, SPI, UART) work? 
-- What's the difference between I2C and SPI? 
-- Which is faster? Why?
-
-### I2C
-- Why are pullups needed? How do you spec them? 
+## Manufacturing/Design for Manufacturing (DFM)
+- What's the difference between surface-mount and through-hole components? Any tradeoffs?
+- How can you design a PCB for manufacturing? 
+- What are a few test stations you would see on an electronics manufacturing/assembly line? 
 - How do you increase rise time on I2C? 
 - Why would rise time be too slow on I2C?
 - If the logic low state of signal doesn't reach logic-low threshold of device, what could be happening? 
