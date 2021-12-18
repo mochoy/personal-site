@@ -483,8 +483,10 @@ I get so few digital questions (not including embedded systems) that I can group
 - What's the difference between a Mealy and Moore FSM? 
 
 ## RTL
-
-# VLSI
+I'm trash at RTL lol
+- Desribe any experience you have with RTL. 
+- Design a clock divider. 
+- Design an arbiter. What are the different types and their pros/cons? 
 
 ## Assembly
 
