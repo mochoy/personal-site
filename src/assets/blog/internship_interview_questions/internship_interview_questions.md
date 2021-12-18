@@ -11,9 +11,13 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - I try to include every question, no matter how dumb it may seem. What you might think is a dumb question may actually be a very good question for someone else to study. 
 
 # Basic Circuits
-- What's ohm law? (do people even get this wrong??)
+- What's ohm law? (do people even get this wrong?? Next time I get asked this I'm going to get it wrong on purpose lmao)
+- Conceptually explain ohm's law. 
+- What are some basic circuit analyis laws? 
+- What are KCL/KVL?
+- Basic KCL/KVL circuit problems. 
 - What's the equation to find power? 
-- What's the voltage divider equation?
+- Draw a voltage divider circuit. What's the voltage divider equation? Derive it. 
 - Basic RLC circuit analysis. 
 - Basic LPF/BPF/HPF filter analysis. 
 - Passive components' parastics. 
