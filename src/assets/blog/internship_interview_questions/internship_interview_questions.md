@@ -114,6 +114,9 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - TTL vs CMOS? 
 - What's shoot-through on a CMOS logic gate? How can it be prevented?
 - CMOS efficiency analysis. How does operational frequency impact efficiency? What about logic/swing levels? Rise/fall times? 
+- How can you achieve faster slew rates? 
+- Why are MOSFETs sensitive to overvoltage conditions applied at the gate? 
+- Design CMOS input protection circuits against ESD/overvoltage events.
 
 ## Amplifiers
 - What determines slew rate and rise/fall time?
