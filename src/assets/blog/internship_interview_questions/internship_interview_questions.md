@@ -356,15 +356,6 @@ Diff paris from board layout/design perspective, as opposed to SI perspective.
 - What's the difference between surface-mount and through-hole components? Any tradeoffs?
 - How can you design a PCB for manufacturing? 
 - What are a few test stations you would see on an electronics manufacturing/assembly line? 
-- How do you increase rise time on I2C? 
-- Why would rise time be too slow on I2C?
-- If the logic low state of signal doesn't reach logic-low threshold of device, what could be happening? 
-- How many pins are needed? What if I have more slaves? 
-- How interface with slaves?
-- How many slaves can there be? 
-- Explain address/data frames. 
-- Explain NACK/ACK. 
-- Explain clock stretching. 
 
 # Signals
 - Draw spectral content of square wave/pulse train. 
@@ -412,7 +403,53 @@ Lots of crossover with Power Electronics section
 - Probe input impedance - what should it be any why? 
 - When would I want different probe impedance? 
 
-# Digital Electronics
+# Embedded Systems
+- What are some components/subsystems you'd find in an embedded system? 
+- What are some examples of embedded systems?
+- What are some common microcontrollers/microprocessors?
+- What's the difference between a microcontroller and a microprocessor? 
+- What are the blocks of a microcontroller and microprocessor? 
+- How does a microcontroller interact with external peripherals? 
+- If a microcontroller isn't booting up, what should you check for? 
+- When do use MCU vs ASIC vs FPGA?
+
+## Communication Buses
+A lot on GPIO design is very applicable, those are in the Analog Electronics section. 
+
+- What are the three common communication protocols?
+- How do they (I2C, SPI, UART) work? 
+- What's the difference between I2C and SPI? 
+- Which is faster? Why?
+
+### I2C
+- What is I2C? What does it stand for? 
+- Why are pullups needed? How do you spec them? 
+- How do you increase rise time on I2C? 
+- Why would rise time be too slow on I2C?
+- If the logic low state of signal doesn't reach logic-low threshold of device, what could be happening? 
+- How many pins/wires are needed? What if I have more slaves? 
+- How interface with slaves?
+- How many slaves can there be? 
+- Explain address/data frames. 
+- Explain NACK/ACK. 
+- Explain clock stretching. 
+- What are advantages of the open-drain output drivers? 
+- What are typical logic levels? 
+
+### SPI
+- What is SPI? What does it stand for? 
+- How many slaves can there be? 
+- How to interface with slaves? 
+- How does daisy-chaining work? 
+- What are typical logic levels? 
+
+## Peripherals
+- Draw a circuit to connect a sensor to a microcontroller. 
+- Draw a circuit to drive a LED from a microcontroller. What about a high-power LED? 
+- Draw a circuit to drive a motor from a microcontroller. What if isolation is required? 
+
+## Debug
+- If a microcontroller isn't booting up, what should you check for? 
 - How can you interface two devices with different logic levels? 
 - Design a level shifter. 
 - Design a single-FET level shifter (passives are allowed).
