@@ -228,15 +228,18 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - What considerations must be taken given the internal body diode behavior? 
 - What can you do to decrease the effect of the internal body diode? 
 
-### Efficiency and Ripple
+### Efficiency, Ripple, and Switching Frequency
+- Why are buck converters more efficient than LDOs? 
 - How to size inductors/capacitors to meet ripple spec? 
 - Component-by-component analysis on efficiency and ripple impact. 
 - What are some ways to increase efficiency? 
 - What are some ways to decrease ripple?
-- How does switching frequency impact frequency/ripple?
+- How does switching frequency impact efficiency/ripple?
 - What components are most responsible for efficiency losses? 
 - Why should ripple be decreased? 
 - When does ripple not as matter as much? 
+- What limits the switching frequency on the upper and lower ends? Why can't the switching frequency be 1THz or 1Hz? 
+- How does switching frequency impact performance? 
 
 ### PFM Operation
 - What can you do to increase efficiency at light loads? 
