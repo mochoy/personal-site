@@ -130,6 +130,12 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - How to bias an amplifier? 
 - Why are BJTs more often used for amplifiers than MOSFETs? 
 
+## Filters
+- Draw mag/phase response of a first-order filter. 
+- What's the dropoff rate of a first-order low-pass filter? 
+- What does the bandwidth characterize? 
+- What is the 3dB rolloff point? What happens after that? How much of the signal gets through? 
+
 ## ADC
 - How does an ADC work? 
 - How does a flash ADC work?
