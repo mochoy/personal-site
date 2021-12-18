@@ -172,19 +172,16 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 ## Buck Converters
 Buck converter board routing is in PCB Design/Layout section. I often refer to the "on state" where the high-side FET is on and the diode/low-side FET is off and the "off state" where the low-side FET is off and the diode/low-side FET is on. 
 
+- What is a buck converter?
 - How does a buck converter work? 
-- How to measure output voltage? 
-- What limits the switching frequency on the upper and lower ends? 
-- Why are buck converters more efficient than LDOs? 
-- How does switching requency impact performance? 
-- What determines the output voltage?
-- How to calculate duty cycle?
+- Draw a circuit for a buck converter. 
+- What are the different operation modes? 
 - What's the difference between discontinuous and continuous operation? 
-- NFET vs PFET for high-side FET? What are pros and cons? 
 - How do you validate/characterize a buck converter? What properties/behaviors do you look out for? 
-- How is the output voltage typically sensed? What network is typically used? 
+- How is the output voltage typically sensed? What network is typically used and why is it needed? 
+- What happens if the voltage-sensing resistor divider has too high resistance? What if too low?
 - How can the output current be sensed? 
-- Design a circuit to properly drive a high-side NFET. 
+- When should output current be sensed? Before or after the output inductor? Or somewhere else? 
 
 ### Circuit Analysis
 - Why is the diode needed? What if it's removed? 
