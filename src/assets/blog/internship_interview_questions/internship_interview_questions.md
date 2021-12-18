@@ -24,6 +24,12 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - Basic op-amp circuit analysis. 
 
 # Passive Components
+## Resistors
+- Draw the symbol for a resistor. 
+- What is resistance? 
+- Draw a realistic circuit model for a resistor. What are the parastics and where do they come from? 
+- What are some common resistor values?
+- What are some common resistor packages and sizes?
 
 ## Capacitors
 - Draw the symbol for a capacitor. 
