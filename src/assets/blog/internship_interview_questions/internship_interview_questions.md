@@ -119,9 +119,16 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - Design CMOS input protection circuits against ESD/overvoltage events.
 
 ## Amplifiers
+- What is an opamp? How does it work?
+- What are the three rules of an ideal opamp? 
+- Draw an inverting/non-inverting opamp circuit. 
+- What is the DC gain of an ompamp? 
+- What is common-mode and differential gain? What are their ideal values?
+- What is the gain-bandwidth product? 
 - What determines slew rate and rise/fall time?
 - Pros/cons of fast/slow slew rates? 
-- How to bias an amplifer? 
+- How to bias an amplifier? 
+- Why are BJTs more often used for amplifiers than MOSFETs? 
 
 ## ADC
 - How does an ADC work? 
