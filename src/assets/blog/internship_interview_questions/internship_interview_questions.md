@@ -394,6 +394,12 @@ Lots of crossover with Power Electronics section
 - What are reflections? Why do I care about them? 
 - What causes reflections? 
 - How can I control the characteristic impedance of a TL? 
+- What's the difference and pros/cons of series vs parallel termination? 
+- What's the difference and pros/cons of source vs sink termination/matching?
+- What are standard termination/characteristic impedances?
+- How does R, L, and C impact characteristic impendace? How does that differ on a microstrip vs coax TL? 
+- Describe the parasitic R, L, and C components that impact characteristic impedance. 
+- What is impedance matching? Why do I care about it and when should it be used? 
 
 # Measurement
 - What sample rate/bandwidth will I need to measure a signal? 
