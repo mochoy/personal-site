@@ -366,10 +366,9 @@ Diff paris from board layout/design perspective, as opposed to SI perspective.
 - Explain NACK/ACK. 
 - Explain clock stretching. 
 
-### SPI
-- How many slaves can there be? 
-- How to interface with slaves? 
-- How does daisy-chaining work? 
+# Signals
+- Draw spectral content of square wave/pulse train. 
+- Why are square waves so noisy? What can you do to decrease noise? What about decreasing noise at a particular frequnecy content? 
 
 # Signal Integrity/Power Integrity (SI/PI)
 
