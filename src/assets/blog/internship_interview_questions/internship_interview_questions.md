@@ -54,13 +54,16 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - Build a LPF/HPF using a single inductor.
 
 # Semiconductor Devices
+## Device Physics
+- What's the difference between P-type semiconductors vs N-type semiconductors? 
 - What's a depletion region and how does it form? 
 - What materials are typically used for semiconductors?
 - What is doping? 
 - How does doping improve performance? 
 - What elements are typically used for doping? 
-- Which charge carriers are more mobile - holes or electrons?
-- What's the difference between P-type semiconductors vs N-type semiconductors? 
+- What is charge mobility?
+- What charge carriers are dominant in P-type semiconductors vs N-type semiconductors?
+- Which charge carriers are more mobile: holes or electrons?
 - Why do N-type semiconductors typically have lower resistance? 
 
 ## Diodes
