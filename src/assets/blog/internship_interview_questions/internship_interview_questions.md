@@ -450,23 +450,33 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 
 ## Debug
 - If a microcontroller isn't booting up, what should you check for? 
+
+# Digital
+I get so few digital questions (not including embedded systems) that I can group everything into one section. 
+## Digital Electronics
 - How can you interface two devices with different logic levels? 
 - Design a level shifter. 
 - Design a single-FET level shifter (passives are allowed).
 
 ## Logic Gates (Digital Perspective)
+
+### Logic Gates (Digital Perspective)
 - Draw a NOT/AND/etc gate symbol. 
 - Draw the truth table for NOT/AND/etc gate. 
 - What is the universal logic gate? 
 
-# Digital Logic
+## Digital Logic
 - Do the K-map for a given truth table. 
 - What's an FSM? 
 - What's the difference between a Mealy and Moore FSM? 
 
-# RTL
+## RTL
 
 # VLSI
+
+## Assembly
+
+## Power/Performance
 
 ## Computer Architecture
 - Describe the five-stage pipeline.
