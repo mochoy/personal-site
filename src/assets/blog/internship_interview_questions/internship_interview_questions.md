@@ -103,8 +103,14 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - Why are MOSFETs sensitive to overvoltage conditions applied at the gate? 
 
 # Analog Circuits/Electronics
+- Often times, I'm given a circuit and asked to explain how it works and what type of circuit it is. Here are a few of them I've gotten (and know what they're called):
+  - Charge pump
+  - Level shifter
+  - LDO
+  - RLC filters
+  - Current mirror
 
-## Logic Gates (Analog Perspective)
+## CMOS 
 - TTL vs CMOS? 
 - What's shoot-through on a CMOS logic gate? How can it be prevented?
 - CMOS efficiency analysis. How does operational frequency impact efficiency? What about logic/swing levels? Rise/fall times? 
