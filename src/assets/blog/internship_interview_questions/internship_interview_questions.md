@@ -157,9 +157,17 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - What type of load (resistive, inductive, capacitive) can a SoC/CPU typically be characterized as? 
 - What is the condition for maximum power transfer?
 - Often times on a power rail, there are many capacitors connected to ground. What are these capacitors and why are there so many? Why can you just put one massive capacitor? 
+
+## General Power Supply
 - What are some ways to increase/decrease voltage? What about for a power rail? 
+- Why shouldn't you use a voltage divider to step down voltage for a power rail? 
+- When is a voltage divider applicable to step down voltage? 
+- Name some voltage regulators. 
+- In many embedded systems, why are step-down regulators more common than step-up regulators?
 - What's the difference between a buck converter vs LDO? 
 - Design a power supply. 
+- Why is supply voltage overshoot/undershoot often undesired? When can it be tolerated? 
+- Given a supply spec, design power architecture.
 
 ## Buck Converters
 Buck converter board routing is in PCB Design/Layout section. 
