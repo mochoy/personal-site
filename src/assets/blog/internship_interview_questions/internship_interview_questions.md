@@ -149,6 +149,8 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 ## PLL
 - What can you use increase clock frequency? 
 - How does a PLL work? 
+- What blocks does a PLL have? 
+- Draw a block diagram.
 - What happens if your PLL locks too fast or too slow? 
 
 # Power Electronics
