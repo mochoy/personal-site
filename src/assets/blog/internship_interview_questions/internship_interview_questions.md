@@ -519,6 +519,8 @@ I'm trash at RTL lol
 - What is pipelining? 
 - What is branch prediction? Describe some branch prediction algorithms. 
 
+# Coding
+
 # Behavioral
 
 # Technical/Behavioral
