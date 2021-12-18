@@ -505,7 +505,19 @@ I'm trash at RTL lol
 - What sort of temperature control loops are commonly implemented? 
 
 ## Computer Architecture
+- What is a CPU?
+- What are some blocks in a CPU?
+- What's an ALU?
+- What's a cache? 
+- What are registers?
+- What's the fetch/execute cycle? 
+- What is RAM? What does "random access" refer to?
+- Explain the memory hierarchy. 
 - Describe the five-stage pipeline.
+- How can you offload tasks from the CPU? What are things you can do in parallel and what are the tradeoffs? 
+- What can you do to increase the throughput of a CPU?
+- What is pipelining? 
+- What is branch prediction? Describe some branch prediction algorithms. 
 
 # Behavioral
 
