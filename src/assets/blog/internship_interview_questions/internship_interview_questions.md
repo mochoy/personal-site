@@ -214,9 +214,19 @@ Buck converter board routing is in PCB Design/Layout section. I often refer to t
 - If the diode is replaced with an ideal diode, how does it impact performance? 
 - What is the switch node voltage potential in the off state?
 - Where is inductor current sourced from in the off state?
+
+### Power Bridge
+Many of these questions assume that synchronous rectification is implemented, but some also compare the behavior/performance between a low-side NFET and diode.
+
+- Why is the diode needed? What if it's removed? 
 - Explain synchronous rectification. What are its pros/cons? 
+- NFET vs PFET for high-side FET? What are pros and cons? 
+- What are the pros and cons of a symmetrical power bridge?
+- Design a circuit to properly drive a high-side NFET. What considerations must be taken into account? 
 - What happens if both the NFET and PFET are on at the same time? How do you avoid this? 
-- What happens to the internal body diode in the off state?
+- What happens to the internal body diode in the off state? Draw the switch node voltage waveform. 
+- What considerations must be taken given the internal body diode behavior? 
+- What can you do to decrease the effect of the internal body diode? 
 
 ### Efficiency and Ripple
 - How to size inductors/capacitors to meet ripple spec? 
