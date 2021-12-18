@@ -493,6 +493,16 @@ I'm trash at RTL lol
 - Describe what this program is doing. How long will it take to run? How many times will {some subroutine} get executed?
 
 ## Power/Performance
+- How does clock frequency impact power, performance, and thermals? 
+- Why are multiple clock domains needed?
+- How does supply voltage impact power, performance, and thermals? 
+- Why are multiple supply voltages needed?
+- How does process, voltage, and temperature (PVT) impact power, performance, and thermals? 
+- What are process corners? What do they refer to? 
+- What are typical temperature ranges for validation? 
+- What can you do to decrease power consumpution?
+- What can you do to throttle performance? 
+- What sort of temperature control loops are commonly implemented? 
 
 ## Computer Architecture
 - Describe the five-stage pipeline.
