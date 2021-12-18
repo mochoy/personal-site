@@ -170,7 +170,7 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - Given a supply spec, design power architecture.
 
 ## Buck Converters
-Buck converter board routing is in PCB Design/Layout section. 
+Buck converter board routing is in PCB Design/Layout section. I often refer to the "on state" where the high-side FET is on and the diode/low-side FET is off and the "off state" where the low-side FET is off and the diode/low-side FET is on. 
 
 - How does a buck converter work? 
 - How to measure output voltage? 
