@@ -5,9 +5,9 @@ This was originally going to be part of the Interviews chapter of my [internship
 I tried my best to organize questions by topic, but there's tons of overlap between each topic. For example, GPIO/output driver design and implementation can be asked in the context of analog electronics, embedded systems, transmission lines, and power electronics. Some of these questions have just been repeated with or without additional context to solidify the topic while others will just be refer to another section.
 
 # Disclaimers and Notes
-- These questions were for internships, but there's a lot of overlap with full-time (FT) interviews. In fact, I'm doing FT interviews at the time of writing this and they basically ask the same stuff. If the questions end up being super similar, I may just rename this post instead of making a new one. 
-- These questions are reflective of my skillset, strengths, and experiences. I'm doing my undergrad at Cal Poly SLO and did internships at Apple and Microsoft, so these questions are mostly focused on that experience in analog electronics, power electronics, and embedded systems. I'm pretty trash at digital stuff, so those sections will be lacking in comparison.
-- I take notes of almost every interview (which I'd recommend you do!) and every question they ask, so this post will just be a reflection of that content. 
+- These questions were for internships, but there's a lot of overlap with full-time (FT) interviews. In fact, I'm doing FT interviews at the time of writing this and they basically ask the same stuff, there are usually just more FT interviews so they have an opportunity to dive deeper. If the questions end up being super similar, I may just rename this post instead of making a new one. 
+- These questions are reflective of my skillset, strengths, and experiences. I'm doing my undergrad at Cal Poly SLO and did internships at Apple and Microsoft, so these questions are mostly focused on that experience in power electronics, embedded systems, and board layout/design. I'm pretty trash at digital stuff, so those sections will be lacking in comparison.
+- I take notes of almost every interview (which I'd recommend you do too!) and every question they ask, so this post will just be a reflection of that content. 
 - I try to include every question, no matter how dumb it may seem. What you might think is a dumb question may actually be a very good question for someone else to study. 
 
 # Basic Circuits
