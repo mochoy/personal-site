@@ -18,6 +18,8 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - Basic LPF/BPF/HPF filter analysis. 
 - Passive components' parastics. 
 - Basic op-amp circuit analysis. 
+
+# Passive Components
 - What happens when an inductor saturates? 
 
 # Semiconductor Devices
