@@ -192,21 +192,17 @@ Buck converter board routing is in PCB Design/Layout section. I often refer to t
 - Given duty cycle and Vin, can you find Vout? 
 
 ### Circuit Analysis
-- Why is the diode needed? What if it's removed? 
-- If the diode is replaced with an ideal diode, how does it impact performance? 
-- What is the switch node voltage potential in the off state?
-- Where is inductor current sourced from in the off state?
-- What direction does current flow in the inductor/capacitor? 
 - Draw the waveforms for: 
   - Inductor voltage/current
-  - Switch node voltage
+  - Switch node voltage under asynchronous and synchronous rectification
   - Capacitor voltage/current
   - FET gate voltage
   - Diode current/voltage
   - Input supply voltage/current
   - Output load voltage/current
   - Low-side NFET voltage/current if using synchronous rectification
-- Why is the inductor current a linear ramp?
+- What direction does current flow in the inductor/capacitor in the on and off states? 
+- Why is the inductor current a linear ramp? What determines this behavior?
 - Why is the output capacitor voltage a linear ramp? 
 - When does the output capacitor charge/discharge? 
 - What is the inductor polarity? 
@@ -214,6 +210,10 @@ Buck converter board routing is in PCB Design/Layout section. I often refer to t
 - What is voltage/current ripple? (from circuit analysis perspective)
 - What determines inductor current slope? 
 - What determines capacitor voltage slope? 
+- Why is the diode needed? What if it's removed? 
+- If the diode is replaced with an ideal diode, how does it impact performance? 
+- What is the switch node voltage potential in the off state?
+- Where is inductor current sourced from in the off state?
 - Explain synchronous rectification. What are its pros/cons? 
 - What happens if both the NFET and PFET are on at the same time? How do you avoid this? 
 - What happens to the internal body diode in the off state?
