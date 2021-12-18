@@ -39,6 +39,7 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - Draw a realistic circuit model for a capacitor. What are the parastics and where do they come from? 
 - What is a capacitor's self resonant frequency? 
 - Build a LPF/HPF using a single capacitor.
+- What's a bypass/decoupling capacitor? What about a bulk capacitor? What's the difference? 
 
 ## Inductors
 - Draw the symbol for an inductor. 
