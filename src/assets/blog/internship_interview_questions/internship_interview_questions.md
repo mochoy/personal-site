@@ -20,7 +20,27 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 - Basic op-amp circuit analysis. 
 
 # Passive Components
+
+## Capacitors
+- Draw the symbol for a capacitor. 
+- What is capacitance? 
+- What is a dielectric? 
+- How does a capacitor behave when initially excited and at DC steady-state? 
+- Draw a realistic circuit model for a capacitor. What are the parastics and where do they come from? 
+- What is a capacitor's self resonant frequency? 
+- Build a LPF/HPF using a single capacitor.
+
+## Inductors
+- Draw the symbol for an inductor. 
+- What is inductance?
+- How does an inductor behave when initially excited and at DC steady-state? 
 - What happens when an inductor saturates? 
+- Draw a realistic circuit model for an inductor. What are the parastics and where do they come from? 
+- What do cores do on inductors? 
+- What are typical core materials?
+- What are the main loss mechanisms of an inductor? Where do they arise from?
+- What is ACR? Where does it arise from and how is it impacted by frequency? 
+- Build a LPF/HPF using a single inductor.
 
 # Semiconductor Devices
 - What's a depletion region and how does it form? 
