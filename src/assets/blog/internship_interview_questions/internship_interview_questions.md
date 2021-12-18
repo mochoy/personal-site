@@ -183,6 +183,14 @@ Buck converter board routing is in PCB Design/Layout section. I often refer to t
 - How can the output current be sensed? 
 - When should output current be sensed? Before or after the output inductor? Or somewhere else? 
 
+### Duty Cycle/Output Voltage
+- What determines the output voltage and why?
+- What is duty cycle? 
+- How to calculate duty cycle?
+- What happens at 100% and 0% duty cycle? 
+- Given a Vout/Vin ratio, how can the duty cycle be calculated? 
+- Given duty cycle and Vin, can you find Vout? 
+
 ### Circuit Analysis
 - Why is the diode needed? What if it's removed? 
 - If the diode is replaced with an ideal diode, how does it impact performance? 
