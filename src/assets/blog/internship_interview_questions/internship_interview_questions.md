@@ -310,15 +310,24 @@ Many of these questions assume that synchronous rectification is implemented, bu
 
 ## Current Sensing
 - How to measure current?
+- How does inductive/magnetic current sensing work? What are its pros and cons? 
+- Describe tradeoffs between different current sensing mechanisms. 
+
+### Sense Resistor
+Sense resistor PCB layout/routing is in PCB Design/Layout section
+- How does a sense resistor work to sense current? 
+- What are its pros and cons? 
+- How do you spec a current sense resistor? What happens if it's too big/small? 
+- Given a range of input currents and ADC input voltage range, find an apporpriate sense resistor value. 
 - What's the difference between high-side and low-side current sensing? What are the advantages/disadvantages of each? When do you need to use one vs the other? 
 - How can you use drain-source measurements of a MOSFET to determine current? What are the pros and cons of this setup? 
-- What's a kelvin connection for a sense resistor? 
-- How do you spec a current sense resistor? What happens if it's too big/small? 
+
+### Current Sense Ampliferies (CSA)
 - What's a current sense amplifer (CSA)? 
 - When do you need a CSA? 
 - What's the difference between a CSA and a regular op-amp? 
 - How do you spec a CSA?
-- How does inductive/magnetic current sensing work? What are its pros and cons? 
+- Given a range of input currents, a sense resitor value, and ADC input voltage range, find an apporpriate CSA gain. 
 
 # PCB Design/Layout
 - How to choose board stackup? 
