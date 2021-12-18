@@ -533,6 +533,10 @@ I'm trash at RTL lol
 
 # Appendix
 - CSA - Current Sense Amplifer
+- DFM - Design for Manufacturing
 - FTE/FT - Full-Time Engineer/Full-Time
+- PI - Power Integrity
+- PVT - Process/Voltage/Temperature
+- SI - Signal Integrity
 - SI/PI - Signal Integrity/Power Integrity
 - TL - Transmission Line
