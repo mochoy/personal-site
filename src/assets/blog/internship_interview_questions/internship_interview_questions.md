@@ -68,28 +68,39 @@ I tried my best to organize questions by topic, but there's tons of overlap betw
 
 ## Diodes
 - How does a diode work? 
+- What are some use cases of a diode?
+- Draw IV curve. 
+- What are the different operation regions?
+- Given a forward/reverse voltage and threshold voltage, determine what operation region it's in.  
 - What are the different kinds of diodes?
-- What's the typical forward voltage drop across a dioide? Why is it this value? 
+- What's the typical forward voltage drop across a diode? Why is it this value? How does it differ for different diodes? 
 - How can you build an ideal diode? 
 
 ## BJTs
 - Draw a NPN/BJT symbol. 
+- What are the terminals?
+- What are some use cases of a BJT? 
 - What's the difference between a BJT and MOSFET? 
 - Draw IV curve.
 - How does it work?
 - What's the difference between an NPN and PNP?
 - What are the different modes of operation? 
+- What is current gain/beta? 
 
-## FETs
-- Draw a PFET/NFET symbol. 
+## MOSFETs
+- Draw a PFET/NFET symbol.
+- What are the terminals?
+- Which two terminals are often connected together and why? 
+- What are some use cases of a MOSFET?
 - What's the difference between a BJT and MOSFET? 
 - Draw IV curve for MOSFET
 - How does it work?
 - What's the difference between an N-channel and P-channel?
 - What's the difference between enhancement-mode and dehancement mode? 
 - What are the different modes of operation? 
-- Internal body diode
-- Given Vgs and Vt, how will the FET behave?
+- Given Vgs and Vt, how will the FET behave? What operating region will it be in? Load-line analysis. 
+- What is the internal body diode? Where does it come from?
+- Why are MOSFETs sensitive to overvoltage conditions applied at the gate? 
 
 # Analog Circuits/Electronics
 
