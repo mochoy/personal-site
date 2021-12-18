@@ -250,18 +250,25 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - Describe the charge/discharge cycle of inductor and capacitor. 
 
 ### Controls/Stability
+- What does stability refer to in a buck? 
+- What type of system is the output LC filter? 
 - How do inductor/capacitor values impact stability? 
 - Explain different control topologies. 
-- What is slope compensation and when is it needed?
+- What's the difference between voltage-mode and current-mode control? Why are they often both implemented simultaneously?
+- What is slope compensation and when is it needed? (what kinda person asks undergrads this?)
 - Explain subharmonic oscillation. 
 - How is transient response characterized?
-- What is a feed-forward capacitor? 
+- Explain what happens during a load transient event. 
+- What is a feedforward capacitor? When is it needed? 
 
 ### Multiphase Buck Converters
 - What is a multiphase buck converter? 
+- What are the pros/cons/tradeoffs vs single-phase buck converters? 
 - How do they work and what challenges are presented? 
 - When should they be used?
 - How do they increase output current?
+- How do they impact efficiency?
+- How do they impact heat density?
 - How do they impact transient response? 
 
 ## Boost Converters
