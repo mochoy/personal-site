@@ -489,6 +489,8 @@ I'm trash at RTL lol
 - Design an arbiter. What are the different types and their pros/cons? 
 
 ## Assembly
+- What is assembly? How does it differ from programming languages like C or Python?
+- Describe what this program is doing. How long will it take to run? How many times will {some subroutine} get executed?
 
 ## Power/Performance
 
