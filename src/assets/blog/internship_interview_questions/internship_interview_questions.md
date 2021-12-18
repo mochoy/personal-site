@@ -376,9 +376,17 @@ Diff paris from board layout/design perspective, as opposed to SI perspective.
 - How to characterize quality of a signal?
 - Explain ground bounce? 
 - What happens if signal rising edge is too slow? Too fast? 
+- Why is monotonicity during a signal transition important? 
+- What is hysteresis and why is it used? 
+- What are setup and hold times? What happens if they're violated? 
+
+### Diff Pairs (SI Perspective)
+Diff paris from SI perspective, as opposed to board layout/design perspective.
 
 ## PI
+Lots of crossover with Power Electronics section
 - How to characterize quality of power supply? 
+- What is power sequencing? Why is it important? 
 
 # Transmission Lines/High-Speed Design
 - When is transmission line (TL) analysis valid? 
