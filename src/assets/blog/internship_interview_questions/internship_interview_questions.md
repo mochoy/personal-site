@@ -167,8 +167,11 @@ This was originally going to be part of the Interviews chapter of my [internship
 - What type of load (resistive, inductive, capacitive) can a SoC/CPU typically be characterized as? 
 - What is the condition for maximum power transfer?
 - Often times on a power rail, there are many capacitors connected to ground. What are these capacitors and why are there so many? Why can you just put one massive capacitor? 
+- What is bulk capacitance? 
 
 ## General Power Supply
+Assume DC-DC for nearly every question unless specified or implied. AC power supplies are rarely brought up during my interviews given their use cases and relevance to my experience. 
+
 - What are some ways to increase/decrease voltage? What about for a power rail? 
 - Why shouldn't you use a voltage divider to step down voltage for a power rail? 
 - When is a voltage divider applicable to step down voltage? 
