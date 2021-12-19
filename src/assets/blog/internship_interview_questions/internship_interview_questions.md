@@ -333,8 +333,10 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - What are some desirable characteristics in a battery?
 - How do you measure battery voltage/current? 
 - What do you have to monitor in a battery to ensure it's operating safely? 
+- How do you charge/discharge a battery safely? 
+- When buying a battery, what specs do you look out for? 
 
-### LiPo
+### Lithium Polymer (LiPo)
 - What is the common bettery chemistry used in rechargable consumer electronics? 
 - What is the typical cell voltage of a LiPo? What are its ranges and why? 
 - What happens when you overcharge the battery? 
@@ -345,6 +347,8 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - How does temperature impact LiPo performance? 
 - What are some tradeoffs in a LiPo? 
 - How can you determine the state of charge? 
+- What are some other common Lithium-based battery chemistries?
+- What are the dangers of Lithium-based battery chemistries? How can these be prevented?
 
 ## Inductive Loads (Motors/Solenoids)
 - Design a circuit to drive an inductive load from a microcontroller GPIO. 
@@ -590,6 +594,7 @@ I'm trash at RTL lol
 - CSA - Current Sense Amplifer
 - DFM - Design for Manufacturing
 - FTE/FT - Full-Time Engineer/Full-Time
+- LiPo - Lithium Polymer
 - PI - Power Integrity
 - PVT - Process/Voltage/Temperature
 - SI - Signal Integrity
