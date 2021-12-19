@@ -382,29 +382,80 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - What are the parasitic elements present on a PCB? 
 
 ## Stackup
-- What material would I want for conduction layers? 
+- What are the layers of a PCB? what are they made of?
 - How to choose how many layers for PCB? 
 - How to choose board stackup? 
 - What should be routed on each layer? What should be routed on inner layers vs top/bottom layer?
 
-## Diff Pairs (PCB Perspective)
-Diff paris from board layout/design perspective, as opposed to SI perspective. 
+## Design/Layout/Routing
+- What are some general rule of thumbs for board routing?
+- How do you decide which subsystems go where on a PCB?
+
+### Grounding
+- What is a ground plane? Pros/cons?
+- When/why should you separate your ground reference potentials?
+- What are some ground layout schemes? 
+- In addition to providing a common reference potential, what are some other functionalities of ground planes? 
+- Which layers typically have ground planes and why? 
+- Why are ground probe points important? 
+
+### Diff Pairs and High-Speed Desgin (PCB Perspective)
+Diff pairs and high-speed design from board layout/design perspective, as opposed to signals or SI perspective. Diff pairs are often used for high-speed signals, so there will be a good amount of overlap with the Transmission Lines (TL) section. 
 - What's a differential pair? 
 - How should it be routed? What are advantages/disadvantages? 
-- How does it improve noise immunity? 
-- When are they typically used? 
+- What is serpentining? Why is it important for high-speed diff pairs?
+- Describe transmission line components on a PCB. 
+- If external termination components are used, where should they be placed? 
 
-## Sense Restistor Layout/Routing
+### Sense Restistor Layout/Routing
 - How do you route a current sense resitors? 
 - What's a kelvin connection for a sense resistor? What are the tradeoffs?
 
-## Power Supply Layout/Routing
-- How do you route decoupling vs bulk capacitors? 
+### Power Supply Layout/Routing
+- How do you route decoupling and bulk capacitors? 
 
-## Manufacturing/Design for Manufacturing (DFM)
+## Vias
+- What's a via? Why are they needed?
+- What are the different types of vias? What are their tradeoffs? 
+- If I need to via between inner layers, what type of vias would I use? 
+- When would I want filled vias? 
+- When would I want plugged vias? 
+- What are some common failure modes of vias? 
+- When do I not want to use vias? 
+- Can you put a via on a surface-mount pad?
+
+## Materials
+- What material would I want for conduction layers? 
+- What materials are often used for the insulation materials?
+- What does "FR4" mean? 
+- Why are PCBs often green? What other colors could they be? 
+
+## Manufacturing
 - What's the difference between surface-mount and through-hole components? Any tradeoffs?
+- Describe the PCB fab process. 
+- Describe the PCB assembly process.
+- What's DRC? 
+- How are components soldered on a PCB? 
+  - How are double-sided components soldered on a PCB? 
+  - What about mixed assembly boards? 
+- What is panelization?
+- What are mousebites? 
+- What are fiducials? 
+
+## Design for Manufacturing (DFM)
 - How can you design a PCB for manufacturing? 
 - What are a few test stations you would see on an electronics manufacturing/assembly line? 
+- How are PCBs tested? When does this happen?
+
+### Test Points
+- What are test points? What are their use cases?
+- What are layout guidelines for them? 
+- When should/shouldn't you use them?
+- Who/what uses test points?
+
+## Debugging PCBs
+- What are some common failure modes of a PCB?
+- If there's a short on the PCB, how can it be detected, found, and root caused?
 
 # Signals
 - Draw spectral content of square wave/pulse train. 
