@@ -655,14 +655,17 @@ I'm trash at RTL lol
 # Misc.
 
 # Appendix
+- C - Capacitor/Capacitance or the programming language
 - CSA - Current Sense Amplifer
 - DFM - Design for Manufacturing
 - FTE/FT - Full-Time Engineer/Full-Time
+- L - Inductor/Inductance
 - LDO - Low-Dropout Regulator
 - LiPo - Lithium Polymer
 - PCB - Printed Circuit Board
 - PI - Power Integrity
 - PVT - Process/Voltage/Temperature
+- R - Resistor/Resistance
 - SI - Signal Integrity
 - SI/PI - Signal Integrity/Power Integrity
 - TL - Transmission Line
