@@ -706,6 +706,7 @@ I'm trash at RTL lol
 - What are interrupts? When can they be used and why are they important?
 
 # Coding
+## Object-Oriented Programming (OOP)
 
 # Behavioral
 
