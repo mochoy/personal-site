@@ -113,7 +113,7 @@ This was originally going to be part of the Interviews chapter of my [internship
 - Why are MOSFETs sensitive to overvoltage conditions applied at the gate? 
 
 # Analog Circuits/Electronics
-- Often times, I'm given a circuit and asked to explain how it works and what type of circuit it is. Here are a few of them I've gotten (and know what they're called):
+- Often times, I'm given an unnamed circuit and asked to explain how it works and what type of circuit it is. Here are a few of them I've gotten (and know what they're called):
   - Charge pump
   - Level shifter
   - LDO
@@ -121,12 +121,14 @@ This was originally going to be part of the Interviews chapter of my [internship
   - Current mirror
 
 ## CMOS 
+- What is CMOS? Draw a CMOS buffer. 
+- Why are these so often used?
 - TTL vs CMOS? 
 - What's shoot-through on a CMOS logic gate? How can it be prevented?
 - CMOS efficiency analysis. How does operational frequency impact efficiency? What about logic/swing levels? Rise/fall times? 
 - How can you achieve faster slew rates? 
-- Why are MOSFETs sensitive to overvoltage conditions applied at the gate? 
 - Design CMOS input protection circuits against ESD/overvoltage events.
+- Draw voltage/current output waveforms for a CMOS buffer connected to a series RC load. Which FETs are conducting during a positive/negative step? 
 
 ## Amplifiers
 - What is common-mode and differential gain? What are their ideal values?
@@ -464,7 +466,18 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 - Draw a circuit to drive a LED from a microcontroller. What about a high-power LED? 
 - Draw a circuit to drive a motor from a microcontroller. What if isolation is required? 
 
-## Debug
+## ADC
+Most of my ADC/DAC questions have been in the context of embedded systems, not too much on analog design or anything. 
+- How does an ADC work? 
+- How does a flash ADC work?
+- How does a SAR ADC work?
+- Design an ADC. 
+- Reading the ADC from your microcontroller returns some value. Given the value and the ADC supply voltages, convert this reading into a voltage. 
+
+## DAC
+Most of my ADC/DAC questions have been in the context of embedded systems, not too much on analog design or anything. 
+- How does a DAC work?
+- Design a DAC. 
 - If a microcontroller isn't booting up, what should you check for? 
 
 # Digital
