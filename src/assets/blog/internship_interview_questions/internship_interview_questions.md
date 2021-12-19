@@ -322,6 +322,14 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - How is the output voltage/current sensed? (more in Voltage/Current Sensing section)
 - Design a buck converter. 
 - What's a simple circuit to implement the switching? How can you make it switch with a higher/lower duty cycle based on the feedback voltage?
+
+### Debugging, Validating, and Characterizing Buck Converters
+- What are some failure modes of buck converters? How can they be detected and prevented?
+- What can you do to debug a buck converter that isn't regulating? What could be going wrong?
+- How do you validate/characterize a buck converter? What properties/behaviors do you look out for? 
+- How does a buck converter age? What happens to its performance? 
+- How does buck performance vary with process, voltage, and temperature (PVT)?
+
 ## Boost Converters
 - How does a boost converter work?
 - Why are they less efficient than buck converters? 
