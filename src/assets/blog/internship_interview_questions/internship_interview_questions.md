@@ -201,18 +201,16 @@ Assume DC-DC for nearly every question unless specified or implied. AC power sup
 - What is power sequencing? When/why is it needed? How is the sequence determined? How much time between each rail turning on/off is needed? 
 
 ## Buck Converters
-Buck converter board routing is in PCB Design/Layout section. I often refer to the "on state" where the high-side FET is on and the diode/low-side FET is off and the "off state" where the low-side FET is off and the diode/low-side FET is on. 
+Buck converter board routing is in PCB Design/Layout section. I often refer to the "on state" where the high-side FET is on and the diode/low-side FET is off and the "off state" where the high-side FET is off and the diode/low-side FET is on. 
 
 - What is a buck converter?
 - How does a buck converter work? 
 - Draw a circuit for a buck converter. 
-- What are the different operation modes? 
-- What's the difference between discontinuous and continuous operation? 
 - How do you validate/characterize a buck converter? What properties/behaviors do you look out for? 
-- How is the output voltage typically sensed? What network is typically used and why is it needed? 
-- What happens if the voltage-sensing resistor divider has too high resistance? What if too low?
-- How can the output current be sensed? 
-- When should output current be sensed? Before or after the output inductor? Or somewhere else? 
+- What is a single-input multiple-output (SIMO) buck converter?
+- How does a buck converter age? What happens to its performance? 
+- What is the input capacitor needed? What happens if it's removed? 
+- If I implement an LDO IC, what additional components are typically needed?
 
 ### Duty Cycle/Output Voltage
 - What determines the output voltage and why?
@@ -221,6 +219,7 @@ Buck converter board routing is in PCB Design/Layout section. I often refer to t
 - What happens at 100% and 0% duty cycle? 
 - Given a Vout/Vin ratio, how can the duty cycle be calculated? 
 - Given duty cycle and Vin, can you find Vout? 
+- What is a DC load-line? What are its tradeoffs? 
 
 ### Circuit Analysis
 - Draw the waveforms for: 
@@ -232,6 +231,7 @@ Buck converter board routing is in PCB Design/Layout section. I often refer to t
   - Input supply voltage/current
   - Output load voltage/current
   - Low-side NFET voltage/current if using synchronous rectification
+- What is the purpose of the output inductor/capacitor? 
 - What direction does current flow in the inductor/capacitor in the on and off states? 
 - Why is the inductor current a linear ramp? What determines this behavior?
 - Why is the output capacitor voltage a linear ramp? 
@@ -271,8 +271,18 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - When does ripple not as matter as much? 
 - What limits the switching frequency on the upper and lower ends? Why can't the switching frequency be 1THz or 1Hz? 
 - How does switching frequency impact performance? 
+- How does dropout voltage impact efficiency, ripple, etc? 
+
+### Voltage/Current Sensing
+- How is the output voltage typically sensed? What network is typically used and why is it needed? 
+- What happens if the voltage-sensing resistor divider has too high resistance? What if too low?
+- How can the output current be sensed? 
+- When should output current be sensed? Before or after the output inductor? Or somewhere else? 
+- Which voltages/currents are important to be considered in the control loop and for what purpose?
 
 ### PFM Operation
+- What are the different operation modes? 
+- What's the difference between discontinuous and continuous operation? 
 - What can you do to increase efficiency at light loads? 
 - Explain PFM operation.
 - What's the difference between PFM and PWM? 
@@ -281,16 +291,16 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - Describe the charge/discharge cycle of inductor and capacitor. 
 
 ### Controls/Stability
-- What does stability refer to in a buck? 
+- What does stability refer to in a buck? What happens when a buck is stable/unstable/marginally stable? 
 - What type of system is the output LC filter? 
 - How do inductor/capacitor values impact stability? 
 - Explain different control topologies. 
 - What's the difference between voltage-mode and current-mode control? Why are they often both implemented simultaneously?
 - What is slope compensation and when is it needed? (what kinda person asks undergrads this?)
 - Explain subharmonic oscillation. 
-- How is transient response characterized?
 - Explain what happens during a load transient event. 
-- What is a feedforward capacitor? When is it needed? 
+- How is transient response characterized?
+- What is a feedforward capacitor? When is it needed?
 
 ### Multiphase Buck Converters
 - What is a multiphase buck converter? 
