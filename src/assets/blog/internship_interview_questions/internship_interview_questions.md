@@ -30,28 +30,37 @@ This was originally going to be part of the Interviews chapter of my [internship
 - Draw a realistic circuit model for a resistor. What are the parastics and where do they come from? 
 - What are some common resistor values?
 - What are some common resistor packages and sizes?
+- What are some common failure modes of a resistor?
+- What are pullup/pulldown resistors? How do you spec them? 
 
 ## Capacitors
 - Draw the symbol for a capacitor. 
 - What is capacitance? 
 - What is a dielectric? 
 - How does a capacitor behave when initially excited and at DC steady-state? 
-- Draw a realistic circuit model for a capacitor. What are the parastics and where do they come from? 
+- What is an inductors impedance at DC vs infinitely high frequency? Plot this behavior. 
+-Draw a realistic circuit model for a capacitor. What are the parastics and where do they come from? 
 - What is a capacitor's self resonant frequency? 
-- Build a LPF/HPF using a single capacitor.
 - What's a bypass/decoupling capacitor? What about a bulk capacitor? What's the difference? 
+- What is an AC coupling capacitor? 
+- What sort of signals can capacitors pass through and block? What sort of filter behavior is this? 
+- Build a LPF/HPF using a single capacitor.
+- What are some common failure modes of a capacitor?
 
 ## Inductors
 - Draw the symbol for an inductor. 
 - What is inductance?
 - How does an inductor behave when initially excited and at DC steady-state? 
+- What is an inductors impedance at DC vs infinitely high frequency? Plot this behavior. 
 - What happens when an inductor saturates? 
 - Draw a realistic circuit model for an inductor. What are the parastics and where do they come from? 
 - What do cores do on inductors? 
 - What are typical core materials?
 - What are the main loss mechanisms of an inductor? Where do they arise from?
 - What is ACR? Where does it arise from and how is it impacted by frequency? 
+- What sort of signals can inductors pass through and block? What sort of filter behavior is this? 
 - Build a LPF/HPF using a single inductor.
+- What are some common failure modes of an inductor?
 
 # Semiconductor Devices
 ## Device Physics
@@ -92,6 +101,7 @@ This was originally going to be part of the Interviews chapter of my [internship
 - What are the terminals?
 - Which two terminals are often connected together and why? 
 - What are some use cases of a MOSFET?
+- Why are MOSFETs used so often?
 - What's the difference between a BJT and MOSFET? 
 - Draw IV curve for MOSFET
 - How does it work?
