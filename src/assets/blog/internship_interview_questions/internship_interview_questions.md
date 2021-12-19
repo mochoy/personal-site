@@ -8,6 +8,7 @@ This was originally going to be part of the Interviews chapter of my [internship
 - I take notes of almost every interview (which I'd recommend you do too!) and every question they ask, so this post will just be a reflection of that content. 
 - I try to include every applicable question, no matter how dumb it may seem. What you might think is a dumb question may actually be a very good question for someone else to study. I'm just not going to include questions specific to me, like project- or experience-specific questions. 
 - I tried my best to organize questions by topic, but there's tons of overlap between each topic. For example, GPIO/output driver design and implementation can be asked in the context of analog electronics, embedded systems, transmission lines, and power electronics. Some of these questions have just been repeated with or without additional context to solidify the topic while others will just be refer to another section.
+- I use a few acronyms in this, so aside from the obvious ones (I, V, R, L, C, Z, KVL/KCL, MOSFET, BJT), there's an appendix that lists the acronyms. 
 
 # Basic Circuits
 - What's ohm law? (do people even get this wrong?? Next time I get asked this I'm going to get it wrong on purpose lmao)
