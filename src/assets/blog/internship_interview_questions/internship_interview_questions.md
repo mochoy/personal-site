@@ -494,6 +494,7 @@ Lots of crossover with Power Electronics section
 - When is transmission line (TL) analysis valid? 
 - What is characteristic impedance?
 - What are reflections? Why do I care about them? 
+- Draw some signals with/without reflections. 
 - What causes reflections? 
 - How can I control the characteristic impedance of a TL? 
 - What's the difference and pros/cons of series vs parallel termination? 
