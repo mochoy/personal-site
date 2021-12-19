@@ -472,8 +472,9 @@ Diff pairs from board signals perspective, as opposed to board layout/design or 
 - What does the differential voltage refer to? 
 
 # Signal Integrity/Power Integrity (SI/PI)
+- What is SI/PI? Why is it important?
 
-## SI
+## Signal Integrity (SI)
 - How to characterize quality of a signal?
 - Explain ground bounce? 
 - What happens if signal rising edge is too slow? Too fast? 
@@ -482,9 +483,9 @@ Diff pairs from board signals perspective, as opposed to board layout/design or 
 - What are setup and hold times? What happens if they're violated? 
 
 ### Diff Pairs (SI Perspective)
-Diff paris from SI perspective, as opposed to board layout/design perspective.
+Diff paris from SI perspective, as opposed to board layout/design or signals perspective.
 
-## PI
+## Power Integrity (PI)
 Lots of crossover with Power Electronics section
 - How to characterize quality of power supply? 
 - What is power sequencing? Why is it important? 
