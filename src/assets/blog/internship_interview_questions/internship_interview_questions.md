@@ -460,6 +460,16 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 # Signals
 - Draw spectral content of square wave/pulse train. 
 - Why are square waves so noisy? What can you do to decrease noise? What about decreasing noise at a particular frequnecy content? 
+- What is the highest frequency component of a real vs ideal square wave? 
+- If I want to measure a sine wave, what should be the sample rate? 
+
+## Differential Signaling
+Diff pairs from board signals perspective, as opposed to board layout/design or SI perspective. 
+- What's a differential pair? How does it work? 
+- When are they often used? 
+- How do they improve noise immunity? 
+- What does the common-mode voltage refer to? 
+- What does the differential voltage refer to? 
 
 # Signal Integrity/Power Integrity (SI/PI)
 
