@@ -11,13 +11,13 @@ This was originally going to be part of the Interviews chapter of my [internship
 - I use a few acronyms in this, so aside from the obvious ones (I, V, R, L, C, Z, KVL/KCL, MOSFET, BJT), there's an appendix that lists the acronyms. 
 
 # Basic Circuits
-- What's ohm law? (do people even get this wrong?? Next time I get asked this I'm going to get it wrong on purpose lmao)
+- What is ohm law? (do people even get this wrong?? Next time I get asked this I'm going to get it wrong on purpose lmao)
 - Conceptually explain ohm's law. 
 - What are some basic circuit analyis laws? 
 - What are KCL/KVL?
 - Basic KCL/KVL circuit problems. 
-- What's the equation to find power? 
-- Draw a voltage divider circuit. What's the voltage divider equation? Derive it. 
+- What is the equation to find power? 
+- Draw a voltage divider circuit. What is the voltage divider equation? Derive it. 
 - Basic RLC circuit analysis. 
 - Basic LPF/BPF/HPF filter analysis. 
 - Passive components' parastics. 
@@ -39,9 +39,9 @@ This was originally going to be part of the Interviews chapter of my [internship
 - What is a dielectric? 
 - How does a capacitor behave when initially excited and at DC steady-state? 
 - What is an inductors impedance at DC vs infinitely high frequency? Plot this behavior. 
--Draw a realistic circuit model for a capacitor. What are the parastics and where do they come from? 
+- Draw a realistic circuit model for a capacitor. What are the parastics and where do they come from? 
 - What is a capacitor's self resonant frequency? 
-- What's a bypass/decoupling capacitor? What about a bulk capacitor? What's the difference? 
+- What is a bypass/decoupling capacitor? What about a bulk capacitor? What is the difference? 
 - What is an AC coupling capacitor? 
 - What sort of signals can capacitors pass through and block? What sort of filter behavior is this? 
 - Build a LPF/HPF using a single capacitor.
@@ -64,8 +64,8 @@ This was originally going to be part of the Interviews chapter of my [internship
 
 # Semiconductor Devices
 ## Device Physics
-- What's the difference between P-type semiconductors vs N-type semiconductors? 
-- What's a depletion region and how does it form? 
+- What is the difference between P-type semiconductors vs N-type semiconductors? 
+- What is a depletion region and how does it form? 
 - What materials are typically used for semiconductors?
 - What is doping? 
 - How does doping improve performance? 
@@ -82,17 +82,17 @@ This was originally going to be part of the Interviews chapter of my [internship
 - What are the different operation regions?
 - Given a forward/reverse voltage and threshold voltage, determine what operation region it's in.  
 - What are the different kinds of diodes?
-- What's the typical forward voltage drop across a diode? Why is it this value? How does it differ for different diodes? 
+- What is the typical forward voltage drop across a diode? Why is it this value? How does it differ for different diodes? 
 - How can you build an ideal diode? 
 
 ## BJTs
 - Draw a NPN/BJT symbol. 
 - What are the terminals?
 - What are some use cases of a BJT? 
-- What's the difference between a BJT and MOSFET? 
+- What is the difference between a BJT and MOSFET? 
 - Draw IV curve.
 - How does it work?
-- What's the difference between an NPN and PNP?
+- What is the difference between an NPN and PNP?
 - What are the different modes of operation? 
 - What is current gain/beta? 
 
@@ -102,11 +102,11 @@ This was originally going to be part of the Interviews chapter of my [internship
 - Which two terminals are often connected together and why? 
 - What are some use cases of a MOSFET?
 - Why are MOSFETs used so often?
-- What's the difference between a BJT and MOSFET? 
+- What is the difference between a BJT and MOSFET? 
 - Draw IV curve for MOSFET
 - How does it work?
-- What's the difference between an N-channel and P-channel?
-- What's the difference between enhancement-mode and dehancement mode? 
+- What is the difference between an N-channel and P-channel?
+- What is the difference between enhancement-mode and dehancement mode? 
 - What are the different modes of operation? 
 - Given Vgs and Vt, how will the FET behave? What operating region will it be in? Load-line analysis. 
 - What is the internal body diode? Where does it come from?
@@ -124,7 +124,7 @@ This was originally going to be part of the Interviews chapter of my [internship
 - What is CMOS? Draw a CMOS buffer. 
 - Why are these so often used?
 - TTL vs CMOS? 
-- What's shoot-through on a CMOS logic gate? How can it be prevented?
+- What is shoot-through on a CMOS logic gate? How can it be prevented?
 - CMOS efficiency analysis. How does operational frequency impact efficiency? What about logic/swing levels? Rise/fall times? 
 - How can you achieve faster slew rates? 
 - Design CMOS input protection circuits against ESD/overvoltage events.
@@ -151,7 +151,7 @@ This was originally going to be part of the Interviews chapter of my [internship
 ## Filters
 - Draw mag/phase response of a first-order filter. 
 - Draw a circuit for a first-order LPF/HPF. 
-- What's the dropoff rate of a first-order low-pass filter? 
+- What is the dropoff rate of a first-order low-pass filter? 
 - What does the bandwidth characterize? 
 - What is the 3dB rolloff point? What happens after that? How much of the signal gets through? 
 
@@ -182,7 +182,7 @@ Assume DC-DC for nearly every question unless specified or implied. AC power sup
 
 ### Power Supply Topologies
 - Name some voltage regulators. 
-- What's the difference between a buck converter vs LDO? 
+- What is the difference between a buck converter vs LDO? 
 - What type of circuits can convert AC-AC/AC-DC/DC-DC/DC-AC?
 - What is a bridge rectifier? How does it work? 
 - In many embedded systems, why are step-down regulators more common than step-up regulators?
@@ -282,10 +282,10 @@ Many of these questions assume that synchronous rectification is implemented, bu
 
 ### PFM Operation
 - What are the different operation modes? 
-- What's the difference between discontinuous and continuous operation? 
+- What is the difference between discontinuous and continuous operation? 
 - What can you do to increase efficiency at light loads? 
 - Explain PFM operation.
-- What's the difference between PFM and PWM? 
+- What is the difference between PFM and PWM? 
 - How does the ripple compare between PFM and PWM? 
 - What happens to the inductor current? 
 - Describe the charge/discharge cycle of inductor and capacitor. 
@@ -295,7 +295,7 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - What type of system is the output LC filter? 
 - How do inductor/capacitor values impact stability? 
 - Explain different control topologies. 
-- What's the difference between voltage-mode and current-mode control? Why are they often both implemented simultaneously?
+- What is the difference between voltage-mode and current-mode control? Why are they often both implemented simultaneously?
 - What is slope compensation and when is it needed? (what kinda person asks undergrads this?)
 - Explain subharmonic oscillation. 
 - Explain what happens during a load transient event. 
@@ -366,13 +366,13 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - What are its pros and cons? 
 - How do you spec a current sense resistor? What happens if it's too big/small? 
 - Given a range of input currents and ADC input voltage range, find an apporpriate sense resistor value. 
-- What's the difference between high-side and low-side current sensing? What are the advantages/disadvantages of each? When do you need to use one vs the other? 
+- What is the difference between high-side and low-side current sensing? What are the advantages/disadvantages of each? When do you need to use one vs the other? 
 - How can you use drain-source measurements of a MOSFET to determine current? What are the pros and cons of this setup? 
 
 ### Current Sense Ampliferies (CSA)
-- What's a current sense amplifer (CSA)? 
+- What is a current sense amplifer (CSA)? 
 - When do you need a CSA? 
-- What's the difference between a CSA and a regular op-amp? 
+- What is the difference between a CSA and a regular op-amp? 
 - How do you spec a CSA?
 - Given a range of input currents, a sense resitor value, and ADC input voltage range, find an apporpriate CSA gain. 
 
@@ -401,7 +401,7 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 
 ### Diff Pairs and High-Speed Desgin (PCB Perspective)
 Diff pairs and high-speed design from board layout/design perspective, as opposed to signals or SI perspective. Diff pairs are often used for high-speed signals, so there will be a good amount of overlap with the Transmission Lines (TL) section. 
-- What's a differential pair? 
+- What is a differential pair? 
 - How should it be routed? What are advantages/disadvantages? 
 - What is serpentining? Why is it important for high-speed diff pairs?
 - Describe transmission line components on a PCB. 
@@ -409,13 +409,13 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 
 ### Sense Restistor Layout/Routing
 - How do you route a current sense resitors? 
-- What's a kelvin connection for a sense resistor? What are the tradeoffs?
+- What is a kelvin connection for a sense resistor? What are the tradeoffs?
 
 ### Power Supply Layout/Routing
 - How do you route decoupling and bulk capacitors? 
 
 ## Vias
-- What's a via? Why are they needed?
+- What is a via? Why are they needed?
 - What are the different types of vias? What are their tradeoffs? 
 - If I need to via between inner layers, what type of vias would I use? 
 - When would I want filled vias? 
@@ -431,10 +431,10 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 - Why are PCBs often green? What other colors could they be? 
 
 ## Manufacturing
-- What's the difference between surface-mount and through-hole components? Any tradeoffs?
+- What is the difference between surface-mount and through-hole components? Any tradeoffs?
 - Describe the PCB fab process. 
 - Describe the PCB assembly process.
-- What's DRC? 
+- What is DRC? 
 - How are components soldered on a PCB? 
   - How are double-sided components soldered on a PCB? 
   - What about mixed assembly boards? 
@@ -465,7 +465,7 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 
 ## Differential Signaling
 Diff pairs from board signals perspective, as opposed to board layout/design or SI perspective. 
-- What's a differential pair? How does it work? 
+- What is a differential pair? How does it work? 
 - When are they often used? 
 - How do they improve noise immunity? 
 - What does the common-mode voltage refer to? 
@@ -497,8 +497,8 @@ Lots of crossover with Power Electronics section
 - Draw some signals with/without reflections. 
 - What causes reflections? 
 - How can I control the characteristic impedance of a TL? 
-- What's the difference and pros/cons of series vs parallel termination? 
-- What's the difference and pros/cons of source vs sink termination/matching?
+- What is the difference and pros/cons of series vs parallel termination? 
+- What is the difference and pros/cons of source vs sink termination/matching?
 - What are standard termination/characteristic impedances?
 - How does R, L, and C impact characteristic impendace? How does that differ on a microstrip vs coax TL? 
 - Describe the parasitic R, L, and C components that impact characteristic impedance. 
@@ -507,8 +507,8 @@ Lots of crossover with Power Electronics section
 # Measurement
 - What sample rate/bandwidth will I need to measure a signal? 
 - How should I measure X signal? 
-- What's a diff probe? When do I need it?
-- What's an active probe? When do I need it?
+- What is a diff probe? When do I need it?
+- What is an active probe? When do I need it?
 - What does the 10x attenuation do on a probe?
 - How does an oscillicope work? 
 - How can I measure current? 
@@ -519,7 +519,7 @@ Lots of crossover with Power Electronics section
 - What are some components/subsystems you'd find in an embedded system? 
 - What are some examples of embedded systems?
 - What are some common microcontrollers/microprocessors?
-- What's the difference between a microcontroller and a microprocessor? 
+- What is the difference between a microcontroller and a microprocessor? 
 - What are the blocks of a microcontroller and microprocessor? 
 - How does a microcontroller interact with external peripherals? 
 - When do use MCU vs ASIC vs FPGA?
@@ -528,7 +528,7 @@ Lots of crossover with Power Electronics section
 ## Communication Buses
 - What are the three common communication protocols?
 - How do they (I2C, SPI, UART) work? 
-- What's the difference between I2C and SPI? 
+- What is the difference between I2C and SPI? 
 - Which is faster? Why?
 
 ### I2C
@@ -594,20 +594,20 @@ Most of my ADC/DAC questions have been in the context of embedded systems, not t
 # Digital
 I get so few digital questions (not including embedded systems) that I can group everything into one section. 
 
-- What's the difference between analog and digital? 
+- What is the difference between analog and digital? 
 
 ## Digital Electronics
 - How can you interface two devices with different logic levels? 
 - Design a level shifter. 
 - Design a single-FET level shifter (passives are allowed).
 - What are setup and hold times? What happens if they're violated? 
-- What's the difference between a flip-flop and latch? 
+- What is the difference between a flip-flop and latch? 
 - How does a flip flop/latch work? 
 - Design a memeory cell. 
 - Why are clocks needed? 
 - What happens if a clock is too fast?
-- What's a register?
-- What's metastability?
+- What is a register?
+- What is metastability?
 
 ### Logic Gates (Digital Perspective)
 - Draw a NOT/AND/etc gate symbol. 
@@ -619,8 +619,8 @@ I get so few digital questions (not including embedded systems) that I can group
 ## Digital Logic
 - What is a truth table? 
 - Do the K-map for a given truth table. 
-- What's an FSM? 
-- What's the difference between a Mealy and Moore FSM? 
+- What is an FSM? 
+- What is the difference between a Mealy and Moore FSM? 
 
 ## RTL
 I'm trash at RTL lol
@@ -640,17 +640,17 @@ I'm trash at RTL lol
 - How does process, voltage, and temperature (PVT) impact power, performance, and thermals? 
 - What are process corners? What do they refer to? 
 - What are typical temperature ranges for validation? 
-- What can you do to decrease power consumpution?
+- What can you do to decrease power consumpution? 
 - What can you do to throttle performance? 
 - What sort of temperature control loops are commonly implemented? 
 
 ## Computer Architecture
 - What is a CPU?
 - What are some blocks in a CPU?
-- What's an ALU?
-- What's a cache? 
+- What is an ALU?
+- What is a cache? 
 - What are registers?
-- What's the fetch/execute cycle? 
+- What is the fetch/execute cycle? 
 - What is RAM? What does "random access" refer to?
 - Explain the memory hierarchy. 
 - Describe the five-stage pipeline.
