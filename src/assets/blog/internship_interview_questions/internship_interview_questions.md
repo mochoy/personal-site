@@ -150,6 +150,7 @@ This was originally going to be part of the Interviews chapter of my [internship
 
 ## Filters
 - Draw mag/phase response of a first-order filter. 
+- Draw a circuit for a first-order LPF/HPF. 
 - What's the dropoff rate of a first-order low-pass filter? 
 - What does the bandwidth characterize? 
 - What is the 3dB rolloff point? What happens after that? How much of the signal gets through? 
@@ -160,6 +161,7 @@ This was originally going to be part of the Interviews chapter of my [internship
 - What blocks does a PLL have? 
 - Draw a block diagram.
 - What happens if your PLL locks too fast or too slow? 
+- Why is crushing the clock window bad? How can this impact other circuits that may be connected to the clock? 
 
 # Power Electronics
 - What type of load (resistive, inductive, capacitive) can a SoC/CPU typically be characterized as? 
