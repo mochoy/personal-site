@@ -316,9 +316,11 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - How does a boost converter work?
 - Why are they less efficient than buck converters? 
 
-## LDOs
+## Low-Dropout Regulators (LDOs)
 - What does LDO stand for? 
 - How does an LDO work?
+- What are some tradeoffs of LDOs?
+- If I implement an LDO IC, what additional components are typically needed?
 
 ## Charge Pumps
 - How does a charge pump work? 
@@ -570,6 +572,7 @@ I'm trash at RTL lol
 - What can you do to increase the throughput of a CPU?
 - What is pipelining? 
 - What is branch prediction? Describe some branch prediction algorithms. 
+- What are interrupts? When can they be used and why are they important?
 
 # Coding
 
