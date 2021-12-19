@@ -522,12 +522,10 @@ Lots of crossover with Power Electronics section
 - What's the difference between a microcontroller and a microprocessor? 
 - What are the blocks of a microcontroller and microprocessor? 
 - How does a microcontroller interact with external peripherals? 
-- If a microcontroller isn't booting up, what should you check for? 
 - When do use MCU vs ASIC vs FPGA?
+- What are some common logic levels?
 
 ## Communication Buses
-A lot on GPIO design is very applicable, those are in the Analog Electronics section. 
-
 - What are the three common communication protocols?
 - How do they (I2C, SPI, UART) work? 
 - What's the difference between I2C and SPI? 
@@ -555,6 +553,23 @@ A lot on GPIO design is very applicable, those are in the Analog Electronics sec
 - How does daisy-chaining work? 
 - What are typical logic levels? 
 
+### UART
+- Oversampling?
+
+## GPIOs
+- What is a GPIO? What does it stand for and what are its use cases?
+- What does "GP" refer to? 
+
+### Design/Implementation
+A lot on GPIO design is very applicable, more in-depth questions are covered in the CMOS and Amplifiers subsections of Analog Electronics. These questions will just be surface-level that are more applicable in embedded applications.
+
+- Draw a GPIO circuit. How does it work? 
+- What are the two most common types of GPIO implementations? What are their tradeoffs? 
+- What does open-drain/push-pull mean?
+- When are pullup/pulldown resistors necessary? How do you size them?
+- What are some typical configurable GPIO settings? 
+- What is bus contention? 
+
 ## Peripherals
 - Draw a circuit to connect a sensor to a microcontroller. 
 - Draw a circuit to drive a LED from a microcontroller. What about a high-power LED? 
@@ -572,6 +587,8 @@ Most of my ADC/DAC questions have been in the context of embedded systems, not t
 Most of my ADC/DAC questions have been in the context of embedded systems, not too much on analog design or anything. 
 - How does a DAC work?
 - Design a DAC. 
+
+## Debugging Embedded Systems
 - If a microcontroller isn't booting up, what should you check for? 
 
 # Digital
