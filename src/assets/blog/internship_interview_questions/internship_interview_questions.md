@@ -175,12 +175,30 @@ Assume DC-DC for nearly every question unless specified or implied. AC power sup
 - What are some ways to increase/decrease voltage? What about for a power rail? 
 - Why shouldn't you use a voltage divider to step down voltage for a power rail? 
 - When is a voltage divider applicable to step down voltage? 
-- Name some voltage regulators. 
-- In many embedded systems, why are step-down regulators more common than step-up regulators?
-- What's the difference between a buck converter vs LDO? 
 - Design a power supply. 
 - Why is supply voltage overshoot/undershoot often undesired? When can it be tolerated? 
-- Given a supply spec, design power architecture.
+- What parameters would you want to track in a power supply?
+- When buying/designing a power supply, what specs do you look out for?
+
+### Power Supply Topologies
+- Name some voltage regulators. 
+- What's the difference between a buck converter vs LDO? 
+- What type of circuits can convert AC-AC/AC-DC/DC-DC/DC-AC?
+- What is a bridge rectifier? How does it work? 
+- In many embedded systems, why are step-down regulators more common than step-up regulators?
+
+### Efficiency
+- What is efficiency in a power supply? How can it be measured? Why is it important? 
+- What happens to any lost power? Why is this bad?
+- What is quiescent current?
+
+### Power Architecture
+- Given a supply spec (input supply voltage, output supply voltage(s), output current(s)), design power architecture.
+- If you need multiple output supplies of different voltages from a single input supply, what are some soltuions? 
+- If you need multiple output supplies of the same voltage but different noise performance, what are some solutions? 
+- If I have a high dropout voltage but require high efficiency and a very clean output supply rail, what are some solutions?
+- What is an intermediate bus converter and when is it needed? 
+- What is power sequencing? When/why is it needed? How is the sequence determined? How much time between each rail turning on/off is needed? 
 
 ## Buck Converters
 Buck converter board routing is in PCB Design/Layout section. I often refer to the "on state" where the high-side FET is on and the diode/low-side FET is off and the "off state" where the low-side FET is off and the diode/low-side FET is on. 
