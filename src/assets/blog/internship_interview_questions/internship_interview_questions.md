@@ -129,16 +129,22 @@ This was originally going to be part of the Interviews chapter of my [internship
 - Design CMOS input protection circuits against ESD/overvoltage events.
 
 ## Amplifiers
-- What is an opamp? How does it work?
-- What are the three rules of an ideal opamp? 
-- Draw an inverting/non-inverting opamp circuit. 
-- What is the DC gain of an ompamp? 
 - What is common-mode and differential gain? What are their ideal values?
 - What is the gain-bandwidth product? 
 - What determines slew rate and rise/fall time?
 - Pros/cons of fast/slow slew rates? 
 - How to bias an amplifier? 
 - Why are BJTs more often used for amplifiers than MOSFETs? 
+
+### Opamps
+- What is an opamp? How does it work?
+- Draw an opamp. What are the two input terminals?
+- What connections are required to wire up an opamp?
+- What are the three rules of an ideal opamp? 
+- Draw an inverting/non-inverting opamp circuit. 
+- What is the DC gain of an ompamp? 
+- How does an open-loop opamp behave? What type of circuit is it?
+- Why are non-inverting configurations often preferred? 
 
 ## Filters
 - Draw mag/phase response of a first-order filter. 
