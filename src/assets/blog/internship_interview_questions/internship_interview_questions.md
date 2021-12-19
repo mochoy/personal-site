@@ -350,7 +350,7 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - What are some other common Lithium-based battery chemistries?
 - What are the dangers of Lithium-based battery chemistries? How can these be prevented?
 
-## Inductive Loads (Motors/Solenoids)
+## DC Inductive Loads (Motors/Solenoids)
 - Design a circuit to drive an inductive load from a microcontroller GPIO. 
 - What sort of protection circuitry do you need? 
 - Tradeoffs between different drive circuits: relay, MOSFET, BJT, etc. 
