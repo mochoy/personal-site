@@ -312,6 +312,16 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - How do they impact heat density?
 - How do they impact transient response? 
 
+### Designing Buck Converters
+- What components are typically integrated in the IC and which are typically external? 
+- How do you select a buck converter IC? 
+- How should you spec the output inductor/capacitor? What about input capacitor? What are some considerations?
+- Why is the inductor's saturation current important to consider? What about ACR vs DCR?
+- What determines minumum/maximum L/C? 
+- How does the output L/C impact stability? 
+- How is the output voltage/current sensed? (more in Voltage/Current Sensing section)
+- Design a buck converter. 
+- What's a simple circuit to implement the switching? How can you make it switch with a higher/lower duty cycle based on the feedback voltage?
 ## Boost Converters
 - How does a boost converter work?
 - Why are they less efficient than buck converters? 
