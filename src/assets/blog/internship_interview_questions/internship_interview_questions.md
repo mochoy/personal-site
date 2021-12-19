@@ -154,16 +154,6 @@ This was originally going to be part of the Interviews chapter of my [internship
 - What does the bandwidth characterize? 
 - What is the 3dB rolloff point? What happens after that? How much of the signal gets through? 
 
-## ADC
-- How does an ADC work? 
-- How does a flash ADC work?
-- How does a SAR ADC work?
-- Design an ADC. 
-
-## DAC
-- How does a DAC work?
-- Design a DAC. 
-
 ## PLL
 - What can you use increase clock frequency? 
 - How does a PLL work? 
