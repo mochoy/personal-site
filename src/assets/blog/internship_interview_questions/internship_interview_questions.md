@@ -355,18 +355,45 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - When buying a battery, what specs do you look out for? 
 
 ### Lithium Polymer (LiPo)
-- What is the common bettery chemistry used in rechargable consumer electronics? 
+- What is the common bettery chemistry used in rechargable consumer electronics? Why?
+- What does LiPo stand for? What does this mean?
+- What are some tradeoffs of a LiPo compared to other batteries? 
+- What are some other common Lithium-based battery chemistries? What are their tradeoffs?
+- Can LiPos be used forever? What happens as they age?
+- What materials are LiPos made out of?
+- What is the internal resistance? Why is it important? How does it vary with temperature, aging, frequency, etc?
+
+#### Monitoring
 - What is the typical cell voltage of a LiPo? What are its ranges and why? 
-- What happens when you overcharge the battery? 
+- How does temperature impact LiPo performance? 
+- What important characteristics do you want to monitor in a LiPo circuit?
+- How can you determine the state of charge (SoC)? Why is this often so difficult? 
+- Why is SoC measurement accuracy so important?
+- When it SoC measurement accuracy more desired? When does it not matter as much?
+- How is capacity measured? 
+- How can you determine the health of a LiPo?
+- Why are charging/monitoring ICs important? What can they do? 
+
+#### Charging/Discharging
+- What is a LiPo's C rating?
 - Explain the LiPo discharge and charge curve. 
+- When do LiPos charge fastest? 
+- How fast can you safely charge a LiPo?
+- What happens when you overcharge the battery? 
 - How do you charge a LiPo? What steps and precautions are needed?
 - What are the constant-current and constant-voltage procedures in the charge curve? 
-- When do LiPos charge fastest? 
-- How does temperature impact LiPo performance? 
-- What are some tradeoffs in a LiPo? 
-- How can you determine the state of charge? 
-- What are some other common Lithium-based battery chemistries?
+- What should you monitor when charging a LiPo?
+- Design a circuit to charge/discharge a LiPo. 
+- What is storage charging?
+- Why are charging/monitoring ICs important? What can they do? 
+
+#### Safety
 - What are the dangers of Lithium-based battery chemistries? How can these be prevented?
+- Why is it important to properly handle and dispose LiPos?
+- Why is it so dangerous to puncture LiPos?
+- What happens if you overdischarge/overcharge a LiPo?
+- What happens when you short circuit a LiPo?
+- Why is heat such a big concern?
 
 ## DC Inductive Loads (Motors/Solenoids)
 - Design a circuit to drive an inductive load from a microcontroller GPIO. 
