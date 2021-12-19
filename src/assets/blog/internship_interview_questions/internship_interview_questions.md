@@ -376,8 +376,10 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - How do you spec a CSA?
 - Given a range of input currents, a sense resitor value, and ADC input voltage range, find an apporpriate CSA gain. 
 
-# PCB Design/Layout
-- What are some general rule of thumbs for board routing?
+# Printed Circuit Boards (PCBs)
+- What is a PCB? Name some applications.
+- What are the tradeoffs of PCBs vs solderless breadboards vs soldered breadboards vs just soldering everything together with wires? 
+- What are the parasitic elements present on a PCB? 
 
 ## Stackup
 - What material would I want for conduction layers? 
@@ -594,7 +596,9 @@ I'm trash at RTL lol
 - CSA - Current Sense Amplifer
 - DFM - Design for Manufacturing
 - FTE/FT - Full-Time Engineer/Full-Time
+- LDO - Low-Dropout Regulator
 - LiPo - Lithium Polymer
+- PCB - Printed Circuit Board
 - PI - Power Integrity
 - PVT - Process/Voltage/Temperature
 - SI - Signal Integrity
