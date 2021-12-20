@@ -10,6 +10,10 @@ This was originally going to be part of the Interviews chapter of my [internship
 - I tried my best to organize questions by topic, but there's tons of overlap between each topic. For example, GPIO/output driver design and implementation can be asked in the context of analog electronics, embedded systems, transmission lines, and power electronics. Some of these questions have just been repeated with or without additional context to solidify the topic while others will just be refer to another section.
 - I use a few acronyms in this, so aside from the obvious ones (I, V, R, L, C, Z, KVL/KCL, MOSFET, BJT), there's an appendix that lists the acronyms. 
 
+# How Should You Use this List?
+
+Ok that's enough random stuff here's the mega list of 800+ questions! 
+
 # Basic Circuits
 - What is ohm law? (do people even get this wrong?? Next time I get asked this I'm going to get it wrong on purpose lmao)
 - Conceptually explain ohm's law. 
