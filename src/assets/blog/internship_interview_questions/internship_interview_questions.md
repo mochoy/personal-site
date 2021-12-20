@@ -335,14 +335,24 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - How does buck performance vary with process, voltage, and temperature (PVT)?
 
 ## Boost Converters
+Many of the boost converter questions can be similar to bucks, but I barely have any experience with boosts so they aren't covered as much. 
+
+- What is a boost converter? How does it boost voltage? 
 - How does a boost converter work?
+- Draw a boost converter circuit. 
+- What are some applications?
 - Why are they less efficient than buck converters? 
+- What is the purpose of the diode? The inductor? The capacitor?
+- What happens to the inductor flyback voltage? Why is this important?
 
 ## Low-Dropout Regulators (LDOs)
-- What does LDO stand for? 
+- What does LDO stand for? What does "low-dropout" refer to? How can this be an advantage?
 - How does an LDO work?
-- What are some tradeoffs of LDOs?
+- An LDO can often be modeled as a single passive component, what is this passive component? 
+- What are some tradeoffs of LDOs compared to other stepdown regulators?
 - If I implement an LDO IC, what additional components are typically needed?
+- What happens to any power losses? 
+- LDO efficiency analysis. How does output current and dropout voltage impact efficiency? 
 
 ## Charge Pumps
 - How does a charge pump work? 
