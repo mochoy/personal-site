@@ -127,6 +127,7 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 ## CMOS 
 - What is CMOS? Draw a CMOS buffer. 
 - Why are these so often used?
+- What type of MOSFETs are typically used on the high-side? What about the low-side? Why? 
 - TTL vs CMOS? 
 - What is shoot-through on a CMOS logic gate? How can it be prevented?
 - CMOS efficiency analysis. How does operational frequency impact efficiency? What about logic/swing levels? Rise/fall times? 
@@ -172,17 +173,21 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - What is the condition for maximum power transfer?
 - Often times on a power rail, there are many capacitors connected to ground. What are these capacitors and why are there so many? Why can you just put one massive capacitor? 
 - What is bulk capacitance? 
+- What is inductive flyback? When can this be unwanted? When can it be wanted? How can you protect against it?
+- What is PWM? What are its characteristics?
 
 ## General Power Supply
 Assume DC-DC for nearly every question unless specified or implied. AC power supplies are rarely brought up during my interviews given their use cases and relevance to my experience. 
 
-- What are some ways to increase/decrease voltage? What about for a power rail? 
+- What are some ways to steo up/down voltage? What about for a power rail? 
 - Why shouldn't you use a voltage divider to step down voltage for a power rail? 
 - When is a voltage divider applicable to step down voltage? 
 - Design a power supply. 
-- Why is supply voltage overshoot/undershoot often undesired? When can it be tolerated? 
+- Why is supply voltage overshoot/undershoot often undesired? When can it be tolerated? What type of loads are more sensitive to overshoot/undershoot?
 - What parameters would you want to track in a power supply?
 - When buying/designing a power supply, what specs do you look out for?
+- Why is energy conservation important? How is it applicable? 
+- Given three of the following: input voltage, input current, output voltage, and output current, calculate the fourth value that isn't given. 
 
 ### Power Supply Topologies
 - Name some voltage regulators. 
@@ -193,16 +198,18 @@ Assume DC-DC for nearly every question unless specified or implied. AC power sup
 
 ### Efficiency
 - What is efficiency in a power supply? How can it be measured? Why is it important? 
+- Given two of the following: input power, output power, and efficiency, calculate the third value that isn't given. 
 - What happens to any lost power? Why is this bad?
 - What is quiescent current?
 
 ### Power Architecture
 - Given a supply spec (input supply voltage, output supply voltage(s), output current(s)), design power architecture.
-- If you need multiple output supplies of different voltages from a single input supply, what are some soltuions? 
+- If you need multiple output supplies of different voltages from a single input supply, what are some solutions? 
 - If you need multiple output supplies of the same voltage but different noise performance, what are some solutions? 
 - If I have a high dropout voltage but require high efficiency and a very clean output supply rail, what are some solutions?
 - What is an intermediate bus converter and when is it needed? 
 - What is power sequencing? When/why is it needed? How is the sequence determined? How much time between each rail turning on/off is needed? 
+- How can you implement power sequencing? 
 
 ## Buck Converters
 Buck converter board routing is in PCB Design/Layout section. I often refer to the "on state" where the high-side FET is on and the diode/low-side FET is off and the "off state" where the high-side FET is off and the diode/low-side FET is on. 
@@ -210,11 +217,8 @@ Buck converter board routing is in PCB Design/Layout section. I often refer to t
 - What is a buck converter?
 - How does a buck converter work? 
 - Draw a circuit for a buck converter. 
-- How do you validate/characterize a buck converter? What properties/behaviors do you look out for? 
+- What are some applications?
 - What is a single-input multiple-output (SIMO) buck converter?
-- How does a buck converter age? What happens to its performance? 
-- What is the input capacitor needed? What happens if it's removed? 
-- If I implement an LDO IC, what additional components are typically needed?
 
 ### Duty Cycle/Output Voltage
 - What determines the output voltage and why?
@@ -242,6 +246,7 @@ Buck converter board routing is in PCB Design/Layout section. I often refer to t
 - When does the output capacitor charge/discharge? 
 - What is the inductor polarity? 
 - When does the inductor sink/supply current? 
+- What is the input capacitor needed? What happens if it's removed? 
 - What is voltage/current ripple? (from circuit analysis perspective)
 - What determines inductor current slope? 
 - What determines capacitor voltage slope? 
@@ -253,6 +258,7 @@ Buck converter board routing is in PCB Design/Layout section. I often refer to t
 ### Power Bridge
 Many of these questions assume that synchronous rectification is implemented, but some also compare the behavior/performance between a low-side NFET and diode.
 
+- What type of power bridge is often implemented? Why? 
 - Why is the diode needed? What if it's removed? 
 - Explain synchronous rectification. What are its pros/cons? 
 - NFET vs PFET for high-side FET? What are pros and cons? 
@@ -275,7 +281,7 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - When does ripple not as matter as much? 
 - What limits the switching frequency on the upper and lower ends? Why can't the switching frequency be 1THz or 1Hz? 
 - How does switching frequency impact performance? 
-- How does dropout voltage impact efficiency, ripple, etc? 
+- How does dropout voltage impact efficiency, ripple, etc? What about output current an input/output voltage? 
 
 ### Voltage/Current Sensing
 - How is the output voltage typically sensed? What network is typically used and why is it needed? 
@@ -358,15 +364,16 @@ Many of the boost converter questions can be similar to bucks, but I barely have
 - How does a charge pump work? 
 - Draw a circuit for a charge pump. 
 - What are they used for? 
+- Charge pump efficiency anaylsis. 
 
 ## Batteries
-- What are some common battery chemistries? 
+- What are some common battery chemistries? Which are rechargable and which are single use? How do you determine which to use?
 - How do you characterize a battery? 
 - What are some desirable characteristics in a battery?
+- When buying a battery, what specs do you look out for? 
 - How do you measure battery voltage/current? 
 - What do you have to monitor in a battery to ensure it's operating safely? 
 - How do you charge/discharge a battery safely? 
-- When buying a battery, what specs do you look out for? 
 
 ### Lithium Polymer (LiPo)
 - What is the common bettery chemistry used in rechargable consumer electronics? Why?
@@ -546,7 +553,9 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 - If there's a short on the PCB, how can it be detected, found, and root caused?
 
 # Signals
-- Draw spectral content of square wave/pulse train. 
+- What is the Fourier Transform? 
+- Draw spectral content of square wave/pulse train.
+- What is PWM? What are its characteristics?
 - Why are square waves so noisy? What can you do to decrease noise? What about decreasing noise at a particular frequnecy content? 
 - What is the highest frequency component of a real vs ideal square wave? 
 - If I want to measure a sine wave, what should be the sample rate? 
@@ -660,8 +669,8 @@ A lot on GPIO design is very applicable, more in-depth questions are covered in 
 
 ## Peripherals
 - Draw a circuit to connect a sensor to a microcontroller. 
-- Draw a circuit to drive a LED from a microcontroller. What about a high-power LED? 
-- Draw a circuit to drive a motor from a microcontroller. What if isolation is required? 
+- Draw a circuit to drive a LED from a microcontroller. What about a high-power LED? What if I want to change the brightness?
+- Draw a circuit to drive a motor from a microcontroller. What if isolation is required? What if I want to change the speed?
 
 ## ADC
 Most of my ADC/DAC questions have been in the context of embedded systems, not too much on analog design or anything. 
@@ -765,14 +774,19 @@ I'm trash at RTL lol
 - C - Capacitor/Capacitance or the programming language
 - CSA - Current Sense Amplifer
 - DFM - Design for Manufacturing
+- EMR - Electromechanical Relay
 - FTE/FT - Full-Time Engineer/Full-Time
+- IGBT - Insulated-Gate Bipolar Transistor
 - L - Inductor/Inductance
 - LDO - Low-Dropout Regulator
 - LiPo - Lithium Polymer
+- OOP - Object-Oriented Programming
 - PCB - Printed Circuit Board
 - PI - Power Integrity
 - PVT - Process/Voltage/Temperature
 - R - Resistor/Resistance
 - SI - Signal Integrity
 - SI/PI - Signal Integrity/Power Integrity
+- SoC - State of Charge (for a battery) or System on Chip
+- SSR - Solid-State Relay
 - TL - Transmission Line
