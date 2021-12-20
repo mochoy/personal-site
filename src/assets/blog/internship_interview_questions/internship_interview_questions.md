@@ -409,10 +409,35 @@ Many of the boost converter questions can be similar to bucks, but I barely have
 - What happens when you short circuit a LiPo?
 - Why is heat such a big concern?
 
-## DC Inductive Loads (Motors/Solenoids)
+## Inductive Loads (Motors/Solenoids)
+Mostly on DC inductive loads like brushed DC motors and solenoids. I've only been asked a tiny bit of AC inductive loads in the context of brushless motors. Most of these questions arise because of my personal projects with motors and solenoids, only a few roles I've interviewed for actually use motors/solenoids. Most of these questions will be for motors (since I've been asked mostly about them), but there's a good amount of overlap with solenoids.
+
+- What is a motor?
+- What is a solenoid? 
+- What are they used for? 
+- What are linear motors?
+
+### Characterization/Behavior
+- How does a motor/solenoid work? 
+- Draw a torque vs RPM curve. What are its implications? Repeat for current and voltage vs torque and RPM.
+- When does a motor/solenoid draw the most current?
+- When does a motor/solenoid draw the least amount of current? 
+- Steady-state?
+- What type of loads are motors and solenoids?
+- What is flyback voltage?
+- What is back EMF? 
+- What's the difference between a motor and generator? 
+- If I hook up a 12V supply (with infinite current output) to a motor with a coil resistance of 1 ohm, will I see 12A of curent being draw? Why? When would I see 12A? When wouldn't I? 
+- What is inrush current?
+
+### Inductive Drives
+PCB design/layout on inductive drives is in the PCBs section. 
 - Design a circuit to drive an inductive load from a microcontroller GPIO. 
+- What if you need motor braking? 
+- What if you need to drive the motor in both directions? 
+- What are the different kinds of motor braking?
 - What sort of protection circuitry do you need? 
-- Tradeoffs between different drive circuits: relay, MOSFET, BJT, etc. 
+- Tradeoffs between different drive circuits: electromechanical relay (EMR), solid-state relay (SSR), MOSFET, BJT, insulated-gate bipolar transistor (IGBT), etc. 
 
 ## Current Sensing
 - How to measure current?
