@@ -497,6 +497,10 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 
 ### Power Supply Layout/Routing
 - How do you route decoupling and bulk capacitors? 
+- What can you do at the board-level to reduce heating of a power supply?
+- Heat sinks
+
+### Inductive Loads Layout/Routing
 
 ## Vias
 - What is a via? Why are they needed?
