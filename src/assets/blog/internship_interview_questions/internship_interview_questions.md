@@ -83,6 +83,19 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 
 ---
 
+# Physics/Chemistry
+Basic physics/chemistry questions, not including device physics or basic circuit physics which has their own sections. 
+
+- What is a conductor/insulator/semiconductor?
+- What is the skin effect?
+- What is the photoelectric effect?
+- Explain any dielectric losses and how they occur. 
+- How does electrcity work? 
+- How does lightning work? 
+- Which atom bands do electrons move? 
+
+---
+
 # Semiconductor Devices
 ## Device Physics
 - What is the difference between P-type semiconductors vs N-type semiconductors? 
