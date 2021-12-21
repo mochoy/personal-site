@@ -17,7 +17,8 @@ This was originally going to be part of the Interviews chapter of my [internship
 
 Ok that's enough random stuff here's the mega list of 800+ questions! 
 
-# Basic Circuits
+# The Basics/Fundementals
+## Basic Circuits
 - What is ohm law? (do people even get this wrong?? Next time I get asked this I'm going to get it wrong on purpose lmao)
 - Conceptually explain ohm's law. 
 - What are some basic circuit analyis laws? 
@@ -30,10 +31,8 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - Passive components' parastics. 
 - Basic opamp circuit analysis. 
 
----
-
-# Passive Components
-## Resistors
+## Passive Components
+### Resistors
 - Draw the symbol for a resistor. 
 - What is resistance? 
 - What does resistance depend on?
@@ -43,7 +42,7 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - What are some common failure modes of a resistor?
 - What are pullup/pulldown resistors? How do you spec them? 
 
-## Capacitors
+### Capacitors
 - Draw the symbol for a capacitor. 
 - What is capacitance? 
 - What is a dielectric? 
@@ -62,7 +61,7 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - What are some common failure modes of a capacitor?
 - What is the continuity condition? What do capacitors resist change to?
 
-## Inductors
+### Inductors
 - Draw the symbol for an inductor. 
 - What is inductance?
 - What is the equation for impedance of an inductor?
@@ -81,9 +80,7 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - Build a LPF/HPF using a single inductor.
 - What are some common failure modes of an inductor?
 
----
-
-# Physics/Chemistry
+## Physics/Chemistry
 Basic physics/chemistry questions, not including device physics or basic circuit physics which has their own sections. 
 
 - What is a conductor/insulator/semiconductor?
@@ -92,12 +89,10 @@ Basic physics/chemistry questions, not including device physics or basic circuit
 - Explain any dielectric losses and how they occur. 
 - How does electrcity work? 
 - How does lightning work? 
-- Which atom bands do electrons move? 
+- Which atom bands do electrons move in? 
 
----
-
-# Semiconductor Devices
-## Device Physics
+## Semiconductor Devices
+### Device Physics
 - What is the difference between P-type semiconductors vs N-type semiconductors? 
 - What is a depletion region and how does it form? 
 - What materials are typically used for semiconductors?
@@ -109,7 +104,7 @@ Basic physics/chemistry questions, not including device physics or basic circuit
 - Which charge carriers are more mobile: holes or electrons?
 - Why do N-type semiconductors typically have lower resistance? 
 
-## Diodes
+### Diodes
 - How does a diode work? 
 - What are some use cases of a diode?
 - Draw IV curve. 
@@ -119,7 +114,7 @@ Basic physics/chemistry questions, not including device physics or basic circuit
 - What is the typical forward voltage drop across a diode? Why is it this value? How does it differ for different diodes? 
 - How can you build an ideal diode? 
 
-## BJTs
+### BJTs
 - Draw a NPN/BJT symbol. 
 - What are the terminals?
 - What are some use cases of a BJT? 
@@ -130,7 +125,7 @@ Basic physics/chemistry questions, not including device physics or basic circuit
 - What are the different modes of operation? 
 - What is current gain/beta? 
 
-## MOSFETs
+### MOSFETs
 - Draw a PFET/NFET symbol.
 - What are the terminals?
 - Which two terminals are often connected together and why? 
