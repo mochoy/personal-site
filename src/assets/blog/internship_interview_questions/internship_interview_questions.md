@@ -761,16 +761,7 @@ Lots of crossover with Power Electronics section
 - Describe the parasitic R, L, and C components that impact characteristic impedance. 
 - What is impedance matching? Why do I care about it and when should it be used? 
 
-# Measurement
-- What sample rate/bandwidth will I need to measure a signal? 
-- How should I measure X signal? 
-- What is a diff probe? When do I need it?
-- What is an active probe? When do I need it?
-- What does the 10x attenuation do on a probe?
-- How does an oscillicope work? 
-- How can I measure current? 
-- Probe input impedance - what should it be any why? 
-- When would I want different probe impedance? 
+---
 
 # Embedded Systems
 - What are some components/subsystems you'd find in an embedded system? 
@@ -930,6 +921,18 @@ I'm trash at RTL lol
 # System Architecture
 
 ---
+
+# Measurement
+- What sample rate/bandwidth will I need to measure a signal? 
+- How should I measure X signal? 
+- What is a diff probe? When do I need it?
+- What is an active probe? When do I need it?
+- What does the 10x attenuation do on a probe?
+- How does an oscillicope work? 
+- How can I measure current? 
+- Probe input impedance - what should it be any why? 
+- When would I want different probe impedance? 
+- What is the difference between bandwidth and sampling rate?
 
 ---
 
