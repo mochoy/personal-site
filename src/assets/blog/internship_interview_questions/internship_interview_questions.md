@@ -1102,8 +1102,11 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 
 ---
 
-# General Debug
-
+# General Debug, Testing, and Validation
+- What tools can you use to debug/test/validate stuff? 
+- What is your approach to debug/test/validate something?
+- Design a system to test x. 
+- How do you debug software?
 
 ---
 
