@@ -8,14 +8,14 @@ This was originally going to be part of the Interviews chapter of my [internship
 - I take notes of almost every interview and every question they ask (which I'd recommend you do too!), so this post will just be a reflection of that content. 
 - I try to include every applicable question, no matter how dumb it may seem. What you might think is a dumb question may actually be a very good question for someone else to study. I'm just not going to include questions specific to me, like project- or experience-specific questions. 
 - I tried my best to organize questions by topic, but there's tons of overlap between each topic. For example, GPIO/output driver design and implementation can be asked in the context of analog electronics, embedded systems, transmission lines, and power electronics. Some of these questions have just been repeated with or without additional context to solidify the topic while others will just be refer to another section.
-- I use a few acronyms in this, so aside from the obvious ones (I, V, R, L, C, Z, KVL/KCL, MOSFET, BJT), there's an appendix that lists the acronyms. 
+- I use a few acronyms in this, so aside from the obvious ones (I, V, R, L, C, Z, KVL/KCL, MOSFET, BJT, etc), there's an appendix that lists the acronyms. 
 - Some questions I get more than others, so the more common questions will be bolded. 
 
 # How Should You Use this List?
 
 ---
 
-Ok that's enough random stuff here's the mega list of 800+ questions! 
+Ok that's enough random stuff here's the mega list! 
 
 # The Basics/Fundementals
 ## Basic Circuits
@@ -25,6 +25,7 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - What are KCL/KVL?
 - Basic KCL/KVL circuit problems. 
 - What is the equation to find power? 
+- Why is power loss often due to current, not voltage?
 - Draw a voltage divider circuit. What is the voltage divider equation? Derive it. 
 - Basic RLC circuit analysis. 
 - Basic LPF/BPF/HPF filter analysis. 
@@ -81,7 +82,7 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - What are some common failure modes of an inductor?
 
 ## Physics/Chemistry
-Basic physics/chemistry questions, not including device physics or basic circuit physics which has their own sections. 
+Basic physics/chemistry questions, not including device physics or basic circuit physics which have their own sections. 
 
 - What is a conductor/insulator/semiconductor?
 - What is the skin effect?
@@ -828,6 +829,7 @@ Lots of crossover with Power Electronics section
 - How many slaves can there be? 
 - When would you need more masters?
 - Explain address/data frames. 
+- How can you change a slave's address?
 - Explain NACK/ACK. 
 - Explain clock stretching. 
 - What are advantages of the open-drain output drivers? 
@@ -887,6 +889,12 @@ Most of my ADC/DAC questions have been in the context of embedded systems, not t
 - How does a SAR ADC work?
 - Design an ADC. 
 - Reading the ADC from your microcontroller returns some value. Given the value and the ADC supply voltages, convert this reading into a voltage. 
+- What is sampling? 
+- What is sample and hold?
+- How the the sample voltage maintained throughout the entire sample duration? 
+- Design a sample and hold circuit. 
+- What are the tradeoffs between super fast/slow sample and hold durations? 
+- What are some ADC frontends? 
 
 ## DAC
 Most of my ADC/DAC questions have been in the context of embedded systems, not too much on analog design or anything. 
@@ -1027,6 +1035,7 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - What can you do to decrease power consumpution? 
 - What can you do to throttle performance? 
 - What sort of temperature control loops are commonly implemented? 
+- What is power, performance, area (PPA)? Describe the tradeoffs. 
 
 ## RTL
 - Desribe any experience you have with RTL. 
@@ -1111,7 +1120,17 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 ---
 
 # Non-Technical
+A lot of these non-technical questions are the generic interview questions but they still do come up. 
+
 ## Intro
+- **How are you doing?** (lmao)
+- Introduce yourself. 
+- What are your interests/goals? 
+- What are your career goals?
+- What are you looking for in this position/company?
+- Why are you interested in this position/company?
+- Do you have other competing interviews/offers/deadlines?
+- When are you available for an internship?
 - Do you require visa assistance? 
 - Why don't you want to return to your previous internship/company? (if applicable)
 - What is your desired salary? 
@@ -1177,16 +1196,23 @@ Behavioral questions that are more on the technical side or can get more technic
 - ESC - Electronic Speed Controller
 - FTE/FT - Full-Time Engineer/Full-Time
 - IGBT - Insulated-Gate Bipolar Transistor
+- ISA - Instruction Set Architecture
+- ISR - Interrupt Service Routing
 - L - Inductor/Inductance
 - LDO - Low-Dropout Regulator
 - LiPo - Lithium Polymer
+- MMU - Memory Management Unit
+- NV - Non-Volatile
 - OOP - Object-Oriented Programming
 - PCB - Printed Circuit Board
 - PI - Power Integrity
+- PPA - Power, Performance, Area
 - PVT - Process/Voltage/Temperature
 - R - Resistor/Resistance
+- RTOS - Real-Time Operating System
 - SI - Signal Integrity
 - SI/PI - Signal Integrity/Power Integrity
 - SoC - State of Charge (for a battery) or System on Chip
+- SoM - System on Mhip
 - SSR - Solid-State Relay
 - TL - Transmission Line
