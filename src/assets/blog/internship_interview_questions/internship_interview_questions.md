@@ -435,43 +435,153 @@ Many of the boost converter questions can be similar to bucks, but I barely have
 - What happens when you short circuit a LiPo?
 - Why is heat such a big concern?
 
-## Inductive Loads (Motors/Solenoids)
-Mostly on DC inductive loads like brushed DC motors and solenoids. I've only been asked a tiny bit of AC inductive loads in the context of brushless motors. Most of these questions arise because of my personal projects with motors and solenoids, only a few roles I've interviewed for actually use motors/solenoids. Most of these questions will be for motors (since I've been asked mostly about them), but there's a good amount of overlap with solenoids.
+## Inductive Loads
+Mostly on DC inductive loads like brushed DC motors and solenoids. I've only been asked a tiny bit of AC inductive loads in the context of brushless motors. Most of these questions arise because of my personal projects with motors and solenoids, only a few roles I've interviewed for actually use motors/solenoids. I was also asked most of these questions during my freshman year before I started taking interview notes and before I had any internship or school experience, so these questions are mostly from memory. Most of these questions will be for motors (since I've been asked mostly about them), but there's a good amount of overlap with solenoids.
 
-- What is a motor?
-- What is a solenoid? 
-- What are they used for? 
-- What are linear motors?
+- What is a motor/solenoid? What can they be used for?
+- Describe how a motor/solenoid works. 
+- Why are coils often used? What's so special about that configuration?
 
 ### Characterization/Behavior
-- How does a motor/solenoid work? 
-- Draw a torque vs RPM curve. What are its implications? Repeat for current and voltage vs torque and RPM.
 - When does a motor/solenoid draw the most current?
 - When does a motor/solenoid draw the least amount of current? 
-- Steady-state?
-- What type of loads are motors and solenoids?
+- Describe what happens to a motor/solenoid at steady-state under minimum and maximum current draw?. 
+- What type of loads are motors/solenoids?
 - What is flyback voltage?
 - What is back EMF? 
-- What's the difference between a motor and generator? 
-- If I hook up a 12V supply (with infinite current output) to a motor with a coil resistance of 1 ohm, will I see 12A of curent being draw? Why? When would I see 12A? When wouldn't I? 
+- If I hook up a 12V supply (with infinite current output) to a motor/solenoid with a coil resistance of 1 ohm, will I see 12A of curent being draw? Why? When would I see 12A? When wouldn't I? 
 - What is inrush current?
+- When do motors/solenoids draw the most amount of current?
+- Inductors oppose instantaneous changes in current, but motors/solenoid still experience very fast and large inrush currents. Why is this? 
 
-### Inductive Drives
+### Brushed DC Motors
+- What's the difference between a motor and generator?
+- What's the difference between a motor and solenoid?
+- What are the parts of a motor? Which parts rotate and which parts remain static?
+- Name a few types of motors. What are they each used for?
+- What are linear motors?
+- What sort of motors are typically used for phone's vibration motor? 
+- Draw a torque vs RPM curve. What are its implications? Repeat for current and voltage vs torque and RPM.
+- What electrical parameter corresponds to high torque? Why? What about high RPM?
+- How do you spec a motor?
+- Why are motors so noisy? How can you reduce this noise?
+- What is arcing?
+
+#### Brushes
+- What are brushes? 
+- What are brushes made out of?
+- What are some concerns about brushes?
+- Why do brushes wear out?
+- When should you replace brushes vs replace the whole motor?
+- How do brushes maintain contact with the commutator?
+
+### Brushless DC (BLDC) Motors
+- How do BLDC motors work? 
+- How do you control BLDC motors?
+- How do you control a BLDC motor from a microcontroller? What other components do you need?
+- What are some advantages of brushless vs brushed motors?
+- What are the poles of the motor? How can they impact performance?
+- How do you spec a BLDC motor?
+
+#### Electronic Speed Controllers (ESCs)
+- What is an electronic speed controller (ESC)? 
+- Why are ESCs often required for brushless motors?
+- What's the difference between an ESC and a single-phase motor driver? What additional functionality may an ESC offer?
+- What components/subsystems does an ESC have?
+- How do you interface with ESCs? What other components/contollers are needed? How do they communicate?
+- Design an ESC. 
+- How do you spec an ESC?
+
+### Stepper Motors
+- What is a stepper motor? 
+- How does it work?
+- What are its applications?
+- What are its advantages compared to other types of motors?
+- How do you control a stepper motor from a microcontroller? What other components do you need? 
+- How do you spec a stepper motor?
+- How do stepper motors hold a certain position?
+
+### Servo Motors
+- What is a servo motor? 
+- How does it work?
+- What are its applications?
+- What are its advantages compared to other types of motors?
+- How do you control a servo motor from a microcontroller? What other components do you need? 
+- How do you spec a servo motor?
+- How are servo motors so precise in their movement?
+
+### Single-Phase Inductive Drives
 PCB design/layout on inductive drives is in the PCBs section. 
-- Design a circuit to drive an inductive load from a microcontroller GPIO. 
+
+- How do you drive an inductive load?
 - What if you need motor braking? 
 - What if you need to drive the motor in both directions? 
 - What are the different kinds of motor braking?
 - What sort of protection circuitry do you need? 
 - Tradeoffs between different drive circuits: electromechanical relay (EMR), solid-state relay (SSR), MOSFET, BJT, insulated-gate bipolar transistor (IGBT), etc. 
+- What optimizations can you do for solenoid drives to increase plunger velocity and cycle rate?
+- If you're using a driver IC, how do you spec it? What properties should you look for? 
+- If you're designing a motor/solenoid drive with discrete components, how do you spec your transistors? 
+- What limits the switching frequency? 
+- How do you increase the switching frequency?
+
+#### Half/H-Bridge
+There's a good amount of overlap with the Power Bridge subsection of Buck Converters as well, since the power bridge of a buck is often just a half bridge. 
+
+- Draw an H-bidge ciruit.
+- Draw a half-bidge ciruit.
+- How does a half/H-Bridge work? 
+- What's the difference between an H-bridge and half-bridge? What are the tradeoffs?
+- How can you brake a motor using a half-bridge? What about an H-bridge? Which can brake the motor faster? How does this stress the motor?
+- When can you use an asymmetrical half-bridge? When do you need a symmetrical H-bridge?
+- What are the advantages of using a high-side NFET? What additional challenges are presented? 
+- Design a circuit to properly drive a high-side NFET. Why is it needed?
+- What happens if you turn both the PFET and NFET on the same side at the same time? How do you prevent this?1
+
+#### Control from Embedded Device
+Often times you want to control a big motor/solenoid from a small embedded device. This section focuses on some of the more power electronics side of things while the Embedded Systems section will focus a bit more on the embedded side of things. 
+
+- Design a circuit to drive an inductive load from a microcontroller GPIO. 
+- Why would a pulldown resistor be nessary?
+- Why would you want a series resistor between the GPIO and MOSFET gate? What is parasitic oscillation in the context and where can it arise from? What does the series resistor do?
+- Why is isolation important?
+- What sort of isolations would you want?
+- What is galvanic isolation?
+- What are some challenges when using a high-side PFET and a much higher supply voltage to power the motor?
+- Design a circuit to properly drive a high-side PFET. Why is this needed?
+
+### Safety and Monitoring
+- What are some failure modes of motors/solenoids? How can they be avoided?
+- What are some dangers when using motors/solenoid?
+- What properties do you want to measure when using a motor/solenoid? 
+- How can these properties be monitored? What sensors/components can you use?
+- How would you alter the behavior of the motor/solenoid based on the observed data?
+- How do you determine how much current a motor/solenoid is drawing?
+- How can you detect the temperature of a motor/solenoid?
+- Which temperatures do you want to/can you measure?
+- Since the motor/solenoid may be moving, you might not always want physical contact between the sensor and motor/solenoid. What are some contactless ways to meaure temperature? 
+- How do motors perform as they age?
+- What kind of stress may a motor experience in its lifetime?
+- Motor/solenoids often require many loops in the coils, so the coil wires will be very thin. Motors/solenoids also draw lots of current, possibly more than the coils can support. How do you reconcile this? Do coils on the motors always burn out?
+
+#### Speed/Position
+- When/why would knowing the speed and/or position of a motor/solenoid be useful?
+- How can you measure the RPM of a motor?
+- How can you determine the position of a motor?
+- What is a rotary encoder? How can it be used to measure motor speed?
+- How can you use BEMF to measure motor speed?
+- How can you measure the speed of a solenoid?
+- How can you measure the position of a solenoid?
 
 ## Current Sensing
-- How to measure current?
+- How can you to measure current?
+- Why do you want to measure current?
 - How does inductive/magnetic current sensing work? What are its pros and cons? 
 - Describe tradeoffs between different current sensing mechanisms. 
 
 ### Sense Resistor
 Sense resistor PCB layout/routing is in PCB Design/Layout section
+
 - How does a sense resistor work to sense current? 
 - What are its pros and cons? 
 - How do you spec a current sense resistor? What happens if it's too big/small? 
