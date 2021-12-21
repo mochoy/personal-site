@@ -1036,14 +1036,16 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 ## Assembly
 - What is assembly? How does it differ from programming languages like C or Python?
 - Describe what this given program is doing. How long will it take to run? How many times will {some subroutine} get executed?
-- What can you do to increase the throughput of a CPU?
-- What is pipelining? 
-- What is branch prediction? Describe some branch prediction algorithms. 
-- What are interrupts? When can they be used and why are they important?
 
 ---
 
 # Coding
+- What sort of coding experience do you have?
+- Do you have coding experience in: (these are the three most I get asked about)
+  - C
+  - C++
+  - Python
+
 ## Object-Oriented Programming (OOP)
 
 ---
