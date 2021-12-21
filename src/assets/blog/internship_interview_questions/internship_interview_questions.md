@@ -12,6 +12,8 @@ This was originally going to be part of the Interviews chapter of my [internship
 
 # How Should You Use this List?
 
+---
+
 Ok that's enough random stuff here's the mega list of 800+ questions! 
 
 # Basic Circuits
@@ -25,7 +27,9 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - Basic RLC circuit analysis. 
 - Basic LPF/BPF/HPF filter analysis. 
 - Passive components' parastics. 
-- Basic op-amp circuit analysis. 
+- Basic opamp circuit analysis. 
+
+---
 
 # Passive Components
 ## Resistors
@@ -65,6 +69,8 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - What sort of signals can inductors pass through and block? What sort of filter behavior is this? 
 - Build a LPF/HPF using a single inductor.
 - What are some common failure modes of an inductor?
+
+---
 
 # Semiconductor Devices
 ## Device Physics
@@ -115,6 +121,8 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - Given Vgs and Vt, how will the FET behave? What operating region will it be in? Load-line analysis. 
 - What is the internal body diode? Where does it come from?
 - Why are MOSFETs sensitive to overvoltage conditions applied at the gate? 
+
+---
 
 # Analog Circuits/Electronics
 - Often times, I'm given an unnamed circuit and asked to explain how it works and what type of circuit it is. Here are a few of them I've gotten (and know what they're called):
@@ -167,6 +175,8 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - Draw a block diagram.
 - What happens if your PLL locks too fast or too slow? 
 - Why is crushing the clock window bad? How can this impact other circuits that may be connected to the clock? 
+
+---
 
 # Power Electronics
 - What type of load (resistive, inductive, capacitive) can a SoC/CPU typically be characterized as? 
@@ -463,9 +473,11 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 ### Current Sense Ampliferies (CSA)
 - What is a current sense amplifer (CSA)? 
 - When do you need a CSA? 
-- What is the difference between a CSA and a regular op-amp? 
+- What is the difference between a CSA and a regular opamp? 
 - How do you spec a CSA?
-- Given a range of input currents, a sense resitor value, and ADC input voltage range, find an apporpriate CSA gain. 
+- Given a range of input currents, a sense resistor value, and ADC input voltage range, find an apporpriate CSA gain. 
+
+---
 
 # Printed Circuit Boards (PCBs)
 - What is a PCB? Name some applications.
@@ -552,6 +564,8 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 - What are some common failure modes of a PCB?
 - If there's a short on the PCB, how can it be detected, found, and root caused?
 
+---
+
 # Signals
 - What is the Fourier Transform? 
 - Draw spectral content of square wave/pulse train.
@@ -567,6 +581,8 @@ Diff pairs from board signals perspective, as opposed to board layout/design or 
 - How do they improve noise immunity? 
 - What does the common-mode voltage refer to? 
 - What does the differential voltage refer to? 
+
+---
 
 # Signal Integrity/Power Integrity (SI/PI)
 - What is SI/PI? Why is it important?
@@ -586,6 +602,8 @@ Diff paris from SI perspective, as opposed to board layout/design or signals per
 Lots of crossover with Power Electronics section
 - How to characterize quality of power supply? 
 - What is power sequencing? Why is it important? 
+
+---
 
 # Transmission Lines/High-Speed Design
 - When is transmission line (TL) analysis valid? 
@@ -688,6 +706,9 @@ Most of my ADC/DAC questions have been in the context of embedded systems, not t
 ## Debugging Embedded Systems
 - If a microcontroller isn't booting up, what should you check for? 
 
+---
+---
+
 # Digital
 I get so few digital questions (not including embedded systems) that I can group everything into one section. 
 
@@ -757,18 +778,28 @@ I'm trash at RTL lol
 - What is branch prediction? Describe some branch prediction algorithms. 
 - What are interrupts? When can they be used and why are they important?
 
+---
+
 # Coding
 ## Object-Oriented Programming (OOP)
 
-# Behavioral
-
-# Technical/Behavioral
+---
 
 # System Architecture
 
+---
+
+---
+
 # General Debug
 
+
+---
+---
+
 # Misc.
+
+---
 
 # Appendix
 - C - Capacitor/Capacitance or the programming language
