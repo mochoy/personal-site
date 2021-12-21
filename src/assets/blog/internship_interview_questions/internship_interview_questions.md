@@ -962,6 +962,27 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 # VLSI/Computer Architecture
 
 ## Computer Architecture
+- Name some computer architectures. 
+- What type of computer architectures are often used in smartphones/consumer electronics?
+- What is a CPU?
+- What are some blocks in a CPU?
+- What is an ALU?
+- What is the program counter? 
+- How does the contents of the program counter change over time?
+- What is the fetch/execute cycle? 
+- Describe the five-stage pipeline.
+- How can you offload tasks from the CPU? What are things you can do in parallel and what are the tradeoffs? 
+- What can you do to increase the throughput of a CPU?
+- What is pipelining? 
+- What is branch prediction? Describe some branch prediction algorithms. 
+- What are interrupts? When can they be used and why are they important? How does their usage often differ from that of embedded systems?
+- What is microarchitecture? 
+- What is an instruction set architecture (ISA)?
+- What is the difference between microarchitecture and ISA? 
+- What is RISC-V? 
+- Does RISC-V specifiy the ISA or microarchitecture?
+- What are some advantages of RISC vs CISC? 
+- How do you characterize CPU performance? 
 - How does clock frequency impact power, performance, and thermals? 
 - Why are multiple clock domains needed?
 - How does supply voltage impact power, performance, and thermals? 
