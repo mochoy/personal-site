@@ -929,8 +929,7 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 
 ---
 
-# Digital
-I get so few digital questions (not including embedded systems) that I can group everything into one section. 
+# Digital Basics
 
 - What is the difference between analog and digital? 
 
@@ -960,16 +959,9 @@ I get so few digital questions (not including embedded systems) that I can group
 - What is an FSM? 
 - What is the difference between a Mealy and Moore FSM? 
 
-## RTL
-- Desribe any experience you have with RTL. 
-- Design a clock divider. 
-- Design an arbiter. What are the different types and their pros/cons? 
+# VLSI/Computer Architecture
 
-## Assembly
-- What is assembly? How does it differ from programming languages like C or Python?
-- Describe what this program is doing. How long will it take to run? How many times will {some subroutine} get executed?
-
-## VLSI Power/Performance
+## Computer Architecture
 - How does clock frequency impact power, performance, and thermals? 
 - Why are multiple clock domains needed?
 - How does supply voltage impact power, performance, and thermals? 
@@ -981,17 +973,14 @@ I get so few digital questions (not including embedded systems) that I can group
 - What can you do to throttle performance? 
 - What sort of temperature control loops are commonly implemented? 
 
-## Computer Architecture
-- What is a CPU?
-- What are some blocks in a CPU?
-- What is an ALU?
-- What is a cache? 
-- What are registers?
-- What is the fetch/execute cycle? 
-- What is RAM? What does "random access" refer to?
-- Explain the memory hierarchy. 
-- Describe the five-stage pipeline.
-- How can you offload tasks from the CPU? What are things you can do in parallel and what are the tradeoffs? 
+## RTL
+- Desribe any experience you have with RTL. 
+- Design a clock divider. 
+- Design an arbiter. What are the different types and their tradeoffs? 
+
+## Assembly
+- What is assembly? How does it differ from programming languages like C or Python?
+- Describe what this given program is doing. How long will it take to run? How many times will {some subroutine} get executed?
 - What can you do to increase the throughput of a CPU?
 - What is pipelining? 
 - What is branch prediction? Describe some branch prediction algorithms. 
