@@ -698,9 +698,13 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 - When should/shouldn't you use them?
 - Who/what uses test points?
 
-## Debugging PCBs
+## EMI Shields
+
+## Debugging and Reworking PCBs
 - What are some common failure modes of a PCB?
 - If there's a short on the PCB, how can it be detected, found, and root caused?
+
+## Electrical Computer-Aided Design (ECAD) Software
 
 ---
 
