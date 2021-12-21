@@ -1051,6 +1051,17 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 ---
 
 # System Architecture
+"System architecture" is one of the vaguest engineering words with no meaning. I literally but it on my resume for that reason LOL. These questions are mostly focused on systems at a higher level to achieve some given functionalty. 
+
+- What components does a smartphone/laptop have? 
+- Design a system to acheive:
+  - Variable LED brighness
+  - LED brighness based on ambient brightness to achieve a desired brightness. 
+  - A security system.
+  - A camera system. 
+  - A tracking system. 
+- What is reduncy in a system? When is it preferred? How can you design a system with redundancy?
+- What are some system design constraints in consumer electronics vs automotive vs aerospace/space/defense vs medical devices?
 
 ---
 
