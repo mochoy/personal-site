@@ -608,6 +608,14 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - How do you spec a CSA?
 - Given a range of input currents, a sense resistor value, and ADC input voltage range, find an apporpriate CSA gain. 
 
+## Current/Voltage Protection
+- How/why do you want to protect against overcurrent and/or over/undervoltage conditions?
+- Design a circuit to detect overcurrent and/or over/undervoltage conditions.
+- If an overcurrent and/or over/undervoltage condition is detected, what can you do? 
+- How/why do you need to protect a power supply from overcurrent/overvoltage?
+- What happens if you get an over/undervoltage on an embedded system? 
+- How can you protect a load from pulling too much current?
+
 ---
 
 # Printed Circuit Boards (PCBs)
