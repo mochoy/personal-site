@@ -608,28 +608,46 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - How to choose how many layers for PCB? 
 - How to choose board stackup? 
 - What should be routed on each layer? What should be routed on inner layers vs top/bottom layer?
+- Which layer(s) should be the ground layer(s)?
+- Which layers should high-speed signals be routed?
+- Which layters should power planes be on?
+- What components would require a higher layer count?
 
 ## Design/Layout/Routing
 - What are some general rule of thumbs for board routing?
 - How do you decide which subsystems go where on a PCB?
 
 ### Grounding
+- What is grounding on a PCB? Why is it so important?
+- Describe some basic grounding layout techniques. 
 - What is a ground plane? Pros/cons?
-- When/why should you separate your ground reference potentials?
-- What are some ground layout schemes? 
+- What are the tradeoffs between using a ground plane vs ground traces to connect all ground potentials?
 - In addition to providing a common reference potential, what are some other functionalities of ground planes? 
+- Why can you use your ground plane to shield your signals? 
 - Which layers typically have ground planes and why? 
 - Why are ground probe points important? 
+- When/why should you separate your ground reference potentials?
+- What are some ground layout schemes? 
+- What is star grounding? 
+- What are the tradeoffs between combining analog, digital, and power grounds vs separating them?
+- What happens if your ground plane potential differs throughout your board? 
+- What can be the source of ground plan potential variation?
+- How do you avoid too much variation?
+- How can you design your system to be more resilient against ground disturbances?
 
-### Diff Pairs and High-Speed Desgin (PCB Perspective)
+### Routing Diff Pairs and High-Speed Signals
 Diff pairs and high-speed design from board layout/design perspective, as opposed to signals or SI perspective. Diff pairs are often used for high-speed signals, so there will be a good amount of overlap with the Transmission Lines (TL) section. 
-- What is a differential pair? 
-- How should it be routed? What are advantages/disadvantages? 
-- What is serpentining? Why is it important for high-speed diff pairs?
-- Describe transmission line components on a PCB. 
-- If external termination components are used, where should they be placed? 
 
-### Sense Restistor Layout/Routing
+- What are some rules of thumb when routing high-speed signals?
+- Should you put vias through high-speed traces?
+- What shape should these high-speed traces be? Why?
+- What is a differential pair? What are advantages/disadvantages? 
+- How should it be routed? What are some layout guidelines that may differ from single-ended high-speed signals?
+- What is serpentining? Why is it important for diff pairs?
+- Describe transmission line components on a PCB. 
+- If external termination components are used, where should they be placed? On the source, sink, or somewhere in between?
+
+### Sense Resistor Layout/Routing
 - How do you route a current sense resitors? 
 - What is a kelvin connection for a sense resistor? What are the tradeoffs?
 
@@ -637,6 +655,7 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 - How do you route decoupling and bulk capacitors? 
 - What can you do at the board-level to reduce heating of a power supply?
 - Heat sinks
+- Thermal refief
 
 ### Inductive Loads Layout/Routing
 
