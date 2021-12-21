@@ -857,7 +857,23 @@ A lot on GPIO design is very applicable, more in-depth questions are covered in 
 - What are some typical configurable GPIO settings? 
 - What is bus contention? 
 
-## Timers and Interrupts
+## Timers
+- What are timers in a microcontroller? 
+- What can you do with timers?
+- How do keep track of time accurately in a microncontroller?
+- How do they work? How are they implemented?
+- What are some applications?
+
+## Interrupts
+- If you want to do something right when an external event occurs, what can you do?
+- What are interrupts in a microcontroller?
+- How do they work? How are they implemented? Describe how ISRs work at the hardware and software levels. 
+- What are some applications?
+- What can trigger ISRs?
+- What are some limitations of interrupts?
+- What is an interrupt service routine (ISR)? 
+- What are some rules of thumb when implementing ISRs?
+- What happens if an ISR gets called while in an ISR? How can this be avoided?
 
 ## Peripherals
 - Draw a circuit to connect a sensor to a microcontroller. 
