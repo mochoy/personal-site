@@ -983,6 +983,40 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - Does RISC-V specifiy the ISA or microarchitecture?
 - What are some advantages of RISC vs CISC? 
 - How do you characterize CPU performance? 
+
+## GPU
+- What is a GPU? 
+- How does a GPU work? 
+- What does the GPU pipeline look like?
+- What's the difference between a GPU and CPU? 
+- What optimizations does a GPU have so it vastly outperforms CPUs in graphics tasks? What are the tradeoffs? 
+- How do you characterize GPU performance? 
+- What are other tasks that GPUs may excel at besides graphics processing? Why? 
+
+## System on Chip (SoC)
+- What is a SoC?
+- What are its applications?
+- What are some components on a SoC?
+- What are some tradeoffs between going for a SoC vs all separate components? 
+- When designing a system, what other components are needed in addition to a SoC? 
+- What is a system on module (SoM)? What is the difference/tradeoffs vs a SoC? 
+- What are some tradeoffs of integration?
+- Which blocks of the SoC consume the most power? 
+
+## Memory
+- Where can data and program be stored in memory?
+- What is the difference between data and program memory? 
+- Explain the memory hierarchy. What are the tradeoffs of each? What type of data is stored in each? 
+- What is a cache? 
+- What are registers?
+- What is RAM? 
+- What does "random access" refer to?
+- What is stack overflow?
+- What is the difference between the stack and the heap? 
+- What is a memory management unit (MMU)? What does it do and why is it needed?
+- If I'm operating my computer in space where there can be lots of radiation that can corrupt my memory, what issues can arise? What can I do to be resilient against these effects? 
+
+## Power/Performance/Thermals
 - How does clock frequency impact power, performance, and thermals? 
 - Why are multiple clock domains needed?
 - How does supply voltage impact power, performance, and thermals? 
