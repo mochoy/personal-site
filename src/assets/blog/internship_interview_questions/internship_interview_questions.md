@@ -840,6 +840,20 @@ Most of my ADC/DAC questions have been in the context of embedded systems, not t
 - If a microcontroller isn't booting up, what should you check for? 
 
 ---
+
+# Sensors
+- What is a tranducer?
+- What is sensor fusion?
+- Calibration, validation, testing
+
+## Gyroscope/Acceleromter
+
+## Light
+
+## Camera
+
+## LIDAR
+
 ---
 
 # Digital
