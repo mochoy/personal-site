@@ -728,6 +728,21 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 
 ---
 
+# Packaging
+- PoP?
+- BGA? 
+- Chiplets?
+- 3D chips?
+- Node sizes?
+- Integration?
+- Yield?
+- Wafer?
+- Why can't make big ass chips?
+- Bond wires? What about for high current?
+- Flip chip?
+
+---
+
 # Signals
 - What is the Fourier Transform? 
 - Draw spectral content of square wave/pulse train.
