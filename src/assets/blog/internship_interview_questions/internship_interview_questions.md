@@ -818,6 +818,8 @@ A lot on GPIO design is very applicable, more in-depth questions are covered in 
 - What are some typical configurable GPIO settings? 
 - What is bus contention? 
 
+## Timers and Interrupts
+
 ## Peripherals
 - Draw a circuit to connect a sensor to a microcontroller. 
 - Draw a circuit to drive a LED from a microcontroller. What about a high-power LED? What if I want to change the brightness?
