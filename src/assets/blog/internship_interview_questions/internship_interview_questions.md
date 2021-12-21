@@ -1066,16 +1066,39 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 ---
 
 # Measurement
+- What tools can you use to measure stuff?
+- How familiar are you with:
+  - DMMs
+  - Scopes
+  - VNAs
+  - Power supplies, maybe with more functions like mutliple quadrants or SMUs
 - What sample rate/bandwidth will I need to measure a signal? 
 - How should I measure X signal? 
+- How can I measure current? 
+- What is the difference between bandwidth and sampling rate?
+- What is a VNA?
+- How do I measure resistance/capacitance/inductance/impedance?
+
+## DMMs
+- What is a DMM?
+- What can it measure?
+- What is a DMM's sample rate? Does it matter?
+- When to use DMM vs scope?
+
+## Scopes
+- What is an oscilliscope?
+- How does an oscillicope work? 
+- What are triggers on a scope? How do I use them?
+- How do I get current if I'm measuring the voltage across a sense resistor?
+- When would I need multiple scope channels?
+
+### Scope Probes
 - What is a diff probe? When do I need it?
 - What is an active probe? When do I need it?
 - What does the 10x attenuation do on a probe?
-- How does an oscillicope work? 
-- How can I measure current? 
+- What is a current probe?
 - Probe input impedance - what should it be any why? 
 - When would I want different probe impedance? 
-- What is the difference between bandwidth and sampling rate?
 
 ---
 
