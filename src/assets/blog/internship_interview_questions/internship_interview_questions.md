@@ -9,6 +9,7 @@ This was originally going to be part of the Interviews chapter of my [internship
 - I try to include every applicable question, no matter how dumb it may seem. What you might think is a dumb question may actually be a very good question for someone else to study. I'm just not going to include questions specific to me, like project- or experience-specific questions. 
 - I tried my best to organize questions by topic, but there's tons of overlap between each topic. For example, GPIO/output driver design and implementation can be asked in the context of analog electronics, embedded systems, transmission lines, and power electronics. Some of these questions have just been repeated with or without additional context to solidify the topic while others will just be refer to another section.
 - I use a few acronyms in this, so aside from the obvious ones (I, V, R, L, C, Z, KVL/KCL, MOSFET, BJT), there's an appendix that lists the acronyms. 
+- Some questions I get more than others, so the more common questions will be bolded. 
 
 # How Should You Use this List?
 
@@ -35,6 +36,7 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 ## Resistors
 - Draw the symbol for a resistor. 
 - What is resistance? 
+- What does resistance depend on?
 - Draw a realistic circuit model for a resistor. What are the parastics and where do they come from? 
 - What are some common resistor values?
 - What are some common resistor packages and sizes?
@@ -194,6 +196,7 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - What is bulk capacitance? 
 - What is inductive flyback? When can this be unwanted? When can it be wanted? How can you protect against it?
 - What is PWM? What are its characteristics?
+- What novel semiconductors are being explored for power electronics? What are their tradeoffs?
 
 ## General Power Supply
 Assume DC-DC for nearly every question unless specified or implied. AC power supplies are rarely brought up during my interviews given their use cases and relevance to my experience. 
@@ -210,7 +213,8 @@ Assume DC-DC for nearly every question unless specified or implied. AC power sup
 
 ### Power Supply Topologies
 - Name some voltage regulators. 
-- What is the difference between a buck converter vs LDO? 
+- **What is the difference between a buck converter vs LDO? What are the tradeoffs?**
+- When can an LDO be more efficient than a buck converter?
 - What type of circuits can convert AC-AC/AC-DC/DC-DC/DC-AC?
 - What is a bridge rectifier? How does it work? 
 - In many embedded systems, why are step-down regulators more common than step-up regulators?
@@ -360,7 +364,7 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - How does buck performance vary with process, voltage, and temperature (PVT)?
 
 ## Boost Converters
-Many of the boost converter questions can be similar to bucks, but I barely have any experience with boosts so they aren't covered as much. 
+Many of the boost converter questions can be similar to bucks, but I barely have any experience with boosts so they aren't covered as much in my interviews. 
 
 - What is a boost converter? How does it boost voltage? 
 - How does a boost converter work?
@@ -677,7 +681,7 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 
 ## Manufacturing
 - What is the difference between surface-mount and through-hole components? Any tradeoffs?
-- Describe the PCB fab process. 
+- Describe the PCB fab process.  How are PCBs made?
 - Describe the PCB assembly process.
 - What is DRC? 
 - How are components soldered on a PCB? 
@@ -717,8 +721,10 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 - If I want to measure a sine wave, what should be the sample rate? 
 
 ## Differential Signaling
-Diff pairs from board signals perspective, as opposed to board layout/design or SI perspective. 
+Diff pairs from signals perspective, as opposed to board layout/design or SI perspective. 
+
 - What is a differential pair? How does it work? 
+- What is the difference between a single-ended and differential signal?
 - When are they often used? 
 - How do they improve noise immunity? 
 - What does the common-mode voltage refer to? 
@@ -774,13 +780,14 @@ Lots of crossover with Power Electronics section
 - What are some common logic levels?
 
 ## Communication Buses
-- What are the three common communication protocols?
-- How do they (I2C, SPI, UART) work? 
+- **What are the three common communication protocols? How do they (I2C, SPI, UART) work?**
 - What is the difference between I2C and SPI? 
 - Which is faster? Why?
+- How do different chips talk to each other?
 
 ### I2C
 - What is I2C? What does it stand for? 
+- **How does it work? Explain its operation.**
 - Why are pullups needed? How do you spec them? 
 - How do you increase rise time on I2C? 
 - Why would rise time be too slow on I2C?
@@ -788,6 +795,7 @@ Lots of crossover with Power Electronics section
 - How many pins/wires are needed? What if I have more slaves? 
 - How interface with slaves?
 - How many slaves can there be? 
+- When would you need more masters?
 - Explain address/data frames. 
 - Explain NACK/ACK. 
 - Explain clock stretching. 
@@ -890,7 +898,6 @@ I get so few digital questions (not including embedded systems) that I can group
 - What is the difference between a Mealy and Moore FSM? 
 
 ## RTL
-I'm trash at RTL lol
 - Desribe any experience you have with RTL. 
 - Design a clock divider. 
 - Design an arbiter. What are the different types and their pros/cons? 
@@ -899,7 +906,7 @@ I'm trash at RTL lol
 - What is assembly? How does it differ from programming languages like C or Python?
 - Describe what this program is doing. How long will it take to run? How many times will {some subroutine} get executed?
 
-## Power/Performance
+## VLSI Power/Performance
 - How does clock frequency impact power, performance, and thermals? 
 - Why are multiple clock domains needed?
 - How does supply voltage impact power, performance, and thermals? 
@@ -971,10 +978,13 @@ I'm trash at RTL lol
 ---
 
 # Appendix
+- BLDC - Brushless DC Motor
 - C - Capacitor/Capacitance or the programming language
 - CSA - Current Sense Amplifer
 - DFM - Design for Manufacturing
+- ECAD - Electrical Computer-Aided Design 
 - EMR - Electromechanical Relay
+- ESC - Electronic Speed Controller
 - FTE/FT - Full-Time Engineer/Full-Time
 - IGBT - Insulated-Gate Bipolar Transistor
 - L - Inductor/Inductance
