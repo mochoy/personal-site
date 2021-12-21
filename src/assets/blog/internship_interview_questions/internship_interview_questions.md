@@ -45,6 +45,10 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - Draw the symbol for a capacitor. 
 - What is capacitance? 
 - What is a dielectric? 
+- What is the equation for impedance of a capacitor?
+- What is the differential equation for a capacitor?
+- Does a capacitor have positive of negative reactance?
+- What is the continuity condition? What do inductors resist change to?
 - How does a capacitor behave when initially excited and at DC steady-state? 
 - What is an inductors impedance at DC vs infinitely high frequency? Plot this behavior. 
 - Draw a realistic circuit model for a capacitor. What are the parastics and where do they come from? 
@@ -54,10 +58,15 @@ Ok that's enough random stuff here's the mega list of 800+ questions!
 - What sort of signals can capacitors pass through and block? What sort of filter behavior is this? 
 - Build a LPF/HPF using a single capacitor.
 - What are some common failure modes of a capacitor?
+- What is the continuity condition? What do capacitors resist change to?
 
 ## Inductors
 - Draw the symbol for an inductor. 
 - What is inductance?
+- What is the equation for impedance of an inductor?
+- What is the differential equation for an inductor?
+- Does an inductor have positive of negative reactance?
+- What is the continuity condition? What do inductors resist change to?
 - How does an inductor behave when initially excited and at DC steady-state? 
 - What is an inductors impedance at DC vs infinitely high frequency? Plot this behavior. 
 - What happens when an inductor saturates? 
