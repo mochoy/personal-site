@@ -1112,10 +1112,54 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 
 # Non-Technical
 ## Intro
+- Do you require visa assistance? 
+- Why don't you want to return to your previous internship/company? (if applicable)
+- What is your desired salary? 
+- Are you ok with moving to x for an internship?
 
 ## Behavioral
+- What are your strengths/weaknessess?
+- How would your friends and peers describe you? 
+- What is your approach to solving hard problems?
+- How do you work under pressure?
+- How do you work in groups?
+- Tell me about a time where you and a peer/coworker disagreed on something. How did you guys reconcile it? 
+- Tell me about a time where you needed to juggle many tasks. How did you manage it?
+- What is the perfect job for you? 
+- What do you find important in a company? 
+- How much do you know about this company/this product? 
+- Why should I hire you?
+- How do objectively assess standards of success? How do you meet these?
+- Describe a time where change became a problem. How did you overcome it? 
+- Describe a time where you encouraged different perspectives in a group setting. 
+- How do you balance school with extracurricular activites? 
+- What are your top three skills that contribute to you being a good employee?
+- Describe at ime of new opportunity for improvement. 
+- Describe a time where you didn't meet expectations. What happened? 
+- How have you taken advantage of diversity (like at school)? 
+- Describe a time you admitted to a mistake. 
 
 ## Technical/Behavioral
+Behavioral questions that are more on the technical side or can get more technical, but not technical enough to be placed with the other technical questions. 
+
+- Tell me about a project you're proud of.
+- Tell me about a time you debugged something/solved a difficult problem.
+- What is your approach to debug something?
+- If you need to make a presentation about x, how would you present the data?
+- What coursework have you taken?
+- How familiar are you with:
+  - Programming 
+  - Some specific programming language
+  - Some specific software
+  - Some technical role/function (validation, characterization, design, verification, architecture, etc)
+  - Some technical subject
+  - Some specific tools (crimping, soldering, reflow, power tools, etc)
+  - Some specific measurement device (DMMs, scopes, VNAs, etc)
+- What sort of coding experience do you have?
+- If you had to give a 20 minute ted talk, what subject would you choose? 
+- What is a datasheet?
+- How do you read it? 
+- Given this datashet, find some spec or how something works. 
 
 ---
 
