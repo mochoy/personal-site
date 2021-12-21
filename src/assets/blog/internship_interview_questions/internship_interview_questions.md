@@ -893,8 +893,24 @@ Most of my ADC/DAC questions have been in the context of embedded systems, not t
 - How does a DAC work?
 - Design a DAC. 
 
+## Data Storage and Memory
+- How does a microcontroller store memory and data? 
+- What if I want memory to persist after the microcontroller powers off?
+- What does non-volatile (NV) memory mean? 
+- What is ROM?
+- What is an EEPROM?
+
 ## Debugging Embedded Systems
 - If a microcontroller isn't booting up, what should you check for? 
+
+## Operating Systems
+Very brief quesitons on operating systems, usually in the context of embedded systems?
+
+- What is an operating system? 
+- Name some operating systems. 
+- When is it needed?
+- What advantages does it have over bare-metal?
+- What is an real-time operating system (RTOS)?
 
 ---
 
