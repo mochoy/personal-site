@@ -529,46 +529,6 @@ Mostly on DC inductive loads like brushed DC motors and solenoids. I've only bee
 - How do you spec a servo motor?
 - How are servo motors so precise in their movement?
 
-### Single-Phase Inductive Drives
-PCB design/layout on inductive drives is in the PCBs section.
-
-- How do you drive an inductive load?
-- What if you need motor braking?
-- What if you need to drive the motor in both directions?
-- What are the different kinds of motor braking?
-- What sort of protection circuitry do you need?
-- Tradeoffs between different drive circuits: electromechanical relay (EMR), solid-state relay (SSR), MOSFET, BJT, insulated-gate bipolar transistor (IGBT), etc.
-- What optimizations can you do for solenoid drives to increase plunger velocity and cycle rate?
-- If you're using a driver IC, how do you spec it? What properties should you look for?
-- If you're designing a motor/solenoid drive with discrete components, how do you spec your transistors?
-- What limits the switching frequency?
-- How do you increase the switching frequency?
-
-#### Half/H-Bridge
-There's a good amount of overlap with the Power Bridge subsection of Buck Converters as well, since the power bridge of a buck is often just a half bridge.
-
-- Draw an H-bidge ciruit.
-- Draw a half-bidge ciruit.
-- How does a half/H-Bridge work?
-- What's the difference between an H-bridge and half-bridge? What are the tradeoffs?
-- How can you brake a motor using a half-bridge? What about an H-bridge? Which can brake the motor faster? How does this stress the motor?
-- When can you use an asymmetrical half-bridge? When do you need a symmetrical H-bridge?
-- What are the advantages of using a high-side NFET? What additional challenges are presented?
-- Design a circuit to properly drive a high-side NFET. Why is it needed?
-- What happens if you turn both the PFET and NFET on the same side at the same time? How do you prevent this?1
-
-#### Control from Embedded Device
-Often times you want to control a big motor/solenoid from a small embedded device. This section focuses on some of the more power electronics side of things while the Embedded Systems section will focus a bit more on the embedded side of things.
-
-- Design a circuit to drive an inductive load from a microcontroller GPIO.
-- Why would a pulldown resistor be nessary?
-- Why would you want a series resistor between the GPIO and MOSFET gate? What is parasitic oscillation in the context and where can it arise from? What does the series resistor do?
-- Why is isolation important?
-- What sort of isolations would you want?
-- What is galvanic isolation?
-- What are some challenges when using a high-side PFET and a much higher supply voltage to power the motor?
-- Design a circuit to properly drive a high-side PFET. Why is this needed?
-
 ### Safety and Monitoring
 - What are some failure modes of motors/solenoids? How can they be avoided?
 - What are some dangers when using motors/solenoid?
@@ -591,6 +551,48 @@ Often times you want to control a big motor/solenoid from a small embedded devic
 - How can you measure the speed of a solenoid?
 - How can you measure the position of a solenoid?
 - How can you use BEMF to measure motor/solenoid speed?
+
+## Single-Phase Inductive Drives
+PCB design/layout on inductive drives is in the PCBs section.
+
+- How do you drive an inductive load?
+- What if you need motor braking?
+- What if you need to drive the motor in both directions?
+- What are the different kinds of motor braking?
+- What sort of protection circuitry do you need?
+- Tradeoffs between different drive circuits: electromechanical relay (EMR), solid-state relay (SSR), MOSFET, BJT, insulated-gate bipolar transistor (IGBT), etc.
+- What optimizations can you do for solenoid drives to increase plunger velocity and cycle rate?
+- If you're using a driver IC, how do you spec it? What properties should you look for?
+- If you're designing a motor/solenoid drive with discrete components, how do you spec your transistors?
+- What limits the switching frequency?
+- How do you increase the switching frequency?
+
+### Half/H-Bridge
+There's a good amount of overlap with the Power Bridge subsection of Buck Converters as well, since the power bridge of a buck is often just a half bridge.
+
+- Draw an H-bidge ciruit.
+- Draw a half-bidge ciruit.
+- How does a half/H-Bridge work?
+- What's the difference between an H-bridge and half-bridge? What are the tradeoffs?
+- How can you brake a motor using a half-bridge? What about an H-bridge? Which can brake the motor faster? How does this stress the motor?
+- When can you use an asymmetrical half-bridge? When do you need a symmetrical H-bridge?
+- What are the advantages of using a high-side NFET? What additional challenges are presented?
+- Design a circuit to properly drive a high-side NFET. Why is it needed?
+- What happens if you turn both the PFET and NFET on the same side at the same time? How do you prevent this?1
+
+### Control from Embedded Device
+Often times you want to control a big motor/solenoid from a small embedded device. This section focuses on some of the more power electronics side of things while the Embedded Systems section will focus a bit more on the embedded side of things.
+
+- Design a circuit to drive an inductive load from a microcontroller GPIO.
+- Why would a pulldown resistor be nessary?
+- Why would you want a series resistor between the GPIO and MOSFET gate? What is parasitic oscillation in the context and where can it arise from? What does the series resistor do?
+- Why is isolation important? What are the tradeoffs?
+- What sort of isolations would you want?
+- What is opto-isolation? What are its tradeoffs?
+- Describe/draw/design an opto-isolation circuit.
+- What is galvanic isolation?
+- What are some challenges when using a high-side PFET and a much higher supply voltage to power the motor?
+- Design a circuit to properly drive a high-side PFET. Why is this needed?
 
 ## Current Sensing
 - How can you to measure current?
