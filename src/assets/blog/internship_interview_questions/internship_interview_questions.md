@@ -685,11 +685,28 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 - What are some rules of thumb when routing high-speed signals?
 - Should you put vias through high-speed traces?
 - What shape should these high-speed traces be? Why?
-- What is a differential pair? What are advantages/disadvantages?
+- What is serpentining? Why is it important for synchronization?
+
+#### Diff Pairs
+- What is a differential pair? What are some tradeoffs?
 - How should it be routed? What are some layout guidelines that may differ from single-ended high-speed signals?
+- Why is it important that signals for both lines of the diff pair arrive to the source at the same time? What happens if they don't arrive at the same time? How can you ensure that they do arrive at the same time?
 - What is serpentining? Why is it important for diff pairs?
+
+#### Transmission Line Effects
 - Describe transmission line components on a PCB.
+- What are some common characteristic impedance values?
+- How can you change the characteristic impedance of a trace?
+- Describe some sources of reflection on a PCB (any any interfaces). How can these reflections be minimized?
+- How does a trace's impedance change with respect to frequency?
+- I have a two-layer PCB buit but when I get it, the manufacturer made a mistake and the substrate layer is twice as thick as it should be. How does this impact the characteristic impedance? What could I do to fix it?
+
+#### Termination
 - If external termination components are used, where should they be placed? On the source, sink, or somewhere in between?
+- How do you route external termination components?
+- When would you need external termination components?
+- Describe some termination networks.
+- What is the difference between series and parallel termination?
 
 ### Sense Resistor Layout/Routing
 - How do you route a current sense resitors?
