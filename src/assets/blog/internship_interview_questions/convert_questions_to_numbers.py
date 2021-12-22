@@ -1,13 +1,22 @@
 '''
-Python script to update all questions in internship_interview_questions.md. 
+Python script to update all list markers for questions in 
+internship_interview_questions.md. 
+
 When I first wrote this, I listed questions as bullet points but instead, I want
 it to be a list of numbers. This script updates any bullet points to numbers. It
-can also update a list of numbers to have the appropriate ordering. 
+can also update a list of numbers to have the appropriate ordering. Sometimes I 
+may want to swap betweeen bullet points and numbers for list markers.
+
+To use numbers as list markers, set listMarkerType = "number"
+To use bullet points as list markers, set listMarkerType = "bullet point". This
+may be preferred for better git tracking so I can better see line diffs. 
 '''
 
 srcFile = "internship_interview_questions.md"
 outputFile = srcFile
 # outputFile = "test.md"
+listMarkerType =  "bullet point"
+# listMarkerType = "number"
 
 def main():
   # Content in this string will be written to the output file after the source
@@ -44,9 +53,16 @@ def main():
           # "num.") and the question begins
           spaceIndex = line.find(" ")
 
-          # Construct a new line with appropriate number  
-          line = "{questionCount}. {question}".format(
-            questionCount = questionCount,
+          # Create list markers based on the set listMarkerType: number or
+          # bullet point
+          if listMarkerType == "number":
+            listMarker = str(questionCount) + "." 
+          elif listMarkerType == "bullet point":
+            listMarker = "-"
+
+          # Construct a new line with appropriate list marker  
+          line = "{listMarker} {question}".format(
+            listMarker = listMarker,
             question = (line[spaceIndex:].lstrip())
           )
 
