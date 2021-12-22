@@ -45,9 +45,9 @@ def main():
           spaceIndex = line.find(" ")
 
           # Construct a new line with appropriate number  
-          line = "{questionCount}.{question}".format(
+          line = "{questionCount}. {question}".format(
             questionCount = questionCount,
-            question = line[spaceIndex:]
+            question = (line[spaceIndex:].lstrip())
           )
 
       outputFileContent = "".join((outputFileContent, "{}\n".format(line)))

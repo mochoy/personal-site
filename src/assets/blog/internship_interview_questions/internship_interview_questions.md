@@ -834,98 +834,102 @@ Lots of crossover with Power Electronics section
 590. Explain clock stretching.
 591. What are advantages of the open-drain output drivers?
 592. What are typical logic levels?
+593. What are typical clock speeds?
 
 ### SPI
-593. What is SPI? What does it stand for?
-594. How many slaves can there be?
-595. How to interface with slaves?
-596. How does daisy-chaining work?
-597. What are typical logic levels?
+594. What is SPI? What does it stand for?
+595. How many slaves can there be?
+596. How to interface with slaves?
+597. How does daisy-chaining work?
+598. What are typical logic levels?
+599. What are typical clock speeds?
 
 ### UART
-598. Oversampling?
+600. Oversampling?
 
 ## GPIOs
-599. What is a GPIO? What does it stand for and what are its use cases?
-600. What does "GP" refer to?
+601. What is a GPIO? What does it stand for and what are its use cases?
+602. What does "GP" refer to?
 
 ### Design/Implementation
 A lot on GPIO design is very applicable, more in-depth questions are covered in the CMOS and Amplifiers subsections of Analog Electronics. These questions will just be surface-level that are more applicable in embedded applications.
 
-601. Draw a GPIO circuit. How does it work?
-602. What are the two most common types of GPIO implementations? What are their tradeoffs?
-603. What does open-drain/push-pull mean?
-604. When are pullup/pulldown resistors necessary? How do you size them?
-605. What are some typical configurable GPIO settings?
-606. What is bus contention?
+603. Draw a GPIO circuit. How does it work?
+604. What are the two most common types of GPIO implementations? What are their tradeoffs?
+605. What does open-drain/push-pull mean?
+606. When are pullup/pulldown resistors necessary? How do you size them?
+607. What are some typical configurable GPIO settings?
+608. What is bus contention?
 
 ## Timers
-607. What are timers in a microcontroller?
-608. What can you do with timers?
-609. How do keep track of time accurately in a microncontroller?
-610. How do they work? How are they implemented?
-611. What are some applications?
+609. What are timers in a microcontroller?
+610. What can you do with timers?
+611. How do keep track of time accurately in a microncontroller?
+612. How do they work? How are they implemented?
+613. What are some applications?
 
 ## Interrupts
-612. If you want to do something right when an external event occurs, what can you do?
-613. What are interrupts in a microcontroller?
-614. How do they work? How are they implemented? Describe how ISRs work at the hardware and software levels.
-615. What are some applications?
-616. What can trigger ISRs?
-617. What are some limitations of interrupts?
-618. What is an interrupt service routine (ISR)?
-619. What are some rules of thumb when implementing ISRs?
-620. What happens if an ISR gets called while in an ISR? How can this be avoided?
+614. If you want to do something right when an external event occurs, what can you do?
+615. What are interrupts in a microcontroller?
+616. How do they work? How are they implemented? Describe how ISRs work at the hardware and software levels.
+617. What are some applications?
+618. What can trigger ISRs?
+619. What are some limitations of interrupts?
+620. What is an interrupt service routine (ISR)?
+621. What are some rules of thumb when implementing ISRs?
+622. What happens if an ISR gets called while in an ISR? How can this be avoided?
 
 ## Peripherals
-621. Draw a circuit to connect a sensor to a microcontroller.
-622. Draw a circuit to drive a LED from a microcontroller. What about a high-power LED? What if I want to change the brightness?
-623. Draw a circuit to drive a motor from a microcontroller. What if isolation is required? What if I want to change the speed?
+A lot of the inductive drive questions have good overlap with the Single-Phase Inductive Drives section (Power Electronics > Inductive Loads > Single-Phase Inductive Drives).
+
+623. Draw a circuit to connect a sensor to a microcontroller.
+624. Draw a circuit to drive a LED from a microcontroller. What about a high-power LED? What if I want to change the brightness?
+625. Draw a circuit to drive a motor from a microcontroller. What if isolation is required? What if I want to change the speed?
 
 ## ADC
 Most of my ADC/DAC questions have been in the context of embedded systems, not too much on analog design or anything.
-624. How does an ADC work?
-625. How does a flash ADC work?
-626. How does a SAR ADC work?
-627. Design an ADC.
-628. Reading the ADC from your microcontroller returns some value. Given the value and the ADC supply voltages, convert this reading into a voltage.
-629. What is sampling?
-630. What is sample and hold?
-631. How the the sample voltage maintained throughout the entire sample duration?
-632. Design a sample and hold circuit.
-633. What are the tradeoffs between super fast/slow sample and hold durations?
-634. What are some ADC frontends?
+626. How does an ADC work?
+627. How does a flash ADC work?
+628. How does a SAR ADC work?
+629. Design an ADC.
+630. Reading the ADC from your microcontroller returns some value. Given the value and the ADC supply voltages, convert this reading into a voltage.
+631. What is sampling?
+632. What is sample and hold?
+633. How the the sample voltage maintained throughout the entire sample duration?
+634. Design a sample and hold circuit.
+635. What are the tradeoffs between super fast/slow sample and hold durations?
+636. What are some ADC frontends?
 
 ## DAC
 Most of my ADC/DAC questions have been in the context of embedded systems, not too much on analog design or anything.
-635. How does a DAC work?
-636. Design a DAC.
+637. How does a DAC work?
+638. Design a DAC.
 
 ## Data Storage and Memory
-637. How does a microcontroller store memory and data?
-638. What if I want memory to persist after the microcontroller powers off?
-639. What does non-volatile (NV) memory mean?
-640. What is ROM?
-641. What is an EEPROM?
+639. How does a microcontroller store memory and data?
+640. What if I want memory to persist after the microcontroller powers off?
+641. What does non-volatile (NV) memory mean?
+642. What is ROM?
+643. What is an EEPROM?
 
 ## Debugging Embedded Systems
-642. If a microcontroller isn't booting up, what should you check for?
+644. If a microcontroller isn't booting up, what should you check for?
 
 ## Operating Systems
 Very brief quesitons on operating systems, usually in the context of embedded systems?
 
-643. What is an operating system?
-644. Name some operating systems.
-645. When is it needed?
-646. What advantages does it have over bare-metal?
-647. What is an real-time operating system (RTOS)?
+645. What is an operating system?
+646. Name some operating systems.
+647. When is it needed?
+648. What advantages does it have over bare-metal?
+649. What is an real-time operating system (RTOS)?
 
 ---
 
 # Sensors
-648. What is a tranducer?
-649. What is sensor fusion?
-650. Calibration, validation, testing
+650. What is a tranducer?
+651. What is sensor fusion?
+652. Calibration, validation, testing
 
 ## Gyroscope/Acceleromter
 
@@ -939,184 +943,187 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 
 # Digital Basics
 
-651. What is the difference between analog and digital?
+653. What is the difference between analog and digital?
 
 ## Digital Electronics
-652. How can you interface two devices with different logic levels?
-653. Design a level shifter.
-654. Design a single-FET level shifter (passives are allowed).
-655. What are setup and hold times? What happens if they're violated?
-656. What is the difference between a flip-flop and latch?
-657. How does a flip flop/latch work?
-658. Design a memeory cell.
-659. Why are clocks needed?
-660. What happens if a clock is too fast?
-661. What is a register?
-662. What is metastability?
+654. How can you interface two devices with different logic levels?
+655. Design a level shifter.
+656. Design a single-FET level shifter (passives are allowed).
+657. What are setup and hold times? What happens if they're violated?
+658. What is the difference between a flip-flop and latch?
+659. How does a flip flop/latch work?
+660. Design a memeory cell.
+661. Why are clocks needed?
+662. What happens if a clock is too fast?
+663. What is a register?
+664. What is metastability?
 
 ### Logic Gates (Digital Perspective)
-663. Draw a NOT/AND/etc gate symbol.
-664. Draw a NOT/AND/etc gate from transistors.
-665. Draw the truth table for NOT/AND/etc gate.
-666. What is the universal logic gate?
-667. Convert some binary/hex/oct/decimal number to a different base.
+665. Draw a NOT/AND/etc gate symbol.
+666. Draw a NOT/AND/etc gate from transistors.
+667. Draw the truth table for NOT/AND/etc gate.
+668. What is the universal logic gate?
+669. Convert some binary/hex/oct/decimal number to a different base.
 
 ## Digital Logic
-668. What is a truth table?
-669. Do the K-map for a given truth table.
-670. What is an FSM?
-671. What is the difference between a Mealy and Moore FSM?
+670. What is a truth table?
+671. Do the K-map for a given truth table.
+672. What is an FSM?
+673. What is the difference between a Mealy and Moore FSM?
 
 # VLSI/Computer Architecture
 
 ## Computer Architecture
-672. Name some computer architectures.
-673. What type of computer architectures are often used in smartphones/consumer electronics?
-674. What is a CPU?
-675. What are some blocks in a CPU?
-676. What is an ALU?
-677. What is the program counter?
-678. How does the contents of the program counter change over time?
-679. What is the fetch/execute cycle?
-680. Describe the five-stage pipeline.
-681. How can you offload tasks from the CPU? What are things you can do in parallel and what are the tradeoffs?
-682. What can you do to increase the throughput of a CPU?
-683. What is pipelining?
-684. What is branch prediction? Describe some branch prediction algorithms.
-685. What are interrupts? When can they be used and why are they important? How does their usage often differ from that of embedded systems?
-686. What is microarchitecture?
-687. What is an instruction set architecture (ISA)?
-688. What is the difference between microarchitecture and ISA?
-689. What is RISC-V?
-690. Does RISC-V specifiy the ISA or microarchitecture?
-691. What are some advantages of RISC vs CISC?
-692. How do you characterize CPU performance?
+674. Name some computer architectures.
+675. What type of computer architectures are often used in smartphones/consumer electronics?
+676. What is a CPU?
+677. What are some blocks in a CPU?
+678. What is an ALU?
+679. What is the program counter?
+680. How does the contents of the program counter change over time?
+681. What is the fetch/execute cycle?
+682. Describe the five-stage pipeline.
+683. How can you offload tasks from the CPU? What are things you can do in parallel and what are the tradeoffs?
+684. What can you do to increase the throughput of a CPU?
+685. What is pipelining?
+686. What is branch prediction? Describe some branch prediction algorithms.
+687. What are interrupts? When can they be used and why are they important? How does their usage often differ from that of embedded systems?
+688. What is microarchitecture?
+689. What is an instruction set architecture (ISA)?
+690. What is the difference between microarchitecture and ISA?
+691. What is RISC-V?
+692. Does RISC-V specifiy the ISA or microarchitecture?
+693. What are some advantages of RISC vs CISC?
+694. How do you characterize CPU performance?
 
 ## GPU
-693. What is a GPU?
-694. How does a GPU work?
-695. What does the GPU pipeline look like?
-696. What's the difference between a GPU and CPU?
-697. What optimizations does a GPU have so it vastly outperforms CPUs in graphics tasks? What are the tradeoffs?
-698. How do you characterize GPU performance?
-699. What are other tasks that GPUs may excel at besides graphics processing? Why?
+695. What is a GPU?
+696. How does a GPU work?
+697. What does the GPU pipeline look like?
+698. What's the difference between a GPU and CPU?
+699. What optimizations does a GPU have so it vastly outperforms CPUs in graphics tasks? What are the tradeoffs?
+700. How do you characterize GPU performance?
+701. What are other tasks that GPUs may excel at besides graphics processing? Why?
 
 ## System on Chip (SoC)
-700. What is a SoC?
-701. What are its applications?
-702. What are some components on a SoC?
-703. What are some tradeoffs between going for a SoC vs all separate components?
-704. When designing a system, what other components are needed in addition to a SoC?
-705. What is a system on module (SoM)? What is the difference/tradeoffs vs a SoC?
-706. What are some tradeoffs of integration?
-707. Which blocks of the SoC consume the most power?
+702. What is a SoC?
+703. What are its applications?
+704. What are some components on a SoC?
+705. What are some tradeoffs between going for a SoC vs all separate components?
+706. When designing a system, what other components are needed in addition to a SoC?
+707. What is a system on module (SoM)? What is the difference/tradeoffs vs a SoC?
+708. What are some tradeoffs of integration?
+709. Which blocks of the SoC consume the most power?
 
 ## Memory
-708. Where can data and program be stored in memory?
-709. What is the difference between data and program memory?
-710. Explain the memory hierarchy. What are the tradeoffs of each? What type of data is stored in each?
-711. What is a cache?
-712. What are registers?
-713. What is RAM?
-714. What does "random access" refer to?
-715. What is stack overflow?
-716. What is the difference between the stack and the heap?
-717. What is a memory management unit (MMU)? What does it do and why is it needed?
-718. If I'm operating my computer in space where there can be lots of radiation that can corrupt my memory, what issues can arise? What can I do to be resilient against these effects?
+710. Where can data and program be stored in memory?
+711. What is the difference between data and program memory?
+712. Explain the memory hierarchy. What are the tradeoffs of each? What type of data is stored in each?
+713. What is a cache?
+714. What are registers?
+715. What is RAM?
+716. What does "random access" refer to?
+717. What is stack overflow?
+718. What is the difference between the stack and the heap?
+719. What is a memory management unit (MMU)? What does it do and why is it needed?
+720. If I'm operating my computer in space where there can be lots of radiation that can corrupt my memory, what issues can arise? What can I do to be resilient against these effects?
 
 ## Power/Performance/Thermals
-719. How does clock frequency impact power, performance, and thermals?
-720. Why are multiple clock domains needed?
-721. How does supply voltage impact power, performance, and thermals?
-722. Why are multiple supply voltages needed?
-723. How does process, voltage, and temperature (PVT) impact power, performance, and thermals?
-724. What are process corners? What do they refer to?
-725. What are typical temperature ranges for validation?
-726. What can you do to decrease power consumpution?
-727. What can you do to throttle performance?
-728. What sort of temperature control loops are commonly implemented?
-729. What is power, performance, area (PPA)? Describe the tradeoffs.
+721. How does clock frequency impact power, performance, and thermals?
+722. Why are multiple clock domains needed?
+723. How does supply voltage impact power, performance, and thermals?
+724. Why are multiple supply voltages needed?
+725. How does process, voltage, and temperature (PVT) impact power, performance, and thermals?
+726. What are process corners? What do they refer to?
+727. What are typical temperature ranges for validation?
+728. What can you do to decrease power consumpution?
+729. What can you do to throttle performance?
+730. What sort of temperature control loops are commonly implemented?
+731. What is power, performance, area (PPA)? Describe the tradeoffs.
 
 ## RTL
-730. Desribe any experience you have with RTL.
-731. Design a clock divider.
-732. Design an arbiter. What are the different types and their tradeoffs?
+732. Desribe any experience you have with RTL.
+733. Design a clock divider.
+734. Design an arbiter. What are the different types and their tradeoffs?
 
 ## Assembly
-733. What is assembly? How does it differ from programming languages like C or Python?
-734. Describe what this given program is doing. How long will it take to run? How many times will {some subroutine} get executed?
+735. What is assembly? How does it differ from programming languages like C or Python?
+736. Describe what this given program is doing. How long will it take to run? How many times will {some subroutine} get executed?
 
 ---
 
 # Coding
-735. What sort of coding experience do you have?
-736. Do you have coding experience in: (these are the three most I get asked about)
+737. What sort of coding experience do you have?
+738. Do you have coding experience in: (these are the three most I get asked about)
   - C
   - C++
   - Python
+739. What are the basic data types?
 
 ## Object-Oriented Programming (OOP)
-737. What is object-oriented programming?
+740. What is object-oriented programming?
+
+## Programming Questions
 
 ---
 
 # System Architecture
 "System architecture" is one of the vaguest engineering words with no meaning. I literally but it on my resume for that reason LOL. These questions are mostly focused on systems at a higher level to achieve some given functionalty.
 
-738. What components does a smartphone/laptop have?
-739. Design a system to acheive:
+741. What components does a smartphone/laptop have?
+742. Design a system to acheive:
   - Variable LED brighness
   - LED brighness based on ambient brightness to achieve a desired brightness.
   - A security system.
   - A camera system.
   - A tracking system.
-740. What is reduncy in a system? When is it preferred? How can you design a system with redundancy?
-741. What are some system design constraints in consumer electronics vs automotive vs aerospace/space/defense vs medical devices?
+743. What is reduncy in a system? When is it preferred? How can you design a system with redundancy?
+744. What are some system design constraints in consumer electronics vs automotive vs aerospace/space/defense vs medical devices?
 
 ---
 
 # Measurement
-742. What tools can you use to measure stuff?
-743. How familiar are you with:
+745. What tools can you use to measure stuff?
+746. How familiar are you with:
   - DMMs
   - Scopes
   - VNAs
   - Power supplies, maybe with more functions like mutliple quadrants or SMUs
-744. What sample rate/bandwidth will I need to measure a signal?
-745. How should I measure X signal?
-746. How can I measure current?
-747. What is the difference between bandwidth and sampling rate?
-748. What is a VNA?
-749. How do I measure resistance/capacitance/inductance/impedance?
+747. What sample rate/bandwidth will I need to measure a signal?
+748. How should I measure X signal?
+749. How can I measure current?
+750. What is the difference between bandwidth and sampling rate?
+751. What is a VNA?
+752. How do I measure resistance/capacitance/inductance/impedance?
 
 ## DMMs
-750. What is a DMM?
-751. What can it measure?
-752. What is a DMM's sample rate? Does it matter?
-753. When to use DMM vs scope?
+753. What is a DMM?
+754. What can it measure?
+755. What is a DMM's sample rate? Does it matter?
+756. When to use DMM vs scope?
 
 ## Scopes
-754. What is an oscilliscope?
-755. How does an oscillicope work?
-756. What are triggers on a scope? How do I use them?
-757. How do I get current if I'm measuring the voltage across a sense resistor?
-758. When would I need multiple scope channels?
+757. What is an oscilliscope?
+758. How does an oscillicope work?
+759. What are triggers on a scope? How do I use them?
+760. How do I get current if I'm measuring the voltage across a sense resistor?
+761. When would I need multiple scope channels?
 
 ### Scope Probes
-759. What is a diff probe? When do I need it?
-760. What is an active probe? When do I need it?
-761. What does the 10x attenuation do on a probe?
-762. What is a current probe?
-763. Probe input impedance - what should it be any why?
-764. When would I want different probe impedance?
+762. What is a diff probe? When do I need it?
+763. What is an active probe? When do I need it?
+764. What does the 10x attenuation do on a probe?
+765. What is a current probe?
+766. Probe input impedance - what should it be any why?
+767. When would I want different probe impedance?
 
 ---
 
 # General Debug, Testing, and Validation
-765. What tools can you use to debug/test/validate stuff?
-766. What is your approach to debug/test/validate something?
-767. Design a system to test x.
-768. How do you debug software?
+768. What tools can you use to debug/test/validate stuff?
+769. What is your approach to debug/test/validate something?
+770. Design a system to test x.
+771. How do you debug software?
 
 ---
 
@@ -1124,50 +1131,50 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 A lot of these non-technical questions are the generic interview questions but they still do come up.
 
 ## Intro
-769. **How are you doing?** (lmao)
-770. Introduce yourself.
-771. What are your interests/goals?
-772. What are your career goals?
-773. What are you looking for in this position/company?
-774. Why are you interested in this position/company?
-775. Do you have other competing interviews/offers/deadlines?
-776. When are you available for an internship?
-777. Do you require visa assistance?
-778. Why don't you want to return to your previous internship/company? (if applicable)
-779. What is your desired salary?
-780. Are you ok with moving to x for an internship?
+772. **How are you doing?** (lmao)
+773. Introduce yourself.
+774. What are your interests/goals?
+775. What are your career goals?
+776. What are you looking for in this position/company?
+777. Why are you interested in this position/company?
+778. Do you have other competing interviews/offers/deadlines?
+779. When are you available for an internship?
+780. Do you require visa assistance?
+781. Why don't you want to return to your previous internship/company? (if applicable)
+782. What is your desired salary?
+783. Are you ok with moving to x for an internship?
 
 ## Behavioral
-781. What are your strengths/weaknessess?
-782. How would your friends and peers describe you?
-783. What is your approach to solving hard problems?
-784. How do you work under pressure?
-785. How do you work in groups?
-786. Tell me about a time where you and a peer/coworker disagreed on something. How did you guys reconcile it?
-787. Tell me about a time where you needed to juggle many tasks. How did you manage it?
-788. What is the perfect job for you?
-789. What do you find important in a company?
-790. How much do you know about this company/this product?
-791. Why should I hire you?
-792. How do objectively assess standards of success? How do you meet these?
-793. Describe a time where change became a problem. How did you overcome it?
-794. Describe a time where you encouraged different perspectives in a group setting.
-795. How do you balance school with extracurricular activites?
-796. What are your top three skills that contribute to you being a good employee?
-797. Describe at ime of new opportunity for improvement.
-798. Describe a time where you didn't meet expectations. What happened?
-799. How have you taken advantage of diversity (like at school)?
-800. Describe a time you admitted to a mistake.
+784. What are your strengths/weaknessess?
+785. How would your friends and peers describe you?
+786. What is your approach to solving hard problems?
+787. How do you work under pressure?
+788. How do you work in groups?
+789. Tell me about a time where you and a peer/coworker disagreed on something. How did you guys reconcile it?
+790. Tell me about a time where you needed to juggle many tasks. How did you manage it?
+791. What is the perfect job for you?
+792. What do you find important in a company?
+793. How much do you know about this company/this product?
+794. Why should I hire you?
+795. How do objectively assess standards of success? How do you meet these?
+796. Describe a time where change became a problem. How did you overcome it?
+797. Describe a time where you encouraged different perspectives in a group setting.
+798. How do you balance school with extracurricular activites?
+799. What are your top three skills that contribute to you being a good employee?
+800. Describe at ime of new opportunity for improvement.
+801. Describe a time where you didn't meet expectations. What happened?
+802. How have you taken advantage of diversity (like at school)?
+803. Describe a time you admitted to a mistake.
 
 ## Technical/Behavioral
 Behavioral questions that are more on the technical side or can get more technical, but not technical enough to be placed with the other technical questions.
 
-801. Tell me about a project you're proud of.
-802. Tell me about a time you debugged something/solved a difficult problem.
-803. What is your approach to debug something?
-804. If you need to make a presentation about x, how would you present the data?
-805. What coursework have you taken?
-806. How familiar are you with:
+804. Tell me about a project you're proud of.
+805. Tell me about a time you debugged something/solved a difficult problem.
+806. What is your approach to debug something?
+807. If you need to make a presentation about x, how would you present the data?
+808. What coursework have you taken?
+809. How familiar are you with:
   - Programming
   - Some specific programming language
   - Some specific software
@@ -1175,11 +1182,11 @@ Behavioral questions that are more on the technical side or can get more technic
   - Some technical subject
   - Some specific tools (crimping, soldering, reflow, power tools, etc)
   - Some specific measurement device (DMMs, scopes, VNAs, etc)
-807. What sort of coding experience do you have?
-808. If you had to give a 20 minute ted talk, what subject would you choose?
-809. What is a datasheet?
-810. How do you read it?
-811. Given this datashet, find some spec or how something works.
+810. What sort of coding experience do you have?
+811. If you had to give a 20 minute ted talk, what subject would you choose?
+812. What is a datasheet?
+813. How do you read it?
+814. Given this datasheet, find some spec or how something works.
 
 ---
 
