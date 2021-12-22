@@ -851,7 +851,15 @@ Lots of crossover with Power Electronics section
 - What are typical clock speeds?
 
 ### UART
-- Oversampling?
+- What is UART? What does it stand for?
+- How does it work?
+- How many wires does it have?
+- How do I make the connections?
+- What are some standard communication rates?
+- How many devices can talk to each other? What is the direction of communication?
+- Is it syncronous or asynchronous?
+- Since there's no clock, how is data read?
+- What is oversampling? How is it implemented? Why is it needed? What are some common oversample rates for UART?
 
 ## GPIOs
 - What is a GPIO? What does it stand for and what are its use cases?
