@@ -664,8 +664,23 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - How do you avoid too much variation?
 - How can you design your system to be more resilient against ground disturbances?
 
-### Routing Diff Pairs and High-Speed Signals
-Diff pairs and high-speed design from board layout/design perspective, as opposed to signals or SI perspective. Diff pairs are often used for high-speed signals, so there will be a good amount of overlap with the Transmission Lines (TL) section.
+### Decoupling/Bypass Capacitors
+- What are decoupling capacitors? When are they needed?
+- What are some common values for decoupling capacitors?
+- What are some rules of thumb when placing and routing decoupling capacitors?
+- Why do decoupling capacitors need to be placed as close to the source package as possible?
+- What signals do you often want to decouple? Why?
+- Often times you may see many decoupling capacitors on a signal. Why are there so many? If they're in parallel, why not just place one massive capacitor?
+- If you have multiple decoupling capacitors, how do you lay them out and route them?
+- What happens if the decoupling capacitors are placed too far from the package?
+- How does parastic inductance impact decoupling capacitor performance?
+- What are some sources of parastic inductance that may decrease the effectiveness of a decoupling capacitor?
+- How can the packaging impact the effectiveness?
+- What is a capacitor's self resonant frequency? Why is this important?
+- When should you not use decoupling capacitors?
+
+### High-Speed Signals
+Diff pairs and high-speed design from board layout/design perspective, as opposed to signals or SI perspective. Diff pairs are often used for high-speed signals, so there will be a good amount of overlap with the Transmission Lines (TL) section, especially microstrip TLs.
 
 - What are some rules of thumb when routing high-speed signals?
 - Should you put vias through high-speed traces?
