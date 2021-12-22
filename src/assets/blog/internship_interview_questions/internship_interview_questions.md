@@ -822,6 +822,9 @@ Lots of crossover with Power Electronics section
 - What is the difference between I2C and SPI?
 - Which is faster? Why?
 - How do different chips talk to each other?
+- What's the difference between asynchronous vs synchronous communication? What are the tradeoffs?
+- What are logic levels?
+- What are some common logic levels?
 
 ### I2C
 - What is I2C? What does it stand for?
@@ -831,6 +834,7 @@ Lots of crossover with Power Electronics section
 - Why would rise time be too slow on I2C?
 - If the logic low state of signal doesn't reach logic-low threshold of device, what could be happening?
 - How many pins/wires are needed? What if I have more slaves?
+- How do I make the connections?
 - How interface with slaves?
 - How many slaves can there be?
 - When would you need more masters?
@@ -846,6 +850,7 @@ Lots of crossover with Power Electronics section
 - What is SPI? What does it stand for?
 - How many slaves can there be?
 - How to interface with slaves?
+- How do I make the connections?
 - How does daisy-chaining work?
 - What are typical logic levels?
 - What are typical clock speeds?
@@ -885,7 +890,8 @@ A lot on GPIO design is very applicable, more in-depth questions are covered in 
 ## Interrupts
 - If you want to do something right when an external event occurs, what can you do?
 - What are interrupts in a microcontroller?
-- How do they work? How are they implemented? Describe how ISRs work at the hardware and software levels.
+- How do they work? How are they implemented?
+- Describe how ISRs work at the hardware and software levels.
 - What are some applications?
 - What can trigger ISRs?
 - What are some limitations of interrupts?
@@ -921,16 +927,19 @@ Most of my ADC/DAC questions have been in the context of embedded systems, not t
 
 ## Data Storage and Memory
 - How does a microcontroller store memory and data?
+- If I need to store more memory than what the microcontroller has space for, what can I do?
 - What if I want memory to persist after the microcontroller powers off?
 - What does non-volatile (NV) memory mean?
 - What is ROM?
 - What is an EEPROM?
+- What are registers?
+- Given a register map and the register value in hex, find the value of each register field.
 
 ## Debugging Embedded Systems
 - If a microcontroller isn't booting up, what should you check for?
 
 ## Operating Systems
-Very brief quesitons on operating systems, usually in the context of embedded systems?
+Very brief quesitons on operating systems, usually in the context of embedded systems.
 
 - What is an operating system?
 - Name some operating systems.
@@ -956,8 +965,9 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 ---
 
 # Digital Basics
-
 - What is the difference between analog and digital?
+- What is the difference between big and small endian?
+- What does the MSB and LSB refer to?
 
 ## Digital Electronics
 - How can you interface two devices with different logic levels?
@@ -971,6 +981,7 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - What happens if a clock is too fast?
 - What is a register?
 - What is metastability?
+- What is a mux?
 
 ### Logic Gates (Digital Perspective)
 - Draw a NOT/AND/etc gate symbol.
@@ -1059,6 +1070,9 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - Desribe any experience you have with RTL.
 - Design a clock divider.
 - Design an arbiter. What are the different types and their tradeoffs?
+- Design a mux.
+- What is a module?
+- How is RTL reused? Why is this important?
 
 ## Assembly
 - What is assembly? How does it differ from programming languages like C or Python?
@@ -1097,12 +1111,13 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 
 - What components does a smartphone/laptop have?
 - Design a system to acheive:
-  - Variable LED brighness
-  - LED brighness based on ambient brightness to achieve a desired brightness.
+  - Variable LED brightness
+  - LED brightness based on ambient brightness to achieve a desired brightness.
   - A security system.
   - A camera system.
   - A tracking system.
-- What is reduncy in a system? When is it preferred? How can you design a system with redundancy?
+  - Eye tracking glasses.
+- What is redundancy in a system? When is it preferred? How can you design a system with redundancy?
 - What are some system design constraints in consumer electronics vs automotive vs aerospace/space/defense vs medical devices?
 
 ---
@@ -1149,6 +1164,7 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - What is your approach to debug/test/validate something?
 - Design a system to test x.
 - How do you debug software?
+- Often times you need to run tests for days, weeks, or months continiously. How do you ensure these tests run smoothly 24/7 for the entire time? What can you do to protect against power outages?
 
 ---
 
@@ -1157,7 +1173,7 @@ A lot of these non-technical questions are the generic interview questions but t
 
 ## Intro
 - **How are you doing?** (lmao)
-- Introduce yourself.
+- **Introduce yourself.**
 - What are your interests/goals?
 - What are your career goals?
 - What are you looking for in this position/company?
