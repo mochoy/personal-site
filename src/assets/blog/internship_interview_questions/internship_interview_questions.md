@@ -1072,12 +1072,23 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
   - C
   - C++
   - Python
-- What are the basic data types?
+- What are your strongest coding languages? How would you rate yourself in them?
+- What is regex?
 
-## Object-Oriented Programming (OOP)
-- What is object-oriented programming?
+## Variables
+- What are the basic variable types?
+- What is the difference between strings and chars? How are strings usually implemented?
+- What does the volatile keyword refer to? When should volatile variables be used?
 
 ## Programming Questions
+- Write psuedocode to achieve some given functionality.
+- Walk through how a given program works.
+- Write code to:
+  - Reverse a string
+  - Parse a file to find and/or modify specific text.
+  - Psuedocode API design.
+  - Find a substring in a string.
+  - Check if a string is a palindrome.
 
 ---
 
