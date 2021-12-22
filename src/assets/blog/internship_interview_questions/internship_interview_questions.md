@@ -808,12 +808,14 @@ Lots of crossover with Power Electronics section
 # Embedded Systems
 - What are some components/subsystems you'd find in an embedded system?
 - What are some examples of embedded systems?
+
+## Microcontrollers
 - What are some common microcontrollers/microprocessors?
 - What is the difference between a microcontroller and a microprocessor?
 - What are the blocks of a microcontroller and microprocessor?
 - How does a microcontroller interact with external peripherals?
 - When do use MCU vs ASIC vs FPGA?
-- What are some common logic levels?
+- How do you spec an MCU? What specs do you look for?
 
 ## Communication Buses
 - **What are the three common communication protocols? How do they (I2C, SPI, UART) work?**
