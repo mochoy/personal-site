@@ -747,7 +747,11 @@ Mostly dealing with switching power supplies as they present additional layout a
 - How should you route the sense/feedback network of a buck converter?
 - How do you route decoupling and bulk capacitors?
 
-### Inductive Loads Layout/Routing
+### Sense Resistor Layout/Routing
+- How do you route a current sense resitors?
+- Why is it important that the traces be short?
+- What if your sense resistor is far from your
+- What is a kelvin connection for a sense resistor? What are the tradeoffs?
 
 ## Vias
 - What is a via? Why are they needed?
