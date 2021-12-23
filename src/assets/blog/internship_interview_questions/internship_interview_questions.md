@@ -1127,17 +1127,49 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 ---
 
 # Sensors
+- What is a sensor?
+- What are some applications of sensors?
+- Name some types of sensors. What are they used for?
 - What is a tranducer?
 - What is sensor fusion?
-- Calibration, validation, testing
 
 ## Gyroscope/Acceleromter
+- What is a gyroscope/accelerometer?
+- What are its applications?
+- What is the difference between a gyroscope and accelerometer? Why are they often used together?
+- How can you determine position/velocity from the accelerometer data?
+- What is an inertial measurement unit (IMU)? What are its tradeoffs?
 
 ## Light
+- What can you use to measure light? What does that even mean?
+- What properties of light do you look for? How can those properties be detected.
+- What are the tradeoffs of photoresistors vs photodiodes?
+- What are some applications of light measurement?
+- How can light meausurement be used in conjuction with other sensors to determine stuff?
 
 ## Camera
+- How does a camera work?
+- What is optical image stabilization (OIS)? What is electronic image stabilization? What is the difference (EIS)? What are each of their applications?
+- How does night mode on smartphone cameras work?
+- What are some techniques to reduce image noise?
+- How does ambient lighting impact camera performance?
+- How do you characterize camera quality?
+- Describe the camera processing pipeline.
+- How does a smartphone take pictures? Describe what happens when you press the button? (and also before you press the button!)
 
-## LIDAR
+## LiDAR
+- What is LiDAR?
+- How does it work?
+- What are some applications?
+- What is the difference between LiDAR and just a regular camera?
+- How do you map the world 360 degrees all around you?
+- How would you describe the product of a lidar sensor?
+- What are some factors that may impact accuracy?
+
+## Calibration, Validation, and Testing
+- How do you calibrate/validate/test a sensor? Describe what you would want to test and design an experiement.
+- What are some things you want to validate in a sensor?
+- How do you characterize measurement error? What can you do with that information?
 
 ---
 
