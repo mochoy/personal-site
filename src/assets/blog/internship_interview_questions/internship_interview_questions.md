@@ -459,7 +459,7 @@ Mostly on DC inductive loads like brushed DC motors and solenoids. I've only bee
 
 - What is a motor/solenoid? What can they be used for?
 - Describe how a motor/solenoid works.
-- Why are coils often used? What's so special about that configuration?
+- Why are coils often used? What is so special about that configuration?
 
 ### Characterization/Behavior
 - When does a motor/solenoid draw the most current?
@@ -474,8 +474,8 @@ Mostly on DC inductive loads like brushed DC motors and solenoids. I've only bee
 - Inductors oppose instantaneous changes in current, but motors/solenoid still experience very fast and large inrush currents. Why is this?
 
 ### Brushed DC Motors
-- What's the difference between a motor and generator?
-- What's the difference between a motor and solenoid?
+- What is the difference between a motor and generator?
+- What is the difference between a motor and solenoid?
 - What are the parts of a motor? Which parts rotate and which parts remain static?
 - Name a few types of motors. What are they each used for?
 - What are linear motors?
@@ -505,7 +505,7 @@ Mostly on DC inductive loads like brushed DC motors and solenoids. I've only bee
 #### Electronic Speed Controllers (ESCs)
 - What is an electronic speed controller (ESC)?
 - Why are ESCs often required for brushless motors?
-- What's the difference between an ESC and a single-phase motor driver? What additional functionality may an ESC offer?
+- What is the difference between an ESC and a single-phase motor driver? What additional functionality may an ESC offer?
 - What components/subsystems does an ESC have?
 - How do you interface with ESCs? What other components/contollers are needed? How do they communicate?
 - Design an ESC.
@@ -573,7 +573,7 @@ There's a good amount of overlap with the Power Bridge subsection of Buck Conver
 - Draw an H-bidge ciruit.
 - Draw a half-bidge ciruit.
 - How does a half/H-Bridge work?
-- What's the difference between an H-bridge and half-bridge? What are the tradeoffs?
+- What is the difference between an H-bridge and half-bridge? What are the tradeoffs?
 - How can you brake a motor using a half-bridge? What about an H-bridge? Which can brake the motor faster? How does this stress the motor?
 - When can you use an asymmetrical half-bridge? When do you need a symmetrical H-bridge?
 - What are the advantages of using a high-side NFET? What additional challenges are presented?
@@ -809,7 +809,7 @@ Diff pairs from signals perspective, as opposed to board layout/design or SI per
 
 ## Signal Integrity (SI)
 - How to characterize quality of a signal?
-- Explain ground bounce?
+- What is ground bounce?
 - What happens if signal rising edge is too slow? Too fast?
 - Why is monotonicity during a signal transition important?
 - What is hysteresis and why is it used?
@@ -858,7 +858,7 @@ Lots of crossover with Power Electronics section
 - What is the difference between I2C and SPI?
 - Which is faster? Why?
 - How do different chips talk to each other?
-- What's the difference between asynchronous vs synchronous communication? What are the tradeoffs?
+- What is the difference between asynchronous vs synchronous communication? What are the tradeoffs?
 - What are logic levels?
 - What are some common logic levels?
 
