@@ -1000,12 +1000,8 @@ Lots of crossover with Power Electronics section.
 ### I2C
 - What is I2C? What does it stand for?
 - **How does it work? Explain its operation.**
-- Why are pullups needed? How do you spec them?
-- How do you increase rise time on I2C?
-- Why would rise time be too slow on I2C?
-- If the logic low state of signal doesn't reach logic-low threshold of device, what could be happening?
-- How many pins/wires are needed? What if I have more slaves?
-- How do I make the connections?
+
+#### Protocol Layer
 - How interface with slaves?
 - How many slaves can there be?
 - When would you need more masters?
@@ -1013,6 +1009,16 @@ Lots of crossover with Power Electronics section.
 - How can you change a slave's address?
 - Explain NACK/ACK.
 - Explain clock stretching.
+
+#### Physical Layer
+- How many pins/wires are needed? What if I have more slaves?
+- How do I make the connections? Draw it out.
+- Why are pullups needed? How do you spec them?
+- What is bus capacitance?
+- How would bus capacitance change? What impacts it?
+- How do you increase rise time on I2C?
+- Why would rise time be too slow on I2C?
+- If the logic low state of signal doesn't reach logic-low threshold of device, what could be happening?
 - What are advantages of the open-drain output drivers?
 - What are typical logic levels?
 - What are typical clock speeds?
