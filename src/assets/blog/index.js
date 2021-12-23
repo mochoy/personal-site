@@ -4,6 +4,7 @@ import first_post from './first_post';
 // import track_jobs_4_me_review from './track_jobs_4_me_review';
 // import summer_2021_internship_search from './summer_2021_internship_search';
 import remote_microsoft_internship from './remote_microsoft_internship';
+import internship_interview_questions from './internship_interview_questions';
 
 import howToLandAnEEInternshipPart1 from './how_to_land_an_ee_internship/part1-internship_mindset';
 // import howToLandAnEEInternshipPart2 from './how_to_land_an_ee_internship/part2-pre-application';
@@ -18,6 +19,7 @@ import howToLandAnEEInternshipPart1 from './how_to_land_an_ee_internship/part1-i
 
 // Array of all posts before fetching and parsing the markdown file
 const posts = [
+  internship_interview_questions,
   // aCrashCourseOnLandingInternships,
   remote_microsoft_internship,
   howToLandAnEEInternshipPart1,
