@@ -718,9 +718,15 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 - Describe some termination networks.
 - What is the difference between series and parallel termination?
 
-### Sense Resistor Layout/Routing
-- How do you route a current sense resitors?
-- What is a kelvin connection for a sense resistor? What are the tradeoffs?
+### High-Current Layout/Routing
+- What are some rules of thumb when laying out and routing high-current connections?
+- What is a power plane/shapes? Why are they preferred over traces?
+- Are long shapes/traces preferred over short ones? Why?
+- Are skinny shapes/traces preferred over thick ones? Why?
+- What is a thermal relief pad?
+- What is via stitching? When can it it be used?
+- What can you do at the board-level to reduce heating of a component/IC?
+- When should heat sinks be used?
 
 ### Power Supply Layout/Routing
 - How do you route decoupling and bulk capacitors?
