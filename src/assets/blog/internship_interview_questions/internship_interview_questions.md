@@ -865,17 +865,31 @@ Mostly dealing with switching power supplies as they present additional layout a
 ---
 
 # Packaging
-- PoP?
-- BGA?
-- Chiplets?
-- 3D chips?
-- Node sizes?
-- Integration?
-- Yield?
-- Wafer?
-- Why can't make big ass chips?
-- Bond wires? What about for high current?
-- Flip chip?
+- What are some common IC packages? What are their tradeoffs?
+- What are the tradeoffs between surface-mount and through-hole packaging?
+- What are ball grid array (BGA) packages? What are their tradeoffs?
+- What is the difference between the die, wafer, and pacakge?
+- What are node sizes? What does "3nm process" refer to? Are transistors really that small?
+- What are package on package (PoP) chips? What are their tradeoffs?
+- How do PoP chips impact thermals?
+- Which chips are often PoP? Why?
+- Describe any yield considerations when fabricating chips.
+- Why can't ginormous chips, single die be made? What are some challenges and workarounds?
+- What are chiplets?
+- What are 3D chips?
+- What are bond wires?
+- Bond wires are often very thin but sometimes may need to carry lots of current. How do you reconcile this?
+- What are flip chips?
+- Why would the ground potential of a chip vary?
+
+## IC Fabrication
+- How are ICs made?
+- What is a wafer?
+- What is the process from wafer to chip?
+- What is photolithography?
+- What is etching?
+- What is atomic layer deposition?
+- Some feature sizes may be in the nm range, but the wavelengths of light used may not be in that same range. How are these small feature sizes created?
 
 ---
 
