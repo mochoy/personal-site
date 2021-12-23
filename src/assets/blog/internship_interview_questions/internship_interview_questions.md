@@ -848,6 +848,14 @@ Mostly dealing with switching power supplies as they present additional layout a
 - Why should your ground loop be as small as possible?
 - How can you reduce your ground loop?
 
+## Reworking PCBs
+- What is PCB rework?
+- Describe any rework experience you have.
+- What sort of rework can be done on a PCB?
+- Why may rework be needed?
+- What can you do in your design to improve reworkability?
+- Often times many power components or ground components have thermal relief pads. How does this impact reworkability?
+
 ## Electrical Computer-Aided Design (ECAD) Software
 
 ---
