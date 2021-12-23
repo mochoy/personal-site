@@ -1,6 +1,6 @@
 Now that I should hopefully be done with internship interviews for the rest of my life, here's a mega list of almost every interview question I was asked from 150+  interviews at Facebook, Apple, Amazon, Nvidia, Google, Microsoft, Qualcomm, Analog Devices, Texas Instruments, Northrop Grumman, SpaceX, Tesla, etc. This is going to be a massive step up from ["part 1"](https://www.reddit.com/r/ECE/comments/iwmpw7/technical_internship_interview_questions_at_big/) that I posted a while back now that I have more coursework, internships, and interviews under my belt.
 
-This was originally going to be part of the Interviews chapter of my [internship search guide](https://montychoy.com/blog/how_to_land_an_electrical_engineering_internship_part_1_the_internship_mindset), but that post just got WAY too long so I decided to create a separate post just for this repository of questions. That post is still chalk full of interview advice and experiences, so check it out when it's ready! And before you get started, take a guess at how many questions this list has! (bonus points if you comment your guess because I'm also curious about your guesses!)
+This was originally going to be part of the Interviews chapter of my [internship search guide](https://montychoy.com/blog/how_to_land_an_electrical_engineering_internship_part_1_the_internship_mindset), but that post just got WAY too long so I decided to create a separate post just for this repository of questions. That post is still chock-full of interview advice and experiences, so check it out when it's ready! And before you get started, take a guess at how many questions this list has! (bonus points if you comment your guess because I'm also curious about your guesses!)
 
 # Disclaimers and Notes
 - These questions were for internships, but there's a lot of overlap with full-time (FT) interviews. In fact, I'm doing FT interviews at the time of writing this and they basically ask the same stuff, there are usually just more FT interviews so they have an opportunity to dive deeper and ask more questions I'd even say some of my internship interviews were harder/more in depth than my FT interviews. If the questions end up being super similar, I may just rename this post instead of making a new one lol.
@@ -15,19 +15,19 @@ This was originally going to be part of the Interviews chapter of my [internship
 # How Should You Use this List?
 I understand that this is a GINORMOUS list and it's very difficult to get everything down. It can be super intimidating, but just focus on the basics and what you're good at and you'll be fine! For example, if you have no clue about PCB design and don't intend on going into PCB design, that section may as well be useless to you (for the sake of interview preparation). No interviewer is going to expect you to know all of this stuff.
 
-I didn't make this list for you to memorize litteraly everything on it, it's more so a study guide. You rememeber in English/literature/history class where the teacher would give you a packet of questions to answer while you read the book? That's one way to use this list. As you're working on a project/internship, you can refer to this list on stuff you should learn while doing the project/internship.
+I didn't make this list for you to memorize literally everything on it, it's more so a study guide. You remember in English/literature/history class where the teacher would give you a packet of questions to answer while you read the book? That's one way to use this list. As you're working on a project/internship, you can refer to this list on stuff you should learn while doing the project/internship.
 
-Another way to use this list is as a last-minute study guide for interviews. If you have a power electronics interview coming up, it would be super helpful to brush over the power electronics section and make sure you have everything down. If not, this list will point you in the direction on stuff to study up on. I'd also recommend crosslisting this list with the job description. You can get a good idea of what to expect during an interview based on the job description and asking your recruiter/hiring manager. If the job description mentions embedded systems/microcontrollers, buck converters, and PCB design, you might want to brush up on those on this list!
+Another way to use this list is as a last-minute study guide for interviews. If you have a power electronics interview coming up, it would be super helpful to brush over the power electronics section and make sure you have everything down. If not, this list will point you in the direction on stuff to study up on. I'd also recommend cross-listing this list with the job description. You can get a good idea of what to expect during an interview based on the job description and asking your recruiter/hiring manager. If the job description mentions embedded systems/microcontrollers, buck converters, and PCB design, you might want to brush up on those on this list!
 
 ---
 
 Ok that's enough random stuff here's the mega list!
 
-# The Basics/Fundementals
+# The Basics/Fundamentals
 ## Basic Circuits
 - What is ohm law? (do people even get this wrong?? Next time I get asked this I'm going to get it wrong on purpose lmao)
 - Conceptually explain ohm's law.
-- What are some basic circuit analyis laws?
+- What are some basic circuit analysis laws?
 - What are KCL/KVL?
 - Basic KCL/KVL circuit problems.
 - What is the equation to find power?
@@ -35,7 +35,7 @@ Ok that's enough random stuff here's the mega list!
 - Draw a voltage divider circuit. What is the voltage divider equation? Derive it.
 - Basic RLC circuit analysis.
 - Basic LPF/BPF/HPF filter analysis.
-- Passive components' parastics.
+- Passive components' parasitics.
 - Basic opamp circuit analysis.
 
 ## Passive Components
@@ -43,7 +43,7 @@ Ok that's enough random stuff here's the mega list!
 - Draw the symbol for a resistor.
 - What is resistance?
 - What does resistance depend on?
-- Draw a realistic circuit model for a resistor. What are the parastics and where do they come from?
+- Draw a realistic circuit model for a resistor. What are the parasitics and where do they come from?
 - What are some common resistor values?
 - What are some common resistor packages and sizes?
 - What are some common failure modes of a resistor?
@@ -59,7 +59,7 @@ Ok that's enough random stuff here's the mega list!
 - What is the continuity condition? What do inductors resist change to?
 - How does a capacitor behave when initially excited and at DC steady-state?
 - What is an inductors impedance at DC vs infinitely high frequency? Plot this behavior.
-- Draw a realistic circuit model for a capacitor. What are the parastics and where do they come from?
+- Draw a realistic circuit model for a capacitor. What are the parasitics and where do they come from?
 - What is a capacitor's self resonant frequency?
 - What is a bypass/decoupling capacitor? What about a bulk capacitor? What is the difference?
 - What is an AC coupling capacitor?
@@ -78,7 +78,7 @@ Ok that's enough random stuff here's the mega list!
 - How does an inductor behave when initially excited and at DC steady-state?
 - What is an inductors impedance at DC vs infinitely high frequency? Plot this behavior.
 - What happens when an inductor saturates?
-- Draw a realistic circuit model for an inductor. What are the parastics and where do they come from?
+- Draw a realistic circuit model for an inductor. What are the parasitics and where do they come from?
 - What do cores do on inductors?
 - What are typical core materials?
 - What are the main loss mechanisms of an inductor? Where do they arise from?
@@ -94,7 +94,7 @@ Basic physics/chemistry questions, not including device physics or basic circuit
 - What is the skin effect?
 - What is the photoelectric effect?
 - Explain any dielectric losses and how they occur.
-- How does electrcity work?
+- How does electricity work?
 - How does lightning work?
 - Which atom bands do electrons move in?
 
@@ -142,7 +142,7 @@ Basic physics/chemistry questions, not including device physics or basic circuit
 - Draw IV curve for MOSFET
 - How does it work?
 - What is the difference between an N-channel and P-channel?
-- What is the difference between enhancement-mode and dehancement mode?
+- What is the difference between enhancement-mode and depletion mode?
 - What are the different modes of operation?
 - Given Vgs and Vt, how will the FET behave? What operating region will it be in? Load-line analysis.
 - What is the internal body diode? Where does it come from?
@@ -218,7 +218,7 @@ Basic physics/chemistry questions, not including device physics or basic circuit
 ## General Power Supply
 Assume DC-DC for nearly every question unless specified or implied. AC power supplies are rarely brought up during my interviews given their use cases and relevance to my experience.
 
-- What are some ways to steo up/down voltage? What about for a power rail?
+- What are some ways to step up/down voltage? What about for a power rail?
 - Why shouldn't you use a voltage divider to step down voltage for a power rail?
 - When is a voltage divider applicable to step down voltage?
 - Design a power supply.
@@ -361,7 +361,7 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - Explain different control topologies.
 - What is the difference between voltage-mode and current-mode control? Why are they often both implemented simultaneously?
 - Explain subharmonic oscillation.
-- When using peak current mode control, what happens when the duty cycle is less than 50% during noise events/load pertubations? What about when the duty cycle is greater than 50%?
+- When using peak current mode control, what happens when the duty cycle is less than 50% during noise events/load perturbations? What about when the duty cycle is greater than 50%?
 - What is slope compensation and when is it needed? (what kinda person asks undergrads this?)
 
 ### Designing Buck Converters
@@ -407,11 +407,11 @@ Many of the boost converter questions can be similar to bucks, but I barely have
 - How does a charge pump boost voltage?
 - Draw a circuit for a charge pump.
 - What are they used for?
-- Charge pump efficiency anaylsis.
+- Charge pump efficiency analysis.
 - How do you spec a capacitor for a charge pump.
 
 ## Batteries
-- What are some common battery chemistries? Which are rechargable and which are single use? How do you determine which to use?
+- What are some common battery chemistries? Which are rechargeable and which are single use? How do you determine which to use?
 - How do you characterize a battery?
 - What are some desirable characteristics in a battery?
 - When buying a battery, what specs do you look out for?
@@ -420,7 +420,7 @@ Many of the boost converter questions can be similar to bucks, but I barely have
 - How do you charge/discharge a battery safely?
 
 ### Lithium Polymer (LiPo)
-- What is the common bettery chemistry used in rechargable consumer electronics? Why?
+- What is the common battery chemistry used in rechargeable consumer electronics? Why?
 - What does LiPo stand for? What does this mean?
 - What are some tradeoffs of a LiPo compared to other batteries?
 - What are some other common Lithium-based battery chemistries? What are their tradeoffs?
@@ -516,7 +516,7 @@ Mostly on DC inductive loads like brushed DC motors and solenoids. I've only bee
 - Why are ESCs often required for brushless motors?
 - What is the difference between an ESC and a single-phase motor driver? What additional functionality may an ESC offer?
 - What components/subsystems does an ESC have?
-- How do you interface with ESCs? What other components/contollers are needed? How do they communicate?
+- How do you interface with ESCs? What other components/controllers are needed? How do they communicate?
 - Design an ESC.
 - How do you spec an ESC?
 
@@ -547,7 +547,7 @@ Mostly on DC inductive loads like brushed DC motors and solenoids. I've only bee
 - How do you determine how much current a motor/solenoid is drawing?
 - How can you detect the temperature of a motor/solenoid?
 - Which temperatures do you want to/can you measure?
-- Since the motor/solenoid may be moving, you might not always want physical contact between the sensor and motor/solenoid. What are some contactless ways to meaure temperature?
+- Since the motor/solenoid may be moving, you might not always want physical contact between the sensor and motor/solenoid. What are some contactless ways to measure temperature?
 - How do motors perform as they age?
 - What kind of stress may a motor experience in its lifetime?
 - Motor/solenoids often require many loops in the coils, so the coil wires will be very thin. Motors/solenoids also draw lots of current, possibly more than the coils can support. How do you reconcile this? Do coils on the motors always burn out?
@@ -579,8 +579,8 @@ PCB design/layout on inductive drives is in the PCBs section.
 ### Half/H-Bridge
 There's a good amount of overlap with the Power Bridge subsection of Buck Converters as well, since the power bridge of a buck is often just a half bridge.
 
-- Draw an H-bidge ciruit.
-- Draw a half-bidge ciruit.
+- Draw an H-bidge circuit.
+- Draw a half-bidge circuit.
 - How does a half/H-Bridge work?
 - What is the difference between an H-bridge and half-bridge? What are the tradeoffs?
 - How can you brake a motor using a half-bridge? What about an H-bridge? Which can brake the motor faster? How does this stress the motor?
@@ -593,7 +593,7 @@ There's a good amount of overlap with the Power Bridge subsection of Buck Conver
 Often times you want to control a big motor/solenoid from a small embedded device. This section focuses on some of the more power electronics side of things while the Embedded Systems section will focus a bit more on the embedded side of things.
 
 - Design a circuit to drive an inductive load from a microcontroller GPIO.
-- Why would a pulldown resistor be nessary?
+- Why would a pulldown resistor be necessary?
 - Why would you want a series resistor between the GPIO and MOSFET gate? What is parasitic oscillation in the context and where can it arise from? What does the series resistor do?
 - Why is isolation important? What are the tradeoffs?
 - What sort of isolations would you want?
@@ -615,16 +615,16 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - How does a sense resistor work to sense current?
 - What are its pros and cons?
 - How do you spec a current sense resistor? What happens if it's too big/small?
-- Given a range of input currents and ADC input voltage range, find an apporpriate sense resistor value.
+- Given a range of input currents and ADC input voltage range, find an appropriate sense resistor value.
 - What is the difference between high-side and low-side current sensing? What are the advantages/disadvantages of each? When do you need to use one vs the other?
 - How can you use drain-source measurements of a MOSFET to determine current? What are the pros and cons of this setup?
 
-### Current Sense Ampliferies (CSA)
-- What is a current sense amplifer (CSA)?
+### Current Sense Amplifiers (CSA)
+- What is a current sense amplifier (CSA)?
 - When do you need a CSA?
 - What is the difference between a CSA and a regular opamp?
 - How do you spec a CSA?
-- Given a range of input currents, a sense resistor value, and ADC input voltage range, find an apporpriate CSA gain.
+- Given a range of input currents, a sense resistor value, and ADC input voltage range, find an appropriate CSA gain.
 
 ## Current/Voltage Protection
 - How/why do you want to protect against overcurrent and/or over/undervoltage conditions?
@@ -661,7 +661,7 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - What should be routed on each layer? What should be routed on inner layers vs top/bottom layer?
 - Which layer(s) should be the ground layer(s)?
 - Which layers should high-speed signals be routed?
-- Which layters should power planes be on?
+- Which layers should power planes be on?
 - What components would require a higher layer count?
 
 ## Design/Layout/Routing
@@ -696,8 +696,8 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - Often times you may see many decoupling capacitors on a signal. Why are there so many? If they're in parallel, why not just place one massive capacitor?
 - If you have multiple decoupling capacitors, how do you lay them out and route them?
 - What happens if the decoupling capacitors are placed too far from the package?
-- How does parastic inductance impact decoupling capacitor performance?
-- What are some sources of parastic inductance that may decrease the effectiveness of a decoupling capacitor?
+- How does parasitic inductance impact decoupling capacitor performance?
+- What are some sources of parasitic inductance that may decrease the effectiveness of a decoupling capacitor?
 - How can the packaging impact the effectiveness?
 - What is a capacitor's self resonant frequency? Why is this important?
 - When should you not use decoupling capacitors?
@@ -725,7 +725,7 @@ Transmission line (TL) effects on a PCB/microstrip transmission line, also lots 
 - How does a trace's impedance change with respect to frequency?
 - Describe some sources of reflection on a PCB (any any interfaces). How can these reflections be minimized?
 - How do any interfaces in the transmission path impact signal quality and reflections? What are some interfaces that may introduce distortion?
-- I have a two-layer PCB buit but when I get it, the manufacturer made a mistake and the substrate layer is twice as thick as it should be. How does this impact the characteristic impedance? What could I do to fix it?
+- I have a two-layer PCB built but when I get it, the manufacturer made a mistake and the substrate layer is twice as thick as it should be. How does this impact the characteristic impedance? What could I do to fix it?
 
 #### Board-Level Termination
 - If external termination components are used, where should they be placed? On the source, sink, or somewhere in between?
@@ -764,7 +764,7 @@ Mostly dealing with switching power supplies as they present additional layout a
 - How do you route decoupling and bulk capacitors?
 
 ### Sense Resistor Layout/Routing
-- How do you route a current sense resitors?
+- How do you route a current sense resistors?
 - Why is it important that the traces be short?
 - What if your sense resistor is far from your
 - What is a kelvin connection for a sense resistor? What are the tradeoffs?
@@ -777,7 +777,7 @@ Mostly dealing with switching power supplies as they present additional layout a
 - What are some board-level techniques to minimize radiated EMI?
 - What about external sources of EMI? How can they impact a circuit?
 - What are some board-level techniques to protect against EMI?
-- How can signals couple together? How can this bbe prevented?
+- How can signals couple together? How can this be prevented?
 - What are some board-level techniques to minimize coupling?
 - If I have two traces on adjacent layers, one a clock and another a sensitive analog signal. How should I route these signals?
 - What is desense? Why should it be avoided? What are some board-level techniques to avoid it?
@@ -889,7 +889,7 @@ Mostly dealing with switching power supplies as they present additional layout a
 - What are some common IC packages? What are their tradeoffs?
 - What are the tradeoffs between surface-mount and through-hole packaging?
 - What are ball grid array (BGA) packages? What are their tradeoffs?
-- What is the difference between the die, wafer, and pacakge?
+- What is the difference between the die, wafer, and package?
 - What are node sizes? What does "3nm process" refer to? Are transistors really that small?
 - What are package on package (PoP) chips? What are their tradeoffs?
 - How do PoP chips impact thermals?
@@ -961,7 +961,7 @@ Diff pairs from signals perspective, as opposed to board layout/design or SI per
 - What is ringing?
 
 ### Differential Pairs (SI Perspective)
-Diff paris from SI perspective, as opposed to board layout/design or signals perspective.
+Diff pairs from SI perspective, as opposed to board layout/design or signals perspective.
 
 - How do you characterize SI of a differential pair?
 - What is an eye digram? What does it represent?
@@ -992,7 +992,7 @@ More on generic transmission line (TL) and high-speed design theory, as opposed 
 - Draw some signals with/without reflections.
 - What causes reflections?
 - What is impedance matching? Why do I care about it and when should it be used?
-- How does R, L, and C impact characteristic impendace? How does that differ on a microstrip vs coax TL?
+- How does R, L, and C impact characteristic impedance? How does that differ on a microstrip vs coax TL?
 - What is the difference and tradeoffs of series vs parallel termination?
 - What is the difference and tradeoffs of source vs sink termination/matching?
 
@@ -1001,7 +1001,7 @@ More on generic transmission line (TL) and high-speed design theory, as opposed 
 - How can I control the characteristic impedance of a TL?
 - What are some standard termination/characteristic impedances?
 - Describe the parasitic R, L, and C components that impact characteristic impedance.
-- What are sources of loss and distortion in a TL? How can they be miminized or actively compensated for?
+- What are sources of loss and distortion in a TL? How can they be minimized or actively compensated for?
 - What are dielectric losses? Where do they come from and how does it vary with frequency?
 - How does a TL's insertion impedance vary with respect to frequency?
 - What is the skin effect? Where does it come up in TLs?
@@ -1074,7 +1074,7 @@ More on generic transmission line (TL) and high-speed design theory, as opposed 
 - How do I make the connections?
 - What are some standard communication rates?
 - How many devices can talk to each other? What is the direction of communication?
-- Is it syncronous or asynchronous?
+- Is it synchronous or asynchronous?
 - Since there's no clock, how is data read?
 - What is oversampling? How is it implemented? Why is it needed? What are some common oversample rates for UART?
 
@@ -1096,7 +1096,7 @@ A lot on GPIO design is very applicable, more in-depth questions are covered in 
 ## Timers
 - What are timers in a microcontroller?
 - What can you do with timers?
-- How do keep track of time accurately in a microncontroller?
+- How do keep track of time accurately in a microcontroller?
 - How do they work? How are they implemented?
 - What are some applications?
 
@@ -1159,14 +1159,14 @@ Most of my ADC/DAC questions have been in the context of embedded systems, not t
 - If a microcontroller isn't booting up, what should you check for?
 
 ## Operating Systems
-Very brief quesitons on operating systems, usually in the context of embedded systems.
+Very brief questions on operating systems, usually in the context of embedded systems.
 
 - What is an operating system?
 - Name some operating systems.
 - When is it needed?
 - What is bare-metal programming?
 - What advantages does it have over bare-metal?
-- What is an real-time operating system (RTOS)?
+- What is a real-time operating system (RTOS)?
 
 ---
 
@@ -1174,10 +1174,10 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - What is a sensor?
 - What are some applications of sensors?
 - Name some types of sensors. What are they used for?
-- What is a tranducer?
+- What is a transducer?
 - What is sensor fusion?
 
-## Gyroscope/Acceleromter
+## Gyroscope/Accelerometer
 - What is a gyroscope/accelerometer?
 - What are its applications?
 - What is the difference between a gyroscope and accelerometer? Why are they often used together?
@@ -1189,7 +1189,7 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - What properties of light do you look for? How can those properties be detected.
 - What are the tradeoffs of photoresistors vs photodiodes?
 - What are some applications of light measurement?
-- How can light meausurement be used in conjuction with other sensors to determine stuff?
+- How can light measurement be used in conjunction with other sensors to determine stuff?
 
 ## Camera
 - How does a camera work?
@@ -1211,7 +1211,7 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - What are some factors that may impact accuracy?
 
 ## Calibration, Validation, and Testing
-- How do you calibrate/validate/test a sensor? Describe what you would want to test and design an experiement.
+- How do you calibrate/validate/test a sensor? Describe what you would want to test and design an experiment.
 - What are some things you want to validate in a sensor?
 - How do you characterize measurement error? What can you do with that information?
 
@@ -1229,7 +1229,7 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - What are setup and hold times? What happens if they're violated?
 - What is the difference between a flip-flop and latch?
 - How does a flip flop/latch work?
-- Design a memeory cell.
+- Design a memory cell.
 - Why are clocks needed?
 - What happens if a clock is too fast?
 - What is a register?
@@ -1270,7 +1270,7 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - What is an instruction set architecture (ISA)?
 - What is the difference between microarchitecture and ISA?
 - What is RISC-V?
-- Does RISC-V specifiy the ISA or microarchitecture?
+- Does RISC-V specify the ISA or microarchitecture?
 - What are some advantages of RISC vs CISC?
 - How do you characterize CPU performance?
 
@@ -1314,13 +1314,13 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - How does process, voltage, and temperature (PVT) impact power, performance, and thermals?
 - What are process corners? What do they refer to?
 - What are typical temperature ranges for validation?
-- What can you do to decrease power consumpution?
+- What can you do to decrease power consumption?
 - What can you do to throttle performance?
 - What sort of temperature control loops are commonly implemented?
 - What is power, performance, area (PPA)? Describe the tradeoffs.
 
 ## RTL
-- Desribe any experience you have with RTL.
+- Describe any experience you have with RTL.
 - Design a clock divider.
 - Design an arbiter. What are the different types and their tradeoffs?
 - Design a mux.
@@ -1360,10 +1360,10 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 ---
 
 # System Architecture
-"System architecture" is one of the vaguest engineering words with no meaning. I literally but it on my resume for that reason LOL. These questions are mostly focused on systems at a higher level to achieve some given functionalty.
+"System architecture" is one of the vaguest engineering words with no meaning. I literally but it on my resume for that reason LOL. These questions are mostly focused on systems at a higher level to achieve some given functionality.
 
 - What components does a smartphone/laptop have?
-- Design a system to acheive:
+- Design a system to achieve:
   - Variable LED brightness
   - LED brightness based on ambient brightness to achieve a desired brightness.
   - A security system.
@@ -1381,7 +1381,7 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
   - DMMs
   - Scopes
   - VNAs
-  - Power supplies, maybe with more functions like mutliple quadrants or SMUs
+  - Power supplies, maybe with more functions like multiple quadrants or SMUs
 - What sample rate/bandwidth will I need to measure a signal?
 - How should I measure X signal?
 - How can I measure current?
@@ -1396,8 +1396,8 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - When to use DMM vs scope?
 
 ## Scopes
-- What is an oscilliscope?
-- How does an oscillicope work?
+- What is an oscilloscope?
+- How does an oscilloscope work?
 - What are triggers on a scope? How do I use them?
 - How do I get current if I'm measuring the voltage across a sense resistor?
 - When would I need multiple scope channels?
@@ -1413,13 +1413,13 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 ---
 
 # General Debug, Testing, and Validation
-This section is just for geneal debug and testing, some sections may have their own debug, testing, validation, and measurement subsections.
+This section is just for general debug and testing, some sections may have their own debug, testing, validation, and measurement subsections.
 
 - What tools can you use to debug/test/validate stuff?
 - What is your approach to debug/test/validate something?
 - Design a system to test x.
 - How do you debug software?
-- Often times you need to run tests for days, weeks, or months continiously. How do you ensure these tests run smoothly 24/7 for the entire time? What can you do to protect against power outages?
+- Often times you need to run tests for days, weeks, or months continuously. How do you ensure these tests run smoothly 24/7 for the entire time? What can you do to protect against power outages?
 
 ---
 
@@ -1441,7 +1441,7 @@ A lot of these non-technical questions are the generic interview questions but t
 - Are you ok with moving to x for an internship?
 
 ## Behavioral
-- What are your strengths/weaknessess?
+- What are your strengths/weaknesses?
 - How would your friends and peers describe you?
 - What is your approach to solving hard problems?
 - How do you work under pressure?
@@ -1455,9 +1455,9 @@ A lot of these non-technical questions are the generic interview questions but t
 - How do objectively assess standards of success? How do you meet these?
 - Describe a time where change became a problem. How did you overcome it?
 - Describe a time where you encouraged different perspectives in a group setting.
-- How do you balance school with extracurricular activites?
+- How do you balance school with extracurricular activities?
 - What are your top three skills that contribute to you being a good employee?
-- Describe at ime of new opportunity for improvement.
+- Describe a time of new opportunity for improvement.
 - Describe a time where you didn't meet expectations. What happened?
 - How have you taken advantage of diversity (like at school)?
 - Describe a time you admitted to a mistake.
@@ -1495,7 +1495,7 @@ And that's the list! I hope you found it helpful! If you have any questions, ple
 - BGA - Ball Grid Array
 - BLDC - Brushless DC Motor
 - C - Capacitor/Capacitance or the programming language
-- CSA - Current Sense Amplifer
+- CSA - Current Sense Amplifier
 - DFM - Design for Manufacturing
 - DFT - Design for Testing
 - DFX - Design for Excellence
@@ -1509,7 +1509,7 @@ And that's the list! I hope you found it helpful! If you have any questions, ple
 - FTE/FT - Full-Time Engineer/Full-Time
 - ICT - In-Circuit Testing
 - IGBT - Insulated-Gate Bipolar Transistor
-- IMU - Intertial Measurement Unit
+- IMU - Inertial Measurement Unit
 - ISA - Instruction Set Architecture
 - ISR - Interrupt Service Routing
 - L - Inductor/Inductance
@@ -1529,6 +1529,6 @@ And that's the list! I hope you found it helpful! If you have any questions, ple
 - SI - Signal Integrity
 - SI/PI - Signal Integrity/Power Integrity
 - SoC - State of Charge (for a battery) or System on Chip
-- SoM - System on Mhip
+- SoM - System on Module
 - SSR - Solid-State Relay
 - TL - Transmission Line
