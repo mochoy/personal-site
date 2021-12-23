@@ -840,11 +840,13 @@ Mostly dealing with switching power supplies as they present additional layout a
 - Who/what uses test points?
 - If you're short on board space, how do you prioritize which signals should have test points?
 
-## EMI Shields
-
-## Debugging and Reworking PCBs
-- What are some common failure modes of a PCB?
+## Debugging and Making Measurements on PCBs
 - If there's a short on the PCB, how can it be detected, found, and root caused?
+- How do you measure signals on a PCB? What are some considerations?
+- How can test points be used to measure signals?
+- When measuring a signal, what is the ground loop?
+- Why should your ground loop be as small as possible?
+- How can you reduce your ground loop?
 
 ## Electrical Computer-Aided Design (ECAD) Software
 
