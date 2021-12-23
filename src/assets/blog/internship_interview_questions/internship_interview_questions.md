@@ -632,6 +632,16 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - What are the tradeoffs of PCBs vs solderless breadboards vs soldered breadboards vs just soldering everything together with wires?
 - What are the parasitic elements present on a PCB?
 
+## Layers and Materials
+- What are the layers of a PCB? What are they made of?
+- What material would I want for conduction layers?
+- What are the tradeoffs of using gold vs copper on the conduction layers?
+- What materials are often used for the insulation materials? What are their tradeoffs?
+- What does "FR4" mean?
+- Why are PCBs often green? What other colors could they be?
+- What is the layer with text called?
+- What is soldermask?
+
 ## Stackup
 - What are the layers of a PCB? what are they made of?
 - How to choose how many layers for PCB?
