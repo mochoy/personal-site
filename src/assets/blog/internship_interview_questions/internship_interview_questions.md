@@ -729,10 +729,23 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 - When should heat sinks be used?
 
 ### Power Supply Layout/Routing
+Mostly dealing with switching power supplies as they present additional layout and routing challenges. Tons of overlap with the previous High-Current Layout/Routing as power supplies often need to supply lots of current.
+
+#### Power Supply-Level Layout and Placement
+- What are some considerations when deciding where to place the power supply?
+- Why do you want to place your power supply close to the load?
+- What happens if your load tries to draw too much current but there's lots of trace distance between your load and power supply?
+
+#### Component-Level Layout/Routing
+- What are some considerations when laying out power supply components?
+- What are some important nodes of consideration of switch mode power supplies? Why?
+- What are the noisy nodes of a power supply? How should to route these noisy nodes and why? What are other board-level considerations of noisy nodes?
+- How should you route the input capacitor?
+- What if the input capacitor is placed too far?
+- How should you route the switch node of a buck converter?
+- How should you route the inductor of a buck converter?
+- How should you route the sense/feedback network of a buck converter?
 - How do you route decoupling and bulk capacitors?
-- What can you do at the board-level to reduce heating of a power supply?
-- Heat sinks
-- Thermal refief
 
 ### Inductive Loads Layout/Routing
 
