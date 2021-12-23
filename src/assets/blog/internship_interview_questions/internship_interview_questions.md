@@ -141,6 +141,7 @@ Basic physics/chemistry questions, not including device physics or basic circuit
 - Given Vgs and Vt, how will the FET behave? What operating region will it be in? Load-line analysis.
 - What is the internal body diode? Where does it come from?
 - Why are MOSFETs sensitive to overvoltage conditions applied at the gate?
+- What is W/L ratio? How does it impact FET performance/behavior?
 
 ---
 
@@ -366,7 +367,7 @@ Many of these questions assume that synchronous rectification is implemented, bu
 - How does the output L/C impact stability?
 - How is the output voltage/current sensed? (more in Voltage/Current Sensing section)
 - Design a buck converter.
-- What's a simple circuit to implement the switching? How can you make it switch with a higher/lower duty cycle based on the feedback voltage?
+- What is a simple circuit to implement the switching? How can you make it switch with a higher/lower duty cycle based on the feedback voltage?
 
 ### Debugging, Validating, and Characterizing Buck Converters
 - What are some failure modes of buck converters? How can they be detected and prevented?
@@ -397,9 +398,11 @@ Many of the boost converter questions can be similar to bucks, but I barely have
 
 ## Charge Pumps
 - How does a charge pump work?
+- How does a charge pump boost voltage?
 - Draw a circuit for a charge pump.
 - What are they used for?
 - Charge pump efficiency anaylsis.
+- How do you spec a capacitor for a charge pump.
 
 ## Batteries
 - What are some common battery chemistries? Which are rechargable and which are single use? How do you determine which to use?
@@ -629,8 +632,11 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 
 # Printed Circuit Boards (PCBs)
 - What is a PCB? Name some applications.
-- What are the tradeoffs of PCBs vs solderless breadboards vs soldered breadboards vs just soldering everything together with wires?
+- What are the tradeoffs of PCBs vs solderless breadboards vs soldered breadboards vs just soldering everything together with wires vs ICs?
+- What is the difference between a PCB and IC?
 - What are the parasitic elements present on a PCB?
+- What are the different types of PCBs? What are their tradeoffs and applications?
+- What is a flex PCB? What are its tradeoffs and applications?
 
 ## Layers and Materials
 - What are the layers of a PCB? What are they made of?
@@ -660,6 +666,7 @@ Sense resistor PCB layout/routing is in PCB Design/Layout section
 - What is grounding on a PCB? Why is it so important?
 - Describe some basic grounding layout techniques.
 - What is a ground plane? Pros/cons?
+- What is ground stitching?
 - What are the tradeoffs between using a ground plane vs ground traces to connect all ground potentials?
 - In addition to providing a common reference potential, what are some other functionalities of ground planes?
 - Why can you use your ground plane to shield your signals?
@@ -697,21 +704,24 @@ Diff pairs and high-speed design from board layout/design perspective, as oppose
 - What shape should these high-speed traces be? Why?
 - What is serpentining? Why is it important for synchronization?
 
-#### Diff Pairs
+#### Differential Pairs
 - What is a differential pair? What are some tradeoffs?
 - How should it be routed? What are some layout guidelines that may differ from single-ended high-speed signals?
 - Why is it important that signals for both lines of the diff pair arrive to the source at the same time? What happens if they don't arrive at the same time? How can you ensure that they do arrive at the same time?
 - What is serpentining? Why is it important for diff pairs?
 
 #### Transmission Line Effects
+Transmission line (TL) effects on a PCB/microstrip transmission line, also lots of overlap with TL section.
+
 - Describe transmission line components on a PCB.
 - What are some common characteristic impedance values?
 - How can you change the characteristic impedance of a trace?
-- Describe some sources of reflection on a PCB (any any interfaces). How can these reflections be minimized?
 - How does a trace's impedance change with respect to frequency?
+- Describe some sources of reflection on a PCB (any any interfaces). How can these reflections be minimized?
+- How do any interfaces in the transmission path impact signal quality and reflections? What are some interfaces that may introduce distortion?
 - I have a two-layer PCB buit but when I get it, the manufacturer made a mistake and the substrate layer is twice as thick as it should be. How does this impact the characteristic impedance? What could I do to fix it?
 
-#### Termination
+#### Board-Level Termination
 - If external termination components are used, where should they be placed? On the source, sink, or somewhere in between?
 - How do you route external termination components?
 - When would you need external termination components?
@@ -775,6 +785,7 @@ Mostly dealing with switching power supplies as they present additional layout a
 
 ## Vias
 - What is a via? Why are they needed?
+- If I have a signal on two separate layers, how can I connect them together?
 - What are the different types of vias? What are their tradeoffs?
 - If I need to via between inner layers, what type of vias would I use?
 - When would I want filled vias?
@@ -782,6 +793,9 @@ Mostly dealing with switching power supplies as they present additional layout a
 - What are some common failure modes of vias?
 - When do I not want to use vias?
 - Can you put a via on a surface-mount pad?
+- What happens if you have too many vias?
+- What happens if you have too many vias through a power plane?
+- What is "swiss cheesing" a plane?
 
 ## Testing PCBs and Design for Excellence (DFX)
 
@@ -825,6 +839,7 @@ Mostly dealing with switching power supplies as they present additional layout a
 ### Design for Manufacturing (DFM)
 - How can you design a PCB for manufacturing?
 - How can you ensure testability of your design at high volumes in automated testing environments?
+- What is component tombstoning? When can it happen? How can it be prevented?
 
 ### Design for Testing (DFT)
 - How can you design a PCB for testing?
@@ -960,19 +975,32 @@ Lots of crossover with Power Electronics section.
 
 ---
 
-# Transmission Lines/High-Speed Design
-- When is transmission line (TL) analysis valid?
+# Transmission Lines
+More on generic transmission line (TL) and high-speed design theory, as opposed to its implementation/analysis in the context of PCB design which is in its own section: Printed Circuit Boards (PCBs) > Design/Layout/Routing > High-Speed Signals
+
+## TL Theory
+- What is TL theory? Why is it needed?
+- When is TL analysis valid?
 - What is characteristic impedance?
 - What are reflections? Why do I care about them?
 - Draw some signals with/without reflections.
 - What causes reflections?
-- How can I control the characteristic impedance of a TL?
-- What is the difference and pros/cons of series vs parallel termination?
-- What is the difference and pros/cons of source vs sink termination/matching?
-- What are standard termination/characteristic impedances?
-- How does R, L, and C impact characteristic impendace? How does that differ on a microstrip vs coax TL?
-- Describe the parasitic R, L, and C components that impact characteristic impedance.
 - What is impedance matching? Why do I care about it and when should it be used?
+- How does R, L, and C impact characteristic impendace? How does that differ on a microstrip vs coax TL?
+- What is the difference and tradeoffs of series vs parallel termination?
+- What is the difference and tradeoffs of source vs sink termination/matching?
+
+## Ideal vs Real TLs
+- Draw real TL distributed model. What are its components on a real TL? How do they differ between ideal vs real?
+- How can I control the characteristic impedance of a TL?
+- What are some standard termination/characteristic impedances?
+- Describe the parasitic R, L, and C components that impact characteristic impedance.
+- What are sources of loss and distortion in a TL? How can they be miminized or actively compensated for?
+- What are dielectric losses? Where do they come from and how does it vary with frequency?
+- How does a TL's insertion impedance vary with respect to frequency?
+- What is the skin effect? Where does it come up in TLs?
+- What is preemphasis? Why is it used? How can it be implemented?
+- Draw the time-domain and frequency-domain spectrum of a signal with/without preemphasis.
 
 ---
 
@@ -987,6 +1015,7 @@ Lots of crossover with Power Electronics section.
 - How does a microcontroller interact with external peripherals?
 - When do use MCU vs ASIC vs FPGA?
 - How do you spec an MCU? What specs do you look for?
+- What is a reset signal? What does it do? Why is it useful?
 
 ## Communication Buses
 - **What are the three common communication protocols? How do they (I2C, SPI, UART) work?**
@@ -1046,6 +1075,7 @@ Lots of crossover with Power Electronics section.
 ## GPIOs
 - What is a GPIO? What does it stand for and what are its use cases?
 - What does "GP" refer to?
+- What can I do if I don't have enough GPIOs?
 
 ### Design/Implementation
 A lot on GPIO design is very applicable, more in-depth questions are covered in the CMOS and Amplifiers subsections of Analog Electronics. These questions will just be surface-level that are more applicable in embedded applications.
@@ -1080,11 +1110,13 @@ A lot on GPIO design is very applicable, more in-depth questions are covered in 
 A lot of the inductive drive questions have good overlap with the Single-Phase Inductive Drives section (Power Electronics > Inductive Loads > Single-Phase Inductive Drives).
 
 - Draw a circuit to connect a sensor to a microcontroller.
+- Draw a circuit to connect a button to a microcontroller.
 - Draw a circuit to drive a LED from a microcontroller. What about a high-power LED? What if I want to change the brightness?
 - Draw a circuit to drive a motor from a microcontroller. What if isolation is required? What if I want to change the speed?
 
 ## ADC
 Most of my ADC/DAC questions have been in the context of embedded systems, not too much on analog design or anything.
+
 - How does an ADC work?
 - How does a flash ADC work?
 - How does a SAR ADC work?
@@ -1096,11 +1128,13 @@ Most of my ADC/DAC questions have been in the context of embedded systems, not t
 - Design a sample and hold circuit.
 - What are the tradeoffs between super fast/slow sample and hold durations?
 - What are some ADC frontends?
+- What is the precision of an ADC? Calculate it given all the required info.
 
 ## DAC
 Most of my ADC/DAC questions have been in the context of embedded systems, not too much on analog design or anything.
 - How does a DAC work?
 - Design a DAC.
+- What is the precision of a DAC? Calculate it given all the required info.
 
 ## Data Storage and Memory
 - How does a microcontroller store memory and data?
@@ -1113,6 +1147,9 @@ Most of my ADC/DAC questions have been in the context of embedded systems, not t
 - Given a register map and the register value in hex, find the value of each register field.
 
 ## Debugging Embedded Systems
+- How do you debug a microcontroller? What are some challenges at hardware vs software levels?
+- What is a debugger?
+- What if your IDE/microcontroller doesn't have a hardware debugger?
 - If a microcontroller isn't booting up, what should you check for?
 
 ## Operating Systems
@@ -1121,6 +1158,7 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - What is an operating system?
 - Name some operating systems.
 - When is it needed?
+- What is bare-metal programming?
 - What advantages does it have over bare-metal?
 - What is an real-time operating system (RTOS)?
 
@@ -1234,7 +1272,7 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 - What is a GPU?
 - How does a GPU work?
 - What does the GPU pipeline look like?
-- What's the difference between a GPU and CPU?
+- What is the difference between a GPU and CPU?
 - What optimizations does a GPU have so it vastly outperforms CPUs in graphics tasks? What are the tradeoffs?
 - How do you characterize GPU performance?
 - What are other tasks that GPUs may excel at besides graphics processing? Why?
@@ -1369,6 +1407,8 @@ Very brief quesitons on operating systems, usually in the context of embedded sy
 ---
 
 # General Debug, Testing, and Validation
+This section is just for geneal debug and testing, some sections may have their own debug, testing, validation, and measurement subsections.
+
 - What tools can you use to debug/test/validate stuff?
 - What is your approach to debug/test/validate something?
 - Design a system to test x.
@@ -1440,20 +1480,26 @@ Behavioral questions that are more on the technical side or can get more technic
 
 ---
 
-# Misc.
-
----
-
 # Appendix
+- AOI - Automated Optical Inspection
+- BGA - Ball Grid Array
 - BLDC - Brushless DC Motor
 - C - Capacitor/Capacitance or the programming language
 - CSA - Current Sense Amplifer
 - DFM - Design for Manufacturing
+- DFT - Design for Testing
+- DFX - Design for Excellence
+- DRC - Design Rule Checking
 - ECAD - Electrical Computer-Aided Design
+- EIS - Electronic Image Stabilization
+- EMI - Electromagnetic Interference
 - EMR - Electromechanical Relay
 - ESC - Electronic Speed Controller
+- FCT - Functional Testing
 - FTE/FT - Full-Time Engineer/Full-Time
+- ICT - In-Circuit Testing
 - IGBT - Insulated-Gate Bipolar Transistor
+- IMU - Intertial Measurement Unit
 - ISA - Instruction Set Architecture
 - ISR - Interrupt Service Routing
 - L - Inductor/Inductance
@@ -1461,7 +1507,9 @@ Behavioral questions that are more on the technical side or can get more technic
 - LiPo - Lithium Polymer
 - MMU - Memory Management Unit
 - NV - Non-Volatile
+- OIS - Optical Image Stabilization
 - OOP - Object-Oriented Programming
+- PoP - Package on Package
 - PCB - Printed Circuit Board
 - PI - Power Integrity
 - PPA - Power, Performance, Area
