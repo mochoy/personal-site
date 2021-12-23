@@ -894,12 +894,22 @@ Mostly dealing with switching power supplies as they present additional layout a
 ---
 
 # Signals
+- What is the difference between an analog signal and a digital signal?
 - What is the Fourier Transform?
-- Draw spectral content of square wave/pulse train.
+- What is the difference between the Fourier Transform and Fourier Series?
+- If I want to measure a sine wave, what should be the sample rate?
+- What is the nyquist rate of a signal? Why is it important?
+- What is aliasing?
+
+## Square Waves
+- What is a square wave? What are its properties?
 - What is PWM? What are its characteristics?
+- Draw spectral content of square wave/pulse train.
 - Why are square waves so noisy? What can you do to decrease noise? What about decreasing noise at a particular frequnecy content?
 - What is the highest frequency component of a real vs ideal square wave?
-- If I want to measure a sine wave, what should be the sample rate?
+- What is the rule of thumb for the highest frequency content of a real square wave?
+- What are the tradeoffs of sharper edges on a square wave?
+- How does the frequency content of sharp vs not sharp square waves?
 
 ## Differential Signaling
 Diff pairs from signals perspective, as opposed to board layout/design or SI perspective.
