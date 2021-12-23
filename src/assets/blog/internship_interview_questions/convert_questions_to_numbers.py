@@ -15,8 +15,8 @@ may be preferred for better git tracking so I can better see line diffs.
 srcFile = "internship_interview_questions.md"
 outputFile = srcFile
 # outputFile = "test.md"
-listMarkerType =  "bullet point"
-# listMarkerType = "number"
+# listMarkerType =  "bullet point"
+listMarkerType = "number"
 
 def main():
   # Content in this string will be written to the output file after the source
