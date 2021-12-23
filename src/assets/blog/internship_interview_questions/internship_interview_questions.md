@@ -857,6 +857,10 @@ Mostly dealing with switching power supplies as they present additional layout a
 - Often times many power components or ground components have thermal relief pads. How does this impact reworkability?
 
 ## Electrical Computer-Aided Design (ECAD) Software
+- Do you have experience with Eagle/Altium/KiKad/Cadence Allegro?
+- What experience do you have with ECAD software?
+- Do you have any scripting experience in ECAD?
+- What are design rule checks (DRC)?
 
 ---
 
