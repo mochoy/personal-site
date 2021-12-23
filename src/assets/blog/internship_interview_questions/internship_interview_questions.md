@@ -925,22 +925,38 @@ Diff pairs from signals perspective, as opposed to board layout/design or SI per
 
 # Signal Integrity/Power Integrity (SI/PI)
 - What is SI/PI? Why is it important?
+- Do you have any SI/PI simulation experience?
 
 ## Signal Integrity (SI)
 - How to characterize quality of a signal?
 - What is ground bounce?
 - What happens if signal rising edge is too slow? Too fast?
+- What is signal monotonicity?
 - Why is monotonicity during a signal transition important?
 - What is hysteresis and why is it used?
 - What are setup and hold times? What happens if they're violated?
+- What is crosstalk?
+- What is jitter?
+- What is ringing?
 
-### Diff Pairs (SI Perspective)
+### Differential Pairs (SI Perspective)
 Diff paris from SI perspective, as opposed to board layout/design or signals perspective.
 
+- How do you characterize SI of a differential pair?
+- What is an eye digram? What does it represent?
+- What happens of the eye diagram is too small? What is often used to represent this?
+- What is the mask of an eye diagram? What happens if some of the signal enters the mask?
+- What can you do expand the eye?
+- What can you do to ensure the eye stays out of the mask?
+- How is timing jitter and amplitude noise illustrated on an eye diagram?
+
 ## Power Integrity (PI)
-Lots of crossover with Power Electronics section
-- How to characterize quality of power supply?
+Lots of crossover with Power Electronics section.
+
+- How do characterize quality of power supply?
+- What is power supply ripple? Where does it come from?
 - What is power sequencing? Why is it important?
+- What are power supply spikes? Would could be their cause and how can they be captured?
 
 ---
 
