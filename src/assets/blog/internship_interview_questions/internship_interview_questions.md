@@ -3,15 +3,21 @@ Now that I should hopefully be done with internship interviews for the rest of m
 This was originally going to be part of the Interviews chapter of my [internship search guide](https://montychoy.com/blog/how_to_land_an_electrical_engineering_internship_part_1_the_internship_mindset), but that post just got WAY too long so I decided to create a separate post just for this repository of questions. That post is still chalk full of interview advice and experiences, so check it out when it's ready! And before you get started, take a guess at how many questions this list has! (bonus points if you comment your guess because I'm also curious about your guesses!)
 
 # Disclaimers and Notes
-- These questions were for internships, but there's a lot of overlap with full-time (FT) interviews. In fact, I'm doing FT interviews at the time of writing this and they basically ask the same stuff, there are usually just more FT interviews so they have an opportunity to dive deeper and ask more questions. If the questions end up being super similar, I may just rename this post instead of making a new one lol.
+- These questions were for internships, but there's a lot of overlap with full-time (FT) interviews. In fact, I'm doing FT interviews at the time of writing this and they basically ask the same stuff, there are usually just more FT interviews so they have an opportunity to dive deeper and ask more questions I'd even say some of my internship interviews were harder/more in depth than my FT interviews. If the questions end up being super similar, I may just rename this post instead of making a new one lol.
 - These questions are reflective of my skillset, strengths, and experiences. I'm doing my undergrad at Cal Poly SLO and did internships at Apple and Microsoft, so these questions are mostly focused on that experience in power electronics, embedded systems hardware, and board layout/design. I'm pretty trash at digital stuff, so those sections will be lacking in comparison.
 - I take notes of almost every interview and every question they ask (which I'd recommend you do too!), so this post will just be a reflection of that content.
 - I try to include every applicable question, no matter how dumb it may seem. What you might think is a dumb question may actually be a very good question for someone else to study. I'm just not going to include questions specific to me, like project- or experience-specific questions.
 - I tried my best to organize questions by topic, but there's tons of overlap between each topic. For example, GPIO/output driver design and implementation can be asked in the context of analog electronics, embedded systems, transmission lines, and power electronics. Some of these questions have just been repeated with or without additional context to solidify the topic while others will just be refer to another section.
 - I use a few acronyms in this, so aside from the obvious ones (I, V, R, L, C, Z, KVL/KCL, MOSFET, BJT,), there's an appendix that lists the acronyms.
 - Some questions I get more than others, so the more common questions will be bolded.
+- In case you're curious, I can only answer ~95% of these questions on the spot. I can answer ~4% of these questions with a bit of thinking, ~1% would need some refreshing online/my notes, and maybe like 2-3 I honestly have no idea how to answer.
 
 # How Should You Use this List?
+I understand that this is a GINORMOUS list and it's very difficult to get everything down. It can be super intimidating, but just focus on the basics and what you're good at and you'll be fine! For example, if you have no clue about PCB design and don't intend on going into PCB design, that section may as well be useless to you (for the sake of interview preparation). No interviewer is going to expect you to know all of this stuff.
+
+I didn't make this list for you to memorize litteraly everything on it, it's more so a study guide. You rememeber in English/literature/history class where the teacher would give you a packet of questions to answer while you read the book? That's one way to use this list. As you're working on a project/internship, you can refer to this list on stuff you should learn while doing the project/internship.
+
+Another way to use this list is as a last-minute study guide for interviews. If you have a power electronics interview coming up, it would be super helpful to brush over the power electronics section and make sure you have everything down. If not, this list will point you in the direction on stuff to study up on. I'd also recommend crosslisting this list with the job description. You can get a good idea of what to expect during an interview based on the job description and asking your recruiter/hiring manager. If the job description mentions embedded systems/microcontrollers, buck converters, and PCB design, you might want to brush up on those on this list!
 
 ---
 
@@ -1477,6 +1483,10 @@ Behavioral questions that are more on the technical side or can get more technic
 - What is a datasheet?
 - How do you read it?
 - Given this datasheet, find some spec or how something works.
+
+---
+
+And that's the list! I hope you found it helpful! If you have any questions, please leave a public comment below! I really love it when people ask questions publicly because then **everyone** can learn from it so please keep that up! I will likely be updating this list as I get more questions/rescan my interview notebooks (At the time of writing this for the first time, this list has 1048 questions).
 
 ---
 
