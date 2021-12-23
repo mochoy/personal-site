@@ -753,6 +753,26 @@ Mostly dealing with switching power supplies as they present additional layout a
 - What if your sense resistor is far from your
 - What is a kelvin connection for a sense resistor? What are the tradeoffs?
 
+## Noise, Interference, and Coupling
+- Why is noise a consideration at the board-level?
+- What is electromagnetic interference (EMI)?
+- What are some sources of EMI on a PCB?
+- Why do I want to avoid radiated EMI?
+- What are some board-level techniques to minimize radiated EMI?
+- What about external sources of EMI? How can they impact a circuit?
+- What are some board-level techniques to protect against EMI?
+- How can signals couple together? How can this bbe prevented?
+- What are some board-level techniques to minimize coupling?
+- If I have two traces on adjacent layers, one a clock and another a sensitive analog signal. How should I route these signals?
+- What is desense? Why should it be avoided? What are some board-level techniques to avoid it?
+
+### EMI Shields
+- What are EMI shields? Why/when are they needed?
+- How do EMI shields work?
+- What are EMI shields typically connected to? Why?
+- Where should I place EMI shields?
+- What is a faraday cage?
+
 ## Vias
 - What is a via? Why are they needed?
 - What are the different types of vias? What are their tradeoffs?
