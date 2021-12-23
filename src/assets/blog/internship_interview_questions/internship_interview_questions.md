@@ -783,34 +783,62 @@ Mostly dealing with switching power supplies as they present additional layout a
 - When do I not want to use vias?
 - Can you put a via on a surface-mount pad?
 
-## Materials
-- What material would I want for conduction layers?
-- What materials are often used for the insulation materials?
-- What does "FR4" mean?
-- Why are PCBs often green? What other colors could they be?
+## Testing PCBs and Design for Excellence (DFX)
 
-## Manufacturing
-- What is the difference between surface-mount and through-hole components? Any tradeoffs?
-- Describe the PCB fab process.  How are PCBs made?
-- Describe the PCB assembly process.
-- What is DRC?
-- How are components soldered on a PCB?
-  - How are double-sided components soldered on a PCB?
-  - What about mixed assembly boards?
+### Testing PCBs
+- What are some tests you can do on a PCB?
+- When testing a PCB, what are you looking for?
+- What are some challenges when testing PCBs?
+- What are some common failure modes of a PCB?
+- How do you test ICs at the board-level?
+- How do you test components at the board level?
+- Given a PCB with x, how would you test it?
+
+### PCB Fabrication
+- Describe the PCB fabrication process. How are PCBs made?
 - What is panelization?
 - What are mousebites?
 - What are fiducials?
 
-## Design for Manufacturing (DFM)
-- How can you design a PCB for manufacturing?
-- What are a few test stations you would see on an electronics manufacturing/assembly line?
+### Manufacturing and Assembly
+- Describe the PCB manufacturing and assembly process.
+- What is the difference between surface-mount and through-hole components? Any tradeoffs?
+- How are components soldered on a PCB?
+  - How are double-sided components soldered on a PCB? What are some techniques?
+  - What about mixed assembly boards?
+- What is pick-and-place?
+- Pick-and-place machines must often traverse repetitive paths for assembly. What are some optimizations?
+- What is reflow?
+- What is wave soldering?
+
+### Automated Testing
 - How are PCBs tested? When does this happen?
+- How are PCBs testing at a large scale?
+- What sort of tests do PCBs undergo on the assembly line? What are the steps?
+- What are a few test stations you would see on an electronics manufacturing/assembly line?
+- What is automated optical inspection (AOI)? What can it capture?
+- What is in-circuit testing (ICT)? What can it capture?
+- What is functional testing (FCT)? What can it capture?
+- What is flying probe testing? What can it capture?
+- What are bed-of-nails test fixtures? What can they capture?
+
+### Design for Manufacturing (DFM)
+- How can you design a PCB for manufacturing?
+- How can you ensure testability of your design at high volumes in automated testing environments?
+
+### Design for Testing (DFT)
+- How can you design a PCB for testing?
+- What special board design choices would you do for PCB prototyping?
+- What are ground probes on a PCB? Why are they needed? When should they be used?
 
 ### Test Points
 - What are test points? What are their use cases?
-- What are layout guidelines for them?
+- What are different types of test points?
+- What are layout guidelines for test points?
 - When should/shouldn't you use them?
+- Should you use test points on high-speed or sensitive signals? Why?
 - Who/what uses test points?
+- If you're short on board space, how do you prioritize which signals should have test points?
 
 ## EMI Shields
 
